@@ -5,7 +5,7 @@ const axios = require("axios");
 // ========== CONFIGURATION ==========
 
 // Input file that contains list of node entries.
-const INPUT_FILE = path.join(__dirname, "content", "nodes.json");
+const INPUT_FILE = path.join("content", "nodes.json");
 // Output file that will contain the enriched data.
 const OUTPUT_FILE = "figma-nodes.json";
 
