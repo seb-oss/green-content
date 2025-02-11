@@ -1,12 +1,84 @@
 {
   "nodes": [
     {
-      "node": "1:16708",
-      "id": "input-anatomy"
+      "node": "1:16709",
+      "id": "anatomy"
     },
     {
       "node": "1:16764",
-      "id": "input-variant-default"
+      "id": "variant-default"
+    },
+    {
+      "node": "1:16767",
+      "id": "variant-floating-label"
+    },
+    {
+      "node": "1:16772",
+      "id": "large-small-input"
+    },
+    {
+      "node": "1:16779",
+      "id": "label"
+    },
+    {
+      "node": "1:16784",
+      "id": "optional-field-indicator"
+    },
+    {
+      "node": "1:16790",
+      "id": "support-text"
+    },
+    {
+      "node": "1:16795",
+      "id": "info-icon-button"
+    },
+    {
+      "node": "1:16797",
+      "id": "extended-suppport"
+    },
+    {
+      "node": "1:16802",
+      "id": "leading-search"
+    },
+    {
+      "node": "1:16804",
+      "id": "leading-card-number"
+    },
+    {
+      "node": "1:16809",
+      "id": "clear-a-search-field"
+    },
+    {
+      "node": "1:16814",
+      "id": "currency-badge"
+    },
+    {
+      "node": "1:16819",
+      "id": "field-error"
+    },
+    {
+      "node": "1:16823",
+      "id": "character-counter"
+    },
+    {
+      "node": "1:16827",
+      "id": "dynamic-info"
+    },
+    {
+      "node": "1:16833",
+      "id": "static-data"
+    },
+    {
+      "node": "1:16838",
+      "id": "placeholder"
+    },
+    {
+      "node": "56:5915",
+      "id": "do"
+    },
+    {
+      "node": "56:7053",
+      "id": "dont"
     }
   ]
 }
