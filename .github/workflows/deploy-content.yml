@@ -1,6 +1,7 @@
-name: Build and Deploy Figma Nodes
+name: Build Green Images
 
 on:
+  workflow_dispatch: {}
   push:
     branches:
       - main
@@ -21,16 +22,16 @@ jobs:
       - name: Install Dependencies
         run: npm install axios
 
-      - name: Run Script to Generate figma-nodes.json
+      - name: Run the Node Script to Generate Static Files
         env:
           FIGMA_PROJECT_ID: ${{ secrets.FIGMA_PROJECT_ID }}
           FIGMA_ACCESS_KEY: ${{ secrets.FIGMA_ACCESS_KEY }}
-        run: node scripts/figma.js
+        run: node script.js
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
-          publish_branch: gh-pages
-          allow_empty_commit: true
+      - name: Commit and Push Generated Files
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add static/
+          git commit -m "Update generated static nodes" || echo "No changes to commit"
+          git push
