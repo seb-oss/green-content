@@ -1,0 +1,36 @@
+name: Build and Deploy Figma Nodes
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+
+      - name: Install Dependencies
+        run: npm install axios
+
+      - name: Run Script to Generate figma-nodes.json
+        env:
+          FIGMA_PROJECT_ID: ${{ secrets.FIGMA_PROJECT_ID }}
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
+        run: node scripts/figma.js
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          allow_empty_commit: true
