@@ -1,0 +1,20 @@
+[
+  {
+    "node": "1:16708",
+    "component": "Input",
+    "label": "Anatomy",
+    "svg": null
+  },
+  {
+    "node": "1:16764",
+    "component": "Input",
+    "label": "Variants: Default",
+    "svg": null
+  },
+  {
+    "node": "1:18558",
+    "component": "Input",
+    "label": "Variants: Default",
+    "svg": null
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {
+      "node": "1:16708",
+      "id": "input-anatomy",
+      "component": "Input",
+      "label": "Anatomy"
+    },
+    {
+      "node": "1:16764",
+      "id": "input-variant",
+      "component": "Input",
+      "label": "Variants: Default"
+    },
+    {
+      "node": "1:18558",
+      "id": "input-variant",
+      "component": "Input",
+      "label": "Variants: Default"
+    }
+  ]
+}
