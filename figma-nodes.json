@@ -8,13 +8,13 @@
   {
     "node": "1:16764",
     "component": "Input",
-    "label": "Variants: Default",
+    "label": "Variant: Default",
     "svg": null
   },
   {
     "node": "1:18558",
     "component": "Input",
-    "label": "Variants: Default",
+    "label": "Variant: Default",
     "svg": null
   }
 ]
