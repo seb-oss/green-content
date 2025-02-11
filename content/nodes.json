@@ -8,15 +8,15 @@
     },
     {
       "node": "1:16764",
-      "id": "input-variant",
+      "id": "input-variant-default",
       "component": "Input",
-      "label": "Variants: Default"
+      "label": "Variant: Default"
     },
     {
       "node": "1:18558",
-      "id": "input-variant",
+      "id": "input-variant-contained",
       "component": "Input",
-      "label": "Variants: Default"
+      "label": "Variant: Default"
     }
   ]
 }
