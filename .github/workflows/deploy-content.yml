@@ -1,63 +1,36 @@
-name: Green - Content
+name: Build and Deploy Figma Nodes
+
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-      - name: Use Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: lts/*
+          node-version: "16"
 
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "dir=$(yarn cache dir)" >> "$GITHUB_OUTPUT"
+      - name: Install Dependencies
+        run: npm install axios
 
-      - uses: actions/cache@v3
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      - name: Run Script to Generate figma-nodes.json
+        env:
+          FIGMA_PROJECT_ID: ${{ secrets.FIGMA_PROJECT_ID }}
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
+        run: node script.js
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-
-      - name: Install dependencies
-        run: yarn install --prefer-offline --frozen-lockfile --silent
-
-      - name: Get branch name
-        shell: bash
-        run: echo "branch=${GITHUB_REF}" >> "$GITHUB_OUTPUT"
-        id: branch
-
-      - name: Determine deploy target
-        shell: bash
-        run: |
-          if [[ "${{ steps.branch.outputs.branch }}" == "main" ]]; then
-            echo "target=latest" >> "$GITHUB_OUTPUT"
-          elif [[ "${{ steps.branch.outputs.branch }}" == "alpha" ]]; then
-            echo "target=alpha" >> "$GITHUB_OUTPUT"
-          elif [[ "${{ steps.branch.outputs.branch }}" == "beta" ]]; then
-            echo "target=latest" >> "$GITHUB_OUTPUT"
-          else
-            echo "target=pr-${{ github.event.number }}" >> "$GITHUB_OUTPUT"
-          fi
-        id: target
-
-      - name: Build apps
-        run: yarn run nx run-many --target build-app --all
-
-      - name: Deploy apps to GitHub Pages
-
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages # The branch the action should deploy to.
-          folder: dist/apps # The folder the action should deploy.
-          target-folder: apps/${{ steps.target.outputs.target }} # The folder the action should deploy to.
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          allow_empty_commit: true
