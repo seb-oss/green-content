@@ -24,7 +24,7 @@ jobs:
       - name: Run Script to Generate figma-nodes.json
         env:
           FIGMA_PROJECT_ID: ${{ secrets.FIGMA_PROJECT_ID }}
-          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
+          FIGMA_ACCESS_KEY: ${{ secrets.FIGMA_ACCESS_KEY }}
         run: node scripts/figma.js
 
       - name: Deploy to GitHub Pages

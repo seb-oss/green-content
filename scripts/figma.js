@@ -11,7 +11,7 @@ const OUTPUT_FILE = "figma-nodes.json";
 
 // Figma API settings – these should be set in your environment.
 const FIGMA_PROJECT_ID = process.env.FIGMA_PROJECT_ID;
-const FIGMA_ACCESS_TOKEN = process.env.FIGMA_ACCESS_TOKEN;
+const FIGMA_ACCESS_KEY = process.env.FIGMA_ACCESS_KEY;
 
 // Regex to validate node IDs.
 const ID_REGEX = /^[a-zA-Z0-9:\-]+$/;
@@ -42,7 +42,7 @@ async function fetchSVGsFromFigma(nodeIds) {
     const originalNodeIds = nodeIds.join(",");
     const url = `https://api.figma.com/v1/images/${FIGMA_PROJECT_ID}/?ids=${originalNodeIds}&format=svg`;
     const { data: imageData } = await axios.get(url, {
-      headers: { "X-Figma-Token": FIGMA_ACCESS_TOKEN },
+      headers: { "X-Figma-Token": FIGMA_ACCESS_KEY },
     });
     // imageData.images is an object where keys are node ids (may include colons) and values are URLs.
     const svgPromises = Object.entries(imageData.images).map(
