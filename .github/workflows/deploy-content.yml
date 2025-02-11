@@ -26,12 +26,13 @@ jobs:
         env:
           FIGMA_PROJECT_ID: ${{ secrets.FIGMA_PROJECT_ID }}
           FIGMA_ACCESS_KEY: ${{ secrets.FIGMA_ACCESS_KEY }}
-        run: node script.js
+        run: node scripts/figma.js
 
       - name: Commit and Push Generated Files
         run: |
+          DATE_VERSION=$(date +'%Y-%m-%d_%H-%M-%S')
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add static/
-          git commit -m "Update generated static nodes" || echo "No changes to commit"
+          git commit -m "Update generated static nodes - $DATE_VERSION" || echo "No changes to commit"
           git push

@@ -2,9 +2,20 @@ const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
 
+// Get current date/time in format YYYY-MM-DD_HH-MM-SS (you can customize as needed).
+const now = new Date();
+const pad = (n) => String(n).padStart(2, "0");
+const dateString = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(
+  now.getDate()
+)}_${pad(now.getHours())}-${pad(now.getMinutes())}-${pad(now.getSeconds())}`;
+
 // ========== CONFIGURATION ==========
 const INPUT_DIR = path.join(__dirname, "nodes"); // the folder with input files
-const OUTPUT_DIR = path.join(__dirname, "static"); // the folder to output processed files
+// Output directory now includes the date/version string.
+const OUTPUT_DIR = path.join(__dirname, "static", dateString);
+if (!fs.existsSync(OUTPUT_DIR)) {
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+}
 
 // Figma API settings – these should be set in your environment.
 const FIGMA_PROJECT_ID = process.env.FIGMA_PROJECT_ID;
