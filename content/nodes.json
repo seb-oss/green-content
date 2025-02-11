@@ -53,7 +53,7 @@
       "id": "input-extended",
       "component": "Input",
       "label": "Extended support visible"
-    }
+    },
     {
       "node": "1:16802",
       "id": "input-lead-icon",
