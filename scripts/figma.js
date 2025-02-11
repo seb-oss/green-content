@@ -10,9 +10,10 @@ const dateString = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(
 )}_${pad(now.getHours())}-${pad(now.getMinutes())}-${pad(now.getSeconds())}`;
 
 // ========== CONFIGURATION ==========
-const INPUT_DIR = path.join(__dirname, "nodes"); // the folder with input files
+// const INPUT_DIR = path.join(__dirname, "nodes"); // the folder with input files
+const INPUT_DIR = path.join("nodes"); // the folder with input files
 // Output directory now includes the date/version string.
-const OUTPUT_DIR = path.join(__dirname, "static", dateString);
+const OUTPUT_DIR = path.join("static", dateString);
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 }
