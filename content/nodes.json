@@ -17,6 +17,96 @@
       "id": "input-variant-contained",
       "component": "Input",
       "label": "Variant: Contained"
+    },
+    {
+      "node": "1:16772",
+      "id": "input-sizes",
+      "component": "Input",
+      "label": "Sizes"
+    },
+    {
+      "node": "1:16779",
+      "id": "input-label",
+      "component": "Input",
+      "label": "Label"
+    },
+    {
+      "node": "1:16785",
+      "id": "input-optional",
+      "component": "Input",
+      "label": "Optional"
+    },
+    {
+      "node": "1:16790",
+      "id": "input-support",
+      "component": "Input",
+      "label": "Support text"
+    },
+    {
+      "node": "1:16795",
+      "id": "input-info",
+      "component": "Input",
+      "label": "Info icon button to reach help."
+    },
+    {
+      "node": "1:16797",
+      "id": "input-extended",
+      "component": "Input",
+      "label": "Extended support visible"
+    },
+    {
+      "node": "1:16802",
+      "id": "input-lead-icon",
+      "component": "Input",
+      "label": "Leading icon to indicate it's a search field."
+    },
+    {
+      "node": "1:16804",
+      "id": "input-lead-icon-number",
+      "component": "Input",
+      "label": "Leading icon to indicate a card number."
+    },
+    {
+      "node": "1:16808",
+      "id": "input-clearable",
+      "component": "Input",
+      "label": "Makes it easy to clear a search filter."
+    },
+    {
+      "node": "1:16813",
+      "id": "input-badge",
+      "component": "Input",
+      "label": "Badge"
+    },
+    {
+      "node": "1:16818",
+      "id": "input-error",
+      "component": "Input",
+      "label": "Input field containing an error."
+    },
+    {
+      "node": "1:16818",
+      "id": "input-characters",
+      "component": "Input",
+      "label": "Input field with counter"
+    },
+    {
+      "node": "1:16827",
+      "id": "input-dynamic",
+      "component": "Input",
+      "label": "Input dynamic data"
+    },
+    {
+      "node": "1:16832",
+      "id": "input-static",
+      "component": "Input",
+      "label": "Input static data"
+    },
+    {
+      "node": "1:16837",
+      "id": "input-placeholder",
+      "component": "Input",
+      "label": "Placeholder"
     }
   ]
 }
