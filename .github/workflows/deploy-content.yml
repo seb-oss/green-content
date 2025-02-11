@@ -25,7 +25,7 @@ jobs:
         env:
           FIGMA_PROJECT_ID: ${{ secrets.FIGMA_PROJECT_ID }}
           FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
-        run: node script.js
+        run: node scripts/figma.js
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
