@@ -1,1 +1,1 @@
-Green Content
+Green Design System · Content
