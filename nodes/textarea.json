@@ -1,36 +1,19 @@
 {
   "nodes": [
-    {
-      "node": "58:4831",
-      "id": "anatomy"
-    },
-    {
-      "node": "58:4891",
-      "id": "variant-1"
-    },
-    {
-      "node": "58:4902",
-      "id": "variant-2"
-    },
-    {
-      "node": "105:3314",
-      "id": "label"
-    },
-    {
-      "node": "105:3364",
-      "id": "optional-indicator"
-    },
-    {
-      "node": "105:3388",
-      "id": "support-text"
-    },
-    {
-      "node": "105:3458",
-      "id": "contextual-help-1"
-    },
-    {
-      "node": "105:3436",
-      "id": "contextual-help-2"
-    }
+    { "node": "58:4831", "id": "anatomy" },
+    { "node": "58:4891", "id": "variant-1" },
+    { "node": "58:4902", "id": "variant-2" },
+    { "node": "105:3314", "id": "label" },
+    { "node": "105:3364", "id": "optional-indicator" },
+    { "node": "105:3388", "id": "support-text" },
+    { "node": "105:3458", "id": "contextual-help-1" },
+    { "node": "105:3436", "id": "contextual-help-2" },
+    { "node": "108:6151", "id": "leading-icon" },
+    { "node": "105:3501", "id": "clearable" },
+    { "node": "108:3576", "id": "error" },
+    { "node": "108:3675", "id": "character-1" },
+    { "node": "108:3730", "id": "character-2" },
+    { "node": "108:3756", "id": "character-3" },
+    { "node": "108:3834", "id": "resize" }
   ]
 }

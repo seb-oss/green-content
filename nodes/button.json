@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    { "node": "117:5748", "id": "anatomy" },
+    { "node": "1:8855", "id": "default-button" },
+    { "node": "1:8857", "id": "icon-button" },
+    { "node": "1:8859", "id": "fab-button" },
+    { "node": "1:8862", "id": "split-button" },
+    { "node": "1:8864", "id": "next-back-button" },
+    { "node": "1:8872", "id": "default-prio" },
+    { "node": "1:8877", "id": "default-pos-neg" },
+    { "node": "1:8883", "id": "icon-button" },
+    { "node": "1:8895", "id": "icon-button-custom" },
+    { "node": "1:8900", "id": "fab" },
+    { "node": "1:8906", "id": "split-1" },
+    { "node": "1:8910", "id": "split-2" },
+    { "node": "1:8917", "id": "next" },
+    { "node": "1:8919", "id": "back-1" },
+    { "node": "1:8921", "id": "back-2" },
+    { "node": "1:8932", "id": "variants" },
+    { "node": "1:8947", "id": "hierarchy" },
+    { "node": "1:8954", "id": "small" },
+    { "node": "1:8956", "id": "medium" },
+    { "node": "1:8958", "id": "large" },
+    { "node": "1:8964", "id": "placement-desktop-1" },
+    { "node": "1:8972", "id": "placement-desktop-2" },
+    { "node": "121:5119", "id": "placement-mobile-1" },
+    { "node": "121:5120", "id": "placement-mobile-2" },
+    { "node": "121:5198", "id": "placement-mobile-3" },
+    { "node": "118:7856", "id": "do" },
+    { "node": "1:9003", "id": "dont" }
+  ]
+}
