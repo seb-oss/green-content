@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    { "node": "56:3104", "id": "anatomy" },
+    { "node": "33:4984", "id": "variant-default" },
+    { "node": "33:4986", "id": "variant-contained" },
+    { "node": "33:4992", "id": "support-text-1" },
+    { "node": "56:3755", "id": "support-text-2" },
+    { "node": "33:4997", "id": "error-1" },
+    { "node": "56:9446", "id": "error-2" },
+    { "node": "80:4799", "id": "indeterminate-1" },
+    { "node": "80:4928", "id": "indeterminate-2" },
+    { "node": "80:4647", "id": "indeterminate-3" },
+    { "node": "33:5014", "id": "alignment-vertical-1" },
+    { "node": "33:5016", "id": "alignment-horisontal-1" },
+    { "node": "64:10344", "id": "alignment-vertical-2" },
+    { "node": "64:10298", "id": "alignment-horisontal-2" },
+    { "node": "33:5282", "id": "negation-do" },
+    { "node": "33:5284", "id": "negation-dont" },
+    { "node": "33:5289", "id": "accepting-do" },
+    { "node": "33:5291", "id": "accepting-dont" },
+    { "node": "33:5296", "id": "multiple-options-do-eng" },
+    { "node": "33:5298", "id": "multiple-options-dont-eng" },
+    { "node": "164:6106", "id": "multiple-options-do-swe" },
+    { "node": "164:6108", "id": "multiple-options-dont-swe" },
+    { "node": "164:6332", "id": "options-dont-eng" },
+    { "node": "165:6568", "id": "options-dont-swe" }
+  ]
+}
