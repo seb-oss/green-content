@@ -1,6 +1,6 @@
 {
   "nodes": [
-    { "node": "117:5748", "id": "anatomy" },
+    { "node": "117:5750", "id": "anatomy" },
     { "node": "1:8855", "id": "default-button" },
     { "node": "1:8857", "id": "icon-button" },
     { "node": "1:8859", "id": "fab-button" },
@@ -27,6 +27,18 @@
     { "node": "121:5120", "id": "placement-mobile-2" },
     { "node": "121:5198", "id": "placement-mobile-3" },
     { "node": "118:7856", "id": "do" },
-    { "node": "1:9003", "id": "dont" }
+    { "node": "1:9003", "id": "dont" },
+    { "node": "1:9016", "id": "standard-next" },
+    { "node": "1:9018", "id": "standard-back" },
+    { "node": "1:9020", "id": "standard-cancel" },
+    { "node": "1:9023", "id": "standard-delete" },
+    { "node": "1:9026", "id": "standard-change" },
+    { "node": "1:9028", "id": "standard-save" },
+    { "node": "1:9031", "id": "standard-close" },
+    { "node": "1:9033", "id": "standard-sign" },
+    { "node": "1:9035", "id": "standard-identify" },
+    { "node": "121:5363", "id": "cancel-close" },
+    { "node": "1:9044", "id": "ux-do" },
+    { "node": "121:5348", "id": "ux-dont" }
   ]
 }
