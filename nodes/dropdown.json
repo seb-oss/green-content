@@ -18,9 +18,7 @@
     { "node": "223:21683", "id": "option-group-multi" },
     { "node": "223:22349", "id": "custom-1" },
     { "node": "223:22429", "id": "custom-2" },
-    { "node": "223:22542", "id": "combobox-1" },
-    { "node": "223:22545", "id": "combobox-2" },
-    { "node": "223:22703", "id": "combobox-3" },
+    { "node": "261:9101", "id": "combobox-1" },
     { "node": "224:22930", "id": "clearable" },
     { "node": "227:24152", "id": "field-error" },
     { "node": "228:24393", "id": "multiple-selections" }
