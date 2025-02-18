@@ -21,6 +21,7 @@
     { "node": "261:9101", "id": "combobox-1" },
     { "node": "224:22930", "id": "clearable" },
     { "node": "227:24152", "id": "field-error" },
+    { "node": "227:24291", "id": "single-words" },
     { "node": "228:24393", "id": "multiple-selections" }
   ]
 }
