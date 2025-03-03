@@ -6,7 +6,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "node", "svg"],
+        "required": ["id", "node"],
         "properties": {
           "id": {
             "type": "string"

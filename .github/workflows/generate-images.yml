@@ -1,12 +1,17 @@
 name: Generate Images
 
 on:
-  workflow_dispatch: {} # Only manual triggers
+  workflow_dispatch: {}
 
 permissions:
   contents: write
   pages: write
   id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -19,6 +24,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "16"
+          cache: "npm"
 
       - name: Install Dependencies
         run: npm install axios ajv
@@ -29,32 +35,33 @@ jobs:
           FIGMA_ACCESS_KEY: ${{ secrets.FIGMA_ACCESS_KEY }}
         run: node scripts/images.script.js
 
-      - name: Commit and Push Generated Files
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add generated/
-          git commit -m "Update generated component images [skip ci]" || echo "No changes to commit"
-          git push
+      - name: Upload generated files
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-images
+          path: generated/
+          if-no-files-found: error
 
   deploy:
     needs: generate
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
         with:
-          path: "generated"
+          ref: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Download generated files
+        uses: actions/download-artifact@v4
+        with:
+          name: generated-images
+          path: .
+
+      - name: Deploy to gh-pages
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update generated component images [skip ci]" || echo "No changes to commit"
+          git push
