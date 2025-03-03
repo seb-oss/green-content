@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "patternProperties": {
+    "^[a-z-]+$": {
+      "type": "object",
+      "required": [
+        "displayName",
+        "variants",
+        "static",
+        "id",
+        "fileName",
+        "framework",
+        "urlPath",
+        "meta"
+      ],
+      "properties": {
+        "displayName": {
+          "type": "string"
+        },
+        "variants": {
+          "type": "object",
+          "properties": {
+            "regular": {
+              "type": "string"
+            },
+            "solid": {
+              "type": "string"
+            }
+          },
+          "required": ["regular", "solid"]
+        },
+        "static": {
+          "type": "object",
+          "properties": {
+            "regular": {
+              "type": "string",
+              "format": "uri"
+            },
+            "solid": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": ["regular", "solid"]
+        },
+        "id": {
+          "type": "string"
+        },
+        "fileName": {
+          "type": "string",
+          "pattern": "^.*\\.svg$"
+        },
+        "framework": {
+          "type": "object",
+          "properties": {
+            "web": {
+              "$ref": "#/definitions/frameworkConfig"
+            },
+            "react": {
+              "$ref": "#/definitions/frameworkConfig"
+            },
+            "angular": {
+              "$ref": "#/definitions/frameworkConfig"
+            }
+          },
+          "required": ["web", "react", "angular"]
+        },
+        "urlPath": {
+          "type": "string"
+        },
+        "meta": {
+          "type": "object",
+          "properties": {
+            "categories": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": ["categories", "tags", "description"]
+        }
+      }
+    }
+  },
+  "definitions": {
+    "frameworkConfig": {
+      "type": "object",
+      "required": ["path", "import", "component"],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "import": {
+          "type": "string"
+        },
+        "component": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

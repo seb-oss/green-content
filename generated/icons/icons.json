@@ -1,0 +1,38 @@
+{
+  "airplane-up": {
+    "id": "airplane-up",
+    "displayName": "Airplane Up",
+    "fileName": "airplane-up.svg",
+    "urlPath": "airplane-up",
+    "variants": {
+      "regular": "",
+      "solid": ""
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/[...].svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/[...].svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [],
+      "tags": []
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/airplane-up",
+        "import": "import '@sebgroup/green-core/icon/airplane-up.js'",
+        "component": "<gds-icon-airplane-up></gds-icon-airplane-up>"
+      },
+      "react": {
+        "path": "@sebgroup/green-react/icon/airplane-up",
+        "import": "import { IconAirplaneUp } from '@sebgroup/green-react/icon/airplane-up'",
+        "component": "<IconAirplaneUp></IconAirplaneUp>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-angular/icon/airplane-up",
+        "import": "import { IconAirplaneUp } from '@sebgroup/green-angular/icon/airplane-up'",
+        "component": "<gds-icon-airplane-up></gds-icon-airplane-up>"
+      }
+    }
+  }
+}

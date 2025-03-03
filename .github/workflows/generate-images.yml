@@ -1,10 +1,7 @@
-name: Build Green Images
+name: Generate: Images
 
 on:
-  workflow_dispatch: {}
-  push:
-    branches:
-      - main
+  workflow_dispatch: {}  # Only manual triggers
 
 jobs:
   build:
@@ -20,25 +17,24 @@ jobs:
           node-version: "16"
 
       - name: Install Dependencies
-        run: npm install axios
+        run: npm install axios ajv
 
-      - name: Run the Node Script to Generate Static Files
+      - name: Run Image Generation Script
         env:
           FIGMA_PROJECT_ID: ${{ secrets.FIGMA_PROJECT_ID }}
           FIGMA_ACCESS_KEY: ${{ secrets.FIGMA_ACCESS_KEY }}
         run: node scripts/figma.js
 
-      - name: Commit and Push Generated Static Files
+      - name: Commit and Push Generated Files
         run: |
-          DATE_VERSION=$(date +'%Y-%m-%d_%H-%M-%S')
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add static/
-          git commit -m "Update generated static nodes - $DATE_VERSION" || echo "No changes to commit"
+          git add generated/
+          git commit -m "Update generated component images [skip ci]" || echo "No changes to commit"
           git push
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: static
+          publish_dir: generated

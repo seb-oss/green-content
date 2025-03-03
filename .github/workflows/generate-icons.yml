@@ -1,0 +1,4 @@
+name: Generate: Icons
+
+on:
+  workflow_dispatch: {}  # Only manual triggers

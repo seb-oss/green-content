@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "node", "svg"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "node": {
+            "type": "string"
+          },
+          "svg": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": ["nodes"]
+}

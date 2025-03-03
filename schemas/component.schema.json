@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "patternProperties": {
+    "^[a-z-]+$": {
+      "type": "object",
+      "required": [
+        "displayName",
+        "slug",
+        "framework",
+        "id",
+        "content",
+        "meta",
+        "staus"
+      ],
+      "properties": {
+        "displayName": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "framework": {
+          "type": "object",
+          "properties": {
+            "web": {
+              "$ref": "#/definitions/frameworkConfig"
+            },
+            "react": {
+              "$ref": "#/definitions/frameworkConfig"
+            },
+            "angular": {
+              "$ref": "#/definitions/frameworkConfig"
+            }
+          },
+          "required": ["web", "react", "angular"]
+        },
+        "id": {
+          "type": "string"
+        },
+        "content": {
+          "type": "object",
+          "properties": {
+            "section": {
+              "type": "object",
+              "required": ["columns", "heading", "row"],
+              "properties": {
+                "columns": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "heading": {
+                  "type": "object",
+                  "required": ["title", "slug"],
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "slug": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "row": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "column": {
+                        "type": "object",
+                        "required": ["type"],
+                        "properties": {
+                          "title": {
+                            "type": "string"
+                          },
+                          "slug": {
+                            "type": "string"
+                          },
+                          "type": {
+                            "type": "string",
+                            "enum": ["text", "figure"]
+                          },
+                          "content": {
+                            "type": "object",
+                            "properties": {
+                              "text": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "example": {
+                            "type": "string"
+                          },
+                          "caption": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "meta": {
+          "type": "object",
+          "properties": {
+            "categories": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": ["categories", "tags", "description"]
+        },
+        "staus": {
+          "type": "string",
+          "enum": ["alpha", "beta", "stable", "deprecated"]
+        }
+      }
+    }
+  },
+  "definitions": {
+    "frameworkConfig": {
+      "type": "object",
+      "required": ["path", "import", "component"],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "import": {
+          "type": "string"
+        },
+        "component": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
