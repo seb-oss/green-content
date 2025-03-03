@@ -23,7 +23,7 @@ jobs:
         env:
           FIGMA_PROJECT_ID: ${{ secrets.FIGMA_PROJECT_ID }}
           FIGMA_ACCESS_KEY: ${{ secrets.FIGMA_ACCESS_KEY }}
-        run: node scripts/figma.js
+        run: node scripts/images.script.js
 
       - name: Commit and Push Generated Files
         run: |
