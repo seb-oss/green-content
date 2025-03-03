@@ -1,7 +1,7 @@
-name: Generate: Images
+name: Generate Images
 
 on:
-  workflow_dispatch: {}  # Only manual triggers
+  workflow_dispatch: {} # Only manual triggers
 
 jobs:
   build:

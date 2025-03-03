@@ -1,5 +1,5 @@
-name: Generate: Content
+name: Generate Content
 
 on:
-  workflow_dispatch: {}  # Only manual triggers
+  workflow_dispatch: {} # Only manual triggers
 
