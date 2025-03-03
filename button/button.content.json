@@ -1,0 +1,58 @@
+{
+  "button": {
+    "id": "button",
+    "displayName": "Button",
+    "slug": "button",
+    "staus": "beta",
+    "meta": {
+      "description": "",
+      "categories": [],
+      "tags": []
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/button",
+        "import": "import '@sebgroup/green-core/button.js'",
+        "component": "<gds-button></gds-button>"
+      },
+      "react": {
+        "path": "@sebgroup/green-react/gds-button",
+        "import": "import { GdsButton } from '@sebgroup/green-react/gds-button'",
+        "component": "<GdsButton></GdsButton>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-angular/gds-button",
+        "import": "import { IconAirplaneUp } from '@sebgroup/green-angular/icon/gds-button'",
+        "component": "<gds-button></gds-button>"
+      }
+    },
+    "content": {
+      "section": {
+        "columns": 2,
+        "heading": {
+          "title": "Overview",
+          "slug": "overview"
+        },
+        "row": [
+          {
+            "column": {
+              "type": "text",
+              "title": "Anatomy",
+              "slug": "anatomy",
+              "content": {
+                "text": "Buttons are used to perform an action or to navigate to another page. They are used to trigger an event or action."
+              }
+            }
+          },
+          {
+            "column": {
+              "type": "figure",
+              "example": "Anatomy",
+              "caption": "anatomy"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
