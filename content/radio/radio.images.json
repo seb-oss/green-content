@@ -17,11 +17,10 @@
     { "node": "43:6230", "id": "yes-no-2" },
     { "node": "43:6235", "id": "consistancy-1" },
     { "node": "43:6237", "id": "consistancy-2" },
-    { "node": "43:6242", "id": "talk-1" },
-    { "node": "43:6244", "id": "talk-2" },
-    { "node": "43:6249", "id": "redundancy-1" },
-    { "node": "43:6251", "id": "redundancy-2" },
-    { "node": "76:2345", "id": "plain-text-1" },
-    { "node": "215:6882", "id": "plain-text-2" }
+    { "node": "43:6242", "id": "talk-1-do" },
+    { "node": "43:6244", "id": "talk-1-dont" },
+    { "node": "390:5459", "id": "talk-2-do" },
+    { "node": "390:5493", "id": "talk-2-dont" },
+    { "node": "76:2345", "id": "plain-text-1" }
   ]
 }
