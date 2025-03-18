@@ -33,6 +33,8 @@
     { "node": "512:2177", "id": "time-period-do-swe" },
     { "node": "512:2226", "id": "time-period-dont-eng" },
     { "node": "512:2228", "id": "time-period-dont-swe" },
+    { "node": "1:16891", "id": "floating-1" },
+    { "node": "1:16895", "id": "floating-2" },
     { "node": "1:16900", "id": "floating-do-eng" },
     { "node": "513:2570", "id": "floating-do-swe" },
     { "node": "1:16904", "id": "floating-dont-eng" },
