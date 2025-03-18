@@ -27,13 +27,15 @@
     { "node": "1:16867", "id": "query-format-1" },
     { "node": "1:16870", "id": "query-format-2" },
     { "node": "1:16875", "id": "label-support-text" },
-    { "node": "119:4840", "id": "no-kronor" },
-    { "node": "119:4926", "id": "kronor" },
-    { "node": "1:16881", "id": "periods-1" },
-    { "node": "1:16885", "id": "periods-2" },
-    { "node": "1:16891", "id": "floating-1" },
-    { "node": "1:16895", "id": "floating-2" },
-    { "node": "1:16900", "id": "floating-do" },
-    { "node": "1:16904", "id": "floating-dont" }
+    { "node": "119:4840", "id": "no-kronor-eng" },
+    { "node": "512:2070", "id": "no-kronor-swe" },
+    { "node": "119:4926", "id": "time-period-do-eng" },
+    { "node": "512:2177", "id": "time-period-do-swe" },
+    { "node": "512:2226", "id": "time-period-dont-eng" },
+    { "node": "512:2228", "id": "time-period-dont-swe" },
+    { "node": "1:16900", "id": "floating-do-eng" },
+    { "node": "513:2570", "id": "floating-do-swe" },
+    { "node": "1:16904", "id": "floating-dont-eng" },
+    { "node": "513:2736", "id": "floating-dont-swe" }
   ]
 }
