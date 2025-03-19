@@ -1,0 +1,75 @@
+name: Generate Icons
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "16"
+
+      - name: Create package.json if not exists
+        run: |
+          if [ ! -f package.json ]; then
+            echo '{"name":"icon-generator","version":"1.0.0","private":true}' > package.json
+          fi
+
+      - name: Install Dependencies
+        run: |
+          npm install axios
+          npm install ajv
+          npm install ajv-formats
+
+      - name: Create Required Directories
+        run: |
+          mkdir -p generated/icons
+          mkdir -p schemas
+
+      - name: Run Icon Generation Script
+        env:
+          FIGMA_ICONS_PROJECT_ID: ${{ secrets.FIGMA_ICONS_PROJECT_ID }}
+          FIGMA_ACCESS_KEY: ${{ secrets.FIGMA_ACCESS_KEY }}
+        run: node scripts/icons.script.js
+
+      - name: Debug - List generated content
+        run: |
+          echo "Contents of generated directory:"
+          ls -la generated/
+          echo "Contents of generated/icons directory:"
+          ls -la generated/icons/
+
+      - name: Create index.html
+        run: |
+          echo "<html><body><h1>Generated Icon Files</h1><ul>" > generated/icons/index.html
+          find generated/icons -type f -name "*.json" | while read file; do
+            filename=$(basename "$file")
+            echo "<li><a href='$filename'>$filename</a></li>" >> generated/icons/index.html
+          done
+          echo "</ul></body></html>" >> generated/icons/index.html
+
+      - name: Validate JSON Files
+        run: |
+          for file in generated/icons/*.json; do
+            if ! jq empty "$file" 2>/dev/null; then
+              echo "Error: Invalid JSON in $file"
+              exit 1
+            fi
+          done
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add generated/
+          git commit -m "Update generated icons" || echo "No changes to commit"
+          git push
