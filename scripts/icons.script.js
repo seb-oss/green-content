@@ -1,42 +1,57 @@
+const axios = require("axios");
 const fs = require("fs");
 const path = require("path");
-const axios = require("axios");
+const Ajv = require("ajv");
+const addFormats = require("ajv-formats");
+require("dotenv").config({ path: ".env.local" });
 
 // ========== CONFIGURATION ==========
-const INPUT_DIR = path.join("nodes"); // the folder with input files
-const OUTPUT_DIR = path.join("static"); // the folder to output processed files
+const GENERATED_DIR = path.join("generated");
+const SCHEMAS_DIR = path.join("schemas");
+const ICONS_DIR = path.join(GENERATED_DIR, "icons");
 
-// Figma API settings – these should be set in your environment.
-const FIGMA_PROJECT_ID = process.env.FIGMA_PROJECT_ID;
+const FIGMA_ICONS_PROJECT_ID = process.env.FIGMA_ICONS_PROJECT_ID;
 const FIGMA_ACCESS_KEY = process.env.FIGMA_ACCESS_KEY;
 
-// A regex to validate a node id (adjust if needed)
-const ID_REGEX = /^[a-zA-Z0-9:\-]+$/;
+// Initialize JSON Schema validator with formats
+const ajv = new Ajv();
+addFormats(ajv);
 
-// Helper: normalize node id by replacing ':' with '-'
-const normalizeId = (nodeId) => nodeId.replace(/:/g, "-");
+// Helper function to convert name to kebab case for key
+const toKebabCase = (str) => {
+  return str
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^a-z0-9-]/g, "");
+};
 
-// ========== HELPER FUNCTIONS ==========
+// Helper function to create a framework config
+const createFrameworkConfig = (name) => ({
+  path: `@sebgroup/green-core/icon/${name}`,
+  import: `import '@sebgroup/green-core/icon/${name}.js'`,
+  component: `<gds-icon-${name}></gds-icon-${name}>`,
+});
 
-// Fetch SVG URLs for an array of node IDs in batch from Figma.
+// Fetch SVGs from Figma
 async function fetchSVGs(nodeIds) {
   try {
     const idsParam = nodeIds.join(",");
-    const url = `https://api.figma.com/v1/images/${FIGMA_PROJECT_ID}/?ids=${idsParam}&format=svg`;
+    const url = `https://api.figma.com/v1/images/${FIGMA_ICONS_PROJECT_ID}/?ids=${idsParam}&format=svg`;
     const { data: imageData } = await axios.get(url, {
       headers: { "X-Figma-Token": FIGMA_ACCESS_KEY },
     });
 
-    // imageData.images is an object where key is the original node id (with possible colons) and value is a URL.
-    // Fetch each SVG content in parallel.
     const svgPromises = Object.entries(imageData.images).map(
       async ([nodeId, imageUrl]) => {
         try {
           const { data: svgContent } = await axios.get(imageUrl);
-          return { node: normalizeId(nodeId), svg: svgContent };
+          // Extract the path content from SVG
+          const pathMatch = svgContent.match(/<svg[^>]*>([\s\S]*)<\/svg>/i);
+          const pathContent = pathMatch ? pathMatch[1].trim() : null;
+          return { node: nodeId, svg: pathContent };
         } catch (err) {
           console.error(`Error fetching SVG for node ${nodeId}:`, err.message);
-          return { node: normalizeId(nodeId), svg: null };
+          return { node: nodeId, svg: null };
         }
       }
     );
@@ -47,79 +62,163 @@ async function fetchSVGs(nodeIds) {
   }
 }
 
-// Process one input JSON file: read nodes, fetch SVGs, and write output.
-async function processFile(inputFilePath, outputFilePath) {
-  console.log(`Processing ${inputFilePath}`);
+// Load and validate schema
+function loadSchema() {
   try {
-    const fileData = fs.readFileSync(inputFilePath, "utf8");
-    const jsonData = JSON.parse(fileData);
-    if (!jsonData.nodes || !Array.isArray(jsonData.nodes)) {
-      console.error(
-        `File ${inputFilePath} does not contain a valid nodes array.`
-      );
-      return;
-    }
-
-    // Filter valid nodes and collect unique node ids.
-    const validNodes = jsonData.nodes.filter(
-      (n) => n.node && ID_REGEX.test(n.node)
-    );
-    const uniqueNodeIds = Array.from(new Set(validNodes.map((n) => n.node)));
-
-    if (uniqueNodeIds.length === 0) {
-      console.log(`No valid node IDs found in ${inputFilePath}`);
-      return;
-    }
-
-    console.log(
-      `Found ${uniqueNodeIds.length} unique node id(s) in ${inputFilePath}. Fetching SVG data...`
-    );
-    const fetchedSVGs = await fetchSVGs(uniqueNodeIds);
-    // Build lookup table: normalized node id => svg content.
-    const svgLookup = {};
-    fetchedSVGs.forEach(({ node, svg }) => {
-      svgLookup[node] = svg;
-    });
-
-    // Update each node in the JSON by adding the fetched SVG.
-    const outputNodes = validNodes.map((n) => {
-      return {
-        ...n,
-        svg: svgLookup[normalizeId(n.node)] || null,
-      };
-    });
-
-    const outputData = { nodes: outputNodes };
-    fs.writeFileSync(outputFilePath, JSON.stringify(outputData, null, 2));
-    console.log(`Generated ${outputFilePath}`);
-  } catch (err) {
-    console.error(`Error processing file ${inputFilePath}:`, err.message);
+    const schemaPath = path.join(SCHEMAS_DIR, "icon.schema.json");
+    const schema = JSON.parse(fs.readFileSync(schemaPath, "utf8"));
+    return ajv.compile(schema);
+  } catch (error) {
+    console.error("Error loading schema:", error);
+    process.exit(1);
   }
 }
 
-// Recursively scan a directory for .json files (only in the top level here, adjust if needed).
-function scanInputDirectory(dir) {
-  const files = fs.readdirSync(dir);
-  return files.filter((file) => file.endsWith(".json"));
-}
-
-// ========== MAIN ==========
 async function main() {
-  // Ensure output directory exists.
-  if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  }
+  try {
+    if (!fs.existsSync(ICONS_DIR)) {
+      fs.mkdirSync(ICONS_DIR, { recursive: true });
+    }
 
-  const inputFiles = scanInputDirectory(INPUT_DIR);
-  if (inputFiles.length === 0) {
-    console.log("No JSON files found in the nodes folder.");
-    return;
-  }
+    const validate = loadSchema();
 
-  for (const fileName of inputFiles) {
-    const inputFilePath = path.join(INPUT_DIR, fileName);
-    const outputFilePath = path.join(OUTPUT_DIR, fileName);
-    await processFile(inputFilePath, outputFilePath);
+    const url = `https://api.figma.com/v1/files/${FIGMA_ICONS_PROJECT_ID}`;
+    const { data } = await axios.get(url, {
+      headers: { "X-Figma-Token": FIGMA_ACCESS_KEY },
+    });
+
+    // Find both Regular and Solid frames
+    const regularFrame = data.document.children[0].children.find(
+      (frame) => frame.name === "Regular" && frame.type === "FRAME"
+    );
+
+    const solidFrame = data.document.children[0].children.find(
+      (frame) => frame.name === "Solid" && frame.type === "FRAME"
+    );
+
+    if (regularFrame && solidFrame) {
+      const iconsObject = {};
+      const regularIcons = new Map();
+      const solidIcons = new Map();
+
+      // Process Regular icons
+      console.log("Processing Regular icons...");
+      for (const category of regularFrame.children) {
+        const categoryName = category.name;
+        const subFrames = category.children?.filter(
+          (child) =>
+            child.type === "FRAME" &&
+            child.name.toLowerCase() === category.name.toLowerCase()
+        );
+
+        if (subFrames && subFrames.length > 0) {
+          for (const frame of subFrames) {
+            if (frame.children) {
+              const nodeIds = frame.children.map((icon) => icon.id);
+              const svgs = await fetchSVGs(nodeIds);
+
+              frame.children.forEach((icon) => {
+                const svg = svgs.find((s) => s.node === icon.id);
+                regularIcons.set(icon.name, {
+                  svg: svg?.svg || "",
+                  id: icon.id,
+                  category: categoryName,
+                  tags: icon.children
+                    ? icon.children.map((child) => child.name)
+                    : [],
+                });
+              });
+            }
+          }
+        }
+      }
+
+      // Process Solid icons
+      console.log("Processing Solid icons...");
+      // Similar process for solid icons...
+      for (const category of solidFrame.children) {
+        const subFrames = category.children?.filter(
+          (child) =>
+            child.type === "FRAME" &&
+            child.name.toLowerCase() === category.name.toLowerCase()
+        );
+
+        if (subFrames && subFrames.length > 0) {
+          for (const frame of subFrames) {
+            if (frame.children) {
+              const nodeIds = frame.children.map((icon) => icon.id);
+              const svgs = await fetchSVGs(nodeIds);
+
+              frame.children.forEach((icon) => {
+                const svg = svgs.find((s) => s.node === icon.id);
+                solidIcons.set(icon.name, {
+                  svg: svg?.svg || "",
+                  id: icon.id,
+                });
+              });
+            }
+          }
+        }
+      }
+
+      // Combine Regular and Solid icons
+      for (const [name, regularData] of regularIcons) {
+        const iconKey = toKebabCase(name);
+        const solidData = solidIcons.get(name);
+
+        iconsObject[iconKey] = {
+          id: iconKey,
+          displayName: name,
+          fileName: `${iconKey}.svg`,
+          urlPath: iconKey,
+          variants: {
+            regular: regularData.svg,
+            solid: solidData?.svg || "",
+          },
+          static: {
+            regular: `https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/${iconKey}.svg`,
+            solid: `https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/${iconKey}.svg`,
+          },
+          meta: {
+            description: "",
+            categories: [regularData.category],
+            tags: regularData.tags,
+          },
+          framework: {
+            web: createFrameworkConfig(iconKey),
+            react: {
+              ...createFrameworkConfig(iconKey),
+              import: `import { Icon${name.replace(
+                /\s+/g,
+                ""
+              )} } from '@sebgroup/green-react/icon/${iconKey}'`,
+              component: `<Icon${name.replace(/\s+/g, "")}></Icon${name.replace(
+                /\s+/g,
+                ""
+              )}>`,
+            },
+            angular: createFrameworkConfig(iconKey),
+          },
+        };
+      }
+
+      // Validate and save
+      if (!validate(iconsObject)) {
+        console.error("Generated data does not match schema:", validate.errors);
+        return;
+      }
+
+      const outputPath = path.join(ICONS_DIR, "icons.json");
+      fs.writeFileSync(outputPath, JSON.stringify(iconsObject, null, 2));
+      console.log(`Generated icons file at: ${outputPath}`);
+      console.log(`Total icons processed: ${Object.keys(iconsObject).length}`);
+    }
+  } catch (error) {
+    console.error("Error:", error.message);
+    if (error.response) {
+      console.error("Response status:", error.response.status);
+      console.error("Response data:", error.response.data);
+    }
   }
 }
 
