@@ -206,9 +206,6 @@ async function main() {
           displayName: name,
           fileName: `${iconKey}.svg`,
           urlPath: iconKey,
-          width: regularData.width || 24,
-          height: regularData.height || 24,
-          viewBox: regularData.viewBox || "0 0 24 24",
           variants: {
             regular: regularData.svg,
             solid: solidData?.svg || "",
@@ -221,6 +218,9 @@ async function main() {
             description: "",
             categories: [regularData.category],
             tags: regularData.tags,
+            width: regularData.width || 24,
+            height: regularData.height || 24,
+            viewBox: regularData.viewBox || "0 0 24 24",
           },
           framework: {
             web: createFrameworkConfig(iconKey),
