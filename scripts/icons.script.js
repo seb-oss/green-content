@@ -33,6 +33,7 @@ const createFrameworkConfig = (name) => ({
 });
 
 // Fetch SVGs from Figma
+// Fetch SVGs from Figma
 async function fetchSVGs(nodeIds) {
   try {
     const idsParam = nodeIds.join(",");
@@ -46,20 +47,18 @@ async function fetchSVGs(nodeIds) {
         try {
           const { data: svgContent } = await axios.get(imageUrl);
 
-          // Extract SVG attributes
-          const svgMatch = svgContent.match(/<svg[^>]*>([\s\S]*)<\/svg>/i);
-          // const svgMatch = svgContent.match(/<svg([^>]*)>([\\s\\S]*)<\\/svg>/i);
-          const svgAttributes = svgMatch ? svgMatch[1] : "";
-          const pathContent = svgMatch ? svgMatch[2].trim() : null;
+          // Extract width, height, and viewBox from the SVG tag
+          const widthMatch = svgContent.match(/width="(\d+)"/);
+          const heightMatch = svgContent.match(/height="(\d+)"/);
+          const viewBoxMatch = svgContent.match(/viewBox="([^"]+)"/);
 
-          // Extract width, height and viewBox
-          const widthMatch = svgAttributes.match(/width="(\d+)"/);
-          const heightMatch = svgAttributes.match(/height="(\d+)"/);
-          const viewBoxMatch = svgAttributes.match(/viewBox="([^"]+)"/);
+          // Extract the path content from SVG
+          const pathMatch = svgContent.match(/<svg[^>]*>([\s\S]*)<\/svg>/i);
+          let pathContent = pathMatch ? pathMatch[1].trim() : null;
 
-          let pathContentModified = pathContent;
-          if (pathContentModified) {
-            pathContentModified = pathContentModified
+          // Replace color values with currentColor
+          if (pathContent) {
+            pathContent = pathContent
               .replace(/fill=\"#[0-9A-Fa-f]{3,6}\"/g, 'fill="currentColor"')
               .replace(/fill=\"rgb\([^\)]+\)\"/g, 'fill="currentColor"')
               .replace(/stroke=\"#[0-9A-Fa-f]{3,6}\"/g, 'stroke="currentColor"')
@@ -68,7 +67,7 @@ async function fetchSVGs(nodeIds) {
 
           return {
             node: nodeId,
-            svg: pathContentModified,
+            svg: pathContent,
             width: widthMatch ? parseInt(widthMatch[1]) : 24,
             height: heightMatch ? parseInt(heightMatch[1]) : 24,
             viewBox: viewBoxMatch ? viewBoxMatch[1] : "0 0 24 24",
@@ -153,6 +152,9 @@ async function main() {
                   svg: svg?.svg || "",
                   id: icon.id,
                   category: categoryName,
+                  width: svg?.width || 24,
+                  height: svg?.height || 24,
+                  viewBox: svg?.viewBox || "0 0 24 24",
                   tags: icon.children
                     ? icon.children.map((child) => child.name)
                     : [],
@@ -184,6 +186,9 @@ async function main() {
                 solidIcons.set(icon.name, {
                   svg: svg?.svg || "",
                   id: icon.id,
+                  width: svg?.width || 24,
+                  height: svg?.height || 24,
+                  viewBox: svg?.viewBox || "0 0 24 24",
                 });
               });
             }
@@ -201,7 +206,7 @@ async function main() {
           displayName: name,
           fileName: `${iconKey}.svg`,
           urlPath: iconKey,
-          width: regularData.width || 24, // Add these new properties
+          width: regularData.width || 24,
           height: regularData.height || 24,
           viewBox: regularData.viewBox || "0 0 24 24",
           variants: {
