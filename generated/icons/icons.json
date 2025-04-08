@@ -1,6 +1,7 @@
 {
   "eye-slash": {
     "id": "eye-slash",
+    "nodeId": "1449:737",
     "displayName": "eye-slash",
     "fileName": "eye-slash.svg",
     "urlPath": "eye-slash",
@@ -44,6 +45,7 @@
   },
   "eye-open": {
     "id": "eye-open",
+    "nodeId": "1449:731",
     "displayName": "eye-open",
     "fileName": "eye-open.svg",
     "urlPath": "eye-open",
@@ -87,6 +89,7 @@
   },
   "unlocked": {
     "id": "unlocked",
+    "nodeId": "1090:15538",
     "displayName": "unlocked",
     "fileName": "unlocked.svg",
     "urlPath": "unlocked",
@@ -130,6 +133,7 @@
   },
   "heart": {
     "id": "heart",
+    "nodeId": "1090:15758",
     "displayName": "heart",
     "fileName": "heart.svg",
     "urlPath": "heart",
@@ -173,6 +177,7 @@
   },
   "star": {
     "id": "star",
+    "nodeId": "1090:15762",
     "displayName": "star",
     "fileName": "star.svg",
     "urlPath": "star",
@@ -216,6 +221,7 @@
   },
   "bell": {
     "id": "bell",
+    "nodeId": "1153:2888",
     "displayName": "bell",
     "fileName": "bell.svg",
     "urlPath": "bell",
@@ -259,6 +265,7 @@
   },
   "lock": {
     "id": "lock",
+    "nodeId": "1090:15540",
     "displayName": "lock",
     "fileName": "lock.svg",
     "urlPath": "lock",
@@ -302,6 +309,7 @@
   },
   "globus": {
     "id": "globus",
+    "nodeId": "1090:15637",
     "displayName": "globus",
     "fileName": "globus.svg",
     "urlPath": "globus",
@@ -345,6 +353,7 @@
   },
   "settings-gear": {
     "id": "settings-gear",
+    "nodeId": "1090:15496",
     "displayName": "settings-gear",
     "fileName": "settings-gear.svg",
     "urlPath": "settings-gear",
@@ -388,6 +397,7 @@
   },
   "magnifying-glass": {
     "id": "magnifying-glass",
+    "nodeId": "1090:15528",
     "displayName": "magnifying-glass",
     "fileName": "magnifying-glass.svg",
     "urlPath": "magnifying-glass",
@@ -431,6 +441,7 @@
   },
   "zoom-in": {
     "id": "zoom-in",
+    "nodeId": "1090:15526",
     "displayName": "zoom-in",
     "fileName": "zoom-in.svg",
     "urlPath": "zoom-in",
@@ -474,6 +485,7 @@
   },
   "zoom-out": {
     "id": "zoom-out",
+    "nodeId": "1090:15524",
     "displayName": "zoom-out",
     "fileName": "zoom-out.svg",
     "urlPath": "zoom-out",
@@ -517,6 +529,7 @@
   },
   "search-menu": {
     "id": "search-menu",
+    "nodeId": "1153:2882",
     "displayName": "search-menu",
     "fileName": "search-menu.svg",
     "urlPath": "search-menu",
@@ -560,6 +573,7 @@
   },
   "sort": {
     "id": "sort",
+    "nodeId": "1090:15673",
     "displayName": "sort",
     "fileName": "sort.svg",
     "urlPath": "sort",
@@ -603,6 +617,7 @@
   },
   "settings-slider-hor": {
     "id": "settings-slider-hor",
+    "nodeId": "1090:15677",
     "displayName": "settings-slider-hor",
     "fileName": "settings-slider-hor.svg",
     "urlPath": "settings-slider-hor",
@@ -646,6 +661,7 @@
   },
   "bars-three": {
     "id": "bars-three",
+    "nodeId": "1090:15501",
     "displayName": "bars-three",
     "fileName": "bars-three.svg",
     "urlPath": "bars-three",
@@ -689,6 +705,7 @@
   },
   "bars-two": {
     "id": "bars-two",
+    "nodeId": "1090:15503",
     "displayName": "bars-two",
     "fileName": "bars-two.svg",
     "urlPath": "bars-two",
@@ -732,6 +749,7 @@
   },
   "menu-sidebar": {
     "id": "menu-sidebar",
+    "nodeId": "2437:652",
     "displayName": "menu-sidebar",
     "fileName": "menu-sidebar.svg",
     "urlPath": "menu-sidebar",
@@ -775,6 +793,7 @@
   },
   "dot-grid-one-horizontal": {
     "id": "dot-grid-one-horizontal",
+    "nodeId": "1090:15505",
     "displayName": "dot-grid-one-horizontal",
     "fileName": "dot-grid-one-horizontal.svg",
     "urlPath": "dot-grid-one-horizontal",
@@ -818,6 +837,7 @@
   },
   "dot-grid-one-vertical": {
     "id": "dot-grid-one-vertical",
+    "nodeId": "1090:15507",
     "displayName": "dot-grid-one-vertical",
     "fileName": "dot-grid-one-vertical.svg",
     "urlPath": "dot-grid-one-vertical",
@@ -861,6 +881,7 @@
   },
   "dot-grid-two": {
     "id": "dot-grid-two",
+    "nodeId": "1090:15509",
     "displayName": "dot-grid-two",
     "fileName": "dot-grid-two.svg",
     "urlPath": "dot-grid-two",
@@ -904,6 +925,7 @@
   },
   "dot-grid-three": {
     "id": "dot-grid-three",
+    "nodeId": "1239:2688",
     "displayName": "dot-grid-three",
     "fileName": "dot-grid-three.svg",
     "urlPath": "dot-grid-three",
@@ -947,6 +969,7 @@
   },
   "copy": {
     "id": "copy",
+    "nodeId": "1153:7784",
     "displayName": "copy",
     "fileName": "copy.svg",
     "urlPath": "copy",
@@ -990,6 +1013,7 @@
   },
   "flag": {
     "id": "flag",
+    "nodeId": "1090:15713",
     "displayName": "flag",
     "fileName": "flag.svg",
     "urlPath": "flag",
@@ -1033,6 +1057,7 @@
   },
   "tag": {
     "id": "tag",
+    "nodeId": "1090:15806",
     "displayName": "tag",
     "fileName": "tag.svg",
     "urlPath": "tag",
@@ -1076,6 +1101,7 @@
   },
   "checkmark": {
     "id": "checkmark",
+    "nodeId": "1090:15484",
     "displayName": "checkmark",
     "fileName": "checkmark.svg",
     "urlPath": "checkmark",
@@ -1119,6 +1145,7 @@
   },
   "cross-large": {
     "id": "cross-large",
+    "nodeId": "1090:15437",
     "displayName": "cross-large",
     "fileName": "cross-large.svg",
     "urlPath": "cross-large",
@@ -1162,6 +1189,7 @@
   },
   "cross-small": {
     "id": "cross-small",
+    "nodeId": "1090:15439",
     "displayName": "cross-small",
     "fileName": "cross-small.svg",
     "urlPath": "cross-small",
@@ -1205,6 +1233,7 @@
   },
   "plus-large": {
     "id": "plus-large",
+    "nodeId": "1090:15446",
     "displayName": "plus-large",
     "fileName": "plus-large.svg",
     "urlPath": "plus-large",
@@ -1248,6 +1277,7 @@
   },
   "plus-small": {
     "id": "plus-small",
+    "nodeId": "1090:15448",
     "displayName": "plus-small",
     "fileName": "plus-small.svg",
     "urlPath": "plus-small",
@@ -1291,6 +1321,7 @@
   },
   "minus-large": {
     "id": "minus-large",
+    "nodeId": "1090:15450",
     "displayName": "minus-large",
     "fileName": "minus-large.svg",
     "urlPath": "minus-large",
@@ -1334,6 +1365,7 @@
   },
   "minus-small": {
     "id": "minus-small",
+    "nodeId": "1090:15452",
     "displayName": "minus-small",
     "fileName": "minus-small.svg",
     "urlPath": "minus-small",
@@ -1377,6 +1409,7 @@
   },
   "trash-can": {
     "id": "trash-can",
+    "nodeId": "1090:15492",
     "displayName": "trash-can",
     "fileName": "trash-can.svg",
     "urlPath": "trash-can",
@@ -1420,6 +1453,7 @@
   },
   "circle-plus": {
     "id": "circle-plus",
+    "nodeId": "1090:15454",
     "displayName": "circle-plus",
     "fileName": "circle-plus.svg",
     "urlPath": "circle-plus",
@@ -1463,6 +1497,7 @@
   },
   "circle-minus": {
     "id": "circle-minus",
+    "nodeId": "1090:15456",
     "displayName": "circle-minus",
     "fileName": "circle-minus.svg",
     "urlPath": "circle-minus",
@@ -1506,6 +1541,7 @@
   },
   "circle-x": {
     "id": "circle-x",
+    "nodeId": "1090:15458",
     "displayName": "circle-x",
     "fileName": "circle-x.svg",
     "urlPath": "circle-x",
@@ -1549,6 +1585,7 @@
   },
   "circle-check": {
     "id": "circle-check",
+    "nodeId": "1090:15460",
     "displayName": "circle-check",
     "fileName": "circle-check.svg",
     "urlPath": "circle-check",
@@ -1592,6 +1629,7 @@
   },
   "circle-placeholder-on": {
     "id": "circle-placeholder-on",
+    "nodeId": "1090:15466",
     "displayName": "circle-placeholder-on",
     "fileName": "circle-placeholder-on.svg",
     "urlPath": "circle-placeholder-on",
@@ -1635,6 +1673,7 @@
   },
   "circle-questionmark": {
     "id": "circle-questionmark",
+    "nodeId": "1090:15468",
     "displayName": "circle-questionmark",
     "fileName": "circle-questionmark.svg",
     "urlPath": "circle-questionmark",
@@ -1678,6 +1717,7 @@
   },
   "circle-info": {
     "id": "circle-info",
+    "nodeId": "1090:15470",
     "displayName": "circle-info",
     "fileName": "circle-info.svg",
     "urlPath": "circle-info",
@@ -1721,6 +1761,7 @@
   },
   "percent": {
     "id": "percent",
+    "nodeId": "1173:793",
     "displayName": "percent",
     "fileName": "percent.svg",
     "urlPath": "percent",
@@ -1764,6 +1805,7 @@
   },
   "triangle-exclamation": {
     "id": "triangle-exclamation",
+    "nodeId": "1090:15482",
     "displayName": "triangle-exclamation",
     "fileName": "triangle-exclamation.svg",
     "urlPath": "triangle-exclamation",
@@ -1807,6 +1849,7 @@
   },
   "arrow-right-up-circle": {
     "id": "arrow-right-up-circle",
+    "nodeId": "1090:15462",
     "displayName": "arrow-right-up-circle",
     "fileName": "arrow-right-up-circle.svg",
     "urlPath": "arrow-right-up-circle",
@@ -1850,6 +1893,7 @@
   },
   "arrow-right-down-circle": {
     "id": "arrow-right-down-circle",
+    "nodeId": "1090:15464",
     "displayName": "arrow-right-down-circle",
     "fileName": "arrow-right-down-circle.svg",
     "urlPath": "arrow-right-down-circle",
@@ -1893,6 +1937,7 @@
   },
   "arrow-right-circle": {
     "id": "arrow-right-circle",
+    "nodeId": "1153:2978",
     "displayName": "arrow-right-circle",
     "fileName": "arrow-right-circle.svg",
     "urlPath": "arrow-right-circle",
@@ -1936,6 +1981,7 @@
   },
   "arrow-share-left": {
     "id": "arrow-share-left",
+    "nodeId": "1090:15605",
     "displayName": "arrow-share-left",
     "fileName": "arrow-share-left.svg",
     "urlPath": "arrow-share-left",
@@ -1979,6 +2025,7 @@
   },
   "arrow-share-right": {
     "id": "arrow-share-right",
+    "nodeId": "1090:15607",
     "displayName": "arrow-share-right",
     "fileName": "arrow-share-right.svg",
     "urlPath": "arrow-share-right",
@@ -2022,6 +2069,7 @@
   },
   "arrow-rotate-counter-clockwise": {
     "id": "arrow-rotate-counter-clockwise",
+    "nodeId": "1090:15609",
     "displayName": "arrow-rotate-counter-clockwise",
     "fileName": "arrow-rotate-counter-clockwise.svg",
     "urlPath": "arrow-rotate-counter-clockwise",
@@ -2065,6 +2113,7 @@
   },
   "arrow-rotate-clockwise": {
     "id": "arrow-rotate-clockwise",
+    "nodeId": "1090:15611",
     "displayName": "arrow-rotate-clockwise",
     "fileName": "arrow-rotate-clockwise.svg",
     "urlPath": "arrow-rotate-clockwise",
@@ -2108,6 +2157,7 @@
   },
   "arrow": {
     "id": "arrow",
+    "nodeId": "1179:958",
     "displayName": "arrow",
     "fileName": "arrow.svg",
     "urlPath": "arrow",
@@ -2151,6 +2201,7 @@
   },
   "arrow-rotate-left-right": {
     "id": "arrow-rotate-left-right",
+    "nodeId": "1090:15613",
     "displayName": "arrow-rotate-left-right",
     "fileName": "arrow-rotate-left-right.svg",
     "urlPath": "arrow-rotate-left-right",
@@ -2194,6 +2245,7 @@
   },
   "arrow-rotate-right-left": {
     "id": "arrow-rotate-right-left",
+    "nodeId": "1090:15615",
     "displayName": "arrow-rotate-right-left",
     "fileName": "arrow-rotate-right-left.svg",
     "urlPath": "arrow-rotate-right-left",
@@ -2237,6 +2289,7 @@
   },
   "history": {
     "id": "history",
+    "nodeId": "1090:15617",
     "displayName": "history",
     "fileName": "history.svg",
     "urlPath": "history",
@@ -2280,6 +2333,7 @@
   },
   "square-arrow-top-right": {
     "id": "square-arrow-top-right",
+    "nodeId": "1090:15619",
     "displayName": "square-arrow-top-right",
     "fileName": "square-arrow-top-right.svg",
     "urlPath": "square-arrow-top-right",
@@ -2323,6 +2377,7 @@
   },
   "arrow-wall-up": {
     "id": "arrow-wall-up",
+    "nodeId": "1090:15623",
     "displayName": "arrow-wall-up",
     "fileName": "arrow-wall-up.svg",
     "urlPath": "arrow-wall-up",
@@ -2366,6 +2421,7 @@
   },
   "arrow-wall-right": {
     "id": "arrow-wall-right",
+    "nodeId": "1090:15625",
     "displayName": "arrow-wall-right",
     "fileName": "arrow-wall-right.svg",
     "urlPath": "arrow-wall-right",
@@ -2409,6 +2465,7 @@
   },
   "arrow-wall-left": {
     "id": "arrow-wall-left",
+    "nodeId": "1090:15655",
     "displayName": "arrow-wall-left",
     "fileName": "arrow-wall-left.svg",
     "urlPath": "arrow-wall-left",
@@ -2452,6 +2509,7 @@
   },
   "arrow-inbox": {
     "id": "arrow-inbox",
+    "nodeId": "1090:15653",
     "displayName": "arrow-inbox",
     "fileName": "arrow-inbox.svg",
     "urlPath": "arrow-inbox",
@@ -2495,6 +2553,7 @@
   },
   "arrow-out-of-box": {
     "id": "arrow-out-of-box",
+    "nodeId": "1090:15651",
     "displayName": "arrow-out-of-box",
     "fileName": "arrow-out-of-box.svg",
     "urlPath": "arrow-out-of-box",
@@ -2538,6 +2597,7 @@
   },
   "arrow-box-right": {
     "id": "arrow-box-right",
+    "nodeId": "1090:15649",
     "displayName": "arrow-box-right",
     "fileName": "arrow-box-right.svg",
     "urlPath": "arrow-box-right",
@@ -2581,6 +2641,7 @@
   },
   "arrow-box-left": {
     "id": "arrow-box-left",
+    "nodeId": "1090:15647",
     "displayName": "arrow-box-left",
     "fileName": "arrow-box-left.svg",
     "urlPath": "arrow-box-left",
@@ -2624,6 +2685,7 @@
   },
   "arrow-wall-down": {
     "id": "arrow-wall-down",
+    "nodeId": "1090:15621",
     "displayName": "arrow-wall-down",
     "fileName": "arrow-wall-down.svg",
     "urlPath": "arrow-wall-down",
@@ -2667,6 +2729,7 @@
   },
   "arrow-left": {
     "id": "arrow-left",
+    "nodeId": "1090:15592",
     "displayName": "arrow-left",
     "fileName": "arrow-left.svg",
     "urlPath": "arrow-left",
@@ -2710,6 +2773,7 @@
   },
   "arrow-right": {
     "id": "arrow-right",
+    "nodeId": "1090:15596",
     "displayName": "arrow-right",
     "fileName": "arrow-right.svg",
     "urlPath": "arrow-right",
@@ -2753,6 +2817,7 @@
   },
   "arrow-down": {
     "id": "arrow-down",
+    "nodeId": "1090:15594",
     "displayName": "arrow-down",
     "fileName": "arrow-down.svg",
     "urlPath": "arrow-down",
@@ -2796,6 +2861,7 @@
   },
   "arrow-up": {
     "id": "arrow-up",
+    "nodeId": "1090:15590",
     "displayName": "arrow-up",
     "fileName": "arrow-up.svg",
     "urlPath": "arrow-up",
@@ -2839,6 +2905,7 @@
   },
   "arrow-left-right": {
     "id": "arrow-left-right",
+    "nodeId": "1153:2855",
     "displayName": "arrow-left-right",
     "fileName": "arrow-left-right.svg",
     "urlPath": "arrow-left-right",
@@ -2882,6 +2949,7 @@
   },
   "arrow-bottom-top": {
     "id": "arrow-bottom-top",
+    "nodeId": "2442:720",
     "displayName": "arrow-bottom-top",
     "fileName": "arrow-bottom-top.svg",
     "urlPath": "arrow-bottom-top",
@@ -2925,6 +2993,7 @@
   },
   "chevron-top": {
     "id": "chevron-top",
+    "nodeId": "1090:15588",
     "displayName": "chevron-top",
     "fileName": "chevron-top.svg",
     "urlPath": "chevron-top",
@@ -2968,6 +3037,7 @@
   },
   "chevron-bottom": {
     "id": "chevron-bottom",
+    "nodeId": "1090:15586",
     "displayName": "chevron-bottom",
     "fileName": "chevron-bottom.svg",
     "urlPath": "chevron-bottom",
@@ -3011,6 +3081,7 @@
   },
   "chevron-right": {
     "id": "chevron-right",
+    "nodeId": "1090:15584",
     "displayName": "chevron-right",
     "fileName": "chevron-right.svg",
     "urlPath": "chevron-right",
@@ -3054,6 +3125,7 @@
   },
   "chevron-left": {
     "id": "chevron-left",
+    "nodeId": "1090:15582",
     "displayName": "chevron-left",
     "fileName": "chevron-left.svg",
     "urlPath": "chevron-left",
@@ -3097,6 +3169,7 @@
   },
   "chevron-double-up": {
     "id": "chevron-double-up",
+    "nodeId": "1090:15580",
     "displayName": "chevron-double-up",
     "fileName": "chevron-double-up.svg",
     "urlPath": "chevron-double-up",
@@ -3140,6 +3213,7 @@
   },
   "chevron-double-down": {
     "id": "chevron-double-down",
+    "nodeId": "1090:15578",
     "displayName": "chevron-double-down",
     "fileName": "chevron-double-down.svg",
     "urlPath": "chevron-double-down",
@@ -3183,6 +3257,7 @@
   },
   "chevron-double-right": {
     "id": "chevron-double-right",
+    "nodeId": "1090:15576",
     "displayName": "chevron-double-right",
     "fileName": "chevron-double-right.svg",
     "urlPath": "chevron-double-right",
@@ -3226,6 +3301,7 @@
   },
   "chevron-double-left": {
     "id": "chevron-double-left",
+    "nodeId": "1090:15601",
     "displayName": "chevron-double-left",
     "fileName": "chevron-double-left.svg",
     "urlPath": "chevron-double-left",
@@ -3269,6 +3345,7 @@
   },
   "chevron-grabber-vertical": {
     "id": "chevron-grabber-vertical",
+    "nodeId": "1090:15603",
     "displayName": "chevron-grabber-vertical",
     "fileName": "chevron-grabber-vertical.svg",
     "urlPath": "chevron-grabber-vertical",
@@ -3312,6 +3389,7 @@
   },
   "refund": {
     "id": "refund",
+    "nodeId": "2721:1141",
     "displayName": "refund",
     "fileName": "refund.svg",
     "urlPath": "refund",
@@ -3355,6 +3433,7 @@
   },
   "credit-card": {
     "id": "credit-card",
+    "nodeId": "1090:15645",
     "displayName": "credit-card",
     "fileName": "credit-card.svg",
     "urlPath": "credit-card",
@@ -3398,6 +3477,7 @@
   },
   "bag": {
     "id": "bag",
+    "nodeId": "1090:15643",
     "displayName": "bag",
     "fileName": "bag.svg",
     "urlPath": "bag",
@@ -3441,6 +3521,7 @@
   },
   "wallet": {
     "id": "wallet",
+    "nodeId": "1092:525",
     "displayName": "wallet",
     "fileName": "wallet.svg",
     "urlPath": "wallet",
@@ -3484,6 +3565,7 @@
   },
   "calculator": {
     "id": "calculator",
+    "nodeId": "1090:15639",
     "displayName": "calculator",
     "fileName": "calculator.svg",
     "urlPath": "calculator",
@@ -3527,6 +3609,7 @@
   },
   "piggy-bank": {
     "id": "piggy-bank",
+    "nodeId": "1090:15717",
     "displayName": "piggy-bank",
     "fileName": "piggy-bank.svg",
     "urlPath": "piggy-bank",
@@ -3570,6 +3653,7 @@
   },
   "trading-view-candles": {
     "id": "trading-view-candles",
+    "nodeId": "1153:2900",
     "displayName": "trading-view-candles",
     "fileName": "trading-view-candles.svg",
     "urlPath": "trading-view-candles",
@@ -3613,6 +3697,7 @@
   },
   "money-hand": {
     "id": "money-hand",
+    "nodeId": "1090:15818",
     "displayName": "money-hand",
     "fileName": "money-hand.svg",
     "urlPath": "money-hand",
@@ -3656,6 +3741,7 @@
   },
   "circles-three": {
     "id": "circles-three",
+    "nodeId": "1241:2885",
     "displayName": "circles-three",
     "fileName": "circles-three.svg",
     "urlPath": "circles-three",
@@ -3699,6 +3785,7 @@
   },
   "banknote": {
     "id": "banknote",
+    "nodeId": "1153:996",
     "displayName": "banknote",
     "fileName": "banknote.svg",
     "urlPath": "banknote",
@@ -3742,6 +3829,7 @@
   },
   "banknote-2": {
     "id": "banknote-2",
+    "nodeId": "2719:704",
     "displayName": "banknote-2",
     "fileName": "banknote-2.svg",
     "urlPath": "banknote-2",
@@ -3785,6 +3873,7 @@
   },
   "moneybag": {
     "id": "moneybag",
+    "nodeId": "1173:781",
     "displayName": "moneybag",
     "fileName": "moneybag.svg",
     "urlPath": "moneybag",
@@ -3828,6 +3917,7 @@
   },
   "shopping-bag": {
     "id": "shopping-bag",
+    "nodeId": "1241:2856",
     "displayName": "shopping-bag",
     "fileName": "shopping-bag.svg",
     "urlPath": "shopping-bag",
@@ -3871,6 +3961,7 @@
   },
   "euro": {
     "id": "euro",
+    "nodeId": "1173:783",
     "displayName": "euro",
     "fileName": "euro.svg",
     "urlPath": "euro",
@@ -3914,6 +4005,7 @@
   },
   "dollar": {
     "id": "dollar",
+    "nodeId": "1173:785",
     "displayName": "dollar",
     "fileName": "dollar.svg",
     "urlPath": "dollar",
@@ -3957,6 +4049,7 @@
   },
   "pound": {
     "id": "pound",
+    "nodeId": "2384:1187",
     "displayName": "pound",
     "fileName": "pound.svg",
     "urlPath": "pound",
@@ -4000,6 +4093,7 @@
   },
   "trending-one": {
     "id": "trending-one",
+    "nodeId": "1090:15754",
     "displayName": "trending-one",
     "fileName": "trending-one.svg",
     "urlPath": "trending-one",
@@ -4043,6 +4137,7 @@
   },
   "trending-two": {
     "id": "trending-two",
+    "nodeId": "1090:15752",
     "displayName": "trending-two",
     "fileName": "trending-two.svg",
     "urlPath": "trending-two",
@@ -4086,6 +4181,7 @@
   },
   "trending-three": {
     "id": "trending-three",
+    "nodeId": "1090:15765",
     "displayName": "trending-three",
     "fileName": "trending-three.svg",
     "urlPath": "trending-three",
@@ -4129,6 +4225,7 @@
   },
   "trending-four": {
     "id": "trending-four",
+    "nodeId": "1090:15767",
     "displayName": "trending-four",
     "fileName": "trending-four.svg",
     "urlPath": "trending-four",
@@ -4172,6 +4269,7 @@
   },
   "line-chart-one": {
     "id": "line-chart-one",
+    "nodeId": "1090:15750",
     "displayName": "line-chart-one",
     "fileName": "line-chart-one.svg",
     "urlPath": "line-chart-one",
@@ -4215,6 +4313,7 @@
   },
   "line-chart-two": {
     "id": "line-chart-two",
+    "nodeId": "1090:15746",
     "displayName": "line-chart-two",
     "fileName": "line-chart-two.svg",
     "urlPath": "line-chart-two",
@@ -4258,6 +4357,7 @@
   },
   "line-chart-three": {
     "id": "line-chart-three",
+    "nodeId": "1090:15744",
     "displayName": "line-chart-three",
     "fileName": "line-chart-three.svg",
     "urlPath": "line-chart-three",
@@ -4301,6 +4401,7 @@
   },
   "line-chart-four": {
     "id": "line-chart-four",
+    "nodeId": "1090:15742",
     "displayName": "line-chart-four",
     "fileName": "line-chart-four.svg",
     "urlPath": "line-chart-four",
@@ -4344,6 +4445,7 @@
   },
   "chart-two": {
     "id": "chart-two",
+    "nodeId": "1239:2681",
     "displayName": "chart-two",
     "fileName": "chart-two.svg",
     "urlPath": "chart-two",
@@ -4387,6 +4489,7 @@
   },
   "pie-chart": {
     "id": "pie-chart",
+    "nodeId": "1090:15740",
     "displayName": "pie-chart",
     "fileName": "pie-chart.svg",
     "urlPath": "pie-chart",
@@ -4430,6 +4533,7 @@
   },
   "law": {
     "id": "law",
+    "nodeId": "1090:15494",
     "displayName": "law",
     "fileName": "law.svg",
     "urlPath": "law",
@@ -4473,6 +4577,7 @@
   },
   "pension": {
     "id": "pension",
+    "nodeId": "2721:1058",
     "displayName": "pension",
     "fileName": "pension.svg",
     "urlPath": "pension",
@@ -4516,6 +4621,7 @@
   },
   "chain-link-broken": {
     "id": "chain-link-broken",
+    "nodeId": "2348:2713",
     "displayName": "chain-link-broken",
     "fileName": "chain-link-broken.svg",
     "urlPath": "chain-link-broken",
@@ -4559,6 +4665,7 @@
   },
   "chain-link": {
     "id": "chain-link",
+    "nodeId": "1238:746",
     "displayName": "chain-link",
     "fileName": "chain-link.svg",
     "urlPath": "chain-link",
@@ -4602,6 +4709,7 @@
   },
   "thumbs-down": {
     "id": "thumbs-down",
+    "nodeId": "1090:15789",
     "displayName": "thumbs-down",
     "fileName": "thumbs-down.svg",
     "urlPath": "thumbs-down",
@@ -4645,6 +4753,7 @@
   },
   "thumbs-up": {
     "id": "thumbs-up",
+    "nodeId": "1090:15787",
     "displayName": "thumbs-up",
     "fileName": "thumbs-up.svg",
     "urlPath": "thumbs-up",
@@ -4688,6 +4797,7 @@
   },
   "book": {
     "id": "book",
+    "nodeId": "1090:15551",
     "displayName": "book",
     "fileName": "book.svg",
     "urlPath": "book",
@@ -4731,6 +4841,7 @@
   },
   "bookmark-delete": {
     "id": "bookmark-delete",
+    "nodeId": "1090:15573",
     "displayName": "bookmark-delete",
     "fileName": "bookmark-delete.svg",
     "urlPath": "bookmark-delete",
@@ -4774,6 +4885,7 @@
   },
   "bookmark-plus": {
     "id": "bookmark-plus",
+    "nodeId": "1090:15571",
     "displayName": "bookmark-plus",
     "fileName": "bookmark-plus.svg",
     "urlPath": "bookmark-plus",
@@ -4817,6 +4929,7 @@
   },
   "books": {
     "id": "books",
+    "nodeId": "1239:2722",
     "displayName": "books",
     "fileName": "books.svg",
     "urlPath": "books",
@@ -4860,6 +4973,7 @@
   },
   "email": {
     "id": "email",
+    "nodeId": "1090:15669",
     "displayName": "email",
     "fileName": "email.svg",
     "urlPath": "email",
@@ -4903,6 +5017,7 @@
   },
   "bubble-annotation": {
     "id": "bubble-annotation",
+    "nodeId": "1090:15519",
     "displayName": "bubble-annotation",
     "fileName": "bubble-annotation.svg",
     "urlPath": "bubble-annotation",
@@ -4946,6 +5061,7 @@
   },
   "bubbles": {
     "id": "bubbles",
+    "nodeId": "2384:1184",
     "displayName": "bubbles",
     "fileName": "bubbles.svg",
     "urlPath": "bubbles",
@@ -4989,6 +5105,7 @@
   },
   "at": {
     "id": "at",
+    "nodeId": "1090:15685",
     "displayName": "at",
     "fileName": "at.svg",
     "urlPath": "at",
@@ -5032,6 +5149,7 @@
   },
   "share": {
     "id": "share",
+    "nodeId": "1090:15598",
     "displayName": "share",
     "fileName": "share.svg",
     "urlPath": "share",
@@ -5075,6 +5193,7 @@
   },
   "pin": {
     "id": "pin",
+    "nodeId": "1090:15721",
     "displayName": "pin",
     "fileName": "pin.svg",
     "urlPath": "pin",
@@ -5118,6 +5237,7 @@
   },
   "bookmark-check": {
     "id": "bookmark-check",
+    "nodeId": "1090:15600",
     "displayName": "bookmark-check",
     "fileName": "bookmark-check.svg",
     "urlPath": "bookmark-check",
@@ -5161,6 +5281,7 @@
   },
   "bookmark-remove": {
     "id": "bookmark-remove",
+    "nodeId": "1090:15569",
     "displayName": "bookmark-remove",
     "fileName": "bookmark-remove.svg",
     "urlPath": "bookmark-remove",
@@ -5204,6 +5325,7 @@
   },
   "bookmark": {
     "id": "bookmark",
+    "nodeId": "1090:15567",
     "displayName": "bookmark",
     "fileName": "bookmark.svg",
     "urlPath": "bookmark",
@@ -5247,6 +5369,7 @@
   },
   "floppy-disk": {
     "id": "floppy-disk",
+    "nodeId": "1090:15536",
     "displayName": "floppy-disk",
     "fileName": "floppy-disk.svg",
     "urlPath": "floppy-disk",
@@ -5290,6 +5413,7 @@
   },
   "cloud-upload": {
     "id": "cloud-upload",
+    "nodeId": "1090:15532",
     "displayName": "cloud-upload",
     "fileName": "cloud-upload.svg",
     "urlPath": "cloud-upload",
@@ -5333,6 +5457,7 @@
   },
   "cloud-download": {
     "id": "cloud-download",
+    "nodeId": "2348:2970",
     "displayName": "cloud-download",
     "fileName": "cloud-download.svg",
     "urlPath": "cloud-download",
@@ -5376,6 +5501,7 @@
   },
   "text-edit": {
     "id": "text-edit",
+    "nodeId": "1090:15628",
     "displayName": "text-edit",
     "fileName": "text-edit.svg",
     "urlPath": "text-edit",
@@ -5419,6 +5545,7 @@
   },
   "scissors": {
     "id": "scissors",
+    "nodeId": "1153:8290",
     "displayName": "scissors",
     "fileName": "scissors.svg",
     "urlPath": "scissors",
@@ -5462,6 +5589,7 @@
   },
   "pencil-sparkle": {
     "id": "pencil-sparkle",
+    "nodeId": "1153:8223",
     "displayName": "pencil-sparkle",
     "fileName": "pencil-sparkle.svg",
     "urlPath": "pencil-sparkle",
@@ -5505,6 +5633,7 @@
   },
   "pencil-sign": {
     "id": "pencil-sign",
+    "nodeId": "1090:15635",
     "displayName": "pencil-sign",
     "fileName": "pencil-sign.svg",
     "urlPath": "pencil-sign",
@@ -5548,6 +5677,7 @@
   },
   "folder-add-right": {
     "id": "folder-add-right",
+    "nodeId": "1090:15775",
     "displayName": "folder-add-right",
     "fileName": "folder-add-right.svg",
     "urlPath": "folder-add-right",
@@ -5591,6 +5721,7 @@
   },
   "folder": {
     "id": "folder",
+    "nodeId": "1090:15773",
     "displayName": "folder",
     "fileName": "folder.svg",
     "urlPath": "folder",
@@ -5634,6 +5765,7 @@
   },
   "archive": {
     "id": "archive",
+    "nodeId": "1090:15549",
     "displayName": "archive",
     "fileName": "archive.svg",
     "urlPath": "archive",
@@ -5677,6 +5809,7 @@
   },
   "buildings": {
     "id": "buildings",
+    "nodeId": "1090:15777",
     "displayName": "buildings",
     "fileName": "buildings.svg",
     "urlPath": "buildings",
@@ -5720,6 +5853,7 @@
   },
   "block": {
     "id": "block",
+    "nodeId": "1090:15780",
     "displayName": "block",
     "fileName": "block.svg",
     "urlPath": "block",
@@ -5763,6 +5897,7 @@
   },
   "home-roof": {
     "id": "home-roof",
+    "nodeId": "1090:15486",
     "displayName": "home-roof",
     "fileName": "home-roof.svg",
     "urlPath": "home-roof",
@@ -5806,6 +5941,7 @@
   },
   "home-open": {
     "id": "home-open",
+    "nodeId": "1090:15488",
     "displayName": "home-open",
     "fileName": "home-open.svg",
     "urlPath": "home-open",
@@ -5849,6 +5985,7 @@
   },
   "home-energy-one": {
     "id": "home-energy-one",
+    "nodeId": "1153:959",
     "displayName": "home-energy-one",
     "fileName": "home-energy-one.svg",
     "urlPath": "home-energy-one",
@@ -5892,6 +6029,7 @@
   },
   "home-energy-two": {
     "id": "home-energy-two",
+    "nodeId": "1153:965",
     "displayName": "home-energy-two",
     "fileName": "home-energy-two.svg",
     "urlPath": "home-energy-two",
@@ -5935,6 +6073,7 @@
   },
   "bank": {
     "id": "bank",
+    "nodeId": "1090:15781",
     "displayName": "bank",
     "fileName": "bank.svg",
     "urlPath": "bank",
@@ -5978,6 +6117,7 @@
   },
   "office": {
     "id": "office",
+    "nodeId": "1090:15783",
     "displayName": "office",
     "fileName": "office.svg",
     "urlPath": "office",
@@ -6021,6 +6161,7 @@
   },
   "industry": {
     "id": "industry",
+    "nodeId": "1090:15812",
     "displayName": "industry",
     "fileName": "industry.svg",
     "urlPath": "industry",
@@ -6064,6 +6205,7 @@
   },
   "store": {
     "id": "store",
+    "nodeId": "1153:7851",
     "displayName": "store",
     "fileName": "store.svg",
     "urlPath": "store",
@@ -6107,6 +6249,7 @@
   },
   "thermostat": {
     "id": "thermostat",
+    "nodeId": "1153:964",
     "displayName": "thermostat",
     "fileName": "thermostat.svg",
     "urlPath": "thermostat",
@@ -6150,6 +6293,7 @@
   },
   "umbrella-security": {
     "id": "umbrella-security",
+    "nodeId": "1241:2904",
     "displayName": "umbrella-security",
     "fileName": "umbrella-security.svg",
     "urlPath": "umbrella-security",
@@ -6193,6 +6337,7 @@
   },
   "sun": {
     "id": "sun",
+    "nodeId": "1241:2878",
     "displayName": "sun",
     "fileName": "sun.svg",
     "urlPath": "sun",
@@ -6236,6 +6381,7 @@
   },
   "moon": {
     "id": "moon",
+    "nodeId": "1090:15760",
     "displayName": "moon",
     "fileName": "moon.svg",
     "urlPath": "moon",
@@ -6279,6 +6425,7 @@
   },
   "rainy": {
     "id": "rainy",
+    "nodeId": "1485:668",
     "displayName": "rainy",
     "fileName": "rainy.svg",
     "urlPath": "rainy",
@@ -6322,6 +6469,7 @@
   },
   "cloudy-sun": {
     "id": "cloudy-sun",
+    "nodeId": "1485:737",
     "displayName": "cloudy-sun",
     "fileName": "cloudy-sun.svg",
     "urlPath": "cloudy-sun",
@@ -6365,6 +6513,7 @@
   },
   "lightning": {
     "id": "lightning",
+    "nodeId": "1090:15794",
     "displayName": "lightning",
     "fileName": "lightning.svg",
     "urlPath": "lightning",
@@ -6408,6 +6557,7 @@
   },
   "zap": {
     "id": "zap",
+    "nodeId": "1090:15796",
     "displayName": "zap",
     "fileName": "zap.svg",
     "urlPath": "zap",
@@ -6451,6 +6601,7 @@
   },
   "sunset-arrow-down": {
     "id": "sunset-arrow-down",
+    "nodeId": "2719:793",
     "displayName": "sunset-arrow-down",
     "fileName": "sunset-arrow-down.svg",
     "urlPath": "sunset-arrow-down",
@@ -6494,6 +6645,7 @@
   },
   "play": {
     "id": "play",
+    "nodeId": "1090:15723",
     "displayName": "play",
     "fileName": "play.svg",
     "urlPath": "play",
@@ -6537,6 +6689,7 @@
   },
   "pause": {
     "id": "pause",
+    "nodeId": "1757:1203",
     "displayName": "pause",
     "fileName": "pause.svg",
     "urlPath": "pause",
@@ -6580,6 +6733,7 @@
   },
   "fast-forward": {
     "id": "fast-forward",
+    "nodeId": "1757:1202",
     "displayName": "fast-forward",
     "fileName": "fast-forward.svg",
     "urlPath": "fast-forward",
@@ -6623,6 +6777,7 @@
   },
   "back": {
     "id": "back",
+    "nodeId": "1757:1201",
     "displayName": "back",
     "fileName": "back.svg",
     "urlPath": "back",
@@ -6666,6 +6821,7 @@
   },
   "fullscreen": {
     "id": "fullscreen",
+    "nodeId": "2479:645",
     "displayName": "fullscreen",
     "fileName": "fullscreen.svg",
     "urlPath": "fullscreen",
@@ -6709,6 +6865,7 @@
   },
   "play-circle": {
     "id": "play-circle",
+    "nodeId": "1090:15725",
     "displayName": "play-circle",
     "fileName": "play-circle.svg",
     "urlPath": "play-circle",
@@ -6752,6 +6909,7 @@
   },
   "volume-full": {
     "id": "volume-full",
+    "nodeId": "1090:15727",
     "displayName": "volume-full",
     "fileName": "volume-full.svg",
     "urlPath": "volume-full",
@@ -6795,6 +6953,7 @@
   },
   "volume-half": {
     "id": "volume-half",
+    "nodeId": "1090:15729",
     "displayName": "volume-half",
     "fileName": "volume-half.svg",
     "urlPath": "volume-half",
@@ -6838,6 +6997,7 @@
   },
   "volume-off": {
     "id": "volume-off",
+    "nodeId": "1090:15731",
     "displayName": "volume-off",
     "fileName": "volume-off.svg",
     "urlPath": "volume-off",
@@ -6881,6 +7041,7 @@
   },
   "mute": {
     "id": "mute",
+    "nodeId": "1090:15733",
     "displayName": "mute",
     "fileName": "mute.svg",
     "urlPath": "mute",
@@ -6924,6 +7085,7 @@
   },
   "megaphone": {
     "id": "megaphone",
+    "nodeId": "1488:873",
     "displayName": "megaphone",
     "fileName": "megaphone.svg",
     "urlPath": "megaphone",
@@ -6967,6 +7129,7 @@
   },
   "headphones": {
     "id": "headphones",
+    "nodeId": "1241:2838",
     "displayName": "headphones",
     "fileName": "headphones.svg",
     "urlPath": "headphones",
@@ -7010,6 +7173,7 @@
   },
   "people": {
     "id": "people",
+    "nodeId": "1153:7583",
     "displayName": "people",
     "fileName": "people.svg",
     "urlPath": "people",
@@ -7053,6 +7217,7 @@
   },
   "people-profile": {
     "id": "people-profile",
+    "nodeId": "1090:15553",
     "displayName": "people-profile",
     "fileName": "people-profile.svg",
     "urlPath": "people-profile",
@@ -7096,6 +7261,7 @@
   },
   "people-added": {
     "id": "people-added",
+    "nodeId": "1090:15555",
     "displayName": "people-added",
     "fileName": "people-added.svg",
     "urlPath": "people-added",
@@ -7139,6 +7305,7 @@
   },
   "people-add": {
     "id": "people-add",
+    "nodeId": "1090:15557",
     "displayName": "people-add",
     "fileName": "people-add.svg",
     "urlPath": "people-add",
@@ -7182,6 +7349,7 @@
   },
   "people-remove": {
     "id": "people-remove",
+    "nodeId": "1090:15559",
     "displayName": "people-remove",
     "fileName": "people-remove.svg",
     "urlPath": "people-remove",
@@ -7225,6 +7393,7 @@
   },
   "group": {
     "id": "group",
+    "nodeId": "1090:15561",
     "displayName": "group",
     "fileName": "group.svg",
     "urlPath": "group",
@@ -7268,6 +7437,7 @@
   },
   "people-circle": {
     "id": "people-circle",
+    "nodeId": "1090:15563",
     "displayName": "people-circle",
     "fileName": "people-circle.svg",
     "urlPath": "people-circle",
@@ -7311,6 +7481,7 @@
   },
   "people-copy": {
     "id": "people-copy",
+    "nodeId": "1090:15565",
     "displayName": "people-copy",
     "fileName": "people-copy.svg",
     "urlPath": "people-copy",
@@ -7354,6 +7525,7 @@
   },
   "people-a11y": {
     "id": "people-a11y",
+    "nodeId": "2461:704",
     "displayName": "people-a11y",
     "fileName": "people-a11y.svg",
     "urlPath": "people-a11y",
@@ -7397,6 +7569,7 @@
   },
   "leisure": {
     "id": "leisure",
+    "nodeId": "2720:887",
     "displayName": "leisure",
     "fileName": "leisure.svg",
     "urlPath": "leisure",
@@ -7440,6 +7613,7 @@
   },
   "call": {
     "id": "call",
+    "nodeId": "1090:15710",
     "displayName": "call",
     "fileName": "call.svg",
     "urlPath": "call",
@@ -7483,6 +7657,7 @@
   },
   "printer": {
     "id": "printer",
+    "nodeId": "1090:15708",
     "displayName": "printer",
     "fileName": "printer.svg",
     "urlPath": "printer",
@@ -7526,6 +7701,7 @@
   },
   "macbook-air": {
     "id": "macbook-air",
+    "nodeId": "1090:15698",
     "displayName": "macbook-air",
     "fileName": "macbook-air.svg",
     "urlPath": "macbook-air",
@@ -7569,6 +7745,7 @@
   },
   "television": {
     "id": "television",
+    "nodeId": "1090:15696",
     "displayName": "television",
     "fileName": "television.svg",
     "urlPath": "television",
@@ -7612,6 +7789,7 @@
   },
   "devices": {
     "id": "devices",
+    "nodeId": "1090:15694",
     "displayName": "devices",
     "fileName": "devices.svg",
     "urlPath": "devices",
@@ -7655,6 +7833,7 @@
   },
   "smartwatch": {
     "id": "smartwatch",
+    "nodeId": "1090:15692",
     "displayName": "smartwatch",
     "fileName": "smartwatch.svg",
     "urlPath": "smartwatch",
@@ -7698,6 +7877,7 @@
   },
   "phone": {
     "id": "phone",
+    "nodeId": "1090:15690",
     "displayName": "phone",
     "fileName": "phone.svg",
     "urlPath": "phone",
@@ -7741,6 +7921,7 @@
   },
   "barcode": {
     "id": "barcode",
+    "nodeId": "1090:15737",
     "displayName": "barcode",
     "fileName": "barcode.svg",
     "urlPath": "barcode",
@@ -7784,6 +7965,7 @@
   },
   "focus": {
     "id": "focus",
+    "nodeId": "1090:15735",
     "displayName": "focus",
     "fileName": "focus.svg",
     "urlPath": "focus",
@@ -7827,6 +8009,7 @@
   },
   "ai": {
     "id": "ai",
+    "nodeId": "2384:1192",
     "displayName": "ai",
     "fileName": "ai.svg",
     "urlPath": "ai",
@@ -7870,6 +8053,7 @@
   },
   "lab": {
     "id": "lab",
+    "nodeId": "2384:1190",
     "displayName": "lab",
     "fileName": "lab.svg",
     "urlPath": "lab",
@@ -7913,6 +8097,7 @@
   },
   "qr-code": {
     "id": "qr-code",
+    "nodeId": "1090:15764",
     "displayName": "qr-code",
     "fileName": "qr-code.svg",
     "urlPath": "qr-code",
@@ -7956,6 +8141,7 @@
   },
   "robot": {
     "id": "robot",
+    "nodeId": "1090:15785",
     "displayName": "robot",
     "fileName": "robot.svg",
     "urlPath": "robot",
@@ -7999,6 +8185,7 @@
   },
   "compass-round": {
     "id": "compass-round",
+    "nodeId": "1488:885",
     "displayName": "compass-round",
     "fileName": "compass-round.svg",
     "urlPath": "compass-round",
@@ -8042,6 +8229,7 @@
   },
   "clock": {
     "id": "clock",
+    "nodeId": "1090:15490",
     "displayName": "clock",
     "fileName": "clock.svg",
     "urlPath": "clock",
@@ -8085,6 +8273,7 @@
   },
   "map-pin": {
     "id": "map-pin",
+    "nodeId": "1090:15756",
     "displayName": "map-pin",
     "fileName": "map-pin.svg",
     "urlPath": "map-pin",
@@ -8128,6 +8317,7 @@
   },
   "calendar": {
     "id": "calendar",
+    "nodeId": "1239:2728",
     "displayName": "calendar",
     "fileName": "calendar.svg",
     "urlPath": "calendar",
@@ -8171,6 +8361,7 @@
   },
   "calender-add": {
     "id": "calender-add",
+    "nodeId": "1239:2807",
     "displayName": "calender-add",
     "fileName": "calender-add.svg",
     "urlPath": "calender-add",
@@ -8214,6 +8405,7 @@
   },
   "calendar-check": {
     "id": "calendar-check",
+    "nodeId": "1239:2735",
     "displayName": "calendar-check",
     "fileName": "calendar-check.svg",
     "urlPath": "calendar-check",
@@ -8257,6 +8449,7 @@
   },
   "direction": {
     "id": "direction",
+    "nodeId": "1241:2849",
     "displayName": "direction",
     "fileName": "direction.svg",
     "urlPath": "direction",
@@ -8300,6 +8493,7 @@
   },
   "receiption-bell": {
     "id": "receiption-bell",
+    "nodeId": "1153:2874",
     "displayName": "receiption-bell",
     "fileName": "receiption-bell.svg",
     "urlPath": "receiption-bell",
@@ -8343,6 +8537,7 @@
   },
   "green-power": {
     "id": "green-power",
+    "nodeId": "2384:1191",
     "displayName": "green-power",
     "fileName": "green-power.svg",
     "urlPath": "green-power",
@@ -8386,6 +8581,7 @@
   },
   "cookies": {
     "id": "cookies",
+    "nodeId": "2384:1189",
     "displayName": "cookies",
     "fileName": "cookies.svg",
     "urlPath": "cookies",
@@ -8429,6 +8625,7 @@
   },
   "checklist": {
     "id": "checklist",
+    "nodeId": "1090:15681",
     "displayName": "checklist",
     "fileName": "checklist.svg",
     "urlPath": "checklist",
@@ -8472,6 +8669,7 @@
   },
   "square-placeholder": {
     "id": "square-placeholder",
+    "nodeId": "1090:15712",
     "displayName": "square-placeholder",
     "fileName": "square-placeholder.svg",
     "urlPath": "square-placeholder",
@@ -8515,6 +8713,7 @@
   },
   "files": {
     "id": "files",
+    "nodeId": "1090:15706",
     "displayName": "files",
     "fileName": "files.svg",
     "urlPath": "files",
@@ -8558,6 +8757,7 @@
   },
   "file-bend": {
     "id": "file-bend",
+    "nodeId": "1090:15704",
     "displayName": "file-bend",
     "fileName": "file-bend.svg",
     "urlPath": "file-bend",
@@ -8601,6 +8801,7 @@
   },
   "file-text": {
     "id": "file-text",
+    "nodeId": "1090:15702",
     "displayName": "file-text",
     "fileName": "file-text.svg",
     "urlPath": "file-text",
@@ -8644,6 +8845,7 @@
   },
   "file-chart": {
     "id": "file-chart",
+    "nodeId": "1239:2824",
     "displayName": "file-chart",
     "fileName": "file-chart.svg",
     "urlPath": "file-chart",
@@ -8687,6 +8889,7 @@
   },
   "page-add": {
     "id": "page-add",
+    "nodeId": "2384:1188",
     "displayName": "page-add",
     "fileName": "page-add.svg",
     "urlPath": "page-add",
@@ -8730,6 +8933,7 @@
   },
   "receipt-bill": {
     "id": "receipt-bill",
+    "nodeId": "1239:2699",
     "displayName": "receipt-bill",
     "fileName": "receipt-bill.svg",
     "urlPath": "receipt-bill",
@@ -8773,6 +8977,7 @@
   },
   "growth": {
     "id": "growth",
+    "nodeId": "1090:15814",
     "displayName": "growth",
     "fileName": "growth.svg",
     "urlPath": "growth",
@@ -8816,6 +9021,7 @@
   },
   "tree": {
     "id": "tree",
+    "nodeId": "1153:8086",
     "displayName": "tree",
     "fileName": "tree.svg",
     "urlPath": "tree",
@@ -8859,6 +9065,7 @@
   },
   "light-bulb-simple": {
     "id": "light-bulb-simple",
+    "nodeId": "1090:15810",
     "displayName": "light-bulb-simple",
     "fileName": "light-bulb-simple.svg",
     "urlPath": "light-bulb-simple",
@@ -8902,6 +9109,7 @@
   },
   "paperclip": {
     "id": "paperclip",
+    "nodeId": "1090:15804",
     "displayName": "paperclip",
     "fileName": "paperclip.svg",
     "urlPath": "paperclip",
@@ -8945,6 +9153,7 @@
   },
   "solar": {
     "id": "solar",
+    "nodeId": "1153:961",
     "displayName": "solar",
     "fileName": "solar.svg",
     "urlPath": "solar",
@@ -8988,6 +9197,7 @@
   },
   "battery-loading": {
     "id": "battery-loading",
+    "nodeId": "1153:967",
     "displayName": "battery-loading",
     "fileName": "battery-loading.svg",
     "urlPath": "battery-loading",
@@ -9031,6 +9241,7 @@
   },
   "images": {
     "id": "images",
+    "nodeId": "1153:7717",
     "displayName": "images",
     "fileName": "images.svg",
     "urlPath": "images",
@@ -9074,6 +9285,7 @@
   },
   "warning-sign": {
     "id": "warning-sign",
+    "nodeId": "1153:7918",
     "displayName": "warning-sign",
     "fileName": "warning-sign.svg",
     "urlPath": "warning-sign",
@@ -9117,6 +9329,7 @@
   },
   "brush": {
     "id": "brush",
+    "nodeId": "1153:8156",
     "displayName": "brush",
     "fileName": "brush.svg",
     "urlPath": "brush",
@@ -9160,6 +9373,7 @@
   },
   "tennis": {
     "id": "tennis",
+    "nodeId": "1153:8424",
     "displayName": "tennis",
     "fileName": "tennis.svg",
     "urlPath": "tennis",
@@ -9203,6 +9417,7 @@
   },
   "knife-spoon": {
     "id": "knife-spoon",
+    "nodeId": "1153:8577",
     "displayName": "knife-spoon",
     "fileName": "knife-spoon.svg",
     "urlPath": "knife-spoon",
@@ -9246,6 +9461,7 @@
   },
   "graduate-cap": {
     "id": "graduate-cap",
+    "nodeId": "1153:8644",
     "displayName": "graduate-cap",
     "fileName": "graduate-cap.svg",
     "urlPath": "graduate-cap",
@@ -9289,6 +9505,7 @@
   },
   "raising-hand": {
     "id": "raising-hand",
+    "nodeId": "1153:8778",
     "displayName": "raising-hand",
     "fileName": "raising-hand.svg",
     "urlPath": "raising-hand",
@@ -9332,6 +9549,7 @@
   },
   "pinch": {
     "id": "pinch",
+    "nodeId": "1239:2810",
     "displayName": "pinch",
     "fileName": "pinch.svg",
     "urlPath": "pinch",
@@ -9375,6 +9593,7 @@
   },
   "reading-list": {
     "id": "reading-list",
+    "nodeId": "1239:2817",
     "displayName": "reading-list",
     "fileName": "reading-list.svg",
     "urlPath": "reading-list",
@@ -9418,6 +9637,7 @@
   },
   "poop": {
     "id": "poop",
+    "nodeId": "1241:2831",
     "displayName": "poop",
     "fileName": "poop.svg",
     "urlPath": "poop",
@@ -9461,6 +9681,7 @@
   },
   "fashion": {
     "id": "fashion",
+    "nodeId": "1241:2863",
     "displayName": "fashion",
     "fileName": "fashion.svg",
     "urlPath": "fashion",
@@ -9504,6 +9725,7 @@
   },
   "cup-hot": {
     "id": "cup-hot",
+    "nodeId": "1488:737",
     "displayName": "cup-hot",
     "fileName": "cup-hot.svg",
     "urlPath": "cup-hot",
@@ -9547,6 +9769,7 @@
   },
   "car": {
     "id": "car",
+    "nodeId": "1090:15802",
     "displayName": "car",
     "fileName": "car.svg",
     "urlPath": "car",
@@ -9590,6 +9813,7 @@
   },
   "truck": {
     "id": "truck",
+    "nodeId": "1153:8357",
     "displayName": "truck",
     "fileName": "truck.svg",
     "urlPath": "truck",
@@ -9633,6 +9857,7 @@
   },
   "airplane-up": {
     "id": "airplane-up",
+    "nodeId": "1173:706",
     "displayName": "airplane-up",
     "fileName": "airplane-up.svg",
     "urlPath": "airplane-up",
@@ -9676,6 +9901,7 @@
   },
   "rocket": {
     "id": "rocket",
+    "nodeId": "1090:15798",
     "displayName": "rocket",
     "fileName": "rocket.svg",
     "urlPath": "rocket",
@@ -9719,6 +9945,7 @@
   },
   "other": {
     "id": "other",
+    "nodeId": "2721:975",
     "displayName": "other",
     "fileName": "other.svg",
     "urlPath": "other",
@@ -9762,6 +9989,7 @@
   },
   "brand-instagram": {
     "id": "brand-instagram",
+    "nodeId": "1173:857",
     "displayName": "brand-instagram",
     "fileName": "brand-instagram.svg",
     "urlPath": "brand-instagram",
@@ -9805,6 +10033,7 @@
   },
   "brand-facebook": {
     "id": "brand-facebook",
+    "nodeId": "1173:855",
     "displayName": "brand-facebook",
     "fileName": "brand-facebook.svg",
     "urlPath": "brand-facebook",
@@ -9848,6 +10077,7 @@
   },
   "youtube": {
     "id": "youtube",
+    "nodeId": "2445:615",
     "displayName": "youtube",
     "fileName": "youtube.svg",
     "urlPath": "youtube",
@@ -9891,6 +10121,7 @@
   },
   "brand-linkedin": {
     "id": "brand-linkedin",
+    "nodeId": "1173:858",
     "displayName": "brand-linkedin",
     "fileName": "brand-linkedin.svg",
     "urlPath": "brand-linkedin",
@@ -9934,6 +10165,7 @@
   },
   "brand-x": {
     "id": "brand-x",
+    "nodeId": "1757:1198",
     "displayName": "brand-x",
     "fileName": "brand-x.svg",
     "urlPath": "brand-x",
@@ -9977,6 +10209,7 @@
   },
   "brand-github": {
     "id": "brand-github",
+    "nodeId": "1173:859",
     "displayName": "brand-github",
     "fileName": "brand-github.svg",
     "urlPath": "brand-github",
@@ -10020,6 +10253,7 @@
   },
   "brand-rss-feed": {
     "id": "brand-rss-feed",
+    "nodeId": "1173:862",
     "displayName": "brand-rss-feed",
     "fileName": "brand-rss-feed.svg",
     "urlPath": "brand-rss-feed",
@@ -10063,6 +10297,7 @@
   },
   "brand-storybook": {
     "id": "brand-storybook",
+    "nodeId": "2445:587",
     "displayName": "brand-storybook",
     "fileName": "brand-storybook.svg",
     "urlPath": "brand-storybook",
@@ -10106,6 +10341,7 @@
   },
   "safari": {
     "id": "safari",
+    "nodeId": "2445:621",
     "displayName": "safari",
     "fileName": "safari.svg",
     "urlPath": "safari",
@@ -10149,6 +10385,7 @@
   },
   "brand-chrome": {
     "id": "brand-chrome",
+    "nodeId": "2733:642",
     "displayName": "brand-chrome",
     "fileName": "brand-chrome.svg",
     "urlPath": "brand-chrome",
@@ -10192,6 +10429,7 @@
   },
   "brand-firefox": {
     "id": "brand-firefox",
+    "nodeId": "2445:639",
     "displayName": "brand-firefox",
     "fileName": "brand-firefox.svg",
     "urlPath": "brand-firefox",
@@ -10235,6 +10473,7 @@
   },
   "brand-green": {
     "id": "brand-green",
+    "nodeId": "1761:4779",
     "displayName": "brand-green",
     "fileName": "brand-green.svg",
     "urlPath": "brand-green",
@@ -10278,6 +10517,7 @@
   },
   "brand-seb": {
     "id": "brand-seb",
+    "nodeId": "1762:6367",
     "displayName": "brand-seb",
     "fileName": "brand-seb.svg",
     "urlPath": "brand-seb",
@@ -10321,6 +10561,7 @@
   },
   "brand-spotify": {
     "id": "brand-spotify",
+    "nodeId": "1173:860",
     "displayName": "brand-spotify",
     "fileName": "brand-spotify.svg",
     "urlPath": "brand-spotify",
@@ -10364,6 +10605,7 @@
   },
   "brand-apple-music": {
     "id": "brand-apple-music",
+    "nodeId": "1173:861",
     "displayName": "brand-apple-music",
     "fileName": "brand-apple-music.svg",
     "urlPath": "brand-apple-music",
@@ -10407,6 +10649,7 @@
   },
   "brand-figma": {
     "id": "brand-figma",
+    "nodeId": "1173:867",
     "displayName": "brand-figma",
     "fileName": "brand-figma.svg",
     "urlPath": "brand-figma",
@@ -10450,6 +10693,7 @@
   },
   "brand-bankid": {
     "id": "brand-bankid",
+    "nodeId": "1206:657",
     "displayName": "brand-bankid",
     "fileName": "brand-bankid.svg",
     "urlPath": "brand-bankid",
@@ -10493,6 +10737,7 @@
   },
   "brand-app-store": {
     "id": "brand-app-store",
+    "nodeId": "1761:4773",
     "displayName": "brand-app-store",
     "fileName": "brand-app-store.svg",
     "urlPath": "brand-app-store",
@@ -10536,6 +10781,7 @@
   },
   "brand-play-store": {
     "id": "brand-play-store",
+    "nodeId": "1761:4776",
     "displayName": "brand-play-store",
     "fileName": "brand-play-store.svg",
     "urlPath": "brand-play-store",
