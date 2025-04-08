@@ -5,50 +5,6 @@ const Ajv = require("ajv");
 const addFormats = require("ajv-formats");
 require("dotenv").config({ path: ".env.local" });
 
-/* Logging */
-
-function createProgressLog(total) {
-  return (current, type) => {
-    const percentage = Math.round((current / total) * 100);
-    console.log(`🔄 Progress (${type}): ${current}/${total} (${percentage}%)`);
-  };
-}
-
-function logIconDetails(icon, index, total) {
-  console.log(`\n📦 Processing Icon ${index}/${total}`);
-  console.table({
-    "Basic Info": {
-      Name: icon.displayName,
-      ID: icon.id,
-      Category: icon.meta.categories[0],
-      "File Name": icon.fileName,
-    },
-    Dimensions: {
-      Width: icon.meta.width,
-      Height: icon.meta.height,
-      ViewBox: icon.meta.viewBox,
-    },
-  });
-
-  if (icon.meta.tags.length > 0) {
-    console.log("🏷️  Tags:", icon.meta.tags.join(", "));
-  }
-}
-
-function logCategoryProcessing(category, iconCount) {
-  console.log(`\n📁 Category: ${category} (${iconCount} icons)`);
-}
-
-function logSummary(regularCount, solidCount, totalIcons, fileSize) {
-  console.log("\n📊 Generation Summary");
-  console.table({
-    "Regular Icons": regularCount,
-    "Solid Icons": solidCount,
-    "Total Icons": totalIcons,
-    "File Size": `${(fileSize / 1024).toFixed(2)} KB`,
-  });
-}
-
 // ========== CONFIGURATION ==========
 const GENERATED_DIR = path.join("generated");
 const SCHEMAS_DIR = path.join("schemas");
@@ -149,22 +105,18 @@ function loadSchema() {
 
 async function main() {
   try {
-    console.log("🚀 Starting icon generation process...");
-
     if (!fs.existsSync(ICONS_DIR)) {
       fs.mkdirSync(ICONS_DIR, { recursive: true });
-      console.log("✨ Created icons directory");
     }
 
     const validate = loadSchema();
-    console.log("✅ Schema loaded successfully");
 
     const url = `https://api.figma.com/v1/files/${FIGMA_ICONS_PROJECT_ID}`;
-    console.log("📡 Fetching Figma file...");
     const { data } = await axios.get(url, {
       headers: { "X-Figma-Token": FIGMA_ACCESS_KEY },
     });
 
+    // Find both Regular and Solid frames
     const regularFrame = data.document.children[0].children.find(
       (frame) => frame.name === "Regular" && frame.type === "FRAME"
     );
@@ -178,23 +130,8 @@ async function main() {
       const regularIcons = new Map();
       const solidIcons = new Map();
 
-      // Count total icons
-      const totalRegularIcons = regularFrame.children.reduce(
-        (acc, category) =>
-          acc +
-          (category.children?.reduce(
-            (sum, child) => sum + (child.children?.length || 0),
-            0
-          ) || 0),
-        0
-      );
-
-      console.log(`\n🎯 Found ${totalRegularIcons} regular icons to process`);
-      let processedRegular = 0;
-      const updateProgress = createProgressLog(totalRegularIcons);
-
       // Process Regular icons
-      console.log("\n🔄 Processing Regular icons...");
+      console.log("Processing Regular icons...");
       for (const category of regularFrame.children) {
         const categoryName = category.name;
         const subFrames = category.children?.filter(
@@ -204,14 +141,6 @@ async function main() {
         );
 
         if (subFrames && subFrames.length > 0) {
-          logCategoryProcessing(
-            categoryName,
-            subFrames.reduce(
-              (acc, frame) => acc + (frame.children?.length || 0),
-              0
-            )
-          );
-
           for (const frame of subFrames) {
             if (frame.children) {
               const nodeIds = frame.children.map((icon) => icon.id);
@@ -230,69 +159,105 @@ async function main() {
                     ? icon.children.map((child) => child.name)
                     : [],
                 });
-                processedRegular++;
-                updateProgress(processedRegular, "Regular");
               });
             }
           }
         }
       }
 
-      // Process Solid icons with similar logging
-      console.log("\n🔄 Processing Solid icons...");
-      let processedSolid = 0;
+      // Process Solid icons
+      console.log("Processing Solid icons...");
+      // Similar process for solid icons...
+      for (const category of solidFrame.children) {
+        const subFrames = category.children?.filter(
+          (child) =>
+            child.type === "FRAME" &&
+            child.name.toLowerCase() === category.name.toLowerCase()
+        );
 
-      // [Rest of the solid icons processing remains the same, just add progress logging]
+        if (subFrames && subFrames.length > 0) {
+          for (const frame of subFrames) {
+            if (frame.children) {
+              const nodeIds = frame.children.map((icon) => icon.id);
+              const svgs = await fetchSVGs(nodeIds);
 
-      // Combine Regular and Solid icons with detailed logging
-      console.log("\n🔄 Generating final icon objects...");
-      let iconCount = 0;
-      const totalIcons = regularIcons.size;
+              frame.children.forEach((icon) => {
+                const svg = svgs.find((s) => s.node === icon.id);
+                solidIcons.set(icon.name, {
+                  svg: svg?.svg || "",
+                  id: icon.id,
+                  width: svg?.width || 24,
+                  height: svg?.height || 24,
+                  viewBox: svg?.viewBox || "0 0 24 24",
+                });
+              });
+            }
+          }
+        }
+      }
 
+      // Combine Regular and Solid icons
       for (const [name, regularData] of regularIcons) {
         const iconKey = toKebabCase(name);
         const solidData = solidIcons.get(name);
 
         iconsObject[iconKey] = {
-          // [Original icon object creation remains the same]
+          id: iconKey,
+          displayName: name,
+          fileName: `${iconKey}.svg`,
+          urlPath: iconKey,
+          variants: {
+            regular: regularData.svg,
+            solid: solidData?.svg || "",
+          },
+          static: {
+            regular: `https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/${iconKey}.svg`,
+            solid: `https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/${iconKey}.svg`,
+          },
+          meta: {
+            description: "",
+            categories: [regularData.category],
+            tags: regularData.tags,
+            width: regularData.width || 24,
+            height: regularData.height || 24,
+            viewBox: regularData.viewBox || "0 0 24 24",
+          },
+          framework: {
+            web: createFrameworkConfig(iconKey),
+            react: {
+              ...createFrameworkConfig(iconKey),
+              import: `import { Icon${name.replace(
+                /\s+/g,
+                ""
+              )} } from '@sebgroup/green-react/icon/${iconKey}'`,
+              component: `<Icon${name.replace(/\s+/g, "")}></Icon${name.replace(
+                /\s+/g,
+                ""
+              )}>`,
+            },
+            angular: createFrameworkConfig(iconKey),
+          },
         };
-
-        iconCount++;
-        if (
-          iconCount % 10 === 0 ||
-          iconCount === 1 ||
-          iconCount === totalIcons
-        ) {
-          logIconDetails(iconsObject[iconKey], iconCount, totalIcons);
-        }
       }
 
       // Validate and save
-      console.log("\n✨ Validating generated icons...");
       if (!validate(iconsObject)) {
-        console.error("❌ Validation failed:", validate.errors);
+        console.error("Generated data does not match schema:", validate.errors);
         return;
       }
-      console.log("✅ Validation successful");
 
       const outputPath = path.join(ICONS_DIR, "icons.json");
       fs.writeFileSync(outputPath, JSON.stringify(iconsObject, null, 2));
-
-      // Final summary
-      const fileSize = fs.statSync(outputPath).size;
-      logSummary(
-        processedRegular,
-        processedSolid,
-        Object.keys(iconsObject).length,
-        fileSize
-      );
+      console.log(`Generated icons file at: ${outputPath}`);
+      console.log(`Total icons processed: ${Object.keys(iconsObject).length}`);
     }
   } catch (error) {
-    console.error("❌ Error:", error.message);
+    console.error("Error:", error.message);
     if (error.response) {
       console.error("Response status:", error.response.status);
       console.error("Response data:", error.response.data);
     }
   }
 }
+
 main();
