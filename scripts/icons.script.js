@@ -201,6 +201,9 @@ async function main() {
           displayName: name,
           fileName: `${iconKey}.svg`,
           urlPath: iconKey,
+          width: regularData.width || 24, // Add these new properties
+          height: regularData.height || 24,
+          viewBox: regularData.viewBox || "0 0 24 24",
           variants: {
             regular: regularData.svg,
             solid: solidData?.svg || "",
