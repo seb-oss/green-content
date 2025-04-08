@@ -48,6 +48,18 @@ async function fetchSVGs(nodeIds) {
           // Extract the path content from SVG
           const pathMatch = svgContent.match(/<svg[^>]*>([\s\S]*)<\/svg>/i);
           const pathContent = pathMatch ? pathMatch[1].trim() : null;
+
+          // Replace any fill or stroke color values with currentColor
+          if (pathContent) {
+            pathContent = pathContent
+              // Replace fill="#anyHexOrRGBValue" with fill="currentColor"
+              .replace(/fill=\"#[0-9A-Fa-f]{3,6}\"/g, 'fill="currentColor"')
+              .replace(/fill=\"rgb\([^\)]+\)\"/g, 'fill="currentColor"')
+              // Replace stroke="#anyHexOrRGBValue" with stroke="currentColor"
+              .replace(/stroke=\"#[0-9A-Fa-f]{3,6}\"/g, 'stroke="currentColor"')
+              .replace(/stroke=\"rgb\([^\)]+\)\"/g, 'stroke="currentColor"');
+          }
+
           return { node: nodeId, svg: pathContent };
         } catch (err) {
           console.error(`Error fetching SVG for node ${nodeId}:`, err.message);
