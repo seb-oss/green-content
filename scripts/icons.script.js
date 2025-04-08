@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const Ajv = require("ajv");
 const addFormats = require("ajv-formats");
+const chalk = require("chalk"); // Add this dependency
 require("dotenv").config({ path: ".env.local" });
 
 // ========== CONFIGURATION ==========
@@ -16,6 +17,30 @@ const FIGMA_ACCESS_KEY = process.env.FIGMA_ACCESS_KEY;
 // Initialize JSON Schema validator with formats
 const ajv = new Ajv();
 addFormats(ajv);
+
+// Helper function for progress logging
+function createProgressLog(total) {
+  return (current) => {
+    const percentage = Math.round((current / total) * 100);
+    process.stdout.clearLine();
+    process.stdout.cursorTo(0);
+    process.stdout.write(
+      `Progress: ${current}/${total} (${percentage}%) icons completed`
+    );
+  };
+}
+
+// Helper function for icon details logging
+function logIconDetails(icon) {
+  console.log("\n" + chalk.cyan("Icon Details:"));
+  console.table({
+    Name: icon.displayName,
+    Category: icon.meta.categories[0],
+    Dimensions: `${icon.meta.width}x${icon.meta.height}`,
+    ViewBox: icon.meta.viewBox,
+    Tags: icon.meta.tags.join(", "),
+  });
+}
 
 // Helper function to convert name to kebab case for key
 const toKebabCase = (str) => {
@@ -32,91 +57,24 @@ const createFrameworkConfig = (name) => ({
   component: `<gds-icon-${name}></gds-icon-${name}>`,
 });
 
-// Fetch SVGs from Figma
-// Fetch SVGs from Figma
-async function fetchSVGs(nodeIds) {
-  try {
-    const idsParam = nodeIds.join(",");
-    const url = `https://api.figma.com/v1/images/${FIGMA_ICONS_PROJECT_ID}/?ids=${idsParam}&format=svg`;
-    const { data: imageData } = await axios.get(url, {
-      headers: { "X-Figma-Token": FIGMA_ACCESS_KEY },
-    });
-
-    const svgPromises = Object.entries(imageData.images).map(
-      async ([nodeId, imageUrl]) => {
-        try {
-          const { data: svgContent } = await axios.get(imageUrl);
-
-          // Extract width, height, and viewBox from the SVG tag
-          const widthMatch = svgContent.match(/width="(\d+)"/);
-          const heightMatch = svgContent.match(/height="(\d+)"/);
-          const viewBoxMatch = svgContent.match(/viewBox="([^"]+)"/);
-
-          // Extract the path content from SVG
-          const pathMatch = svgContent.match(/<svg[^>]*>([\s\S]*)<\/svg>/i);
-          let pathContent = pathMatch ? pathMatch[1].trim() : null;
-
-          // Replace color values with currentColor
-          if (pathContent) {
-            pathContent = pathContent
-              .replace(/fill=\"#[0-9A-Fa-f]{3,6}\"/g, 'fill="currentColor"')
-              .replace(/fill=\"rgb\([^\)]+\)\"/g, 'fill="currentColor"')
-              .replace(/stroke=\"#[0-9A-Fa-f]{3,6}\"/g, 'stroke="currentColor"')
-              .replace(/stroke=\"rgb\([^\)]+\)\"/g, 'stroke="currentColor"');
-          }
-
-          return {
-            node: nodeId,
-            svg: pathContent,
-            width: widthMatch ? parseInt(widthMatch[1]) : 24,
-            height: heightMatch ? parseInt(heightMatch[1]) : 24,
-            viewBox: viewBoxMatch ? viewBoxMatch[1] : "0 0 24 24",
-          };
-        } catch (err) {
-          console.error(`Error fetching SVG for node ${nodeId}:`, err.message);
-          return {
-            node: nodeId,
-            svg: null,
-            width: 24,
-            height: 24,
-            viewBox: "0 0 24 24",
-          };
-        }
-      }
-    );
-    return await Promise.all(svgPromises);
-  } catch (error) {
-    console.error("Error fetching SVGs from Figma:", error.message);
-    return [];
-  }
-}
-
-// Load and validate schema
-function loadSchema() {
-  try {
-    const schemaPath = path.join(SCHEMAS_DIR, "icon.schema.json");
-    const schema = JSON.parse(fs.readFileSync(schemaPath, "utf8"));
-    return ajv.compile(schema);
-  } catch (error) {
-    console.error("Error loading schema:", error);
-    process.exit(1);
-  }
-}
-
 async function main() {
   try {
+    console.log(chalk.blue("🚀 Starting icon generation process..."));
+
     if (!fs.existsSync(ICONS_DIR)) {
       fs.mkdirSync(ICONS_DIR, { recursive: true });
+      console.log(chalk.green("✓ Created icons directory"));
     }
 
     const validate = loadSchema();
+    console.log(chalk.green("✓ Loaded schema"));
 
     const url = `https://api.figma.com/v1/files/${FIGMA_ICONS_PROJECT_ID}`;
+    console.log(chalk.yellow("⚡ Fetching Figma file..."));
     const { data } = await axios.get(url, {
       headers: { "X-Figma-Token": FIGMA_ACCESS_KEY },
     });
 
-    // Find both Regular and Solid frames
     const regularFrame = data.document.children[0].children.find(
       (frame) => frame.name === "Regular" && frame.type === "FRAME"
     );
@@ -130,10 +88,30 @@ async function main() {
       const regularIcons = new Map();
       const solidIcons = new Map();
 
+      // Count total icons
+      const totalRegularIcons = regularFrame.children.reduce(
+        (acc, category) =>
+          acc +
+          (category.children?.reduce(
+            (sum, child) => sum + (child.children?.length || 0),
+            0
+          ) || 0),
+        0
+      );
+
+      console.log(
+        chalk.blue(`\nFound ${totalRegularIcons} regular icons to process`)
+      );
+
       // Process Regular icons
-      console.log("Processing Regular icons...");
+      console.log(chalk.yellow("\n📦 Processing Regular icons..."));
+      let processedRegular = 0;
+      const updateRegularProgress = createProgressLog(totalRegularIcons);
+
       for (const category of regularFrame.children) {
         const categoryName = category.name;
+        console.log(chalk.cyan(`\nProcessing category: ${categoryName}`));
+
         const subFrames = category.children?.filter(
           (child) =>
             child.type === "FRAME" &&
@@ -159,16 +137,21 @@ async function main() {
                     ? icon.children.map((child) => child.name)
                     : [],
                 });
+                processedRegular++;
+                updateRegularProgress(processedRegular);
               });
             }
           }
         }
       }
 
-      // Process Solid icons
-      console.log("Processing Solid icons...");
-      // Similar process for solid icons...
+      // Process Solid icons with similar logging
+      console.log(chalk.yellow("\n\n📦 Processing Solid icons..."));
+      let processedSolid = 0;
+
       for (const category of solidFrame.children) {
+        console.log(chalk.cyan(`\nProcessing category: ${category.name}`));
+
         const subFrames = category.children?.filter(
           (child) =>
             child.type === "FRAME" &&
@@ -190,6 +173,7 @@ async function main() {
                   height: svg?.height || 24,
                   viewBox: svg?.viewBox || "0 0 24 24",
                 });
+                processedSolid++;
               });
             }
           }
@@ -197,6 +181,9 @@ async function main() {
       }
 
       // Combine Regular and Solid icons
+      console.log(chalk.yellow("\n🔄 Generating final icon objects..."));
+      let iconCount = 0;
+
       for (const [name, regularData] of regularIcons) {
         const iconKey = toKebabCase(name);
         const solidData = solidIcons.get(name);
@@ -238,24 +225,42 @@ async function main() {
             angular: createFrameworkConfig(iconKey),
           },
         };
+
+        iconCount++;
+        if (iconCount % 10 === 0) {
+          // Log details every 10 icons to avoid cluttering
+          logIconDetails(iconsObject[iconKey]);
+        }
       }
 
       // Validate and save
+      console.log(chalk.yellow("\n✨ Validating generated icons..."));
       if (!validate(iconsObject)) {
-        console.error("Generated data does not match schema:", validate.errors);
+        console.error(chalk.red("\n❌ Validation failed:"), validate.errors);
         return;
       }
+      console.log(chalk.green("✓ Validation successful"));
 
       const outputPath = path.join(ICONS_DIR, "icons.json");
       fs.writeFileSync(outputPath, JSON.stringify(iconsObject, null, 2));
-      console.log(`Generated icons file at: ${outputPath}`);
-      console.log(`Total icons processed: ${Object.keys(iconsObject).length}`);
+
+      // Final summary
+      console.log(
+        chalk.green(`\n✅ Successfully generated icons file at: ${outputPath}`)
+      );
+      console.log("\nGeneration Summary:");
+      console.table({
+        "Regular Icons": processedRegular,
+        "Solid Icons": processedSolid,
+        "Total Icons": Object.keys(iconsObject).length,
+        "File Size": `${(fs.statSync(outputPath).size / 1024).toFixed(2)} KB`,
+      });
     }
   } catch (error) {
-    console.error("Error:", error.message);
+    console.error(chalk.red("\n❌ Error:"), error.message);
     if (error.response) {
-      console.error("Response status:", error.response.status);
-      console.error("Response data:", error.response.data);
+      console.error(chalk.red("Response status:"), error.response.status);
+      console.error(chalk.red("Response data:"), error.response.data);
     }
   }
 }
