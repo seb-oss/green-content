@@ -151,6 +151,7 @@ async function main() {
                 regularIcons.set(icon.name, {
                   svg: svg?.svg || "",
                   id: icon.id,
+                  nodeId: icon.id,
                   category: categoryName,
                   width: svg?.width || 24,
                   height: svg?.height || 24,
@@ -186,6 +187,7 @@ async function main() {
                 solidIcons.set(icon.name, {
                   svg: svg?.svg || "",
                   id: icon.id,
+                  nodeId: icon.id,
                   width: svg?.width || 24,
                   height: svg?.height || 24,
                   viewBox: svg?.viewBox || "0 0 24 24",
@@ -203,6 +205,7 @@ async function main() {
 
         iconsObject[iconKey] = {
           id: iconKey,
+          nodeId: regularData.nodeId,
           displayName: name,
           fileName: `${iconKey}.svg`,
           urlPath: iconKey,
