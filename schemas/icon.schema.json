@@ -18,6 +18,16 @@
         "displayName": {
           "type": "string"
         },
+        "width": {
+          "type": "number"
+        },
+        "height": {
+          "type": "number"
+        },
+        "viewBox": {
+          "type": "string",
+          "pattern": "^\\d+\\s+\\d+\\s+\\d+\\s+\\d+$"
+        },
         "variants": {
           "type": "object",
           "properties": {
@@ -88,7 +98,14 @@
               "type": "string"
             }
           },
-          "required": ["categories", "tags", "description"]
+          "required": [
+            "categories",
+            "tags",
+            "description",
+            "width",
+            "height",
+            "viewBox"
+          ]
         }
       }
     }

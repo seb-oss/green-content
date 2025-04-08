@@ -45,25 +45,43 @@ async function fetchSVGs(nodeIds) {
       async ([nodeId, imageUrl]) => {
         try {
           const { data: svgContent } = await axios.get(imageUrl);
-          // Extract the path content from SVG
-          const pathMatch = svgContent.match(/<svg[^>]*>([\s\S]*)<\/svg>/i);
-          const pathContent = pathMatch ? pathMatch[1].trim() : null;
 
-          // Replace any fill or stroke color values with currentColor
-          if (pathContent) {
-            pathContent = pathContent
-              // Replace fill="#anyHexOrRGBValue" with fill="currentColor"
+          // Extract SVG attributes
+          const svgMatch = svgContent.match(/<svg[^>]*>([\s\S]*)<\/svg>/i);
+          // const svgMatch = svgContent.match(/<svg([^>]*)>([\\s\\S]*)<\\/svg>/i);
+          const svgAttributes = svgMatch ? svgMatch[1] : "";
+          const pathContent = svgMatch ? svgMatch[2].trim() : null;
+
+          // Extract width, height and viewBox
+          const widthMatch = svgAttributes.match(/width="(\d+)"/);
+          const heightMatch = svgAttributes.match(/height="(\d+)"/);
+          const viewBoxMatch = svgAttributes.match(/viewBox="([^"]+)"/);
+
+          let pathContentModified = pathContent;
+          if (pathContentModified) {
+            pathContentModified = pathContentModified
               .replace(/fill=\"#[0-9A-Fa-f]{3,6}\"/g, 'fill="currentColor"')
               .replace(/fill=\"rgb\([^\)]+\)\"/g, 'fill="currentColor"')
-              // Replace stroke="#anyHexOrRGBValue" with stroke="currentColor"
               .replace(/stroke=\"#[0-9A-Fa-f]{3,6}\"/g, 'stroke="currentColor"')
               .replace(/stroke=\"rgb\([^\)]+\)\"/g, 'stroke="currentColor"');
           }
 
-          return { node: nodeId, svg: pathContent };
+          return {
+            node: nodeId,
+            svg: pathContentModified,
+            width: widthMatch ? parseInt(widthMatch[1]) : 24,
+            height: heightMatch ? parseInt(heightMatch[1]) : 24,
+            viewBox: viewBoxMatch ? viewBoxMatch[1] : "0 0 24 24",
+          };
         } catch (err) {
           console.error(`Error fetching SVG for node ${nodeId}:`, err.message);
-          return { node: nodeId, svg: null };
+          return {
+            node: nodeId,
+            svg: null,
+            width: 24,
+            height: 24,
+            viewBox: "0 0 24 24",
+          };
         }
       }
     );
