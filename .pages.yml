@@ -6,7 +6,7 @@ content:
   - name: components
     label: Components
     type: collection
-    path: _posts
+    path: _components
     view:
       fields: [coverImage, title, date]
     fields:
