@@ -6,8 +6,8 @@ content:
   - name: components
     label: Components
     type: collection
-    format: json
-    path: _components
+    format: "json"
+    path: content/components
     view:
       fields: [coverImage, title, date]
     fields:
