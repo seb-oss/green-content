@@ -7,7 +7,7 @@ content:
     label: Components
     type: collection
     format: "json"
-    path: content/components
+    path: _components
     view:
       fields: [title, date]
     fields:
