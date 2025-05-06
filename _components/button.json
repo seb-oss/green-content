@@ -1,10 +1,11 @@
 {
-  "title": "Button",
-  "slug": "button",
+  "title": "Buttonsasdasd",
+  "slug": "button-what",
   "date": "2025-05-14T23:29:00.000Z",
   "body": "# This is a heading of sorts",
   "code": "<gds-text tag=\"h1\">hello there </gds-text>",
-  "web": false,
-  "ios": false,
-  "android": false
+  "number": 4,
+  "web": true,
+  "ios": true,
+  "android": true
 }
