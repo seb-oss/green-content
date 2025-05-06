@@ -21,6 +21,18 @@ content:
           options: { time: true, format: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'" },
         }
       - { name: body, label: Body, type: rich-text }
+      - name: web
+        label: Web
+        type: boolean
+        default: false
+      - name: ios
+        label: iOS
+        type: boolean
+        default: false
+      - name: android
+        label: Android
+        type: boolean
+        default: false
   
   - name: pages
     label: Pages
