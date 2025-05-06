@@ -26,6 +26,11 @@ content:
         type: code
         options:
           language: html
+      - name: number
+        label: Number
+        type: number
+        options:
+          min: 3
       - name: contact
         label: Contact information
         type: object
