@@ -21,6 +21,11 @@ content:
           options: { time: true, format: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'" },
         }
       - { name: body, label: Body, type: rich-text }
+      - name: code
+        label: Code
+        type: code
+        options:
+          language: html
       - name: contact
         label: Contact information
         type: object
