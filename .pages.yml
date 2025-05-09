@@ -19,6 +19,7 @@ content:
         type: select
         options:
           multiple: false
+          default: false
           values: [
            { value: beta, label: 'Beta' },
            { value: alpha, label: 'Alpha' },
