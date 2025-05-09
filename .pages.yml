@@ -71,7 +71,7 @@ content:
     label: Templates
     type: collection
     format: "json"
-    path: _templates
+    path: content/templates
     filename: "{fields.slug}.json"
     view:
       fields: [title, date]
