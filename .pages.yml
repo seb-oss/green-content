@@ -84,7 +84,8 @@ content:
          options:
           collection: components
           multiple: true
-          search: {title}
-          value: {title}
+          search: "title,description"
+          value: "{title}"
+          label: "{title} - ${date}"
         
       - { name: body, label: Body, type: rich-text }
