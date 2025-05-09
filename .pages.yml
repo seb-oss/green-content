@@ -20,11 +20,15 @@ content:
         default: false
         required: false
         options:
-          values: [
-            { value: beta, label: 'Beta' },
-            { value: alpha, label: 'Alpha' },
-            { value: wip, label: 'WIP' },
-            { value: deprecated, label: 'Deprecated' }]
+          values:
+          - value: alpha
+            label: Alpha
+          - value: beta
+            label: Beta
+          - value: deprecated
+            label: Deprecated
+          - value: wip
+            label: WIP
       - { name: summary, label: Summary, type: string }
       - {
           name: date,
