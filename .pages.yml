@@ -20,7 +20,6 @@ content:
         default: false
         required: false
         options:
-          multiple: false
           values: [
             { value: beta, label: 'Beta' },
             { value: alpha, label: 'Alpha' },
