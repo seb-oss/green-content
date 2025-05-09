@@ -6,9 +6,20 @@
     "Form",
     "Buttons"
   ],
+  "category": "Components",
   "platform": {
     "web": true,
     "ios": false,
     "android": false
+  },
+  "sections": {
+    "section": [
+      {
+        "title": "asdasd"
+      },
+      {
+        "title": "asdasd"
+      }
+    ]
   }
 }
