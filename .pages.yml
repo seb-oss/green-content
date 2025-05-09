@@ -20,17 +20,6 @@ content:
           type: date,
           options: { time: true, format: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'" },
         }
-      - { name: body, label: Body, type: rich-text }
-      - name: code
-        label: Code
-        type: code
-        options:
-          language: html
-      - name: number
-        label: Number
-        type: number
-        options:
-          min: 3
       - name: platform
         label: Platform
         type: object
