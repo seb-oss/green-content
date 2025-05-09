@@ -1,4 +1,14 @@
 {
   "title": "Button",
-  "slug": "button"
+  "slug": "button",
+  "summary": "this is the summary ",
+  "tags": [
+    "Form"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true
+  }
 }
