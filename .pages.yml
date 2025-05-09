@@ -19,13 +19,7 @@ content:
         type: select
         options:
           multiple: false
-          default: false
-          values: [
-           { value: beta, label: 'Beta' },
-           { value: alpha, label: 'Alpha' },
-           { value: wip, label: 'WIP' },
-           { value: deprecated, label: 'Deprecated' }
-          ]
+          values: [{ value: beta, label: 'Beta' },{ value: alpha, label: 'Alpha' },{ value: wip, label: 'WIP' },{ value: deprecated, label: 'Deprecated' }]
       - { name: summary, label: Summary, type: string }
       - {
           name: date,
