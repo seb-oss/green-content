@@ -20,6 +20,7 @@ content:
         options:
           creatable: false
           multiple: false
+          required: false
           values: [ Beta, Alpha, WIP, Draft, Deprecated ]
       - { name: summary, label: Summary, type: string }
       - {
@@ -115,6 +116,7 @@ content:
         options:
           collection: templates
           multiple: true
+          required: false
           search: "title"
           value: "{title}"
           label: "{title}"
