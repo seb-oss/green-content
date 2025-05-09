@@ -31,34 +31,22 @@ content:
         type: number
         options:
           min: 3
-      - name: contact
-        label: Contact information
+      - name: platform
+        label: Platform
         type: object
         fields:
-          - name: first_name
-            label: First name
-            type: string
-          - name: last_name
-            label: Last name
-            type: string
-          - name: email
-            label: Email address
-            type: string
-          - name: phone
-            label: Phone number
-            type: string
-      - name: web
-        label: Web
-        type: boolean
-        default: false
-      - name: ios
-        label: iOS
-        type: boolean
-        default: false
-      - name: android
-        label: Android
-        type: boolean
-        default: false
+          - name: web
+            label: Web
+            type: boolean
+            default: false
+          - name: ios
+            label: iOS
+            type: boolean
+            default: false
+          - name: android
+            label: Android
+            type: boolean
+            default: false
   
   - name: pages
     label: Pages
