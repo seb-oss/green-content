@@ -17,9 +17,8 @@ content:
       - name: status
         label: Status
         type: select
-        default: false
-        required: false
         options:
+          multiple: true
           values:
           - value: alpha
             label: Alpha
