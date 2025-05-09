@@ -46,6 +46,7 @@ content:
         label: Category
         type: select
         options:
+          multiple: true
           values: [ Components, Elements ]
       - name: platform
         label: Platform
