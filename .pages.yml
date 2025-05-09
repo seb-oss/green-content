@@ -85,5 +85,6 @@ content:
           collection: components
           multiple: true
           search: "title"
+          value: "title"
         
       - { name: body, label: Body, type: rich-text }
