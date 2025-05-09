@@ -116,15 +116,6 @@ content:
                fields: 
                 - { name: id, label: ID, type: string }
                 - { name: caption, label: Caption, type: string }
-      - name: related_templates
-        label: Related Templates
-        type: reference
-        options:
-          collection: templates
-          multiple: true
-          search: "title"
-          value: "{title}"
-          label: "{title}"
           
   - name: pages
     label: Pages
