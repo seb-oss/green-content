@@ -9,7 +9,7 @@ content:
     format: "json"
     subfolders: false
     path: components
-    filename: "{fields.slug}/{fields.slug}.json"
+    filename: "{fields.slug}.json"
     view:
       fields: [title, date, status]
     fields:
