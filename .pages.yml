@@ -121,7 +121,7 @@ content:
         type: reference
         options:
           collection: templates
-          multiple: true 
+          multiple: true
           search: "title"
           value: "{title}"
           label: "{title}"
