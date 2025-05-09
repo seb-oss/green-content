@@ -1,12 +1,17 @@
 {
   "title": "Button",
   "slug": "button",
+  "status": [
+    "beta"
+  ],
   "date": "2025-05-09T16:17:00.000Z",
   "tags": [
     "Form",
     "Buttons"
   ],
-  "category": "Components",
+  "category": [
+    "Components"
+  ],
   "platform": {
     "web": true,
     "ios": false,
@@ -22,5 +27,8 @@
         "title": "asdasd"
       }
     ]
-  }
+  },
+  "related_templates": [
+    "Login"
+  ]
 }
