@@ -78,13 +78,6 @@ content:
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: slug, label: Slug, type: string, required: true }
-      - {
-          name: date,
-          label: Date,
-          type: date,
-          options: { time: true, format: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'" },
-        }
-        
       - name: code
         label: Code
         type: code
