@@ -62,7 +62,7 @@ content:
             list: true
             fields: 
              - { name: title, label: Title, type: string }
-             - { name: description, label: Description, type: richtext }
+             - { name: description, label: Description, type: rich-text }
   
   - name: pages
     label: Pages
