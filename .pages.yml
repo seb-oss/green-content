@@ -27,6 +27,13 @@ content:
           creatable: true
           multiple: true
           values: [ Form, Buttons ]
+      - name: category
+        label: Category
+        type: select
+        options:
+          creatable: false
+          multiple: false
+          values: [ Components, Elements ]
       - name: platform
         label: Platform
         type: object
