@@ -17,9 +17,15 @@ content:
       - name: status
         label: Status
         type: select
+        default: false
+        required: false
         options:
           multiple: false
-          values: [{ value: beta, label: 'Beta' },{ value: alpha, label: 'Alpha' },{ value: wip, label: 'WIP' },{ value: deprecated, label: 'Deprecated' }]
+          values: [
+            { value: beta, label: 'Beta' },
+            { value: alpha, label: 'Alpha' },
+            { value: wip, label: 'WIP' },
+            { value: deprecated, label: 'Deprecated' }]
       - { name: summary, label: Summary, type: string }
       - {
           name: date,
