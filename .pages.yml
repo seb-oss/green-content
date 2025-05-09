@@ -7,7 +7,7 @@ content:
     label: Components
     type: collection
     format: "json"
-    path: _components
+    path: "content/{fields.slug}"
     filename: "{fields.slug}.json"
     view:
       fields: [title, date, status]
