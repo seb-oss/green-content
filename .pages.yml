@@ -84,7 +84,7 @@ content:
          options:
           collection: components
           multiple: true
-          search: {fields.title}
-          value: {fields.title}
+          search: {title}
+          value: {title}
         
       - { name: body, label: Body, type: rich-text }
