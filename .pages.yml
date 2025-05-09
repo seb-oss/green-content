@@ -10,7 +10,7 @@ content:
     path: _components
     filename: "{fields.slug}.json"
     view:
-      fields: [title, date]
+      fields: [title, date, status]
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: slug, label: Slug, type: string, required: true }
@@ -20,6 +20,13 @@ content:
           type: date,
           options: { time: true, format: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'" },
         }
+      - name: tags
+        label: Tags
+        type: select
+        options:
+          creatable: true
+          multiple: true
+          values: [ Form, Buttons ]
       - name: platform
         label: Platform
         type: object
