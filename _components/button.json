@@ -2,7 +2,13 @@
   "title": "Button",
   "slug": "button",
   "date": "2025-05-09T16:17:00.000Z",
+  "tags": [
+    "Form",
+    "Buttons"
+  ],
   "platform": {
-    "web": true
+    "web": true,
+    "ios": false,
+    "android": false
   }
 }
