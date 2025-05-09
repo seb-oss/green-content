@@ -18,10 +18,14 @@ content:
         label: Status
         type: select
         options:
-          creatable: false
           multiple: false
           required: false
-          values: [ Beta, Alpha, WIP, Draft, Deprecated ]
+          values: [
+           { value: beta, label: 'Beta' },
+           { value: alpha, label: 'Alpha' },
+           { value: wip, label: 'WIP' },
+           { value: deprecated, label: 'Deprecated' }
+          ]
       - { name: summary, label: Summary, type: string }
       - {
           name: date,
