@@ -70,18 +70,23 @@ content:
         type: object
         list: true
         fields:
-          - name: section
-            label: Section
+          - name: sections
+            label: Overview
             type: object
-            fields: 
-             - { name: title, label: Title, type: string }
-             - { name: description, label: Description, type: rich-text }
-             - name: image
-               label: Image
-               type: object
-               fields: 
-                - { name: id, label: ID, type: string }
-                - { name: caption, label: Caption, type: string }
+            list: true
+            fields:
+              - name: section
+                label: Section
+                type: object
+                fields: 
+                   - { name: title, label: Title, type: string }
+                   - { name: description, label: Description, type: rich-text }
+                   - name: image
+                     label: Image
+                     type: object
+                     fields: 
+                        - { name: id, label: ID, type: string }
+                        - { name: caption, label: Caption, type: string }
           - name: slide
             label: Slide
             type: object
