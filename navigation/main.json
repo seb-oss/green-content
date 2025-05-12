@@ -1,0 +1,14 @@
+{
+  "title": "Main",
+  "slug": "main",
+  "links": [
+    {
+      "title": "Home",
+      "slug": "/"
+    },
+    {
+      "title": "Foundation",
+      "slug": "foundation"
+    }
+  ]
+}
