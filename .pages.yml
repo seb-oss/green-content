@@ -30,20 +30,6 @@ content:
           - value: wip
             label: WIP
       - { name: summary, label: Summary, type: string }
-      - {
-          name: date,
-          label: Date,
-          type: date,
-          options: { time: true, format: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'" },
-        }
-      - name: createdAt
-        label: Created At
-        type: date
-        options:
-          time: true
-          format: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
-        hidden: true
-        default: now
       - name: tags
         label: Tags
         type: select
