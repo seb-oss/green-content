@@ -67,7 +67,6 @@ content:
             default: false
       - name: slide
         label: Slide
-        type: object
         list: true
         fields: 
           - { name: title, label: Title, type: string }
