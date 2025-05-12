@@ -68,42 +68,20 @@ content:
       - name: sections
         label: Overview
         type: object
-        list: true
-        fields:
-          - name: sections
-            label: Overview
+        list: true 
+        fields: 
+          - { name: title, label: Title, type: string }
+          - { name: description, label: Description, type: rich-text }
+          - name: image
+            label: Image
             type: object
-            list: true
-            fields:
-              - name: section
-                label: Section
-                type: object
-                list: true
-                fields: 
-                   - { name: title, label: Title, type: string }
-                   - { name: description, label: Description, type: rich-text }
-                   - name: image
-                     label: Image
-                     type: object
-                     fields: 
-                        - { name: id, label: ID, type: string }
-                        - { name: caption, label: Caption, type: string }
-              - name: slider
-                label: Section
-                type: object
-                list: true
-                fields: 
-                   - { name: title, label: Title, type: string }
-                   - { name: description, label: Description, type: rich-text }
-                   - name: image
-                     label: Image
-                     type: object
-                     fields: 
-                        - { name: id, label: ID, type: string }
-                        - { name: caption, label: Caption, type: string }
+            fields: 
+              - { name: id, label: ID, type: string }
+              - { name: caption, label: Caption, type: string }
           - name: slide
             label: Slide
             type: object
+            list: true
             fields: 
              - { name: title, label: Title, type: string }
              - { name: description, label: Description, type: rich-text }
