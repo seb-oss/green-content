@@ -24,5 +24,21 @@
         }
       ]
     }
-  ]
+  ],
+  "ux-text": {
+    "section": [
+      {
+        "title": "Title first of ux",
+        "description": "asdasd"
+      }
+    ]
+  },
+  "accessibility": {
+    "section": [
+      {
+        "title": "asdasd",
+        "description": "asdasd"
+      }
+    ]
+  }
 }
