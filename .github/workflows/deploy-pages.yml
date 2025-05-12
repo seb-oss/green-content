@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - "components/**"
+      - "navigation/**"
+      - "templates/**"
       - "generated/**"
 
 permissions:
