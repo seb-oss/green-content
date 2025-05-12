@@ -65,6 +65,37 @@ content:
             label: Android
             type: boolean
             default: false
+      - name: overview2
+        label: Overview
+        type: object
+        list: true
+        fields:
+          - name: content
+            label: Content
+            type: object
+            fields:
+              - name: type
+                label: Type
+                type: select
+                options:
+                  values:
+                    - value: section
+                      label: Section
+                    - value: slide
+                      label: Slide
+              - name: title
+                label: Title
+                type: string
+              - name: description
+                label: Description
+                type: rich-text
+              - name: image
+                label: Image
+                type: object
+                fields: 
+                  - { name: id, label: ID, type: string }
+                  - { name: caption, label: Caption, type: string }
+
       - name: overview
         label: Overview
         type: object
