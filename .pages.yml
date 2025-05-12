@@ -128,14 +128,11 @@ content:
     format: "json"
     path: navigation
     filename: "{fields.slug}.json"
+    list: true
     fields:
-      - name: section
-        label: Section
-        type: object
-        list: true
-        fields:
-          - { name: title, label: Title, type: string }
-          - { name: description, label: Description, type: rich-text }
+      - { name: title, label: Title, type: string }
+      - { name: slug, label: Slug, type: string }
+      - { name: icon, label: Icon, type: string }
            
 
   - name: templates
