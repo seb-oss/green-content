@@ -78,6 +78,13 @@ content:
                fields: 
                 - { name: id, label: ID, type: string }
                 - { name: caption, label: Caption, type: string }
+             - name: section
+               label: Section
+               type: object
+               list: true
+               fields: 
+                - { name: id, label: ID, type: string }
+                - { name: caption, label: Caption, type: string }
              - name: imageslide
                label: Image
                type: object
