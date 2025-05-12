@@ -19,7 +19,7 @@ content:
         label: Status
         type: select
         options:
-          multiple: true
+          multiple: false
           values:
           - value: alpha
             label: Alpha
