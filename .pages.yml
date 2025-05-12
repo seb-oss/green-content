@@ -15,20 +15,10 @@ content:
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: slug, label: Slug, type: string, required: true }
-      - name: status
-        label: Status
-        type: select
-        options:
-          multiple: false
-          values:
-          - value: alpha
-            label: Alpha
-          - value: beta
-            label: Beta
-          - value: deprecated
-            label: Deprecated
-          - value: wip
-            label: WIP
+      - name: beta
+        label: Beta
+        type: boolean
+        default: false
       - { name: summary, label: Summary, type: string }
       - name: tags
         label: Tags
