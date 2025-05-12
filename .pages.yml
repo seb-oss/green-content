@@ -141,6 +141,7 @@ content:
         fields:
           - { name: title, label: Title, type: string }
           - { name: slug, label: Slug, type: string }
+          - { name: icon, label: Slug, type: string }
 
 
   - name: templates
