@@ -78,13 +78,14 @@ content:
                fields: 
                 - { name: id, label: ID, type: string }
                 - { name: caption, label: Caption, type: string }
-      - name: slide
-        label: Slide
-        type: object
-        list: true
-        fields:
-             - { name: title, label: "Slide title", type: string }
-             - { name: description, label: Description, type: rich-text }
+             - name: imageslide
+               label: Image
+               type: object
+               list: true
+               fields: 
+                - { name: id, label: ID, type: string }
+                - { name: caption, label: Caption, type: string }
+     
       - name: ux-text
         label: UX text
         type: object
