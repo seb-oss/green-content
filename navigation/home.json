@@ -1,5 +1,12 @@
-{
-  "title": "home",
-  "slug": "home",
-  "icon": "home"
-}
+[
+  {
+    "title": "Home",
+    "slug": "home",
+    "icon": "asd"
+  },
+  {
+    "title": "Foundation",
+    "slug": "foundation",
+    "icon": "tree"
+  }
+]
