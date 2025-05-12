@@ -129,7 +129,7 @@ content:
     format: "json"
     path: navigation
     view:
-      fields: [title, slug]
+      fields: [title]
     filename: "{fields.slug}.json"
     list: true
     fields:
