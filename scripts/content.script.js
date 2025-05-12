@@ -54,7 +54,7 @@ async function main() {
   };
 
   fs.writeFileSync(
-    path.join(GENERATED_DIR, "index.json"),
+    path.join(GENERATED_DIR, "components.json"),
     JSON.stringify(componentsIndex, null, 2)
   );
 
