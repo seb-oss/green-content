@@ -92,7 +92,40 @@ content:
                fields: 
                 - { name: id, label: ID, type: string }
                 - { name: caption, label: Caption, type: string }
-     
+      - name: overview2
+        label: Overview
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: description, label: Description, type: rich-text }
+          - name: image
+            label: Image
+            type: object
+            fields: 
+              - { name: id, label: ID, type: string }
+              - { name: caption, label: Caption, type: string }
+          - name: content_blocks
+            label: Content Blocks
+            type: object
+            list: true
+            fields:
+              - name: block_type
+                label: Block Type
+                type: select
+                options:
+                  values:
+                    - value: section
+                      label: Section
+                    - value: imageslide
+                      label: Image Slide
+          - name: content
+            label: Content
+            type: object
+            fields:
+              - { name: id, label: ID, type: string }
+              - { name: caption, label: Caption, type: string }
+
       - name: ux-text
         label: UX text
         type: object
