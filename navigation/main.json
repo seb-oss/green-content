@@ -4,11 +4,48 @@
   "links": [
     {
       "title": "Home",
-      "slug": "/"
+      "slug": "/",
+      "icon": "IconHomeOpen"
+    },
+    {
+      "title": "Components",
+      "slug": "components",
+      "icon": "IconSquareGridCircle"
+    },
+    {
+      "title": "Templates",
+      "slug": "templates",
+      "icon": "IconDevices"
     },
     {
       "title": "Foundation",
-      "slug": "foundation"
+      "slug": "foundation",
+      "icon": "IconBrandGreen"
+    },
+    {
+      "title": "UX Writing",
+      "slug": "ux-writing",
+      "icon": "IconPencilWave"
+    },
+    {
+      "title": "Accessibility",
+      "slug": "accessibility",
+      "icon": "IconPeopleCircle"
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "icon": "IconCircleInfo"
+    },
+    {
+      "title": "Github",
+      "slug": "https://github.com/seb-oss/green",
+      "icon": "IconBrandGithub"
+    },
+    {
+      "title": "Storybook",
+      "slug": "https://storybook.seb.io",
+      "icon": "IconBrandStorybook"
     }
   ]
 }
