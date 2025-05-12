@@ -8,6 +8,7 @@ content:
     type: collection
     format: "json"
     subfolders: false
+    list: true
     path: components
     filename: "{fields.slug}.json"
     view:
