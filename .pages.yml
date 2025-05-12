@@ -65,37 +65,6 @@ content:
             label: Android
             type: boolean
             default: false
-      - name: overview2
-        label: Overview2
-        type: object
-        list: true
-        fields:
-          - name: content
-            label: Content
-            type: object
-            fields:
-              - name: type
-                label: Type
-                type: select
-                options:
-                  values:
-                    - value: section
-                      label: Section
-                    - value: slide
-                      label: Slide
-              - name: title
-                label: Title
-                type: string
-              - name: description
-                label: Description
-                type: rich-text
-              - name: image
-                label: Image
-                type: object
-                fields: 
-                  - { name: id, label: ID, type: string }
-                  - { name: caption, label: Caption, type: string }
-
       - name: overview
         label: Overview
         type: object
@@ -114,6 +83,34 @@ content:
                fields: 
                 - { name: id, label: ID, type: string }
                 - { name: caption, label: Caption, type: string }
+      - name: overview2
+        label: Overview
+        type: object
+        list: true
+        fields:
+          - name: section
+            label: Section
+            type: object
+            list: true
+            fields: 
+              - name: overview22asd
+                label: Overview
+                type: object
+                list: true
+                fields:
+                  - name: section
+                    label: Section
+                    type: object
+                    list: true
+                    fields: 
+                     - { name: title, label: Title, type: string }
+                     - { name: description, label: Description, type: rich-text }
+                     - name: image
+                       label: Image
+                       type: object
+                       fields: 
+                        - { name: id, label: ID, type: string }
+                        - { name: caption, label: Caption, type: string }
       - name: ux-text
         label: UX text
         type: object
