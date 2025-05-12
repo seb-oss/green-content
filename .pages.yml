@@ -78,6 +78,7 @@ content:
               - name: section
                 label: Section
                 type: object
+                list: true
                 fields: 
                    - { name: title, label: Title, type: string }
                    - { name: description, label: Description, type: rich-text }
@@ -90,6 +91,7 @@ content:
               - name: slider
                 label: Section
                 type: object
+                list: true
                 fields: 
                    - { name: title, label: Title, type: string }
                    - { name: description, label: Description, type: rich-text }
