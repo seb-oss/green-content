@@ -73,6 +73,7 @@ content:
               - name: column_title_tag
                 label: Tag
                 type: select
+                required: false
                 options:
                   default: H2
                   values: [ H1, H2, H3, H4, H5 ]
