@@ -127,6 +127,8 @@ content:
     type: collection
     format: "json"
     path: navigation
+    view:
+      fields: [title, slug]
     filename: "{fields.slug}.json"
     fields:
       - { name: title, label: Title, type: string }
