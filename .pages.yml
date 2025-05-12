@@ -65,12 +65,25 @@ content:
             label: Android
             type: boolean
             default: false
+      - name: overview
+        label: Overview
+        type: object
+        list: true
+        fields:
+             - { name: title, label: Title, type: string }
+             - { name: description, label: Description, type: rich-text }
+             - name: image
+               label: Image
+               type: object
+               fields: 
+                - { name: id, label: ID, type: string }
+                - { name: caption, label: Caption, type: string }
       - name: slide
         label: Slide
         type: object
         list: true
         fields:
-             - { name: slidetitle, label: Slide Title, type: string }
+             - { name: title, label: "Slide title", type: string }
              - { name: description, label: Description, type: rich-text }
       - name: ux-text
         label: UX text
