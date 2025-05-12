@@ -1,7 +1,7 @@
 {
   "title": "Button",
   "slug": "button",
-  "status": "beta",
+  "beta": true,
   "summary": "Buttons are an essential element of interaction design. Their primary role is to help people take actions quickly.",
   "tags": [
     "Form"
