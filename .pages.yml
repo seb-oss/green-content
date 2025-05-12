@@ -70,10 +70,6 @@ content:
         type: object
         list: true
         fields:
-          - name: section
-            label: Section
-            type: object
-            fields: 
              - { name: title, label: Title, type: string }
              - { name: description, label: Description, type: rich-text }
              - name: image
