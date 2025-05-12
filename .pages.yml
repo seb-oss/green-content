@@ -68,6 +68,7 @@ content:
       - name: sections
         label: Overview
         type: object
+        list: true
         fields:
           - name: section
             label: Section
