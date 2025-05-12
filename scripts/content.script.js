@@ -15,12 +15,21 @@ async function processComponentContent(filename) {
     const outputDir = path.join(GENERATED_DIR, componentName);
     fs.mkdirSync(outputDir, { recursive: true });
 
+    // Write the full component data
     fs.writeFileSync(
       path.join(outputDir, `${componentName}.content.json`),
       JSON.stringify(contentData, null, 2)
     );
+
+    // Return only the specified fields for the index
+    return {
+      title: contentData.title,
+      slug: contentData.slug,
+      summary: contentData.summary,
+    };
   } catch (error) {
     console.error(`Error processing ${componentName}:`, error);
+    return null;
   }
 }
 
@@ -36,7 +45,19 @@ async function main() {
     .readdirSync(COMPONENTS_DIR)
     .filter((file) => file.endsWith(".json"));
 
-  await Promise.all(files.map(processComponentContent));
+  const componentsData = await Promise.all(files.map(processComponentContent));
+
+  const componentsIndex = {
+    components: componentsData.filter((component) => component !== null),
+    total: componentsData.filter((component) => component !== null).length,
+    lastUpdated: new Date().toISOString(),
+  };
+
+  fs.writeFileSync(
+    path.join(GENERATED_DIR, "index.json"),
+    JSON.stringify(componentsIndex, null, 2)
+  );
+
   console.log("Processing completed!");
 }
 
