@@ -1,9 +1,10 @@
-name: Deploy Pages
+name: 🚀 Deploy Pages
 
 on:
   workflow_dispatch: {}
   push:
     paths:
+      - "components/**"
       - "generated/**"
 
 permissions:
@@ -13,7 +14,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true # Changed to true for faster deployments
 
 jobs:
   deploy:
@@ -24,6 +25,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*" # Uses latest LTS version
+
+      - name: Process component files
+        run: node content.script.js
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

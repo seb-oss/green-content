@@ -6,7 +6,7 @@ const addFormats = require("ajv-formats");
 require("dotenv").config({ path: ".env.local" });
 
 // ========== CONFIGURATION ==========
-const GENERATED_DIR = path.join("generated");
+const GENERATED_DIR = path.join("out");
 const SCHEMAS_DIR = path.join("schemas");
 const ICONS_DIR = path.join(GENERATED_DIR, "icons");
 

@@ -8,7 +8,7 @@ content:
     type: collection
     format: "json"
     subfolders: false
-    path: content/components
+    path: components
     filename: "{fields.slug}.json"
     view:
       fields: [title, date, status]
@@ -26,13 +26,13 @@ content:
         options:
           creatable: true
           multiple: true
-          values: [ Form, Buttons ]
+          values: [Form, Buttons]
       - name: category
         label: Category
         type: select
         options:
           multiple: true
-          values: [ Components, Elements ]
+          values: [Components, Elements]
       - name: platform
         label: Platform
         type: object
@@ -66,15 +66,15 @@ content:
                 required: false
                 options:
                   default: H2
-                  values: [ H1, H2, H3, H4, H5 ]
+                  values: [H1, H2, H3, H4, H5]
               - { name: description, label: Description, type: rich-text }
               - name: image
                 label: Image
                 type: object
-                fields: 
-                 - { name: id, label: ID, type: string }
-                 - { name: caption, label: Caption, type: string }
-    
+                fields:
+                  - { name: id, label: ID, type: string }
+                  - { name: caption, label: Caption, type: string }
+
       - name: ux-text
         label: UX text
         type: object
@@ -83,15 +83,15 @@ content:
             label: Section
             type: object
             list: true
-            fields: 
-             - { name: title, label: Title, type: string }
-             - { name: description, label: Description, type: rich-text }
-             - name: image
-               label: Image
-               type: object
-               fields: 
-                - { name: id, label: ID, type: string }
-                - { name: caption, label: Caption, type: string }
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: description, label: Description, type: rich-text }
+              - name: image
+                label: Image
+                type: object
+                fields:
+                  - { name: id, label: ID, type: string }
+                  - { name: caption, label: Caption, type: string }
       - name: accessibility
         label: Accessibility
         type: object
@@ -100,16 +100,16 @@ content:
             label: Section
             type: object
             list: true
-            fields: 
-             - { name: title, label: Title, type: string }
-             - { name: description, label: Description, type: rich-text }
-             - name: image
-               label: Image
-               type: object
-               fields: 
-                - { name: id, label: ID, type: string }
-                - { name: caption, label: Caption, type: string }
-          
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: description, label: Description, type: rich-text }
+              - name: image
+                label: Image
+                type: object
+                fields:
+                  - { name: id, label: ID, type: string }
+                  - { name: caption, label: Caption, type: string }
+
   - name: pages
     label: Pages
     type: collection
@@ -158,8 +158,8 @@ content:
         label: Related Components
         type: reference
         options:
-         collection: components
-         multiple: true
-         search: "title"
-         value: "{title}"
-         label: "{title}"
+          collection: components
+          multiple: true
+          search: "title"
+          value: "{title}"
+          label: "{title}"

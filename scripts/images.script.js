@@ -4,7 +4,7 @@ const axios = require("axios");
 const Ajv = require("ajv");
 
 // ========== CONFIGURATION ==========
-const CONTENT_DIR = path.join("content");
+const CONTENT_DIR = path.join("images");
 const GENERATED_DIR = path.join("generated");
 const SCHEMAS_DIR = path.join("schemas");
 
