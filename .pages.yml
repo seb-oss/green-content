@@ -133,7 +133,6 @@ content:
       - { name: title, label: Title, type: string }
       - { name: slug, label: Slug, type: string }
       - { name: icon, label: Icon, type: string }
-           
 
   - name: templates
     label: Templates
