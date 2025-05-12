@@ -74,6 +74,7 @@ content:
                 label: Tag
                 type: select
                 options:
+                  default: H2
                   values: [ H1, H2, H3, H4, H5 ]
               - { name: description, label: Description, type: rich-text }
               - name: image
