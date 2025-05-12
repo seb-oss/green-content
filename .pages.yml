@@ -133,6 +133,7 @@ content:
     filename: "{fields.slug}.json"
     fields:
       - { name: title, label: Title, type: string }
+      - { name: slug, label: Slug, type: string }
       - name: links
         label: Links
         type: object
