@@ -129,11 +129,10 @@ async function processPageContent(filename) {
     const inputPath = path.join(PAGES_DIR, filename);
     const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
 
-    // Create individual directory for each page
-    const outputDir = path.join(GENERATED_DIR, pageName);
+    const outputDir = path.join(GENERATED_DIR, "pages", pageName);
     fs.mkdirSync(outputDir, { recursive: true });
 
-    // Write page content to its own directory
+    // Write page content to its directory
     fs.writeFileSync(
       path.join(outputDir, `${pageName}.json`),
       JSON.stringify(contentData, null, 2)
@@ -143,7 +142,7 @@ async function processPageContent(filename) {
       title: contentData.title,
       slug: contentData.slug,
       summary: contentData.summary,
-      path: `${pageName}/${pageName}.json`,
+      path: `pages/${pageName}/${pageName}.json`,
     };
   } catch (error) {
     console.error(`Error processing ${pageName}:`, error);
@@ -159,11 +158,9 @@ async function processSnippetContent(filename) {
     const inputPath = path.join(SNIPPETS_DIR, filename);
     const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
 
-    // Create individual directory for each snippet
-    const outputDir = path.join(GENERATED_DIR, snippetName);
+    const outputDir = path.join(GENERATED_DIR, "snippets", snippetName);
     fs.mkdirSync(outputDir, { recursive: true });
 
-    // Write snippet content to its own directory
     fs.writeFileSync(
       path.join(outputDir, `${snippetName}.json`),
       JSON.stringify(contentData, null, 2)
@@ -172,7 +169,7 @@ async function processSnippetContent(filename) {
     return {
       title: contentData.title,
       slug: contentData.slug,
-      path: `${snippetName}/${snippetName}.json`,
+      path: `snippets/${snippetName}/${snippetName}.json`,
       language: contentData.language,
       code: contentData.code,
     };
