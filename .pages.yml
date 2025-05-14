@@ -188,8 +188,7 @@ content:
     label: Home
     type: file
     format: "json"
-    path: content/home
-    filename: "home.json"
+    path: content/home.json
     view:
       fields: [title, date]
     fields:
