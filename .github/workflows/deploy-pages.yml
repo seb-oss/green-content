@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - "content/components/**"
+      - "content/pages/**"
+      - "content/snippets/**"
       - "content/navigation/**"
       - "content/templates/**"
       - "content/home.json"

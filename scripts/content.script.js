@@ -5,6 +5,8 @@ const path = require("path");
 const COMPONENTS_DIR = "content/components";
 const NAVIGATION_DIR = "content/navigation";
 const TEMPLATES_DIR = "content/templates";
+const PAGES_DIR = "content/pages";
+const SNIPPETS_DIR = "content/snippets";
 const HOME_FILE = "content/home.json";
 const GENERATED_DIR = "generated";
 
@@ -119,6 +121,67 @@ async function processHomeContent() {
   }
 }
 
+async function processPageContent(filename) {
+  const pageName = path.basename(filename, ".json");
+  console.log(`Processing: ${pageName}`);
+
+  try {
+    const inputPath = path.join(PAGES_DIR, filename);
+    const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+
+    // Create individual directory for each page
+    const outputDir = path.join(GENERATED_DIR, pageName);
+    fs.mkdirSync(outputDir, { recursive: true });
+
+    // Write page content to its own directory
+    fs.writeFileSync(
+      path.join(outputDir, `${pageName}.json`),
+      JSON.stringify(contentData, null, 2)
+    );
+
+    return {
+      title: contentData.title,
+      slug: contentData.slug,
+      summary: contentData.summary,
+      path: `${pageName}/${pageName}.json`,
+    };
+  } catch (error) {
+    console.error(`Error processing ${pageName}:`, error);
+    return null;
+  }
+}
+
+async function processSnippetContent(filename) {
+  const snippetName = path.basename(filename, ".json");
+  console.log(`Processing: ${snippetName}`);
+
+  try {
+    const inputPath = path.join(SNIPPETS_DIR, filename);
+    const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+
+    // Create individual directory for each snippet
+    const outputDir = path.join(GENERATED_DIR, snippetName);
+    fs.mkdirSync(outputDir, { recursive: true });
+
+    // Write snippet content to its own directory
+    fs.writeFileSync(
+      path.join(outputDir, `${snippetName}.json`),
+      JSON.stringify(contentData, null, 2)
+    );
+
+    return {
+      title: contentData.title,
+      slug: contentData.slug,
+      path: `${snippetName}/${snippetName}.json`,
+      language: contentData.language,
+      code: contentData.code,
+    };
+  } catch (error) {
+    console.error(`Error processing ${snippetName}:`, error);
+    return null;
+  }
+}
+
 async function main() {
   // Create generated directory
   fs.mkdirSync(GENERATED_DIR, { recursive: true });
@@ -149,6 +212,20 @@ async function main() {
 
   // Process home content
   const homeData = await processHomeContent();
+
+  // Process pages similar to components
+  const pageFiles = fs.existsSync(PAGES_DIR)
+    ? fs.readdirSync(PAGES_DIR).filter((file) => file.endsWith(".json"))
+    : [];
+  const pagesData = await Promise.all(pageFiles.map(processPageContent));
+
+  // Process snippets similar to components
+  const snippetFiles = fs.existsSync(SNIPPETS_DIR)
+    ? fs.readdirSync(SNIPPETS_DIR).filter((file) => file.endsWith(".json"))
+    : [];
+  const snippetsData = await Promise.all(
+    snippetFiles.map(processSnippetContent)
+  );
 
   // Create index.json with all available resources
   const index = {
@@ -189,6 +266,28 @@ async function main() {
             .map((template) => ({
               ...template,
               endpoint: template.path,
+            })),
+        },
+        pages: {
+          list: "pages.json",
+          items: pagesData
+            .filter((page) => page !== null)
+            .map((page) => ({
+              ...page,
+              endpoints: {
+                content: page.path,
+              },
+            })),
+        },
+        snippets: {
+          list: "snippets.json",
+          items: snippetsData
+            .filter((snippet) => snippet !== null)
+            .map((snippet) => ({
+              ...snippet,
+              endpoints: {
+                content: snippet.path,
+              },
             })),
         },
         icons: {
@@ -246,6 +345,30 @@ async function main() {
   fs.writeFileSync(
     path.join(GENERATED_DIR, "templates.json"),
     JSON.stringify(templatesIndex, null, 2)
+  );
+
+  // Write pages.json index
+  const pagesIndex = {
+    pages: pagesData.filter((page) => page !== null),
+    total: pagesData.filter((page) => page !== null).length,
+    lastUpdated: new Date().toISOString(),
+  };
+
+  fs.writeFileSync(
+    path.join(GENERATED_DIR, "pages.json"),
+    JSON.stringify(pagesIndex, null, 2)
+  );
+
+  // Write snippets.json index
+  const snippetsIndex = {
+    snippets: snippetsData.filter((snippet) => snippet !== null),
+    total: snippetsData.filter((snippet) => snippet !== null).length,
+    lastUpdated: new Date().toISOString(),
+  };
+
+  fs.writeFileSync(
+    path.join(GENERATED_DIR, "snippets.json"),
+    JSON.stringify(snippetsIndex, null, 2)
   );
 
   console.log("Processing completed!");
