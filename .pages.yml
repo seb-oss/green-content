@@ -185,12 +185,14 @@ content:
         type: code
         options:
           language: html
-      - name: related_components
-        label: Related Components
-        type: reference
-        options:
-          collection: components
-          multiple: true
-          search: "title"
-          value: "{title}"
-          label: "{title}"
+  - name: home
+    label: Home
+    type: file
+    format: "json"
+    path: cms/home
+    filename: "home.json"
+    view:
+      fields: [title, date]
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+     
