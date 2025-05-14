@@ -1,0 +1,11 @@
+{
+  "title": "Icon",
+  "slug": "icon",
+  "beta": true,
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true
+  }
+}
