@@ -32,7 +32,7 @@ content:
         type: select
         options:
           multiple: true
-          values: [Components, Elements]
+          values: [Components, Elements, Layout, Tokens]
       - name: platform
         label: Platform
         type: object
