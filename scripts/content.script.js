@@ -5,6 +5,7 @@ const path = require("path");
 const COMPONENTS_DIR = "content/components";
 const NAVIGATION_DIR = "content/navigation";
 const TEMPLATES_DIR = "content/templates";
+const HOME_FILE = "content/home.json";
 const GENERATED_DIR = "generated";
 
 async function processComponentContent(filename) {
@@ -91,6 +92,33 @@ async function processTemplateContent(filename) {
   }
 }
 
+// Add this function to process home content
+async function processHomeContent() {
+  console.log("Processing home content");
+
+  try {
+    if (fs.existsSync(HOME_FILE)) {
+      const contentData = JSON.parse(fs.readFileSync(HOME_FILE, "utf8"));
+
+      // Write home content to generated directory
+      fs.writeFileSync(
+        path.join(GENERATED_DIR, "home.json"),
+        JSON.stringify(contentData, null, 2)
+      );
+
+      return {
+        title: contentData.title,
+        summary: contentData.summary,
+        path: "home.json",
+      };
+    }
+    return null;
+  } catch (error) {
+    console.error("Error processing home content:", error);
+    return null;
+  }
+}
+
 async function main() {
   // Create generated directory
   fs.mkdirSync(GENERATED_DIR, { recursive: true });
@@ -119,6 +147,9 @@ async function main() {
     templateFiles.map(processTemplateContent)
   );
 
+  // Process home content
+  const homeData = await processHomeContent();
+
   // Create index.json with all available resources
   const index = {
     api: {
@@ -126,6 +157,10 @@ async function main() {
       baseUrl: "https://api.seb.io",
       lastUpdated: new Date().toISOString(),
       resources: {
+        home: {
+          endpoint: homeData?.path,
+          content: homeData,
+        },
         components: {
           list: "components.json",
           items: componentsData
