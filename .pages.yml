@@ -173,9 +173,9 @@ content:
     type: collection
     format: "json"
     path: content/snippets
-    filename: "{fields.slug}.json"
+    filename: "{fields.id}.json"
     view:
-      fields: [title, id]
+      fields: [title, id, snippet_component]
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: id, label: ID, type: string, required: true }
