@@ -179,6 +179,16 @@ content:
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: id, label: ID, type: string, required: true }
+      - name: snippet_component
+        label: Component
+        type: reference
+        required: false
+        options:
+          collection: components
+          multiple: false
+          search: "title"
+          value: "{title}"
+          label: "{title}"
       - name: code
         label: Code
         type: code
