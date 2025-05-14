@@ -182,7 +182,6 @@ content:
       - name: snippet_component
         label: Component
         type: reference
-        required: false
         options:
           collection: components
           multiple: false
