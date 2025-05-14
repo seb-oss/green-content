@@ -8,7 +8,7 @@ content:
     type: collection
     format: "json"
     subfolders: false
-    path: components
+    path: cms/components
     filename: "{fields.slug}.json"
     view:
       fields: [title, date, status]
@@ -114,7 +114,7 @@ content:
     label: Pages
     type: collection
     format: "json"
-    path: pages
+    path: cms/pages
     filename: "{fields.slug}.json"
     view:
       fields: [title, date]
@@ -127,7 +127,7 @@ content:
     label: Navigation
     type: collection
     format: "json"
-    path: navigation
+    path: cms/navigation
     view:
       fields: [title]
     filename: "{fields.slug}.json"
@@ -148,7 +148,32 @@ content:
     label: Templates
     type: collection
     format: "json"
-    path: templates
+    path: cms/templates
+    filename: "{fields.slug}.json"
+    view:
+      fields: [title, date]
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: slug, label: Slug, type: string, required: true }
+      - name: code
+        label: Code
+        type: code
+        options:
+          language: html
+      - name: related_components
+        label: Related Components
+        type: reference
+        options:
+          collection: components
+          multiple: true
+          search: "title"
+          value: "{title}"
+          label: "{title}"
+  - name: snippet
+    label: Snippets
+    type: collection
+    format: "json"
+    path: cms/snippets
     filename: "{fields.slug}.json"
     view:
       fields: [title, date]
