@@ -4,9 +4,9 @@ on:
   workflow_dispatch: {}
   push:
     paths:
-      - "components/**"
-      - "navigation/**"
-      - "templates/**"
+      - "content/components/**"
+      - "content/navigation/**"
+      - "content/templates/**"
       - "generated/**"
 
 permissions:

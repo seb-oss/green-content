@@ -2,9 +2,9 @@
 const fs = require("fs");
 const path = require("path");
 
-const COMPONENTS_DIR = "components";
-const NAVIGATION_DIR = "navigation";
-const TEMPLATES_DIR = "templates";
+const COMPONENTS_DIR = "content/components";
+const NAVIGATION_DIR = "content/navigation";
+const TEMPLATES_DIR = "content/templates";
 const GENERATED_DIR = "generated";
 
 async function processComponentContent(filename) {
