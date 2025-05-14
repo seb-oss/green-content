@@ -193,4 +193,4 @@ content:
     view:
       fields: [title, date]
     fields:
-      - { name: title, label: Title, type: string, required: true }
+      - { name: title, label: Title, type: string }
