@@ -37,23 +37,42 @@ jobs:
         run: |
           npm install canvas@2.11.2
 
-      - name: Generate OG images
-        run: node scripts/og.script.js
+      - name: Process content
+        run: node scripts/content.script.js
 
-      - name: Verify Generated Files
+      - name: Generate OG images
         run: |
-          echo "Generated OG images:"
+          node scripts/og.script.js
+
+          echo "\nVerifying generated files..."
+          echo "Data directory structure:"
+          tree data || true
+
+          echo "\nFound OG images:"
           find data -name "*.og.png" -type f -ls
 
-      - name: Commit to main branch
+      - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/
+
+          echo "Changes to be committed:"
+          git add -A
+          git status
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Add OG images"
+            git commit -m "Add OG images and update indexes"
             git push origin main
           fi
+
+      - name: Print Summary
+        run: |
+          echo "Generation Summary:"
+          cat og-generation-summary.json
+
+          echo "\nGenerated OG images are at:"
+          find data -name "*.og.png" -type f | while read -r file; do
+            echo "- $file"
+          done

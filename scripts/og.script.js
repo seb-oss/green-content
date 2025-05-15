@@ -7,7 +7,80 @@ const DATA_DIR = "data";
 const generatedFiles = [];
 
 async function generateOGImage(content, outputPath, type = "component") {
-  // ... existing generateOGImage function remains the same ...
+  try {
+    console.log(`Generating OG image for ${content.title}...`);
+
+    const canvas = createCanvas(1200, 630);
+    const ctx = canvas.getContext("2d");
+
+    // Background
+    ctx.fillStyle = "#ffffff";
+    ctx.fillRect(0, 0, 1200, 630);
+
+    // Add gradient border
+    const gradient = ctx.createLinearGradient(0, 0, 1200, 0);
+    gradient.addColorStop(0, "#0091ff");
+    gradient.addColorStop(1, "#00c2ff");
+    ctx.strokeStyle = gradient;
+    ctx.lineWidth = 8;
+    ctx.strokeRect(0, 0, 1200, 630);
+
+    // Title
+    ctx.font = "bold 60px Arial";
+    ctx.fillStyle = "#000000";
+    ctx.fillText(content.title, 80, 160);
+
+    // Summary if exists
+    if (content.summary) {
+      ctx.font = "32px Arial";
+      ctx.fillStyle = "#666666";
+      const words = content.summary.split(" ");
+      let line = "";
+      let y = 240;
+
+      for (let word of words) {
+        const testLine = line + word + " ";
+        const metrics = ctx.measureText(testLine);
+
+        if (metrics.width > 1000) {
+          ctx.fillText(line, 80, y);
+          line = word + " ";
+          y += 48;
+        } else {
+          line = testLine;
+        }
+      }
+      ctx.fillText(line, 80, y);
+    }
+
+    // Footer
+    ctx.font = "24px Arial";
+    ctx.fillStyle = "#666666";
+    ctx.fillText("SEB Design System", 80, 560);
+
+    // Type badge
+    ctx.fillStyle = "#eef6ff";
+    const typeWidth = ctx.measureText(type).width + 40;
+    ctx.fillRect(1200 - typeWidth - 40, 40, typeWidth, 40);
+
+    ctx.font = "bold 20px Arial";
+    ctx.fillStyle = "#0091ff";
+    ctx.fillText(type, 1200 - typeWidth - 20, 65);
+
+    // Ensure directory exists
+    const dir = path.dirname(outputPath);
+    fs.mkdirSync(dir, { recursive: true });
+
+    // Save the image
+    const buffer = canvas.toBuffer("image/png");
+    await fs.promises.writeFile(outputPath, buffer);
+
+    console.log(`✅ Generated OG image: ${outputPath}`);
+    return true;
+  } catch (error) {
+    console.error(`❌ Error generating OG image for ${content.title}:`, error);
+    return false;
+  }
 }
 
 async function processContent(type, contentPath, outputPath) {
@@ -18,16 +91,17 @@ async function processContent(type, contentPath, outputPath) {
     }
 
     const content = JSON.parse(fs.readFileSync(contentPath, "utf8"));
-    await generateOGImage(content, outputPath, type);
+    const success = await generateOGImage(content, outputPath, type);
 
-    // Record successful generation
-    generatedFiles.push({
-      type,
-      name: content.title,
-      path: outputPath.replace(DATA_DIR + "/", ""),
-    });
+    if (success) {
+      generatedFiles.push({
+        type,
+        name: content.title,
+        path: outputPath.replace(DATA_DIR + "/", ""),
+      });
+    }
 
-    return true;
+    return success;
   } catch (error) {
     console.error(`❌ Error processing ${contentPath}:`, error.message);
     return false;
@@ -93,6 +167,8 @@ async function processSnippetContent(snippetDir) {
 }
 
 async function updateIndexFiles() {
+  console.log("\n📝 Updating index files...");
+
   // Update components.json
   const componentsIndexPath = path.join(
     DATA_DIR,
@@ -113,6 +189,7 @@ async function updateIndexFiles() {
       componentsIndexPath,
       JSON.stringify(componentsIndex, null, 2)
     );
+    console.log("✅ Updated components.json");
   }
 
   // Update pages.json
@@ -124,6 +201,7 @@ async function updateIndexFiles() {
       ogImage: `pages/${page.slug}/${page.slug}.og.png`,
     }));
     fs.writeFileSync(pagesIndexPath, JSON.stringify(pagesIndex, null, 2));
+    console.log("✅ Updated pages.json");
   }
 
   // Update snippets.json
@@ -137,6 +215,7 @@ async function updateIndexFiles() {
       ogImage: `snippets/${snippet.slug}/${snippet.slug}.og.png`,
     }));
     fs.writeFileSync(snippetsIndexPath, JSON.stringify(snippetsIndex, null, 2));
+    console.log("✅ Updated snippets.json");
   }
 
   // Update main index.json
@@ -144,7 +223,6 @@ async function updateIndexFiles() {
   if (fs.existsSync(mainIndexPath)) {
     const mainIndex = JSON.parse(fs.readFileSync(mainIndexPath, "utf8"));
 
-    // Update components
     if (mainIndex.api.resources.components?.items) {
       mainIndex.api.resources.components.items =
         mainIndex.api.resources.components.items.map((item) => ({
@@ -153,7 +231,6 @@ async function updateIndexFiles() {
         }));
     }
 
-    // Update pages
     if (mainIndex.api.resources.pages?.items) {
       mainIndex.api.resources.pages.items =
         mainIndex.api.resources.pages.items.map((item) => ({
@@ -162,7 +239,6 @@ async function updateIndexFiles() {
         }));
     }
 
-    // Update snippets
     if (mainIndex.api.resources.snippets?.items) {
       mainIndex.api.resources.snippets.items =
         mainIndex.api.resources.snippets.items.map((item) => ({
@@ -172,6 +248,7 @@ async function updateIndexFiles() {
     }
 
     fs.writeFileSync(mainIndexPath, JSON.stringify(mainIndex, null, 2));
+    console.log("✅ Updated index.json");
   }
 }
 
@@ -226,6 +303,7 @@ async function main() {
     }
   }
 
+  // Update index files with OG image paths
   await updateIndexFiles();
 
   // Print summary
