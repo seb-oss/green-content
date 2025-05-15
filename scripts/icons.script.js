@@ -202,11 +202,25 @@ async function main() {
       for (const [name, regularData] of regularIcons) {
         const iconKey = toKebabCase(name);
         const solidData = solidIcons.get(name);
+        const toDisplayName = (str) => {
+          return (
+            str
+              // Split by hyphens or underscores
+              .split(/[-_]/)
+              // Capitalize first letter of each word
+              .map(
+                (word) =>
+                  word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+              )
+              // Join with spaces
+              .join(" ")
+          );
+        };
 
         iconsObject[iconKey] = {
           id: iconKey,
           nodeId: regularData.nodeId,
-          displayName: name,
+          displayName: toDisplayName(iconKey),
           fileName: `${iconKey}.svg`,
           urlPath: iconKey,
           variants: {
