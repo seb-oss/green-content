@@ -2,5 +2,5 @@
   "title": "Button Example One",
   "slug": "button-snippet-one",
   "snippet_component": "Button",
-  "code": "<gds-flex><gds-text>hello</gds-text></gds-flex>"
+  "code": "<GdsFlex>\n  <GdsButton>\n    Button Snippet\n  </GdsButton>\n</GdsFlex>"
 }
