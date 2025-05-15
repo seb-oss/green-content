@@ -1,0 +1,9 @@
+{
+  "title": "Login",
+  "slug": "login",
+  "code": "<gds-flex>\n  <gds-card>\n    <gds-text>Hello</gds-text>\n  </gds-card>\n</gds-flex>",
+  "related_components": [
+    "Button",
+    "Input"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "snippets": [
+    {
+      "title": "Second example",
+      "slug": "button-two",
+      "path": "snippets/button-two/button-two.json",
+      "code": "Hello content for the snippet"
+    },
+    {
+      "title": "Button One",
+      "slug": "button-one",
+      "path": "snippets/button/button.json",
+      "code": "<gds-flex>\nThis and that \n</gds-flex>"
+    }
+  ],
+  "total": 2,
+  "lastUpdated": "2025-05-15T08:36:15.922Z"
+}

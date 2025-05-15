@@ -1,0 +1,124 @@
+{
+  "api": {
+    "version": "1.0.0",
+    "baseUrl": "https://api.seb.io",
+    "lastUpdated": "2025-05-15T08:36:15.921Z",
+    "resources": {
+      "home": {
+        "endpoint": "home.json",
+        "content": {
+          "title": "Designed to bring unity to our digital experiences.",
+          "summary": "Green Design System is more than a polished user interface, its places the user at the very forefront of design, usability and accessibility.",
+          "path": "home.json"
+        }
+      },
+      "components": {
+        "list": "components/components.json",
+        "items": [
+          {
+            "title": "Button",
+            "slug": "button",
+            "summary": "Buttons are an essential element of interaction design. Their primary role is to help people take actions quickly.",
+            "path": "components/button/button.content.json",
+            "endpoints": {
+              "content": "components/button/button.content.json",
+              "images": "components/button/button.images.json"
+            }
+          },
+          {
+            "title": "Icon",
+            "slug": "icon",
+            "path": "components/icon/icon.content.json",
+            "endpoints": {
+              "content": "components/icon/icon.content.json",
+              "images": "components/icon/icon.images.json"
+            }
+          },
+          {
+            "title": "Input",
+            "slug": "input",
+            "path": "components/input/input.content.json",
+            "endpoints": {
+              "content": "components/input/input.content.json",
+              "images": "components/input/input.images.json"
+            }
+          }
+        ]
+      },
+      "navigation": {
+        "list": "navigation/navigation.json",
+        "items": [
+          {
+            "title": "Main",
+            "slug": "main",
+            "path": "navigation/main.json",
+            "links": 9,
+            "endpoint": "navigation/main.json"
+          }
+        ]
+      },
+      "templates": {
+        "list": "templates/templates.json",
+        "items": [
+          {
+            "title": "Login",
+            "slug": "login",
+            "path": "templates/login/login.json",
+            "related_components": [
+              "Button",
+              "Input"
+            ],
+            "endpoint": "templates/login/login.json"
+          }
+        ]
+      },
+      "pages": {
+        "list": "pages/pages.json",
+        "items": [
+          {
+            "title": "Foundation",
+            "slug": "foundation",
+            "path": "pages/foundation/foundation.json",
+            "endpoints": {
+              "content": "pages/foundation/foundation.json"
+            }
+          },
+          {
+            "title": "UX Writing",
+            "slug": "ux-writing",
+            "path": "pages/ux-writing/ux-writing.json",
+            "endpoints": {
+              "content": "pages/ux-writing/ux-writing.json"
+            }
+          }
+        ]
+      },
+      "snippets": {
+        "list": "snippets/snippets.json",
+        "items": [
+          {
+            "title": "Second example",
+            "slug": "button-two",
+            "path": "snippets/button-two/button-two.json",
+            "code": "Hello content for the snippet",
+            "endpoints": {
+              "content": "snippets/button-two/button-two.json"
+            }
+          },
+          {
+            "title": "Button One",
+            "slug": "button-one",
+            "path": "snippets/button/button.json",
+            "code": "<gds-flex>\nThis and that \n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/button/button.json"
+            }
+          }
+        ]
+      },
+      "icons": {
+        "list": "icons/icons.json"
+      }
+    }
+  }
+}
