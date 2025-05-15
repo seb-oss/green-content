@@ -92,6 +92,89 @@ async function processSnippetContent(snippetDir) {
   return processContent("Snippet", contentPath, outputPath);
 }
 
+async function updateIndexFiles() {
+  // Update components.json
+  const componentsIndexPath = path.join(
+    DATA_DIR,
+    "components",
+    "components.json"
+  );
+  if (fs.existsSync(componentsIndexPath)) {
+    const componentsIndex = JSON.parse(
+      fs.readFileSync(componentsIndexPath, "utf8")
+    );
+    componentsIndex.components = componentsIndex.components.map(
+      (component) => ({
+        ...component,
+        ogImage: `components/${component.slug}/${component.slug}.og.png`,
+      })
+    );
+    fs.writeFileSync(
+      componentsIndexPath,
+      JSON.stringify(componentsIndex, null, 2)
+    );
+  }
+
+  // Update pages.json
+  const pagesIndexPath = path.join(DATA_DIR, "pages", "pages.json");
+  if (fs.existsSync(pagesIndexPath)) {
+    const pagesIndex = JSON.parse(fs.readFileSync(pagesIndexPath, "utf8"));
+    pagesIndex.pages = pagesIndex.pages.map((page) => ({
+      ...page,
+      ogImage: `pages/${page.slug}/${page.slug}.og.png`,
+    }));
+    fs.writeFileSync(pagesIndexPath, JSON.stringify(pagesIndex, null, 2));
+  }
+
+  // Update snippets.json
+  const snippetsIndexPath = path.join(DATA_DIR, "snippets", "snippets.json");
+  if (fs.existsSync(snippetsIndexPath)) {
+    const snippetsIndex = JSON.parse(
+      fs.readFileSync(snippetsIndexPath, "utf8")
+    );
+    snippetsIndex.snippets = snippetsIndex.snippets.map((snippet) => ({
+      ...snippet,
+      ogImage: `snippets/${snippet.slug}/${snippet.slug}.og.png`,
+    }));
+    fs.writeFileSync(snippetsIndexPath, JSON.stringify(snippetsIndex, null, 2));
+  }
+
+  // Update main index.json
+  const mainIndexPath = path.join(DATA_DIR, "index.json");
+  if (fs.existsSync(mainIndexPath)) {
+    const mainIndex = JSON.parse(fs.readFileSync(mainIndexPath, "utf8"));
+
+    // Update components
+    if (mainIndex.api.resources.components?.items) {
+      mainIndex.api.resources.components.items =
+        mainIndex.api.resources.components.items.map((item) => ({
+          ...item,
+          ogImage: `components/${item.slug}/${item.slug}.og.png`,
+        }));
+    }
+
+    // Update pages
+    if (mainIndex.api.resources.pages?.items) {
+      mainIndex.api.resources.pages.items =
+        mainIndex.api.resources.pages.items.map((item) => ({
+          ...item,
+          ogImage: `pages/${item.slug}/${item.slug}.og.png`,
+        }));
+    }
+
+    // Update snippets
+    if (mainIndex.api.resources.snippets?.items) {
+      mainIndex.api.resources.snippets.items =
+        mainIndex.api.resources.snippets.items.map((item) => ({
+          ...item,
+          ogImage: `snippets/${item.slug}/${item.slug}.og.png`,
+        }));
+    }
+
+    fs.writeFileSync(mainIndexPath, JSON.stringify(mainIndex, null, 2));
+  }
+}
+
 async function main() {
   console.log("🎨 Starting OG Image Generation...\n");
 
@@ -142,6 +225,8 @@ async function main() {
       }
     }
   }
+
+  await updateIndexFiles();
 
   // Print summary
   console.log("\n📊 Generation Summary:");

@@ -42,13 +42,15 @@ jobs:
       - name: Generate OG images
         run: node scripts/og.script.js
 
-      - name: Display Generation Summary
+      - name: Verify Generated Files
         run: |
-          echo "Generation Summary:"
-          cat og-generation-summary.json
-          echo ""
-          echo "Generated Files:"
+          echo "Checking generated OG images..."
           find data -name "*.og.png" -type f
+
+          echo "\nChecking updated index files..."
+          cat data/components/components.json
+          cat data/pages/pages.json
+          cat data/snippets/snippets.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -62,17 +64,26 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Commit generated OG images
+      - name: Commit changes to main branch
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data
-          git commit -m "Update OG images" || echo "No changes to commit"
-          git push origin main
 
-      - name: Print URLs
+          # Stage all changes in data directory
+          git add data/
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update OG images and index files"
+            git push origin main
+          fi
+
+      - name: Print Summary
         run: |
-          echo "Generated OG images are available at:"
-          while IFS= read -r file; do
-            echo "https://api.seb.io/$file"
-          done < <(find data -name "*.og.png" -type f | sed 's|data/||')
+          echo "✅ Deployment completed!"
+          echo "\n📊 Generated OG images:"
+          find data -name "*.og.png" -type f | while read -r file; do
+            echo "- https://api.seb.io/${file#data/}"
+          done
