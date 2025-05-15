@@ -1,0 +1,15 @@
+{
+  "templates": [
+    {
+      "title": "Login",
+      "slug": "login",
+      "path": "templates/login.json",
+      "related_components": [
+        "Button",
+        "Input"
+      ]
+    }
+  ],
+  "total": 1,
+  "lastUpdated": "2025-05-15T07:21:48.699Z"
+}
