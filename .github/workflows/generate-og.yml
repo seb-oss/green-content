@@ -32,8 +32,20 @@ jobs:
         run: |
           npm install canvas
 
+      - name: Process content files
+        run: node scripts/content.script.js
+
       - name: Generate OG images
         run: node scripts/og.script.js
+
+      - name: Verify OG images
+        run: |
+          if [ -z "$(find generated -name '*.og.png')" ]; then
+            echo "No OG images were generated"
+            exit 1
+          fi
+          echo "Found OG images:"
+          find generated -name '*.og.png'
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -51,6 +63,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add "generated/**/*.og.png"
+          git add generated
+          git status
           git commit -m "Update OG images" || echo "No changes to commit"
           git push
