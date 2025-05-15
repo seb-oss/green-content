@@ -1,3 +1,4 @@
+# .github/workflows/generate-images.yml
 name: Generate Images
 
 on:
@@ -18,16 +19,9 @@ jobs:
         with:
           node-version: "16"
 
-      - name: Create package.json if not exists
-        run: |
-          if [ ! -f package.json ]; then
-            echo '{"name":"image-generator","version":"1.0.0","private":true}' > package.json
-          fi
-
       - name: Install Dependencies
         run: |
-          npm install axios
-          npm install ajv
+          npm install axios ajv
 
       - name: Run Image Generation Script
         env:
@@ -37,23 +31,13 @@ jobs:
 
       - name: Debug - List generated content
         run: |
-          echo "Contents of generated directory:"
-          ls -la generated/
-
-      - name: Create index.html
-        run: |
-          echo "<html><body><h1>Generated Files</h1><ul>" > generated/index.html
-          find generated -type f -name "*.json" | while read file; do
-            filename=$(basename "$file")
-            dirname=$(dirname "$file" | sed 's|generated/||')
-            echo "<li><a href='$dirname/$filename'>$dirname/$filename</a></li>" >> generated/index.html
-          done
-          echo "</ul></body></html>" >> generated/index.html
+          echo "Contents of data/components directory:"
+          ls -la data/components/
 
       - name: Commit and Push Changes
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add generated/
-          git commit -m "Update generated component images" || echo "No changes to commit"
+          git add "data/components/**/*.images.json"
+          git commit -m "Update component images" || echo "No changes to commit"
           git push
