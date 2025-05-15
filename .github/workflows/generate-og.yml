@@ -28,7 +28,7 @@ jobs:
           npm install canvas
 
       - name: Generate OG images
-        run: node scripts/generate-og.script.js
+        run: node scripts/og.script.js
 
       - name: Commit and push changes
         run: |
