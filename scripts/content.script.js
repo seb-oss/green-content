@@ -303,17 +303,22 @@ async function main() {
       lastUpdated: new Date().toISOString(),
     };
 
+    // Create the directory if it doesn't exist
+    const outputDir = path.join(DATA_DIR, dir);
+    fs.mkdirSync(outputDir, { recursive: true });
+
+    // Write type-specific index file in its directory
     fs.writeFileSync(
-      path.join(DATA_DIR, dir, `${type}.json`),
+      path.join(outputDir, `${type}.json`),
       JSON.stringify(indexData, null, 2)
     );
   };
 
   writeIndexFile("components", componentsData, "components");
-  writeIndexFile("navigation", navigationData, "navigation");
-  writeIndexFile("templates", templatesData, "templates");
   writeIndexFile("pages", pagesData, "pages");
   writeIndexFile("snippets", snippetsData, "snippets");
+  writeIndexFile("templates", templatesData, "templates");
+  writeIndexFile("navigation", navigationData, "navigation");
 
   console.log("Processing completed!");
 }
