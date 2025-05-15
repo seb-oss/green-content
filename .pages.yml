@@ -22,7 +22,7 @@ content:
           collection: snippets
           multiple: false
           search: "title"
-          value: "{title}"
+          value: "{slug}"
           label: "{title}"
       - name: beta
         label: Beta
