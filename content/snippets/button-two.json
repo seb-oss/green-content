@@ -1,6 +1,6 @@
 {
   "title": "Second example",
-  "id": "button-two",
+  "slug": "button-two",
   "snippet_component": "Button",
   "code": "Hello content for the snippet"
 }

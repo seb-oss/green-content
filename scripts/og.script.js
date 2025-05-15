@@ -1,4 +1,4 @@
-// scripts/generate-og.script.js
+// scripts/og.script.js
 const fs = require("fs");
 const path = require("path");
 const { createCanvas, loadImage, registerFont } = require("canvas");
@@ -6,7 +6,7 @@ const { createCanvas, loadImage, registerFont } = require("canvas");
 // Register custom font if needed
 // registerFont('path/to/font.ttf', { family: 'CustomFont' });
 
-const GENERATED_DIR = "generated";
+const DATA_DIR = "data";
 
 async function generateOGImage(content, outputPath, type = "component") {
   const canvas = createCanvas(1200, 630);
@@ -71,63 +71,100 @@ async function generateOGImage(content, outputPath, type = "component") {
   await fs.promises.writeFile(outputPath, buffer);
 }
 
-async function processContent(type, contentData, basePath) {
-  const outputPath = path.join(
-    GENERATED_DIR,
-    basePath,
-    `${contentData.slug}.og.png`
+async function processComponentContent(componentDir) {
+  const componentName = path.basename(componentDir);
+  const contentPath = path.join(
+    DATA_DIR,
+    "components",
+    componentDir,
+    `${componentName}.content.json`
   );
 
-  await generateOGImage(contentData, outputPath, type);
+  if (fs.existsSync(contentPath)) {
+    console.log(`Processing component: ${componentName}`);
+    const content = JSON.parse(fs.readFileSync(contentPath, "utf8"));
+    const outputPath = path.join(
+      DATA_DIR,
+      "components",
+      componentDir,
+      `${componentName}.og.png`
+    );
+    await generateOGImage(content, outputPath, "Component");
+  }
+}
 
-  return {
-    ...contentData,
-    ogImage: `${basePath}/${contentData.slug}.og.png`,
-  };
+async function processPageContent(pageDir) {
+  const pageName = path.basename(pageDir);
+  const contentPath = path.join(DATA_DIR, "pages", pageDir, `${pageName}.json`);
+
+  if (fs.existsSync(contentPath)) {
+    console.log(`Processing page: ${pageName}`);
+    const content = JSON.parse(fs.readFileSync(contentPath, "utf8"));
+    const outputPath = path.join(
+      DATA_DIR,
+      "pages",
+      pageDir,
+      `${pageName}.og.png`
+    );
+    await generateOGImage(content, outputPath, "Page");
+  }
+}
+
+async function processSnippetContent(snippetDir) {
+  const snippetName = path.basename(snippetDir);
+  const contentPath = path.join(
+    DATA_DIR,
+    "snippets",
+    snippetDir,
+    `${snippetName}.json`
+  );
+
+  if (fs.existsSync(contentPath)) {
+    console.log(`Processing snippet: ${snippetName}`);
+    const content = JSON.parse(fs.readFileSync(contentPath, "utf8"));
+    const outputPath = path.join(
+      DATA_DIR,
+      "snippets",
+      snippetDir,
+      `${snippetName}.og.png`
+    );
+    await generateOGImage(content, outputPath, "Snippet");
+  }
 }
 
 async function main() {
   // Process components
-  const componentsDir = path.join(GENERATED_DIR);
-  const componentFiles = fs
-    .readdirSync(componentsDir)
-    .filter((file) => file.endsWith(".content.json"));
-
-  for (const file of componentFiles) {
-    const content = JSON.parse(
-      fs.readFileSync(path.join(componentsDir, file), "utf8")
-    );
-    await processContent("Component", content, content.slug);
+  const componentsDir = path.join(DATA_DIR, "components");
+  if (fs.existsSync(componentsDir)) {
+    const componentDirs = fs.readdirSync(componentsDir);
+    for (const componentDir of componentDirs) {
+      const dirPath = path.join(componentsDir, componentDir);
+      if (fs.statSync(dirPath).isDirectory()) {
+        await processComponentContent(componentDir);
+      }
+    }
   }
 
   // Process pages
-  const pagesDir = path.join(GENERATED_DIR, "pages");
+  const pagesDir = path.join(DATA_DIR, "pages");
   if (fs.existsSync(pagesDir)) {
-    const pageDirectories = fs.readdirSync(pagesDir);
-
-    for (const pageDir of pageDirectories) {
-      const pagePath = path.join(pagesDir, pageDir, `${pageDir}.json`);
-      if (fs.existsSync(pagePath)) {
-        const content = JSON.parse(fs.readFileSync(pagePath, "utf8"));
-        await processContent("Page", content, `pages/${pageDir}`);
+    const pageDirs = fs.readdirSync(pagesDir);
+    for (const pageDir of pageDirs) {
+      const dirPath = path.join(pagesDir, pageDir);
+      if (fs.statSync(dirPath).isDirectory()) {
+        await processPageContent(pageDir);
       }
     }
   }
 
   // Process snippets
-  const snippetsDir = path.join(GENERATED_DIR, "snippets");
+  const snippetsDir = path.join(DATA_DIR, "snippets");
   if (fs.existsSync(snippetsDir)) {
-    const snippetDirectories = fs.readdirSync(snippetsDir);
-
-    for (const snippetDir of snippetDirectories) {
-      const snippetPath = path.join(
-        snippetsDir,
-        snippetDir,
-        `${snippetDir}.json`
-      );
-      if (fs.existsSync(snippetPath)) {
-        const content = JSON.parse(fs.readFileSync(snippetPath, "utf8"));
-        await processContent("Snippet", content, `snippets/${snippetDir}`);
+    const snippetDirs = fs.readdirSync(snippetsDir);
+    for (const snippetDir of snippetDirs) {
+      const dirPath = path.join(snippetsDir, snippetDir);
+      if (fs.statSync(dirPath).isDirectory()) {
+        await processSnippetContent(snippetDir);
       }
     }
   }
@@ -135,4 +172,7 @@ async function main() {
   console.log("OG Image generation completed!");
 }
 
-main().catch(console.error);
+main().catch((error) => {
+  console.error("Error generating OG images:", error);
+  process.exit(1);
+});

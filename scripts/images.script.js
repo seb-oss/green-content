@@ -1,11 +1,12 @@
+// scripts/images.script.js
 const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
 const Ajv = require("ajv");
 
 // ========== CONFIGURATION ==========
-const CONTENT_DIR = path.join("images");
-const GENERATED_DIR = path.join("generated");
+const CONTENT_DIR = path.join("content", "images");
+const DATA_DIR = "data";
 const SCHEMAS_DIR = path.join("schemas");
 
 // Figma API settings
@@ -16,8 +17,6 @@ const FIGMA_ACCESS_KEY = process.env.FIGMA_ACCESS_KEY;
 const ajv = new Ajv();
 
 // ========== HELPER FUNCTIONS ==========
-
-// Load and validate schema
 function loadSchema() {
   try {
     const schemaPath = path.join(SCHEMAS_DIR, "image.schema.json");
@@ -29,7 +28,6 @@ function loadSchema() {
   }
 }
 
-// Fetch SVGs from Figma
 async function fetchSVGs(nodeIds) {
   try {
     const idsParam = nodeIds.join(",");
@@ -56,7 +54,6 @@ async function fetchSVGs(nodeIds) {
   }
 }
 
-// Process component images
 async function processComponentImages(componentName, validate) {
   console.log(`Processing component: ${componentName}`);
 
@@ -65,6 +62,7 @@ async function processComponentImages(componentName, validate) {
     componentName,
     `${componentName}.images.json`
   );
+
   if (!fs.existsSync(inputPath)) {
     console.error(`No images file found for component ${componentName}`);
     return;
@@ -105,7 +103,7 @@ async function processComponentImages(componentName, validate) {
     });
 
     // Ensure output directory exists
-    const outputDir = path.join(GENERATED_DIR, componentName);
+    const outputDir = path.join(DATA_DIR, "components", componentName);
     fs.mkdirSync(outputDir, { recursive: true });
 
     // Write output file
@@ -120,10 +118,15 @@ async function processComponentImages(componentName, validate) {
   }
 }
 
-// ========== MAIN ==========
 async function main() {
   // Load and compile schema
   const validate = loadSchema();
+
+  // Ensure content directory exists
+  if (!fs.existsSync(CONTENT_DIR)) {
+    console.error(`Content directory ${CONTENT_DIR} does not exist`);
+    process.exit(1);
+  }
 
   // Get all component directories
   const components = fs
@@ -135,6 +138,11 @@ async function main() {
   for (const component of components) {
     await processComponentImages(component, validate);
   }
+
+  console.log("Component image generation completed!");
 }
 
-main().catch(console.error);
+main().catch((error) => {
+  console.error("Error generating component images:", error);
+  process.exit(1);
+});

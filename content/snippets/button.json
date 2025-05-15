@@ -1,5 +1,5 @@
 {
   "title": "Button One",
-  "id": "button-one",
+  "slug": "button-one",
   "code": "<gds-flex>\nThis and that \n</gds-flex>"
 }
