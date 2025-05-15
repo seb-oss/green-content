@@ -2,5 +2,5 @@
   "title": "Button Example One",
   "slug": "button-snippet-one",
   "snippet_component": "Button",
-  "code": "<GdsCard variant=\"positive\">\n  <GdsButton rank=\"secondary\">\n    Button Snippet\n  </GdsButton>\n</GdsCard>"
+  "code": "<gds-card variant=\"positive\">\n  <gds-button rank=\"secondary\">\n    Button Snippet\n  </gds-button>\n</gds-card>\n"
 }
