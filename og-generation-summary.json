@@ -1,0 +1,41 @@
+{
+  "total": 11,
+  "success": 7,
+  "files": [
+    {
+      "type": "Component",
+      "name": "Button",
+      "path": "components/button/button.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Icon",
+      "path": "components/icon/icon.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Input",
+      "path": "components/input/input.og.png"
+    },
+    {
+      "type": "Page",
+      "name": "Foundation",
+      "path": "pages/foundation/foundation.og.png"
+    },
+    {
+      "type": "Page",
+      "name": "UX Writing",
+      "path": "pages/ux-writing/ux-writing.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button One",
+      "path": "snippets/button/button.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Second example",
+      "path": "snippets/button-two/button-two.og.png"
+    }
+  ]
+}
