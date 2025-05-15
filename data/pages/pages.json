@@ -3,12 +3,14 @@
     {
       "title": "Foundation",
       "slug": "foundation",
-      "path": "pages/foundation/foundation.json"
+      "path": "pages/foundation/foundation.json",
+      "ogImage": "pages/foundation/foundation.og.png"
     },
     {
       "title": "UX Writing",
       "slug": "ux-writing",
-      "path": "pages/ux-writing/ux-writing.json"
+      "path": "pages/ux-writing/ux-writing.json",
+      "ogImage": "pages/ux-writing/ux-writing.og.png"
     }
   ],
   "total": 2,

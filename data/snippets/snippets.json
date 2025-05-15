@@ -4,13 +4,15 @@
       "title": "Second example",
       "slug": "button-two",
       "path": "snippets/button-two/button-two.json",
-      "code": "Hello content for the snippet"
+      "code": "Hello content for the snippet",
+      "ogImage": "snippets/button-two/button-two.og.png"
     },
     {
       "title": "Button One",
       "slug": "button-one",
       "path": "snippets/button/button.json",
-      "code": "<gds-flex>\nThis and that \n</gds-flex>"
+      "code": "<gds-flex>\nThis and that \n</gds-flex>",
+      "ogImage": "snippets/button-one/button-one.og.png"
     }
   ],
   "total": 2,

@@ -23,7 +23,8 @@
             "endpoints": {
               "content": "components/button/button.content.json",
               "images": "components/button/button.images.json"
-            }
+            },
+            "ogImage": "components/button/button.og.png"
           },
           {
             "title": "Icon",
@@ -32,7 +33,8 @@
             "endpoints": {
               "content": "components/icon/icon.content.json",
               "images": "components/icon/icon.images.json"
-            }
+            },
+            "ogImage": "components/icon/icon.og.png"
           },
           {
             "title": "Input",
@@ -41,7 +43,8 @@
             "endpoints": {
               "content": "components/input/input.content.json",
               "images": "components/input/input.images.json"
-            }
+            },
+            "ogImage": "components/input/input.og.png"
           }
         ]
       },
@@ -81,7 +84,8 @@
             "path": "pages/foundation/foundation.json",
             "endpoints": {
               "content": "pages/foundation/foundation.json"
-            }
+            },
+            "ogImage": "pages/foundation/foundation.og.png"
           },
           {
             "title": "UX Writing",
@@ -89,7 +93,8 @@
             "path": "pages/ux-writing/ux-writing.json",
             "endpoints": {
               "content": "pages/ux-writing/ux-writing.json"
-            }
+            },
+            "ogImage": "pages/ux-writing/ux-writing.og.png"
           }
         ]
       },
@@ -103,7 +108,8 @@
             "code": "Hello content for the snippet",
             "endpoints": {
               "content": "snippets/button-two/button-two.json"
-            }
+            },
+            "ogImage": "snippets/button-two/button-two.og.png"
           },
           {
             "title": "Button One",
@@ -112,7 +118,8 @@
             "code": "<gds-flex>\nThis and that \n</gds-flex>",
             "endpoints": {
               "content": "snippets/button/button.json"
-            }
+            },
+            "ogImage": "snippets/button-one/button-one.og.png"
           }
         ]
       },
