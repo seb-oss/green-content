@@ -4,22 +4,19 @@
       "title": "Button",
       "slug": "button",
       "summary": "Buttons are an essential element of interaction design. Their primary role is to help people take actions quickly.",
-      "path": "components/button/button.content.json",
-      "ogImage": "components/button/button.og.png"
+      "path": "components/button/button.content.json"
     },
     {
       "title": "Icon",
       "slug": "icon",
-      "path": "components/icon/icon.content.json",
-      "ogImage": "components/icon/icon.og.png"
+      "path": "components/icon/icon.content.json"
     },
     {
       "title": "Input",
       "slug": "input",
-      "path": "components/input/input.content.json",
-      "ogImage": "components/input/input.og.png"
+      "path": "components/input/input.content.json"
     }
   ],
   "total": 3,
-  "lastUpdated": "2025-05-15T08:36:15.922Z"
+  "lastUpdated": "2025-05-15T08:48:47.397Z"
 }
