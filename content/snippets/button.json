@@ -1,5 +1,6 @@
 {
   "title": "Button One",
   "slug": "button-one",
+  "snippet_component": "Button",
   "code": "<gds-flex>\nThis and that \n</gds-flex>"
 }
