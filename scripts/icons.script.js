@@ -6,9 +6,9 @@ const addFormats = require("ajv-formats");
 require("dotenv").config({ path: ".env.local" });
 
 // ========== CONFIGURATION ==========
-const GENERATED_DIR = path.join("out");
+const DATA_DIR = "data";
 const SCHEMAS_DIR = path.join("schemas");
-const ICONS_DIR = path.join(GENERATED_DIR, "icons");
+const ICONS_DIR = path.join(DATA_DIR, "components", "icon");
 
 const FIGMA_ICONS_PROJECT_ID = process.env.FIGMA_ICONS_PROJECT_ID;
 const FIGMA_ACCESS_KEY = process.env.FIGMA_ACCESS_KEY;
@@ -249,7 +249,8 @@ async function main() {
         return;
       }
 
-      const outputPath = path.join(ICONS_DIR, "icons.json");
+      // const outputPath = path.join(ICONS_DIR, "icons.json");
+      const outputPath = path.join(ICONS_DIR, "icon.list.json");
       fs.writeFileSync(outputPath, JSON.stringify(iconsObject, null, 2));
       console.log(`Generated icons file at: ${outputPath}`);
       console.log(`Total icons processed: ${Object.keys(iconsObject).length}`);

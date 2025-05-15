@@ -2,13 +2,17 @@
 const fs = require("fs");
 const path = require("path");
 
-const COMPONENTS_DIR = "content/components";
-const NAVIGATION_DIR = "content/navigation";
-const TEMPLATES_DIR = "content/templates";
-const PAGES_DIR = "content/pages";
-const SNIPPETS_DIR = "content/snippets";
-const HOME_FILE = "content/home.json";
-const GENERATED_DIR = "generated";
+// Input directories
+const CONTENT_DIR = "content";
+const COMPONENTS_DIR = path.join(CONTENT_DIR, "components");
+const NAVIGATION_DIR = path.join(CONTENT_DIR, "navigation");
+const TEMPLATES_DIR = path.join(CONTENT_DIR, "templates");
+const PAGES_DIR = path.join(CONTENT_DIR, "pages");
+const SNIPPETS_DIR = path.join(CONTENT_DIR, "snippets");
+const HOME_FILE = path.join(CONTENT_DIR, "home.json");
+
+// Output directory
+const DATA_DIR = "data";
 
 async function processComponentContent(filename) {
   const componentName = path.basename(filename, ".json");
@@ -18,7 +22,7 @@ async function processComponentContent(filename) {
     const inputPath = path.join(COMPONENTS_DIR, filename);
     const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
 
-    const outputDir = path.join(GENERATED_DIR, componentName);
+    const outputDir = path.join(DATA_DIR, "components", componentName);
     fs.mkdirSync(outputDir, { recursive: true });
 
     fs.writeFileSync(
@@ -30,7 +34,7 @@ async function processComponentContent(filename) {
       title: contentData.title,
       slug: contentData.slug,
       summary: contentData.summary,
-      path: `${componentName}/${componentName}.content.json`,
+      path: `components/${componentName}/${componentName}.content.json`,
     };
   } catch (error) {
     console.error(`Error processing ${componentName}:`, error);
@@ -46,7 +50,7 @@ async function processNavigationContent(filename) {
     const inputPath = path.join(NAVIGATION_DIR, filename);
     const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
 
-    const outputDir = path.join(GENERATED_DIR, "navigation");
+    const outputDir = path.join(DATA_DIR, "navigation");
     fs.mkdirSync(outputDir, { recursive: true });
 
     fs.writeFileSync(
@@ -74,18 +78,18 @@ async function processTemplateContent(filename) {
     const inputPath = path.join(TEMPLATES_DIR, filename);
     const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
 
-    const outputDir = path.join(GENERATED_DIR, "templates");
+    const outputDir = path.join(DATA_DIR, "templates", templateName);
     fs.mkdirSync(outputDir, { recursive: true });
 
     fs.writeFileSync(
-      path.join(outputDir, filename),
+      path.join(outputDir, `${templateName}.json`),
       JSON.stringify(contentData, null, 2)
     );
 
     return {
       title: contentData.title,
       slug: contentData.slug,
-      path: `templates/${filename}`,
+      path: `templates/${templateName}/${templateName}.json`,
       related_components: contentData.related_components || [],
     };
   } catch (error) {
@@ -94,7 +98,6 @@ async function processTemplateContent(filename) {
   }
 }
 
-// Add this function to process home content
 async function processHomeContent() {
   console.log("Processing home content");
 
@@ -102,9 +105,8 @@ async function processHomeContent() {
     if (fs.existsSync(HOME_FILE)) {
       const contentData = JSON.parse(fs.readFileSync(HOME_FILE, "utf8"));
 
-      // Write home content to generated directory
       fs.writeFileSync(
-        path.join(GENERATED_DIR, "home.json"),
+        path.join(DATA_DIR, "home.json"),
         JSON.stringify(contentData, null, 2)
       );
 
@@ -129,10 +131,9 @@ async function processPageContent(filename) {
     const inputPath = path.join(PAGES_DIR, filename);
     const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
 
-    const outputDir = path.join(GENERATED_DIR, "pages", pageName);
+    const outputDir = path.join(DATA_DIR, "pages", pageName);
     fs.mkdirSync(outputDir, { recursive: true });
 
-    // Write page content to its directory
     fs.writeFileSync(
       path.join(outputDir, `${pageName}.json`),
       JSON.stringify(contentData, null, 2)
@@ -158,7 +159,7 @@ async function processSnippetContent(filename) {
     const inputPath = path.join(SNIPPETS_DIR, filename);
     const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
 
-    const outputDir = path.join(GENERATED_DIR, "snippets", snippetName);
+    const outputDir = path.join(DATA_DIR, "snippets", snippetName);
     fs.mkdirSync(outputDir, { recursive: true });
 
     fs.writeFileSync(
@@ -180,10 +181,10 @@ async function processSnippetContent(filename) {
 }
 
 async function main() {
-  // Create generated directory
-  fs.mkdirSync(GENERATED_DIR, { recursive: true });
+  // Create data directory
+  fs.mkdirSync(DATA_DIR, { recursive: true });
 
-  // Process components
+  // Process all content types
   const componentFiles = fs.existsSync(COMPONENTS_DIR)
     ? fs.readdirSync(COMPONENTS_DIR).filter((file) => file.endsWith(".json"))
     : [];
@@ -191,7 +192,6 @@ async function main() {
     componentFiles.map(processComponentContent)
   );
 
-  // Process navigation
   const navigationFiles = fs.existsSync(NAVIGATION_DIR)
     ? fs.readdirSync(NAVIGATION_DIR).filter((file) => file.endsWith(".json"))
     : [];
@@ -199,7 +199,6 @@ async function main() {
     navigationFiles.map(processNavigationContent)
   );
 
-  // Process templates
   const templateFiles = fs.existsSync(TEMPLATES_DIR)
     ? fs.readdirSync(TEMPLATES_DIR).filter((file) => file.endsWith(".json"))
     : [];
@@ -207,16 +206,11 @@ async function main() {
     templateFiles.map(processTemplateContent)
   );
 
-  // Process home content
-  const homeData = await processHomeContent();
-
-  // Process pages similar to components
   const pageFiles = fs.existsSync(PAGES_DIR)
     ? fs.readdirSync(PAGES_DIR).filter((file) => file.endsWith(".json"))
     : [];
   const pagesData = await Promise.all(pageFiles.map(processPageContent));
 
-  // Process snippets similar to components
   const snippetFiles = fs.existsSync(SNIPPETS_DIR)
     ? fs.readdirSync(SNIPPETS_DIR).filter((file) => file.endsWith(".json"))
     : [];
@@ -224,7 +218,9 @@ async function main() {
     snippetFiles.map(processSnippetContent)
   );
 
-  // Create index.json with all available resources
+  const homeData = await processHomeContent();
+
+  // Create and write index files
   const index = {
     api: {
       version: "1.0.0",
@@ -236,19 +232,19 @@ async function main() {
           content: homeData,
         },
         components: {
-          list: "components.json",
+          list: "components/components.json",
           items: componentsData
             .filter((component) => component !== null)
             .map((component) => ({
               ...component,
               endpoints: {
                 content: component.path,
-                images: `${component.slug}/${component.slug}.images.json`,
+                images: `components/${component.slug}/${component.slug}.images.json`,
               },
             })),
         },
         navigation: {
-          list: "navigation.json",
+          list: "navigation/navigation.json",
           items: navigationData
             .filter((nav) => nav !== null)
             .map((nav) => ({
@@ -257,7 +253,7 @@ async function main() {
             })),
         },
         templates: {
-          list: "templates.json",
+          list: "templates/templates.json",
           items: templatesData
             .filter((template) => template !== null)
             .map((template) => ({
@@ -266,7 +262,7 @@ async function main() {
             })),
         },
         pages: {
-          list: "pages.json",
+          list: "pages/pages.json",
           items: pagesData
             .filter((page) => page !== null)
             .map((page) => ({
@@ -277,7 +273,7 @@ async function main() {
             })),
         },
         snippets: {
-          list: "snippets.json",
+          list: "snippets/snippets.json",
           items: snippetsData
             .filter((snippet) => snippet !== null)
             .map((snippet) => ({
@@ -290,83 +286,34 @@ async function main() {
         icons: {
           list: "icons/icons.json",
         },
-        images: {
-          components: componentsData
-            .filter((component) => component !== null)
-            .map((component) => ({
-              component: component.slug,
-              path: `${component.slug}/${component.slug}.images.json`,
-            })),
-        },
       },
     },
   };
 
-  // Write index.json
+  // Write all index files
   fs.writeFileSync(
-    path.join(GENERATED_DIR, "index.json"),
+    path.join(DATA_DIR, "index.json"),
     JSON.stringify(index, null, 2)
   );
 
-  // Write components.json
-  const componentsIndex = {
-    components: componentsData.filter((component) => component !== null),
-    total: componentsData.filter((component) => component !== null).length,
-    lastUpdated: new Date().toISOString(),
+  const writeIndexFile = (dir, data, type) => {
+    const indexData = {
+      [type]: data.filter((item) => item !== null),
+      total: data.filter((item) => item !== null).length,
+      lastUpdated: new Date().toISOString(),
+    };
+
+    fs.writeFileSync(
+      path.join(DATA_DIR, dir, `${type}.json`),
+      JSON.stringify(indexData, null, 2)
+    );
   };
 
-  fs.writeFileSync(
-    path.join(GENERATED_DIR, "components.json"),
-    JSON.stringify(componentsIndex, null, 2)
-  );
-
-  // Write navigation.json
-  const navigationIndex = {
-    navigation: navigationData.filter((nav) => nav !== null),
-    total: navigationData.filter((nav) => nav !== null).length,
-    lastUpdated: new Date().toISOString(),
-  };
-
-  fs.writeFileSync(
-    path.join(GENERATED_DIR, "navigation.json"),
-    JSON.stringify(navigationIndex, null, 2)
-  );
-
-  // Write templates.json
-  const templatesIndex = {
-    templates: templatesData.filter((template) => template !== null),
-    total: templatesData.filter((template) => template !== null).length,
-    lastUpdated: new Date().toISOString(),
-  };
-
-  fs.writeFileSync(
-    path.join(GENERATED_DIR, "templates.json"),
-    JSON.stringify(templatesIndex, null, 2)
-  );
-
-  // Write pages.json index
-  const pagesIndex = {
-    pages: pagesData.filter((page) => page !== null),
-    total: pagesData.filter((page) => page !== null).length,
-    lastUpdated: new Date().toISOString(),
-  };
-
-  fs.writeFileSync(
-    path.join(GENERATED_DIR, "pages.json"),
-    JSON.stringify(pagesIndex, null, 2)
-  );
-
-  // Write snippets.json index
-  const snippetsIndex = {
-    snippets: snippetsData.filter((snippet) => snippet !== null),
-    total: snippetsData.filter((snippet) => snippet !== null).length,
-    lastUpdated: new Date().toISOString(),
-  };
-
-  fs.writeFileSync(
-    path.join(GENERATED_DIR, "snippets.json"),
-    JSON.stringify(snippetsIndex, null, 2)
-  );
+  writeIndexFile("components", componentsData, "components");
+  writeIndexFile("navigation", navigationData, "navigation");
+  writeIndexFile("templates", templatesData, "templates");
+  writeIndexFile("pages", pagesData, "pages");
+  writeIndexFile("snippets", snippetsData, "snippets");
 
   console.log("Processing completed!");
 }

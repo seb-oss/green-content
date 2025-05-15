@@ -1,16 +1,12 @@
+# .github/workflows/deploy-pages.yml
 name: 🚀 Deploy Pages
 
 on:
   workflow_dispatch: {}
   push:
     paths:
-      - "content/components/**"
-      - "content/pages/**"
-      - "content/snippets/**"
-      - "content/navigation/**"
-      - "content/templates/**"
-      - "content/home.json"
-      - "generated/**"
+      - "content/**"
+      - "data/**"
 
 permissions:
   contents: read
@@ -19,7 +15,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: true # Changed to true for faster deployments
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -34,9 +30,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "lts/*" # Uses latest LTS version
+          node-version: "lts/*"
 
-      - name: Process component files
+      - name: Process content files
         run: node scripts/content.script.js
 
       - name: Setup Pages
@@ -45,7 +41,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: generated
+          path: data
 
       - name: Deploy to GitHub Pages
         id: deployment

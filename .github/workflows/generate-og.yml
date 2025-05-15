@@ -6,18 +6,9 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "og-images"
-  cancel-in-progress: true
 
 jobs:
-  generate-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -26,7 +17,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18" # Using a more stable version
+          node-version: "18"
 
       - name: Install system dependencies
         run: |
@@ -44,29 +35,13 @@ jobs:
         run: |
           npm install canvas@2.11.2
 
-      - name: Process content files
-        run: node scripts/content.script.js
-
       - name: Generate OG images
         run: node scripts/og.script.js
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: generated
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
 
       - name: Commit generated OG images
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add generated
-          git status
+          git add "data/**/*.og.png"
           git commit -m "Update OG images" || echo "No changes to commit"
           git push
