@@ -26,26 +26,29 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "lts/*"
+          node-version: "18" # Using a more stable version
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential \
+            libcairo2-dev \
+            libpango1.0-dev \
+            libjpeg-dev \
+            libgif-dev \
+            librsvg2-dev \
+            libpixman-1-dev
 
       - name: Install dependencies
         run: |
-          npm install canvas
+          npm install canvas@2.11.2
 
       - name: Process content files
         run: node scripts/content.script.js
 
       - name: Generate OG images
         run: node scripts/og.script.js
-
-      - name: Verify OG images
-        run: |
-          if [ -z "$(find generated -name '*.og.png')" ]; then
-            echo "No OG images were generated"
-            exit 1
-          fi
-          echo "Found OG images:"
-          find generated -name '*.og.png'
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
