@@ -6,8 +6,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   generate:
@@ -44,46 +42,18 @@ jobs:
 
       - name: Verify Generated Files
         run: |
-          echo "Checking generated OG images..."
-          find data -name "*.og.png" -type f
+          echo "Generated OG images:"
+          find data -name "*.og.png" -type f -ls
 
-          echo "\nChecking updated index files..."
-          cat data/components/components.json
-          cat data/pages/pages.json
-          cat data/snippets/snippets.json
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: data
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
-      - name: Commit changes to main branch
+      - name: Commit to main branch
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-
-          # Stage all changes in data directory
           git add data/
 
-          # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update OG images and index files"
+            git commit -m "Add OG images"
             git push origin main
           fi
-
-      - name: Print Summary
-        run: |
-          echo "✅ Deployment completed!"
-          echo "\n📊 Generated OG images:"
-          find data -name "*.og.png" -type f | while read -r file; do
-            echo "- https://api.seb.io/${file#data/}"
-          done
