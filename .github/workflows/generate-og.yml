@@ -3,16 +3,21 @@ name: 🎨 Generate OG Images
 
 on:
   workflow_dispatch: {}
-  workflow_run:
-    workflows: ["🚀 Deploy Pages"]
-    types:
-      - completed
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "og-images"
+  cancel-in-progress: true
 
 jobs:
-  generate:
+  generate-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -30,10 +35,22 @@ jobs:
       - name: Generate OG images
         run: node scripts/og.script.js
 
-      - name: Commit and push changes
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: generated
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Commit generated OG images
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add generated
+          git add "generated/**/*.og.png"
           git commit -m "Update OG images" || echo "No changes to commit"
           git push
