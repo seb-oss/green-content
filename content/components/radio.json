@@ -1,0 +1,16 @@
+{
+  "title": "Radio",
+  "slug": "radio",
+  "beta": true,
+  "tags": [
+    "Form"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
