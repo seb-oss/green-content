@@ -1,0 +1,26 @@
+{
+  "title": "Select",
+  "slug": "select",
+  "beta": true,
+  "tags": [
+    "Form"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  },
+  "overview": [
+    {
+      "column": [
+        {
+          "title": "Select overview content",
+          "column_title_tag": "H2"
+        }
+      ]
+    }
+  ]
+}
