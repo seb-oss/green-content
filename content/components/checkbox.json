@@ -1,0 +1,13 @@
+{
+  "title": "Checkbox",
+  "slug": "checkbox",
+  "beta": true,
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
