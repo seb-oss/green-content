@@ -1,0 +1,13 @@
+{
+  "title": "Segmented control",
+  "slug": "segmented-control",
+  "beta": true,
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
