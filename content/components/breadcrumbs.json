@@ -1,0 +1,33 @@
+{
+  "title": "Breadcrumbs",
+  "slug": "breadcrumbs",
+  "beta": true,
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  },
+  "overview": [
+    {
+      "column": [
+        {
+          "title": "Title",
+          "column_title_tag": "H2",
+          "description": "asd"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "title": "asd",
+          "column_title_tag": "H2",
+          "description": "asdasd"
+        }
+      ]
+    }
+  ]
+}
