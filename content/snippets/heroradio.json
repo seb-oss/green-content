@@ -1,0 +1,6 @@
+{
+  "title": "Hero: Radio",
+  "slug": "hero_radio",
+  "snippet_component": "Radio",
+  "code": "<gds-radio-group>\n  <gds-radio label=\"Radio Option 1\" supporting-text=\"Supporting text\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Radio Option 2\" supporting-text=\"Supporting text\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Radio Option 3\" supporting-text=\"Supporting text\" value=\"3\"></gds-radio>\n</gds-radio-group>"
+}
