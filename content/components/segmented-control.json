@@ -1,7 +1,7 @@
 {
   "title": "Segmented control",
   "slug": "segmented-control",
-  "hero_snippet": "hero_segmented_control",
+  "hero_snippet": "hero-radio",
   "beta": true,
   "summary": "A segmented control is a group of 2 – 5 buttons that lets the user switch views or sort elements.",
   "category": [
