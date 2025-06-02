@@ -1,7 +1,7 @@
 {
   "title": "Icon",
   "slug": "icon",
-  "hero_snippet": "hero_icon",
+  "hero_snippet": "hero-icon",
   "beta": true,
   "category": [
     "Components"
