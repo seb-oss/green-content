@@ -1,11 +1,14 @@
 {
   "title": "Icon",
   "slug": "icon",
+  "hero_snippet": "hero_icon",
   "beta": true,
   "category": [
     "Components"
   ],
   "platform": {
-    "web": true
+    "web": true,
+    "ios": false,
+    "android": false
   }
 }
