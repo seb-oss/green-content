@@ -2,6 +2,7 @@
   "title": "Checkbox",
   "slug": "checkbox",
   "beta": true,
+  "summary": "A checkbox is a form element that allows users to select one or multiple options from a list.",
   "tags": [
     "Form"
   ],
