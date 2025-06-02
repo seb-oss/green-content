@@ -2,6 +2,7 @@
   "title": "Textarea",
   "slug": "textarea",
   "beta": true,
+  "summary": "Textarea allow users to input text and digits on multiple lines.",
   "tags": [
     "Form"
   ],
