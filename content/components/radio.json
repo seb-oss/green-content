@@ -1,7 +1,7 @@
 {
   "title": "Radio",
   "slug": "radio",
-  "hero_snippet": "hero_radio",
+  "hero_snippet": "hero-radio",
   "beta": true,
   "summary": "A radio button allows users to select one option from a predefined set of mutually exclusive choices.",
   "tags": [
