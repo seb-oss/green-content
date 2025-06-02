@@ -1,0 +1,6 @@
+{
+  "title": "hero: Icon",
+  "slug": "hero_icon",
+  "snippet_component": "Icon",
+  "code": "<gds-icon-bank></gds-icon-bank>"
+}
