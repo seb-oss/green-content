@@ -1,6 +1,6 @@
 {
-  "title": "Button Example One",
-  "slug": "button-snippet-one",
+  "title": "Hero: Button",
+  "slug": "hero_button",
   "snippet_component": "Button",
   "code": "<gds-button>\n  Button Snippet\n</gds-button> "
 }
