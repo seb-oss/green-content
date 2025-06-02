@@ -2,6 +2,7 @@
   "title": "Breadcrumbs",
   "slug": "breadcrumbs",
   "beta": true,
+  "summary": "A breadcrumb is a secondary navigation showing the website hierarchy.",
   "category": [
     "Components"
   ],
