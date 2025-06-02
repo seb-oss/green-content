@@ -1,6 +1,6 @@
 {
   "title": "Hero: Segmented control",
-  "slug": "hero_segmented_control",
+  "slug": "hero-segmented-control",
   "snippet_component": "Segmented control",
   "code": "<gds-segmented-control>\n  <gds-segment value=\"1\">Item 1</gds-segment>\n  <gds-segment value=\"2\">Item 2</gds-segment>\n  <gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
 }
