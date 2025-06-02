@@ -1,6 +1,7 @@
 {
   "title": "Breadcrumbs",
   "slug": "breadcrumbs",
+  "hero_snippet": "hero_breadcrumb",
   "beta": true,
   "summary": "A breadcrumb is a secondary navigation showing the website hierarchy.",
   "category": [
