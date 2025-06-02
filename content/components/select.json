@@ -2,6 +2,7 @@
   "title": "Select",
   "slug": "select",
   "beta": true,
+  "summary": "The select component allows users to choose one option from a list of values, typically used in forms.",
   "tags": [
     "Form"
   ],
