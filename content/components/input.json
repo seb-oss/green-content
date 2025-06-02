@@ -1,5 +1,11 @@
 {
   "title": "Input",
   "slug": "input",
-  "beta": false
+  "beta": false,
+  "summary": "Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.",
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
 }
