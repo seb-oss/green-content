@@ -24,6 +24,23 @@
         }
       ]
     },
-    {}
+    {
+      "title": "When and how to use it",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Desktop",
+          "tag": "H3",
+          "content": "The full path may not take up more than one row in the layout."
+        },
+        {
+          "type": "image",
+          "caption": "Breadcrumb in desktop",
+          "img": "anatomy"
+        }
+      ]
+    }
   ]
 }
