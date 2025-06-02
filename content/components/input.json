@@ -2,10 +2,13 @@
   "title": "Input",
   "slug": "input",
   "hero_snippet": "hero_input",
-  "beta": false,
+  "beta": true,
   "summary": "Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.",
   "tags": [
     "Form"
+  ],
+  "category": [
+    "Components"
   ],
   "platform": {
     "web": false,
