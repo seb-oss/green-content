@@ -17,29 +17,57 @@
   },
   "overview": [
     {
-      "column": [
+      "cols": "1",
+      "columns": [
         {
-          "title": "Column",
-          "column_title_tag": "H2",
-          "description": "asdasd"
+          "type": "rich-text",
+          "content": "A button serve as an interactive element that enables users to perform an action or make a choice with a simple click or tap. To decide which kind of button/buttons and putting them in the right order is key to make sure users know how to take the right action. A good rule of thumb is to use only one primary action in each context."
+        }
+      ]
+    },
+    {
+      "title": "Anatomy",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Anatomy of button",
+          "img": "anatomy"
+        }
+      ]
+    },
+    {
+      "title": "Buttons",
+      "tag": "H2",
+      "cols": "3",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Default button",
+          "img": "default-button"
+        },
+        {
+          "type": "image",
+          "caption": "Icon button",
+          "img": "icon-button"
+        },
+        {
+          "type": "image",
+          "caption": "Floating action button",
+          "img": "fab-button"
+        },
+        {
+          "type": "image",
+          "caption": "Split button",
+          "img": "split-button"
+        },
+        {
+          "type": "image",
+          "caption": "Next and back button",
+          "img": "next-back-button"
         }
       ]
     }
-  ],
-  "ux-text": {
-    "section": [
-      {
-        "title": "Title first of ux",
-        "description": "asdasd"
-      }
-    ]
-  },
-  "accessibility": {
-    "section": [
-      {
-        "title": "asdasd",
-        "description": "asdasd"
-      }
-    ]
-  }
+  ]
 }
