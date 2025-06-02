@@ -1,6 +1,6 @@
 {
   "title": "Hero: Breadcrumb",
-  "slug": "hero_breadcrumb",
+  "slug": "hero-breadcrumb",
   "snippet_component": "Breadcrumbs",
   "code": "<gds-breadcrumbs>\n  <gds-link href=\"/\">Home</gds-link>\n  <gds-link href=\"/products\">Products</gds-link>\n  <gds-link href=\"/products/category\">Category</gds-link>\n  <gds-text>Current page</gds-text>\n</gds-breadcrumbs>"
 }
