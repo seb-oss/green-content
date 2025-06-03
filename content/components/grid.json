@@ -1,0 +1,14 @@
+{
+  "title": "Grid",
+  "slug": "grid",
+  "beta": true,
+  "summary": "The grid is a custom element that provides a flexible grid system.",
+  "category": [
+    "Layout"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
