@@ -1,0 +1,11 @@
+{
+  "title": "Badge",
+  "slug": "badge",
+  "beta": true,
+  "summary": "Badge summary",
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
