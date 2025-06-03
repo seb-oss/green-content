@@ -1,0 +1,14 @@
+{
+  "title": "Calendar",
+  "slug": "calendar",
+  "beta": false,
+  "summary": "The calendar component is a visual representation of a calendar that allows users to select a date.",
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
