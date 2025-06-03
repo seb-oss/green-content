@@ -1,0 +1,10 @@
+{
+  "title": "Spinner",
+  "slug": "spinner",
+  "beta": true,
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
