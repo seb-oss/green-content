@@ -1,0 +1,11 @@
+{
+  "title": "Dialog",
+  "slug": "dialog",
+  "beta": true,
+  "summary": "A dialog is a type of modal window that appears in front of app content to provide critical information or ask for a decision. Dialogs disable all app functionality when they appear, and remain on screen until confirmed, dismissed, or a required action has been taken.",
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
