@@ -1,0 +1,11 @@
+{
+  "title": "Datepicker",
+  "slug": "datepicker",
+  "beta": false,
+  "summary": "Date pickers simplify the task of selecting a date in a visual representation of a calendar. The date picker in Green Core mimics the behaviour of the native date input element as it is implemented in Chromium browsers.",
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
