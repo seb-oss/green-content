@@ -1,0 +1,11 @@
+{
+  "title": "Filter Chips",
+  "slug": "filter-chips",
+  "beta": false,
+  "summary": "The filter chips component allows users to quickly refine the result of data they want to be presented on the page.",
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
+}
