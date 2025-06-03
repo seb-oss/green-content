@@ -1,0 +1,13 @@
+{
+  "title": "Formatted text",
+  "slug": "formatted-text",
+  "beta": false,
+  "category": [
+    "Utils"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
