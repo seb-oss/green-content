@@ -1,0 +1,13 @@
+{
+  "title": "Link",
+  "slug": "link",
+  "beta": false,
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
