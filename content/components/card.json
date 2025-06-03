@@ -1,0 +1,13 @@
+{
+  "title": "Card",
+  "slug": "card",
+  "beta": true,
+  "category": [
+    "Layout"
+  ],
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
+}
