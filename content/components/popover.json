@@ -1,0 +1,11 @@
+{
+  "title": "Popover",
+  "slug": "popover",
+  "beta": false,
+  "summary": "A popover is a transient view that appears above other content. It is used by components such as dropdowns.",
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
