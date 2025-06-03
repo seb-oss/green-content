@@ -1,0 +1,11 @@
+{
+  "title": "Signal",
+  "slug": "signal",
+  "beta": true,
+  "summary": "The gds-signal component is used to indicate that there is something new or updated",
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
