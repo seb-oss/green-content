@@ -1,0 +1,11 @@
+{
+  "title": "FAB",
+  "slug": "fab",
+  "beta": false,
+  "summary": "The Floating Action Button is used for functions central to the user experience, such as support and help features that needs to be accessible at all times.",
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
