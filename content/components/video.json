@@ -1,0 +1,10 @@
+{
+  "title": "Video",
+  "slug": "video",
+  "beta": true,
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
