@@ -1,0 +1,14 @@
+{
+  "title": "Divider",
+  "slug": "divider",
+  "beta": true,
+  "summary": "Divider is used to semantically separate content, and has the same meaning as the <hr> element in HTML. ",
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
+}
