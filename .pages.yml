@@ -41,7 +41,7 @@ content:
         type: select
         options:
           multiple: true
-          values: [Components, Elements, Layout, Tokens]
+          values: [Components, Elements, Layout, Tokens, Utils]
       - name: platform
         label: Platform
         type: object
