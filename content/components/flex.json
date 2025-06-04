@@ -2,7 +2,6 @@
   "title": "Flex",
   "slug": "flex",
   "beta": false,
-  "summary": "The flex component is a container element that can be used to wrap other components and control the layout of its children.",
   "category": [
     "Layout"
   ],
