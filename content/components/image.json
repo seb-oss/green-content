@@ -2,6 +2,7 @@
   "title": "Image",
   "slug": "image",
   "beta": true,
+  "summary": "Image displays media with configurable dimensions and styling properties.",
   "category": [
     "Layout"
   ],
