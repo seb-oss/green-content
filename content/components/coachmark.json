@@ -2,7 +2,7 @@
   "title": "Coachmark",
   "slug": "coachmark",
   "beta": true,
-  "summary": "Coachmarks are contextual tips that focus on making the user aware of a new feature, the benefits of an existing one or a moved feature within an interface.",
+  "summary": "Coachmarks guide users through interface features.",
   "platform": {
     "web": false,
     "ios": false,
