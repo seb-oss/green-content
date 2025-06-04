@@ -2,7 +2,7 @@
   "title": "Filter chips",
   "slug": "filter-chips",
   "beta": false,
-  "summary": "The filter chips component allows users to quickly refine the result of data they want to be presented on the page.",
+  "summary": "Filter chips allow users to narrow down the data they want to see on the page.",
   "platform": {
     "web": false,
     "ios": false,
