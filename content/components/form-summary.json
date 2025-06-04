@@ -1,0 +1,10 @@
+{
+  "title": "Form summary",
+  "slug": "form-summary",
+  "beta": true,
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
