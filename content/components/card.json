@@ -2,6 +2,7 @@
   "title": "Card",
   "slug": "card",
   "beta": true,
+  "summary": "The card groups related content into a single container.",
   "category": [
     "Layout"
   ],
