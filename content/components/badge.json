@@ -2,7 +2,7 @@
   "title": "Badge",
   "slug": "badge",
   "beta": true,
-  "summary": "Badge summary",
+  "summary": "A compact visual indicator for status, counts and notifications.",
   "platform": {
     "web": true,
     "ios": false,
