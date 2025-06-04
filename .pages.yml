@@ -130,8 +130,9 @@ content:
                       label: "{title}"
 
       - name: ux-text
-        label: UX text
         type: object
+        label: UX text
+        list: true
         fields:
           - name: title
             label: Title
@@ -199,8 +200,9 @@ content:
                       value: "{slug}"
                       label: "{title}"
       - name: accessibility
-        label: Accessibility
         type: object
+        label: Accessibility
+        list: true
         fields:
           - name: title
             label: Title
