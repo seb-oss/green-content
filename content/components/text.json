@@ -2,6 +2,10 @@
   "title": "Text",
   "slug": "text",
   "beta": true,
+  "category": [
+    "Layout",
+    "Utils"
+  ],
   "platform": {
     "web": true,
     "ios": false,
