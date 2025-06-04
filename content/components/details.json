@@ -2,7 +2,7 @@
   "title": "Details",
   "slug": "details",
   "beta": false,
-  "summary": "The details component is a collapsible section that helps organize and hide content until needed. It provides smooth animations, grouping behavior.",
+  "summary": "The details component is a collapsible section that helps organize and hide content until needed.",
   "platform": {
     "web": true,
     "ios": false,
