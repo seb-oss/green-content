@@ -2,7 +2,7 @@
   "title": "Context menu",
   "slug": "context-menu",
   "beta": false,
-  "summary": "The context menu is presented in-context to the related data, so users don’t lose their place in the app. It appears upon interaction with the 3 dot button and displays a list of choices, one choice per line.",
+  "summary": "A context menu displays a list of contextual actions.",
   "platform": {
     "web": true,
     "ios": false,
