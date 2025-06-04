@@ -3,7 +3,7 @@
   "slug": "checkbox",
   "hero_snippet": "hero-checkbox",
   "beta": true,
-  "summary": "A checkbox is a form element that allows users to select one or multiple options.",
+  "summary": "A radio button is a form element that allows users to select one of the predefined set of choices.",
   "tags": [
     "Form"
   ],
