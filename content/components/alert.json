@@ -1,0 +1,50 @@
+{
+  "title": "Alert",
+  "slug": "alert",
+  "beta": true,
+  "summary": "An alert displays important messages, feedback, or time-sensitive information.",
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  },
+  "overview": [
+    {
+      "title": "Overview",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Coming soon"
+        }
+      ]
+    }
+  ],
+  "ux-text": [
+    {
+      "title": "UX text ",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Coming soon"
+        }
+      ]
+    }
+  ],
+  "accessibility": [
+    {
+      "title": "A11y",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Coming soon"
+        }
+      ]
+    }
+  ]
+}
