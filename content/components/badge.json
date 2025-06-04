@@ -7,5 +7,32 @@
     "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Overview",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Content"
+        }
+      ]
+    }
+  ],
+  "ux-text": [
+    {
+      "title": "UX text ",
+      "tag": "H2",
+      "cols": "1"
+    }
+  ],
+  "accessibility": [
+    {
+      "title": "A11y",
+      "tag": "H2",
+      "cols": "1"
+    }
+  ]
 }
