@@ -2,6 +2,7 @@
   "title": "Form summary",
   "slug": "form-summary",
   "beta": true,
+  "summary": "Form summary shows all form errors in one place.",
   "platform": {
     "web": true,
     "ios": false,
