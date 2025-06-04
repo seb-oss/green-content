@@ -3,7 +3,7 @@
   "slug": "radio",
   "hero_snippet": "hero-radio",
   "beta": true,
-  "summary": "A radio button allows users to select one option from a predefined set of mutually exclusive choices.",
+  "summary": "A radio button is a form element that allows users to select one of the predefined set of choices.",
   "tags": [
     "Form"
   ],
