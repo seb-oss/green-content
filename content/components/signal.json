@@ -2,7 +2,7 @@
   "title": "Signal",
   "slug": "signal",
   "beta": true,
-  "summary": "A signal shows content updates using a visual indicator.",
+  "summary": "A signal draws attention to notifications and new content.",
   "platform": {
     "web": true,
     "ios": false,
