@@ -2,6 +2,7 @@
   "title": "Link",
   "slug": "link",
   "beta": false,
+  "summary": "A link navigates users to other pages or sections of content.",
   "category": [
     "Components"
   ],
