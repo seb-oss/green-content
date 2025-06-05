@@ -1,0 +1,11 @@
+{
+  "title": "Alert",
+  "slug": "alert",
+  "beta": false,
+  "summary": "An alert displays important messages, feedback, or time-sensitive information.",
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
+}
