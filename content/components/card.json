@@ -7,8 +7,20 @@
     "Layout"
   ],
   "platform": {
-    "web": false,
+    "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Cards are used to presents content in a visually distinct, self-contained unit. It typically acts as a container for related information, such as text, images, buttons, or other interactive elements, grouped together to convey a single idea or action. Cards are designed to be flexible and consistent, adhering to the design system's guidelines for typography, spacing, colors, and interaction patterns."
+        }
+      ]
+    }
+  ]
 }
