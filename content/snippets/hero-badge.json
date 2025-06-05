@@ -1,0 +1,6 @@
+{
+  "title": "Hero: Badge",
+  "slug": "hero-badge",
+  "snippet_component": "null",
+  "code": "<gds-flex gap=\"xl\">\n<gds-badge variant=\"information\">\n  <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n  Information\n</gds-badge>\n<gds-badge variant=\"notice\">\n  <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n  Notice\n</gds-badge>\n<gds-badge variant=\"positive\">\n  <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n  Positive\n</gds-badge>\n<gds-badge variant=\"warning\">\n  <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n  Warning\n</gds-badge>\n<gds-badge variant=\"negative\">\n  <gds-icon-triangle-exclamation slot=\"lead\">\n  </gds-icon-triangle-exclamation>\n  Negative\n</gds-badge>\n<gds-badge variant=\"negative\" disabled=\"\">\n  <gds-icon-triangle-exclamation slot=\"lead\">\n  </gds-icon-triangle-exclamation>\n  Disabled\n</gds-badge>\n</gds-flex>"
+}
