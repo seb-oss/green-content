@@ -1,6 +1,7 @@
 {
   "title": "Badge",
   "slug": "badge",
+  "hero_snippet": "hero-badge",
   "beta": true,
   "summary": "A compact visual indicator for status, counts and notifications.",
   "platform": {
