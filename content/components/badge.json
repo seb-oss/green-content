@@ -10,13 +10,69 @@
   },
   "overview": [
     {
-      "title": "Overview",
-      "tag": "H2",
       "cols": "1",
       "columns": [
         {
           "type": "rich-text",
-          "content": "Content"
+          "content": "A badge is a compact visual indicator that helps highlight status, categorize content, or display notifications. It can be configured with different variants and sizes to effectively communicate meaning. When used thoughtfully, badges help users quickly understand the state or importance of elements in the interface."
+        }
+      ]
+    },
+    {
+      "title": "Anatomy",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Anatomy of badge",
+          "img": "badge-anatomy"
+        }
+      ]
+    },
+    {
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Variants",
+          "tag": "H3",
+          "content": "A set of predefined styles (information, notice, positive, warning, negative) that convey different meanings and states through consistent visual treatment."
+        },
+        {
+          "type": "image",
+          "caption": "Badge variants"
+        }
+      ]
+    },
+    {
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Size Options",
+          "tag": "H3",
+          "content": "Available in 'default' and 'small' sizes to accommodate different UI contexts and content requirements."
+        },
+        {
+          "type": "image",
+          "caption": "Badge sizes",
+          "img": "badge-sizes"
+        }
+      ]
+    },
+    {
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Notification Mode",
+          "tag": "H2",
+          "content": "Specialized display mode optimized for notification indicators, supporting positive and negative states with rounded styling."
+        },
+        {
+          "type": "image",
+          "caption": "Badge notification",
+          "img": "badge-notification"
         }
       ]
     }
