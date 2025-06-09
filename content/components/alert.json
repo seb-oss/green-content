@@ -8,8 +8,11 @@
     "Notification",
     "Feedback"
   ],
+  "category": [
+    "Components"
+  ],
   "platform": {
-    "web": false,
+    "web": true,
     "ios": false,
     "android": false
   }
