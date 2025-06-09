@@ -3,6 +3,10 @@
   "slug": "context-menu",
   "beta": false,
   "summary": "A context menu displays a list of contextual actions.",
+  "anatomy": true,
+  "tags": [
+    "navigation"
+  ],
   "platform": {
     "web": true,
     "ios": false,
