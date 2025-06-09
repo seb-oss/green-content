@@ -31,10 +31,10 @@
       "code": "<gds-dropdown>\n  <span slot=\"extended-supporting-text\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n  </span>\n  <gds-icon-push slot=\"lead\"></gds-icon-push>\n  <gds-option value=\"1701-D-1\">Enterprise 1701-D</gds-option>\n  <gds-option value=\"falcon-1\">Millenium Falcon</gds-option>\n  <gds-option value=\"defiant-1\">Defiant</gds-option>\n  <gds-option value=\"voyager-1\">Voyager</gds-option>\n  <gds-option value=\"prometheus-1\">Prometheus</gds-option>\n  <gds-option value=\"discovery-1\">Discovery</gds-option>\n  <gds-option value=\"columbia-1\">Columbia</gds-option>\n</gds-dropdown>"
     },
     {
-      "title": "hero: Icon",
+      "title": "Hero: Icon",
       "slug": "hero-icon",
       "path": "snippets/hero-icon/hero-icon.json",
-      "code": "<gds-icon-bank></gds-icon-bank>"
+      "code": "<gds-flex align-items=\"center\" justify-content=\"center\" gap=\"m\">\n  <gds-icon-bank size=\"l\"></gds-icon-bank>\n  <gds-icon-ai size=\"l\"></gds-icon-ai>\n</gds-flex>"
     },
     {
       "title": "Hero: Input",
@@ -68,5 +68,5 @@
     }
   ],
   "total": 11,
-  "lastUpdated": "2025-06-09T11:38:35.920Z"
+  "lastUpdated": "2025-06-09T13:17:40.591Z"
 }

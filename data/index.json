@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-09T11:38:35.920Z",
+    "lastUpdated": "2025-06-09T13:17:40.575Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -487,10 +487,10 @@
             }
           },
           {
-            "title": "hero: Icon",
+            "title": "Hero: Icon",
             "slug": "hero-icon",
             "path": "snippets/hero-icon/hero-icon.json",
-            "code": "<gds-icon-bank></gds-icon-bank>",
+            "code": "<gds-flex align-items=\"center\" justify-content=\"center\" gap=\"m\">\n  <gds-icon-bank size=\"l\"></gds-icon-bank>\n  <gds-icon-ai size=\"l\"></gds-icon-ai>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-icon/hero-icon.json"
             }
