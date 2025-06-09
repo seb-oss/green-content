@@ -38,9 +38,68 @@ content:
         label: Tags
         type: select
         options:
-          creatable: true
-          multiple: true
-          values: [Form, Buttons]
+          values:
+            - value: action
+              label: Action
+            - value: button
+              label: Button
+            - value: data
+              label: Data
+            - value: date
+              label: Date
+            - value: date-range
+              label: Date Range
+            - value: editorial
+              label: Editorial
+            - value: faq
+              label: FAQ
+            - value: feedback
+              label: Feedback
+            - value: filter
+              label: Filter
+            - value: form
+              label: Form
+            - value: format
+              label: Format
+            - value: free-text
+              label: Free Text
+            - value: guidance
+              label: Guidance
+            - value: input
+              label: Input
+            - value: loading
+              label: Loading
+            - value: media
+              label: Media
+            - value: modal
+              label: Modal
+            - value: navigation
+              label: Navigation
+            - value: notification
+              label: Notification
+            - value: onboarding
+              label: Onboarding
+            - value: select
+              label: Select
+            - value: slide-out
+              label: Slide Out
+            - value: status
+              label: Status
+            - value: symbol
+              label: Symbol
+            - value: text
+              label: Text
+            - value: text-entry
+              label: Text Entry
+            - value: text-field
+              label: Text Field
+            - value: time
+              label: Time
+            - value: tooltip
+              label: Tooltip
+            - value: walkthrough
+              label: Walkthrough
+
       - name: category
         label: Category
         type: select
