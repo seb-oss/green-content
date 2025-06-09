@@ -30,6 +30,10 @@ content:
         default: false
       - { name: summary, label: Summary, type: string }
       - { name: preamble, label: Preamble, type: text }
+      - name: anatomy
+        label: Anatomy
+        type: boolean
+        default: true
       - name: tags
         label: Tags
         type: select
