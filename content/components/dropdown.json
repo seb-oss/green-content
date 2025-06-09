@@ -4,6 +4,12 @@
   "hero_snippet": "hero-dropdown",
   "beta": true,
   "summary": "A dropdown enables the user to choose one or multiple options from a list.",
+  "anatomy": true,
+  "tags": [
+    "form",
+    "select",
+    "navigation"
+  ],
   "category": [
     "Components"
   ],
