@@ -4,7 +4,8 @@
   "hero_snippet": "hero-icon",
   "beta": true,
   "summary": "An icon helps communicate meaning quickly, enhances visual hierarchy, and supports navigation or interaction.",
-  "anatomy": true,
+  "preamble": "An icon serves as a visual shorthand that helps users quickly recognize actions, states, or categories. Icons come in two styles - regular and solid - and can be sized and colored to match your design needs. When using icons, ensure they clearly communicate their purpose and maintain consistency across your interface to enhance user understanding.",
+  "anatomy": false,
   "tags": [
     "editorial",
     "symbol"
