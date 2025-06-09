@@ -34,38 +34,67 @@ function createDirectories() {
 }
 
 // content.script.js
+// async function processComponentContent(filename) {
+//   const componentName = path.basename(filename, ".json");
+//   console.log(`Processing: ${componentName}`);
+
+//   try {
+//     const inputPath = path.join(COMPONENTS_DIR, filename);
+//     const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+
+//     // Add validation for required fields
+//     if (!contentData.title || !contentData.slug) {
+//       throw new Error(
+//         `Component ${componentName} missing required fields: title and slug are required`
+//       );
+//     }
+
+//     // Create directories if they don't exist
+//     const outputDir = path.join(DATA_DIR, "components", componentName);
+//     fs.mkdirSync(outputDir, { recursive: true });
+
+//     fs.writeFileSync(
+//       path.join(outputDir, `${componentName}.content.json`),
+//       JSON.stringify(contentData, null, 2)
+//     );
+
+//     return {
+//       title: contentData.title, // Required
+//       slug: contentData.slug, // Required
+//       summary: contentData.summary, // Optional
+//       path: `components/${componentName}/${componentName}.content.json`,
+//     };
+//   } catch (error) {
+//     console.error(`Error processing ${componentName}:`, error);
+//     return null;
+//   }
+// }
+
 async function processComponentContent(filename) {
   const componentName = path.basename(filename, ".json");
-  console.log(`Processing: ${componentName}`);
+  console.log(`Processing component: ${componentName}`);
 
   try {
+    // Read the source file
     const inputPath = path.join(COMPONENTS_DIR, filename);
     const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
 
-    // Add validation for required fields
-    if (!contentData.title || !contentData.slug) {
-      throw new Error(
-        `Component ${componentName} missing required fields: title and slug are required`
-      );
-    }
-
-    // Create directories if they don't exist
+    // Create output directory and write file
     const outputDir = path.join(DATA_DIR, "components", componentName);
     fs.mkdirSync(outputDir, { recursive: true });
 
-    fs.writeFileSync(
-      path.join(outputDir, `${componentName}.content.json`),
-      JSON.stringify(contentData, null, 2)
-    );
+    const outputPath = path.join(outputDir, `${componentName}.content.json`);
+    fs.writeFileSync(outputPath, JSON.stringify(contentData, null, 2));
 
+    // Return minimal info for index
     return {
-      title: contentData.title, // Required
-      slug: contentData.slug, // Required
-      summary: contentData.summary, // Optional
+      title: contentData.title || componentName,
+      slug: contentData.slug || componentName,
+      summary: contentData.summary,
       path: `components/${componentName}/${componentName}.content.json`,
     };
   } catch (error) {
-    console.error(`Error processing ${componentName}:`, error);
+    console.error(`Failed to process ${componentName}:`, error);
     return null;
   }
 }
