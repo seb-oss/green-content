@@ -3,8 +3,16 @@
   "slug": "filter-chips",
   "beta": false,
   "summary": "Filter chips allow users to narrow down the data they want to see on the page.",
+  "anatomy": true,
+  "tags": [
+    "filter",
+    "button"
+  ],
+  "category": [
+    "Components"
+  ],
   "platform": {
-    "web": false,
+    "web": true,
     "ios": false,
     "android": false
   }
