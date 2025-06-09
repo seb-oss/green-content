@@ -4,6 +4,10 @@
   "hero_snippet": "hero-breadcrumb",
   "beta": true,
   "summary": "A breadcrumb is a secondary navigation showing the website hierarchy.",
+  "anatomy": true,
+  "tags": [
+    "navigation"
+  ],
   "category": [
     "Components"
   ],
