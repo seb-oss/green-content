@@ -243,12 +243,22 @@ async function main() {
   // Create data directory
   fs.mkdirSync(DATA_DIR, { recursive: true });
 
+  // List and process component files
+  console.log("Reading components directory:", COMPONENTS_DIR);
   // Process all content types
   const componentFiles = fs.existsSync(COMPONENTS_DIR)
     ? fs.readdirSync(COMPONENTS_DIR).filter((file) => file.endsWith(".json"))
     : [];
+
+  console.log("Found component files:", componentFiles);
+
   const componentsData = await Promise.all(
     componentFiles.map(processComponentContent)
+  );
+
+  console.log(
+    "Processed components:",
+    componentsData.filter((c) => c !== null).map((c) => c.slug)
   );
 
   const navigationFiles = fs.existsSync(NAVIGATION_DIR)
