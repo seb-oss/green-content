@@ -16,5 +16,17 @@
     "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Variants",
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Paragraph"
+        }
+      ]
+    }
+  ]
 }
