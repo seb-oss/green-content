@@ -39,6 +39,7 @@ content:
         type: select
         options:
           multiple: true
+          creatable: true
           values:
             - value: "action"
               label: Action
