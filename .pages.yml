@@ -38,6 +38,7 @@ content:
         label: Tags
         type: select
         options:
+          multiple: true
           values:
             - value: action
               label: Action
