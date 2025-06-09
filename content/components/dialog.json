@@ -9,6 +9,9 @@
     "Dialog",
     "slide-out"
   ],
+  "category": [
+    "Components"
+  ],
   "platform": {
     "web": true,
     "ios": false,
