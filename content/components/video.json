@@ -2,6 +2,10 @@
   "title": "Video",
   "slug": "video",
   "beta": true,
+  "anatomy": true,
+  "tags": [
+    "media"
+  ],
   "category": [
     "Layout"
   ],
