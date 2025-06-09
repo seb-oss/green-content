@@ -3,6 +3,7 @@
   "slug": "alert",
   "beta": false,
   "summary": "An alert displays important messages, feedback, or time-sensitive information.",
+  "preamble": "Alert preamble",
   "anatomy": true,
   "tags": [
     "Notification",
