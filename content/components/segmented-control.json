@@ -4,6 +4,11 @@
   "hero_snippet": "hero-segmented-control",
   "beta": true,
   "summary": "Segmented control allows users to select a single option, immediately changing the display to reflect their selection. It is used for switching views or view options, not for navigation.",
+  "anatomy": true,
+  "tags": [
+    "navigation",
+    "button"
+  ],
   "category": [
     "Components"
   ],
