@@ -3,6 +3,11 @@
   "slug": "link",
   "beta": false,
   "summary": "A link navigates users to other pages or sections of content.",
+  "anatomy": true,
+  "tags": [
+    "navigation",
+    "editorial"
+  ],
   "category": [
     "Components"
   ],
