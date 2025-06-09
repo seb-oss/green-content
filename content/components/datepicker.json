@@ -3,6 +3,13 @@
   "slug": "datepicker",
   "beta": false,
   "summary": "⁠The datepicker allows users to select a date.",
+  "anatomy": true,
+  "tags": [
+    "date",
+    "date-range",
+    "form",
+    "time"
+  ],
   "platform": {
     "web": true,
     "ios": false,
