@@ -3,6 +3,11 @@
   "slug": "alert",
   "beta": false,
   "summary": "An alert displays important messages, feedback, or time-sensitive information.",
+  "anatomy": true,
+  "tags": [
+    "Notification",
+    "Feedback"
+  ],
   "platform": {
     "web": false,
     "ios": false,
