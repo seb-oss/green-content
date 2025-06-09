@@ -1,0 +1,18 @@
+{
+  "title": "Text",
+  "slug": "text",
+  "beta": true,
+  "anatomy": true,
+  "tags": [
+    "editorial"
+  ],
+  "category": [
+    "Layout",
+    "Utils"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}

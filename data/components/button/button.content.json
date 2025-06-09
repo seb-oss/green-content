@@ -1,44 +1,56 @@
 {
   "title": "Button",
   "slug": "button",
+  "hero_snippet": "hero-button",
   "beta": true,
-  "summary": "Buttons are an essential element of interaction design. Their primary role is to help people take actions quickly.",
+  "summary": "A button can be tapped or clicked to perform an action.",
+  "preamble": "A button serve as an interactive element that enables users to perform an action or make a choice with a simple click or tap. To decide which kind of button/buttons and putting them in the right order is key to make sure users know how to take the right action. A good rule of thumb is to use only one primary action in each context.",
+  "anatomy": true,
   "tags": [
-    "Form"
+    "Form",
+    "action",
+    "button"
   ],
   "category": [
     "Components"
   ],
   "platform": {
     "web": true,
-    "ios": false,
-    "android": false
+    "ios": true,
+    "android": true
   },
   "overview": [
     {
-      "column": [
+      "title": "Buttons",
+      "tag": "H2",
+      "cols": "3",
+      "columns": [
         {
-          "title": "Column",
-          "column_title_tag": "H2",
-          "description": "asdasd"
+          "type": "image",
+          "caption": "Default button",
+          "img": "default-button"
+        },
+        {
+          "type": "image",
+          "caption": "Icon button",
+          "img": "icon-button"
+        },
+        {
+          "type": "image",
+          "caption": "Floating action button",
+          "img": "fab-button"
+        },
+        {
+          "type": "image",
+          "caption": "Split button",
+          "img": "split-button"
+        },
+        {
+          "type": "image",
+          "caption": "Next and back button",
+          "img": "next-back-button"
         }
       ]
     }
-  ],
-  "ux-text": {
-    "section": [
-      {
-        "title": "Title first of ux",
-        "description": "asdasd"
-      }
-    ]
-  },
-  "accessibility": {
-    "section": [
-      {
-        "title": "asdasd",
-        "description": "asdasd"
-      }
-    ]
-  }
+  ]
 }

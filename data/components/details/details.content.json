@@ -1,0 +1,16 @@
+{
+  "title": "Details",
+  "slug": "details",
+  "beta": false,
+  "summary": "The details component is a collapsible section that helps organize and hide content until needed.",
+  "anatomy": true,
+  "tags": [
+    "editorial",
+    "faq"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}

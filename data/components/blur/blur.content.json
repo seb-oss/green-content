@@ -1,0 +1,11 @@
+{
+  "title": "Blur",
+  "slug": "blur",
+  "beta": true,
+  "summary": "The Blur component is used to apply a blur effect over content, often used to obscure sensitive or background information.",
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}

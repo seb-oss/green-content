@@ -1,0 +1,34 @@
+{
+  "title": "Calendar",
+  "slug": "calendar",
+  "beta": false,
+  "summary": "The calendar displays a grid of selectable dates.",
+  "anatomy": true,
+  "tags": [
+    "date",
+    "date-range",
+    "form",
+    "time"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  },
+  "overview": [
+    {
+      "title": "Overview",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The calendar component provides the foundation for datepicker and is not intended for direct implementation. For date selection functionality, use the datepicker component where full documentation is available."
+        }
+      ]
+    }
+  ]
+}

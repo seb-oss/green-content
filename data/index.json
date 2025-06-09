@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-05-15T09:15:48.961Z",
+    "lastUpdated": "2025-06-09T11:38:35.920Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -16,35 +16,369 @@
         "list": "components/components.json",
         "items": [
           {
+            "title": "Alert",
+            "slug": "alert",
+            "summary": "An alert displays important messages, feedback, or time-sensitive information.",
+            "path": "components/alert/alert.content.json",
+            "endpoints": {
+              "content": "components/alert/alert.content.json",
+              "images": "components/alert/alert.images.json"
+            }
+          },
+          {
+            "title": "Badge",
+            "slug": "badge",
+            "summary": "A compact visual indicator for status, counts and notifications.",
+            "path": "components/badge/badge.content.json",
+            "endpoints": {
+              "content": "components/badge/badge.content.json",
+              "images": "components/badge/badge.images.json"
+            }
+          },
+          {
+            "title": "Blur",
+            "slug": "blur",
+            "summary": "The Blur component is used to apply a blur effect over content, often used to obscure sensitive or background information.",
+            "path": "components/blur/blur.content.json",
+            "endpoints": {
+              "content": "components/blur/blur.content.json",
+              "images": "components/blur/blur.images.json"
+            }
+          },
+          {
+            "title": "Breadcrumbs",
+            "slug": "breadcrumbs",
+            "summary": "A breadcrumb is a secondary navigation showing the website hierarchy.",
+            "path": "components/breadcrumbs/breadcrumbs.content.json",
+            "endpoints": {
+              "content": "components/breadcrumbs/breadcrumbs.content.json",
+              "images": "components/breadcrumbs/breadcrumbs.images.json"
+            }
+          },
+          {
             "title": "Button",
             "slug": "button",
-            "summary": "Buttons are an essential element of interaction design. Their primary role is to help people take actions quickly.",
+            "summary": "A button can be tapped or clicked to perform an action.",
             "path": "components/button/button.content.json",
             "endpoints": {
               "content": "components/button/button.content.json",
               "images": "components/button/button.images.json"
-            },
-            "ogImage": "components/button/button.og.png"
+            }
+          },
+          {
+            "title": "Calendar",
+            "slug": "calendar",
+            "summary": "The calendar displays a grid of selectable dates.",
+            "path": "components/calendar/calendar.content.json",
+            "endpoints": {
+              "content": "components/calendar/calendar.content.json",
+              "images": "components/calendar/calendar.images.json"
+            }
+          },
+          {
+            "title": "Card",
+            "slug": "card",
+            "summary": "The card groups related content into a single container.",
+            "path": "components/card/card.content.json",
+            "endpoints": {
+              "content": "components/card/card.content.json",
+              "images": "components/card/card.images.json"
+            }
+          },
+          {
+            "title": "Checkbox",
+            "slug": "checkbox",
+            "summary": "A checkbox is a form element that allows users to select one or multiple options.",
+            "path": "components/checkbox/checkbox.content.json",
+            "endpoints": {
+              "content": "components/checkbox/checkbox.content.json",
+              "images": "components/checkbox/checkbox.images.json"
+            }
+          },
+          {
+            "title": "Coachmark",
+            "slug": "coachmark",
+            "summary": "Coachmarks guide users through interface features.",
+            "path": "components/coachmark/coachmark.content.json",
+            "endpoints": {
+              "content": "components/coachmark/coachmark.content.json",
+              "images": "components/coachmark/coachmark.images.json"
+            }
+          },
+          {
+            "title": "Context menu",
+            "slug": "context-menu",
+            "summary": "A context menu displays a list of contextual actions.",
+            "path": "components/context-menu/context-menu.content.json",
+            "endpoints": {
+              "content": "components/context-menu/context-menu.content.json",
+              "images": "components/context-menu/context-menu.images.json"
+            }
+          },
+          {
+            "title": "Datepicker",
+            "slug": "datepicker",
+            "summary": "⁠The datepicker allows users to select a date.",
+            "path": "components/datepicker/datepicker.content.json",
+            "endpoints": {
+              "content": "components/datepicker/datepicker.content.json",
+              "images": "components/datepicker/datepicker.images.json"
+            }
+          },
+          {
+            "title": "Details",
+            "slug": "details",
+            "summary": "The details component is a collapsible section that helps organize and hide content until needed.",
+            "path": "components/details/details.content.json",
+            "endpoints": {
+              "content": "components/details/details.content.json",
+              "images": "components/details/details.images.json"
+            }
+          },
+          {
+            "title": "Dialog",
+            "slug": "dialog",
+            "summary": "⁠A dialog appears in front of content to provide critical information or ask for a decision.",
+            "path": "components/dialog/dialog.content.json",
+            "endpoints": {
+              "content": "components/dialog/dialog.content.json",
+              "images": "components/dialog/dialog.images.json"
+            }
+          },
+          {
+            "title": "Div",
+            "slug": "div",
+            "summary": "Div is a base element in the declarative layout system.",
+            "path": "components/div/div.content.json",
+            "endpoints": {
+              "content": "components/div/div.content.json",
+              "images": "components/div/div.images.json"
+            }
+          },
+          {
+            "title": "Divider",
+            "slug": "divider",
+            "summary": "Divider creates visual and semantic separation between content.",
+            "path": "components/divider/divider.content.json",
+            "endpoints": {
+              "content": "components/divider/divider.content.json",
+              "images": "components/divider/divider.images.json"
+            }
+          },
+          {
+            "title": "Dropdown",
+            "slug": "dropdown",
+            "summary": "A dropdown enables the user to choose one or multiple options from a list.",
+            "path": "components/dropdown/dropdown.content.json",
+            "endpoints": {
+              "content": "components/dropdown/dropdown.content.json",
+              "images": "components/dropdown/dropdown.images.json"
+            }
+          },
+          {
+            "title": "FAB",
+            "slug": "fab",
+            "summary": "Floating action button persists across screens for constant access to features that needs to be accessible at all times.",
+            "path": "components/fab/fab.content.json",
+            "endpoints": {
+              "content": "components/fab/fab.content.json",
+              "images": "components/fab/fab.images.json"
+            }
+          },
+          {
+            "title": "Filter chips",
+            "slug": "filter-chips",
+            "summary": "Filter chips allow users to narrow down the data they want to see on the page.",
+            "path": "components/filter-chips/filter-chips.content.json",
+            "endpoints": {
+              "content": "components/filter-chips/filter-chips.content.json",
+              "images": "components/filter-chips/filter-chips.images.json"
+            }
+          },
+          {
+            "title": "Flex",
+            "slug": "flex",
+            "path": "components/flex/flex.content.json",
+            "endpoints": {
+              "content": "components/flex/flex.content.json",
+              "images": "components/flex/flex.images.json"
+            }
+          },
+          {
+            "title": "Form summary",
+            "slug": "form-summary",
+            "summary": "Form summary shows all form errors in one place.",
+            "path": "components/form-summary/form-summary.content.json",
+            "endpoints": {
+              "content": "components/form-summary/form-summary.content.json",
+              "images": "components/form-summary/form-summary.images.json"
+            }
+          },
+          {
+            "title": "Grid",
+            "slug": "grid",
+            "summary": "The grid is a custom element that provides a flexible grid system.",
+            "path": "components/grid/grid.content.json",
+            "endpoints": {
+              "content": "components/grid/grid.content.json",
+              "images": "components/grid/grid.images.json"
+            }
           },
           {
             "title": "Icon",
             "slug": "icon",
+            "summary": "An icon helps communicate meaning quickly, enhances visual hierarchy, and supports navigation or interaction.",
             "path": "components/icon/icon.content.json",
             "endpoints": {
               "content": "components/icon/icon.content.json",
               "images": "components/icon/icon.images.json"
-            },
-            "ogImage": "components/icon/icon.og.png"
+            }
+          },
+          {
+            "title": "Image",
+            "slug": "image",
+            "summary": "An image displays media with configurable dimensions and styling properties.",
+            "path": "components/image/image.content.json",
+            "endpoints": {
+              "content": "components/image/image.content.json",
+              "images": "components/image/image.images.json"
+            }
           },
           {
             "title": "Input",
             "slug": "input",
+            "summary": "An input lets users enter and edit text or numerical values in forms.",
             "path": "components/input/input.content.json",
             "endpoints": {
               "content": "components/input/input.content.json",
               "images": "components/input/input.images.json"
-            },
-            "ogImage": "components/input/input.og.png"
+            }
+          },
+          {
+            "title": "Link",
+            "slug": "link",
+            "summary": "A link navigates users to other pages or sections of content.",
+            "path": "components/link/link.content.json",
+            "endpoints": {
+              "content": "components/link/link.content.json",
+              "images": "components/link/link.images.json"
+            }
+          },
+          {
+            "title": "Menu button",
+            "slug": "menu-button",
+            "summary": "A menu button combines button and link behaviors for navigation menus.",
+            "path": "components/menu-button/menu-button.content.json",
+            "endpoints": {
+              "content": "components/menu-button/menu-button.content.json",
+              "images": "components/menu-button/menu-button.images.json"
+            }
+          },
+          {
+            "title": "Popover",
+            "slug": "popover",
+            "summary": "A popover is a temporary view that appears above other content.",
+            "path": "components/popover/popover.content.json",
+            "endpoints": {
+              "content": "components/popover/popover.content.json",
+              "images": "components/popover/popover.images.json"
+            }
+          },
+          {
+            "title": "Radio",
+            "slug": "radio",
+            "summary": "A radio button is a form element that allows users to select one of the predefined set of choices.",
+            "path": "components/radio/radio.content.json",
+            "endpoints": {
+              "content": "components/radio/radio.content.json",
+              "images": "components/radio/radio.images.json"
+            }
+          },
+          {
+            "title": "Rich text",
+            "slug": "rich-text",
+            "summary": "Rich text can be used to wrap generic HTML content and apply typography styles.",
+            "path": "components/rich-text/rich-text.content.json",
+            "endpoints": {
+              "content": "components/rich-text/rich-text.content.json",
+              "images": "components/rich-text/rich-text.images.json"
+            }
+          },
+          {
+            "title": "Segmented control",
+            "slug": "segmented-control",
+            "summary": "Segmented control allows users to select a single option, immediately changing the display to reflect their selection. It is used for switching views or view options, not for navigation.",
+            "path": "components/segmented-control/segmented-control.content.json",
+            "endpoints": {
+              "content": "components/segmented-control/segmented-control.content.json",
+              "images": "components/segmented-control/segmented-control.images.json"
+            }
+          },
+          {
+            "title": "Select",
+            "slug": "select",
+            "summary": "A select enables the user to choose one or multiple options from a list.",
+            "path": "components/select/select.content.json",
+            "endpoints": {
+              "content": "components/select/select.content.json",
+              "images": "components/select/select.images.json"
+            }
+          },
+          {
+            "title": "Signal",
+            "slug": "signal",
+            "summary": "A signal draws attention to notifications and new content.",
+            "path": "components/signal/signal.content.json",
+            "endpoints": {
+              "content": "components/signal/signal.content.json",
+              "images": "components/signal/signal.images.json"
+            }
+          },
+          {
+            "title": "Spinner",
+            "slug": "spinner",
+            "path": "components/spinner/spinner.content.json",
+            "endpoints": {
+              "content": "components/spinner/spinner.content.json",
+              "images": "components/spinner/spinner.images.json"
+            }
+          },
+          {
+            "title": "Text",
+            "slug": "text",
+            "path": "components/text/text.content.json",
+            "endpoints": {
+              "content": "components/text/text.content.json",
+              "images": "components/text/text.images.json"
+            }
+          },
+          {
+            "title": "Textarea",
+            "slug": "textarea",
+            "summary": "Textarea allow users to input text and digits on multiple lines.",
+            "path": "components/textarea/textarea.content.json",
+            "endpoints": {
+              "content": "components/textarea/textarea.content.json",
+              "images": "components/textarea/textarea.images.json"
+            }
+          },
+          {
+            "title": "Theme",
+            "slug": "theme",
+            "path": "components/theme/theme.content.json",
+            "endpoints": {
+              "content": "components/theme/theme.content.json",
+              "images": "components/theme/theme.images.json"
+            }
+          },
+          {
+            "title": "Video",
+            "slug": "video",
+            "path": "components/video/video.content.json",
+            "endpoints": {
+              "content": "components/video/video.content.json",
+              "images": "components/video/video.images.json"
+            }
           }
         ]
       },
@@ -79,22 +413,28 @@
         "list": "pages/pages.json",
         "items": [
           {
+            "title": "Accessibility",
+            "slug": "accessibility",
+            "path": "pages/accessibility/accessibility.json",
+            "endpoints": {
+              "content": "pages/accessibility/accessibility.json"
+            }
+          },
+          {
             "title": "Foundation",
             "slug": "foundation",
             "path": "pages/foundation/foundation.json",
             "endpoints": {
               "content": "pages/foundation/foundation.json"
-            },
-            "ogImage": "pages/foundation/foundation.og.png"
+            }
           },
           {
-            "title": "UX Writing",
+            "title": "UX writing",
             "slug": "ux-writing",
             "path": "pages/ux-writing/ux-writing.json",
             "endpoints": {
               "content": "pages/ux-writing/ux-writing.json"
-            },
-            "ogImage": "pages/ux-writing/ux-writing.og.png"
+            }
           }
         ]
       },
@@ -102,24 +442,103 @@
         "list": "snippets/snippets.json",
         "items": [
           {
-            "title": "Second example",
-            "slug": "button-two",
-            "path": "snippets/button-two/button-two.json",
-            "code": "Hello content for the snippet",
+            "title": "Hero: Badge",
+            "slug": "hero-badge",
+            "path": "snippets/hero-badge/hero-badge.json",
+            "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge size=\"small\" variant=\"warning\">\n    602\n  </gds-badge>\n  <gds-badge variant=\"notice\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Notice\n  </gds-badge>\n  <gds-badge variant=\"positive\" notification=\"\">\n    999\n    <gds-icon-plus-small slot=\"trail\"></gds-icon-plus-small>\n  </gds-badge>\n</gds-flex>",
             "endpoints": {
-              "content": "snippets/button-two/button-two.json"
-            },
-            "ogImage": "snippets/button-two/button-two.og.png"
+              "content": "snippets/hero-badge/hero-badge.json"
+            }
           },
           {
-            "title": "Button One",
-            "slug": "button-one",
-            "path": "snippets/button/button.json",
-            "code": "<gds-flex>\nThis and that \n</gds-flex>",
+            "title": "Hero: Breadcrumb",
+            "slug": "hero-breadcrumb",
+            "path": "snippets/hero-breadcrumb/hero-breadcrumb.json",
+            "code": "<gds-breadcrumbs>\n  <gds-link href=\"/\">Home</gds-link>\n  <gds-link href=\"/products\">Products</gds-link>\n  <gds-link href=\"/products/category\">Category</gds-link>\n  <gds-text>Current page</gds-text>\n</gds-breadcrumbs>",
             "endpoints": {
-              "content": "snippets/button/button.json"
-            },
-            "ogImage": "snippets/button-one/button-one.og.png"
+              "content": "snippets/hero-breadcrumb/hero-breadcrumb.json"
+            }
+          },
+          {
+            "title": "Hero: Button",
+            "slug": "hero-button",
+            "path": "snippets/hero-button/hero-button.json",
+            "code": "<gds-button>\n  Button Snippet\n</gds-button> ",
+            "endpoints": {
+              "content": "snippets/hero-button/hero-button.json"
+            }
+          },
+          {
+            "title": "Hero: Checkbox",
+            "slug": "hero-checkbox",
+            "path": "snippets/hero-checkbox/hero-checkbox.json",
+            "code": "<gds-checkbox-group>\n<gds-checkbox label=\"Checkbox Option 1\" supporting-text=\"Supporting text\" value=\"1\"></gds-checkbox>\n<gds-checkbox label=\"Checkbox Option 2\" supporting-text=\"Supporting text\" value=\"2\" checked=\"\"></gds-checkbox>\n<gds-checkbox label=\"Checkbox Option 3\" supporting-text=\"Supporting text\" value=\"3\"></gds-checkbox></gds-checkbox-group>",
+            "endpoints": {
+              "content": "snippets/hero-checkbox/hero-checkbox.json"
+            }
+          },
+          {
+            "title": "Hero: Dropdown",
+            "slug": "hero-dropdown",
+            "path": "snippets/hero-dropdown/hero-dropdown.json",
+            "code": "<gds-dropdown>\n  <span slot=\"extended-supporting-text\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n  </span>\n  <gds-icon-push slot=\"lead\"></gds-icon-push>\n  <gds-option value=\"1701-D-1\">Enterprise 1701-D</gds-option>\n  <gds-option value=\"falcon-1\">Millenium Falcon</gds-option>\n  <gds-option value=\"defiant-1\">Defiant</gds-option>\n  <gds-option value=\"voyager-1\">Voyager</gds-option>\n  <gds-option value=\"prometheus-1\">Prometheus</gds-option>\n  <gds-option value=\"discovery-1\">Discovery</gds-option>\n  <gds-option value=\"columbia-1\">Columbia</gds-option>\n</gds-dropdown>",
+            "endpoints": {
+              "content": "snippets/hero-dropdown/hero-dropdown.json"
+            }
+          },
+          {
+            "title": "hero: Icon",
+            "slug": "hero-icon",
+            "path": "snippets/hero-icon/hero-icon.json",
+            "code": "<gds-icon-bank></gds-icon-bank>",
+            "endpoints": {
+              "content": "snippets/hero-icon/hero-icon.json"
+            }
+          },
+          {
+            "title": "Hero: Input",
+            "slug": "hero-input",
+            "path": "snippets/hero-input/hero-input.json",
+            "code": "<gds-input>\n  <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n</gds-input>",
+            "endpoints": {
+              "content": "snippets/hero-input/hero-input.json"
+            }
+          },
+          {
+            "title": "Hero: Radio",
+            "slug": "hero-radio",
+            "path": "snippets/hero-radio/hero-radio.json",
+            "code": "<gds-radio-group>\n  <gds-radio label=\"Radio Option 1\" supporting-text=\"Supporting text\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Radio Option 2\" supporting-text=\"Supporting text\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Radio Option 3\" supporting-text=\"Supporting text\" value=\"3\"></gds-radio>\n</gds-radio-group>",
+            "endpoints": {
+              "content": "snippets/hero-radio/hero-radio.json"
+            }
+          },
+          {
+            "title": "Hero: Segmented control",
+            "slug": "hero-segmented-control",
+            "path": "snippets/hero-segmented-control/hero-segmented-control.json",
+            "code": "<gds-segmented-control>\n  <gds-segment value=\"1\">Item 1</gds-segment>\n  <gds-segment value=\"2\">Item 2</gds-segment>\n  <gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>",
+            "endpoints": {
+              "content": "snippets/hero-segmented-control/hero-segmented-control.json"
+            }
+          },
+          {
+            "title": "Hero: Select",
+            "slug": "hero-select",
+            "path": "snippets/hero-select/hero-select.json",
+            "code": "<gds-select>\n  <gds-icon-books slot=\"lead\"></gds-icon-books>\n  <select>\n    <option value=\"\">Select a value</option>\n    <optgroup label=\"Physics\">\n      <option value=\"quantum-mechanics\">Quantum Mechanics</option>\n      <option value=\"relativity\">Relativity</option>\n    </optgroup>\n    <optgroup label=\"Chemistry\">\n      <option value=\"organic-chemistry\">Organic Chemistry</option>\n      <option value=\"inorganic-chemistry\">Inorganic Chemistry</option>\n    </optgroup>\n    <optgroup label=\"Biology\">\n      <option value=\"genetics\">Genetics</option>\n      <option value=\"microbiology\">Microbiology</option>\n      <option value=\"ecology\">Ecology</option>\n    </optgroup>\n  </select>\n</gds-select>",
+            "endpoints": {
+              "content": "snippets/hero-select/hero-select.json"
+            }
+          },
+          {
+            "title": "Hero: Textarea",
+            "slug": "hero-textarea",
+            "path": "snippets/hero-textarea/hero-textarea.json",
+            "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>",
+            "endpoints": {
+              "content": "snippets/hero-textarea/hero-textarea.json"
+            }
           }
         ]
       },

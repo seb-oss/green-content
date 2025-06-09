@@ -1,0 +1,20 @@
+{
+  "title": "Checkbox",
+  "slug": "checkbox",
+  "hero_snippet": "hero-checkbox",
+  "beta": true,
+  "summary": "A checkbox is a form element that allows users to select one or multiple options.",
+  "anatomy": true,
+  "tags": [
+    "Form",
+    "select"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}

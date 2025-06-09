@@ -1,11 +1,20 @@
 {
   "title": "Icon",
   "slug": "icon",
+  "hero_snippet": "hero-icon",
   "beta": true,
+  "summary": "An icon helps communicate meaning quickly, enhances visual hierarchy, and supports navigation or interaction.",
+  "anatomy": true,
+  "tags": [
+    "editorial",
+    "symbol"
+  ],
   "category": [
     "Components"
   ],
   "platform": {
-    "web": true
+    "web": true,
+    "ios": false,
+    "android": false
   }
 }

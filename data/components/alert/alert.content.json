@@ -1,0 +1,32 @@
+{
+  "title": "Alert",
+  "slug": "alert",
+  "beta": false,
+  "summary": "An alert displays important messages, feedback, or time-sensitive information.",
+  "preamble": "Alert preamble",
+  "anatomy": true,
+  "tags": [
+    "Notification",
+    "Feedback"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  },
+  "overview": [
+    {
+      "title": "Variants",
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Paragraph"
+        }
+      ]
+    }
+  ]
+}

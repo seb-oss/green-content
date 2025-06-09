@@ -1,0 +1,18 @@
+{
+  "title": "Form summary",
+  "slug": "form-summary",
+  "beta": true,
+  "summary": "Form summary shows all form errors in one place.",
+  "anatomy": true,
+  "tags": [
+    "form"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}

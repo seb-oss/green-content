@@ -1,0 +1,18 @@
+{
+  "title": "Spinner",
+  "slug": "spinner",
+  "beta": true,
+  "anatomy": true,
+  "tags": [
+    "preloader",
+    "feedback"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}

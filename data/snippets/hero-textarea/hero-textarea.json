@@ -1,0 +1,6 @@
+{
+  "title": "Hero: Textarea",
+  "slug": "hero-textarea",
+  "snippet_component": "Textarea",
+  "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
+}

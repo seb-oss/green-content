@@ -1,0 +1,6 @@
+{
+  "title": "Hero: Button",
+  "slug": "hero-button",
+  "snippet_component": "Button",
+  "code": "<gds-button>\n  Button Snippet\n</gds-button> "
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Flex",
+  "slug": "flex",
+  "beta": false,
+  "category": [
+    "Layout"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}

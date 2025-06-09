@@ -1,0 +1,20 @@
+{
+  "title": "Dialog",
+  "slug": "dialog",
+  "beta": true,
+  "summary": "⁠A dialog appears in front of content to provide critical information or ask for a decision.",
+  "anatomy": true,
+  "tags": [
+    "modal",
+    "Dialog",
+    "slide-out"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}

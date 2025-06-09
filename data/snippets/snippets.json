@@ -1,20 +1,72 @@
 {
   "snippets": [
     {
-      "title": "Second example",
-      "slug": "button-two",
-      "path": "snippets/button-two/button-two.json",
-      "code": "Hello content for the snippet",
-      "ogImage": "snippets/button-two/button-two.og.png"
+      "title": "Hero: Badge",
+      "slug": "hero-badge",
+      "path": "snippets/hero-badge/hero-badge.json",
+      "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge size=\"small\" variant=\"warning\">\n    602\n  </gds-badge>\n  <gds-badge variant=\"notice\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Notice\n  </gds-badge>\n  <gds-badge variant=\"positive\" notification=\"\">\n    999\n    <gds-icon-plus-small slot=\"trail\"></gds-icon-plus-small>\n  </gds-badge>\n</gds-flex>"
     },
     {
-      "title": "Button One",
-      "slug": "button-one",
-      "path": "snippets/button/button.json",
-      "code": "<gds-flex>\nThis and that \n</gds-flex>",
-      "ogImage": "snippets/button-one/button-one.og.png"
+      "title": "Hero: Breadcrumb",
+      "slug": "hero-breadcrumb",
+      "path": "snippets/hero-breadcrumb/hero-breadcrumb.json",
+      "code": "<gds-breadcrumbs>\n  <gds-link href=\"/\">Home</gds-link>\n  <gds-link href=\"/products\">Products</gds-link>\n  <gds-link href=\"/products/category\">Category</gds-link>\n  <gds-text>Current page</gds-text>\n</gds-breadcrumbs>"
+    },
+    {
+      "title": "Hero: Button",
+      "slug": "hero-button",
+      "path": "snippets/hero-button/hero-button.json",
+      "code": "<gds-button>\n  Button Snippet\n</gds-button> "
+    },
+    {
+      "title": "Hero: Checkbox",
+      "slug": "hero-checkbox",
+      "path": "snippets/hero-checkbox/hero-checkbox.json",
+      "code": "<gds-checkbox-group>\n<gds-checkbox label=\"Checkbox Option 1\" supporting-text=\"Supporting text\" value=\"1\"></gds-checkbox>\n<gds-checkbox label=\"Checkbox Option 2\" supporting-text=\"Supporting text\" value=\"2\" checked=\"\"></gds-checkbox>\n<gds-checkbox label=\"Checkbox Option 3\" supporting-text=\"Supporting text\" value=\"3\"></gds-checkbox></gds-checkbox-group>"
+    },
+    {
+      "title": "Hero: Dropdown",
+      "slug": "hero-dropdown",
+      "path": "snippets/hero-dropdown/hero-dropdown.json",
+      "code": "<gds-dropdown>\n  <span slot=\"extended-supporting-text\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n  </span>\n  <gds-icon-push slot=\"lead\"></gds-icon-push>\n  <gds-option value=\"1701-D-1\">Enterprise 1701-D</gds-option>\n  <gds-option value=\"falcon-1\">Millenium Falcon</gds-option>\n  <gds-option value=\"defiant-1\">Defiant</gds-option>\n  <gds-option value=\"voyager-1\">Voyager</gds-option>\n  <gds-option value=\"prometheus-1\">Prometheus</gds-option>\n  <gds-option value=\"discovery-1\">Discovery</gds-option>\n  <gds-option value=\"columbia-1\">Columbia</gds-option>\n</gds-dropdown>"
+    },
+    {
+      "title": "hero: Icon",
+      "slug": "hero-icon",
+      "path": "snippets/hero-icon/hero-icon.json",
+      "code": "<gds-icon-bank></gds-icon-bank>"
+    },
+    {
+      "title": "Hero: Input",
+      "slug": "hero-input",
+      "path": "snippets/hero-input/hero-input.json",
+      "code": "<gds-input>\n  <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n</gds-input>"
+    },
+    {
+      "title": "Hero: Radio",
+      "slug": "hero-radio",
+      "path": "snippets/hero-radio/hero-radio.json",
+      "code": "<gds-radio-group>\n  <gds-radio label=\"Radio Option 1\" supporting-text=\"Supporting text\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Radio Option 2\" supporting-text=\"Supporting text\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Radio Option 3\" supporting-text=\"Supporting text\" value=\"3\"></gds-radio>\n</gds-radio-group>"
+    },
+    {
+      "title": "Hero: Segmented control",
+      "slug": "hero-segmented-control",
+      "path": "snippets/hero-segmented-control/hero-segmented-control.json",
+      "code": "<gds-segmented-control>\n  <gds-segment value=\"1\">Item 1</gds-segment>\n  <gds-segment value=\"2\">Item 2</gds-segment>\n  <gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
+    },
+    {
+      "title": "Hero: Select",
+      "slug": "hero-select",
+      "path": "snippets/hero-select/hero-select.json",
+      "code": "<gds-select>\n  <gds-icon-books slot=\"lead\"></gds-icon-books>\n  <select>\n    <option value=\"\">Select a value</option>\n    <optgroup label=\"Physics\">\n      <option value=\"quantum-mechanics\">Quantum Mechanics</option>\n      <option value=\"relativity\">Relativity</option>\n    </optgroup>\n    <optgroup label=\"Chemistry\">\n      <option value=\"organic-chemistry\">Organic Chemistry</option>\n      <option value=\"inorganic-chemistry\">Inorganic Chemistry</option>\n    </optgroup>\n    <optgroup label=\"Biology\">\n      <option value=\"genetics\">Genetics</option>\n      <option value=\"microbiology\">Microbiology</option>\n      <option value=\"ecology\">Ecology</option>\n    </optgroup>\n  </select>\n</gds-select>"
+    },
+    {
+      "title": "Hero: Textarea",
+      "slug": "hero-textarea",
+      "path": "snippets/hero-textarea/hero-textarea.json",
+      "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 2,
-  "lastUpdated": "2025-05-15T09:15:48.962Z"
+  "total": 11,
+  "lastUpdated": "2025-06-09T11:38:35.920Z"
 }

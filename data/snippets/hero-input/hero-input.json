@@ -1,0 +1,6 @@
+{
+  "title": "Hero: Input",
+  "slug": "hero-input",
+  "snippet_component": "Input",
+  "code": "<gds-input>\n  <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n</gds-input>"
+}

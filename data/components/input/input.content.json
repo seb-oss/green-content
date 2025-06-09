@@ -1,5 +1,20 @@
 {
   "title": "Input",
   "slug": "input",
-  "beta": false
+  "hero_snippet": "hero-input",
+  "beta": true,
+  "summary": "An input lets users enter and edit text or numerical values in forms.",
+  "anatomy": true,
+  "tags": [
+    "Form",
+    "input"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
 }

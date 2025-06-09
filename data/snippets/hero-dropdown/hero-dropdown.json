@@ -1,0 +1,6 @@
+{
+  "title": "Hero: Dropdown",
+  "slug": "hero-dropdown",
+  "snippet_component": "Dropdown",
+  "code": "<gds-dropdown>\n  <span slot=\"extended-supporting-text\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n  </span>\n  <gds-icon-push slot=\"lead\"></gds-icon-push>\n  <gds-option value=\"1701-D-1\">Enterprise 1701-D</gds-option>\n  <gds-option value=\"falcon-1\">Millenium Falcon</gds-option>\n  <gds-option value=\"defiant-1\">Defiant</gds-option>\n  <gds-option value=\"voyager-1\">Voyager</gds-option>\n  <gds-option value=\"prometheus-1\">Prometheus</gds-option>\n  <gds-option value=\"discovery-1\">Discovery</gds-option>\n  <gds-option value=\"columbia-1\">Columbia</gds-option>\n</gds-dropdown>"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Select",
+  "slug": "select",
+  "hero_snippet": "hero-select",
+  "beta": true,
+  "summary": "A select enables the user to choose one or multiple options from a list.",
+  "anatomy": true,
+  "tags": [
+    "Form",
+    "select"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  },
+  "overview": [
+    {}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Textarea",
+  "slug": "textarea",
+  "hero_snippet": "hero-textarea",
+  "beta": true,
+  "summary": "Textarea allow users to input text and digits on multiple lines.",
+  "anatomy": true,
+  "tags": [
+    "Form",
+    "free-text",
+    "text-entry",
+    "text-field"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  },
+  "overview": [
+    {}
+  ]
+}

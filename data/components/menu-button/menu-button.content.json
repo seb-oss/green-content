@@ -1,0 +1,19 @@
+{
+  "title": "Menu button",
+  "slug": "menu-button",
+  "beta": false,
+  "summary": "A menu button combines button and link behaviors for navigation menus.",
+  "anatomy": true,
+  "tags": [
+    "navigation",
+    "button"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}

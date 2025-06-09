@@ -1,0 +1,18 @@
+{
+  "title": "Coachmark",
+  "slug": "coachmark",
+  "beta": true,
+  "summary": "Coachmarks guide users through interface features.",
+  "anatomy": true,
+  "tags": [
+    "onboarding",
+    "guidance",
+    "walkthrough",
+    "feedback"
+  ],
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
+}

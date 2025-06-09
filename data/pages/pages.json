@@ -1,18 +1,21 @@
 {
   "pages": [
     {
-      "title": "Foundation",
-      "slug": "foundation",
-      "path": "pages/foundation/foundation.json",
-      "ogImage": "pages/foundation/foundation.og.png"
+      "title": "Accessibility",
+      "slug": "accessibility",
+      "path": "pages/accessibility/accessibility.json"
     },
     {
-      "title": "UX Writing",
+      "title": "Foundation",
+      "slug": "foundation",
+      "path": "pages/foundation/foundation.json"
+    },
+    {
+      "title": "UX writing",
       "slug": "ux-writing",
-      "path": "pages/ux-writing/ux-writing.json",
-      "ogImage": "pages/ux-writing/ux-writing.og.png"
+      "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 2,
-  "lastUpdated": "2025-05-15T09:15:48.962Z"
+  "total": 3,
+  "lastUpdated": "2025-06-09T11:38:35.920Z"
 }

@@ -1,0 +1,79 @@
+{
+  "title": "Card",
+  "slug": "card",
+  "beta": true,
+  "summary": "The card groups related content into a single container.",
+  "category": [
+    "Layout"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  },
+  "overview": [
+    {
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Cards are used to presents content in a visually distinct, self-contained unit. It typically acts as a container for related information, such as text, images, buttons, or other interactive elements, grouped together to convey a single idea or action. Cards are designed to be flexible and consistent, adhering to the design system's guidelines for typography, spacing, colors, and interaction patterns."
+        }
+      ]
+    },
+    {
+      "title": "Anatomy",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "A card is a container with rounded corners and a background and content color determined by its variant. The card has one main slot where any type of content can be placed."
+        },
+        {
+          "type": "image",
+          "caption": "Card Anatomy"
+        }
+      ]
+    },
+    {
+      "title": "Features",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Variants",
+          "tag": "H3",
+          "content": "Card variants combine pairs of background and content colors."
+        },
+        {
+          "type": "rich-text",
+          "title": "Declarative layout",
+          "tag": "H3",
+          "content": "Cards extends Div, so it supports all the available layout features, such as padding, margin, display."
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "[Something about design language here - how to think about visual hierarchy, spatial relationships, use of empty space in various contexts, etc, as it relates to cards]"
+        },
+        {
+          "type": "rich-text",
+          "title": "Do's and don'ts",
+          "tag": "H3",
+          "content": "#### Do\n\n*   **Maintain Consistency**: Follow the design system’s guidelines for typography, spacing, colors, and borders to ensure cards look cohesive across the application.\n    \n\n#### Don't\n\n*   **Overload Content**: Avoid cramming too much information into a single card.\n    \n*   **Overuse Cards**: Avoid using cards for every piece of content; reserve them for scenarios where grouped, modular content makes sense.\n    \n*   **Make cards interactive**: use interactive elements, such as buttons or links, within the card instead."
+        }
+      ]
+    }
+  ]
+}

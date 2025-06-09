@@ -1,0 +1,18 @@
+{
+  "title": "Radio",
+  "slug": "radio",
+  "hero_snippet": "hero-radio",
+  "beta": true,
+  "summary": "A radio button is a form element that allows users to select one of the predefined set of choices.",
+  "tags": [
+    "Form"
+  ],
+  "category": [
+    "Components"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  }
+}
