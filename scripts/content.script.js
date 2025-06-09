@@ -238,10 +238,16 @@ async function processSnippetContent(filename) {
 }
 
 async function main() {
+  console.log("\n=== Starting Content Processing ===\n");
+
   // Create all required directories first
   createDirectories();
   // Create data directory
   fs.mkdirSync(DATA_DIR, { recursive: true });
+  // List ALL files in content/components
+  console.log("Reading content/components directory...");
+  const allFiles = fs.readdirSync(COMPONENTS_DIR);
+  console.log("All files found:", allFiles);
 
   // List and process component files
   console.log("Reading components directory:", COMPONENTS_DIR);
@@ -252,13 +258,59 @@ async function main() {
 
   console.log("Found component files:", componentFiles);
 
-  const componentsData = await Promise.all(
-    componentFiles.map(processComponentContent)
-  );
+  // const componentsData = await Promise.all(
+  //   componentFiles.map(processComponentContent)
+  // );
+
+  const componentsData = [];
+  for (const filename of componentFiles) {
+    console.log(`\nProcessing ${filename}...`);
+    try {
+      const componentName = path.basename(filename, ".json");
+      const inputPath = path.join(COMPONENTS_DIR, filename);
+      const outputDir = path.join(DATA_DIR, "components", componentName);
+
+      // Ensure component directory exists
+      fs.mkdirSync(outputDir, { recursive: true });
+
+      // Read and write content
+      const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+      const outputPath = path.join(outputDir, `${componentName}.content.json`);
+
+      fs.writeFileSync(outputPath, JSON.stringify(contentData, null, 2));
+      console.log(`Written to: ${outputPath}`);
+
+      componentsData.push({
+        title: contentData.title || componentName,
+        slug: contentData.slug || componentName,
+        summary: contentData.summary,
+        path: `components/${componentName}/${componentName}.content.json`,
+      });
+    } catch (error) {
+      console.error(`Error processing ${filename}:`, error);
+    }
+  }
 
   console.log(
-    "Processed components:",
-    componentsData.filter((c) => c !== null).map((c) => c.slug)
+    "\nProcessed components:",
+    componentsData.map((c) => c.slug)
+  );
+
+  // console.log(
+  //   "Processed components:",
+  //   componentsData.filter((c) => c !== null).map((c) => c.slug)
+  // );
+
+  // Write components index
+  const componentsIndex = {
+    components: componentsData,
+    total: componentsData.length,
+    lastUpdated: new Date().toISOString(),
+  };
+
+  fs.writeFileSync(
+    path.join(DATA_DIR, "components", "components.json"),
+    JSON.stringify(componentsIndex, null, 2)
   );
 
   const navigationFiles = fs.existsSync(NAVIGATION_DIR)
