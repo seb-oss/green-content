@@ -4,6 +4,8 @@
   "hero_snippet": "hero-button",
   "beta": true,
   "summary": "A button can be tapped or clicked to perform an action.",
+  "preamble": "A button serve as an interactive element that enables users to perform an action or make a choice with a simple click or tap. To decide which kind of button/buttons and putting them in the right order is key to make sure users know how to take the right action. A good rule of thumb is to use only one primary action in each context.",
+  "anatomy": true,
   "tags": [
     "Form"
   ],
@@ -16,27 +18,6 @@
     "android": true
   },
   "overview": [
-    {
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "A button serve as an interactive element that enables users to perform an action or make a choice with a simple click or tap. To decide which kind of button/buttons and putting them in the right order is key to make sure users know how to take the right action. A good rule of thumb is to use only one primary action in each context."
-        }
-      ]
-    },
-    {
-      "title": "Anatomy",
-      "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "image",
-          "caption": "Anatomy of button",
-          "img": "anatomy"
-        }
-      ]
-    },
     {
       "title": "Buttons",
       "tag": "H2",
