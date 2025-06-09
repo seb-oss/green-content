@@ -3,6 +3,14 @@
   "slug": "popover",
   "beta": false,
   "summary": "A popover is a temporary view that appears above other content.",
+  "anatomy": true,
+  "tags": [
+    "feedback",
+    "tooltip"
+  ],
+  "category": [
+    "Components"
+  ],
   "platform": {
     "web": true,
     "ios": false,
