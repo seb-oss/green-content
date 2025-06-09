@@ -3,6 +3,13 @@
   "slug": "calendar",
   "beta": false,
   "summary": "The calendar displays a grid of selectable dates.",
+  "anatomy": true,
+  "tags": [
+    "date",
+    "date-range",
+    "form",
+    "time"
+  ],
   "category": [
     "Components"
   ],
