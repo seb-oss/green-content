@@ -14,6 +14,26 @@ const HOME_FILE = path.join(CONTENT_DIR, "home.json");
 // Output directory
 const DATA_DIR = "data";
 
+// Create all required directories
+function createDirectories() {
+  const directories = [
+    CONTENT_DIR,
+    COMPONENTS_DIR,
+    NAVIGATION_DIR,
+    TEMPLATES_DIR,
+    PAGES_DIR,
+    SNIPPETS_DIR,
+  ];
+
+  directories.forEach((dir) => {
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+      console.log(`Created directory: ${dir}`);
+    }
+  });
+}
+
+// content.script.js
 async function processComponentContent(filename) {
   const componentName = path.basename(filename, ".json");
   console.log(`Processing: ${componentName}`);
@@ -22,6 +42,14 @@ async function processComponentContent(filename) {
     const inputPath = path.join(COMPONENTS_DIR, filename);
     const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
 
+    // Add validation for required fields
+    if (!contentData.title || !contentData.slug) {
+      throw new Error(
+        `Component ${componentName} missing required fields: title and slug are required`
+      );
+    }
+
+    // Create directories if they don't exist
     const outputDir = path.join(DATA_DIR, "components", componentName);
     fs.mkdirSync(outputDir, { recursive: true });
 
@@ -31,9 +59,9 @@ async function processComponentContent(filename) {
     );
 
     return {
-      title: contentData.title,
-      slug: contentData.slug,
-      summary: contentData.summary,
+      title: contentData.title, // Required
+      slug: contentData.slug, // Required
+      summary: contentData.summary, // Optional
       path: `components/${componentName}/${componentName}.content.json`,
     };
   } catch (error) {
@@ -181,6 +209,8 @@ async function processSnippetContent(filename) {
 }
 
 async function main() {
+  // Create all required directories first
+  createDirectories();
   // Create data directory
   fs.mkdirSync(DATA_DIR, { recursive: true });
 
