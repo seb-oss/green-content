@@ -4,8 +4,10 @@
   "hero_snippet": "hero-select",
   "beta": true,
   "summary": "A select enables the user to choose one or multiple options from a list.",
+  "anatomy": true,
   "tags": [
-    "Form"
+    "Form",
+    "select"
   ],
   "category": [
     "Components"
