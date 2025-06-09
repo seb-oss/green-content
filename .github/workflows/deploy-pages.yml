@@ -47,6 +47,16 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Prepare upload
+        run: |
+          echo "Preparing files for upload..."
+          cd data
+          find . -type f > files.txt
+          echo "Files to be uploaded:"
+          cat files.txt
+          tar czf ../artifact.tar.gz .
+          cd ..
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
