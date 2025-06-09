@@ -29,6 +29,7 @@ content:
         type: boolean
         default: false
       - { name: summary, label: Summary, type: string }
+      - { name: preamble, label: Preamble, type: text }
       - name: tags
         label: Tags
         type: select
