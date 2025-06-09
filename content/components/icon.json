@@ -4,6 +4,11 @@
   "hero_snippet": "hero-icon",
   "beta": true,
   "summary": "An icon helps communicate meaning quickly, enhances visual hierarchy, and supports navigation or interaction.",
+  "anatomy": true,
+  "tags": [
+    "editorial",
+    "symbol"
+  ],
   "category": [
     "Components"
   ],
