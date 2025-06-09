@@ -3,6 +3,14 @@
   "slug": "signal",
   "beta": true,
   "summary": "A signal draws attention to notifications and new content.",
+  "anatomy": true,
+  "tags": [
+    "preloader",
+    "feedback"
+  ],
+  "category": [
+    "Components"
+  ],
   "platform": {
     "web": true,
     "ios": false,
