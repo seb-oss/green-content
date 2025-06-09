@@ -4,8 +4,12 @@
   "hero_snippet": "hero-textarea",
   "beta": true,
   "summary": "Textarea allow users to input text and digits on multiple lines.",
+  "anatomy": true,
   "tags": [
-    "Form"
+    "Form",
+    "free-text",
+    "text-entry",
+    "text-field"
   ],
   "category": [
     "Components"
@@ -16,13 +20,6 @@
     "android": false
   },
   "overview": [
-    {
-      "column": [
-        {
-          "title": "Section overview textarea",
-          "column_title_tag": "H2"
-        }
-      ]
-    }
+    {}
   ]
 }
