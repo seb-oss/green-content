@@ -3,6 +3,12 @@
   "slug": "dialog",
   "beta": true,
   "summary": "⁠A dialog appears in front of content to provide critical information or ask for a decision.",
+  "anatomy": true,
+  "tags": [
+    "modal",
+    "Dialog",
+    "slide-out"
+  ],
   "platform": {
     "web": true,
     "ios": false,
