@@ -3,6 +3,11 @@
   "slug": "rich-text",
   "beta": true,
   "summary": "Rich text can be used to wrap generic HTML content and apply typography styles.",
+  "anatomy": true,
+  "tags": [
+    "editorial",
+    "data"
+  ],
   "category": [
     "Layout"
   ],
