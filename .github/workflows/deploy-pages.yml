@@ -37,6 +37,14 @@ jobs:
       - name: Process content files
         run: node scripts/content.script.js
 
+      - name: Commit generated files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git commit -m "chore: update generated files" || echo "No changes to commit"
+          git push
+
       - name: Verify Content Structure
         run: |
           echo "Content structure:"
