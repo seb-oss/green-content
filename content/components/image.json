@@ -3,6 +3,11 @@
   "slug": "image",
   "beta": true,
   "summary": "An image displays media with configurable dimensions and styling properties.",
+  "anatomy": true,
+  "tags": [
+    "media",
+    "editorial"
+  ],
   "category": [
     "Layout"
   ],
