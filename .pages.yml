@@ -507,7 +507,7 @@ content:
         options:
           collection: snippets
           multiple: false
-          search: "title"
+          search: "{title}"
           value: "{slug}"
           label: "{title}"
       - name: featured
@@ -516,6 +516,6 @@ content:
         options:
           collection: components
           multiple: true
-          search: "title"
+          search: "{title}"
           value: "{slug}"
           label: "{title}"
