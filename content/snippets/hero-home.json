@@ -1,4 +1,5 @@
 {
   "title": "Hero: Home",
-  "slug": "hero-home"
+  "slug": "hero-home",
+  "code": "<gds-flex align-items=\"center\" justify-content=\"center\">\n<gds-badge variant=\"negative\" notification=\"\">10+</gds-badge>\n</gds-flex>"
 }
