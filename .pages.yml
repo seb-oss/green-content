@@ -510,3 +510,12 @@ content:
           search: "title"
           value: "{slug}"
           label: "{title}"
+      - name: featured
+        label: Featured components
+        type: reference
+        options:
+          collection: components
+          multiple: true
+          search: "title"
+          value: "{slug}"
+          label: "{title}"
