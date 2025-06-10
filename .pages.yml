@@ -516,6 +516,6 @@ content:
         options:
           collection: components
           multiple: true
-          search: title
+          search: "title,slug"
           value: "{slug}"
           label: "{title}"
