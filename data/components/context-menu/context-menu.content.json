@@ -4,6 +4,7 @@
   "beta": false,
   "summary": "A context menu displays a list of contextual actions.",
   "anatomy": true,
+  "anatomy-overview": "The Context menu consists of an icon button with three dots (but the content can be changed to anything) and a popover with a menu of actions which is presented when the button is activated.",
   "tags": [
     "navigation"
   ],
@@ -20,18 +21,6 @@
           "type": "paragraph",
           "tag": "p",
           "text": "Context menu provides a compact menu of contextual actions relevant to a specific item, row, or element within an interface, such as a table, list, or card. Triggered by a dedicated button (e.g., a \"More\" or three-dot icon), it appears as a popover, offering a focused set of options like edit, delete, copy, or share. The context menu enhances user efficiency by surfacing relevant actions directly tied to the selected item, reducing clutter and improving accessibility."
-        }
-      ]
-    },
-    {
-      "title": "Anatomy",
-      "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "- A button with configurable content, but defaulting to three dots\n- A popup with a menu of actions"
         }
       ]
     },
