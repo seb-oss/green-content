@@ -34,8 +34,8 @@ content:
         label: Anatomy
         type: boolean
         default: true
-      - { name: anatomy-overview, label: 'Antomy: Overview', type: text }
-      - { name: anatomy-details, label: 'Antomy: Details', type: text }
+      - { name: anatomy-overview, label: 'Antomy: Overview', type: rich-text }
+      - { name: anatomy-details, label: 'Antomy: Details', type: rich-text }
       - name: tags
         label: Tags
         type: select
