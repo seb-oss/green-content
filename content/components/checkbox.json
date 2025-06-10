@@ -5,6 +5,8 @@
   "beta": true,
   "summary": "A checkbox is a form element that allows users to select one or multiple options.",
   "anatomy": true,
+  "anatomy-overview": "The checkbox (and other form controls) are divided in sections that are re-used between components. Header: Label, label support, contextual help, extended support.\n\n*   **Body**: The checkbox.\n    \n*   **Footer**: Error message.",
+  "anatomy-details": "1.  Header label\n    \n2.  Header support text\n    \n3.  Contextual help\n    \n4.  Extended support text\n    \n5.  Checkbox label\n    \n6.  Checkbox support text",
   "tags": [
     "Form",
     "select"
