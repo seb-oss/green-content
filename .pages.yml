@@ -501,3 +501,12 @@ content:
     fields:
       - { name: title, label: Title, type: string }
       - { name: summary, label: Summary, type: rich-text }
+      - name: hero
+        label: Hero Snippet
+        type: reference
+        options:
+          collection: snippets
+          multiple: false
+          search: "title"
+          value: "{slug}"
+          label: "{title}"
