@@ -33,7 +33,8 @@
     {
       "title": "Hero: Home",
       "slug": "hero-home",
-      "path": "snippets/hero-home/hero-home.json"
+      "path": "snippets/hero-home/hero-home.json",
+      "code": "<gds-flex align-items=\"center\" justify-content=\"center\">\n<gds-badge variant=\"negative\" notification=\"\">10+</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Hero: Icon",
@@ -73,5 +74,5 @@
     }
   ],
   "total": 12,
-  "lastUpdated": "2025-06-10T10:46:34.408Z"
+  "lastUpdated": "2025-06-10T11:45:20.370Z"
 }

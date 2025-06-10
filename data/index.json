@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-10T10:46:34.407Z",
+    "lastUpdated": "2025-06-10T11:45:20.369Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -490,6 +490,7 @@
             "title": "Hero: Home",
             "slug": "hero-home",
             "path": "snippets/hero-home/hero-home.json",
+            "code": "<gds-flex align-items=\"center\" justify-content=\"center\">\n<gds-badge variant=\"negative\" notification=\"\">10+</gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-home/hero-home.json"
             }
