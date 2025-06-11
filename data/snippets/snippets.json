@@ -145,6 +145,12 @@
       "code": "<gds-link text-decoration=\"underline\">Link text</gds-link>"
     },
     {
+      "title": "Hero: Menu button",
+      "slug": "hero-menu-button",
+      "path": "snippets/hero-menu-button/hero-menu-button.json",
+      "code": "<gds-card\n  height=\"40px\"\n  width=\"max-content\"\n  flex-direction=\"row\"\n  variant=\"primary\"\n  padding=\"0\"\n  border=\"none\"\n  gap=\"0\"\n>\n  <gds-menu-button selected>\n    <gds-icon-bell slot=\"trail\"></gds-icon-bell>\n    Notification\n  </gds-menu-button>\n  <gds-popover>\n    <gds-menu-button slot=\"trigger\">\n      <gds-icon-people slot=\"trail\"></gds-icon-people>\n      Profile\n    </gds-menu-button>\n    <gds-flex padding=\"m\">Profile stuff</gds-flex>\n  </gds-popover>\n  <gds-menu-button\n    href=\"https://github.com/seb-oss/green\"\n    target=\"_blank\"\n  >\n    <gds-icon-square-arrow-top-right\n      slot=\"trail\"\n    ></gds-icon-square-arrow-top-right>\n    External link\n  </gds-menu-button>\n</gds-card>"
+    },
+    {
       "title": "Hero: Radio",
       "slug": "hero-radio",
       "path": "snippets/hero-radio/hero-radio.json",
@@ -169,6 +175,6 @@
       "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 28,
-  "lastUpdated": "2025-06-11T10:20:42.772Z"
+  "total": 29,
+  "lastUpdated": "2025-06-11T10:21:27.088Z"
 }
