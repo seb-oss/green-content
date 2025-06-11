@@ -1,6 +1,7 @@
 {
   "title": "Image",
   "slug": "image",
+  "hero_snippet": "hero-image",
   "beta": true,
   "summary": "An image displays media with configurable dimensions and styling properties.",
   "anatomy": true,
