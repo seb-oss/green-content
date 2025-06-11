@@ -2,5 +2,5 @@
   "title": "Hero: Textarea",
   "slug": "hero-textarea",
   "snippet_component": "Textarea",
-  "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
+  "code": "<gds-flex width=\"280px\">\n  <gds-textarea\n    label=\"Label\"\n    supporting-text=\"Label support text\"\n    resizable=\"false\"\n  >\n  </gds-textarea>\n</gds-flex>"
 }
