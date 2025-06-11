@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Div",
+  "slug": "hero-div",
+  "code": "<gds-flex align-items=\"center\" gap=\"s\">\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"primary\"\n  border-color=\"primary\"\n  border-width=\"xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl; l{ 6xl }\"\n  height=\"4xl; l{ 6xl }\"\n  background=\"secondary\"\n  border=\"4xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"tertiary\"\n  border-radius=\"s\"\n></gds-div>\n</gds-flex>"
+}
