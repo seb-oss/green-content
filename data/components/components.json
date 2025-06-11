@@ -217,9 +217,10 @@
     {
       "title": "Video",
       "slug": "video",
+      "summary": "Video summary",
       "path": "components/video/video.content.json"
     }
   ],
   "total": 37,
-  "lastUpdated": "2025-06-11T10:31:50.928Z"
+  "lastUpdated": "2025-06-11T10:32:09.971Z"
 }

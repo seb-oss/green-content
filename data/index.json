@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:31:50.928Z",
+    "lastUpdated": "2025-06-11T10:32:09.970Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -376,6 +376,7 @@
           {
             "title": "Video",
             "slug": "video",
+            "summary": "Video summary",
             "path": "components/video/video.content.json",
             "endpoints": {
               "content": "components/video/video.content.json",
