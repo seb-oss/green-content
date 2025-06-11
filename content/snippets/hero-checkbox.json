@@ -2,5 +2,5 @@
   "title": "Hero: Checkbox",
   "slug": "hero-checkbox",
   "snippet_component": "Checkbox",
-  "code": "<gds-checkbox-group>\n<gds-checkbox label=\"Checkbox Option 1\" supporting-text=\"Supporting text\" value=\"1\"></gds-checkbox>\n<gds-checkbox label=\"Checkbox Option 2\" supporting-text=\"Supporting text\" value=\"2\" checked=\"\"></gds-checkbox>\n<gds-checkbox label=\"Checkbox Option 3\" supporting-text=\"Supporting text\" value=\"3\"></gds-checkbox></gds-checkbox-group>"
+  "code": "<gds-checkbox-group>\n  <gds-checkbox label=\"Option 1\" value=\"1\"></gds-checkbox>\n  <gds-checkbox label=\"Option 2\" value=\"2\" checked></gds-checkbox>\n  <gds-checkbox label=\"Option 3\" value=\"3\"></gds-checkbox>\n</gds-checkbox-group>"
 }
