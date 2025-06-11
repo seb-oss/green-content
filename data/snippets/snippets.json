@@ -209,8 +209,14 @@
       "slug": "hero-theme",
       "path": "snippets/hero-theme/hero-theme.json",
       "code": "<gds-flex gap=\"m\">\n  <gds-theme color-scheme=\"light\" design-version=\"2023\">\n    <gds-card variant=\"secondary\" align=\"center\">\n      <gds-icon-sun size=\"xl\"></gds-icon-sun>\n    </gds-card>\n  </gds-theme>\n  <gds-theme color-scheme=\"dark\" design-version=\"2023\">\n    <gds-card variant=\"primary\" align=\"center\">\n      <gds-icon-moon size=\"xl\"></gds-icon-moon>\n    </gds-card>\n  </gds-theme>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Video",
+      "slug": "hero-video",
+      "path": "snippets/hero-video/hero-video.json",
+      "code": "<gds-flex width=\"280px\" overflow=\"hidden\" border-radius=\"s\">\n  <gds-video\n    width=\"100%\"\n    height=\"auto\"\n    aspect-ration=\"16/9\"\n    src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\"\n    playsinline\n    muted\n    autoplay\n    loop\n  ></gds-video>\n</gds-flex>"
     }
   ],
-  "total": 35,
-  "lastUpdated": "2025-06-11T10:25:05.837Z"
+  "total": 36,
+  "lastUpdated": "2025-06-11T10:25:35.854Z"
 }
