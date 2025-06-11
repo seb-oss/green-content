@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T09:40:27.925Z",
+    "lastUpdated": "2025-06-11T10:10:24.922Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -445,7 +445,7 @@
             "title": "Hero: Badge",
             "slug": "hero-badge",
             "path": "snippets/hero-badge/hero-badge.json",
-            "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge size=\"small\" variant=\"warning\">\n    602\n  </gds-badge>\n  <gds-badge variant=\"notice\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Notice\n  </gds-badge>\n  <gds-badge variant=\"positive\" notification=\"\">\n    999\n    <gds-icon-plus-small slot=\"trail\"></gds-icon-plus-small>\n  </gds-badge>\n</gds-flex>",
+            "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-badge variant=\"negative\" notification>999+</gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge size=\"small\" variant=\"warning\"> 602 </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-badge/hero-badge.json"
             }
