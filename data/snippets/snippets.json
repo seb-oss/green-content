@@ -67,6 +67,12 @@
       "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
     },
     {
+      "title": "Hero: Div",
+      "slug": "hero-div",
+      "path": "snippets/hero-div/hero-div.json",
+      "code": "<gds-flex align-items=\"center\" gap=\"s\">\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"primary\"\n  border-color=\"primary\"\n  border-width=\"xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl; l{ 6xl }\"\n  height=\"4xl; l{ 6xl }\"\n  background=\"secondary\"\n  border=\"4xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"tertiary\"\n  border-radius=\"s\"\n></gds-div>\n</gds-flex>"
+    },
+    {
       "title": "Hero: Dropdown",
       "slug": "hero-dropdown",
       "path": "snippets/hero-dropdown/hero-dropdown.json",
@@ -115,6 +121,6 @@
       "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 19,
-  "lastUpdated": "2025-06-11T10:15:33.237Z"
+  "total": 20,
+  "lastUpdated": "2025-06-11T10:16:21.305Z"
 }
