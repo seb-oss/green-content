@@ -181,12 +181,24 @@
       "code": "<gds-flex width=\"280px\">\n  <gds-select>\n    <gds-icon-books slot=\"lead\"></gds-icon-books>\n    <select>\n      <option value=\"\">Select a value</option>\n      <optgroup label=\"Physics\">\n        <option value=\"quantum-mechanics\">Quantum Mechanics</option>\n        <option value=\"relativity\">Relativity</option>\n      </optgroup>\n      <optgroup label=\"Chemistry\">\n        <option value=\"organic-chemistry\">Organic Chemistry</option>\n        <option value=\"inorganic-chemistry\">Inorganic Chemistry</option>\n      </optgroup>\n      <optgroup label=\"Biology\">\n        <option value=\"genetics\">Genetics</option>\n        <option value=\"microbiology\">Microbiology</option>\n        <option value=\"ecology\">Ecology</option>\n      </optgroup>\n    </select>\n  </gds-select>\n</gds-flex>"
     },
     {
+      "title": "Hero: Signal",
+      "slug": "hero-signal",
+      "path": "snippets/hero-signal/hero-signal.json",
+      "code": "<gds-signal></gds-signal>"
+    },
+    {
+      "title": "Hero: Spinner",
+      "slug": "hero-spinner",
+      "path": "snippets/hero-spinner/hero-spinner.json",
+      "code": "<gds-spinner size=\"sm\"></gds-spinner>"
+    },
+    {
       "title": "Hero: Textarea",
       "slug": "hero-textarea",
       "path": "snippets/hero-textarea/hero-textarea.json",
       "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 31,
-  "lastUpdated": "2025-06-11T10:23:07.409Z"
+  "total": 33,
+  "lastUpdated": "2025-06-11T10:23:44.090Z"
 }
