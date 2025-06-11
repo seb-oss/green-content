@@ -3,7 +3,9 @@
   "slug": "dialog",
   "beta": true,
   "summary": "⁠A dialog appears in front of content to provide critical information or ask for a decision.",
+  "preamble": "Dialogs are used to provide the user with a focused interface for specific tasks or information, appearing as a temporary window that requires user interaction before returning to the main application.\n\nDialogs are modal, meaning they block interaction with the rest of the application or interface until the user addresses the dialog (e.g., by clicking a button, entering input, or closing it). This ensures the user focuses on the dialog's content before returning to the main workflow, and also ensures that keyboard and screen reader focus is kept within the dialog.",
   "anatomy": true,
+  "anatomy-overview": "Dialogs consists of a floating card featuring a drop shadow and with a backdrop behind it. The card has a header with title and close button, a slot for body content and a slot for footer buttons at the bottom. If no footer buttons are provided, a default set of buttons are rendered.",
   "tags": [
     "modal",
     "Dialog",
@@ -16,5 +18,34 @@
     "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Features",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The dialog can be shown either as a regular dialog window or as a slide-out. The regular window is positioned in the center of the screen, while the slide-out is positioned on the right-hand side and always takes up the full height of the viewport. Height and width can be customized to suite various needs.\n\nBy default, the dialog will close when the user clicks the backdrop, but this behavior can be opted out from if the dialog needs to stay open until a flow is completed, for example."
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Dialogs are powerful tools for focusing user attention, but their use should be deliberate to avoid disrupting the user experience.\n\n### Best practices\n\n*   Use concise, actionable text. Clearly state the purpose and options.\n    \n*   Use button ranks to make the primary action obvious. For example, use the primary button for “Save” and secondary for “Cancel”\n    \n*   Ensure the dialog relates to the user’s current task. Include relevant details, like the name of the item being deleted."
+        },
+        {
+          "type": "rich-text",
+          "title": "Do's and don'ts",
+          "tag": "H3",
+          "content": "#### Do's\n\n*   Use dialogs for critical actions that need explicit user acknowledgment, such as confirming a deletion or agreeing to terms.\n    \n*   Use dialogs for multi-step processes that benefit from a focused, step-by-step interface, like a setup wizard or onboarding flow.\n    \n*   Use dialogs for short, specific input tasks, like entering a file name, setting preferences, or filling out a quick form.\n    \n\n#### Don'ts\n\n*   Don’t use dialogs for trivial confirmations or information that could be displayed inline or via notifications. Overusing dialogs interrupts workflow and causes \"dialog fatigue.\"\n    \n*   Don’t use dialogs for extensive forms or complex tasks that require significant screen space or navigation. Use a full page or panel instead.\n    \n*   Avoid dialogs for repetitive tasks, as they slow users down. Allow users to opt out or streamline the process with settings (e.g., \"Don’t ask again\")."
+        }
+      ]
+    }
+  ]
 }
