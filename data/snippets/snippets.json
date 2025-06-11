@@ -172,7 +172,7 @@
       "title": "Hero: Segmented control",
       "slug": "hero-segmented-control",
       "path": "snippets/hero-segmented-control/hero-segmented-control.json",
-      "code": "<gds-segmented-control>\n  <gds-segment value=\"1\">Item 1</gds-segment>\n  <gds-segment value=\"2\">Item 2</gds-segment>\n  <gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
+      "code": "<gds-flex width=\"280px\">\n  <gds-segmented-control value=\"1\" size=\"small\">\n    <gds-segment value=\"1\">Item 1</gds-segment>\n    <gds-segment value=\"2\">Item 2</gds-segment>\n    <gds-segment value=\"3\">Item 3</gds-segment>\n  </gds-segmented-control>\n</gds-flex>"
     },
     {
       "title": "Hero: Select",
@@ -188,5 +188,5 @@
     }
   ],
   "total": 31,
-  "lastUpdated": "2025-06-11T10:22:31.175Z"
+  "lastUpdated": "2025-06-11T10:22:48.828Z"
 }
