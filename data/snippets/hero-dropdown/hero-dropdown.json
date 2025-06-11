@@ -2,5 +2,5 @@
   "title": "Hero: Dropdown",
   "slug": "hero-dropdown",
   "snippet_component": "Dropdown",
-  "code": "<gds-dropdown>\n  <span slot=\"extended-supporting-text\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n  </span>\n  <gds-icon-push slot=\"lead\"></gds-icon-push>\n  <gds-option value=\"1701-D-1\">Enterprise 1701-D</gds-option>\n  <gds-option value=\"falcon-1\">Millenium Falcon</gds-option>\n  <gds-option value=\"defiant-1\">Defiant</gds-option>\n  <gds-option value=\"voyager-1\">Voyager</gds-option>\n  <gds-option value=\"prometheus-1\">Prometheus</gds-option>\n  <gds-option value=\"discovery-1\">Discovery</gds-option>\n  <gds-option value=\"columbia-1\">Columbia</gds-option>\n</gds-dropdown>"
+  "code": "<gds-flex width=\"280px\">\n  <gds-dropdown label=\"Select tech\" hide-label>\n    <gds-option value=\"\">Select tech</gds-option>\n    <gds-option value=\"warp\">Warp Drive</gds-option>\n    <gds-option value=\"cybernetics\">Cybernetics</gds-option>\n    <gds-option value=\"nanotechnology\">Nanotechnology</gds-option>\n    <gds-option value=\"cloning\">Cloning</gds-option>\n    <gds-option value=\"cryonics\">Cryonics</gds-option>\n    <gds-option value=\"teleportation\">Teleportation</gds-option>\n  </gds-dropdown>\n</gds-flex>"
 }
