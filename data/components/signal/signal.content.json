@@ -1,6 +1,7 @@
 {
   "title": "Signal",
   "slug": "signal",
+  "hero_snippet": "hero-signal",
   "beta": true,
   "summary": "A signal draws attention to notifications and new content.",
   "anatomy": true,
