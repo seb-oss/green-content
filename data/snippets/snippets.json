@@ -7,6 +7,12 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-badge variant=\"negative\" notification>999+</gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge size=\"small\" variant=\"warning\"> 602 </gds-badge>\n</gds-flex>"
     },
     {
+      "title": "Hero: Blur",
+      "slug": "hero-blur",
+      "path": "snippets/hero-blur/hero-blur.json",
+      "code": "<gds-blur>\n  <gds-text>Blurred content</gds-text>\n</gds-blur>"
+    },
+    {
       "title": "Hero: Breadcrumb",
       "slug": "hero-breadcrumb",
       "path": "snippets/hero-breadcrumb/hero-breadcrumb.json",
@@ -73,6 +79,6 @@
       "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 12,
-  "lastUpdated": "2025-06-11T10:10:24.923Z"
+  "total": 13,
+  "lastUpdated": "2025-06-11T10:10:49.629Z"
 }

@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:10:24.922Z",
+    "lastUpdated": "2025-06-11T10:10:49.628Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -448,6 +448,15 @@
             "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-badge variant=\"negative\" notification>999+</gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge size=\"small\" variant=\"warning\"> 602 </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-badge/hero-badge.json"
+            }
+          },
+          {
+            "title": "Hero: Blur",
+            "slug": "hero-blur",
+            "path": "snippets/hero-blur/hero-blur.json",
+            "code": "<gds-blur>\n  <gds-text>Blurred content</gds-text>\n</gds-blur>",
+            "endpoints": {
+              "content": "snippets/hero-blur/hero-blur.json"
             }
           },
           {
