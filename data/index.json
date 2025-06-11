@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:14:48.727Z",
+    "lastUpdated": "2025-06-11T10:15:33.236Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -520,6 +520,24 @@
             "code": " <gds-context-menu>\n    <gds-flex slot=\"trigger\" gap=\"s\" align-items=\"center\">\n      <gds-icon-text-edit></gds-icon-text-edit>\n      Edit\n    </gds-flex>\n    <gds-menu-item>\n      <gds-flex gap=\"s\" align-items=\"center\">\n        <gds-icon-ai></gds-icon-ai>\n        Help me write\n      </gds-flex>\n    </gds-menu-item>\n    <gds-menu-item>\n      <gds-flex gap=\"s\" align-items=\"center\">\n        <gds-icon-brush></gds-icon-brush>\n        Fix grammar\n      </gds-flex>\n    </gds-menu-item>\n  </gds-context-menu>",
             "endpoints": {
               "content": "snippets/hero-context-menu/hero-context-menu.json"
+            }
+          },
+          {
+            "title": "Hero: Datepicker",
+            "slug": "hero-datepicker",
+            "path": "snippets/hero-datepicker/hero-datepicker.json",
+            "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers></gds-datepicker>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/hero-datepicker/hero-datepicker.json"
+            }
+          },
+          {
+            "title": "Hero: Details",
+            "slug": "hero-details",
+            "path": "snippets/hero-details/hero-details.json",
+            "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/hero-details/hero-details.json"
             }
           },
           {

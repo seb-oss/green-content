@@ -55,6 +55,18 @@
       "code": " <gds-context-menu>\n    <gds-flex slot=\"trigger\" gap=\"s\" align-items=\"center\">\n      <gds-icon-text-edit></gds-icon-text-edit>\n      Edit\n    </gds-flex>\n    <gds-menu-item>\n      <gds-flex gap=\"s\" align-items=\"center\">\n        <gds-icon-ai></gds-icon-ai>\n        Help me write\n      </gds-flex>\n    </gds-menu-item>\n    <gds-menu-item>\n      <gds-flex gap=\"s\" align-items=\"center\">\n        <gds-icon-brush></gds-icon-brush>\n        Fix grammar\n      </gds-flex>\n    </gds-menu-item>\n  </gds-context-menu>"
     },
     {
+      "title": "Hero: Datepicker",
+      "slug": "hero-datepicker",
+      "path": "snippets/hero-datepicker/hero-datepicker.json",
+      "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers></gds-datepicker>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Details",
+      "slug": "hero-details",
+      "path": "snippets/hero-details/hero-details.json",
+      "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
+    },
+    {
       "title": "Hero: Dropdown",
       "slug": "hero-dropdown",
       "path": "snippets/hero-dropdown/hero-dropdown.json",
@@ -103,6 +115,6 @@
       "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 17,
-  "lastUpdated": "2025-06-11T10:14:48.728Z"
+  "total": 19,
+  "lastUpdated": "2025-06-11T10:15:33.237Z"
 }
