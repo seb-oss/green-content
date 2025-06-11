@@ -1,7 +1,9 @@
 {
   "title": "Text",
   "slug": "text",
+  "hero_snippet": "hero-text",
   "beta": true,
+  "summary": "Text summary",
   "anatomy": true,
   "tags": [
     "editorial"

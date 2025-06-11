@@ -199,6 +199,7 @@
     {
       "title": "Text",
       "slug": "text",
+      "summary": "Text summary",
       "path": "components/text/text.content.json"
     },
     {
@@ -219,5 +220,5 @@
     }
   ],
   "total": 37,
-  "lastUpdated": "2025-06-11T10:31:03.796Z"
+  "lastUpdated": "2025-06-11T10:31:26.694Z"
 }
