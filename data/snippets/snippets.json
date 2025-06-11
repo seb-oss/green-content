@@ -85,6 +85,12 @@
       "code": "<gds-flex width=\"280px\">\n  <gds-dropdown label=\"Select tech\" hide-label>\n    <gds-option value=\"\">Select tech</gds-option>\n    <gds-option value=\"warp\">Warp Drive</gds-option>\n    <gds-option value=\"cybernetics\">Cybernetics</gds-option>\n    <gds-option value=\"nanotechnology\">Nanotechnology</gds-option>\n    <gds-option value=\"cloning\">Cloning</gds-option>\n    <gds-option value=\"cryonics\">Cryonics</gds-option>\n    <gds-option value=\"teleportation\">Teleportation</gds-option>\n  </gds-dropdown>\n</gds-flex>"
     },
     {
+      "title": "Hero: FAB",
+      "slug": "hero-fab",
+      "path": "snippets/hero-fab/hero-fab.json",
+      "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    variant=\"positive\"\n    rank=\"secondary\"\n    size=\"small\"\n  >\n    Floating <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
+    },
+    {
       "title": "Hero: Home",
       "slug": "hero-home",
       "path": "snippets/hero-home/hero-home.json",
@@ -127,6 +133,6 @@
       "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 21,
-  "lastUpdated": "2025-06-11T10:16:52.458Z"
+  "total": 22,
+  "lastUpdated": "2025-06-11T10:17:20.895Z"
 }
