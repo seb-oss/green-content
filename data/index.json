@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:22:48.827Z",
+    "lastUpdated": "2025-06-11T10:23:07.408Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -706,7 +706,7 @@
             "title": "Hero: Select",
             "slug": "hero-select",
             "path": "snippets/hero-select/hero-select.json",
-            "code": "<gds-select>\n  <gds-icon-books slot=\"lead\"></gds-icon-books>\n  <select>\n    <option value=\"\">Select a value</option>\n    <optgroup label=\"Physics\">\n      <option value=\"quantum-mechanics\">Quantum Mechanics</option>\n      <option value=\"relativity\">Relativity</option>\n    </optgroup>\n    <optgroup label=\"Chemistry\">\n      <option value=\"organic-chemistry\">Organic Chemistry</option>\n      <option value=\"inorganic-chemistry\">Inorganic Chemistry</option>\n    </optgroup>\n    <optgroup label=\"Biology\">\n      <option value=\"genetics\">Genetics</option>\n      <option value=\"microbiology\">Microbiology</option>\n      <option value=\"ecology\">Ecology</option>\n    </optgroup>\n  </select>\n</gds-select>",
+            "code": "<gds-flex width=\"280px\">\n  <gds-select>\n    <gds-icon-books slot=\"lead\"></gds-icon-books>\n    <select>\n      <option value=\"\">Select a value</option>\n      <optgroup label=\"Physics\">\n        <option value=\"quantum-mechanics\">Quantum Mechanics</option>\n        <option value=\"relativity\">Relativity</option>\n      </optgroup>\n      <optgroup label=\"Chemistry\">\n        <option value=\"organic-chemistry\">Organic Chemistry</option>\n        <option value=\"inorganic-chemistry\">Inorganic Chemistry</option>\n      </optgroup>\n      <optgroup label=\"Biology\">\n        <option value=\"genetics\">Genetics</option>\n        <option value=\"microbiology\">Microbiology</option>\n        <option value=\"ecology\">Ecology</option>\n      </optgroup>\n    </select>\n  </gds-select>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-select/hero-select.json"
             }
