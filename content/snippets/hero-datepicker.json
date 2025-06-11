@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Datepicker",
+  "slug": "hero-datepicker",
+  "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers></gds-datepicker>\n</gds-flex>"
+}
