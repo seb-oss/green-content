@@ -109,6 +109,12 @@
       "code": "<form style=\"width: 450px\">\n  <gds-flex flex-direction=\"column\" gap=\"m\">\n    <input\n      id=\"designation\"\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Designation\"\n      data-errormessage=\"A designation is required\"\n      required=\"\"\n      hidden\n    />\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>"
     },
     {
+      "title": "Hero: Grid",
+      "slug": "hero-grid",
+      "path": "snippets/hero-grid/hero-grid.json",
+      "code": "<gds-grid columns=\"12\" gap=\"xs\" width=\"280px\">\n  <gds-card\n    variant=\"secondary\"\n    grid-column=\"1/13\"\n    border-radius=\"xs\"\n    height=\"2xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Nav</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    grid-column=\"1/5\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Sidebar</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    grid-column=\"5/13\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Content</gds-text>\n  </gds-card>\n</gds-grid>"
+    },
+    {
       "title": "Hero: Home",
       "slug": "hero-home",
       "path": "snippets/hero-home/hero-home.json",
@@ -151,6 +157,6 @@
       "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 25,
-  "lastUpdated": "2025-06-11T10:19:02.795Z"
+  "total": 26,
+  "lastUpdated": "2025-06-11T10:19:27.332Z"
 }
