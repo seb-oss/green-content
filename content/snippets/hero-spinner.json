@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Spinner",
+  "slug": "hero-spinner",
+  "code": "<gds-spinner size=\"sm\"></gds-spinner>"
+}
