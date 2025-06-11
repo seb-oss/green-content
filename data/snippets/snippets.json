@@ -25,6 +25,12 @@
       "code": "<gds-flex gap=\"s\" align-items=\"center\">\n  <gds-button size=\"small\">Primary</gds-button>\n  <gds-button rank=\"secondary\" size=\"small\" variant=\"positive\">\n    <gds-icon-credit-card slot=\"lead\"></gds-icon-credit-card>\n    Secondary\n  </gds-button>\n  <gds-button size=\"small\" label=\"Next step 2\" rank=\"secondary\">\n    <gds-icon-arrow-right> </gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>"
     },
     {
+      "title": "Hero: Calendar",
+      "slug": "hero-calendar",
+      "path": "snippets/hero-calendar/hero-calendar.json",
+      "code": "<gds-flex overflow=\"hidden\" height=\"220px\">\n  <gds-calendar></gds-calendar>\n</gds-flex>"
+    },
+    {
       "title": "Hero: Checkbox",
       "slug": "hero-checkbox",
       "path": "snippets/hero-checkbox/hero-checkbox.json",
@@ -79,6 +85,6 @@
       "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 13,
-  "lastUpdated": "2025-06-11T10:11:34.855Z"
+  "total": 14,
+  "lastUpdated": "2025-06-11T10:12:00.352Z"
 }
