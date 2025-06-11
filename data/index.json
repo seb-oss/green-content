@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:18:22.928Z",
+    "lastUpdated": "2025-06-11T10:19:02.794Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -592,6 +592,15 @@
             "code": "<gds-flex flex-direction=\"column\" gap=\"s\">\n  <gds-flex gap=\"s\" align-items=\"center\">\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\">\n      01\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\">\n      02\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"10px\" height=\"40px\">\n      03\n    </gds-card>\n  </gds-flex>\n  <gds-flex gap=\"s\" align-items=\"center\" justify-content=\"flex-end\">\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\">\n      04\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"10px\" height=\"40px\">\n      05\n    </gds-card>\n  </gds-flex>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-flex/hero-flex.json"
+            }
+          },
+          {
+            "title": "Hero: Form summary",
+            "slug": "hero-form-summary",
+            "path": "snippets/hero-form-summary/hero-form-summary.json",
+            "code": "<form style=\"width: 450px\">\n  <gds-flex flex-direction=\"column\" gap=\"m\">\n    <input\n      id=\"designation\"\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Designation\"\n      data-errormessage=\"A designation is required\"\n      required=\"\"\n      hidden\n    />\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>",
+            "endpoints": {
+              "content": "snippets/hero-form-summary/hero-form-summary.json"
             }
           },
           {

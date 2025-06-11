@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Form summary",
+  "slug": "hero-form-summary",
+  "code": "<form style=\"width: 450px\">\n  <gds-flex flex-direction=\"column\" gap=\"m\">\n    <input\n      id=\"designation\"\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Designation\"\n      data-errormessage=\"A designation is required\"\n      required=\"\"\n      hidden\n    />\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>"
+}
