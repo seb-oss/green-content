@@ -43,6 +43,12 @@
       "code": "<gds-checkbox-group>\n  <gds-checkbox label=\"Checkbox 1\" value=\"1\"></gds-checkbox>\n  <gds-checkbox label=\"Checkbox 2\" value=\"2\" checked></gds-checkbox>\n  <gds-checkbox label=\"Checkbox 3\" value=\"3\"></gds-checkbox>\n</gds-checkbox-group>"
     },
     {
+      "title": "Hero: Coachmark",
+      "slug": "hero-coachmark",
+      "path": "snippets/hero-coachmark/hero-coachmark.json",
+      "code": "<gds-text tag=\"p\" id=\"mark\">Coachmark</gds-text>\n<gds-coachmark .target=${['#mark']} placement=\"bottom\">\nCoachmark content.\n</gds-coachmark>"
+    },
+    {
       "title": "Hero: Dropdown",
       "slug": "hero-dropdown",
       "path": "snippets/hero-dropdown/hero-dropdown.json",
@@ -91,6 +97,6 @@
       "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 15,
-  "lastUpdated": "2025-06-11T10:13:23.361Z"
+  "total": 16,
+  "lastUpdated": "2025-06-11T10:14:08.296Z"
 }
