@@ -1,7 +1,9 @@
 {
   "title": "Flex",
   "slug": "flex",
+  "hero_snippet": "hero-flex",
   "beta": false,
+  "anatomy": true,
   "category": [
     "Layout"
   ],
