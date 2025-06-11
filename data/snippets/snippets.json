@@ -73,6 +73,12 @@
       "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
     },
     {
+      "title": "Hero: Dialog",
+      "slug": "hero-dialog",
+      "path": "snippets/hero-dialog/hero-dialog.json",
+      "code": "..."
+    },
+    {
       "title": "Hero: Div",
       "slug": "hero-div",
       "path": "snippets/hero-div/hero-div.json",
@@ -223,6 +229,6 @@
       "code": "<gds-flex width=\"280px\" overflow=\"hidden\" border-radius=\"s\">\n  <gds-video\n    width=\"100%\"\n    height=\"auto\"\n    aspect-ration=\"16/9\"\n    src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\"\n    playsinline\n    muted\n    autoplay\n    loop\n  ></gds-video>\n</gds-flex>"
     }
   ],
-  "total": 37,
-  "lastUpdated": "2025-06-11T10:27:33.115Z"
+  "total": 38,
+  "lastUpdated": "2025-06-11T10:29:22.828Z"
 }

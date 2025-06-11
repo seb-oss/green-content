@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:27:33.114Z",
+    "lastUpdated": "2025-06-11T10:29:22.827Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -547,6 +547,15 @@
             "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-details/hero-details.json"
+            }
+          },
+          {
+            "title": "Hero: Dialog",
+            "slug": "hero-dialog",
+            "path": "snippets/hero-dialog/hero-dialog.json",
+            "code": "...",
+            "endpoints": {
+              "content": "snippets/hero-dialog/hero-dialog.json"
             }
           },
           {

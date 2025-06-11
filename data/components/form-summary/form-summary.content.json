@@ -1,6 +1,7 @@
 {
   "title": "Form summary",
   "slug": "form-summary",
+  "hero_snippet": "hero-form-summary",
   "beta": true,
   "summary": "Form summary shows all form errors in one place.",
   "anatomy": true,

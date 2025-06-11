@@ -1,6 +1,7 @@
 {
   "title": "Divider",
   "slug": "divider",
+  "hero_snippet": "hero-divider",
   "beta": true,
   "summary": "Divider creates visual and semantic separation between content.",
   "anatomy": true,
