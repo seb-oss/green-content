@@ -97,6 +97,12 @@
       "code": "<gds-filter-chips\n  value=\"top-news\"\n  label=\"Pick news channel\"\n  row-collapse\n>\n  <gds-filter-chip value=\"all\">All</gds-filter-chip>\n  <gds-filter-chip value=\"top-news\">Top news</gds-filter-chip>\n  <gds-filter-chip value=\"division\">Division</gds-filter-chip>\n</gds-filter-chips>"
     },
     {
+      "title": "Hero: Flex",
+      "slug": "hero-flex",
+      "path": "snippets/hero-flex/hero-flex.json",
+      "code": "<gds-flex flex-direction=\"column\" gap=\"s\">\n  <gds-flex gap=\"s\" align-items=\"center\">\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\">\n      01\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\">\n      02\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"10px\" height=\"40px\">\n      03\n    </gds-card>\n  </gds-flex>\n  <gds-flex gap=\"s\" align-items=\"center\" justify-content=\"flex-end\">\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\">\n      04\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"10px\" height=\"40px\">\n      05\n    </gds-card>\n  </gds-flex>\n</gds-flex>"
+    },
+    {
       "title": "Hero: Home",
       "slug": "hero-home",
       "path": "snippets/hero-home/hero-home.json",
@@ -139,6 +145,6 @@
       "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 23,
-  "lastUpdated": "2025-06-11T10:17:49.608Z"
+  "total": 24,
+  "lastUpdated": "2025-06-11T10:18:22.928Z"
 }
