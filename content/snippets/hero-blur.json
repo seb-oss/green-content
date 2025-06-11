@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Blur",
+  "slug": "hero-blur",
+  "code": "<gds-blur>\n  <gds-text>Blurred content</gds-text>\n</gds-blur>"
+}
