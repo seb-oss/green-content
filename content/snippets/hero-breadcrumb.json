@@ -2,5 +2,5 @@
   "title": "Hero: Breadcrumb",
   "slug": "hero-breadcrumb",
   "snippet_component": "Breadcrumbs",
-  "code": "<gds-breadcrumbs>\n  <gds-link href=\"/\">Home</gds-link>\n  <gds-link href=\"/products\">Products</gds-link>\n  <gds-link href=\"/products/category\">Category</gds-link>\n  <gds-text>Current page</gds-text>\n</gds-breadcrumbs>"
+  "code": "<div>\n  <gds-breadcrumbs>\n    <gds-link href=\"/\">\n      <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n      Green\n    </gds-link>\n    <gds-link href=\"/folder\">\n      <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n      Folder\n    </gds-link>\n    <gds-text> Current </gds-text>\n  </gds-breadcrumbs>\n</div>"
 }
