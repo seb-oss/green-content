@@ -1,6 +1,7 @@
 {
   "title": "Context menu",
   "slug": "context-menu",
+  "hero_snippet": "hero-context-menu",
   "beta": false,
   "summary": "A context menu displays a list of contextual actions.",
   "anatomy": true,

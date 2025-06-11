@@ -1,6 +1,7 @@
 {
   "title": "Calendar",
   "slug": "calendar",
+  "hero_snippet": "hero-calendar",
   "beta": false,
   "summary": "The calendar displays a grid of selectable dates.",
   "anatomy": true,

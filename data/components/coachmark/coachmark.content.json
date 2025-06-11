@@ -1,6 +1,7 @@
 {
   "title": "Coachmark",
   "slug": "coachmark",
+  "hero_snippet": "hero-coachmark",
   "beta": true,
   "summary": "Coachmarks guide users through interface features.",
   "anatomy": true,
