@@ -160,7 +160,7 @@
       "title": "Hero: Radio",
       "slug": "hero-radio",
       "path": "snippets/hero-radio/hero-radio.json",
-      "code": "<gds-radio-group>\n  <gds-radio label=\"Radio Option 1\" supporting-text=\"Supporting text\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Radio Option 2\" supporting-text=\"Supporting text\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Radio Option 3\" supporting-text=\"Supporting text\" value=\"3\"></gds-radio>\n</gds-radio-group>"
+      "code": "<gds-radio-group>\n  <gds-radio label=\"Radio 1\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Radio 2\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Radio 3\" value=\"3\"></gds-radio>\n</gds-radio-group>"
     },
     {
       "title": "Hero: Segmented control",
@@ -182,5 +182,5 @@
     }
   ],
   "total": 30,
-  "lastUpdated": "2025-06-11T10:21:50.479Z"
+  "lastUpdated": "2025-06-11T10:22:11.166Z"
 }
