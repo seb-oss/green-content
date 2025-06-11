@@ -1,6 +1,7 @@
 {
   "title": "Details",
   "slug": "details",
+  "hero_snippet": "hero-details",
   "beta": false,
   "summary": "The details component is a collapsible section that helps organize and hide content until needed.",
   "anatomy": true,
