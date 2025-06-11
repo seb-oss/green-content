@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:22:11.165Z",
+    "lastUpdated": "2025-06-11T10:22:31.175Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -682,6 +682,15 @@
             "code": "<gds-radio-group>\n  <gds-radio label=\"Radio 1\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Radio 2\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Radio 3\" value=\"3\"></gds-radio>\n</gds-radio-group>",
             "endpoints": {
               "content": "snippets/hero-radio/hero-radio.json"
+            }
+          },
+          {
+            "title": "Hero: Rich text",
+            "slug": "hero-rich-text",
+            "path": "snippets/hero-rich-text/hero-rich-text.json",
+            "code": "<gds-rich-text>\n  <p>Rich <strong>text</strong> <u>with</u> <em>proper</em> style!</p>\n</gds-rich-text>",
+            "endpoints": {
+              "content": "snippets/hero-rich-text/hero-rich-text.json"
             }
           },
           {
