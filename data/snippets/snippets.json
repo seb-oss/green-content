@@ -139,6 +139,12 @@
       "code": "<gds-flex width=\"280px\">\n  <gds-input plain>\n    <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n  </gds-input>\n</gds-flex>"
     },
     {
+      "title": "Hero: Link",
+      "slug": "hero-link",
+      "path": "snippets/hero-link/hero-link.json",
+      "code": "<gds-link text-decoration=\"underline\">Link text</gds-link>"
+    },
+    {
       "title": "Hero: Radio",
       "slug": "hero-radio",
       "path": "snippets/hero-radio/hero-radio.json",
@@ -163,6 +169,6 @@
       "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 27,
-  "lastUpdated": "2025-06-11T10:20:24.966Z"
+  "total": 28,
+  "lastUpdated": "2025-06-11T10:20:42.772Z"
 }
