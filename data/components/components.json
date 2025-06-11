@@ -211,6 +211,7 @@
     {
       "title": "Theme",
       "slug": "theme",
+      "summary": "Theme summary",
       "path": "components/theme/theme.content.json"
     },
     {
@@ -220,5 +221,5 @@
     }
   ],
   "total": 37,
-  "lastUpdated": "2025-06-11T10:31:26.694Z"
+  "lastUpdated": "2025-06-11T10:31:50.928Z"
 }

@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:31:26.693Z",
+    "lastUpdated": "2025-06-11T10:31:50.928Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -366,6 +366,7 @@
           {
             "title": "Theme",
             "slug": "theme",
+            "summary": "Theme summary",
             "path": "components/theme/theme.content.json",
             "endpoints": {
               "content": "components/theme/theme.content.json",
