@@ -1,6 +1,7 @@
 {
   "title": "Card",
   "slug": "card",
+  "hero_snippet": "hero-card",
   "beta": true,
   "summary": "The card groups related content into a single container.",
   "anatomy": true,
