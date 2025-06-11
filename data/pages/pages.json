@@ -1,6 +1,11 @@
 {
   "pages": [
     {
+      "title": "About",
+      "slug": "about",
+      "path": "pages/about/about.json"
+    },
+    {
       "title": "Accessibility",
       "slug": "accessibility",
       "path": "pages/accessibility/accessibility.json"
@@ -16,6 +21,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 3,
-  "lastUpdated": "2025-06-11T10:34:17.756Z"
+  "total": 4,
+  "lastUpdated": "2025-06-11T19:34:39.769Z"
 }
