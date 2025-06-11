@@ -1,7 +1,11 @@
 {
   "title": "Theme",
   "slug": "theme",
+  "hero_snippet": "hero-theme",
   "beta": false,
+  "summary": "Theme summary",
+  "preamble": "Theme preamble",
+  "anatomy": true,
   "category": [
     "Layout"
   ],
