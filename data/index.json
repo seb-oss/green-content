@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:32:09.970Z",
+    "lastUpdated": "2025-06-11T10:34:17.756Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -556,7 +556,7 @@
             "title": "Hero: Dialog",
             "slug": "hero-dialog",
             "path": "snippets/hero-dialog/hero-dialog.json",
-            "code": "...",
+            "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Open Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
             "endpoints": {
               "content": "snippets/hero-dialog/hero-dialog.json"
             }
