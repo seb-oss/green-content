@@ -91,6 +91,12 @@
       "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    variant=\"positive\"\n    rank=\"secondary\"\n    size=\"small\"\n  >\n    Floating <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     },
     {
+      "title": "Hero: Filter chips",
+      "slug": "hero-filter-chips",
+      "path": "snippets/hero-filter-chips/hero-filter-chips.json",
+      "code": "<gds-filter-chips\n  value=\"top-news\"\n  label=\"Pick news channel\"\n  row-collapse\n>\n  <gds-filter-chip value=\"all\">All</gds-filter-chip>\n  <gds-filter-chip value=\"top-news\">Top news</gds-filter-chip>\n  <gds-filter-chip value=\"division\">Division</gds-filter-chip>\n</gds-filter-chips>"
+    },
+    {
       "title": "Hero: Home",
       "slug": "hero-home",
       "path": "snippets/hero-home/hero-home.json",
@@ -133,6 +139,6 @@
       "code": "<gds-textarea label=\"Label\" supporting-text=\"Supporting text.\"></gds-textarea>"
     }
   ],
-  "total": 22,
-  "lastUpdated": "2025-06-11T10:17:20.895Z"
+  "total": 23,
+  "lastUpdated": "2025-06-11T10:17:49.608Z"
 }

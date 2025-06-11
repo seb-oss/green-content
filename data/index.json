@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:17:20.894Z",
+    "lastUpdated": "2025-06-11T10:17:49.608Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -574,6 +574,15 @@
             "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    variant=\"positive\"\n    rank=\"secondary\"\n    size=\"small\"\n  >\n    Floating <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-fab/hero-fab.json"
+            }
+          },
+          {
+            "title": "Hero: Filter chips",
+            "slug": "hero-filter-chips",
+            "path": "snippets/hero-filter-chips/hero-filter-chips.json",
+            "code": "<gds-filter-chips\n  value=\"top-news\"\n  label=\"Pick news channel\"\n  row-collapse\n>\n  <gds-filter-chip value=\"all\">All</gds-filter-chip>\n  <gds-filter-chip value=\"top-news\">Top news</gds-filter-chip>\n  <gds-filter-chip value=\"division\">Division</gds-filter-chip>\n</gds-filter-chips>",
+            "endpoints": {
+              "content": "snippets/hero-filter-chips/hero-filter-chips.json"
             }
           },
           {
