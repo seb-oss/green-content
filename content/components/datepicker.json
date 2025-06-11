@@ -1,6 +1,7 @@
 {
   "title": "Datepicker",
   "slug": "datepicker",
+  "hero_snippet": "hero-datepicker",
   "beta": false,
   "summary": "⁠The datepicker allows users to select a date.",
   "preamble": "Datepickers are used to enter a date. The user can enter the date as numbers using three predefined spinner inputs (year, month, day), or select the date from a calendar popover.\n\nDatepickers helps users avoid formatting errors and makes date entry accessible to assistive technologies.",
