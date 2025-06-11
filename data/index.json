@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:25:35.852Z",
+    "lastUpdated": "2025-06-11T10:26:04.911Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -441,6 +441,15 @@
       "snippets": {
         "list": "snippets/snippets.json",
         "items": [
+          {
+            "title": "Hero: Alert",
+            "slug": "hero-alert",
+            "path": "snippets/hero-alert/hero-alert.json",
+            "code": "Alert",
+            "endpoints": {
+              "content": "snippets/hero-alert/hero-alert.json"
+            }
+          },
           {
             "title": "Hero: Badge",
             "slug": "hero-badge",

@@ -1,6 +1,12 @@
 {
   "snippets": [
     {
+      "title": "Hero: Alert",
+      "slug": "hero-alert",
+      "path": "snippets/hero-alert/hero-alert.json",
+      "code": "Alert"
+    },
+    {
       "title": "Hero: Badge",
       "slug": "hero-badge",
       "path": "snippets/hero-badge/hero-badge.json",
@@ -217,6 +223,6 @@
       "code": "<gds-flex width=\"280px\" overflow=\"hidden\" border-radius=\"s\">\n  <gds-video\n    width=\"100%\"\n    height=\"auto\"\n    aspect-ration=\"16/9\"\n    src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\"\n    playsinline\n    muted\n    autoplay\n    loop\n  ></gds-video>\n</gds-flex>"
     }
   ],
-  "total": 36,
-  "lastUpdated": "2025-06-11T10:25:35.854Z"
+  "total": 37,
+  "lastUpdated": "2025-06-11T10:26:04.912Z"
 }

@@ -1,6 +1,7 @@
 {
   "title": "Alert",
   "slug": "alert",
+  "hero_snippet": "hero-alert",
   "beta": false,
   "summary": "An alert displays important messages, feedback, or time-sensitive information.",
   "preamble": "Alert preamble",
