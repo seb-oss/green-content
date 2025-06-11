@@ -1,8 +1,11 @@
 {
   "title": "Video",
   "slug": "video",
+  "hero_snippet": "hero-video",
   "beta": true,
-  "anatomy": true,
+  "summary": "Video summary",
+  "preamble": "Video premable",
+  "anatomy": false,
   "tags": [
     "media"
   ],
