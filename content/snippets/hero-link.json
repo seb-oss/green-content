@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Link",
+  "slug": "hero-link",
+  "code": "<gds-link text-decoration=\"underline\">Link text</gds-link>"
+}
