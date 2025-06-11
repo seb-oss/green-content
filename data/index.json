@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:24:44.220Z",
+    "lastUpdated": "2025-06-11T10:25:05.837Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -745,6 +745,15 @@
             "code": "<gds-flex width=\"280px\">\n  <gds-textarea\n    label=\"Label\"\n    supporting-text=\"Label support text\"\n    resizable=\"false\"\n  >\n  </gds-textarea>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-textarea/hero-textarea.json"
+            }
+          },
+          {
+            "title": "Hero: Theme",
+            "slug": "hero-theme",
+            "path": "snippets/hero-theme/hero-theme.json",
+            "code": "<gds-flex gap=\"m\">\n  <gds-theme color-scheme=\"light\" design-version=\"2023\">\n    <gds-card variant=\"secondary\" align=\"center\">\n      <gds-icon-sun size=\"xl\"></gds-icon-sun>\n    </gds-card>\n  </gds-theme>\n  <gds-theme color-scheme=\"dark\" design-version=\"2023\">\n    <gds-card variant=\"primary\" align=\"center\">\n      <gds-icon-moon size=\"xl\"></gds-icon-moon>\n    </gds-card>\n  </gds-theme>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/hero-theme/hero-theme.json"
             }
           }
         ]
