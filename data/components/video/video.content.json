@@ -4,7 +4,7 @@
   "hero_snippet": "hero-video",
   "beta": true,
   "summary": "Video summary",
-  "preamble": "Video premable",
+  "preamble": "This variant of the video is intended to be used as background video for decorative purposes for example on a hero or card, to not be confused for a video player!",
   "anatomy": false,
   "tags": [
     "media"
