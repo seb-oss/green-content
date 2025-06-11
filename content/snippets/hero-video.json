@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Video",
+  "slug": "hero-video",
+  "code": "<gds-flex width=\"280px\" overflow=\"hidden\" border-radius=\"s\">\n  <gds-video\n    width=\"100%\"\n    height=\"auto\"\n    aspect-ration=\"16/9\"\n    src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\"\n    playsinline\n    muted\n    autoplay\n    loop\n  ></gds-video>\n</gds-flex>"
+}
