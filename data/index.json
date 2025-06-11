@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:10:49.628Z",
+    "lastUpdated": "2025-06-11T10:11:12.422Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -463,7 +463,7 @@
             "title": "Hero: Breadcrumb",
             "slug": "hero-breadcrumb",
             "path": "snippets/hero-breadcrumb/hero-breadcrumb.json",
-            "code": "<gds-breadcrumbs>\n  <gds-link href=\"/\">Home</gds-link>\n  <gds-link href=\"/products\">Products</gds-link>\n  <gds-link href=\"/products/category\">Category</gds-link>\n  <gds-text>Current page</gds-text>\n</gds-breadcrumbs>",
+            "code": "<div>\n  <gds-breadcrumbs>\n    <gds-link href=\"/\">\n      <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n      Green\n    </gds-link>\n    <gds-link href=\"/folder\">\n      <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n      Folder\n    </gds-link>\n    <gds-text> Current </gds-text>\n  </gds-breadcrumbs>\n</div>",
             "endpoints": {
               "content": "snippets/hero-breadcrumb/hero-breadcrumb.json"
             }
