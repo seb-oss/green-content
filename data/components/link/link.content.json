@@ -1,6 +1,7 @@
 {
   "title": "Link",
   "slug": "link",
+  "hero_snippet": "hero-link",
   "beta": false,
   "summary": "A link navigates users to other pages or sections of content.",
   "anatomy": true,
