@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:12:35.385Z",
+    "lastUpdated": "2025-06-11T10:13:00.908Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -499,7 +499,7 @@
             "title": "Hero: Checkbox",
             "slug": "hero-checkbox",
             "path": "snippets/hero-checkbox/hero-checkbox.json",
-            "code": "<gds-checkbox-group>\n<gds-checkbox label=\"Checkbox Option 1\" supporting-text=\"Supporting text\" value=\"1\"></gds-checkbox>\n<gds-checkbox label=\"Checkbox Option 2\" supporting-text=\"Supporting text\" value=\"2\" checked=\"\"></gds-checkbox>\n<gds-checkbox label=\"Checkbox Option 3\" supporting-text=\"Supporting text\" value=\"3\"></gds-checkbox></gds-checkbox-group>",
+            "code": "<gds-checkbox-group>\n  <gds-checkbox label=\"Option 1\" value=\"1\"></gds-checkbox>\n  <gds-checkbox label=\"Option 2\" value=\"2\" checked></gds-checkbox>\n  <gds-checkbox label=\"Option 3\" value=\"3\"></gds-checkbox>\n</gds-checkbox-group>",
             "endpoints": {
               "content": "snippets/hero-checkbox/hero-checkbox.json"
             }
