@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-11T10:12:00.351Z",
+    "lastUpdated": "2025-06-11T10:12:35.385Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -484,6 +484,15 @@
             "code": "<gds-flex overflow=\"hidden\" height=\"220px\">\n  <gds-calendar></gds-calendar>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-calendar/hero-calendar.json"
+            }
+          },
+          {
+            "title": "Hero: Card",
+            "slug": "hero-card",
+            "path": "snippets/hero-card/hero-card.json",
+            "code": "<gds-flex gap=\"s\" align-items=\"center\">\n  <gds-card\n    variant=\"primary\"\n    border-color=\"primary\"\n    width=\"140px\"\n    height=\"140px\"\n  >\n    Primary\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"secondary\"\n    width=\"140px\"\n    height=\"140px\"\n  >\n    Secondary\n  </gds-card>\n  <gds-card\n    variant=\"tertiary\"\n    border-color=\"tertiary\"\n    width=\"140px\"\n    height=\"140px\"\n  >\n    Tertiary\n  </gds-card>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/hero-card/hero-card.json"
             }
           },
           {
