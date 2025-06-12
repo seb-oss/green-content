@@ -4,7 +4,9 @@
   "hero_snippet": "hero-details",
   "beta": false,
   "summary": "The details component is a collapsible section that helps organize and hide content until needed.",
+  "preamble": "Details consists of a label which is always visible, and an hidden section that can be expanded or collapsed by interacting with the label section. The collapsed content is hidden both visually and semantically in the accessibility tree, i.e from screen readers. Multiple Details components can be used together to create an accordion.\n\nAccordions or single Details component are commonly used to manage dense information in interfaces like FAQs, settings panels, or forms, saving space, reducing cognitive overload, and improving scannability while maintaining a clean, organized layout.\n\nDetails is largely modeled on, and provides similar semantics, as the native `<details>` HTML element.",
   "anatomy": true,
+  "anatomy-overview": "Details consists of a label section with an icon to illustrate current state. This section always remains visible.. Below it is the content section which can be expanded or collapsed.",
   "tags": [
     "editorial",
     "faq"
@@ -13,5 +15,35 @@
     "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Fetaures",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Details provide similar semantics and functionality as the native `<details>` html element, including the ability to connect several Details together to form an accordion."
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Use Details when presenting large amounts of secondary or optional information that users don’t need to see all at once, for example when users benefit from controlling which content to view, such as in troubleshooting guides or FAQs."
+        },
+        {
+          "type": "rich-text",
+          "title": "Do's and Don's",
+          "tag": "H3",
+          "content": "#### Do\n\n*   Use concise, meaningful titles or questions in headers to indicate the content within, so users know what to expect before expanding.\n    \n\n#### Don't\n\n*   Avoid placing essential content (e.g., required form fields or primary instructions) in collapsed sections, as users might overlook it.\n    \n*   Refrain from using Details for short or simple content that doesn’t warrant collapsing, as it adds unnecessary interaction steps.\n    \n*   Avoid nesting Details in multiple levels."
+        }
+      ]
+    }
+  ]
 }
