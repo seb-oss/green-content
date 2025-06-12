@@ -6,9 +6,9 @@
       "title": "asd",
       "columns": [
         {
-          "type": "img-asset",
-          "caption": "asd",
-          "pth": "/assets/img.jpg"
+          "type": "image",
+          "caption": "Caption",
+          "src": "/assets/img.jpg"
         }
       ]
     }
