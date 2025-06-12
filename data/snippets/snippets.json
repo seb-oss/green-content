@@ -1,20 +1,234 @@
 {
   "snippets": [
     {
-      "title": "Second example",
-      "slug": "button-two",
-      "path": "snippets/button-two/button-two.json",
-      "code": "Hello content for the snippet",
-      "ogImage": "snippets/button-two/button-two.og.png"
+      "title": "Hero: Alert",
+      "slug": "hero-alert",
+      "path": "snippets/hero-alert/hero-alert.json",
+      "code": "Alert"
     },
     {
-      "title": "Button One",
-      "slug": "button-one",
-      "path": "snippets/button/button.json",
-      "code": "<gds-flex>\nThis and that \n</gds-flex>",
-      "ogImage": "snippets/button-one/button-one.og.png"
+      "title": "Hero: Badge",
+      "slug": "hero-badge",
+      "path": "snippets/hero-badge/hero-badge.json",
+      "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-badge variant=\"negative\" notification>999+</gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge size=\"small\" variant=\"warning\"> 602 </gds-badge>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Blur",
+      "slug": "hero-blur",
+      "path": "snippets/hero-blur/hero-blur.json",
+      "code": "<gds-blur>\n  <gds-text>Blurred content</gds-text>\n</gds-blur>"
+    },
+    {
+      "title": "Hero: Breadcrumb",
+      "slug": "hero-breadcrumb",
+      "path": "snippets/hero-breadcrumb/hero-breadcrumb.json",
+      "code": "<div>\n  <gds-breadcrumbs>\n    <gds-link href=\"/\">\n      <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n      Green\n    </gds-link>\n    <gds-link href=\"/folder\">\n      <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n      Folder\n    </gds-link>\n    <gds-text> Current </gds-text>\n  </gds-breadcrumbs>\n</div>"
+    },
+    {
+      "title": "Hero: Button",
+      "slug": "hero-button",
+      "path": "snippets/hero-button/hero-button.json",
+      "code": "<gds-flex gap=\"s\" align-items=\"center\">\n  <gds-button size=\"small\">Primary</gds-button>\n  <gds-button rank=\"secondary\" size=\"small\" variant=\"positive\">\n    <gds-icon-credit-card slot=\"lead\"></gds-icon-credit-card>\n    Secondary\n  </gds-button>\n  <gds-button size=\"small\" label=\"Next step 2\" rank=\"secondary\">\n    <gds-icon-arrow-right> </gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Calendar",
+      "slug": "hero-calendar",
+      "path": "snippets/hero-calendar/hero-calendar.json",
+      "code": "<gds-flex overflow=\"hidden\" height=\"220px\">\n  <gds-calendar></gds-calendar>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Card",
+      "slug": "hero-card",
+      "path": "snippets/hero-card/hero-card.json",
+      "code": "<gds-flex gap=\"s\" align-items=\"center\">\n  <gds-card\n    variant=\"primary\"\n    border-color=\"primary\"\n    width=\"140px\"\n    height=\"140px\"\n  >\n    Primary\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"secondary\"\n    width=\"140px\"\n    height=\"140px\"\n  >\n    Secondary\n  </gds-card>\n  <gds-card\n    variant=\"tertiary\"\n    border-color=\"tertiary\"\n    width=\"140px\"\n    height=\"140px\"\n  >\n    Tertiary\n  </gds-card>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Checkbox",
+      "slug": "hero-checkbox",
+      "path": "snippets/hero-checkbox/hero-checkbox.json",
+      "code": "<gds-checkbox-group>\n  <gds-checkbox label=\"Checkbox 1\" value=\"1\"></gds-checkbox>\n  <gds-checkbox label=\"Checkbox 2\" value=\"2\" checked></gds-checkbox>\n  <gds-checkbox label=\"Checkbox 3\" value=\"3\"></gds-checkbox>\n</gds-checkbox-group>"
+    },
+    {
+      "title": "Hero: Coachmark",
+      "slug": "hero-coachmark",
+      "path": "snippets/hero-coachmark/hero-coachmark.json",
+      "code": "<gds-text tag=\"p\" id=\"mark\">Coachmark</gds-text>\n<gds-coachmark .target=${['#mark']} placement=\"bottom\">\nCoachmark content.\n</gds-coachmark>"
+    },
+    {
+      "title": "Hero: Context menu",
+      "slug": "hero-context-menu",
+      "path": "snippets/hero-context-menu/hero-context-menu.json",
+      "code": " <gds-context-menu>\n    <gds-flex slot=\"trigger\" gap=\"s\" align-items=\"center\">\n      <gds-icon-text-edit></gds-icon-text-edit>\n      Edit\n    </gds-flex>\n    <gds-menu-item>\n      <gds-flex gap=\"s\" align-items=\"center\">\n        <gds-icon-ai></gds-icon-ai>\n        Help me write\n      </gds-flex>\n    </gds-menu-item>\n    <gds-menu-item>\n      <gds-flex gap=\"s\" align-items=\"center\">\n        <gds-icon-brush></gds-icon-brush>\n        Fix grammar\n      </gds-flex>\n    </gds-menu-item>\n  </gds-context-menu>"
+    },
+    {
+      "title": "Hero: Datepicker",
+      "slug": "hero-datepicker",
+      "path": "snippets/hero-datepicker/hero-datepicker.json",
+      "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers></gds-datepicker>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Details",
+      "slug": "hero-details",
+      "path": "snippets/hero-details/hero-details.json",
+      "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Dialog",
+      "slug": "hero-dialog",
+      "path": "snippets/hero-dialog/hero-dialog.json",
+      "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Open Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
+    },
+    {
+      "title": "Hero: Div",
+      "slug": "hero-div",
+      "path": "snippets/hero-div/hero-div.json",
+      "code": "<gds-flex align-items=\"center\" gap=\"s\">\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"primary\"\n  border-color=\"primary\"\n  border-width=\"xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl; l{ 6xl }\"\n  height=\"4xl; l{ 6xl }\"\n  background=\"secondary\"\n  border=\"4xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"tertiary\"\n  border-radius=\"s\"\n></gds-div>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Divider",
+      "slug": "hero-divider",
+      "path": "snippets/hero-divider/hero-divider.json",
+      "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>"
+    },
+    {
+      "title": "Hero: Dropdown",
+      "slug": "hero-dropdown",
+      "path": "snippets/hero-dropdown/hero-dropdown.json",
+      "code": "<gds-flex width=\"280px\">\n  <gds-dropdown label=\"Select tech\" hide-label>\n    <gds-option value=\"\">Select tech</gds-option>\n    <gds-option value=\"warp\">Warp Drive</gds-option>\n    <gds-option value=\"cybernetics\">Cybernetics</gds-option>\n    <gds-option value=\"nanotechnology\">Nanotechnology</gds-option>\n    <gds-option value=\"cloning\">Cloning</gds-option>\n    <gds-option value=\"cryonics\">Cryonics</gds-option>\n    <gds-option value=\"teleportation\">Teleportation</gds-option>\n  </gds-dropdown>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: FAB",
+      "slug": "hero-fab",
+      "path": "snippets/hero-fab/hero-fab.json",
+      "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    variant=\"positive\"\n    rank=\"secondary\"\n    size=\"small\"\n  >\n    Floating <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Filter chips",
+      "slug": "hero-filter-chips",
+      "path": "snippets/hero-filter-chips/hero-filter-chips.json",
+      "code": "<gds-filter-chips\n  value=\"top-news\"\n  label=\"Pick news channel\"\n  row-collapse\n>\n  <gds-filter-chip value=\"all\">All</gds-filter-chip>\n  <gds-filter-chip value=\"top-news\">Top news</gds-filter-chip>\n  <gds-filter-chip value=\"division\">Division</gds-filter-chip>\n</gds-filter-chips>"
+    },
+    {
+      "title": "Hero: Flex",
+      "slug": "hero-flex",
+      "path": "snippets/hero-flex/hero-flex.json",
+      "code": "<gds-flex flex-direction=\"column\" gap=\"s\">\n  <gds-flex gap=\"s\" align-items=\"center\">\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\">\n      01\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\">\n      02\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"10px\" height=\"40px\">\n      03\n    </gds-card>\n  </gds-flex>\n  <gds-flex gap=\"s\" align-items=\"center\" justify-content=\"flex-end\">\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\">\n      04\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"10px\" height=\"40px\">\n      05\n    </gds-card>\n  </gds-flex>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Form summary",
+      "slug": "hero-form-summary",
+      "path": "snippets/hero-form-summary/hero-form-summary.json",
+      "code": "<form style=\"width: 450px\">\n  <gds-flex flex-direction=\"column\" gap=\"m\">\n    <input\n      id=\"designation\"\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Designation\"\n      data-errormessage=\"A designation is required\"\n      required=\"\"\n      hidden\n    />\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>"
+    },
+    {
+      "title": "Hero: Grid",
+      "slug": "hero-grid",
+      "path": "snippets/hero-grid/hero-grid.json",
+      "code": "<gds-grid columns=\"12\" gap=\"xs\" width=\"280px\">\n  <gds-card\n    variant=\"secondary\"\n    grid-column=\"1/13\"\n    border-radius=\"xs\"\n    height=\"2xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Nav</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    grid-column=\"1/5\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Sidebar</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    grid-column=\"5/13\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Content</gds-text>\n  </gds-card>\n</gds-grid>"
+    },
+    {
+      "title": "Hero: Home",
+      "slug": "hero-home",
+      "path": "snippets/hero-home/hero-home.json",
+      "code": "<gds-flex align-items=\"center\" justify-content=\"center\">\n<gds-badge variant=\"negative\" notification=\"\">10+</gds-badge>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Icon",
+      "slug": "hero-icon",
+      "path": "snippets/hero-icon/hero-icon.json",
+      "code": "<gds-flex alig-items=\"center\" gap=\"m\">\n  <gds-icon-ai size=\"xl\"></gds-icon-ai>\n  <gds-icon-bank size=\"xl\"></gds-icon-bank>\n  <gds-icon-rocket size=\"xl\"></gds-icon-rocket>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Image",
+      "slug": "hero-image",
+      "path": "snippets/hero-image/hero-image.json",
+      "code": "<gds-img\n  aspect-ration=\"16/9\"\n  src=\"https://api.seb.io/components/image/img.jpg\"\n  border-radius=\"s\"\n  width=\"280px\"\n></gds-img>"
+    },
+    {
+      "title": "Hero: Input",
+      "slug": "hero-input",
+      "path": "snippets/hero-input/hero-input.json",
+      "code": "<gds-flex width=\"280px\">\n  <gds-input plain>\n    <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n  </gds-input>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Link",
+      "slug": "hero-link",
+      "path": "snippets/hero-link/hero-link.json",
+      "code": "<gds-link text-decoration=\"underline\">Link text</gds-link>"
+    },
+    {
+      "title": "Hero: Menu button",
+      "slug": "hero-menu-button",
+      "path": "snippets/hero-menu-button/hero-menu-button.json",
+      "code": "<gds-card\n  height=\"40px\"\n  width=\"max-content\"\n  flex-direction=\"row\"\n  variant=\"primary\"\n  padding=\"0\"\n  border=\"none\"\n  gap=\"0\"\n>\n  <gds-menu-button selected>\n    <gds-icon-bell slot=\"trail\"></gds-icon-bell>\n    Notification\n  </gds-menu-button>\n  <gds-popover>\n    <gds-menu-button slot=\"trigger\">\n      <gds-icon-people slot=\"trail\"></gds-icon-people>\n      Profile\n    </gds-menu-button>\n    <gds-flex padding=\"m\">Profile stuff</gds-flex>\n  </gds-popover>\n  <gds-menu-button\n    href=\"https://github.com/seb-oss/green\"\n    target=\"_blank\"\n  >\n    <gds-icon-square-arrow-top-right\n      slot=\"trail\"\n    ></gds-icon-square-arrow-top-right>\n    External link\n  </gds-menu-button>\n</gds-card>"
+    },
+    {
+      "title": "Hero: Popover",
+      "slug": "hero-popover",
+      "path": "snippets/hero-popover/hero-popover.json",
+      "code": "<gds-popover>\n  <gds-button rank=\"secondary\" slot=\"trigger\">\n    Show popover\n    <gds-icon-chevron-bottom slot=\"trail\"></gds-icon-chevron-bottom>\n  </gds-button>\n  <gds-flex\n    flex-direction=\"column\"\n    gap=\"s\"\n    padding=\"m\"\n    align-items=\"flex-start\"\n    width=\"280px\"\n  >\n    <gds-text tag=\"h3\">Custom popover!</gds-text>\n    <gds-text tag=\"p\"> Popover content </gds-text>\n    <gds-button rank=\"primary\">Action</gds-button>\n  </gds-flex>\n</gds-popover>"
+    },
+    {
+      "title": "Hero: Radio",
+      "slug": "hero-radio",
+      "path": "snippets/hero-radio/hero-radio.json",
+      "code": "<gds-radio-group>\n  <gds-radio label=\"Radio 1\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Radio 2\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Radio 3\" value=\"3\"></gds-radio>\n</gds-radio-group>"
+    },
+    {
+      "title": "Hero: Rich text",
+      "slug": "hero-rich-text",
+      "path": "snippets/hero-rich-text/hero-rich-text.json",
+      "code": "<gds-rich-text>\n  <p>Rich <strong>text</strong> <u>with</u> <em>proper</em> style!</p>\n</gds-rich-text>"
+    },
+    {
+      "title": "Hero: Segmented control",
+      "slug": "hero-segmented-control",
+      "path": "snippets/hero-segmented-control/hero-segmented-control.json",
+      "code": "<gds-flex width=\"280px\">\n  <gds-segmented-control value=\"1\" size=\"small\">\n    <gds-segment value=\"1\">Item 1</gds-segment>\n    <gds-segment value=\"2\">Item 2</gds-segment>\n    <gds-segment value=\"3\">Item 3</gds-segment>\n  </gds-segmented-control>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Select",
+      "slug": "hero-select",
+      "path": "snippets/hero-select/hero-select.json",
+      "code": "<gds-flex width=\"280px\">\n  <gds-select>\n    <gds-icon-books slot=\"lead\"></gds-icon-books>\n    <select>\n      <option value=\"\">Select a value</option>\n      <optgroup label=\"Physics\">\n        <option value=\"quantum-mechanics\">Quantum Mechanics</option>\n        <option value=\"relativity\">Relativity</option>\n      </optgroup>\n      <optgroup label=\"Chemistry\">\n        <option value=\"organic-chemistry\">Organic Chemistry</option>\n        <option value=\"inorganic-chemistry\">Inorganic Chemistry</option>\n      </optgroup>\n      <optgroup label=\"Biology\">\n        <option value=\"genetics\">Genetics</option>\n        <option value=\"microbiology\">Microbiology</option>\n        <option value=\"ecology\">Ecology</option>\n      </optgroup>\n    </select>\n  </gds-select>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Signal",
+      "slug": "hero-signal",
+      "path": "snippets/hero-signal/hero-signal.json",
+      "code": "<gds-signal></gds-signal>"
+    },
+    {
+      "title": "Hero: Spinner",
+      "slug": "hero-spinner",
+      "path": "snippets/hero-spinner/hero-spinner.json",
+      "code": "<gds-spinner size=\"sm\"></gds-spinner>"
+    },
+    {
+      "title": "Hero: Text",
+      "slug": "hero-text",
+      "path": "snippets/hero-text/hero-text.json",
+      "code": "<gds-flex width=\"280px\" flex-direction=\"column\" gap=\"s\">\n  <gds-flex gap=\"m\">\n    <gds-text> Text </gds-text>\n    <gds-text text-decoration=\"underline\"> is </gds-text>\n    <gds-text text-decoration=\"currentcolor wavy underline\">\n      Awesome!\n    </gds-text>\n  </gds-flex>\n  <gds-flex>\n    <gds-text font-size=\"body-s\" lines=\"2\" color=\"secondary\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\n      eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem\n      ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\n      tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum\n      dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor\n      incididunt ut labore et dolore magna aliqua.\n    </gds-text>\n  </gds-flex>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Textarea",
+      "slug": "hero-textarea",
+      "path": "snippets/hero-textarea/hero-textarea.json",
+      "code": "<gds-flex width=\"280px\">\n  <gds-textarea\n    label=\"Label\"\n    supporting-text=\"Label support text\"\n    resizable=\"false\"\n  >\n  </gds-textarea>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Theme",
+      "slug": "hero-theme",
+      "path": "snippets/hero-theme/hero-theme.json",
+      "code": "<gds-flex gap=\"m\">\n  <gds-theme color-scheme=\"light\" design-version=\"2023\">\n    <gds-card variant=\"secondary\" align=\"center\">\n      <gds-icon-sun size=\"xl\"></gds-icon-sun>\n    </gds-card>\n  </gds-theme>\n  <gds-theme color-scheme=\"dark\" design-version=\"2023\">\n    <gds-card variant=\"primary\" align=\"center\">\n      <gds-icon-moon size=\"xl\"></gds-icon-moon>\n    </gds-card>\n  </gds-theme>\n</gds-flex>"
+    },
+    {
+      "title": "Hero: Video",
+      "slug": "hero-video",
+      "path": "snippets/hero-video/hero-video.json",
+      "code": "<gds-flex width=\"280px\" overflow=\"hidden\" border-radius=\"s\">\n  <gds-video\n    width=\"100%\"\n    height=\"auto\"\n    aspect-ration=\"16/9\"\n    src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\"\n    playsinline\n    muted\n    autoplay\n    loop\n  ></gds-video>\n</gds-flex>"
     }
   ],
-  "total": 2,
-  "lastUpdated": "2025-05-15T09:15:48.962Z"
+  "total": 38,
+  "lastUpdated": "2025-06-11T22:37:08.563Z"
 }

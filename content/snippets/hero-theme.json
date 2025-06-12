@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Theme",
+  "slug": "hero-theme",
+  "code": "<gds-flex gap=\"m\">\n  <gds-theme color-scheme=\"light\" design-version=\"2023\">\n    <gds-card variant=\"secondary\" align=\"center\">\n      <gds-icon-sun size=\"xl\"></gds-icon-sun>\n    </gds-card>\n  </gds-theme>\n  <gds-theme color-scheme=\"dark\" design-version=\"2023\">\n    <gds-card variant=\"primary\" align=\"center\">\n      <gds-icon-moon size=\"xl\"></gds-icon-moon>\n    </gds-card>\n  </gds-theme>\n</gds-flex>"
+}

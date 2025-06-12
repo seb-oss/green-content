@@ -1,0 +1,5 @@
+{
+  "title": "Hero: FAB",
+  "slug": "hero-fab",
+  "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    variant=\"positive\"\n    rank=\"secondary\"\n    size=\"small\"\n  >\n    Floating <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
+}

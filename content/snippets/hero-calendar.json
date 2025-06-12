@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Calendar",
+  "slug": "hero-calendar",
+  "code": "<gds-flex overflow=\"hidden\" height=\"220px\">\n  <gds-calendar></gds-calendar>\n</gds-flex>"
+}

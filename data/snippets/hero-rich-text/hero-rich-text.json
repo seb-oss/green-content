@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Rich text",
+  "slug": "hero-rich-text",
+  "code": "<gds-rich-text>\n  <p>Rich <strong>text</strong> <u>with</u> <em>proper</em> style!</p>\n</gds-rich-text>"
+}

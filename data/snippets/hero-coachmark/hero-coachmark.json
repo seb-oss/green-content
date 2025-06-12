@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Coachmark",
+  "slug": "hero-coachmark",
+  "code": "<gds-text tag=\"p\" id=\"mark\">Coachmark</gds-text>\n<gds-coachmark .target=${['#mark']} placement=\"bottom\">\nCoachmark content.\n</gds-coachmark>"
+}

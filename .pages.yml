@@ -34,6 +34,8 @@ content:
         label: Anatomy
         type: boolean
         default: true
+      - { name: anatomy-overview, label: 'Antomy: Overview', type: rich-text }
+      - { name: anatomy-details, label: 'Antomy: Details', type: rich-text }
       - name: tags
         label: Tags
         type: select
@@ -499,3 +501,21 @@ content:
     fields:
       - { name: title, label: Title, type: string }
       - { name: summary, label: Summary, type: rich-text }
+      - name: hero
+        label: Hero Snippet
+        type: reference
+        options:
+          collection: snippets
+          multiple: false
+          search: "{title}"
+          value: "{slug}"
+          label: "{title}"
+      - name: featured
+        label: Featured components
+        type: reference
+        options:
+          collection: components
+          multiple: true
+          search: "title,slug"
+          value: "{slug}"
+          label: "{title}"

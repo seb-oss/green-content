@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Text",
+  "slug": "hero-text",
+  "code": "<gds-flex width=\"280px\" flex-direction=\"column\" gap=\"s\">\n  <gds-flex gap=\"m\">\n    <gds-text> Text </gds-text>\n    <gds-text text-decoration=\"underline\"> is </gds-text>\n    <gds-text text-decoration=\"currentcolor wavy underline\">\n      Awesome!\n    </gds-text>\n  </gds-flex>\n  <gds-flex>\n    <gds-text font-size=\"body-s\" lines=\"2\" color=\"secondary\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\n      eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem\n      ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\n      tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum\n      dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor\n      incididunt ut labore et dolore magna aliqua.\n    </gds-text>\n  </gds-flex>\n</gds-flex>"
+}

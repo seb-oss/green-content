@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Filter chips",
+  "slug": "hero-filter-chips",
+  "code": "<gds-filter-chips\n  value=\"top-news\"\n  label=\"Pick news channel\"\n  row-collapse\n>\n  <gds-filter-chip value=\"all\">All</gds-filter-chip>\n  <gds-filter-chip value=\"top-news\">Top news</gds-filter-chip>\n  <gds-filter-chip value=\"division\">Division</gds-filter-chip>\n</gds-filter-chips>"
+}

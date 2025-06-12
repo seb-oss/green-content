@@ -1,0 +1,5 @@
+{
+  "title": "Hero: Dialog",
+  "slug": "hero-dialog",
+  "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Open Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
+}
