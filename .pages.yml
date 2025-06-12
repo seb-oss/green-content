@@ -375,8 +375,8 @@ content:
             list: true
             blockKey: type
             blocks:
-              - name: image
-                label: Figma Image
+              - name: figma
+                label: Figma Node
                 fields:
                   - name: caption
                     label: Caption
@@ -421,7 +421,7 @@ content:
                       search: "title"
                       value: "{slug}"
                       label: "{title}"
-              - name: img-asset
+              - name: image
                 label: Image
                 fields:
                   - name: caption
@@ -436,8 +436,8 @@ content:
                   - name: ratio
                     label: Ratio
                     type: string
-                  - name: pth
-                    label: Image Gallery
+                  - name: src
+                    label: Image
                     type: image
 
   - name: navigation
