@@ -436,7 +436,7 @@ content:
                   - name: ratio
                     label: Ratio
                     type: string
-                  - name: image-path
+                  - name: pth
                     label: Image Gallery
                     type: image
 
