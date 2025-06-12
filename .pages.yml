@@ -1,7 +1,7 @@
 media:
   input: data/assets
   output: /assets
-  path: https://stg.seb.io/assets/
+  path: stg.seb.io/assets
   categories: ["image"]
 content:
   - name: components
