@@ -151,13 +151,13 @@ content:
             list: true
             blockKey: type
             blocks:
-              - name: image
-                label: Image
+              - name: figma
+                label: Figma Node
                 fields:
                   - name: caption
                     label: Caption
                     type: string
-                  - name: img
+                  - name: node
                     label: IMG ID
                     type: string
               - name: rich-text
@@ -197,6 +197,24 @@ content:
                       search: "title"
                       value: "{slug}"
                       label: "{title}"
+              - name: image
+                label: Image
+                fields:
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: width
+                    label: Width
+                    type: string
+                  - name: height
+                    label: Height
+                    type: string
+                  - name: ratio
+                    label: Ratio
+                    type: string
+                  - name: src
+                    label: Image
+                    type: image
 
       - name: ux-text
         type: object
@@ -222,13 +240,13 @@ content:
             list: true
             blockKey: type
             blocks:
-              - name: image
-                label: Image
+              - name: figma
+                label: Figma Node
                 fields:
                   - name: caption
                     label: Caption
                     type: string
-                  - name: img
+                  - name: node
                     label: IMG ID
                     type: string
               - name: rich-text
@@ -268,6 +286,24 @@ content:
                       search: "title"
                       value: "{slug}"
                       label: "{title}"
+              - name: image
+                label: Image
+                fields:
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: width
+                    label: Width
+                    type: string
+                  - name: height
+                    label: Height
+                    type: string
+                  - name: ratio
+                    label: Ratio
+                    type: string
+                  - name: src
+                    label: Image
+                    type: image
       - name: accessibility
         type: object
         label: Accessibility
@@ -292,13 +328,13 @@ content:
             list: true
             blockKey: type
             blocks:
-              - name: image
-                label: Image
+              - name: figma
+                label: Figma Node
                 fields:
                   - name: caption
                     label: Caption
                     type: string
-                  - name: img
+                  - name: node
                     label: IMG ID
                     type: string
               - name: rich-text
@@ -338,6 +374,24 @@ content:
                       search: "title"
                       value: "{slug}"
                       label: "{title}"
+              - name: image
+                label: Image
+                fields:
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: width
+                    label: Width
+                    type: string
+                  - name: height
+                    label: Height
+                    type: string
+                  - name: ratio
+                    label: Ratio
+                    type: string
+                  - name: src
+                    label: Image
+                    type: image
 
   - name: pages
     label: Pages
