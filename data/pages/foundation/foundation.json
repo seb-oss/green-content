@@ -1,4 +1,16 @@
 {
   "title": "Foundation",
-  "slug": "foundation"
+  "slug": "foundation",
+  "sections": [
+    {
+      "title": "asd",
+      "columns": [
+        {
+          "type": "img-asset",
+          "caption": "asd",
+          "pth": "/assets/img.jpg"
+        }
+      ]
+    }
+  ]
 }
