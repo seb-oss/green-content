@@ -11,6 +11,11 @@
           "width": "240",
           "ratio": "16/9",
           "src": "/assets/img.jpg"
+        },
+        {
+          "type": "figma",
+          "caption": "caption",
+          "img": "node-id"
         }
       ]
     }
