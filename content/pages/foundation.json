@@ -8,6 +8,8 @@
         {
           "type": "image",
           "caption": "Caption",
+          "width": "240",
+          "ratio": "16/9",
           "src": "/assets/img.jpg"
         }
       ]
