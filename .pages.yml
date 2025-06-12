@@ -381,7 +381,7 @@ content:
                   - name: caption
                     label: Caption
                     type: string
-                  - name: img
+                  - name: node
                     label: IMG ID
                     type: string
               - name: rich-text
