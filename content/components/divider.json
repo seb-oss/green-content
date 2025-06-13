@@ -4,7 +4,9 @@
   "hero_snippet": "hero-divider",
   "beta": true,
   "summary": "Divider creates visual and semantic separation between content.",
+  "preamble": "Dividers helps organize information by creating clear boundaries between sections, groups, or items, improving scannability and reducing visual clutter. They are commonly used in layouts like forms, lists, menus, or dashboards. By providing subtle visual cues, dividers enhance content hierarchy and guide users through the interface while maintaining a clean and cohesive design.\n\nBy default, Divider has the same semantic meaning as the `<hr>` html element, which represents a thematic break.for example, a shift of topic within a section.",
   "anatomy": true,
+  "anatomy-overview": "Divider displays a horizontal line with a configurable space above and below.",
   "tags": [
     "editorial"
   ],
@@ -12,8 +14,52 @@
     "Components"
   ],
   "platform": {
-    "web": false,
+    "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Features",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Semantics",
+          "tag": "H3",
+          "content": "Divider support the `role` attribute, which can be used to change the semantic meaning, for example if you need to use it as only a visual horizontal line, you can set the role to `presentation`"
+        },
+        {
+          "type": "rich-text",
+          "title": "Spacing",
+          "tag": "H3",
+          "content": "Spacing around the divider can be controlled using the `size` attribute."
+        },
+        {
+          "type": "rich-text",
+          "title": "Colors",
+          "tag": "H3",
+          "content": "The color of the divider line can be set to a color token."
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Use dividers to support visual hierarchy when headings or spacing alone aren’t sufficient, such as between groups of menu items, or to achieve cleaner interfaces where heavy containers (e.g., cards) would feel too visually intrusive."
+        },
+        {
+          "type": "rich-text",
+          "title": "Do's and don'ts",
+          "tag": "H3",
+          "content": "#### Do\n\n*   Consider the semantics in context. As a rule of thumb, if you think that a screen reader should announce the divider, then default semantics are OK, otherwise it should be marked as presentational.\n    \n\n#### Don't\n\n*   **Overuse Dividers**: Avoid placing dividers between every element, as this creates visual clutter and fragments the interface."
+        }
+      ]
+    }
+  ]
 }
