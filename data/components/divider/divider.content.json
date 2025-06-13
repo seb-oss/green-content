@@ -26,9 +26,9 @@
       "columns": [
         {
           "type": "rich-text",
-          "title": "Semantics",
+          "title": "Colors",
           "tag": "H3",
-          "content": "Divider support the `role` attribute, which can be used to change the semantic meaning, for example if you need to use it as only a visual horizontal line, you can set the role to `presentation`"
+          "content": "The color of the divider line can be set to a color token."
         },
         {
           "type": "rich-text",
@@ -38,9 +38,9 @@
         },
         {
           "type": "rich-text",
-          "title": "Colors",
+          "title": "Semantics",
           "tag": "H3",
-          "content": "The color of the divider line can be set to a color token."
+          "content": "Divider support the `role` attribute, which can be used to change the semantic meaning, for example if you need to use it as only a visual horizontal line, you can set the role to `presentation`"
         }
       ]
     },
