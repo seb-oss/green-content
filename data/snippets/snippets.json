@@ -34,7 +34,7 @@
       "title": "Hero: Calendar",
       "slug": "hero-calendar",
       "path": "snippets/hero-calendar/hero-calendar.json",
-      "code": "<gds-flex overflow=\"hidden\" height=\"220px\">\n  <gds-calendar></gds-calendar>\n</gds-flex>"
+      "code": "<gds-flex overflow=\"hidden\" height=\"210px\">\n  <gds-calendar></gds-calendar>\n</gds-flex>"
     },
     {
       "title": "Hero: Card",
@@ -230,5 +230,5 @@
     }
   ],
   "total": 38,
-  "lastUpdated": "2025-06-17T06:44:42.275Z"
+  "lastUpdated": "2025-06-17T06:50:41.915Z"
 }
