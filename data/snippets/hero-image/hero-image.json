@@ -1,5 +1,5 @@
 {
   "title": "Hero: Image",
   "slug": "hero-image",
-  "code": "<gds-img width=\"100%\" height=\"auto\" aspect-ration=\"16/9\" src=\"https://api.seb.io/components/image/img.jpg\"></gds-img>"
+  "code": "<gds-img width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://api.seb.io/components/image/img.jpg\"></gds-img>"
 }
