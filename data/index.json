@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-17T11:35:18.225Z",
+    "lastUpdated": "2025-06-17T11:36:16.453Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -690,7 +690,7 @@
             "title": "Hero: Menu button",
             "slug": "hero-menu-button",
             "path": "snippets/hero-menu-button/hero-menu-button.json",
-            "code": "<gds-card \n  width=\"max-content\"\n  flex-direction=\"row\"\n  variant=\"secondary\"\n  padding=\"0\"\n  border=\"none\"\n  gap=\"0\"\n  height=\"max-content\"\n  overflow=\"hidden\"\n>\n  <gds-menu-button compact selected>\n    <gds-icon-bell slot=\"trail\"></gds-icon-bell>\n    Notification\n  </gds-menu-button>\n  <gds-popover>\n    <gds-menu-button compact slot=\"trigger\">\n      <gds-icon-people slot=\"trail\"></gds-icon-people>\n      Profile\n    </gds-menu-button>\n    <gds-flex padding=\"m\">Profile stuff</gds-flex>\n  </gds-popover>\n  <gds-menu-button\n    href=\"https://github.com/seb-oss/green\"\n    compact\n    target=\"_blank\"\n  >\n    <gds-icon-square-arrow-top-right\n      slot=\"trail\"\n    ></gds-icon-square-arrow-top-right>\n    External\n  </gds-menu-button>\n</gds-card>",
+            "code": "<gds-card \n  width=\"max-content\"\n  flex-direction=\"row\"\n  variant=\"secondary\"\n  border-color=\"primary\"\n  padding=\"0\"\n  border=\"none\"\n  gap=\"0\"\n  height=\"max-content\"\n  overflow=\"hidden\"\n>\n  <gds-menu-button compact selected>\n    <gds-icon-bell slot=\"trail\"></gds-icon-bell>\n    Notification\n  </gds-menu-button>\n  <gds-popover>\n    <gds-menu-button compact slot=\"trigger\">\n      <gds-icon-people slot=\"trail\"></gds-icon-people>\n      Profile\n    </gds-menu-button>\n    <gds-flex padding=\"m\">Profile stuff</gds-flex>\n  </gds-popover>\n  <gds-menu-button\n    href=\"https://github.com/seb-oss/green\"\n    compact\n    target=\"_blank\"\n  >\n    <gds-icon-square-arrow-top-right\n      slot=\"trail\"\n    ></gds-icon-square-arrow-top-right>\n    External\n  </gds-menu-button>\n</gds-card>",
             "endpoints": {
               "content": "snippets/hero-menu-button/hero-menu-button.json"
             }
