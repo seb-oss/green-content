@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-17T11:36:16.453Z",
+    "lastUpdated": "2025-06-17T12:22:56.431Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -510,7 +510,7 @@
             "title": "Hero: Card",
             "slug": "hero-card",
             "path": "snippets/hero-card/hero-card.json",
-            "code": "<gds-flex gap=\"s\" align-items=\"center\">\n  <gds-card\n    variant=\"primary\"\n    border-color=\"primary\"\n    width=\"120px\"\n    height=\"100px\"\n  >\n    Primary\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"secondary\"\n    width=\"120px\"\n    height=\"100px\"\n  >\n    Secondary\n  </gds-card>\n  <gds-card\n    variant=\"tertiary\"\n    border-color=\"tertiary\"\n    width=\"120px\"\n    height=\"100px\"\n  >\n    Tertiary\n  </gds-card>\n</gds-flex>",
+            "code": "<gds-flex gap=\"s\" align-items=\"center\">\n  <gds-flex flex-direction=\"column\" gap=\"xs\">\n    <gds-card\n      variant=\"primary\"\n      border-color=\"primary\"\n      width=\"100px\"\n      height=\"80px\"\n    >\n    </gds-card>\n    <gds-text font-size=\"detail-xs\">Primary</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" gap=\"xs\">\n    <gds-card\n      variant=\"secondary\"\n      border-color=\"secondary\"\n      width=\"100px\"\n      height=\"80px\"\n    >\n    </gds-card>\n    <gds-text font-size=\"detail-xs\">Secondary</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" gap=\"xs\">\n    <gds-card\n      variant=\"tertiary\"\n      border-color=\"tertiary\"\n      width=\"100px\"\n      height=\"80px\"\n    >\n    </gds-card>\n    <gds-text font-size=\"detail-xs\">Tertiary</gds-text>\n  </gds-flex>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-card/hero-card.json"
             }
