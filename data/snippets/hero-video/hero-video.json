@@ -1,5 +1,5 @@
 {
   "title": "Hero: Video",
   "slug": "hero-video",
-  "code": "<gds-video width=\"100%\" height=\"auto\" aspect-ration=\"16/9\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>"
+  "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>"
 }
