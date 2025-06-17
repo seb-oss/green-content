@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-17T11:35:00.809Z",
+    "lastUpdated": "2025-06-17T11:35:18.225Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -636,7 +636,7 @@
             "title": "Hero: Grid",
             "slug": "hero-grid",
             "path": "snippets/hero-grid/hero-grid.json",
-            "code": "<gds-grid columns=\"12\" gap=\"xs\" width=\"280px\">\n  <gds-card\n    variant=\"secondary\"\n    grid-column=\"1/13\"\n    border-radius=\"xs\"\n    height=\"2xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Nav</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    grid-column=\"1/5\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Sidebar</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    grid-column=\"5/13\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Content</gds-text>\n  </gds-card>\n</gds-grid>",
+            "code": "<gds-grid columns=\"12\" gap=\"xs\" width=\"280px\">\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"1/13\"\n    border-radius=\"xs\"\n    height=\"2xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Nav</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"1/5\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Sidebar</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"5/13\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Content</gds-text>\n  </gds-card>\n</gds-grid>",
             "endpoints": {
               "content": "snippets/hero-grid/hero-grid.json"
             }
