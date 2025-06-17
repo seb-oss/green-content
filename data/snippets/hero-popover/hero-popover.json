@@ -1,5 +1,5 @@
 {
   "title": "Hero: Popover",
   "slug": "hero-popover",
-  "code": "<gds-popover>\n  <gds-button rank=\"secondary\" slot=\"trigger\">\n    Show popover\n    <gds-icon-chevron-bottom slot=\"trail\"></gds-icon-chevron-bottom>\n  </gds-button>\n  <gds-flex\n    flex-direction=\"column\"\n    gap=\"s\"\n    padding=\"m\"\n    align-items=\"flex-start\"\n    width=\"280px\"\n  >\n    <gds-text tag=\"h3\">Custom popover!</gds-text>\n    <gds-text tag=\"p\"> Popover content </gds-text>\n    <gds-button rank=\"primary\">Action</gds-button>\n  </gds-flex>\n</gds-popover>"
+  "code": "<gds-popover>\n  <gds-button rank=\"secondary\" slot=\"trigger\" size=\"small\">\n    Show popover\n    <gds-icon-chevron-bottom slot=\"trail\"></gds-icon-chevron-bottom>\n  </gds-button>\n  <gds-flex\n    flex-direction=\"column\"\n    gap=\"s\"\n    padding=\"m\"\n    align-items=\"flex-start\"\n    width=\"280px\"\n  >\n    <gds-text tag=\"h3\">Custom popover!</gds-text>\n    <gds-text tag=\"p\"> Popover content </gds-text>\n    <gds-button rank=\"primary\">Action</gds-button>\n  </gds-flex>\n</gds-popover>"
 }
