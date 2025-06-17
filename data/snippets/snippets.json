@@ -142,7 +142,7 @@
       "title": "Hero: Image",
       "slug": "hero-image",
       "path": "snippets/hero-image/hero-image.json",
-      "code": "<gds-img\n  aspect-ration=\"16/9\"\n  src=\"https://api.seb.io/components/image/img.jpg\"\n  border-radius=\"s\"\n  width=\"280px\"\n></gds-img>"
+      "code": "<gds-flex width=\"280px\" overflow=\"hidden\" border-radius=\"s\">\n  <gds-img\n    width=\"100%\"\n    height=\"auto\"\n    aspect-ration=\"16/9\"\n    src=\"https://api.seb.io/components/image/img.jpg\"\n  ></gds-video>\n</gds-flex>"
     },
     {
       "title": "Hero: Input",
@@ -230,5 +230,5 @@
     }
   ],
   "total": 38,
-  "lastUpdated": "2025-06-17T07:50:42.628Z"
+  "lastUpdated": "2025-06-17T08:17:21.458Z"
 }

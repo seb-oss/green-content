@@ -1,5 +1,5 @@
 {
   "title": "Hero: Image",
   "slug": "hero-image",
-  "code": "<gds-img\n  aspect-ration=\"16/9\"\n  src=\"https://api.seb.io/components/image/img.jpg\"\n  border-radius=\"s\"\n  width=\"280px\"\n></gds-img>"
+  "code": "<gds-flex width=\"280px\" overflow=\"hidden\" border-radius=\"s\">\n  <gds-img\n    width=\"100%\"\n    height=\"auto\"\n    aspect-ration=\"16/9\"\n    src=\"https://api.seb.io/components/image/img.jpg\"\n  ></gds-video>\n</gds-flex>"
 }
