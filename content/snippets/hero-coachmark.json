@@ -1,5 +1,5 @@
 {
   "title": "Hero: Coachmark",
   "slug": "hero-coachmark",
-  "code": "<gds-text tag=\"p\" id=\"mark\">Coachmark</gds-text>\n<gds-coachmark placement=\"bottom\">\nCoachmark content.\n</gds-coachmark>"
+  "code": "<gds-flex>\n<gds-text tag=\"p\" >Coachmark</gds-text>\n<gds-coachmark placement=\"bottom\">\nCoachmark content.\n</gds-coachmark>\n</gds-flex>"
 }
