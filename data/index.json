@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-17T08:52:56.998Z",
+    "lastUpdated": "2025-06-17T08:54:13.284Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -789,7 +789,7 @@
             "title": "Hero: Video",
             "slug": "hero-video",
             "path": "snippets/hero-video/hero-video.json",
-            "code": "<gds-flex width=\"280px\" overflow=\"hidden\" border-radius=\"s\">\n  <gds-video\n    width=\"100%\"\n    height=\"auto\"\n    aspect-ration=\"16/9\"\n    src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\"\n    playsinline\n    muted\n    autoplay\n    loop\n  ></gds-video>\n</gds-flex>",
+            "code": "<gds-video width=\"100%\" height=\"auto\" aspect-ration=\"16/9\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>",
             "endpoints": {
               "content": "snippets/hero-video/hero-video.json"
             }
