@@ -27,28 +27,33 @@
       "columns": [
         {
           "type": "image",
-          "caption": "Default button",
-          "img": "default-button"
+          "caption": "Default button"
         },
         {
           "type": "image",
-          "caption": "Icon button",
-          "img": "icon-button"
+          "caption": "Icon button"
         },
         {
           "type": "image",
-          "caption": "Floating action button",
-          "img": "fab-button"
+          "caption": "Floating action button"
         },
         {
           "type": "image",
-          "caption": "Split button",
-          "img": "split-button"
+          "caption": "Split button"
         },
         {
           "type": "image",
-          "caption": "Next and back button",
-          "img": "next-back-button"
+          "caption": "Next and back button"
+        }
+      ]
+    }
+  ],
+  "ux-text": [
+    {
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "UX text test"
         }
       ]
     }
