@@ -52,7 +52,7 @@
       "title": "Hero: Coachmark",
       "slug": "hero-coachmark",
       "path": "snippets/hero-coachmark/hero-coachmark.json",
-      "code": "<gds-text tag=\"p\" id=\"mark\">Coachmark</gds-text>\n<gds-coachmark placement=\"bottom\">\nCoachmark content.\n</gds-coachmark>"
+      "code": "<gds-flex>\n<gds-text tag=\"p\" >Coachmark</gds-text>\n<gds-coachmark placement=\"bottom\">\nCoachmark content.\n</gds-coachmark>\n</gds-flex>"
     },
     {
       "title": "Hero: Context menu",
@@ -230,5 +230,5 @@
     }
   ],
   "total": 38,
-  "lastUpdated": "2025-06-17T11:19:14.220Z"
+  "lastUpdated": "2025-06-17T11:34:02.401Z"
 }
