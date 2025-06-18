@@ -4,7 +4,9 @@
   "hero_snippet": "hero-form-summary",
   "beta": true,
   "summary": "Form summary shows all form errors in one place.",
+  "preamble": "When a user attempts to submit a form with errors, this component displays a summary of those errors. Including a form summary assists users in promptly identifying and addressing multiple errors in a consolidated manner. It provides a clear indication of what went wrong and what needs to be corrected.",
   "anatomy": true,
+  "anatomy-overview": "The form summary consists of a card with a heading outlining the number of errors currently in the form, followed by a list of the errors. Each error has an icon button with an arrow pointing in the direction of the associated control. Clicking one of the errors moves focus to the associated form control.",
   "tags": [
     "form"
   ],
@@ -15,5 +17,47 @@
     "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Features",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Form summary works automatically when placed in a form with form controls from Green Core. It has two update modes, `default` and `reactive`. In the default mode, a `refresh()` method needs to be called for the component to update and reflect the current state of the form. In the `reactive` mode, it will update on the fly as soon as the status of a control in the form changes. The `reactive` mode requires less setup to use, but the `default` mode allows for more control over the behavior."
+        },
+        {
+          "type": "rich-text",
+          "title": "Accessibility",
+          "tag": "H3",
+          "content": "Semantically, the form summary is represented as a navigation region containing an unordered list of links."
+        },
+        {
+          "type": "rich-text",
+          "title": "Compatibility",
+          "tag": "H3",
+          "content": "Form summary is mainly intended for use with form controls from Green Core, but it also works with generic native form controls by using data-attributes."
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "For long forms which are dynamically submitted (meaning the page does not reload), place the form summary at the bottom of the form, close to the submit button, so that it appears in view for the user without scrolling.\n\nFor long forms which are server-side driven (page reloads when submitting), place the form summary at the top so that it will be the first thing the user sees when the page reloads.\n\nShort forms, where all controls are easily in view without scrolling, form summary is generally not necessary, since all the errors are already in view."
+        },
+        {
+          "type": "rich-text",
+          "title": "Do's and Don'ts",
+          "tag": "H3",
+          "content": "#### Do\n\n*   Use clear labels and error messages for all form controls. The same labels and errors vill be shown in the form summary.\n    \n\n#### Don't\n\n*   Use the form summary component for small forms with only a few controls."
+        }
+      ]
+    }
+  ]
 }
