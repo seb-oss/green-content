@@ -190,7 +190,7 @@
       "title": "Hero: Select",
       "slug": "hero-select",
       "path": "snippets/hero-select/hero-select.json",
-      "code": "<gds-select plain size=\"small\" width=\"280px\">\n  <gds-icon-books slot=\"lead\"></gds-icon-books>\n  <select>\n    <option value=\"\">Select a value</option>\n    <optgroup label=\"Physics\">\n      <option value=\"quantum-mechanics\">Quantum Mechanics</option>\n      <option value=\"relativity\">Relativity</option>\n    </optgroup>\n    <optgroup label=\"Chemistry\">\n      <option value=\"organic-chemistry\">Organic Chemistry</option>\n      <option value=\"inorganic-chemistry\">Inorganic Chemistry</option>\n    </optgroup>\n    <optgroup label=\"Biology\">\n      <option value=\"genetics\">Genetics</option>\n      <option value=\"microbiology\">Microbiology</option>\n      <option value=\"ecology\">Ecology</option>\n    </optgroup>\n  </select>\n</gds-select>"
+      "code": "<gds-select plain width=\"280px\">\n  <gds-icon-books slot=\"lead\"></gds-icon-books>\n  <select>\n    <option value=\"\">Select a value</option>\n    <optgroup label=\"Physics\">\n      <option value=\"quantum-mechanics\">Quantum Mechanics</option>\n      <option value=\"relativity\">Relativity</option>\n    </optgroup>\n    <optgroup label=\"Chemistry\">\n      <option value=\"organic-chemistry\">Organic Chemistry</option>\n      <option value=\"inorganic-chemistry\">Inorganic Chemistry</option>\n    </optgroup>\n    <optgroup label=\"Biology\">\n      <option value=\"genetics\">Genetics</option>\n      <option value=\"microbiology\">Microbiology</option>\n      <option value=\"ecology\">Ecology</option>\n    </optgroup>\n  </select>\n</gds-select>"
     },
     {
       "title": "Hero: Signal",
@@ -230,5 +230,5 @@
     }
   ],
   "total": 38,
-  "lastUpdated": "2025-06-18T13:33:51.834Z"
+  "lastUpdated": "2025-06-18T13:42:24.891Z"
 }
