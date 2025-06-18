@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-18T14:33:20.503Z",
+    "lastUpdated": "2025-06-18T14:43:36.022Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -457,7 +457,7 @@
             "title": "Hero: Alert",
             "slug": "hero-alert",
             "path": "snippets/hero-alert/hero-alert.json",
-            "code": "<gds-alert dismissible label=\"Positive\" variant=\"positive\">\n  Feedback message\n</gds-alert>",
+            "code": "<gds-flex width=\"280px\">\n<gds-alert dismissible label=\"Positive\" variant=\"positive\" buttonLabel=\"Action\">\n  Feedback message\n</gds-alert>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-alert/hero-alert.json"
             }

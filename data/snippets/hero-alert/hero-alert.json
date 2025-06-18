@@ -1,5 +1,5 @@
 {
   "title": "Hero: Alert",
   "slug": "hero-alert",
-  "code": "<gds-alert dismissible label=\"Positive\" variant=\"positive\">\n  Feedback message\n</gds-alert>"
+  "code": "<gds-flex width=\"280px\">\n<gds-alert dismissible label=\"Positive\" variant=\"positive\" buttonLabel=\"Action\">\n  Feedback message\n</gds-alert>\n</gds-flex>"
 }

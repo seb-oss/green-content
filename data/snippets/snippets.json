@@ -4,7 +4,7 @@
       "title": "Hero: Alert",
       "slug": "hero-alert",
       "path": "snippets/hero-alert/hero-alert.json",
-      "code": "<gds-alert dismissible label=\"Positive\" variant=\"positive\">\n  Feedback message\n</gds-alert>"
+      "code": "<gds-flex width=\"280px\">\n<gds-alert dismissible label=\"Positive\" variant=\"positive\" buttonLabel=\"Action\">\n  Feedback message\n</gds-alert>\n</gds-flex>"
     },
     {
       "title": "Hero: Badge",
@@ -230,5 +230,5 @@
     }
   ],
   "total": 38,
-  "lastUpdated": "2025-06-18T14:33:20.504Z"
+  "lastUpdated": "2025-06-18T14:43:36.023Z"
 }
