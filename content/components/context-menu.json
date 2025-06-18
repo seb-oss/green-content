@@ -6,6 +6,7 @@
   "summary": "A context menu displays a list of contextual actions.",
   "anatomy": true,
   "anatomy-overview": "The Context menu consists of an icon button with three dots (but the content can be changed to anything) and a popover with a menu of actions which is presented when the button is activated.",
+  "anatomy-details": "1.  Action menu items\n    \n2.  Popover card",
   "tags": [
     "navigation"
   ],
