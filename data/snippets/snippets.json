@@ -4,7 +4,7 @@
       "title": "Hero: Alert",
       "slug": "hero-alert",
       "path": "snippets/hero-alert/hero-alert.json",
-      "code": "Alert"
+      "code": "<gds-alert dismissible label=\"Positive\" variant=\"positive\">\n  Feedback message\n</gds-alert>"
     },
     {
       "title": "Hero: Badge",
@@ -230,5 +230,5 @@
     }
   ],
   "total": 38,
-  "lastUpdated": "2025-06-18T14:15:42.059Z"
+  "lastUpdated": "2025-06-18T14:33:20.504Z"
 }
