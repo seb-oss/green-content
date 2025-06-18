@@ -3,6 +3,7 @@
   "slug": "foundation",
   "sections": [
     {
+      "cols": "1",
       "columns": [
         {
           "type": "paragraph",
