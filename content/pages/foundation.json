@@ -15,6 +15,7 @@
     {
       "title": "Tonality",
       "tag": "H2",
+      "cols": "1",
       "columns": [
         {
           "type": "paragraph",
@@ -30,6 +31,7 @@
     {
       "title": "Visual style",
       "tag": "H2",
+      "cols": "1",
       "columns": [
         {
           "type": "paragraph",
@@ -44,6 +46,7 @@
     },
     {
       "title": "Features",
+      "cols": "1",
       "columns": [
         {
           "type": "paragraph",
