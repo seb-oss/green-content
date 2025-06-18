@@ -508,6 +508,9 @@ content:
                   - name: small
                     label: Small
                     type: boolean
+                  - name: content
+                    label: Rich Text
+                    type: rich-text
 
   - name: navigation
     label: Navigation
