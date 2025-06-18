@@ -505,9 +505,6 @@ content:
                   - name: open
                     label: Open
                     type: boolean
-                  - name: small
-                    label: Small
-                    type: boolean
                   - name: content
                     label: Rich Text
                     type: rich-text
