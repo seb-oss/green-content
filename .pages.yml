@@ -492,7 +492,22 @@ content:
                     type: string
                   - name: src
                     label: Image
-                    type: image
+                    type: image  
+              - name: details
+                label: Details
+                fields:
+                  - name: name
+                    label: Name
+                    type: string
+                  - name: summary
+                    label: Summary
+                    type: string
+                  - name: open
+                    label: Open
+                    type: boolean
+                  - name: small
+                    label: Small
+                    type: boolean
 
   - name: navigation
     label: Navigation
