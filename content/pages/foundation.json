@@ -4,17 +4,6 @@
   "summary": "Green Design System, a framework designed to bring unity, efficiency, and coherent perspective to our digital experiences. Over time it will grow and evolve but always reflect our design philosophy. User needs first, being forefront and with confidence.",
   "sections": [
     {
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "size": "heading-m",
-          "text": "Green Design System, a framework designed to bring unity, efficiency, and coherent perspective to our digital experiences. Over time it will grow and evolve but always reflect our design philosophy. User needs first, being forefront and with confidence."
-        }
-      ]
-    },
-    {
       "title": "Tonality",
       "tag": "H2",
       "cols": "1",
