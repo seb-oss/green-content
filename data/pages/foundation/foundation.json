@@ -3,19 +3,52 @@
   "slug": "foundation",
   "sections": [
     {
-      "title": "asd",
       "columns": [
         {
-          "type": "image",
-          "caption": "Caption",
-          "width": "240",
-          "ratio": "16/9",
-          "src": "/assets/img.jpg"
+          "type": "paragraph",
+          "tag": "p",
+          "size": "heading-m",
+          "text": "Green Design System, a framework designed to bring unity, efficiency, and coherent perspective to our digital experiences. Over time it will grow and evolve but always reflect our design philosophy. User needs first, being forefront and with confidence."
+        }
+      ]
+    },
+    {
+      "title": "Tonality",
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Our tonality is a voice that speaks to the user, we do not scream, but when needed we raise our voice to be heard. The balance in volume allows us to point the user in the right direction, wave to get noticed or whisper when needed."
         },
         {
-          "type": "figma",
-          "caption": "caption",
-          "img": "node-id"
+          "type": "image",
+          "src": "/assets/tonality-circles.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Visual style",
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "This design language is a direct descendant and part of the global brand identity. It caters to designers and developers with design assets and code. Together we can focus on the user and the experience we want to build, and swiftly make changes as needed."
+        },
+        {
+          "type": "image",
+          "src": "/assets/metallic-surface.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Features",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "The Green Design System ensures a unified visual experience. Empowering designers and developers with versatile, accessible and coherent components."
         }
       ]
     }
