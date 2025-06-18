@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-18T09:13:41.329Z",
+    "lastUpdated": "2025-06-18T10:22:50.695Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -434,6 +434,7 @@
           {
             "title": "Foundation",
             "slug": "foundation",
+            "summary": "Green Design System, a framework designed to bring unity, efficiency, and coherent perspective to our digital experiences. Over time it will grow and evolve but always reflect our design philosophy. User needs first, being forefront and with confidence.",
             "path": "pages/foundation/foundation.json",
             "endpoints": {
               "content": "pages/foundation/foundation.json"
