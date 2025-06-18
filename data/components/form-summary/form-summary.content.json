@@ -28,7 +28,12 @@
         {
           "type": "rich-text",
           "content": "Form summary works automatically when placed in a form with form controls from Green Core. It has two update modes, `default` and `reactive`. In the default mode, a `refresh()` method needs to be called for the component to update and reflect the current state of the form. In the `reactive` mode, it will update on the fly as soon as the status of a control in the form changes. The `reactive` mode requires less setup to use, but the `default` mode allows for more control over the behavior."
-        },
+        }
+      ]
+    },
+    {
+      "cols": "2",
+      "columns": [
         {
           "type": "rich-text",
           "title": "Accessibility",
