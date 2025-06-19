@@ -32,6 +32,7 @@
     {
       "title": "Maintaining and educating",
       "tag": "H2",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
@@ -72,6 +73,7 @@
     {
       "title": "Built on contributions",
       "tag": "H2",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
@@ -81,6 +83,7 @@
     },
     {
       "title": "Contact us",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
