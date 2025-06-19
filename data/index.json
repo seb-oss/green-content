@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-19T12:56:09.538Z",
+    "lastUpdated": "2025-06-19T12:57:15.308Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -455,6 +455,15 @@
       "snippets": {
         "list": "snippets/snippets.json",
         "items": [
+          {
+            "title": "Alert: Variants",
+            "slug": "alert-variants",
+            "path": "snippets/alert-variants/alert-variants.json",
+            "code": "<gds-flex flex-direction=\"column\" gap=\"m\">\n      <gds-alert variant=\"information\" role=\"alert\">\n        <strong>Information</strong> Body text starts on the same row as\n        heading. A link (optional) always ends the message.\n      </gds-alert>\n      <gds-alert variant=\"notice\" role=\"alert\">\n        <strong>Notice</strong> Body text with link or additional context.\n      </gds-alert>\n      <gds-alert variant=\"positive\" role=\"alert\">\n        <strong>Positive</strong> Feedback message with optional CTA.\n      </gds-alert>\n      <gds-alert variant=\"warning\" role=\"alert\">\n        <strong>Warning</strong> Important information to consider.\n      </gds-alert>\n      <gds-alert variant=\"negative\" role=\"alert\">\n        <strong>Negative</strong> Error message requiring user attention.\n      </gds-alert>\n    </gds-flex>",
+            "endpoints": {
+              "content": "snippets/alert-variants/alert-variants.json"
+            }
+          },
           {
             "title": "Hero: Alert",
             "slug": "hero-alert",
