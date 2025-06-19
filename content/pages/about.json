@@ -1,4 +1,21 @@
 {
   "title": "About",
-  "slug": "about"
+  "slug": "about",
+  "summary": "Green Design System is the design system for Skandinaviska Enskilda Banken to make it easier and faster to build beautiful digital products and experiences under the SEB brand.",
+  "sections": [
+    {
+      "title": "What is Green?",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Green Design System is a set of standards to manage design at scale by reducing redundancy while creating a shared language and visual consistency across different pages and channels.\n\nIn order to have velocity when building digital products and keep a cohesive user experience cross channels and platforms designers and developers should use the Green Design System.\n\nBy using pre-built components for design tools and front-end frameworks the time teams spend designing and building is minimized. Instead of spending time on building and re-building the same components in multiple teams, teams can spend that time on addressing specific user needs to improve user experience.\n\nThe design system is called Green as an homage to SEB being viewed as the green bank with green as a primary colour for the brand and the bank. The bank also plays a great role in the transition to anet zero societyand has a focus onsustainabilityand helping it's clients to become more sustainable. The design system initative was also seen as aGreenfieldproject."
+        },
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ]
 }
