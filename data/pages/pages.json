@@ -3,6 +3,7 @@
     {
       "title": "About",
       "slug": "about",
+      "summary": "Green Design System is the design system for Skandinaviska Enskilda Banken to make it easier and faster to build beautiful digital products and experiences under the SEB brand.",
       "path": "pages/about/about.json"
     },
     {
@@ -24,5 +25,5 @@
     }
   ],
   "total": 4,
-  "lastUpdated": "2025-06-19T08:10:09.541Z"
+  "lastUpdated": "2025-06-19T08:13:15.059Z"
 }
