@@ -23,6 +23,7 @@
     {
       "title": "Features",
       "tag": "H2",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
