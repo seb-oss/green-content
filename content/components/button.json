@@ -176,6 +176,27 @@
           "node": "back-2"
         }
       ]
+    },
+    {
+      "title": "Variants",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "*   **Default**: The preferred choice of button in most contexts.\n    \n*   **Positive**: To be decided.\n    \n*   **Negative**: Use for the actions that may be harmful or destructive. A good example is deleting.\n    \n*   **Tonal**: Only used internal in other components (to match a background).\n    \n*   **Inverted**: Used to place on other than the normal backgrounds (typically darker tones)."
+        }
+      ]
+    },
+    {
+      "cols": "1",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Button variants",
+          "node": "variants"
+        }
+      ]
     }
   ],
   "ux-text": [
