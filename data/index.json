@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-23T11:38:26.764Z",
+    "lastUpdated": "2025-06-23T12:33:08.504Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -463,6 +463,15 @@
             "code": "<gds-flex flex-direction=\"column\" gap=\"m\">\n      <gds-alert variant=\"information\" role=\"alert\">\n        <strong>Information</strong> Body text starts on the same row as\n        heading. A link (optional) always ends the message.\n      </gds-alert>\n      <gds-alert variant=\"notice\" role=\"alert\">\n        <strong>Notice</strong> Body text with link or additional context.\n      </gds-alert>\n      <gds-alert variant=\"positive\" role=\"alert\">\n        <strong>Positive</strong> Feedback message with optional CTA.\n      </gds-alert>\n      <gds-alert variant=\"warning\" role=\"alert\">\n        <strong>Warning</strong> Important information to consider.\n      </gds-alert>\n      <gds-alert variant=\"negative\" role=\"alert\">\n        <strong>Negative</strong> Error message requiring user attention.\n      </gds-alert>\n    </gds-flex>",
             "endpoints": {
               "content": "snippets/alert-variants/alert-variants.json"
+            }
+          },
+          {
+            "title": "Breadcrumbs: Mobile",
+            "slug": "breadcrumbs-mobile",
+            "path": "snippets/breadcrumbs-mobile/breadcrumbs-mobile.json",
+            "code": "<gds-breadcrumbs size=\"small\" width=\"100px\">\n  <gds-link href=\"/\">\n    <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n    Green\n  </gds-link>\n  <gds-link href=\"/folder\">\n    <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n    Folder\n  </gds-link>\n  <gds-text> Current </gds-text>\n</gds-breadcrumbs>",
+            "endpoints": {
+              "content": "snippets/breadcrumbs-mobile/breadcrumbs-mobile.json"
             }
           },
           {
