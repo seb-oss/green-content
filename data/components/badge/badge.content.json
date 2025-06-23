@@ -62,19 +62,5 @@
         }
       ]
     }
-  ],
-  "ux-text": [
-    {
-      "title": "UX text ",
-      "tag": "H2",
-      "cols": "1"
-    }
-  ],
-  "accessibility": [
-    {
-      "title": "A11y",
-      "tag": "H2",
-      "cols": "1"
-    }
   ]
 }
