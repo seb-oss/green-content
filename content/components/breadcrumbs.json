@@ -45,6 +45,21 @@
           "Snippet": "hero-breadcrumb"
         }
       ]
+    },
+    {
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Mobile or simple",
+          "tag": "H2",
+          "content": "For mobile views we only display the link to the parent page, as the full path tends to take too much space.\n\nThe same version may be used in shallow hierarchies where there still is a need to easily move one step up, or back to the page from where you came."
+        },
+        {
+          "type": "snippet",
+          "Snippet": "breadcrumbs-mobile"
+        }
+      ]
     }
   ],
   "ux-text": [
