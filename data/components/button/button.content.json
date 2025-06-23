@@ -236,64 +236,67 @@
   ],
   "ux-text": [
     {
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "text": "The button text should answer the question \"What is happening?\" when the user clicks it, but if the purpose of the button is to convert, it should answer the question \"What do I get?\"."
-        }
-      ]
+      "section-content": "The button text should answer the question \"What is happening?\" when the user clicks it, but if the purpose of the button is to convert, it should answer the question \"What do I get?\"."
     },
     {
       "title": "Use commands and requests in the button",
       "tag": "H3",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "You should primarily use verbs in the imperative mood, which is the form of the verb that conveys commands or requests, for example, Order, Apply, Submit and Sign. If needed, you can add what happens, for example, Write a new message or Add a row. In special cases, the button may consist of another type of text, for example, This solution suits me."
-        }
-      ]
+      "section-content": "You should primarily use verbs in the imperative mood, which is the form of the verb that conveys commands or requests, for example, Order, Apply, Submit and Sign. If needed, you can add what happens, for example, Write a new message or Add a row. In special cases, the button may consist of another type of text, for example, This solution suits me."
     },
     {
       "title": "Avoid Perform and Okay",
       "tag": "H3",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "Avoid using words like Perform (Utför) and Okay (Okej) in buttons. Perform is too formal and Okay is too vague and doesn’t answer the question “What is happening?” when the user clicks the button."
-        }
-      ]
+      "section-content": "Avoid using words like Perform (Utför) and Okay (Okej) in buttons. Perform is too formal and Okay is too vague and doesn’t answer the question “What is happening?” when the user clicks the button."
     },
     {
       "title": "Standard button texts",
-      "tag": "H3",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "Standard text for our most commonly used buttons."
-        }
-      ]
-    },
-    {
+      "section-content": "Standard text for our most commonly used buttons.",
       "cols": "3",
       "columns": [
         {
-          "type": "image",
+          "type": "figma",
           "caption": "Next (Nästa)",
-          "src": "/assets/metallic-surface.jpg"
+          "node": "standard-next"
         },
         {
-          "type": "image",
+          "type": "figma",
           "caption": "Back (Tillbaka)",
-          "src": "/assets/metallic-surface.jpg"
+          "node": "standard-back"
         },
         {
-          "type": "image",
+          "type": "figma",
           "caption": "Cancel (Avbryt)",
-          "src": "/assets/metallic-surface.jpg"
+          "node": "standard-cancel"
+        },
+        {
+          "type": "figma",
+          "caption": "Delete (Ta bort)",
+          "node": "standard-delete"
+        },
+        {
+          "type": "figma",
+          "caption": "Change (Ändra) – takes the user to edit mode.",
+          "node": "standard-change"
+        },
+        {
+          "type": "figma",
+          "caption": "Save (Spara)",
+          "node": "standard-save"
+        },
+        {
+          "type": "figma",
+          "caption": "Close (Stäng) – closing a dialog, modal, slide-out etc.",
+          "node": "standard-close"
+        },
+        {
+          "type": "figma",
+          "caption": "Sign (Signera) – signing with BankID.",
+          "node": "standard-sign"
+        },
+        {
+          "type": "figma",
+          "caption": "Identify yourself (Identifiera dig) – identifying with BankID.",
+          "node": "standard-identify"
         }
       ]
     },
@@ -303,31 +306,39 @@
         {
           "type": "rich-text",
           "title": "Cancel and close",
-          "tag": "H2",
+          "tag": "H3",
           "content": "It is important to avoid confusion for the user which button to click. The combination Cancel and Close is very similar. Instead, use Back as the secondary action when primary action is Cancel."
         },
         {
-          "type": "image",
-          "src": "/assets/metallic-surface.jpg"
+          "type": "figma",
+          "caption": "This is a good example of avoiding confusion for the customer.",
+          "node": "cancel-close"
         }
       ]
     },
     {
       "title": "Do’s and don’ts",
-      "tag": "H2",
       "cols": "2",
       "columns": [
         {
           "type": "rich-text",
           "title": "Do",
           "tag": "H3",
-          "content": "*   Answer the question “What is happening?” or “What do I get?”.\n    \n*   Use commands or requests in the button.\n    \n*   Use Back as secondary action in modals where primary actions is Cancel."
+          "content": "*   Answer the question “What is happening?” or “What do I get?”.\n    \n*   Use commands or requests in the button.\n    \n*   Use _Back_ as secondary action in modals where primary actions is _Cancel_."
         },
         {
           "type": "rich-text",
-          "title": "Don’t",
+          "title": "Don't",
           "tag": "H3",
-          "content": "*   Avoid the formal Perform (Utför) and the vague Okay (Okej).\n    \n*   Do not use primary and secondary button text that is too similar to each other."
+          "content": "*   Avoid the formal _Perform (Utför)_ and the vague _Okay (Okej)_.\n    \n*   Do not use primary and secondary button text that is too similar to each other."
+        },
+        {
+          "type": "figma",
+          "node": "ux-do"
+        },
+        {
+          "type": "figma",
+          "node": "ux-dont"
         }
       ]
     }
