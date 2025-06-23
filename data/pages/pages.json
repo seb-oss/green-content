@@ -9,6 +9,7 @@
     {
       "title": "Accessibility",
       "slug": "accessibility",
+      "summary": "Accessibility is a crucial part of our digital experience. Around 20% of people experience permanent, temporary, or situational challenges when using websites that aren't designed with accessibility in mind. By creating an inclusive digital environment, we ensure that everyone can use our services comfortably and effectively. Good accessibility practices enhance the overall experience for all users, making our website more user-friendly and easier to navigate for everyone.",
       "path": "pages/accessibility/accessibility.json"
     },
     {
@@ -25,5 +26,5 @@
     }
   ],
   "total": 4,
-  "lastUpdated": "2025-06-19T12:57:57.594Z"
+  "lastUpdated": "2025-06-23T08:08:07.288Z"
 }

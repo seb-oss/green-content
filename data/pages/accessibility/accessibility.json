@@ -1,4 +1,77 @@
 {
   "title": "Accessibility",
-  "slug": "accessibility"
+  "slug": "accessibility",
+  "summary": "Accessibility is a crucial part of our digital experience. Around 20% of people experience permanent, temporary, or situational challenges when using websites that aren't designed with accessibility in mind. By creating an inclusive digital environment, we ensure that everyone can use our services comfortably and effectively. Good accessibility practices enhance the overall experience for all users, making our website more user-friendly and easier to navigate for everyone.",
+  "sections": [
+    {
+      "title": "What we check",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Every component in Green Design System have accessibility in mind. Here you can read about the different parts that we check on each component:\n\n*   Contrast\n    \n*   Keyboard navigation\n    \n*   Aria & Html\n    \n*   Focus\n    \n*   Touch\n    \n*   Screen reader\n    \n*   Darkmode"
+        }
+      ]
+    },
+    {
+      "title": "Contrast",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Why is high contrast needed?",
+          "tag": "H3",
+          "content": "High contrast ratios assist users with visual impairments by making it easier to read text and identify components or areas on a page. By adhering to this standard, content creators can make their text accessible to a broader audience, including those with significant vision challenges."
+        },
+        {
+          "type": "rich-text",
+          "title": "What do we check with contrast and colors?",
+          "tag": "H3",
+          "content": "We ensure good contrast and well-chosen colors. Components should have strong enough contrast between their parts. Colors should be easily distinguishable, even for those who are colorblind. Sometimes, using icons or patterns can help distinguish areas better."
+        },
+        {
+          "type": "rich-text",
+          "title": "Here are a few good links to tools that can help",
+          "tag": "H3",
+          "content": "*   Follow: WCAG 2.1 SC.1.4.3, with ratio of 3:1 to 4.5:1.\n    \n*   Turn on and off different vision deficiencies to see how your site can look like for others, like no green color:  \n    Rendering & Emulate vision deficiencies.\n    \n*   The Chrome extension Silktide also have similar functions (and many more). This extension is whitelisted in SEB.  \n    Chrome: Silktide Color blindness.\n    \n*   There are many online contrast checkers to see if 2 colors hasve enough contrast between them. Here is one of them:  \n    [webaim.org](http://webaim.org)"
+        },
+        {
+          "type": "rich-text",
+          "title": "Future high contrast mode",
+          "tag": "H3",
+          "content": "In addition to the dark mode feature detailed below, we may introduce a high contrast mode in the future. This setting is becoming increasingly common on other websites. While it may not be the most visually appealing, it will enhance readability in poor lighting conditions, on suboptimal screens, or for users with visual impairments."
+        }
+      ]
+    },
+    {
+      "title": "Keyboard navigation",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "How to use the keyboard with this component. If something is deviating from the standards.  \n\n*   You can open, press, or run the component using the Enter and/or Space keys\n    \n*   You can navigate using the arrow keys when applicable\n    \n*   You can enter text when applicable, with clear indications when text entry is not possible.\n    \n*   Please note that disabled fields should be avoided. These fields cannot be clicked or written in, and often do not provide an explanation as to why. Additionally, they typically have poor contrast."
+        }
+      ]
+    },
+    {
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Aria & html",
+          "tag": "H2",
+          "content": "Follows Aria Attributes and Roles. Uses correct html with no unnecessary aria. Common misstakes are:\n\n*   Misspelled - eg id&apos;s are case sensitive.\n    \n*   Too much - using extra aria where it is not needed."
+        },
+        {
+          "type": "rich-text",
+          "title": "Focus",
+          "tag": "H2",
+          "content": "If focus is implemented correctly:\n\n*   There should typically be a black focus ring a few pixels away from the element.\n    \n*   Does the focus appear when using the keyboard, but not the mouse?\n    \n*   Is it sufficiently visible? Are any parts of it hidden behind other elements or outside the window?"
+        }
+      ]
+    }
+  ]
 }
