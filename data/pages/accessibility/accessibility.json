@@ -69,7 +69,13 @@
           "type": "rich-text",
           "title": "Focus",
           "tag": "H2",
-          "content": "If focus is implemented correctly:\n\n*   There should typically be a black focus ring a few pixels away from the element.\n    \n*   Does the focus appear when using the keyboard, but not the mouse?\n    \n*   Is it sufficiently visible? Are any parts of it hidden behind other elements or outside the window?"
+          "content": "If focus is implemented correctly:\n\n*   There should typically be a black focus ring a few pixels away from the element.\n    \n*   Does the focus appear when using the keyboard, but not the mouse?\n    \n*   Is it sufficiently visible? Are any parts of it hidden behind other elements or outside the window?\n    \n*   Is the focus order logical? Typically, the focus order should start from the top left, move to the top right, and then proceed downwards, continuing from left to right.\n    \n*   Do focus traps work effectively? Focus traps should ensure that popups and modals prevent users from interacting with elements outside them, whether using a mouse, keyboard, or screen readers."
+        },
+        {
+          "type": "rich-text",
+          "title": "Touch",
+          "tag": "H2",
+          "content": "Touch surfaces big enough and fits the visuals.\n\n*   Hand gestures like: Pinching/zooming/scrolling works.\n    \n*   AA 24px, AAA 44px - Min size (44px, but an be 24px touch area outside).\n    \n*   [https://www.w3.org/WAI/WCAG21/Understanding/target-size.html](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)\n    \n*   [https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)\n    \n*   [https://accessibility.digital.gov/ux/touch-targets/](https://accessibility.digital.gov/ux/touch-targets/)"
         }
       ]
     }
