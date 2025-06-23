@@ -345,63 +345,19 @@
   ],
   "accessibility": [
     {
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "All values we measure need to pass in order to give a check on the accessibility on all our components."
-        }
-      ]
+      "section-content": "All values we measure need to pass in order to give a check on the accessibility on all our components."
     },
     {
       "title": "Important considerations",
-      "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Maintain semantic consistency",
-          "tag": "H3",
-          "content": "Do not use links ('a' tag) instead of buttons ('button' tag). Buttons are intended for actions or operations (e.g. submitting forms, triggering actions), while links are intended for navigation to other pages or resources. Avoid using links for triggering actions, or buttons for navigation purposes."
-        }
-      ]
+      "section-content": "Do not use links ('a' tag) instead of buttons ('button' tag). Buttons are intended for actions or operations (e.g. submitting forms, triggering actions), while links are intended for navigation to other pages or resources. Avoid using links for triggering actions, or buttons for navigation purposes."
     },
     {
       "title": "Keyboard navigation",
-      "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "Uses default navigation: Tabs as normal and trigger on key-up with space and on key-down with enter."
-        }
-      ]
+      "section-content": "Uses default navigation: Tabs as normal and trigger on key-up with space and on key-down with enter."
     },
     {
       "title": "Labelling",
-      "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "*   Ensure buttons have discernible label text. If the button has no visible text, the label attribute must be used to provide an accessible label.\n    \n*   If there are multiple buttons with the same text, such as Apply, the label attribute can be used to give each button a distinct label, such as Apply for A, Apply for B, etc."
-        }
-      ]
-    },
-    {
-      "cols": "2",
-      "columns": [
-        {
-          "type": "image",
-          "caption": "Buttons with accessible labels.",
-          "src": "/assets/metallic-surface.jpg"
-        },
-        {
-          "type": "image",
-          "caption": "Icon buttons with accessible labels, label attributes.",
-          "src": "/assets/metallic-surface.jpg"
-        }
-      ]
+      "section-content": "*   Ensure buttons have discernible label text. If the button has no visible text, the label attribute must be used to provide an accessible label.\n    \n*   If there are multiple buttons with the same text, such as _Apply_, the label attribute can be used to give each button a distinct label, such as _Apply for A, Apply for B_, etc."
     }
   ]
 }
