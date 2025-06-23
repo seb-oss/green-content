@@ -25,13 +25,24 @@
       "columns": [
         {
           "type": "rich-text",
+          "content": "Use for sites/applications that have a substantial amount of pages present deeper down in site structures."
+        }
+      ]
+    },
+    {
+      "title": "Versions",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
           "title": "Desktop",
           "tag": "H3",
           "content": "The full path may not take up more than one row in the layout."
         },
         {
-          "type": "image",
-          "caption": "Breadcrumb in desktop"
+          "type": "snippet",
+          "Snippet": "hero-breadcrumb"
         }
       ]
     }
