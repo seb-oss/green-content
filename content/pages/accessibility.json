@@ -76,6 +76,24 @@
           "title": "Touch",
           "tag": "H2",
           "content": "Touch surfaces big enough and fits the visuals.\n\n*   Hand gestures like: Pinching/zooming/scrolling works.\n    \n*   AA 24px, AAA 44px - Min size (44px, but an be 24px touch area outside).\n    \n*   [https://www.w3.org/WAI/WCAG21/Understanding/target-size.html](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)\n    \n*   [https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)\n    \n*   [https://accessibility.digital.gov/ux/touch-targets/](https://accessibility.digital.gov/ux/touch-targets/)"
+        },
+        {
+          "type": "rich-text",
+          "title": "Screen reader",
+          "tag": "H2",
+          "content": "Works well with screen-readers.\n\n*   Usually test on: NVDA, VoiceOver (MacOS / iOS), & TalkBack (Android).\n    \n*   Can jump between headers? Which is the most common way of using a screen-reader.\n    \n*   Read out everything that can be seen (except images that have no real meaning)."
+        },
+        {
+          "type": "rich-text",
+          "title": "Dark mode",
+          "tag": "H2",
+          "content": "If the components support dark mode - and how well it does it.\n\n*   What changes? Maybe nothing?\n    \n*   Something broken?"
+        },
+        {
+          "type": "rich-text",
+          "title": "Summary",
+          "tag": "H2",
+          "content": "How is accessible is the Green Design System?\n\nOverall, the design system is accessible. However, we occasionally encounter issues, and new ones are reported from time to time. If you identify any accessibility problems, please assist us by submitting a new issue."
         }
       ]
     }
