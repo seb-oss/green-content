@@ -109,5 +109,35 @@
         }
       ]
     }
+  ],
+  "accessibility": [
+    {
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "All values we measure need to pass in order to give a check on the accessibility on all our components."
+        }
+      ]
+    },
+    {
+      "title": "Important considerations",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Keyboard navigation",
+          "tag": "H3",
+          "content": "Uses default navigation: Tabs as normal and trigger on key-down with enter."
+        },
+        {
+          "type": "rich-text",
+          "title": "Animation",
+          "tag": "H3",
+          "content": "Hopefully in future it will be possible to turn of the animation by a user setting."
+        }
+      ]
+    }
   ]
 }
