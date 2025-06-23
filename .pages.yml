@@ -569,7 +569,7 @@ content:
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: slug, label: Slug, type: string, required: true }
-      - name: dependices
+      - name: dependencies
         label: Dependencies
         type: select
         options:
