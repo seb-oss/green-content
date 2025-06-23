@@ -55,15 +55,7 @@
     {
       "title": "Default button",
       "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "The default button is our most used button. It comes in primary, secondary and tertiary, and the sizes small, medium and large.\n\nThe default button can be used as the positive, negative and inverted type."
-        }
-      ]
-    },
-    {
+      "section-content": "The default button is our most used button. It comes in primary, secondary and tertiary, and the sizes small, medium and large.\n\nThe default button can be used as the positive, negative and inverted type.",
       "cols": "2",
       "columns": [
         {
