@@ -197,6 +197,134 @@
           "node": "variants"
         }
       ]
+    },
+    {
+      "title": "Hierarchy",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "It's critical to find the right balance of what buttons to use. It's up to us as designers to guide and inform the users to take the right action.\n\n*   **Primary buttons** require the most attention from your users.\n    \n*   **Secondary buttons**, as the name says, is the second most likely choice.\n    \n*   **Tertiary buttons** are used for less used or unwanted actions that is still relevant to find."
+        },
+        {
+          "type": "figma",
+          "caption": "From the top – primary, secondary, tertiary",
+          "node": "hierarchy"
+        }
+      ]
+    },
+    {
+      "title": "Button sizes",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The default button and icon button comes in a few different sizes. 32, 40 and 48 px."
+        }
+      ]
+    },
+    {
+      "cols": "3",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Small – used in confined spaces, like tables.",
+          "node": "small"
+        },
+        {
+          "type": "figma",
+          "caption": "Medium – the default size. When in doubt, go for medium.",
+          "node": "medium"
+        },
+        {
+          "type": "figma",
+          "caption": "Large – only used in large areas like a hero.",
+          "node": "large"
+        }
+      ]
+    },
+    {
+      "title": "Placements, right, left or stacked?",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "A general rule is to always strive to place buttons in connection to the items they control."
+        },
+        {
+          "type": "rich-text",
+          "title": "Desktop placements",
+          "tag": "H3",
+          "content": "*   **Left**: In overviews and widgets, the user tends to read from top to bottom, therefore the buttons are kept to the left.\n    \n*   **Right**: Modals and flows move the user from left to right, therefore the buttons are placed to the right."
+        }
+      ]
+    },
+    {
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Placement left",
+          "node": "placement-desktop-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Placement",
+          "node": "placement-desktop-2"
+        }
+      ]
+    },
+    {
+      "title": "In a mobile device",
+      "tag": "H3",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "*   **One button**, use the full width of the content area.\n    \n*   **Two buttons**, aim to place them side by side. It is allowed to stack them if needed.\n    \n*   **Three buttons**, consider the need for all of them. \"cancel or close\" might be x in the top right corner. Worst case scenario: place two buttons side by side and one tertiary button under."
+        }
+      ]
+    },
+    {
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "One button in mobile",
+          "node": "placement-mobile-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Side by side in mobile",
+          "node": "placement-mobile-2"
+        }
+      ]
+    },
+    {
+      "title": "Do’s and don’ts",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Only use one primary action in the same context of several actions."
+        }
+      ]
+    },
+    {
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "node": "do"
+        },
+        {
+          "type": "figma",
+          "node": "dont"
+        }
+      ]
     }
   ],
   "ux-text": [
