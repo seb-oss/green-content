@@ -50,6 +50,7 @@
   ],
   "ux-text": [
     {
+      "cols": "1",
       "columns": [
         {
           "type": "paragraph",
