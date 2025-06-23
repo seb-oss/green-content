@@ -42,6 +42,7 @@
         },
         {
           "type": "snippet",
+          "caption": "Breadcrumb in desktop",
           "Snippet": "hero-breadcrumb"
         }
       ]
@@ -57,6 +58,7 @@
         },
         {
           "type": "snippet",
+          "caption": "Simplified breadcrumbs",
           "Snippet": "breadcrumbs-mobile"
         }
       ]
