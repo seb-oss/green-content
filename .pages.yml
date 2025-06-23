@@ -189,6 +189,9 @@ content:
               - name: snippet
                 label: Snippet
                 fields:
+                  - name: caption
+                    label: Caption
+                    type: string
                   - name: Snippet
                     type: reference
                     options:
