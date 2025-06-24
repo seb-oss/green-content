@@ -4,6 +4,7 @@
   "hero_snippet": "hero-calendar",
   "beta": false,
   "summary": "The calendar displays a grid of selectable dates.",
+  "preamble": "The calendar component provides the foundation for datepicker and is not intended for direct implementation. For date selection functionality, use the datepicker component where full documentation is available.",
   "anatomy": true,
   "tags": [
     "date",
@@ -19,10 +20,5 @@
     "ios": false,
     "android": false
   },
-  "overview": [
-    {
-      "title": "Calendar: Foundation for Datepicker",
-      "section-content": "The calendar component provides the foundation for datepicker and is not intended for direct implementation. For date selection functionality, use the datepicker component where full documentation is available."
-    }
-  ]
+  "compare": "Datepicker"
 }
