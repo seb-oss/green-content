@@ -21,52 +21,6 @@
   },
   "overview": [
     {
-      "title": "Features",
-      "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Variants",
-          "tag": "H3",
-          "content": "Supports five variants (\\`information\\`, `notice`, `positive`, `warning`, `negative`), each with specific icons and color schemes to convey different types of messages.\n\n| Variant | Description |\n| --- | --- |\n| Information | Shares non-urgent updates, like new features or tips, with a brief message and optional next steps. |\n| Notice | Conveys general announcements or non-critical updates, like service changes, with a short description and optional guidance. |\n| Positive | Confirms successful actions, like form submissions, with a success message, optional next steps, and possible brand reinforcement. |\n| Warning | Highlights non-critical issues, like upcoming deadlines, with a concise issue summary, optional duration estimate, and suggested actions. |\n| Negative | Communicates critical issues or errors, like system outages, with a clear problem description, optional apology for system issues, and resolution guidance. |"
-        },
-        {
-          "type": "snippet",
-          "Snippet": "alert-variants"
-        },
-        {
-          "type": "rich-text",
-          "title": "Dismissibility",
-          "tag": "H3",
-          "content": "The Alert can be configured as `dismissible` in order to show a close button in the upper right corner. This also enabled closing the Alert by pressing the Escape key.\n\n#### Auto-dismiss\n\nThe Alert can also be set up to use an auto-dismiss timer. In this configuration, a timer progress bar will be shown at the bottom of the Alert, and the Alert will close once the timer reaches the end."
-        },
-        {
-          "type": "rich-text",
-          "title": "Action button",
-          "tag": "H3",
-          "content": "The Alert supports an optional action button with customizable text to trigger relevant actions."
-        }
-      ]
-    },
-    {
-      "title": "Guidelines",
-      "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "Select the appropriate variant to match the message’s intent, such as using positive for success messages or negative for errors. Also ensure a meaningful label property is set to describe the alert’s purpose for accessibility. A label should alwys be set when using Alert.\n\nChoose the role property carefully, using alert for critical messages and status for informational updates, to align with ARIA best practices.\n\nFor toast-like messages, like save confirmations and other non-critical messages, auto-dismiss can be used to avoid interrupting user workflows."
-        },
-        {
-          "type": "rich-text",
-          "title": "Do's and Don'ts",
-          "tag": "H3",
-          "content": "#### Do\n\n*   Use concise, clear message text to ensure quick comprehension.\n    \n*   Enable `dismissible` for alerts, unless you need them to stay on screen permanently.\n    \n\n#### Don't\n\n*   Don’t use overly long message text.\n    \n*   Avoid using `alert` role for non-critical messages; use `status` instead to reduce urgency.\n    \n*   Don’t set a timeout for critical alerts that require user acknowledgment.\n    \n*   Never omit the label property, as it’s essential for screen reader users.\n    \n*   Don’t use vague `button-label` text like “Click Here”; be specific about the action."
-        }
-      ]
-    },
-    {
       "title": "Variants",
       "section-content": "Supports five variants (\\`information\\`, `notice`, `positive`, `warning`, `negative`), each with specific icons and color schemes to convey different types of messages.",
       "cols": "2",
@@ -127,6 +81,33 @@
           "Snippet": "alert-negative"
         }
       ]
+    },
+    {
+      "title": "Guidelines",
+      "section-content": "Select the appropriate variant to match the message’s intent, such as using positive for success messages or negative for errors. Also ensure a meaningful label property is set to describe the alert’s purpose for accessibility. A label should alwys be set when using Alert.\n\nChoose the role property carefully, using alert for critical messages and status for informational updates, to align with ARIA best practices.\n\nFor toast-like messages, like save confirmations and other non-critical messages, auto-dismiss can be used to avoid interrupting user workflows.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Do",
+          "content": "*   Use concise, clear message text to ensure quick comprehension.\n    \n*   Enable `dismissible` for alerts, unless you need them to stay on screen permanently."
+        },
+        {
+          "type": "rich-text",
+          "title": "Dont",
+          "content": "*   Don’t use overly long message text.\n    \n*   Avoid using `alert` role for non-critical messages; use `status` instead to reduce urgency.\n    \n*   Don’t set a timeout for critical alerts that require user acknowledgment.\n    \n*   Never omit the label property, as it’s essential for screen reader users.\n    \n*   Don’t use vague `button-label` text like “Click Here”; be specific about the action."
+        }
+      ]
+    },
+    {
+      "title": "Dismissibility",
+      "tag": "H3",
+      "section-content": "The Alert can be configured as `dismissible` in order to show a close button in the upper right corner. This also enabled closing the Alert by pressing the Escape key.\n\n#### Auto-dismiss\n\nThe Alert can also be set up to use an auto-dismiss timer. In this configuration, a timer progress bar will be shown at the bottom of the Alert, and the Alert will close once the timer reaches the end."
+    },
+    {
+      "title": "Action button",
+      "tag": "H3",
+      "section-content": "The Alert supports an optional action button with customizable text to trigger relevant actions."
     }
   ]
 }
