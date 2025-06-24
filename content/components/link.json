@@ -29,6 +29,19 @@
       "title": "Variants",
       "tag": "H2",
       "section-content": "**With leading icon** - Use when an icon helps reinforce the meaning of the link (e.g., a document or download icon before the text).  \n**With trailing icon** - Use for links that lead outside the current system, such as external websites. A trailing external link icon helps set expectations.  \n**With underline** - Used when a stronger visual indication is needed — for example, in long bodies of text or when links need to stand out clearly from surrounding content."
+    },
+    {
+      "title": "Do’s and don’ts",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Do's",
+          "tag": "H3",
+          "content": "*   Use links only for navigation, not for actions.\n    \n*   Ensure link text is clear, concise, and descriptive (e.g. “View account details” instead of “Click here”).\n    \n*   Use icons to clarify the link’s function, especially for external links or downloads.\n    \n*   Ensure links are accessible: high contrast, visible focus state, and screen-reader friendly."
+        }
+      ]
     }
   ]
 }
