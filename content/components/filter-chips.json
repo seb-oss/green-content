@@ -29,7 +29,7 @@
       "section-content": "If a user has accounts in three countries, only those three countries should be shown as filter chips. If they have accounts in just one country, there's no need to show a country filter at all.   \nTo improve clarity and support informed decisions, display the number of results each selected filter will return. This gives users immediate feedback on how their choices are narrowing or broadening the data set."
     },
     {
-      "title": "Do",
+      "title": "Do's and don'ts",
       "section-content": "*   use a slide-out modal when there are many filter categories or options.\n    \n*   provide relevant, predefined options to make filtering easier.\n    \n*   allow multiple selections where it makes sense.\n    \n*   Make it easy for users to select, unselect, or clear all filters.",
       "cols": "2",
       "columns": [
