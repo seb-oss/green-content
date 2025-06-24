@@ -5,6 +5,7 @@
   "beta": true,
   "summary": "An input lets users enter and edit text or numerical values in forms.",
   "anatomy": true,
+  "anatomy-overview": "The input (and other form controls) are divided in sections that are re-used between components.\n\n*   **Header**: Label, label support, contextual help, extended support.\n    \n*   **Body**: The field with leading and trailing slots.\n    \n*   **Footer**: Character counter, dynamic information and error message.",
   "anatomy-details": "1.  Label\n    \n2.  Label support text\n    \n3.  Information icon\n    \n4.  Extended label support text\n    \n5.  Field container\n    \n6.  Input value\n    \n7.  Leading icon\n    \n8.  Badge\n    \n9.  Icon button clear\n    \n10.  Carachter counter",
   "tags": [
     "Form",
@@ -14,8 +15,209 @@
     "Components"
   ],
   "platform": {
-    "web": false,
+    "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Variants",
+      "section-content": "To be able to use forms in all context's we provide two versions of input fields.\n\n*   **Default**\n    \n*   Coming soon **Floating label** (label inside): Can only be used in specific contexts. Limited features due to accessibility.",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Default",
+          "node": "variant-default"
+        },
+        {
+          "type": "figma",
+          "caption": "Floating label",
+          "node": "variant-floating-label"
+        }
+      ]
+    },
+    {
+      "title": "Sizes",
+      "section-content": "The input field comes in two sizes.\n\n*   **Large**\n    \n*   **Small**: used in tables and in some special cases where the space is very limited.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Large and small input field.",
+          "node": "large-small-input"
+        }
+      ]
+    },
+    {
+      "title": "Features",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Label",
+          "tag": "H3",
+          "content": "All input fields must have a label to ensure clarity and accessibility. Labels help users understand the purpose of the field, including those using assistive technologies."
+        },
+        {
+          "type": "figma",
+          "caption": "Large input field with a label.",
+          "node": "label"
+        },
+        {
+          "type": "rich-text",
+          "title": "Optional field indicator",
+          "tag": "H3",
+          "content": "We only ask for required information. If some fields are optional, we let users know by adding \"(optional)\" in brackets next to the field label. The word \"(optional)\" is shown in regular font weight to distinguish it from the label."
+        },
+        {
+          "type": "figma",
+          "caption": "Use '(optional)' to mark optional fields.",
+          "node": "optional-field-indicator"
+        },
+        {
+          "type": "rich-text",
+          "title": "Support text",
+          "tag": "H3",
+          "content": "Use this to explain how to fill in the field, for example how to count or what to include."
+        },
+        {
+          "type": "figma",
+          "caption": "Label support text.",
+          "node": "support-text"
+        }
+      ]
+    },
+    {
+      "title": "Contextual help",
+      "section-content": "If the label and support text are not enough to explain a field, we can use the info icon. Clicking the icon shows additional support text between the label support and the field.\n\n*   Use a tooltip if space is limited.\n    \n*   Use a modal for large amounts of text.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Use the info icon to show more support text.",
+          "node": "info-icon-button"
+        },
+        {
+          "type": "figma",
+          "caption": "Extended support expanded.",
+          "node": "extended-suppport"
+        }
+      ]
+    },
+    {
+      "title": "Leading icon",
+      "section-content": "A leading icon visually reinforces the purpose of the field, helping users to understand what type of information is needed. For example: search fields or card number.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Leading icon to indicate it's a search field.",
+          "node": "leading-search"
+        },
+        {
+          "type": "figma",
+          "caption": "Leading icon to indicate a card number.",
+          "node": "leading-card-number"
+        },
+        {
+          "type": "rich-text",
+          "title": "Clearable",
+          "tag": "H3",
+          "content": "To make it easy for users to clear a field, an x-icon button can be placed at the end of the field. This is commonly used in search/filter forms."
+        },
+        {
+          "type": "figma",
+          "caption": "Makes it easy to clear a field.",
+          "node": "clear-a-search-field"
+        },
+        {
+          "type": "rich-text",
+          "title": "Badge",
+          "tag": "H3",
+          "content": "Use it to show what the unit input value is.\n\nFor example: EUR"
+        },
+        {
+          "type": "figma",
+          "caption": "Badge used to display the currency EUR.",
+          "node": "currency-badge"
+        },
+        {
+          "type": "rich-text",
+          "title": "Error message",
+          "tag": "H3",
+          "content": "Used to indicate that a selection must be made from the dropdown or that there is an error with the selected option."
+        },
+        {
+          "type": "figma",
+          "caption": "Input field containing an error.",
+          "node": "field-error"
+        }
+      ]
+    },
+    {
+      "title": "Character counter",
+      "section-content": "For fields with a character limit, a counter can be added to show users how many characters they have left.\n\nThe counter starts with the maximum allowed characters. As the user types, the remaining characters decrease. When the limit is nearly reached, the counter turns yellow. When or if the user exceeds the limit, the counter turns red.\n\nIf the user ignores this and attempts to submit, an error message will appear indicating that the maximum character limit has been reached.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Input field with the character counter.",
+          "node": "character-counter"
+        }
+      ]
+    },
+    {
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Dynamic information",
+          "content": "(Not available for Floating label variant) Used to perform comparative calculations next to the field."
+        },
+        {
+          "type": "figma",
+          "caption": "Dynamic information displayed under the input field.",
+          "node": "dynamic-info"
+        },
+        {
+          "type": "rich-text",
+          "title": "Static data",
+          "tag": "H3",
+          "content": "Used to display static data in a form or compilation. This approach is preferred over disabling fields, which can be problematic for accessibility."
+        },
+        {
+          "type": "figma",
+          "caption": "Example usage of static data.",
+          "node": "static-data"
+        },
+        {
+          "type": "rich-text",
+          "title": "Placeholder",
+          "tag": "H3",
+          "content": "Avoid using placeholder text (also known as watermark), as it can confuse users into thinking the field is already filled with data. Instructions should not be placed in the field, as they disappear once the user starts typing. Instead, use support text to guide users on what should be entered."
+        },
+        {
+          "type": "figma",
+          "caption": "Don't use placeholder text.",
+          "node": "placeholder"
+        }
+      ]
+    },
+    {
+      "title": "Do’s and dont’s",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Do use '(optional)' to mark optional fields",
+          "node": "do"
+        },
+        {
+          "type": "figma",
+          "caption": "Don't use asterix to indicate mandatory fields.",
+          "node": "dont"
+        }
+      ]
+    }
+  ]
 }
