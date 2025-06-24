@@ -18,5 +18,10 @@
     "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Usage"
+    }
+  ]
 }
