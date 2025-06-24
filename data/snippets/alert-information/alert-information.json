@@ -1,0 +1,6 @@
+{
+  "title": "Alert: Information",
+  "slug": "alert-information",
+  "snippet_component": "Alert",
+  "code": "<gds-alert variant=\"information\" role=\"alert\">\n  <strong>Information</strong> Body text starts on the same row as\n  heading. A link (optional) always ends the message.\n</gds-alert>"
+}
