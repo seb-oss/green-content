@@ -5,6 +5,7 @@
   "beta": true,
   "summary": "A dropdown enables the user to choose one or multiple options from a list.",
   "anatomy": true,
+  "anatomy-details": "1.  Label\n    \n2.  Label support text\n    \n3.  Information icon\n    \n4.  Extended label support text\n    \n5.  Leading icon\n    \n6.  Trailing icon\n    \n7.  Icon button clear\n    \n8.  Input value\n    \n9.  Badge\n    \n10.  Field container",
   "tags": [
     "form",
     "select",
