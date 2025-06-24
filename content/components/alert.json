@@ -78,7 +78,7 @@
         {
           "type": "snippet",
           "caption": "Alert variant negative",
-          "Snippet": "alert-negative"
+          "Snippet": "alert-negative-variant"
         }
       ]
     },
