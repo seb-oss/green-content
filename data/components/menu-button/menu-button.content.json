@@ -5,6 +5,7 @@
   "beta": false,
   "summary": "A menu button combines button and link behaviors for navigation menus.",
   "anatomy": true,
+  "anatomy-details": "1.  Link text\n    \n2.  Trailing icon\n    \n3.  Leading icon\n    \n4.  Container\n    \n5.  Selected decoration",
   "tags": [
     "navigation",
     "button"
