@@ -96,9 +96,22 @@
       ]
     },
     {
-      "title": "Dismissibility",
+      "title": "Dismissible",
       "tag": "H3",
-      "section-content": "The Alert can be configured as `dismissible` in order to show a close button in the upper right corner. This also enabled closing the Alert by pressing the Escape key.\n\n#### Auto-dismiss\n\nThe Alert can also be set up to use an auto-dismiss timer. In this configuration, a timer progress bar will be shown at the bottom of the Alert, and the Alert will close once the timer reaches the end."
+      "section-content": "The Alert can be configured as `dismissible` in order to show a close button in the upper right corner. This also enabled closing the Alert by pressing the Escape key.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Dimissible alert",
+          "Snippet": "alert-dismissible"
+        }
+      ]
+    },
+    {
+      "title": "Auto-dismiss",
+      "tag": "H3",
+      "section-content": "The Alert can also be set up to use an auto-dismiss timer. In this configuration, a timer progress bar will be shown at the bottom of the Alert, and the Alert will close once the timer reaches the end."
     },
     {
       "title": "Guidelines",
