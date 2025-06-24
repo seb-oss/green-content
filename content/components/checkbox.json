@@ -176,5 +176,40 @@
       "title": "Don't",
       "section-content": "*   Don’t overwhelm users with too many checkboxes on a single page or form. If you need to show many options, use a multi-select dropdown instead.\n    \n*   Don’t use it to toggle things on or off, use the switch component for that.\n    \n*   Don’t mix default and contained versions."
     }
+  ],
+  "ux-text": [
+    {
+      "title": "Labels",
+      "section-content": "Write checkbox labels so customers can easily understand what checking or leaving the box blank means. This is especially important for stand-alone checkboxes, such as accepting terms or subscribing to emails with news and offers. If there is a header label, make sure it matches the individual checkbox label, whether grouped or stand-alone. Never use checkbox if the answer is yes or no."
+    },
+    {
+      "title": "Stand-alone checkbox",
+      "section-content": "A stand-alone checkbox should clearly indicate what happens when it’s checked or left blank. Use the “I” form. Avoid using negations as this forces users to check the box to prevent something from happening. A stand-alone checkbox should state a clear action or agreement, not ask a question."
+    },
+    {
+      "title": "Use the “I” form",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Do",
+          "tag": "H3",
+          "content": "English\n\nI have read the terms and conditions, and confirm that the information i have provided is correct."
+        },
+        {
+          "type": "rich-text",
+          "title": "Do",
+          "content": "Svenska\n\nJag har läst villkoren och försäkrar att de uppgifter jag fyllt i är riktiga."
+        },
+        {
+          "type": "figma",
+          "node": "i-form-do-eng"
+        },
+        {
+          "type": "figma",
+          "node": "i-form-do-swe"
+        }
+      ]
+    }
   ]
 }
