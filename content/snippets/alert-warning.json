@@ -1,0 +1,6 @@
+{
+  "title": "Alert: Warning",
+  "slug": "alert-warning",
+  "snippet_component": "Alert",
+  "code": "<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>"
+}
