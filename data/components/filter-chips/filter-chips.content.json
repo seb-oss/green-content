@@ -21,7 +21,8 @@
   },
   "overview": [
     {
-      "title": "Usage"
+      "title": "Variants",
+      "section-content": "The filter chip component comes in two variants, each supporting a different stage of the filtering experience:\n\n*   **Selectable** – The default state, displaying only a label. Use this variant when presenting available filter options. When selected the chips updates to show a checkmark icon alongside the label, indicating an active filter.\n    \n*   **Removable** – Used to represent an applied filter. This chip includes a label and a close (×) icon, allowing users to remove the filter with a single click or tap."
     }
   ]
 }
