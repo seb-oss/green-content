@@ -5,7 +5,7 @@
   "beta": false,
   "summary": "Floating action button persists across screens for constant access to features that needs to be accessible at all times.",
   "preamble": "The Floating action button (FAB) is a prominent button that provides quick access to a key action on the screen. It floats above the interface, making it easy to reach without disrupting the content layout. Use it to highlight actions that users are likely to take frequently or need quick access to.",
-  "anatomy": true,
+  "anatomy": false,
   "anatomy-details": "1.  Button text\n    \n2.  Leading icon\n    \n3.  Button container",
   "tags": [
     "notification",
