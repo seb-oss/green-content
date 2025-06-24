@@ -7,7 +7,7 @@
   "preamble": "A badge is a compact visual indicator that helps highlight status, categorize content, or display notifications. It can be configured with different variants and sizes to effectively communicate meaning. When used thoughtfully, badges help users quickly understand the state or importance of elements in the interface.",
   "anatomy": true,
   "anatomy-overview": "Badge anatomy overview",
-  "anatomy-details": "1.  Item 1\n    \n2.  Item 2\n    \n3.  Item 3",
+  "anatomy-details": "1.  Container\n    \n2.  Icon\n    \n3.  Status text",
   "tags": [
     "Status",
     "notification"
