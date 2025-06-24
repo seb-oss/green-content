@@ -1,6 +1,12 @@
 {
   "snippets": [
     {
+      "title": "Alert: Action",
+      "slug": "alert-action",
+      "path": "snippets/alert-action/alert-action.json",
+      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n  <strong>Actionable</strong> Alert with a button for quick user interaction.\n</gds-alert>\n</gds-div>"
+    },
+    {
       "title": "Alert: Information",
       "slug": "alert-information",
       "path": "snippets/alert-information/alert-information.json",
@@ -265,6 +271,6 @@
       "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>"
     }
   ],
-  "total": 44,
-  "lastUpdated": "2025-06-24T06:37:13.731Z"
+  "total": 45,
+  "lastUpdated": "2025-06-24T06:39:31.122Z"
 }
