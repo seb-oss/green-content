@@ -192,14 +192,14 @@
       "columns": [
         {
           "type": "rich-text",
-          "title": "Do",
+          "title": "English",
           "tag": "H3",
-          "content": "English\n\nI have read the terms and conditions, and confirm that the information i have provided is correct."
+          "content": "I have read the terms and conditions, and confirm that the information i have provided is correct."
         },
         {
           "type": "rich-text",
-          "title": "Do",
-          "content": "Svenska\n\nJag har läst villkoren och försäkrar att de uppgifter jag fyllt i är riktiga."
+          "title": "Svenska",
+          "content": "Jag har läst villkoren och försäkrar att de uppgifter jag fyllt i är riktiga."
         },
         {
           "type": "figma",
