@@ -23,6 +23,10 @@
     {
       "title": "Variants",
       "section-content": "The filter chip component comes in two variants, each supporting a different stage of the filtering experience:\n\n*   **Selectable** – The default state, displaying only a label. Use this variant when presenting available filter options. When selected the chips updates to show a checkmark icon alongside the label, indicating an active filter.\n    \n*   **Removable** – Used to represent an applied filter. This chip includes a label and a close (×) icon, allowing users to remove the filter with a single click or tap."
+    },
+    {
+      "title": "Example",
+      "section-content": "If a user has accounts in three countries, only those three countries should be shown as filter chips. If they have accounts in just one country, there's no need to show a country filter at all.   \nTo improve clarity and support informed decisions, display the number of results each selected filter will return. This gives users immediate feedback on how their choices are narrowing or broadening the data set."
     }
   ]
 }
