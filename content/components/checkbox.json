@@ -20,6 +20,7 @@
     "ios": false,
     "android": false
   },
+  "compare": "Radio",
   "overview": [
     {
       "title": "Variants",
