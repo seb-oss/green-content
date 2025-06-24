@@ -7,6 +7,12 @@
       "code": "<gds-alert variant=\"information\" role=\"alert\">\n  <strong>Information</strong> Body text starts on the same row as\n  heading. A link (optional) always ends the message.\n</gds-alert>"
     },
     {
+      "title": "Alert: Notice",
+      "slug": "alert-notice",
+      "path": "snippets/alert-notice/alert-notice.json",
+      "code": "<gds-alert variant=\"notice\" role=\"alert\">\n  <strong>Notice</strong> Body text with link or additional context.\n</gds-alert>"
+    },
+    {
       "title": "Alert: Variants",
       "slug": "alert-variants",
       "path": "snippets/alert-variants/alert-variants.json",
@@ -247,6 +253,6 @@
       "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>"
     }
   ],
-  "total": 41,
-  "lastUpdated": "2025-06-24T06:18:15.468Z"
+  "total": 42,
+  "lastUpdated": "2025-06-24T06:18:49.636Z"
 }
