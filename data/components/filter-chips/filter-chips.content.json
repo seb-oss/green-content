@@ -30,9 +30,13 @@
     },
     {
       "title": "Do's and don'ts",
-      "section-content": "*   use a slide-out modal when there are many filter categories or options.\n    \n*   provide relevant, predefined options to make filtering easier.\n    \n*   allow multiple selections where it makes sense.\n    \n*   Make it easy for users to select, unselect, or clear all filters.",
       "cols": "2",
       "columns": [
+        {
+          "type": "rich-text",
+          "title": "Do",
+          "content": "*   use a slide-out modal when there are many filter categories or options.\n    \n*   provide relevant, predefined options to make filtering easier.\n    \n*   allow multiple selections where it makes sense.\n    \n*   Make it easy for users to select, unselect, or clear all filters."
+        },
         {
           "type": "rich-text",
           "title": "Don´t",
