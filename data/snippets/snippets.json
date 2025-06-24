@@ -4,31 +4,31 @@
       "title": "Alert: Information",
       "slug": "alert-information",
       "path": "snippets/alert-information/alert-information.json",
-      "code": "<gds-div width=\"200px\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\">\n  <strong>Information</strong> Body text starts on the same row as\n  heading. A link (optional) always ends the message.\n</gds-alert>\n</gds-div>"
+      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\">\n  <strong>Information</strong> Body text starts on the same row as\n  heading. A link (optional) always ends the message.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Notice",
       "slug": "alert-notice",
       "path": "snippets/alert-notice/alert-notice.json",
-      "code": "<gds-alert variant=\"notice\" role=\"alert\">\n  <strong>Notice</strong> Body text with link or additional context.\n</gds-alert>"
+      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"notice\" role=\"alert\">\n  <strong>Notice</strong> Body text with link or additional context.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Positive",
       "slug": "alert-positive",
       "path": "snippets/alert-positive/alert-positive.json",
-      "code": "<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>"
+      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Negative",
       "slug": "alert-negative",
       "path": "snippets/alert-variants/alert-variants.json",
-      "code": "<gds-alert variant=\"negative\" role=\"alert\">\n  <strong>Negative</strong> Error message requiring user attention.\n</gds-alert>"
+      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"negative\" role=\"alert\">\n  <strong>Negative</strong> Error message requiring user attention.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Warning",
       "slug": "alert-warning",
       "path": "snippets/alert-warning/alert-warning.json",
-      "code": "<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>"
+      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Breadcrumbs: Mobile",
@@ -266,5 +266,5 @@
     }
   ],
   "total": 44,
-  "lastUpdated": "2025-06-24T06:27:45.244Z"
+  "lastUpdated": "2025-06-24T06:29:40.921Z"
 }
