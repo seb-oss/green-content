@@ -1,6 +1,6 @@
 {
-  "title": "Alert: Variants",
-  "slug": "alert-variants",
+  "title": "Alert: Negative",
+  "slug": "alert-negative",
   "snippet_component": "Alert",
-  "code": "<gds-flex flex-direction=\"column\" gap=\"m\">\n      <gds-alert variant=\"information\" role=\"alert\">\n        <strong>Information</strong> Body text starts on the same row as\n        heading. A link (optional) always ends the message.\n      </gds-alert>\n      <gds-alert variant=\"notice\" role=\"alert\">\n        <strong>Notice</strong> Body text with link or additional context.\n      </gds-alert>\n      <gds-alert variant=\"positive\" role=\"alert\">\n        <strong>Positive</strong> Feedback message with optional CTA.\n      </gds-alert>\n      <gds-alert variant=\"warning\" role=\"alert\">\n        <strong>Warning</strong> Important information to consider.\n      </gds-alert>\n      <gds-alert variant=\"negative\" role=\"alert\">\n        <strong>Negative</strong> Error message requiring user attention.\n      </gds-alert>\n    </gds-flex>"
+  "code": "<gds-alert variant=\"negative\" role=\"alert\">\n  <strong>Negative</strong> Error message requiring user attention.\n</gds-alert>"
 }
