@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-24T06:58:12.227Z",
+    "lastUpdated": "2025-06-24T07:02:41.923Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -523,7 +523,7 @@
             "title": "Badge: Size",
             "slug": "badge-size",
             "path": "snippets/badge-size/badge-size.json",
-            "code": "<gds-flex align-items=\"center\" gap=\"4xl\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"information\" size=\"small\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n</gds-flex>",
+            "code": "<gds-flex align-items=\"center\" gap=\"4xl\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"positive\" size=\"small\">\n    240\n  </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/badge-size/badge-size.json"
             }

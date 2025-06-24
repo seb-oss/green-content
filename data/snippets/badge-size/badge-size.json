@@ -2,5 +2,5 @@
   "title": "Badge: Size",
   "slug": "badge-size",
   "snippet_component": "Badge",
-  "code": "<gds-flex align-items=\"center\" gap=\"4xl\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"information\" size=\"small\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n</gds-flex>"
+  "code": "<gds-flex align-items=\"center\" gap=\"4xl\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"positive\" size=\"small\">\n    240\n  </gds-badge>\n</gds-flex>"
 }
