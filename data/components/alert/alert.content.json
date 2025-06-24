@@ -112,6 +112,17 @@
         },
         {
           "type": "snippet",
+          "caption": "Alert variant warning",
+          "Snippet": "alert-warning"
+        },
+        {
+          "type": "rich-text",
+          "title": "Negative",
+          "tag": "H3",
+          "content": "Communicates critical issues or errors, like system outages, with a clear problem description, optional apology for system issues, and resolution guidance."
+        },
+        {
+          "type": "snippet",
           "caption": "Alert variant negative",
           "Snippet": "alert-negative"
         }
