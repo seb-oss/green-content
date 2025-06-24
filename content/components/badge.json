@@ -31,17 +31,14 @@
       ]
     },
     {
-      "cols": "2",
+      "title": "Size",
+      "section-content": "Available in 'default' and 'small' sizes to accommodate different UI contexts and content requirements.",
+      "cols": "1",
       "columns": [
         {
-          "type": "rich-text",
-          "title": "Size Options",
-          "tag": "H3",
-          "content": "Available in 'default' and 'small' sizes to accommodate different UI contexts and content requirements."
-        },
-        {
-          "type": "image",
-          "caption": "Badge sizes"
+          "type": "snippet",
+          "caption": "Default(large) and small badge size",
+          "Snippet": "badge-size"
         }
       ]
     },
