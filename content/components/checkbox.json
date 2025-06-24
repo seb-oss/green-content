@@ -197,14 +197,14 @@
           "content": "I have read the terms and conditions, and confirm that the information i have provided is correct."
         },
         {
+          "type": "figma",
+          "node": "i-form-do-eng"
+        },
+        {
           "type": "rich-text",
           "title": "Svenska",
           "tag": "H4",
           "content": "Jag har läst villkoren och försäkrar att de uppgifter jag fyllt i är riktiga."
-        },
-        {
-          "type": "figma",
-          "node": "i-form-do-eng"
         },
         {
           "type": "figma",
@@ -223,14 +223,14 @@
           "content": "Have you read the terms and conditions? Can you confirm that the information is correct?"
         },
         {
+          "type": "figma",
+          "node": "i-form-dont-eng"
+        },
+        {
           "type": "rich-text",
           "title": "Svenska",
           "tag": "H4",
           "content": "Har du läst villkoren? Kan du försäkra att den information du fyllt i stämmer?"
-        },
-        {
-          "type": "figma",
-          "node": "i-form-dont-eng"
         },
         {
           "type": "figma",
@@ -249,6 +249,10 @@
           "content": "Yes, please, I want exclusive offers and news by email."
         },
         {
+          "type": "figma",
+          "node": "negation-do-eng"
+        },
+        {
           "type": "rich-text",
           "title": "Svenska",
           "tag": "H4",
@@ -256,27 +260,28 @@
         },
         {
           "type": "figma",
-          "node": "negation-do-eng"
-        },
-        {
-          "type": "figma",
           "node": "negation-do-swe"
-        },
+        }
+      ]
+    },
+    {
+      "cols": "2",
+      "columns": [
         {
           "type": "rich-text",
           "title": "English",
-          "tag": "H4",
+          "tag": "H3",
           "content": "Yes, please, I do not want to miss out on exclusive offers and news by email."
+        },
+        {
+          "type": "figma",
+          "node": "negation-dont-eng"
         },
         {
           "type": "rich-text",
           "title": "Svenska",
           "tag": "H4",
           "content": "Ja tack, jag vill inte missa exklusiva erbjudanden och nyheter via mejl."
-        },
-        {
-          "type": "figma",
-          "node": "negation-dont-eng"
         },
         {
           "type": "figma",
@@ -295,14 +300,14 @@
           "content": "Do you want to get exclusive offers and news by email?"
         },
         {
+          "type": "figma",
+          "node": "questions-dont-eng"
+        },
+        {
           "type": "rich-text",
           "title": "Svenska",
           "tag": "H4",
           "content": "Vill du ha exklusiva erbjudanden och nyheter via mejl?"
-        },
-        {
-          "type": "figma",
-          "node": "questions-dont-eng"
         },
         {
           "type": "figma",
