@@ -37,9 +37,15 @@
       "columns": [
         {
           "type": "rich-text",
-          "title": "Do's",
+          "title": "Do",
           "tag": "H3",
           "content": "*   Use links only for navigation, not for actions.\n    \n*   Ensure link text is clear, concise, and descriptive (e.g. “View account details” instead of “Click here”).\n    \n*   Use icons to clarify the link’s function, especially for external links or downloads.\n    \n*   Ensure links are accessible: high contrast, visible focus state, and screen-reader friendly."
+        },
+        {
+          "type": "rich-text",
+          "title": "Don´t",
+          "tag": "H3",
+          "content": "*   use vague link texts like “Click here” or “Read more” without context.\n    \n*   use links to trigger actions like opening modals, submitting forms, or toggling UI—use buttons instead.\n    \n*   overload an interface with too many link styles—it can confuse users.\n    \n*   forget to test links in both light and dark modes for contrast and visibility."
         }
       ]
     }
