@@ -17,6 +17,7 @@
     "ios": false,
     "android": false
   },
+  "compare": "Dropdown",
   "overview": [
     {}
   ]
