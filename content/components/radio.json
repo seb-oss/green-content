@@ -4,6 +4,8 @@
   "hero_snippet": "hero-radio",
   "beta": true,
   "summary": "A radio button is a form element that allows users to select one of the predefined set of choices.",
+  "anatomy": true,
+  "anatomy-details": "1.  Label\n    \n2.  Label support text\n    \n3.  Info icon\n    \n4.  Extended label support text\n    \n5.  Radio button and label\n    \n6.  Label support text",
   "tags": [
     "Form"
   ],
