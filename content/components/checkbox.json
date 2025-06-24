@@ -193,12 +193,13 @@
         {
           "type": "rich-text",
           "title": "English",
-          "tag": "H3",
+          "tag": "H4",
           "content": "I have read the terms and conditions, and confirm that the information i have provided is correct."
         },
         {
           "type": "rich-text",
           "title": "Svenska",
+          "tag": "H4",
           "content": "Jag har läst villkoren och försäkrar att de uppgifter jag fyllt i är riktiga."
         },
         {
@@ -208,6 +209,78 @@
         {
           "type": "figma",
           "node": "i-form-do-swe"
+        }
+      ]
+    },
+    {
+      "title": "Don't",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "English",
+          "tag": "H4",
+          "content": "Have you read the terms and conditions? Can you confirm that the information is correct?"
+        },
+        {
+          "type": "rich-text",
+          "title": "Svenska",
+          "tag": "H4",
+          "content": "Har du läst villkoren? Kan du försäkra att den information du fyllt i stämmer?"
+        },
+        {
+          "type": "figma",
+          "node": "i-form-dont-eng"
+        },
+        {
+          "type": "figma",
+          "node": "i-form-dont-swe"
+        }
+      ]
+    },
+    {
+      "title": "Avoid negations",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "English",
+          "tag": "H4",
+          "content": "Yes, please, I want exclusive offers and news by email."
+        },
+        {
+          "type": "rich-text",
+          "title": "Svenska",
+          "tag": "H4",
+          "content": "Ja tack, jag vill ha exklusiva erbjudanden och nyheter via mejl."
+        },
+        {
+          "type": "figma",
+          "node": "negation-do-eng"
+        },
+        {
+          "type": "figma",
+          "node": "negation-do-swe"
+        },
+        {
+          "type": "rich-text",
+          "title": "English",
+          "tag": "H4",
+          "content": "Yes, please, I do not want to miss out on exclusive offers and news by email."
+        },
+        {
+          "type": "rich-text",
+          "title": "Svenska",
+          "tag": "H4",
+          "content": "Ja tack, jag vill inte missa exklusiva erbjudanden och nyheter via mejl."
+        },
+        {
+          "type": "figma",
+          "node": "negation-dont-eng"
+        },
+        {
+          "type": "figma",
+          "node": "negation-dont-swe"
         }
       ]
     }
