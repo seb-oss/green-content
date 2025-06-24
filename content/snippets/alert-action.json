@@ -1,0 +1,6 @@
+{
+  "title": "Alert: Action",
+  "slug": "alert-action",
+  "snippet_component": "Alert",
+  "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n  <strong>Actionable</strong> Alert with a button for quick user interaction.\n</gds-alert>\n</gds-div>"
+}
