@@ -6,6 +6,7 @@
   "summary": "A breadcrumb is a secondary navigation showing the website hierarchy.",
   "preamble": "We use breadcrumbs to display site hierarchy (rather than navigation path) and to increase findability of parent pages.\n\nBreadcrumbs help users navigate upward in the hierarchy and typically help with back-movement also. They also help with context when navigation is otherwise out of sight (for example in a mobile view).\n\nBreadcrumbs have been proven to reduce bounce rates for search-users, when they are able to quickly find related pages.",
   "anatomy": true,
+  "anatomy-details": "1.  Link\n    \n2.  Link divider\n    \n3.  Current page\n    \n4.  Overflow icon button",
   "tags": [
     "navigation"
   ],
