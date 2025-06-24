@@ -5,6 +5,7 @@
   "beta": true,
   "summary": "Segmented control allows users to select a single option, immediately changing the display to reflect their selection. It is used for switching views or view options, not for navigation.",
   "anatomy": true,
+  "anatomy-details": "1.  Segment buttons container\n    \n2.  Button\n    \n3.  Leading icon\n    \n4.  Label",
   "tags": [
     "navigation",
     "button"
