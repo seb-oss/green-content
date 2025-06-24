@@ -283,6 +283,66 @@
           "node": "negation-dont-swe"
         }
       ]
+    },
+    {
+      "title": "Avoid questions",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "English",
+          "tag": "H4",
+          "content": "Do you want to get exclusive offers and news by email?"
+        },
+        {
+          "type": "rich-text",
+          "title": "Svenska",
+          "tag": "H4",
+          "content": "Vill du ha exklusiva erbjudanden och nyheter via mejl?"
+        },
+        {
+          "type": "figma",
+          "node": "questions-dont-eng"
+        },
+        {
+          "type": "figma",
+          "node": "questions-dont-swe"
+        }
+      ]
+    },
+    {
+      "title": "Multiple options",
+      "section-content": "Ensure the label and options match. Provide clear instructions so users know they can select multiple options. Decide on a consistent style for option labels:\n\nFull sentences starting with a capital letter and ending with a full stop.\n\nA continuous sentence starting with lowercase, with only the last option ending in a full stop.\n\nSingle words or short phrases with no full stop."
+    },
+    {
+      "title": "Do",
+      "tag": "H3",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "node": "multiple-options-do-eng"
+        },
+        {
+          "type": "figma",
+          "node": "multiple-options-do-swe"
+        }
+      ]
+    },
+    {
+      "title": "Don't",
+      "tag": "H3",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "node": "options-dont-eng"
+        },
+        {
+          "type": "figma",
+          "node": "options-dont-swe"
+        }
+      ]
     }
   ]
 }
