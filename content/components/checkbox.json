@@ -4,6 +4,7 @@
   "hero_snippet": "hero-checkbox",
   "beta": true,
   "summary": "A checkbox is a form element that allows users to select one or multiple options.",
+  "preamble": "Checkboxes are commonly used in forms, settings, and filters to allow users to indicate their preferences.\nThe checkboxes are typically grouped with a theme label above and the possible options below.",
   "anatomy": true,
   "anatomy-overview": "The checkbox (and other form controls) are divided in sections that are re-used between components. Header: Label, label support, contextual help, extended support.\n\n*   **Body**: The checkbox.\n    \n*   **Footer**: Error message.",
   "anatomy-details": "1.  Header label\n    \n2.  Header support text\n    \n3.  Contextual help\n    \n4.  Extended support text\n    \n5.  Checkbox label\n    \n6.  Checkbox support text",
@@ -18,5 +19,162 @@
     "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Variants",
+      "section-content": "*   **Default**\n    \n*   **Contained**: Coming soon Used on its own or together with other form components.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Default variant.",
+          "node": "variant-default"
+        },
+        {
+          "type": "figma",
+          "caption": "Contained variant.",
+          "node": "variant-contained"
+        }
+      ]
+    },
+    {
+      "title": "Features",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Label",
+          "tag": "H3",
+          "content": "All individual checkboxes must have a label to ensure clarity and accessibility. When checkboxes are grouped, the group must have a header label. Labels help users understand the purpose of the checkboxes, including those using assistive technologies."
+        },
+        {
+          "type": "figma",
+          "caption": "Group and individual label.",
+          "node": "label"
+        },
+        {
+          "type": "rich-text",
+          "title": "Optional field indicator",
+          "tag": "H3",
+          "content": "Only use in the header label. We only ask for required information. If some fields are optional, we let users know by adding \"(optional)\" in brackets next to the field label. The word \"(optional)\" is shown in regular font weight to distinguish it from the label."
+        },
+        {
+          "type": "figma",
+          "caption": "Use '(optional)' to mark optional fields.",
+          "node": "optional"
+        }
+      ]
+    },
+    {
+      "title": "Support text",
+      "tag": "H2",
+      "section-content": "This can be used for both the header and individual checkboxes. Use this to explain how to fill in the field, for example how to count or what to include. Contained checkboxes don’t have support text for the individual checkboxes.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Default checkboxes with support text.",
+          "node": "support-text-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Contained checkboxes with support text.",
+          "node": "support-text-2"
+        }
+      ]
+    },
+    {
+      "title": "Contextual help",
+      "section-content": "If the label and support text are not enough to explain a field, we can use the info icon. Clicking the icon shows additional support text between the label support and the field.\n\n*   Use a tooltip if space is limited.\n    \n*   Use a modal for large amounts of text.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Use the info icon to show more support text.",
+          "node": "contextual-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Extended support expanded.",
+          "node": "contextual-2"
+        }
+      ]
+    },
+    {
+      "title": "Error message",
+      "section-content": "Used to indicate that a single checkbox must be checked or that a group of checkboxes has errors.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Default checkboxes with error.",
+          "node": "error-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Contained checkbox with error.",
+          "node": "error-2"
+        }
+      ]
+    },
+    {
+      "title": "Indeterminate state",
+      "section-content": "Used when a checkbox is partially selected, typically in parent-child relationships within nested checkboxes. Not available for the contained variant."
+    },
+    {
+      "title": "Behaviour:",
+      "tag": "H4",
+      "section-content": "*   If some child checkboxes are selected, the parent shows the indeterminate state.\n    \n*   If all child checkboxes are selected, the parent appears selected.\n    \n*   Selecting a parent checkbox (whether unselected or in the indeterminate state) selects all child checkboxes.\n    \n*   Deselecting the parent checkbox deselects all child checkboxes.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Checkbox with children.",
+          "node": "indeterminate-1"
+        },
+        {
+          "type": "figma",
+          "caption": "The checkbox 'All' showing the indeterminate state.",
+          "node": "indeterminate-2"
+        },
+        {
+          "type": "figma",
+          "caption": "All children selected.",
+          "node": "indeterminate-3"
+        }
+      ]
+    },
+    {
+      "title": "Alignment",
+      "section-content": "Checkboxes can be aligned horizontal or vertical.\n\n*   **Vertical**: This is the default alignment. It's easier to read and scan the available options.\n    \n*   **Horizontal**: Only used for a small set of options if the page shouldn't be to long, but try to avoid.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Default checkboxes with vertical alignment.",
+          "node": "alignment-vertical-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Default checkboxes with horizontal alignment.",
+          "node": "alignment-horisontal-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Contained checkboxes with vertical alignment.",
+          "node": "alignment-vertical-2"
+        },
+        {
+          "type": "figma",
+          "caption": "Contained checkboxes with horizontal alignment.",
+          "node": "alignment-horisontal-2"
+        }
+      ]
+    },
+    {
+      "title": "Don't",
+      "section-content": "*   Don’t overwhelm users with too many checkboxes on a single page or form. If you need to show many options, use a multi-select dropdown instead.\n    \n*   Don’t use it to toggle things on or off, use the switch component for that.\n    \n*   Don’t mix default and contained versions."
+    }
+  ]
 }
