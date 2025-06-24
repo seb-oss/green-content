@@ -18,5 +18,6 @@
     "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "compare": "Select"
 }
