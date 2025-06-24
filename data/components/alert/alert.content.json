@@ -75,12 +75,45 @@
           "type": "rich-text",
           "title": "Information",
           "tag": "H3",
-          "content": "|     |\n| --- |\n| Shares non-urgent updates, like new features or tips, with a brief message and optional next steps. |\n|     |"
+          "content": "Shares non-urgent updates, like new features or tips, with a brief message and optional next steps."
         },
         {
           "type": "snippet",
           "caption": "Alert variant information",
           "Snippet": "alert-information"
+        },
+        {
+          "type": "rich-text",
+          "title": "Notice",
+          "tag": "H3",
+          "content": "Conveys general announcements or non-critical updates, like service changes, with a short description and optional guidance."
+        },
+        {
+          "type": "snippet",
+          "caption": "Alert variant notice",
+          "Snippet": "alert-notice"
+        },
+        {
+          "type": "rich-text",
+          "title": "Positive",
+          "tag": "H3",
+          "content": "Confirms successful actions, like form submissions, with a success message, optional next steps, and possible brand reinforcement."
+        },
+        {
+          "type": "snippet",
+          "caption": "Alert variant positive",
+          "Snippet": "alert-positive"
+        },
+        {
+          "type": "rich-text",
+          "title": "Warning",
+          "tag": "H3",
+          "content": "Highlights non-critical issues, like upcoming deadlines, with a concise issue summary, optional duration estimate, and suggested actions."
+        },
+        {
+          "type": "snippet",
+          "caption": "Alert variant negative",
+          "Snippet": "alert-negative"
         }
       ]
     }
