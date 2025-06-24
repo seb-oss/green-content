@@ -85,7 +85,15 @@
     {
       "title": "Action button",
       "tag": "H3",
-      "section-content": "The Alert supports an optional action button with customizable text to trigger relevant actions."
+      "section-content": "The Alert supports an optional action button with customizable text to trigger relevant actions.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Alert with action button",
+          "Snippet": "alert-action"
+        }
+      ]
     },
     {
       "title": "Dismissibility",
