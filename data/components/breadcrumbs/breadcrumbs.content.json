@@ -67,76 +67,20 @@
   ],
   "ux-text": [
     {
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Default in desktop",
-          "tag": "H3",
-          "content": "The breadcrumb should be the same as the heading, or if lacking of heading the menu title, on the page it represent. The last breadcrumb is the page you are currently on. If the heading is very long and we have decided to make it shorter in the menu title then use the menu title as the breadcrumb title."
-        },
-        {
-          "type": "rich-text",
-          "title": "Breadcrumb Guidelines",
-          "tag": "H3",
-          "content": "Default breadcrumbs on desktop\n\n*   The breadcrumb should match the page's heading.\n    \n*   If there is no heading, use the menu title.\n    \n*   The last breadcrumb represents the current page.\n    \n*   If the heading is very long and shortened in the menu title, use the menu title as the breadcrumb"
-        }
-      ]
+      "title": "Default in desktop",
+      "section-content": "The breadcrumb should be the same as the heading, or if lacking of heading the menu title, on the page it represent. The last breadcrumb is the page you are currently on. If the heading is very long and we have decided to make it shorter in the menu title then use the menu title as the breadcrumb title."
+    },
+    {
+      "title": "Breadcrumb Guidelines",
+      "section-content": "Default breadcrumbs on desktop\n\n*   The breadcrumb should match the page's heading.\n    \n*   If there is no heading, use the menu title.\n    \n*   The last breadcrumb represents the current page.\n    \n*   If the heading is very long and shortened in the menu title, use the menu title as the breadcrumb."
     },
     {
       "title": "Web page mobile",
-      "tag": "H3",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "In mobile views, only the previous page's heading is displayed as the breadcrumb."
-        }
-      ]
+      "section-content": "In mobile views, only the previous page's heading is displayed as the breadcrumb."
     },
     {
       "title": "The apps (native)",
-      "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "In our apps, we have the same pattern for breadcrumbs as for the mobile view. But, since each page typically features a navbar with a title there may not be enough space for a long text like the previous heading. In such cases, use \"Back\" instead. If there is no room for even the word \"Back,\" display only the back arrow. Ensure that TalkBack/VoiceOver reads the previous page's title for accessibility."
-        }
-      ]
-    },
-    {
-      "title": "Default breadcrumbs on desktop",
-      "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "*   The breadcrumb should match the page's heading.\n    \n*   If there is no heading, use the menu title.\n    \n*   The last breadcrumb represents the current page.\n    \n*   If the heading is very long and shortened in the menu title, use the menu title as the breadcrumb."
-        }
-      ]
-    },
-    {
-      "title": "Web page mobile",
-      "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "In mobile views, only the previous page's heading is displayed as the breadcrumb."
-        }
-      ]
-    },
-    {
-      "title": "The apps (native)",
-      "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "In our apps, we have the same pattern for breadcrumbs as for the mobile view. But, since each page typically features a navbar with a title there may not be enough space for a long text like the previous heading. In such cases, use \"Back\" instead. If there is no room for even the word \"Back,\" display only the back arrow. Ensure that TalkBack/VoiceOver reads the previous page's title for accessibility."
-        }
-      ]
+      "section-content": "In our apps, we have the same pattern for breadcrumbs as for the mobile view. But, since each page typically features a navbar with a title there may not be enough space for a long text like the previous heading. In such cases, use \"Back\" instead. If there is no room for even the word \"Back,\" display only the back arrow. Ensure that TalkBack/VoiceOver reads the previous page's title for accessibility."
     }
   ],
   "accessibility": [
