@@ -5,6 +5,7 @@
   "beta": true,
   "summary": "Textarea allow users to input text and digits on multiple lines.",
   "anatomy": true,
+  "anatomy-details": "1.  Label\n    \n2.  Label support text\n    \n3.  Information icon\n    \n4.  Extended label support text\n    \n5.  Field container\n    \n6.  Leading icon\n    \n7.  Input value\n    \n8.  Icon button clear\n    \n9.  Carachter counter\n    \n10.  Resize handle",
   "tags": [
     "Form",
     "free-text",
