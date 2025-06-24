@@ -127,6 +127,15 @@ content:
             label: Android
             type: boolean
             default: false
+      - name: compare
+        label: Compare
+        type: reference
+        options:
+          collection: components
+          multiple: false
+          search: "title"
+          value: "{title}"
+          label: "{title}"
       - name: overview
         type: object
         label: Overview
