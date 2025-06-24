@@ -219,5 +219,54 @@
         }
       ]
     }
+  ],
+  "ux-text": [
+    {
+      "title": "Input field default",
+      "tag": "H3",
+      "section-content": "Our default input field has the label outside the field. This input field includes all the features we need in complex forms, and therefore it’s the most common."
+    },
+    {
+      "title": "Labels",
+      "section-content": "The same writing principles apply to labels for input fields, radio buttons, checkboxes, dropdowns, headings, page titles, navigation links, and other short texts."
+    },
+    {
+      "title": "Single-word or complete sentence",
+      "tag": "H3",
+      "section-content": "The texts should be as short as possible. Labels can contain single-words, complete sentences or query format.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Single-word example (Eng).",
+          "node": "single-or-complete-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Single-word example (Swe).",
+          "node": "single-or-complete-2"
+        },
+        {
+          "type": "figma",
+          "caption": "Complete sentence example (Eng).",
+          "node": "single-or-complete-3"
+        },
+        {
+          "type": "figma",
+          "caption": "Complete sentence example (Swe).",
+          "node": "single-or-complete-4"
+        },
+        {
+          "type": "figma",
+          "caption": "Query format example (Eng).",
+          "node": "query-format-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Query format example (Swe).",
+          "node": "query-format-2"
+        }
+      ]
+    }
   ]
 }
