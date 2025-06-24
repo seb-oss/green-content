@@ -43,6 +43,12 @@
       "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>"
     },
     {
+      "title": "Badge: Variants",
+      "slug": "badge-variants",
+      "path": "snippets/badge-variants/badge-variants.json",
+      "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"notice\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Notice\n  </gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge variant=\"warning\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Warning\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-triangle-exclamation slot=\"lead\"></gds-icon-triangle-exclamation>\n    Negative\n  </gds-badge>\n  <gds-badge variant=\"negative\" disabled=\"\">\n    <gds-icon-triangle-exclamation slot=\"lead\"></gds-icon-triangle-exclamation>\n    Disabled\n  </gds-badge>\n</gds-flex>"
+    },
+    {
       "title": "Breadcrumbs: Mobile",
       "slug": "breadcrumbs-mobile",
       "path": "snippets/breadcrumbs-mobile/breadcrumbs-mobile.json",
@@ -277,6 +283,6 @@
       "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>"
     }
   ],
-  "total": 46,
-  "lastUpdated": "2025-06-24T06:45:40.306Z"
+  "total": 47,
+  "lastUpdated": "2025-06-24T06:54:10.363Z"
 }
