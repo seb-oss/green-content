@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-24T06:35:12.274Z",
+    "lastUpdated": "2025-06-24T06:36:33.025Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -481,15 +481,6 @@
             "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-positive/alert-positive.json"
-            }
-          },
-          {
-            "title": "Alert: Negative",
-            "slug": "alert-negative",
-            "path": "snippets/alert-variants/alert-variants.json",
-            "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"negative\" role=\"alert\">\n  <strong>Negative</strong> Error message requiring user attention.\n</gds-alert>\n</gds-div>",
-            "endpoints": {
-              "content": "snippets/alert-variants/alert-variants.json"
             }
           },
           {

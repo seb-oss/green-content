@@ -19,12 +19,6 @@
       "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>\n</gds-div>"
     },
     {
-      "title": "Alert: Negative",
-      "slug": "alert-negative",
-      "path": "snippets/alert-variants/alert-variants.json",
-      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"negative\" role=\"alert\">\n  <strong>Negative</strong> Error message requiring user attention.\n</gds-alert>\n</gds-div>"
-    },
-    {
       "title": "Alert: Warning",
       "slug": "alert-warning",
       "path": "snippets/alert-warning/alert-warning.json",
@@ -265,6 +259,6 @@
       "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>"
     }
   ],
-  "total": 44,
-  "lastUpdated": "2025-06-24T06:35:12.275Z"
+  "total": 43,
+  "lastUpdated": "2025-06-24T06:36:33.026Z"
 }
