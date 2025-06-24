@@ -7,7 +7,7 @@
   "preamble": "Details consists of a label which is always visible, and an hidden section that can be expanded or collapsed by interacting with the label section. The collapsed content is hidden both visually and semantically in the accessibility tree, i.e from screen readers. Multiple Details components can be used together to create an accordion.\n\nAccordions or single Details component are commonly used to manage dense information in interfaces like FAQs, settings panels, or forms, saving space, reducing cognitive overload, and improving scannability while maintaining a clean, organized layout.\n\nDetails is largely modeled on, and provides similar semantics, as the native `<details>` HTML element.",
   "anatomy": true,
   "anatomy-overview": "Details consists of a label section with an icon to illustrate current state. This section always remains visible.. Below it is the content section which can be expanded or collapsed.",
-  "anatomy-details": "1.  Heading\n    \n2.  Icon button\n    \n3.  Expanded content",
+  "anatomy-details": "1.  Heading\n    \n2.  Icon button\n    \n3.  Expanded content\n    \n4.  Detail seperator",
   "tags": [
     "editorial",
     "faq"
