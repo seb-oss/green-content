@@ -5,6 +5,7 @@
   "beta": false,
   "summary": "A link navigates users to other pages or sections of content.",
   "anatomy": true,
+  "anatomy-details": "1.  Link text\n    \n2.  Leading icon\n    \n3.  Trailing icon\n    \n4.  Link decoration",
   "tags": [
     "navigation",
     "editorial"
