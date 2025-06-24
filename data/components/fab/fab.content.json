@@ -29,6 +29,24 @@
       "title": "Variants",
       "tag": "H2",
       "section-content": "The FAB can be adapted based on layout and context:  \n**FAB** – A circular button with an icon (e.g. a plus sign for “Add”).  \n**Extended FAB** – A wider button with both an icon and a label (e.g. ➕ “Add item”). Useful when more clarity is needed."
+    },
+    {
+      "title": "Do’s and don’ts",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Do",
+          "tag": "H3",
+          "content": "*   use the FAB for a single, primary action on the screen.\n    \n*   choose a clear, meaningful icon that reflects the action.\n    \n*   use extended FABs when users may need extra clarity about the action.\n    \n*   ensure the FAB doesn’t obstruct important content, especially on smaller screens.\n    \n*   keep FAB behavior consistent across views."
+        },
+        {
+          "type": "rich-text",
+          "title": "Don´t",
+          "tag": "H3",
+          "content": "*   use multiple FABs on the same screen—it confuses the user and defeats its purpose.\n    \n*   use FABs for secondary or low-priority actions.\n    \n*   place the FAB where it might block content or keyboard input.\n    \n*   use FABs for navigation—use links or tabs instead.\n    \n*   forget to test FAB placement and visibility across screen sizes and modes (light/dark)."
+        }
+      ]
     }
   ]
 }
