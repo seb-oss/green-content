@@ -7,7 +7,7 @@
   "preamble": "When a user attempts to submit a form with errors, this component displays a summary of those errors. Including a form summary assists users in promptly identifying and addressing multiple errors in a consolidated manner. It provides a clear indication of what went wrong and what needs to be corrected.",
   "anatomy": true,
   "anatomy-overview": "The form summary consists of a card with a heading outlining the number of errors currently in the form, followed by a list of the errors. Each error has an icon button with an arrow pointing in the direction of the associated control. Clicking one of the errors moves focus to the associated form control.",
-  "anatomy-details": "1.  Form summary card\n    \n2.  Heading showing the number of errors\n    \n3.  Error item in the list\n    \n4.  Icon button pointing in the direction of the associated control",
+  "anatomy-details": "1.  Card\n    \n2.  Heading with amount of errors\n    \n3.  Error item\n    \n4.  Icon button",
   "tags": [
     "form"
   ],
@@ -61,7 +61,7 @@
           "type": "rich-text",
           "title": "Do's and Don'ts",
           "tag": "H3",
-          "content": "#### Do\n\n*   Use clear labels and error messages for all form controls. The same labels and errors vill be shown in the form summary.\n    \n\n#### Don't\n\n*   Use the form summary component for small forms with only a few controls."
+          "content": "#### Do\n\n*   Use clear labels and error messages for all form controls. The same labels and errors vill be shown in the form summary.\n\n#### Don't\n\n*   Use the form summary component for small forms with only a few controls."
         }
       ]
     }
