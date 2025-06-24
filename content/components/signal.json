@@ -5,6 +5,7 @@
   "beta": true,
   "summary": "A signal draws attention to notifications and new content.",
   "anatomy": true,
+  "anatomy-details": "1.  Signal\n    \n2.  Signal pulse",
   "tags": [
     "feedback"
   ],
