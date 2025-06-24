@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-24T06:18:49.635Z",
+    "lastUpdated": "2025-06-24T06:19:06.475Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -472,6 +472,15 @@
             "code": "<gds-alert variant=\"notice\" role=\"alert\">\n  <strong>Notice</strong> Body text with link or additional context.\n</gds-alert>",
             "endpoints": {
               "content": "snippets/alert-notice/alert-notice.json"
+            }
+          },
+          {
+            "title": "Alert: Positive",
+            "slug": "alert-positive",
+            "path": "snippets/alert-positive/alert-positive.json",
+            "code": "<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>",
+            "endpoints": {
+              "content": "snippets/alert-positive/alert-positive.json"
             }
           },
           {

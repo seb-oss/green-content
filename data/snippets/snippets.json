@@ -13,6 +13,12 @@
       "code": "<gds-alert variant=\"notice\" role=\"alert\">\n  <strong>Notice</strong> Body text with link or additional context.\n</gds-alert>"
     },
     {
+      "title": "Alert: Positive",
+      "slug": "alert-positive",
+      "path": "snippets/alert-positive/alert-positive.json",
+      "code": "<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>"
+    },
+    {
       "title": "Alert: Variants",
       "slug": "alert-variants",
       "path": "snippets/alert-variants/alert-variants.json",
@@ -253,6 +259,6 @@
       "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>"
     }
   ],
-  "total": 42,
-  "lastUpdated": "2025-06-24T06:18:49.636Z"
+  "total": 43,
+  "lastUpdated": "2025-06-24T06:19:06.476Z"
 }
