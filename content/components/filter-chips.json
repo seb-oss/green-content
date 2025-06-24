@@ -35,11 +35,13 @@
         {
           "type": "rich-text",
           "title": "Do",
+          "tag": "H3",
           "content": "*   use a slide-out modal when there are many filter categories or options.\n    \n*   provide relevant, predefined options to make filtering easier.\n    \n*   allow multiple selections where it makes sense.\n    \n*   Make it easy for users to select, unselect, or clear all filters."
         },
         {
           "type": "rich-text",
           "title": "Don´t",
+          "tag": "H3",
           "content": "*   place the filter options directly in the content area if there are too many categories or filters — use a slide-out modal instead to keep the interface clean and manageable."
         }
       ]
