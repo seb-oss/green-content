@@ -65,6 +65,24 @@
           "content": "#### Do\n\n*   Use concise, clear message text to ensure quick comprehension.\n    \n*   Enable `dismissible` for alerts, unless you need them to stay on screen permanently.\n    \n\n#### Don't\n\n*   Don’t use overly long message text.\n    \n*   Avoid using `alert` role for non-critical messages; use `status` instead to reduce urgency.\n    \n*   Don’t set a timeout for critical alerts that require user acknowledgment.\n    \n*   Never omit the label property, as it’s essential for screen reader users.\n    \n*   Don’t use vague `button-label` text like “Click Here”; be specific about the action."
         }
       ]
+    },
+    {
+      "title": "Variants",
+      "section-content": "Supports five variants (\\`information\\`, `notice`, `positive`, `warning`, `negative`), each with specific icons and color schemes to convey different types of messages.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Information",
+          "tag": "H3",
+          "content": "|     |\n| --- |\n| Shares non-urgent updates, like new features or tips, with a brief message and optional next steps. |\n|     |"
+        },
+        {
+          "type": "snippet",
+          "caption": "Alert variant information",
+          "Snippet": "alert-information"
+        }
+      ]
     }
   ]
 }
