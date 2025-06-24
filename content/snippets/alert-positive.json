@@ -1,0 +1,6 @@
+{
+  "title": "Alert: Positive",
+  "slug": "alert-positive",
+  "snippet_component": "Alert",
+  "code": "<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>"
+}
