@@ -37,10 +37,13 @@
       ]
     },
     {
-      "title": "Sizes",
-      "section-content": "The input field comes in two sizes.\n\n*   **Large**\n    \n*   **Small**: used in tables and in some special cases where the space is very limited.",
       "cols": "2",
       "columns": [
+        {
+          "type": "rich-text",
+          "title": "Sizes",
+          "content": "The input field comes in two sizes.\n\n*   **Large**\n    \n*   **Small**: used in tables and in some special cases where the space is very limited."
+        },
         {
           "type": "figma",
           "caption": "Large and small input field.",
@@ -155,10 +158,13 @@
       ]
     },
     {
-      "title": "Character counter",
-      "section-content": "For fields with a character limit, a counter can be added to show users how many characters they have left.\n\nThe counter starts with the maximum allowed characters. As the user types, the remaining characters decrease. When the limit is nearly reached, the counter turns yellow. When or if the user exceeds the limit, the counter turns red.\n\nIf the user ignores this and attempts to submit, an error message will appear indicating that the maximum character limit has been reached.",
       "cols": "2",
       "columns": [
+        {
+          "type": "rich-text",
+          "title": "Character counter",
+          "content": "For fields with a character limit, a counter can be added to show users how many characters they have left.\n\nThe counter starts with the maximum allowed characters. As the user types, the remaining characters decrease. When the limit is nearly reached, the counter turns yellow. When or if the user exceeds the limit, the counter turns red.\n\nIf the user ignores this and attempts to submit, an error message will appear indicating that the maximum character limit has been reached."
+        },
         {
           "type": "figma",
           "caption": "Input field with the character counter.",
