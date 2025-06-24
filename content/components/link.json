@@ -4,6 +4,7 @@
   "hero_snippet": "hero-link",
   "beta": false,
   "summary": "A link navigates users to other pages or sections of content.",
+  "preamble": "The link component is used to navigate users to other pages, sections, or resources. It plays a key role in guiding users through the interface and must be designed for clarity, accessibility, and consistency.",
   "anatomy": true,
   "anatomy-details": "1.  Link text\n    \n2.  Leading icon\n    \n3.  Trailing icon\n    \n4.  Link decoration",
   "tags": [
@@ -17,5 +18,17 @@
     "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Usage",
+      "tag": "H2",
+      "section-content": "Use links for navigation — whether it’s within the same page, across pages, or to external sites. A good link is easy to recognize, descriptive, and accessible. It should clearly communicate where it will take the user, even when read out of context (for example, by a screen reader). Avoid using links for actions such as submitting forms or opening modals — use buttons instead."
+    },
+    {
+      "title": "Variants",
+      "tag": "H2",
+      "section-content": "**With leading icon** - Use when an icon helps reinforce the meaning of the link (e.g., a document or download icon before the text).  \n**With trailing icon** - Use for links that lead outside the current system, such as external websites. A trailing external link icon helps set expectations.  \n**With underline** - Used when a stronger visual indication is needed — for example, in long bodies of text or when links need to stand out clearly from surrounding content."
+    }
+  ]
 }
