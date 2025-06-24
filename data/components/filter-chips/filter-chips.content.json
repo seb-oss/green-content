@@ -5,6 +5,7 @@
   "beta": false,
   "summary": "Filter chips allow users to narrow down the data they want to see on the page.",
   "anatomy": true,
+  "anatomy-details": "1.  Chips container\n    \n2.  Label text\n    \n3.  Trailing icon (selected)\n    \n4.  Icon button remove\n    \n5.  Leading icon",
   "tags": [
     "filter",
     "button"
