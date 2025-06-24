@@ -19,17 +19,14 @@
   },
   "overview": [
     {
-      "cols": "2",
+      "title": "Variants",
+      "section-content": "A set of predefined styles (information, notice, positive, warning, negative) that convey different meanings and states through consistent visual treatment.",
+      "cols": "1",
       "columns": [
         {
-          "type": "rich-text",
-          "title": "Variants",
-          "tag": "H3",
-          "content": "A set of predefined styles (information, notice, positive, warning, negative) that convey different meanings and states through consistent visual treatment."
-        },
-        {
-          "type": "image",
-          "caption": "Badge variants"
+          "type": "snippet",
+          "caption": "All badge variants",
+          "Snippet": "badge-variants"
         }
       ]
     },
