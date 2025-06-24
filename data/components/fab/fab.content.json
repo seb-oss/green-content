@@ -22,17 +22,14 @@
   "overview": [
     {
       "title": "Usage",
-      "tag": "H2",
       "section-content": "The FAB is a high-visibility button used to promote a **key action** on a screen. It typically floats above the content, anchored to a corner (usually bottom-right or bottom-center on mobile).\n\nUse the FAB when a single, standout action is needed—such as \"Add\", \"Create\", or \"Start\". It should never compete with other primary actions and should be used **sparingly** to avoid visual clutter."
     },
     {
       "title": "Variants",
-      "tag": "H2",
       "section-content": "The FAB can be adapted based on layout and context:  \n**FAB** – A circular button with an icon (e.g. a plus sign for “Add”).  \n**Extended FAB** – A wider button with both an icon and a label (e.g. ➕ “Add item”). Useful when more clarity is needed."
     },
     {
       "title": "Do’s and don’ts",
-      "tag": "H2",
       "cols": "2",
       "columns": [
         {
