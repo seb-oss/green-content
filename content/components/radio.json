@@ -133,7 +133,7 @@
     },
     {
       "title": "Do's and Don'ts",
-      "cols": "1",
+      "cols": "2",
       "columns": [
         {
           "type": "rich-text",
