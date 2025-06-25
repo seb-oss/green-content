@@ -4,7 +4,7 @@
   "hero_snippet": "hero-div",
   "beta": true,
   "summary": "Div is a base element in the declarative layout system.",
-  "anatomy": true,
+  "anatomy": false,
   "category": [
     "Layout"
   ],
