@@ -16,5 +16,18 @@
     "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Usage",
+      "tag": "H2",
+      "section-content": "The signal is mainly used on buttons and menu buttons. The signal's style matches the button's rank and variant by default."
+    },
+    {
+      "title": "Example",
+      "tag": "H2",
+      "section-content": "On the intranet we use the signal on the “What is new”-button to indicate a new function or feauture has been released. The button will trigger a popover with more information about what is new.",
+      "cols": "2"
+    }
+  ]
 }
