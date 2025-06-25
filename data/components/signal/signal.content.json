@@ -4,7 +4,7 @@
   "hero_snippet": "hero-signal",
   "beta": true,
   "summary": "A signal draws attention to notifications and new content.",
-  "anatomy": true,
+  "anatomy": false,
   "anatomy-details": "1.  Signal\n    \n2.  Signal pulse",
   "tags": [
     "feedback"
