@@ -292,7 +292,7 @@
       "title": "Segmented control: Icons",
       "slug": "segmented-control-icons",
       "path": "snippets/segmented-control-icons/segmented-control-icons.json",
-      "code": "<gds-segmented-control width=\"80%\" value='2'>\n  <gds-segment value=\"1\">\n    <gds-flex align-items=\"center\" gap=\"s\">\n      <gds-icon-square-grid-circle size=\"m\"></gds-icon-square-grid-circle>\n      Item 1\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"2\">\n    <gds-flex align-items=\"center\" gap=\"m\">\n      <gds-icon-devices size=\"s\"></gds-icon-devices>\n      Item 2\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"3\">\n    <gds-flex align-items=\"center\" gap=\"m\">\n      <gds-icon-brand-green size=\"s\"></gds-icon-brand-green>\n      Item 3\n    </gds-flex>\n  </gds-segment>\n</gds-segmented-control>"
+      "code": "<gds-segmented-control value='2'>\n  <gds-segment value=\"1\">\n    <gds-flex align-items=\"center\" justify-content=\"center\" gap=\"xs\">\n      <gds-icon-square-grid-circle size=\"m\"></gds-icon-square-grid-circle>\n      Item 1\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"2\">\n    <gds-flex align-items=\"center\" justify-content=\"center\" gap=\"xs\">\n      <gds-icon-devices size=\"m\"></gds-icon-devices>\n      Item 2\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"3\">\n    <gds-flex align-items=\"center\" justify-content=\"center\" gap=\"xs\">\n      <gds-icon-brand-green size=\"m\"></gds-icon-brand-green>\n      Item 3\n    </gds-flex>\n  </gds-segment>\n</gds-segmented-control>"
     },
     {
       "title": "Segmented control: overflow",
@@ -314,5 +314,5 @@
     }
   ],
   "total": 52,
-  "lastUpdated": "2025-06-25T12:19:35.651Z"
+  "lastUpdated": "2025-06-25T12:21:40.147Z"
 }
