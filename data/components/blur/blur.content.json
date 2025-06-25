@@ -4,7 +4,7 @@
   "hero_snippet": "hero-blur",
   "beta": true,
   "summary": "The Blur component is used to apply a blur effect over content, often used to obscure sensitive or background information.",
-  "anatomy": true,
+  "anatomy": false,
   "tags": [
     "data"
   ],
