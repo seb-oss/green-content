@@ -191,5 +191,22 @@
         }
       ]
     }
+  ],
+  "accessibility": [
+    {
+      "section-content": "All values we measure need to pass in order to give a check on the accessibility on all our components."
+    },
+    {
+      "title": "Important considerations",
+      "section-content": "Uses default navigation: Tabs as normal and change the selected option with the arrow keys (up, down, left, and right)."
+    },
+    {
+      "title": "Usage",
+      "section-content": "For the web, the Radio and Radio Group components in Green Core are implemented to follow the radio and radiogroup role specifications and closely mimic native input type radio. If you follow all these do's and dont's all the screen-readers should work well."
+    },
+    {
+      "title": "Do's and Dont's",
+      "section-content": "*   Always provide labels for both radios and group\n    \n*   Always make sure each radio has a unique value\n    \n*   Never use radio buttons outside of a radio group\n    \n*   Never use less than two radios in a group"
+    }
   ]
 }
