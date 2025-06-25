@@ -3,7 +3,7 @@
   "slug": "flex",
   "hero_snippet": "hero-flex",
   "beta": false,
-  "anatomy": true,
+  "anatomy": false,
   "category": [
     "Layout"
   ],
