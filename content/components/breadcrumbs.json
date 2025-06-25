@@ -20,20 +20,13 @@
   },
   "overview": [
     {
-      "title": "When and how to use it",
-      "tag": "H2",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "Use for sites/applications that have a substantial amount of pages present deeper down in site structures."
-        }
-      ]
+      "title": "When to use it",
+      "section-content": "Use for sites/applications that have a substantial amount of pages present deeper down in site structures."
     },
     {
       "title": "Desktop",
       "section-content": "The full path may not take up more than one row in the layout.",
-      "cols": "2",
+      "cols": "1",
       "columns": [
         {
           "type": "snippet",
@@ -45,7 +38,7 @@
     {
       "title": "Mobile",
       "section-content": "For mobile views we only display the link to the parent page, as the full path tends to take too much space.\n\nThe same version may be used in shallow hierarchies where there still is a need to easily move one step up, or back to the page from where you came.",
-      "cols": "2",
+      "cols": "1",
       "columns": [
         {
           "type": "snippet",
