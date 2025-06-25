@@ -287,8 +287,14 @@
       "slug": "hero-video",
       "path": "snippets/hero-video/hero-video.json",
       "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>"
+    },
+    {
+      "title": "Segmented control: size default ",
+      "slug": "segmented-control-size-default",
+      "path": "snippets/segmented-control-size-default/segmented-control-size-default.json",
+      "code": "<gds-segmented-control width=\"280px\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     }
   ],
-  "total": 48,
-  "lastUpdated": "2025-06-25T11:46:57.574Z"
+  "total": 49,
+  "lastUpdated": "2025-06-25T11:55:57.651Z"
 }
