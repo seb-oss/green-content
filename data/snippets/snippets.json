@@ -289,6 +289,12 @@
       "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>"
     },
     {
+      "title": "Segmented control: overflow",
+      "slug": "segmented-control-overflow",
+      "path": "snippets/segmented-control-overflow/segmented-control-overflow.json",
+      "code": "<gds-segmented-control value=\"1\" width=\"80%\">\n      <gds-segment value=\"1\" min-width=\"200px\">Min-width</gds-segment>\n      <gds-segment value=\"flaschenabfüllmaschine\" max-width=\"150px\">Flaschenabfüllmaschine</gds-segment>\n      <gds-segment value=\"longlonglong\">Long long label</gds-segment>\n      <gds-segment value=\"longlabel\">An even longer long label</gds-segment>\n      <gds-segment value=\"pinetrees\">Pinetrees</gds-segment>\n    </gds-segmented-control>"
+    },
+    {
       "title": "Segmented control: size default ",
       "slug": "segmented-control-size-default",
       "path": "snippets/segmented-control-size-default/segmented-control-size-default.json",
@@ -301,6 +307,6 @@
       "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     }
   ],
-  "total": 50,
-  "lastUpdated": "2025-06-25T11:57:38.941Z"
+  "total": 51,
+  "lastUpdated": "2025-06-25T12:01:41.443Z"
 }
