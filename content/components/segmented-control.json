@@ -39,7 +39,7 @@
     },
     {
       "title": "Overflow",
-      "section-content": "When there isn't enough room for all items to be displayed the items will need to scroll. This is indicated by arrows indicating that there are more options available.\n\nSegments can have different widths depending on the content, and if there are too many segments to fit in the container, scroll buttons will appear to the left and/or right.\n\nSegment with can also be controlled individually on the segments using the `width`, `min-width` and `max-width` Style Expression properties.",
+      "section-content": "Segments can have different widths depending on the content, and if there are too many segments to fit in the container, scroll buttons will appear to the left and/or right.\n\nSegment with can also be controlled individually on the segments using the `width`, `min-width` and `max-width` Style Expression properties.",
       "cols": "1",
       "columns": [
         {
