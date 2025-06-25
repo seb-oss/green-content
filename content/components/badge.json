@@ -50,7 +50,7 @@
     {
       "title": "Notification Mode",
       "section-content": "Specialized display mode optimized for notification indicators with rounded styling.",
-      "cols": "2",
+      "cols": "1",
       "columns": [
         {
           "type": "snippet",
