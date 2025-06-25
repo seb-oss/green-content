@@ -26,7 +26,7 @@
     },
     {
       "title": "Variants",
-      "section-content": "The FAB can be adapted based on layout and context:  \n**FAB** – A circular button with an icon (e.g. a plus sign for “Add”).  \n**Extended FAB** – A wider button with both an icon and a label (e.g. ➕ “Add item”). Useful when more clarity is needed."
+      "section-content": "The FAB can be adapted based on layout and context:\n\n*   **FAB** – A circular button with an icon (e.g. a plus sign for “Add”)\n    \n*   **Extended FAB** – A wider button with both an icon and a label (e.g. ➕ “Add item”). Useful when more clarity is needed."
     },
     {
       "title": "Do’s and don’ts",
