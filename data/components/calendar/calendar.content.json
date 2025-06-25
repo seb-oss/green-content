@@ -5,7 +5,7 @@
   "beta": false,
   "summary": "The calendar displays a grid of selectable dates.",
   "preamble": "The calendar component provides the foundation for datepicker and is not intended for direct implementation. For date selection functionality, use the datepicker component where full documentation is available.",
-  "anatomy": true,
+  "anatomy": false,
   "tags": [
     "date",
     "date-range",
