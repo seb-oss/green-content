@@ -19,5 +19,133 @@
     "ios": false,
     "android": false
   },
-  "compare": "Checkbox"
+  "compare": "Checkbox",
+  "overview": [
+    {
+      "title": "Variants",
+      "section-content": "*   **Default**\n    \n*   **Contained**: used only in combination with other contained form components.\n    \n*   **Contained extended(coming soon)**: The contained version but including Label support text.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Default radio button.",
+          "node": "variant-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Contained radio button.",
+          "node": "variant-2"
+        }
+      ]
+    },
+    {
+      "title": "Features",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Label",
+          "tag": "H3",
+          "content": "All individual radio buttons must have a label to ensure clarity and accessibility. When radio buttons are grouped, the group must have a header label. Labels help users understand the purpose of the radio buttons, including those using assistive technologies."
+        },
+        {
+          "type": "figma",
+          "caption": "Radio button labels.",
+          "node": "label"
+        },
+        {
+          "type": "rich-text",
+          "title": "Label support",
+          "tag": "H3",
+          "content": "This can be used for both the header and individual radio buttons. Use this to explain how to fill in the field, for example how to count or what to include. Contained radio buttons don’t have support text for the individual radio buttons."
+        },
+        {
+          "type": "figma",
+          "caption": "Radio buttons with support texts.",
+          "node": "label-support-text"
+        }
+      ]
+    },
+    {
+      "title": "Contextual help",
+      "section-content": "If the label and support text are not enough to explain a field, we can use the info icon. Clicking the icon shows additional support text between the label support and the field.\n\n*   Use a tooltip if space is limited.\n    \n*   Use a modal for large amounts of text.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Info icon button to reach help.",
+          "node": "contextual-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Extended support visible.",
+          "node": "contextual-2"
+        }
+      ]
+    },
+    {
+      "title": "Error message",
+      "section-content": "If an error occurs we mark the entire group of options with error. The error is described with an error message.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Default radio buttons with error.",
+          "node": "error-default"
+        },
+        {
+          "type": "figma",
+          "caption": "Extended support visible.",
+          "node": "error-contained"
+        }
+      ]
+    },
+    {
+      "title": "Behaviour",
+      "section-content": "*   **Mutual exclusivity**: Only one radio button within a group can be selected at a time.\n    \n*   **Defaults**: Aim for having one option pre-selected."
+    },
+    {
+      "title": "Alignment",
+      "section-content": "We can align the radio buttons both horizontal and vertical.\n\n*   **Vertical**: This is the default alignment. It's easier to read and scan the available options.\n    \n*   **Horizontal**: Only used for a small set of options if the page shouldn't be to long, but try to avoid.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Default radio buttons with vertical alignment.",
+          "node": "alignment-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Default radio buttons with horizontal alignment.",
+          "node": "alignment-2"
+        },
+        {
+          "type": "figma",
+          "caption": "Contained radio buttons with vertical alignment.",
+          "node": "alignment-3"
+        },
+        {
+          "type": "figma",
+          "caption": "Contained radio buttons with horizontal alignment.",
+          "node": "alignment-4"
+        }
+      ]
+    },
+    {
+      "title": "Do's and Don'ts",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Do",
+          "content": "*   Have at least two options."
+        },
+        {
+          "type": "rich-text",
+          "title": "Don't",
+          "content": "*   Don’t use radio buttons for non-mutually exclusive options; consider checkboxes instead.\n    \n*   Don’t overwhelm users with too many radio buttons on a single page or form. If you need to show many options, use a single select dropdown instead.\n    \n*   Don’t mix default and contained versions."
+        }
+      ]
+    }
+  ]
 }
