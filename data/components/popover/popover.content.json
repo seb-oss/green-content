@@ -4,7 +4,7 @@
   "hero_snippet": "hero-popover",
   "beta": false,
   "summary": "A popover is a temporary view that appears above other content.",
-  "anatomy": true,
+  "anatomy": false,
   "tags": [
     "feedback",
     "tooltip"
