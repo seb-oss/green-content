@@ -85,6 +85,12 @@
       "code": "<gds-breadcrumbs size=\"small\" width=\"100px\">\n  <gds-link href=\"/\">\n    <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n    Green\n  </gds-link>\n  <gds-link href=\"/folder\">\n    <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n    Folder\n  </gds-link>\n  <gds-text> Current </gds-text>\n</gds-breadcrumbs>"
     },
     {
+      "title": "Breadcrumbs: overflow",
+      "slug": "breadcrumbs-overflow",
+      "path": "snippets/breadcrumbs-overflow/breadcrumbs-overflow.json",
+      "code": "<gds-breadcrumbs>\n  <gds-link href=\"#\">\n    <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n    Home\n  </gds-link>\n\n  <gds-link href=\"#\">\n    <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n    Documents\n  </gds-link>\n\n  <gds-button rank=\"tertiary\" size=\"small\">\n    <gds-icon-dot-grid-one-horizontal></gds-icon-dot-grid-one-horizontal>\n  </gds-button>\n\n  <gds-link href=\"#\">\n    <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n    Settings\n  </gds-link>\n\n  <gds-text> Current page </gds-text>\n</gds-breadcrumbs>"
+    },
+    {
       "title": "Hero: Alert",
       "slug": "hero-alert",
       "path": "snippets/hero-alert/hero-alert.json",
@@ -337,6 +343,6 @@
       "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     }
   ],
-  "total": 56,
-  "lastUpdated": "2025-06-25T13:25:40.079Z"
+  "total": 57,
+  "lastUpdated": "2025-06-25T13:28:17.577Z"
 }
