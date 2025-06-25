@@ -67,6 +67,12 @@
       "code": "<gds-flex align-items=\"center\" gap=\"4xl\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"positive\" size=\"small\">\n    240\n  </gds-badge>\n</gds-flex>"
     },
     {
+      "title": "Badge: Trail",
+      "slug": "badge-trail",
+      "path": "snippets/badge-trail/badge-trail.json",
+      "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    <gds-icon-plus-small slot=\"lead\"></gds-icon-plus-small>\n    10,000.00\n    <span slot=\"trail\">SEK</span>\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-minus-small slot=\"lead\"></gds-icon-minus-small>\n    142.00\n    <span slot=\"trail\">EUR</span>\n  </gds-badge>\n</gds-flex>"
+    },
+    {
       "title": "Badge: Variants",
       "slug": "badge-variants",
       "path": "snippets/badge-variants/badge-variants.json",
@@ -331,6 +337,6 @@
       "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     }
   ],
-  "total": 55,
-  "lastUpdated": "2025-06-25T13:15:20.107Z"
+  "total": 56,
+  "lastUpdated": "2025-06-25T13:16:15.446Z"
 }
