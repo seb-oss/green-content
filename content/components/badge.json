@@ -20,7 +20,7 @@
   "overview": [
     {
       "title": "Variants",
-      "section-content": "A set of predefined styles (information, notice, positive, warning, negative) that convey different meanings and states through consistent visual treatment.",
+      "section-content": "A set of predefined styles (information, notice, positive, warning, negative) that convey different meanings and states through consistent visual treatment. Choose the badge variant based on the tone and urgency of the message:\n\n*   **Positive** – For confirming success or a completed action (e.g., “Active” or “Paid”).\n    \n*   **Negative** – For errors, failed states, or items requiring immediate attention.\n    \n*   **Notice** – For neutral alerts or flags that are not critical but still relevant.\n    \n*   **Warning** – For potential issues users should be cautious about.\n    \n*   **Information** – For general updates or tips that help the user understand context.",
       "cols": "1",
       "columns": [
         {
@@ -59,6 +59,11 @@
     {
       "title": "Rounded",
       "section-content": "Rounded example"
+    },
+    {
+      "title": "Usage",
+      "tag": "H2",
+      "section-content": "Badges are especially useful for:\n\n*   **Status indicators** – Showing that something is new, in progress, needs attention, or has been successfully completed.\n    \n*   **Counters** – Indicating the number of new messages, notifications, or tasks.\n    \n*   **Contextual highlights** – Marking a feature as beta, or signaling updates users should be aware of.\n    \n\nUse badges sparingly—too many can create visual noise and reduce their impact. Always ensure that the badge color and label clearly support the intended message."
     }
   ]
 }
