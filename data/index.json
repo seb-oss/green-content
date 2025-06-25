@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-25T11:55:57.650Z",
+    "lastUpdated": "2025-06-25T11:56:53.605Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -895,6 +895,15 @@
             "code": "<gds-segmented-control width=\"280px\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>",
             "endpoints": {
               "content": "snippets/segmented-control-size-default/segmented-control-size-default.json"
+            }
+          },
+          {
+            "title": "Segmented control: size small",
+            "slug": "segmented-control-size-small",
+            "path": "snippets/segmented-control-size-small/segmented-control-size-small.json",
+            "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>",
+            "endpoints": {
+              "content": "snippets/segmented-control-size-small/segmented-control-size-small.json"
             }
           }
         ]
