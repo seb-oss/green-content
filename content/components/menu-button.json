@@ -24,6 +24,11 @@
       "title": "Usage",
       "tag": "H2",
       "section-content": "Use the menu button to create clear and accessible navigation in the top bar of the site. Choose the appropriate combination of text and icon depending on the context:\n\n*   Text only is best for straightforward links where the label clearly communicates the destination.\n    \n*   Text with icon adds clarity, especially when the icon reinforces the meaning (e.g., a user icon for profile-related links).\n    \n*   Icon only can be used when space is limited, but only if the icon is widely recognized and its meaning is unambiguous.\n    \n\nMenu Buttons visually indicate the current page or section using a background and underline. This helps users stay oriented as they move through the site."
+    },
+    {
+      "title": "Sizes",
+      "tag": "H2",
+      "section-content": "The menu button comes in three sizes to fit different layout needs and navigation contexts:   \n\n*   **Large** - Uses a 16px font size and is typically used in primary navigation where space allows for larger, more prominent buttons. It provides good readability and clear touch targets.\n    \n*   **Medium** - Uses a 14px font size. It works well when space is limited but readability and clarity are still important.\n    \n*   **Small** - Also uses a 14px font size but is optimized for tighter layouts and smaller viewports. The text and icon are vertically aligned to maintain visual balance in compact spaces, such as in mobile navigation or secondary toolbars.   \n    \n\nRegardless of size, the height of the Menu Button will adapt to match the height set by the top bar. This ensures consistent alignment and spacing across the entire navigation."
     }
   ]
 }
