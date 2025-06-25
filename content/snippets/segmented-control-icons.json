@@ -1,0 +1,5 @@
+{
+  "title": "Segmented control: Icons",
+  "slug": "segmented-control-icons",
+  "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n  <gds-segment value=\"1\">\n    <gds-flex align-items=\"center\" gap=\"s\">\n      <gds-icon-square-grid-circle size=\"s\"></gds-icon-square-grid-circle>\n      Item 1\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"1\">\n    <gds-flex align-items=\"center\" gap=\"s\">\n      <gds-icon-devices size=\"s\"></gds-icon-devices>\n      Item 2\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"1\">\n    <gds-flex align-items=\"center\" gap=\"s\">\n      <gds-icon-brand-green size=\"s\"></gds-icon-brand-green>\n      Item 3\n    </gds-flex>\n  </gds-segment>\n</gds-segmented-control>"
+}
