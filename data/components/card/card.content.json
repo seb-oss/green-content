@@ -5,7 +5,7 @@
   "beta": true,
   "summary": "The card groups related content into a single container.",
   "preamble": "Cards are used to presents content in a visually distinct, self-contained unit. It typically acts as a container for related information, such as text, images, buttons, or other interactive elements, grouped together to convey a single idea or action. Cards are designed to be flexible and consistent, adhering to the design system's guidelines for typography, spacing, colors, and interaction patterns.",
-  "anatomy": true,
+  "anatomy": false,
   "anatomy-overview": "A card is a container with rounded corners and a background and content color determined by its variant. The card has one main slot where any type of content can be placed.",
   "category": [
     "Layout"
