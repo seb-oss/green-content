@@ -49,11 +49,27 @@
     },
     {
       "title": "Notification Mode",
-      "section-content": "Specialized display mode optimized for notification indicators with rounded styling."
+      "section-content": "Specialized display mode optimized for notification indicators with rounded styling.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Badge notification mode.",
+          "Snippet": "badge-notification"
+        }
+      ]
     },
     {
       "title": "Rounded",
-      "section-content": "Rounded example"
+      "section-content": "The rounded property transforms the badge's appearance by applying fully circular corners, making it ideal for numerical indicators or status markers where a softer, pill-shaped design is desired. This styling variation maintains the badge's core functionality while offering an alternative visual treatment that can better suit certain interface contexts, particularly when used with single or double-digit numbers.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Rounded badge.",
+          "Snippet": "badge-rounded"
+        }
+      ]
     }
   ]
 }
