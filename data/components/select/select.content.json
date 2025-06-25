@@ -4,7 +4,10 @@
   "hero_snippet": "hero-select",
   "beta": true,
   "summary": "A select enables the user to choose one or multiple options from a list.",
+  "preamble": "The select component is designed for single-choice selections, offering native mobile functionality and enhanced accessibility. Best suited for simple option lists, while maintaining familiar dropdown behaviour across devices.",
   "anatomy": true,
+  "anatomy-overview": "The select (and other form controls) are divided in sections that are re-used between components.\n\n*   **Header**: Label, label support, contextual help, extended support.\n    \n*   **Body**: The field.\n    \n*   **Footer**: Error message.",
+  "anatomy-details": "Details of header and footer elements are described in dropdown",
   "tags": [
     "Form",
     "select"
@@ -19,6 +22,13 @@
   },
   "compare": "Dropdown",
   "overview": [
-    {}
+    {
+      "title": "Behaviour",
+      "section-content": "Styling for the list of options varies by browser, and long text in the select component is truncated with ellipses."
+    },
+    {
+      "title": "Browsers",
+      "section-content": "The option list will look and be handled according to each browser."
+    }
   ]
 }
