@@ -48,7 +48,8 @@
       "columns": [
         {
           "type": "snippet",
-          "caption": "Segmented controls with icons"
+          "caption": "Segmented controls with icons",
+          "Snippet": "segmented-control-icons"
         }
       ]
     },
