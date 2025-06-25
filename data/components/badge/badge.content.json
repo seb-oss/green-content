@@ -78,11 +78,13 @@
       "columns": [
         {
           "type": "snippet",
-          "caption": "Badge with lead icon"
+          "caption": "Badge with lead icon",
+          "Snippet": "badge-lead"
         },
         {
           "type": "snippet",
-          "caption": "Badge with trail content"
+          "caption": "Badge with trail content",
+          "Snippet": "badge-trail"
         }
       ]
     }
