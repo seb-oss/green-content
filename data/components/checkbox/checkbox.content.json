@@ -189,6 +189,7 @@
     },
     {
       "title": "Use the “I” form",
+      "tag": "H3",
       "cols": "2",
       "columns": [
         {
@@ -215,6 +216,7 @@
     },
     {
       "title": "Don't",
+      "tag": "H3",
       "cols": "2",
       "columns": [
         {
@@ -241,6 +243,7 @@
     },
     {
       "title": "Avoid negations",
+      "tag": "H3",
       "cols": "2",
       "columns": [
         {
@@ -292,6 +295,7 @@
     },
     {
       "title": "Avoid questions",
+      "tag": "H3",
       "cols": "2",
       "columns": [
         {
