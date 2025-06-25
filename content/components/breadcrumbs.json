@@ -54,7 +54,8 @@
       "columns": [
         {
           "type": "snippet",
-          "caption": "Breadcrumbs with custom overflow"
+          "caption": "Breadcrumbs with custom overflow",
+          "Snippet": "breadcrumbs-overflow"
         }
       ]
     }
