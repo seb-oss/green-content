@@ -29,6 +29,25 @@
       "title": "Sizes",
       "tag": "H2",
       "section-content": "The menu button comes in three sizes to fit different layout needs and navigation contexts:   \n\n*   **Large** - Uses a 16px font size and is typically used in primary navigation where space allows for larger, more prominent buttons. It provides good readability and clear touch targets.\n    \n*   **Medium** - Uses a 14px font size. It works well when space is limited but readability and clarity are still important.\n    \n*   **Small** - Also uses a 14px font size but is optimized for tighter layouts and smaller viewports. The text and icon are vertically aligned to maintain visual balance in compact spaces, such as in mobile navigation or secondary toolbars.   \n    \n\nRegardless of size, the height of the Menu Button will adapt to match the height set by the top bar. This ensures consistent alignment and spacing across the entire navigation."
+    },
+    {
+      "title": "Do's and don'ts",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Do",
+          "tag": "H3",
+          "content": "*   use consistent sizing and styling within the top bar to create a clear and cohesive navigation experience.\n    \n*   combine text and icons when it helps clarify the purpose of the button—especially for actions like profile, help, or settings.\n    \n*   keep button labels short and descriptive to avoid crowding the top bar.  \n    make sure icons are accessible and easily understood if used without text (e.g., user avatar)."
+        },
+        {
+          "type": "rich-text",
+          "title": "Don´t",
+          "tag": "H3",
+          "content": "*   mix different sizes of menu buttons within the same navigation bar.\n    \n*   rely on icon-only buttons unless the icon’s meaning is universally understood.\n    \n*   use menu buttons for actions unrelated to navigation.\n    \n*   add too many buttons to the top bar—keep the navigation focused and uncluttered."
+        }
+      ]
     }
   ]
 }
