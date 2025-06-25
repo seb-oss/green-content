@@ -292,7 +292,7 @@
       "title": "Segmented control: overflow",
       "slug": "segmented-control-overflow",
       "path": "snippets/segmented-control-overflow/segmented-control-overflow.json",
-      "code": "<gds-segmented-control value=\"1\" width=\"80%\">\n      <gds-segment value=\"1\" min-width=\"200px\">Min-width</gds-segment>\n      <gds-segment value=\"flaschenabfüllmaschine\" max-width=\"150px\">Flaschenabfüllmaschine</gds-segment>\n      <gds-segment value=\"longlonglong\">Long long label</gds-segment>\n      <gds-segment value=\"longlabel\">An even longer long label</gds-segment>\n      <gds-segment value=\"pinetrees\">Pinetrees</gds-segment>\n    </gds-segmented-control>"
+      "code": "<gds-segmented-control value=\"1\" width=\"80%\">\n  <gds-segment value=\"1\" min-width=\"200px\">Min-width</gds-segment>\n  <gds-segment value=\"flaschenabfüllmaschine\" max-width=\"150px\">Flaschenabfüllmaschine</gds-segment>\n  <gds-segment value=\"longlonglong\">Long long label</gds-segment>\n  <gds-segment value=\"longlabel\">An even longer long label</gds-segment>\n  <gds-segment value=\"pinetrees\">Pinetrees</gds-segment>\n</gds-segmented-control>"
     },
     {
       "title": "Segmented control: size default ",
@@ -308,5 +308,5 @@
     }
   ],
   "total": 51,
-  "lastUpdated": "2025-06-25T12:01:41.443Z"
+  "lastUpdated": "2025-06-25T12:02:01.345Z"
 }

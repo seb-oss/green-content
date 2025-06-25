@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-25T12:01:41.442Z",
+    "lastUpdated": "2025-06-25T12:02:01.344Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -892,7 +892,7 @@
             "title": "Segmented control: overflow",
             "slug": "segmented-control-overflow",
             "path": "snippets/segmented-control-overflow/segmented-control-overflow.json",
-            "code": "<gds-segmented-control value=\"1\" width=\"80%\">\n      <gds-segment value=\"1\" min-width=\"200px\">Min-width</gds-segment>\n      <gds-segment value=\"flaschenabfüllmaschine\" max-width=\"150px\">Flaschenabfüllmaschine</gds-segment>\n      <gds-segment value=\"longlonglong\">Long long label</gds-segment>\n      <gds-segment value=\"longlabel\">An even longer long label</gds-segment>\n      <gds-segment value=\"pinetrees\">Pinetrees</gds-segment>\n    </gds-segmented-control>",
+            "code": "<gds-segmented-control value=\"1\" width=\"80%\">\n  <gds-segment value=\"1\" min-width=\"200px\">Min-width</gds-segment>\n  <gds-segment value=\"flaschenabfüllmaschine\" max-width=\"150px\">Flaschenabfüllmaschine</gds-segment>\n  <gds-segment value=\"longlonglong\">Long long label</gds-segment>\n  <gds-segment value=\"longlabel\">An even longer long label</gds-segment>\n  <gds-segment value=\"pinetrees\">Pinetrees</gds-segment>\n</gds-segmented-control>",
             "endpoints": {
               "content": "snippets/segmented-control-overflow/segmented-control-overflow.json"
             }
