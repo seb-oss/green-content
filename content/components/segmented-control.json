@@ -28,11 +28,12 @@
         {
           "type": "snippet",
           "caption": "Default size",
-          "Snippet": "null"
+          "Snippet": "segmented-control-size-default"
         },
         {
           "type": "snippet",
-          "caption": "Small size"
+          "caption": "Small size",
+          "Snippet": "segmented-control-size-small"
         }
       ]
     }
