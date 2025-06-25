@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-25T13:06:39.842Z",
+    "lastUpdated": "2025-06-25T13:07:56.241Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -517,6 +517,15 @@
             "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-warning/alert-warning.json"
+            }
+          },
+          {
+            "title": "Badge: Notification",
+            "slug": "badge-notification",
+            "path": "snippets/badge-notification/badge-notification.json",
+            "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge variant=\"negative\" notification=\"\"></gds-badge>\n  <gds-badge variant=\"negative\" notification=\"\">9</gds-badge>\n  <gds-badge variant=\"negative\" notification=\"\">99+</gds-badge>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/badge-notification/badge-notification.json"
             }
           },
           {
