@@ -36,6 +36,17 @@
           "Snippet": "segmented-control-size-small"
         }
       ]
+    },
+    {
+      "title": "Overflow",
+      "section-content": "When there isn't enough room for all items to be displayed the items will need to scroll. This is indicated by arrows indicating that there are more options available.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Overflow of options"
+        }
+      ]
     }
   ]
 }
