@@ -4,7 +4,7 @@
   "hero_snippet": "hero-theme",
   "beta": false,
   "summary": "Theme summary",
-  "anatomy": true,
+  "anatomy": false,
   "category": [
     "Layout"
   ],
