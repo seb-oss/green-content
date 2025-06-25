@@ -88,7 +88,7 @@
       "title": "Breadcrumbs: overflow",
       "slug": "breadcrumbs-overflow",
       "path": "snippets/breadcrumbs-overflow/breadcrumbs-overflow.json",
-      "code": "<gds-flex width=\"80%\" align-items=\"center\">\n  <gds-breadcrumbs width=\"100%\" size=\"small\">\n    <gds-link href=\"#\">\n      <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n      Home\n    </gds-link>\n    <gds-link href=\"#\">\n      <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n      Documents\n    </gds-link>\n    <gds-button rank=\"tertiary\" size=\"xs\">\n      <gds-icon-dot-grid-one-horizontal size=\"s\"></gds-icon-dot-grid-one-horizontal>\n    </gds-button>\n    <gds-link href=\"#\">\n      <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n      Settings\n    </gds-link>\n    <gds-text> Current page </gds-text>\n  </gds-breadcrumbs>\n</gds-flex>"
+      "code": "<gds-flex width=\"80%\" align-items=\"center\" justify-content=\"center\">\n  <div>\n    <gds-breadcrumbs width=\"100%\" size=\"small\">\n      <gds-link href=\"#\">\n        <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n        Home\n      </gds-link>\n      <gds-link href=\"#\">\n        <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n        Documents\n      </gds-link>\n      <gds-button rank=\"tertiary\" size=\"xs\">\n        <gds-icon-dot-grid-one-horizontal size=\"s\"></gds-icon-dot-grid-one-horizontal>\n      </gds-button>\n      <gds-link href=\"#\">\n        <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n        Settings\n      </gds-link>\n      <gds-text> Current page </gds-text>\n    </gds-breadcrumbs>\n  </div>\n</gds-flex>"
     },
     {
       "title": "Hero: Alert",
@@ -344,5 +344,5 @@
     }
   ],
   "total": 57,
-  "lastUpdated": "2025-06-25T13:32:12.843Z"
+  "lastUpdated": "2025-06-25T13:34:23.531Z"
 }
