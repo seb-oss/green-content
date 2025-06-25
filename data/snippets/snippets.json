@@ -49,6 +49,12 @@
       "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge variant=\"negative\" notification=\"\"></gds-badge>\n  <gds-badge variant=\"negative\" notification=\"\">9</gds-badge>\n  <gds-badge variant=\"negative\" notification=\"\">99+</gds-badge>\n</gds-flex>"
     },
     {
+      "title": "Badge: Rounded",
+      "slug": "badge-rounded",
+      "path": "snippets/badge-rounded/badge-rounded.json",
+      "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge rounded=\"\" variant=\"information\"> 01 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"notice\"> 02 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"positive\"> 03 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"warning\"> 04 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\"> 05 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\" disabled=\"\"> 06 </gds-badge>\n</gds-flex>"
+    },
+    {
       "title": "Badge: Size",
       "slug": "badge-size",
       "path": "snippets/badge-size/badge-size.json",
@@ -319,6 +325,6 @@
       "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     }
   ],
-  "total": 53,
-  "lastUpdated": "2025-06-25T13:07:56.241Z"
+  "total": 54,
+  "lastUpdated": "2025-06-25T13:09:55.691Z"
 }
