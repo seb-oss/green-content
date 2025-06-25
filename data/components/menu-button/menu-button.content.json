@@ -4,6 +4,7 @@
   "hero_snippet": "hero-menu-button",
   "beta": false,
   "summary": "A menu button combines button and link behaviors for navigation menus.",
+  "preamble": "The menu button is used to build the main navigation in the top bar of the site. It helps users find their way by linking to key sections or features. The button can include text and an optional icon.",
   "anatomy": true,
   "anatomy-details": "1.  Link text\n    \n2.  Trailing icon\n    \n3.  Leading icon\n    \n4.  Container\n    \n5.  Selected decoration",
   "tags": [
@@ -17,5 +18,12 @@
     "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Usage",
+      "tag": "H2",
+      "section-content": "Use the menu button to create clear and accessible navigation in the top bar of the site. Choose the appropriate combination of text and icon depending on the context:\n\n*   Text only is best for straightforward links where the label clearly communicates the destination.\n    \n*   Text with icon adds clarity, especially when the icon reinforces the meaning (e.g., a user icon for profile-related links).\n    \n*   Icon only can be used when space is limited, but only if the icon is widely recognized and its meaning is unambiguous.\n    \n\nMenu Buttons visually indicate the current page or section using a background and underline. This helps users stay oriented as they move through the site."
+    }
+  ]
 }
