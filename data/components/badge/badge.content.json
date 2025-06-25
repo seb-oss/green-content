@@ -48,18 +48,8 @@
       ]
     },
     {
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Notification Mode",
-          "tag": "H2",
-          "content": "Specialized display mode optimized for notification indicators, supporting positive and negative states with rounded styling."
-        },
-        {
-          "type": "image",
-          "caption": "Badge notification"
-        }
-      ]
+      "title": "Notification Mode",
+      "section-content": "Specialized display mode optimized for notification indicators with rounded styling."
     },
     {
       "title": "Rounded",
