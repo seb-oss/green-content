@@ -31,16 +31,10 @@
       ]
     },
     {
-      "title": "Versions",
-      "tag": "H2",
+      "title": "Desktop",
+      "section-content": "The full path may not take up more than one row in the layout.",
       "cols": "2",
       "columns": [
-        {
-          "type": "rich-text",
-          "title": "Desktop",
-          "tag": "H3",
-          "content": "The full path may not take up more than one row in the layout."
-        },
         {
           "type": "snippet",
           "caption": "Breadcrumb in desktop",
@@ -49,14 +43,10 @@
       ]
     },
     {
+      "title": "Mobile",
+      "section-content": "For mobile views we only display the link to the parent page, as the full path tends to take too much space.\n\nThe same version may be used in shallow hierarchies where there still is a need to easily move one step up, or back to the page from where you came.",
       "cols": "2",
       "columns": [
-        {
-          "type": "rich-text",
-          "title": "Mobile or simple",
-          "tag": "H2",
-          "content": "For mobile views we only display the link to the parent page, as the full path tends to take too much space.\n\nThe same version may be used in shallow hierarchies where there still is a need to easily move one step up, or back to the page from where you came."
-        },
         {
           "type": "snippet",
           "caption": "Simplified breadcrumbs",
@@ -67,7 +57,7 @@
   ],
   "ux-text": [
     {
-      "title": "Default in desktop",
+      "title": "desktop",
       "section-content": "The breadcrumb should be the same as the heading, or if lacking of heading the menu title, on the page it represent. The last breadcrumb is the page you are currently on. If the heading is very long and we have decided to make it shorter in the menu title then use the menu title as the breadcrumb title."
     },
     {
@@ -85,13 +75,7 @@
   ],
   "accessibility": [
     {
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "All values we measure need to pass in order to give a check on the accessibility on all our components."
-        }
-      ]
+      "section-content": "All values we measure need to pass in order to give a check on the accessibility on all our components."
     },
     {
       "title": "Important considerations",
