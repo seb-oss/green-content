@@ -147,5 +147,49 @@
         }
       ]
     }
+  ],
+  "ux-text": [
+    {
+      "title": "Labels",
+      "section-content": "The same writing principles apply to labels for input fields, radio buttons, checkboxes, dropdowns, headings, page titles, navigation links, and other short texts.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Use clear and informative words",
+          "tag": "H3",
+          "content": "Texts should be clear and to the point. Explain exactly what information is needed."
+        },
+        {
+          "type": "rich-text",
+          "title": "Single words or full sentences",
+          "tag": "H3",
+          "content": "Keep texts as short as possible. Labels can be single words or full sentences. In some cases, questions work best to prompt users for the right details, such as:\n\n*   What type of property is it?\n    \n*   How many adults will live in the new home?\n    \n*   How do you earn your main income?"
+        },
+        {
+          "type": "rich-text",
+          "title": "Capitalisation rules",
+          "tag": "H3",
+          "content": "Headings and labels should not have every word capitalised. Use capital letters only for:\n\n*   The first letter of the first word\n    \n*   Proper names\n    \n*   Abbreviations"
+        }
+      ]
+    },
+    {
+      "title": "Options",
+      "section-content": "### When the answer is yes and no\n\nMatch the radio button options to the label. If the label is a yes or no question, the options should be Yes and No – nothing else.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "do",
+          "node": "yes-no-1"
+        },
+        {
+          "type": "figma",
+          "caption": "dont",
+          "node": "yes-no-2"
+        }
+      ]
+    }
   ]
 }
