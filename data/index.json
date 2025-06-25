@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-25T13:11:48.146Z",
+    "lastUpdated": "2025-06-25T13:15:20.106Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -517,6 +517,15 @@
             "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-warning/alert-warning.json"
+            }
+          },
+          {
+            "title": "Badge: Lead",
+            "slug": "badge-lead",
+            "path": "snippets/badge-lead/badge-lead.json",
+            "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    <gds-icon-rocket slot=\"lead\"></gds-icon-rocket>\n    Launch\n  </gds-badge>\n  <gds-badge variant=\"warning\">\n    <gds-icon-arrow-rotate-counter-clockwise slot=\"lead\">\n    </gds-icon-arrow-rotate-counter-clockwise>\n    Discard\n  </gds-badge>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/badge-lead/badge-lead.json"
             }
           },
           {

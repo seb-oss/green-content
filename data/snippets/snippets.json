@@ -43,6 +43,12 @@
       "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>"
     },
     {
+      "title": "Badge: Lead",
+      "slug": "badge-lead",
+      "path": "snippets/badge-lead/badge-lead.json",
+      "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    <gds-icon-rocket slot=\"lead\"></gds-icon-rocket>\n    Launch\n  </gds-badge>\n  <gds-badge variant=\"warning\">\n    <gds-icon-arrow-rotate-counter-clockwise slot=\"lead\">\n    </gds-icon-arrow-rotate-counter-clockwise>\n    Discard\n  </gds-badge>\n</gds-flex>"
+    },
+    {
       "title": "Badge: Notification",
       "slug": "badge-notification",
       "path": "snippets/badge-notification/badge-notification.json",
@@ -325,6 +331,6 @@
       "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     }
   ],
-  "total": 54,
-  "lastUpdated": "2025-06-25T13:11:48.146Z"
+  "total": 55,
+  "lastUpdated": "2025-06-25T13:15:20.107Z"
 }
