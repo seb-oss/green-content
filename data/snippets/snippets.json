@@ -292,7 +292,7 @@
       "title": "Segmented control: size default ",
       "slug": "segmented-control-size-default",
       "path": "snippets/segmented-control-size-default/segmented-control-size-default.json",
-      "code": "<gds-segmented-control width=\"280px\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
+      "code": "<gds-segmented-control width=\"280px\" value=\"2\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     },
     {
       "title": "Segmented control: size small",
@@ -302,5 +302,5 @@
     }
   ],
   "total": 50,
-  "lastUpdated": "2025-06-25T11:56:53.606Z"
+  "lastUpdated": "2025-06-25T11:57:22.534Z"
 }
