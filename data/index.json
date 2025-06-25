@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-25T12:04:44.274Z",
+    "lastUpdated": "2025-06-25T12:17:00.686Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -886,6 +886,15 @@
             "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>",
             "endpoints": {
               "content": "snippets/hero-video/hero-video.json"
+            }
+          },
+          {
+            "title": "Segmented control: Icons",
+            "slug": "segmented-control-icons",
+            "path": "snippets/segmented-control-icons/segmented-control-icons.json",
+            "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n  <gds-segment value=\"1\">\n    <gds-flex align-items=\"center\" gap=\"s\">\n      <gds-icon-square-grid-circle size=\"s\"></gds-icon-square-grid-circle>\n      Item 1\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"1\">\n    <gds-flex align-items=\"center\" gap=\"s\">\n      <gds-icon-devices size=\"s\"></gds-icon-devices>\n      Item 2\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"1\">\n    <gds-flex align-items=\"center\" gap=\"s\">\n      <gds-icon-brand-green size=\"s\"></gds-icon-brand-green>\n      Item 3\n    </gds-flex>\n  </gds-segment>\n</gds-segmented-control>",
+            "endpoints": {
+              "content": "snippets/segmented-control-icons/segmented-control-icons.json"
             }
           },
           {

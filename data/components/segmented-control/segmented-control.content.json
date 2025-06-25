@@ -21,7 +21,7 @@
   },
   "overview": [
     {
-      "title": "Variants",
+      "title": "Size",
       "section-content": "The segmented control comes in two sizes:\n\n*   **Default**: The most commonly used to ensure visibility.\n    \n*   **Small**: Used in confined spaces.",
       "cols": "2",
       "columns": [
@@ -34,6 +34,21 @@
           "type": "snippet",
           "caption": "Small size",
           "Snippet": "segmented-control-size-small"
+        }
+      ]
+    },
+    {
+      "title": "Behaviour",
+      "section-content": "Component acts as button and trigger a change on click. One option need to be pre-selected, most likely the first. Only one segment can be active simultaneously."
+    },
+    {
+      "title": "Icons",
+      "section-content": "The options may have an icon to accentuate the choices. Use icons sparsely but consistently.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Segments with icon"
         }
       ]
     },
