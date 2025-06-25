@@ -46,6 +46,17 @@
           "Snippet": "breadcrumbs-mobile"
         }
       ]
+    },
+    {
+      "title": "Overflow",
+      "section-content": "The breadcrumbs component is designed with flexibility in mind, allowing developers to implement \\* custom overflow solutions that best fit their specific needs.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Breadcrumbs with custom overflow"
+        }
+      ]
     }
   ],
   "ux-text": [
