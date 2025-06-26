@@ -85,7 +85,7 @@
     },
     {
       "title": "Action button",
-      "tag": "H3",
+      "tag": "H2",
       "section-content": "Alert supports an optional action button with customizable text to trigger relevant actions.",
       "cols": "1",
       "columns": [
@@ -98,7 +98,7 @@
     },
     {
       "title": "Dismissible",
-      "tag": "H3",
+      "tag": "H2",
       "section-content": "Alerts can be configured as `dismissible` in order to show a close button in the upper right corner. This also enabled closing the Alert by pressing the Escape key.",
       "cols": "1",
       "columns": [
@@ -111,12 +111,12 @@
     },
     {
       "title": "Auto-dismiss",
-      "tag": "H3",
+      "tag": "H2",
       "section-content": "Alert can also be set up to use an auto-dismiss timer. In this configuration, a timer progress bar will be shown at the bottom of the Alert, and the Alert will close once the timer reaches the end."
     },
     {
       "title": "Guidelines",
-      "section-content": "Select the appropriate variant to match the message’s intent, such as using positive for success messages or negative for errors. Also ensure a meaningful label property is set to describe the alert’s purpose for accessibility. A label should alwys be set when using Alert.\n\nChoose the role property carefully, using alert for critical messages and status for informational updates, to align with ARIA best practices.\n\nFor toast-like messages, like save confirmations and other non-critical messages, auto-dismiss can be used to avoid interrupting user workflows.",
+      "section-content": "Select the appropriate variant to match the message’s intent, such as using positive for success messages or negative for errors. Also ensure a meaningful label property is set to describe the alert’s purpose for accessibility. A label should always be set when using Alert.\n\nChoose the role property carefully, using alert for critical messages and status for informational updates, to align with ARIA best practices.\n\nFor toast-like messages, like save confirmations and other non-critical messages, auto-dismiss can be used to avoid interrupting user workflows.",
       "cols": "1",
       "columns": [
         {
