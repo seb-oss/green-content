@@ -6,7 +6,7 @@
   "summary": "A context menu displays a list of contextual actions.",
   "preamble": "Context menu provides a compact menu of contextual actions relevant to a specific item, row, or element within an interface, such as a table, list, or card. Triggered by a dedicated button (e.g., a \"More\" or three-dot icon), it appears as a popover, offering a focused set of options like edit, delete, copy, or share. The context menu enhances user efficiency by surfacing relevant actions directly tied to the selected item, reducing clutter and improving accessibility.",
   "anatomy": true,
-  "anatomy-overview": "Context menu consists of an icon button with three dots (but the content can be changed to anything) and a popover with a menu of actions which is presented when the button is activated.",
+  "anatomy-overview": "Context menu consists of an icon button with three dots and a popover with a menu of actions which is presented when the button is activated.",
   "anatomy-details": "1.  Action menu items\n    \n2.  Popover card\n    \n3.  Icon button",
   "tags": [
     "navigation"
@@ -19,13 +19,7 @@
   "overview": [
     {
       "title": "Features",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "- Customizable content in trigger button\n- Menu items can be customized and contain other components such as layout or icons\n- Label can be visually displayed, or hidden but still available to screen readers."
-        }
-      ]
+      "section-content": "*   Customizable content in trigger button\n    \n*   Menu items can be customized and contain other components such as layout or icons\n    \n*   Label can be visually displayed, or hidden but still available to screen readers."
     },
     {
       "title": "Guidelines",
