@@ -63,7 +63,7 @@
     },
     {
       "title": "Rounded",
-      "section-content": "The rounded property transforms the badge's appearance by applying fully circular corners, making it ideal for numerical indicators or status markers where a softer, pill-shaped design is desired. This styling variation maintains the badge's core functionality while offering an alternative visual treatment that can better suit certain interface contexts, particularly when used with single or double-digit numbers.",
+      "section-content": "The rounded property transforms the badge's appearance by applying fully circular corners, making it ideal for numerical indicators or status markers.",
       "cols": "1",
       "columns": [
         {
