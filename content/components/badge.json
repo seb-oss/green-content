@@ -29,7 +29,7 @@
       "columns": [
         {
           "type": "snippet",
-          "caption": "All badge variants",
+          "caption": "All badge variants.",
           "plain": false,
           "Snippet": "badge-variants"
         }
@@ -37,20 +37,20 @@
     },
     {
       "title": "Size",
-      "section-content": "Available in 'default' and 'small' sizes to accommodate different UI contexts and content requirements.",
+      "section-content": "Available in large (default) and small sizes to accommodate different UI contexts and content requirements.",
       "cols": "1",
       "columns": [
         {
           "type": "snippet",
-          "caption": "Default(large) and small badge size",
+          "caption": "Large (default) and small badge size.",
           "plain": false,
           "Snippet": "badge-size"
         }
       ]
     },
     {
-      "title": "Notification Mode",
-      "section-content": "Specialized display mode optimized for notification indicators with rounded styling.",
+      "title": "Notification mode",
+      "section-content": "Optimized for notification indicators.",
       "cols": "1",
       "columns": [
         {
