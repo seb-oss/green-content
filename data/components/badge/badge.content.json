@@ -24,7 +24,7 @@
     },
     {
       "title": "Variants",
-      "section-content": "A set of predefined styles (information, notice, positive, warning, negative) that convey different meanings and states through consistent visual treatment.\n\n*   **Information** – For general updates or tips that help the user understand context.\n    \n*   **Notice** – For neutral alerts or flags that are not critical but still relevant.\n    \n*   **Positive** – For confirming success or a completed action (e.g., “Active” or “Paid”).\n    \n*   **Warning** – For potential issues users should be cautious about.\n    \n*   **Negative** – For errors, failed states, or items requiring immediate attention.",
+      "section-content": "A set of predefined styles that convey different meanings and states through consistent visual treatment.\n\n*   **Information** – For general updates or tips that help the user understand context.\n    \n*   **Notice** – For neutral alerts or flags that are not critical but still relevant.\n    \n*   **Positive** – For confirming success or a completed action (e.g., “Active” or “Paid”).\n    \n*   **Warning** – For potential issues users should be cautious about.\n    \n*   **Negative** – For errors, failed states, or items requiring immediate attention.",
       "cols": "1",
       "columns": [
         {
