@@ -204,6 +204,9 @@ content:
                   - name: caption
                     label: Caption
                     type: string
+                  - name: plain
+                    label: Plain
+                    type: boolean
                   - name: Snippet
                     type: reference
                     options:
