@@ -34,7 +34,7 @@
         },
         {
           "type": "snippet",
-          "plain": false,
+          "plain": true,
           "Snippet": "alert-information"
         },
         {
@@ -45,7 +45,7 @@
         },
         {
           "type": "snippet",
-          "plain": false,
+          "plain": true,
           "Snippet": "alert-notice"
         },
         {
@@ -56,7 +56,7 @@
         },
         {
           "type": "snippet",
-          "plain": false,
+          "plain": true,
           "Snippet": "alert-positive"
         },
         {
@@ -67,7 +67,7 @@
         },
         {
           "type": "snippet",
-          "plain": false,
+          "plain": true,
           "Snippet": "alert-warning"
         },
         {
@@ -78,7 +78,7 @@
         },
         {
           "type": "snippet",
-          "plain": false,
+          "plain": true,
           "Snippet": "alert-negative-variant"
         }
       ]
@@ -91,7 +91,7 @@
       "columns": [
         {
           "type": "snippet",
-          "plain": false,
+          "plain": true,
           "Snippet": "alert-action"
         }
       ]
@@ -104,7 +104,7 @@
       "columns": [
         {
           "type": "snippet",
-          "plain": false,
+          "plain": true,
           "Snippet": "alert-dismissible"
         }
       ]
