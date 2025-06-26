@@ -2,5 +2,5 @@
   "title": "Alert: Positive",
   "slug": "alert-positive",
   "snippet_component": "Alert",
-  "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>\n</gds-div>"
+  "code": "<gds-div width=\"100%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>\n</gds-div>"
 }
