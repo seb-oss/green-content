@@ -2,5 +2,5 @@
   "title": "Alert: Warning",
   "slug": "alert-warning",
   "snippet_component": "Alert",
-  "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>"
+  "code": "<gds-div width=\"100%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>"
 }
