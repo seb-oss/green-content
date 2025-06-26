@@ -30,7 +30,7 @@
     },
     {
       "title": "Guidelines",
-      "section-content": "##########################################\n\n\\[Something about design language here - how to think about visual hierarchy, spatial relationships, use of empty space in various contexts, etc, as it relates to cards\\]\n\n##########################################"
+      "section-content": "##########################################\n\n\\[Something about design language here - how to think about visual hierarchy, spatial relationships, use of empty space in various contexts, etc, as it relates to cards\\]\n\n##########################################  \n  \n  \n1\\. Grey (default)  \nPurpose: Neutral container for standard content.  \nUse when:  \nThe content needs gentle separation without standing out too much.   \n2\\. White  \nPurpose: Clean, high-contrast container that draws more attention.  \nUse when:  \nThe content is colorful, like when visualising charts and needs to stand out within a grey background.  \nYou want a crisp, lightweight feel.   \n3\\. Senior green  \nPurpose: Reinforces SEB's brand identity and highlights key content.  \nUse when:  \nYou want to add emphasis while aligning with SEB’s brand colors.   \n4\\. Copper  \nPurpose: Signals exclusivity, premium content, or special areas.  \nUse when:  \nYou want to distinguish a premium experience or area of the interface."
     },
     {
       "title": "Do's and don'ts",
