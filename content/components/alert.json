@@ -23,7 +23,7 @@
   "overview": [
     {
       "title": "Variants",
-      "section-content": "Supports five variants (`information`, `notice`, `positive`, `warning`, `negative`), each with specific icons and color schemes to convey different types of messages.",
+      "section-content": "A set of predefined styles that convey different meanings and states through consistent visual treatment each with specific icons.",
       "cols": "2",
       "columns": [
         {
