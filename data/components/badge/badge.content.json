@@ -6,7 +6,6 @@
   "summary": "A compact visual indicator for status, counts and notifications.",
   "preamble": "A badge is a compact visual indicator that helps highlight status, categorize content, or display notifications. It can be configured with different variants and sizes to effectively communicate meaning. When used thoughtfully, badges help users quickly understand the state or importance of elements in the interface.",
   "anatomy": true,
-  "anatomy-overview": "Badge anatomy overview",
   "anatomy-details": "1.  Container\n    \n2.  Icon\n    \n3.  Status text",
   "tags": [
     "Status",
@@ -31,6 +30,7 @@
         {
           "type": "snippet",
           "caption": "All badge variants",
+          "plain": false,
           "Snippet": "badge-variants"
         }
       ]
@@ -43,6 +43,7 @@
         {
           "type": "snippet",
           "caption": "Default(large) and small badge size",
+          "plain": false,
           "Snippet": "badge-size"
         }
       ]
@@ -55,6 +56,7 @@
         {
           "type": "snippet",
           "caption": "Badge notification mode.",
+          "plain": false,
           "Snippet": "badge-notification"
         }
       ]
@@ -67,6 +69,7 @@
         {
           "type": "snippet",
           "caption": "Rounded badge.",
+          "plain": false,
           "Snippet": "badge-rounded"
         }
       ]
@@ -79,11 +82,13 @@
         {
           "type": "snippet",
           "caption": "Badge with lead icon",
+          "plain": false,
           "Snippet": "badge-lead"
         },
         {
           "type": "snippet",
           "caption": "Badge with trail content",
+          "plain": false,
           "Snippet": "badge-trail"
         }
       ]
