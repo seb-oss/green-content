@@ -22,6 +22,10 @@
       "section-content": "*   Customizable content in trigger button\n    \n*   Menu items can be customized and contain other components such as layout or icons\n    \n*   Label can be visually displayed, or hidden but still available to screen readers."
     },
     {
+      "title": "Menu item",
+      "section-content": "In a menu item you can slot in text and icons along other layout components."
+    },
+    {
       "title": "Guidelines",
       "tag": "H2",
       "cols": "1",
