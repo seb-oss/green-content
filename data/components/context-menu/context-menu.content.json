@@ -18,12 +18,16 @@
   },
   "overview": [
     {
-      "title": "Features",
-      "section-content": "*   Customizable content in trigger button\n    \n*   Menu items can be customized and contain other components such as layout or icons\n    \n*   Label can be visually displayed, or hidden but still available to screen readers."
+      "title": "Custom trigger button",
+      "section-content": "The context menu trigger button can have an icon or custom text slotted."
     },
     {
       "title": "Menu item",
       "section-content": "In a menu item you can slot in text and icons along other layout components."
+    },
+    {
+      "title": "Label",
+      "section-content": "It can be visually displayed, or hidden but still available to screen readers."
     },
     {
       "title": "Guidelines",
