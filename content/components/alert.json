@@ -30,7 +30,7 @@
           "type": "rich-text",
           "title": "Information",
           "tag": "H3",
-          "content": "Shares non-urgent updates, such as new features or tips, with a brief message and optional next steps."
+          "content": "Used for _passive_, non-critical updates like tips or background info. It's quiet and unobtrusive."
         },
         {
           "type": "snippet",
@@ -41,7 +41,7 @@
           "type": "rich-text",
           "title": "Notice",
           "tag": "H3",
-          "content": "Conveys general announcements or non-critical updates, such as service changes, with a short description and optional guidance."
+          "content": "Used for _actionable_, attention-worthy updates that are still non-critical, like a change in a process or a reminder to do something soon."
         },
         {
           "type": "snippet",
