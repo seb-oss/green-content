@@ -23,7 +23,7 @@
   "overview": [
     {
       "title": "Variants",
-      "section-content": "Supports five variants (\\`information\\`, `notice`, `positive`, `warning`, `negative`), each with specific icons and color schemes to convey different types of messages.",
+      "section-content": "Supports five variants (`information`, `notice`, `positive`, `warning`, `negative`), each with specific icons and color schemes to convey different types of messages.",
       "cols": "2",
       "columns": [
         {
@@ -34,7 +34,6 @@
         },
         {
           "type": "snippet",
-          "caption": "Alert variant information",
           "Snippet": "alert-information"
         },
         {
@@ -45,7 +44,6 @@
         },
         {
           "type": "snippet",
-          "caption": "Alert variant notice",
           "Snippet": "alert-notice"
         },
         {
@@ -56,7 +54,6 @@
         },
         {
           "type": "snippet",
-          "caption": "Alert variant positive",
           "Snippet": "alert-positive"
         },
         {
@@ -67,7 +64,6 @@
         },
         {
           "type": "snippet",
-          "caption": "Alert variant warning",
           "Snippet": "alert-warning"
         },
         {
@@ -78,7 +74,6 @@
         },
         {
           "type": "snippet",
-          "caption": "Alert variant negative",
           "Snippet": "alert-negative-variant"
         }
       ]
@@ -91,7 +86,6 @@
       "columns": [
         {
           "type": "snippet",
-          "caption": "Alert with action button",
           "Snippet": "alert-action"
         }
       ]
@@ -104,7 +98,6 @@
       "columns": [
         {
           "type": "snippet",
-          "caption": "Dimissible alert",
           "Snippet": "alert-dismissible"
         }
       ]
@@ -127,7 +120,7 @@
         {
           "type": "rich-text",
           "title": "Dont",
-          "content": "*   Don’t use overly long message text.\n    \n*   Avoid using `alert` role for non-critical messages; use `status` instead to reduce urgency.\n    \n*   Don’t set a timeout for critical alerts that require user acknowledgment.\n    \n*   Never omit the label property, as it’s essential for screen reader users.\n    \n*   Don’t use vague `button-label` text like “Click Here”; be specific about the action."
+          "content": "*   Don’t use overly long message text.\n    \n*   Avoid using `alert` role for non-critical messages; use `status` instead to reduce urgency.\n    \n*   Don’t set a timeout for critical alerts that require user acknowledgment.\n    \n*   Never omit the label property, as it’s essential for screen reader users."
         }
       ]
     }
