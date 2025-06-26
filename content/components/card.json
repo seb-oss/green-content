@@ -40,13 +40,13 @@
           "type": "rich-text",
           "title": "Do",
           "tag": "H3",
-          "content": "*   **Maintain Consistency**: Follow the design system’s guidelines for typography, spacing, colors, and borders to ensure cards look cohesive across the application."
+          "content": "*   **Maintain consistency**: Follow the design system’s guidelines for typography, spacing, colors, and borders to ensure cards look cohesive across the application."
         },
         {
           "type": "rich-text",
           "title": "Don't",
           "tag": "H3",
-          "content": "*   **Overload Content**: Avoid cramming too much information into a single card.\n    \n*   **Overuse Cards**: Avoid using cards for every piece of content; reserve them for scenarios where grouped, modular content makes sense.\n    \n*   **Make cards interactive**: use interactive elements, such as buttons or links, within the card instead."
+          "content": "*   **Overload content**: Avoid cramming too much information into a single card.\n    \n*   **Overuse cards**: Avoid using cards for every piece of content; reserve them for scenarios where grouped, modular content makes sense.\n    \n*   **Make cards interactive**: use interactive elements, such as buttons or links, within the card instead."
         }
       ]
     }
