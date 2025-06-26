@@ -70,7 +70,7 @@
           "type": "rich-text",
           "title": "Negative",
           "tag": "H3",
-          "content": "Communicates critical issues or errors, like system outages, with a clear problem description, optional apology for system issues, and resolution guidance."
+          "content": "Communicates critical issues or errors, such as system outages, with a clear problem description, optional apology for system issues, and resolution guidance."
         },
         {
           "type": "snippet",
