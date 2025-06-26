@@ -1,5 +1,5 @@
 {
   "title": "Hero: Context menu",
   "slug": "hero-context-menu",
-  "code": " <gds-context-menu>\n    <gds-flex slot=\"trigger\" gap=\"s\" align-items=\"center\">\n      <gds-icon-text-edit></gds-icon-text-edit>\n      Edit\n    </gds-flex>\n    <gds-menu-item>\n      <gds-flex gap=\"s\" align-items=\"center\">\n        <gds-icon-ai></gds-icon-ai>\n        Help me write\n      </gds-flex>\n    </gds-menu-item>\n    <gds-menu-item>\n      <gds-flex gap=\"s\" align-items=\"center\">\n        <gds-icon-brush></gds-icon-brush>\n        Fix grammar\n      </gds-flex>\n    </gds-menu-item>\n  </gds-context-menu>"
+  "code": "<gds-context-menu>\n  <gds-menu-item>\n    <gds-flex gap=\"s\" align-items=\"center\">\n      <gds-icon-ai></gds-icon-ai>\n      Help me write\n    </gds-flex>\n  </gds-menu-item>\n  <gds-menu-item>\n    <gds-flex gap=\"s\" align-items=\"center\">\n      <gds-icon-brush></gds-icon-brush>\n      Fix grammar\n    </gds-flex>\n  </gds-menu-item>\n</gds-context-menu>"
 }

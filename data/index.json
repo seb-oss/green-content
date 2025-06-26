@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-26T13:03:22.811Z",
+    "lastUpdated": "2025-06-26T13:11:18.295Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -676,7 +676,7 @@
             "title": "Hero: Context menu",
             "slug": "hero-context-menu",
             "path": "snippets/hero-context-menu/hero-context-menu.json",
-            "code": " <gds-context-menu>\n    <gds-flex slot=\"trigger\" gap=\"s\" align-items=\"center\">\n      <gds-icon-text-edit></gds-icon-text-edit>\n      Edit\n    </gds-flex>\n    <gds-menu-item>\n      <gds-flex gap=\"s\" align-items=\"center\">\n        <gds-icon-ai></gds-icon-ai>\n        Help me write\n      </gds-flex>\n    </gds-menu-item>\n    <gds-menu-item>\n      <gds-flex gap=\"s\" align-items=\"center\">\n        <gds-icon-brush></gds-icon-brush>\n        Fix grammar\n      </gds-flex>\n    </gds-menu-item>\n  </gds-context-menu>",
+            "code": "<gds-context-menu>\n  <gds-menu-item>\n    <gds-flex gap=\"s\" align-items=\"center\">\n      <gds-icon-ai></gds-icon-ai>\n      Help me write\n    </gds-flex>\n  </gds-menu-item>\n  <gds-menu-item>\n    <gds-flex gap=\"s\" align-items=\"center\">\n      <gds-icon-brush></gds-icon-brush>\n      Fix grammar\n    </gds-flex>\n  </gds-menu-item>\n</gds-context-menu>",
             "endpoints": {
               "content": "snippets/hero-context-menu/hero-context-menu.json"
             }
