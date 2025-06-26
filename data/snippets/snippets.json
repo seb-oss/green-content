@@ -70,7 +70,7 @@
       "title": "Badge: Trail",
       "slug": "badge-trail",
       "path": "snippets/badge-trail/badge-trail.json",
-      "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    <gds-icon-plus-small slot=\"lead\"></gds-icon-plus-small>\n    10,000.00\n    <span slot=\"trail\">SEK</span>\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-minus-small slot=\"lead\"></gds-icon-minus-small>\n    142.00\n    <span slot=\"trail\">EUR</span>\n  </gds-badge>\n</gds-flex>"
+      "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    10,000.00\n    <gds-icon-arrow-right-up-circle slot=\"trail\"></gds-icon-arrow-right-up-circle>\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    142.00\n    <gds-icon-arrow-right-down-circle slot=\"trail\"></gds-icon-arrow-right-down-circle>\n  </gds-badge>\n</gds-flex>"
     },
     {
       "title": "Badge: Variants",
@@ -344,5 +344,5 @@
     }
   ],
   "total": 57,
-  "lastUpdated": "2025-06-26T12:01:43.742Z"
+  "lastUpdated": "2025-06-26T12:07:26.095Z"
 }
