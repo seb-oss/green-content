@@ -46,7 +46,7 @@
       "title": "Badge: Lead",
       "slug": "badge-lead",
       "path": "snippets/badge-lead/badge-lead.json",
-      "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    <gds-icon-rocket slot=\"lead\"></gds-icon-rocket>\n    Launch\n  </gds-badge>\n  <gds-badge variant=\"warning\">\n    <gds-icon-arrow-rotate-counter-clockwise slot=\"lead\">\n    </gds-icon-arrow-rotate-counter-clockwise>\n    Discard\n  </gds-badge>\n</gds-flex>"
+      "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    <gds-icon-rocket slot=\"lead\"></gds-icon-rocket>\n    Launched\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-triangle-exclamation slot=\"lead\">\n    </gds-icon-triangle-exclamation>\n    Overdue\n  </gds-badge>\n</gds-flex>"
     },
     {
       "title": "Badge: Notification",
@@ -344,5 +344,5 @@
     }
   ],
   "total": 57,
-  "lastUpdated": "2025-06-26T12:07:26.095Z"
+  "lastUpdated": "2025-06-26T12:11:58.781Z"
 }
