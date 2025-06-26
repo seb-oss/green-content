@@ -9,7 +9,8 @@
     "data"
   ],
   "category": [
-    "Utils"
+    "Utils",
+    "Layout"
   ],
   "platform": {
     "web": true,
