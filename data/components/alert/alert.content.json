@@ -30,40 +30,44 @@
           "type": "rich-text",
           "title": "Information",
           "tag": "H3",
-          "content": "Shares non-urgent updates, like new features or tips, with a brief message and optional next steps."
+          "content": "Shares non-urgent updates, such as new features or tips, with a brief message and optional next steps."
         },
         {
           "type": "snippet",
+          "plain": false,
           "Snippet": "alert-information"
         },
         {
           "type": "rich-text",
           "title": "Notice",
           "tag": "H3",
-          "content": "Conveys general announcements or non-critical updates, like service changes, with a short description and optional guidance."
+          "content": "Conveys general announcements or non-critical updates, such as service changes, with a short description and optional guidance."
         },
         {
           "type": "snippet",
+          "plain": false,
           "Snippet": "alert-notice"
         },
         {
           "type": "rich-text",
           "title": "Positive",
           "tag": "H3",
-          "content": "Confirms successful actions, like form submissions, with a success message, optional next steps, and possible brand reinforcement."
+          "content": "Confirms successful actions, such as form submissions, with a success message, optional next steps, and possible brand reinforcement."
         },
         {
           "type": "snippet",
+          "plain": false,
           "Snippet": "alert-positive"
         },
         {
           "type": "rich-text",
           "title": "Warning",
           "tag": "H3",
-          "content": "Highlights non-critical issues, like upcoming deadlines, with a concise issue summary, optional duration estimate, and suggested actions."
+          "content": "Highlights non-critical issues, such as upcoming deadlines, with a concise issue summary, optional duration estimate, and suggested actions."
         },
         {
           "type": "snippet",
+          "plain": false,
           "Snippet": "alert-warning"
         },
         {
@@ -74,6 +78,7 @@
         },
         {
           "type": "snippet",
+          "plain": false,
           "Snippet": "alert-negative-variant"
         }
       ]
@@ -86,6 +91,7 @@
       "columns": [
         {
           "type": "snippet",
+          "plain": false,
           "Snippet": "alert-action"
         }
       ]
@@ -98,6 +104,7 @@
       "columns": [
         {
           "type": "snippet",
+          "plain": false,
           "Snippet": "alert-dismissible"
         }
       ]
