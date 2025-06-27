@@ -233,6 +233,17 @@ content:
                   - name: src
                     label: Image
                     type: image
+              - name: do
+                label: Do
+                fields:
+                  - name: doitem
+                    label: 'Do item'
+                    type: object
+                    list: true
+                    fields:
+                      - name: text
+                        label: 'Text'
+                        type: string
 
       - name: ux-text
         type: object
