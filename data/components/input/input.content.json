@@ -247,16 +247,6 @@
       "cols": "2",
       "columns": [
         {
-          "type": "figma",
-          "caption": "do",
-          "node": "do"
-        },
-        {
-          "type": "figma",
-          "caption": "dont",
-          "node": "dont"
-        },
-        {
           "type": "do",
           "dolist": [
             {
@@ -271,6 +261,16 @@
               "text": "Don't use asterix to indicate mandatory fields."
             }
           ]
+        },
+        {
+          "type": "figma",
+          "caption": "do",
+          "node": "do"
+        },
+        {
+          "type": "figma",
+          "caption": "dont",
+          "node": "dont"
         }
       ]
     }
