@@ -43,15 +43,7 @@
     },
     {
       "title": "Guidelines",
-      "section-content": "Use the context menu to give users all the options when you can’t fit them in the regular view, or to avoid cluttering the interface.",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Do's and Don'ts",
-          "tag": "H3",
-          "content": "#### Do\n\n*   **Keep actions relevant**: Include only actions directly related to the specific item or row (e.g., \"Edit\", \"Delete\") to maintain focus and clarity.\n    \n*   **Use clear labels**: Ensure menu items have concise, descriptive text and if possible, recognizable icons, to make actions immediately understandable.\n    \n*   Always set a label for the context menu itself\n    \n\n#### Don't\n\n*   **Overload with options**: Avoid including too many actions, as long menus can confuse users and slow down interaction.\n    \n*   **Block content**: Avoid positioning the context menu in a way such that the popover covers critical interface elements or makes the menu hard to access.\n    \n*   Use context menu if there is only one menu item\n    \n*   Hide critical functionality in context menu"
-        }
-      ]
+      "section-content": "Use the context menu to give users all the options when you can’t fit them in the regular view, or to avoid cluttering the interface."
     },
     {
       "title": "  Destructive items",
