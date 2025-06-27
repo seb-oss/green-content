@@ -7,7 +7,22 @@
   "preamble": "Datepickers are used to enter a date. The user can enter the date as numbers using three predefined spinner inputs (year, month, day), or select the date from a calendar popover.\n\nDatepickers helps users avoid formatting errors and makes date entry accessible to assistive technologies.",
   "anatomy": true,
   "anatomy-overview": "The datepicker consists of an input field with some additional controls to help users select a well-formed date. First, there are three [spinbuttons](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/spinbutton_role), representing day, month and year. These can be configured in any order and with different separators to accommodate different date formats. Second, there is a calendar button, which when activated opens a calendar popover. The calendar popover helps users to visually browse and select a date.",
-  "anatomy-details": "1.  Label\n    \n2.  Input container\n    \n3.  Input value\n    \n4.  Trailing icon button",
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Label"
+      },
+      {
+        "text": "Input container"
+      },
+      {
+        "text": "Input value"
+      },
+      {
+        "text": "Trailing icon button"
+      }
+    ]
+  },
   "tags": [
     "date",
     "date-range",
