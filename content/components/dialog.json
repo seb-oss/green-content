@@ -7,7 +7,28 @@
   "preamble": "Dialogs are used to provide the user with a focused interface for specific tasks or information, appearing as a temporary window that requires user interaction before returning to the main application.\n\nDialogs are modal, meaning they block interaction with the rest of the application or interface until the user addresses the dialog (e.g., by clicking a button, entering input, or closing it). This ensures the user focuses on the dialog's content before returning to the main workflow, and also ensures that keyboard and screen reader focus is kept within the dialog.",
   "anatomy": true,
   "anatomy-overview": "Dialogs consists of a floating card featuring a drop shadow and with a backdrop behind it. The card has a header with title and close button, a slot for body content and a slot for footer buttons at the bottom. If no footer buttons are provided, a default set of buttons are rendered.",
-  "anatomy-details": "1.  Heading\n    \n2.  Text\n    \n3.  Primary action\n    \n4.  Secondary action\n    \n5.  Dismiss icon button\n    \n6.  Container",
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Heading"
+      },
+      {
+        "text": "Text"
+      },
+      {
+        "text": "Primary action"
+      },
+      {
+        "text": "Secondary action"
+      },
+      {
+        "text": "Dismiss icon button"
+      },
+      {
+        "text": "Container"
+      }
+    ]
+  },
   "tags": [
     "modal",
     "Dialog",
@@ -43,7 +64,7 @@
           "type": "rich-text",
           "title": "Best practices",
           "tag": "H3",
-          "content": "*   Use concise, actionable text. Clearly state the purpose and options.\n    \n\n*   Use button ranks to make the primary action obvious. For example, use the primary button for “Save” and secondary for “Cancel”\n    \n*   Ensure the dialog relates to the user’s current task. Include relevant details, like the name of the item being deleted."
+          "content": "*   Use concise, actionable text. Clearly state the purpose and options.\n    \n*   Use button ranks to make the primary action obvious. For example, use the primary button for “Save” and secondary for “Cancel”\n    \n*   Ensure the dialog relates to the user’s current task. Include relevant details, like the name of the item being deleted."
         }
       ]
     },
