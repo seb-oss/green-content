@@ -7,7 +7,40 @@
   "preamble": "Textarea is used for longer text inputs, featuring 4 default rows and possibility for automatic vertical resizing. Ideal for comments, descriptions, and other multiline content in forms and dialogs.\n",
   "anatomy": true,
   "anatomy-overview": "The textarea (and other form controls) are divided in sections that are re-used between components.\n\n*   **Header**: Label, label support, contextual help, extended support.\n    \n*   **Body**: The field with leading and trailing slots.\n    \n*   **Footer**: Character counter and error message.",
-  "anatomy-details": "1.  Label\n    \n2.  Label support text\n    \n3.  Information icon\n    \n4.  Extended label support text\n    \n5.  Field container\n    \n6.  Leading icon\n    \n7.  Input value\n    \n8.  Icon button clear\n    \n9.  Carachter counter\n    \n10.  Resize handle",
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Label"
+      },
+      {
+        "text": "Label support text"
+      },
+      {
+        "text": "Information icon"
+      },
+      {
+        "text": "Extended label support text"
+      },
+      {
+        "text": "Field container"
+      },
+      {
+        "text": "Leading icon"
+      },
+      {
+        "text": "Input value"
+      },
+      {
+        "text": "Icon button clear"
+      },
+      {
+        "text": "Carachter counter"
+      },
+      {
+        "text": "Resize handle"
+      }
+    ]
+  },
   "tags": [
     "Form",
     "free-text",
