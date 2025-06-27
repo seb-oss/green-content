@@ -39,7 +39,7 @@
           "type": "rich-text",
           "title": "Don´t",
           "tag": "H3",
-          "content": "*   Avoid placing essential content (e.g., required form fields or primary instructions) in collapsed sections, as users might overlook it.\n    \n*   Refrain from using details for short or simple content that doesn’t warrant collapsing, as it adds unnecessary interaction steps.\n    \n*   Avoid nesting details in multiple levels."
+          "content": "*   Avoid placing essential content (e.g., required form fields or primary instructions) in collapsed sections, as users might overlook it.\n    \n*   Avoid using details for short or simple content that doesn’t warrant collapsing, as it adds unnecessary interaction steps.\n    \n*   Avoid nesting details in multiple levels."
         }
       ]
     }
