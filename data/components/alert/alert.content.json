@@ -117,17 +117,35 @@
     {
       "title": "Guidelines",
       "section-content": "Select the appropriate variant to match the message’s intent, such as using positive for success messages or negative for errors. Also ensure a meaningful label property is set to describe the alert’s purpose for accessibility. A label should always be set when using Alert.\n\nChoose the role property carefully, using alert for critical messages and status for informational updates, to align with ARIA best practices.\n\nFor toast-like messages, like save confirmations and other non-critical messages, auto-dismiss can be used to avoid interrupting user workflows.",
-      "cols": "1",
+      "cols": "2",
       "columns": [
         {
-          "type": "rich-text",
-          "title": "Do",
-          "content": "*   Use concise, clear message text to ensure quick comprehension.\n    \n*   Enable `dismissible` for alerts, unless you need them to stay on screen permanently."
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use concise, clear message text to ensure quick comprehension."
+            },
+            {
+              "text": "Enable dismissible for alerts, unless you need them to stay on screen permanently."
+            }
+          ]
         },
         {
-          "type": "rich-text",
-          "title": "Dont",
-          "content": "*   Don’t use overly long message text.\n    \n*   Avoid using `alert` role for non-critical messages; use `status` instead to reduce urgency.\n    \n*   Don’t set a timeout for critical alerts that require user acknowledgment.\n    \n*   Never omit the label property, as it’s essential for screen reader users."
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don’t use overly long message text."
+            },
+            {
+              "text": "Avoid using alert role for non-critical messages; use status instead to reduce urgency."
+            },
+            {
+              "text": "Don’t set a timeout for critical alerts that require user acknowledgment."
+            },
+            {
+              "text": "Never omit the label property, as it’s essential for screen reader users."
+            }
+          ]
         }
       ]
     }
