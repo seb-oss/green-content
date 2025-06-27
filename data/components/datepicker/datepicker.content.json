@@ -31,7 +31,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "*   Configurable date format display\n    \n*   Large and small size of the input field\n    \n*   ‘plain’ mode to hide labels and error messages\n    \n*   Clearable for quick state reset\n    \n*   Min and max dates\n    \n*   Can be configured with visible or hidden week numbers\n    \n*   Individual dates can be marked as disabled in the calendar\n    \n*   Buttons in the calendar footer are configurable"
+          "content": "*   Configurable date format display\n    \n*   ‘plain’ mode to hide labels and error messages\n    \n*   Clearable for quick state reset\n    \n*   Min and max dates\n    \n*   Can be configured with visible or hidden week numbers\n    \n*   Individual dates can be marked as disabled in the calendar\n    \n*   Buttons in the calendar footer are configurable"
         }
       ]
     },
@@ -51,6 +51,11 @@
           "content": "#### Do's\n\n#### Don'ts\n\n*   Use Datepicker when users need to be able to input data other than well-formed dates\n    \n*   Use only a Datepicker alone when user needs to be able to specify a time. An additional input for time is needed in that case.\n    \n*   Write out the format in the label. The Datepicker is already constrained to a configured format."
         }
       ]
+    },
+    {
+      "title": "Size",
+      "tag": "H2",
+      "section-content": "The input field comes in two sizes.\n\n*   **Large**\n    \n*   **Small**: used in tables and in some special cases where the space is very limited."
     }
   ]
 }
