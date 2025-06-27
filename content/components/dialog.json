@@ -36,17 +36,32 @@
     {
       "title": "Guidelines",
       "tag": "H2",
+      "section-content": "Dialogs are powerful tools for focusing user attention, but their use should be deliberate to avoid disrupting the user experience.",
       "cols": "1",
       "columns": [
         {
           "type": "rich-text",
-          "content": "Dialogs are powerful tools for focusing user attention, but their use should be deliberate to avoid disrupting the user experience.\n\n### Best practices\n\n*   Use concise, actionable text. Clearly state the purpose and options.\n    \n*   Use button ranks to make the primary action obvious. For example, use the primary button for “Save” and secondary for “Cancel”\n    \n*   Ensure the dialog relates to the user’s current task. Include relevant details, like the name of the item being deleted."
+          "title": "Best practices",
+          "tag": "H3",
+          "content": "*   Use concise, actionable text. Clearly state the purpose and options.\n    \n\n*   Use button ranks to make the primary action obvious. For example, use the primary button for “Save” and secondary for “Cancel”\n    \n*   Ensure the dialog relates to the user’s current task. Include relevant details, like the name of the item being deleted."
+        }
+      ]
+    },
+    {
+      "title": "Do's and don'ts",
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Do",
+          "tag": "H3",
+          "content": "*   Use dialogs for critical actions that need explicit user acknowledgment, such as confirming a deletion or agreeing to terms.\n    \n*   Use dialogs for multi-step processes that benefit from a focused, step-by-step interface, like a setup wizard or onboarding flow.\n    \n*   Use dialogs for short, specific input tasks, like entering a file name, setting preferences, or filling out a quick form."
         },
         {
           "type": "rich-text",
-          "title": "Do's and don'ts",
+          "title": "Don´t",
           "tag": "H3",
-          "content": "#### Do's\n\n*   Use dialogs for critical actions that need explicit user acknowledgment, such as confirming a deletion or agreeing to terms.\n    \n*   Use dialogs for multi-step processes that benefit from a focused, step-by-step interface, like a setup wizard or onboarding flow.\n    \n*   Use dialogs for short, specific input tasks, like entering a file name, setting preferences, or filling out a quick form.\n    \n\n#### Don'ts\n\n*   Don’t use dialogs for trivial confirmations or information that could be displayed inline or via notifications. Overusing dialogs interrupts workflow and causes \"dialog fatigue.\"\n    \n*   Don’t use dialogs for extensive forms or complex tasks that require significant screen space or navigation. Use a full page or panel instead.\n    \n*   Avoid dialogs for repetitive tasks, as they slow users down. Allow users to opt out or streamline the process with settings (e.g., \"Don’t ask again\")."
+          "content": "*   Don’t use dialogs for trivial confirmations or information that could be displayed inline or via notifications. Overusing dialogs interrupts workflow and causes \"dialog fatigue.\"\n    \n*   Don’t use dialogs for extensive forms or complex tasks that require significant screen space or navigation. Use a full page or panel instead.\n    \n*   Avoid dialogs for repetitive tasks, as they slow users down. Allow users to opt out or streamline the process with settings (e.g., \"Don’t ask again\")."
         }
       ]
     }
