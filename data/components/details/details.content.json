@@ -6,7 +6,7 @@
   "summary": "The details component is a collapsible section that helps organize and hide content until needed.",
   "preamble": "Details consists of a label which is always visible, and a hidden section that can be expanded or collapsed by interacting with the label section. The collapsed content is hidden both visually and semantically in the accessibility tree, i.e from screen readers. ",
   "anatomy": true,
-  "anatomy-overview": "Details consists of a label section with an icon to illustrate current state. This section always remains visible.. Below it is the content section which can be expanded or collapsed.",
+  "anatomy-overview": "Details consists of a label section with an icon to illustrate current state. This section always remains visible. Below it is the content section which can be expanded or collapsed.",
   "anatomy-details": "1.  Heading\n    \n2.  Icon button\n    \n3.  Expanded content\n    \n4.  Detail seperator",
   "tags": [
     "editorial",
@@ -21,7 +21,7 @@
     {
       "title": "Usage",
       "tag": "H2",
-      "section-content": "Details provide similar semantics and functionality as the native `<details>` html element, including the ability to connect several details together to form an accordion. Multiple details components can be used together to create an accordion.\n\nAccordions or single details component are commonly used to manage dense information in interfaces like FAQs, settings panels, or forms, saving space, reducing cognitive overload, and improving scannability while maintaining a clean, organized layout. Use it when presenting large amounts of secondary or optional information that users don’t need to see all at once.",
+      "section-content": "Details provide similar semantics and functionality as the native `<details>` html element, including the ability to connect several details together to form an accordion.\n\nAccordions or single details components are commonly used to manage dense information in interfaces like FAQs, settings panels, or forms. Saving space, reducing cognitive overload, and improving scannability while maintaining a clean, organized layout. Use it when presenting large amounts of secondary or optional information that users don’t need to see all at once.",
       "cols": "1"
     },
     {
