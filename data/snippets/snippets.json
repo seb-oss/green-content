@@ -250,7 +250,7 @@
       "title": "Hero: Menu button",
       "slug": "hero-menu-button",
       "path": "snippets/hero-menu-button/hero-menu-button.json",
-      "code": "<gds-card \n  width=\"max-content\"\n  flex-direction=\"row\"\n  variant=\"secondary\"\n  border-color=\"primary\"\n  padding=\"0\"\n  border=\"none\"\n  gap=\"0\"\n  height=\"max-content\"\n  overflow=\"hidden\"\n>\n  <gds-menu-button compact selected>\n    <gds-icon-bell slot=\"trail\"></gds-icon-bell>\n    Notification\n  </gds-menu-button>\n  <gds-popover>\n    <gds-menu-button compact slot=\"trigger\">\n      <gds-icon-people slot=\"trail\"></gds-icon-people>\n      Profile\n    </gds-menu-button>\n    <gds-flex padding=\"m\">Profile stuff</gds-flex>\n  </gds-popover>\n  <gds-menu-button\n    href=\"https://github.com/seb-oss/green\"\n    compact\n    target=\"_blank\"\n  >\n    <gds-icon-square-arrow-top-right\n      slot=\"trail\"\n    ></gds-icon-square-arrow-top-right>\n    External\n  </gds-menu-button>\n</gds-card>"
+      "code": "<gds-card \n  width=\"max-content\"\n  flex-direction=\"row\"\n  variant=\"secondary\"\n  border-color=\"primary\"\n  padding=\"0\"\n  border-width=\"0 0 4xs 0\"\n  gap=\"0\"\n  height=\"max-content\"\n  overflow=\"hidden\"\n  border-radius=\"0\"\n>\n  <gds-menu-button compact selected>\n    <gds-icon-bell slot=\"trail\"></gds-icon-bell>\n    Notification\n  </gds-menu-button>\n  <gds-popover>\n    <gds-menu-button compact slot=\"trigger\">\n      <gds-icon-people slot=\"trail\"></gds-icon-people>\n      Profile\n    </gds-menu-button>\n    <gds-flex padding=\"m\">Profile stuff</gds-flex>\n  </gds-popover>\n  <gds-menu-button\n    href=\"https://github.com/seb-oss/green\"\n    compact\n    target=\"_blank\"\n  >\n    <gds-icon-square-arrow-top-right\n      slot=\"trail\"\n    ></gds-icon-square-arrow-top-right>\n    External\n  </gds-menu-button>\n</gds-card>"
     },
     {
       "title": "Hero: Popover",
@@ -344,5 +344,5 @@
     }
   ],
   "total": 57,
-  "lastUpdated": "2025-06-27T12:23:25.475Z"
+  "lastUpdated": "2025-06-27T13:43:47.711Z"
 }
