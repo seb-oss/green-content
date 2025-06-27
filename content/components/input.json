@@ -248,13 +248,29 @@
       "columns": [
         {
           "type": "figma",
-          "caption": "Do use '(optional)' to mark optional fields",
+          "caption": "do",
           "node": "do"
         },
         {
           "type": "figma",
-          "caption": "Don't use asterix to indicate mandatory fields.",
+          "caption": "dont",
           "node": "dont"
+        },
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use '(optional)' to mark optional fields"
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don't use asterix to indicate mandatory fields."
+            }
+          ]
         }
       ]
     }
