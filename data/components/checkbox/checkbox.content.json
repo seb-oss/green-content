@@ -195,8 +195,24 @@
       ]
     },
     {
-      "title": "Don't",
-      "section-content": "*   Don’t overwhelm users with too many checkboxes on a single page or form. If you need to show many options, use a multi-select dropdown instead.\n    \n*   Don’t use it to toggle things on or off, use the switch component for that.\n    \n*   Don’t mix default and contained versions."
+      "title": "Do's and don'ts",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don’t overwhelm users with too many checkboxes on a single page or form. If you need to show many options, use a multi-select dropdown instead."
+            },
+            {
+              "text": "Don’t use it to toggle things on or off, use the switch component for that."
+            },
+            {
+              "text": "Don’t mix default and contained versions."
+            }
+          ]
+        }
+      ]
     }
   ],
   "ux-text": [
