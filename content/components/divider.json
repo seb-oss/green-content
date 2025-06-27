@@ -46,15 +46,27 @@
     },
     {
       "title": "Guidelines",
-      "tag": "H2",
-      "section-content": "Use dividers to support visual hierarchy when headings or spacing alone aren’t sufficient, such as between groups of menu items, or to achieve cleaner interfaces where heavy containers (e.g., cards) would feel too visually intrusive.",
-      "cols": "1",
+      "section-content": "Use dividers to support visual hierarchy when headings or spacing alone aren’t sufficient, such as between groups of menu items, or to achieve cleaner interfaces where heavy containers (e.g., cards) would feel too visually intrusive."
+    },
+    {
+      "title": "Do's and don'ts",
+      "cols": "2",
       "columns": [
         {
-          "type": "rich-text",
-          "title": "Do's and don'ts",
-          "tag": "H3",
-          "content": "#### Do\n\n*   Consider the semantics in context. As a rule of thumb, if you think that a screen reader should announce the divider, then default semantics are OK, otherwise it should be marked as presentational.\n\n#### Don't\n\n*   **Overuse Dividers**: Avoid placing dividers between every element, as this creates visual clutter and fragments the interface."
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Consider the semantics in context. As a rule of thumb, if you think that a screen reader should announce the divider, then default semantics are OK, otherwise it should be marked as presentational."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Overuse Dividers: Avoid placing dividers between every element, as this creates visual clutter and fragments the interface."
+            }
+          ]
         }
       ]
     }
