@@ -7,7 +7,28 @@
   "preamble": "Radio buttons are commonly used in forms, surveys, and settings where users need to make a single selection from a list of options.\nThe benefit of using radio buttons over select is that users may easily scan the available options and make a quick selection",
   "anatomy": true,
   "anatomy-overview": "The radio button (and other form controls) are divided in sections that are re-used between components.\n\n*   **Header**: Label, label support, contextual help, extended support.\n    \n*   **Body**: The radio button.\n    \n*   **Footer**: Error message.",
-  "anatomy-details": "1.  Label\n    \n2.  Label support text\n    \n3.  Info icon\n    \n4.  Extended label support text\n    \n5.  Radio button and label\n    \n6.  Label support text",
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Label"
+      },
+      {
+        "text": "Label support text"
+      },
+      {
+        "text": "Info icon"
+      },
+      {
+        "text": "Extended label support text"
+      },
+      {
+        "text": "Radio button and label"
+      },
+      {
+        "text": "Label support text"
+      }
+    ]
+  },
   "tags": [
     "Form"
   ],
