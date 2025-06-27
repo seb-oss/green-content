@@ -6,7 +6,22 @@
   "summary": "Segmented control allows users to select a single option, immediately changing the display to reflect their selection. It is used for switching views or view options, not for navigation.",
   "preamble": "The segmented control switches between views or to sort elements. The segmented control is good to use to provide the user with closely related choices that affect an object, state or view.",
   "anatomy": true,
-  "anatomy-details": "1.  Segment buttons container\n    \n2.  Button\n    \n3.  Leading icon\n    \n4.  Label",
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Segment buttons container"
+      },
+      {
+        "text": "Button"
+      },
+      {
+        "text": "Leading icon"
+      },
+      {
+        "text": "Label"
+      }
+    ]
+  },
   "tags": [
     "navigation",
     "button"
@@ -28,11 +43,13 @@
         {
           "type": "snippet",
           "caption": "Default size",
+          "plain": false,
           "Snippet": "segmented-control-size-default"
         },
         {
           "type": "snippet",
           "caption": "Small size",
+          "plain": false,
           "Snippet": "segmented-control-size-small"
         }
       ]
@@ -49,6 +66,7 @@
         {
           "type": "snippet",
           "caption": "Segmented controls with icons",
+          "plain": false,
           "Snippet": "segmented-control-icons"
         }
       ]
@@ -61,6 +79,7 @@
         {
           "type": "snippet",
           "caption": "Overflow of options",
+          "plain": false,
           "Snippet": "segmented-control-overflow"
         }
       ]
