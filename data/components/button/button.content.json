@@ -241,10 +241,12 @@
       "columns": [
         {
           "type": "figma",
+          "caption": "do",
           "node": "do"
         },
         {
           "type": "figma",
+          "caption": "dont",
           "node": "dont"
         }
       ]
