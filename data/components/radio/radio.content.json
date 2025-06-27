@@ -157,14 +157,26 @@
       "cols": "2",
       "columns": [
         {
-          "type": "rich-text",
-          "title": "Do",
-          "content": "*   Have at least two options."
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Have at least two options."
+            }
+          ]
         },
         {
-          "type": "rich-text",
-          "title": "Don't",
-          "content": "*   Don’t use radio buttons for non-mutually exclusive options; consider checkboxes instead.\n    \n*   Don’t overwhelm users with too many radio buttons on a single page or form. If you need to show many options, use a single select dropdown instead.\n    \n*   Don’t mix default and contained versions."
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don’t use radio buttons for non-mutually exclusive options; consider checkboxes instead."
+            },
+            {
+              "text": "Don’t overwhelm users with too many radio buttons on a single page or form. If you need to show many options, use a single select dropdown instead."
+            },
+            {
+              "text": "Don’t mix default and contained versions."
+            }
+          ]
         }
       ]
     }
