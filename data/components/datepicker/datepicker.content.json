@@ -58,13 +58,26 @@
     },
     {
       "title": "Do's and don'ts",
-      "cols": "1",
+      "cols": "2",
       "columns": [
         {
-          "type": "rich-text",
-          "title": "Don'ts",
-          "tag": "H3",
-          "content": "*   Use datepicker when users need to be able to input data other than well-formed dates.\n    \n*   Use only a datepicker alone when user needs to be able to specify a time. An additional input for time is needed in that case.\n    \n*   Write out the format in the label. The datepicker is already constrained to a configured format."
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use datepicker when users need to be able to input data other than well-formed dates."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Use only a datepicker alone when user needs to be able to specify a time. An additional input for time is needed in that case."
+            },
+            {
+              "text": "Write out the format in the label. The datepicker is already constrained to a configured format."
+            }
+          ]
         }
       ]
     }
