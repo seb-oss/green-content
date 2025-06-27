@@ -50,19 +50,6 @@
     },
     {
       "title": "Do's and don'ts",
-      "tag": "H2",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Don´t",
-          "tag": "H3",
-          "content": "*   mix different sizes of menu buttons within the same navigation bar.\n    \n*   rely on icon-only buttons unless the icon’s meaning is universally understood.\n    \n*   use menu buttons for actions unrelated to navigation.\n    \n*   add too many buttons to the top bar—keep the navigation focused and uncluttered."
-        }
-      ]
-    },
-    {
-      "title": "Do's and don'ts",
       "cols": "2",
       "columns": [
         {
@@ -76,6 +63,23 @@
             },
             {
               "text": "Keep button labels short and descriptive to avoid crowding the top bar. make sure icons are accessible and easily understood if used without text (e.g., user avatar)."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Mix different sizes of menu buttons within the same navigation bar."
+            },
+            {
+              "text": "Rely on icon-only buttons unless the icon’s meaning is universally understood."
+            },
+            {
+              "text": "Use menu buttons for actions unrelated to navigation."
+            },
+            {
+              "text": "Add too many buttons to the top bar—keep the navigation focused and uncluttered."
             }
           ]
         }
