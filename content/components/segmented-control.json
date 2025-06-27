@@ -86,15 +86,7 @@
     },
     {
       "title": "Do's and Don'ts",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Don'ts",
-          "tag": "H3",
-          "content": "*   Use it to collect data in a form, in that case use radio button or select.\n    \n*   Use to navigate in different areas, use tabs for that.\n    \n*   Mix items with and without icon\n    \n*   Use it for actions, use buttons instead."
-        }
-      ]
+      "cols": "2"
     },
     {
       "title": "Do's and Don'ts",
@@ -109,6 +101,23 @@
             },
             {
               "text": "Keep option size consistent"
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Use it to collect data in a form, in that case use radio button or select."
+            },
+            {
+              "text": "Use to navigate in different areas, use tabs for that."
+            },
+            {
+              "text": "Mix items with and without icon"
+            },
+            {
+              "text": "Use it for actions, use buttons instead."
             }
           ]
         }
