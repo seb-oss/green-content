@@ -47,12 +47,9 @@
     {
       "title": "Guidelines",
       "tag": "H2",
+      "section-content": "Use dividers to support visual hierarchy when headings or spacing alone aren’t sufficient, such as between groups of menu items, or to achieve cleaner interfaces where heavy containers (e.g., cards) would feel too visually intrusive.",
       "cols": "1",
       "columns": [
-        {
-          "type": "paragraph",
-          "text": "Use dividers to support visual hierarchy when headings or spacing alone aren’t sufficient, such as between groups of menu items, or to achieve cleaner interfaces where heavy containers (e.g., cards) would feel too visually intrusive."
-        },
         {
           "type": "rich-text",
           "title": "Do's and don'ts",
