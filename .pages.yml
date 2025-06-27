@@ -37,6 +37,18 @@ content:
         default: true
       - { name: anatomy-overview, label: "Antomy: Overview", type: rich-text }
       - { name: anatomy-details, label: "Antomy: Details", type: rich-text }
+      - name: anatomy-list
+        label: Anatomy List
+        fields:
+          - name: anatomyitems
+            label: 'List'
+            type: object
+            list: true
+            fields:
+              - name: text
+                label: 'Text'
+                type: string
+      
       - name: tags
         label: Tags
         type: select
@@ -237,7 +249,7 @@ content:
                 label: Do
                 fields:
                   - name: dolist
-                    label: 'List'
+                    label: 'Do'
                     type: object
                     list: true
                     fields:
@@ -248,7 +260,7 @@ content:
                 label: Dont
                 fields:
                   - name: dontlist
-                    label: 'List'
+                    label: 'Dont'
                     type: object
                     list: true
                     fields:
