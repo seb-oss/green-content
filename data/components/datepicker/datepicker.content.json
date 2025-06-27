@@ -39,14 +39,7 @@
       "title": "Usage",
       "tag": "H2",
       "section-content": "Use Datepicker when a complete date should be entered. If only a year, a month, a day, or a combination of two, is needed, use separate input fields or dropdowns. For example, a credit card expiry month.",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Do's and don'ts",
-          "tag": "H3"
-        }
-      ]
+      "cols": "1"
     },
     {
       "title": "Size",
