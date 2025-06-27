@@ -27,6 +27,9 @@
     "editorial",
     "faq"
   ],
+  "category": [
+    "Components"
+  ],
   "platform": {
     "web": true,
     "ios": false,
@@ -41,20 +44,29 @@
     },
     {
       "title": "Do's and don'ts",
-      "tag": "H2",
       "cols": "2",
       "columns": [
         {
-          "type": "rich-text",
-          "title": "Do",
-          "tag": "H3",
-          "content": "*   Use concise, meaningful titles or questions in headers to indicate the content within, so users know what to expect before expanding."
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use concise, meaningful titles or questions in headers to indicate the content within, so users know what to expect before expanding."
+            }
+          ]
         },
         {
-          "type": "rich-text",
-          "title": "Don´t",
-          "tag": "H3",
-          "content": "*   Avoid placing essential content (e.g., required form fields or primary instructions) in collapsed sections, as users might overlook it.\n    \n*   Avoid using details for short or simple content that doesn’t warrant collapsing, as it adds unnecessary interaction steps.\n    \n*   Avoid nesting details in multiple levels."
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Avoid placing essential content (e.g., required form fields or primary instructions) in collapsed sections, as users might overlook it."
+            },
+            {
+              "text": "Avoid using details for short or simple content that doesn’t warrant collapsing, as it adds unnecessary interaction steps."
+            },
+            {
+              "text": "Avoid nesting details in multiple levels."
+            }
+          ]
         }
       ]
     }
