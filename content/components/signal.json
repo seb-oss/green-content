@@ -5,7 +5,16 @@
   "beta": true,
   "summary": "A signal draws attention to notifications and new content.",
   "anatomy": false,
-  "anatomy-details": "1.  Signal\n    \n2.  Signal pulse",
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Signal"
+      },
+      {
+        "text": "Signal pulse"
+      }
+    ]
+  },
   "tags": [
     "feedback"
   ],
