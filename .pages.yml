@@ -236,8 +236,19 @@ content:
               - name: do
                 label: Do
                 fields:
-                  - name: doitem
-                    label: 'Do item'
+                  - name: dolist
+                    label: 'List'
+                    type: object
+                    list: true
+                    fields:
+                      - name: text
+                        label: 'Text'
+                        type: string
+              - name: dont
+                label: Dont
+                fields:
+                  - name: dontlist
+                    label: 'List'
                     type: object
                     list: true
                     fields:
