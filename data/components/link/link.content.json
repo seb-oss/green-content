@@ -48,15 +48,7 @@
     {
       "title": "Do’s and don’ts",
       "tag": "H2",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Don´t",
-          "tag": "H3",
-          "content": "*   use vague link texts like “Click here” or “Read more” without context.\n    \n*   use links to trigger actions like opening modals, submitting forms, or toggling UI—use buttons instead.\n    \n*   overload an interface with too many link styles—it can confuse users.\n    \n*   forget to test links in both light and dark modes for contrast and visibility."
-        }
-      ]
+      "cols": "2"
     },
     {
       "title": "Do’s and don’ts",
@@ -76,6 +68,23 @@
             },
             {
               "text": "Ensure links are accessible: high contrast, visible focus state, and screen-reader friendly."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Use vague link texts like “Click here” or “Read more” without context."
+            },
+            {
+              "text": "Use links to trigger actions like opening modals, submitting forms, or toggling UI—use buttons instead."
+            },
+            {
+              "text": "Overload an interface with too many link styles—it can confuse users."
+            },
+            {
+              "text": "Forget to test links in both light and dark modes for contrast and visibility."
             }
           ]
         }
