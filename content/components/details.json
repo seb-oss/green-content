@@ -21,7 +21,7 @@
     {
       "title": "Usage",
       "tag": "H2",
-      "section-content": "Details provide similar semantics and functionality as the native `<details>` html element, including the ability to connect several details together to form an accordion.\n\nAccordions or single details components are commonly used to manage dense information in interfaces like FAQs, settings panels, or forms. Saving space, reducing cognitive overload, and improving scannability while maintaining a clean, organized layout. Use it when presenting large amounts of secondary or optional information that users don’t need to see all at once.",
+      "section-content": "Details provide similar semantics and functionality as the native `<details>` html element, including the ability to connect several details together to form an accordion.\n\nAccordions or single details components are commonly used to manage dense information in interfaces like FAQs, settings panels, or forms. Saving space, reducing cognitive overload, and improving scannability while maintaining a clean, organized layout.\n\nUse it when presenting large amounts of secondary or optional information that users don’t need to see all at once.",
       "cols": "1"
     },
     {
