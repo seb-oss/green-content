@@ -7,7 +7,40 @@
   "preamble": "The dropdown component is designed for single or multiple selections but with customizable features.\n",
   "anatomy": true,
   "anatomy-overview": "The dropdown (and other form controls) are divided in sections that are re-used between components.\n\n*   **Header**: Label, label support, contextual help, extended support.\n    \n*   **Body**: The field with leading and trailing slots.\n    \n*   **Footer**: Error message.",
-  "anatomy-details": "1.  Label\n    \n2.  Label support text\n    \n3.  Information icon\n    \n4.  Extended label support text\n    \n5.  Leading icon\n    \n6.  Trailing icon\n    \n7.  Icon button clear\n    \n8.  Input value\n    \n9.  Badge\n    \n10.  Field container",
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Label"
+      },
+      {
+        "text": "Label support text"
+      },
+      {
+        "text": "Information icon"
+      },
+      {
+        "text": "Extended label support text"
+      },
+      {
+        "text": "Leading icon"
+      },
+      {
+        "text": "Trailing icon"
+      },
+      {
+        "text": "Icon button clear"
+      },
+      {
+        "text": "Input value"
+      },
+      {
+        "text": "Badge"
+      },
+      {
+        "text": "Field container"
+      }
+    ]
+  },
   "tags": [
     "form",
     "select",
