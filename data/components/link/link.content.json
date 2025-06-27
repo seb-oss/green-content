@@ -6,7 +6,22 @@
   "summary": "A link navigates users to other pages or sections of content.",
   "preamble": "The link component is used to navigate users to other pages, sections, or resources. It plays a key role in guiding users through the interface and must be designed for clarity, accessibility, and consistency.",
   "anatomy": true,
-  "anatomy-details": "1.  Link text\n    \n2.  Leading icon\n    \n3.  Trailing icon\n    \n4.  Link decoration",
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Link text"
+      },
+      {
+        "text": "Leading icon"
+      },
+      {
+        "text": "Trailing icon"
+      },
+      {
+        "text": "Link decoration"
+      }
+    ]
+  },
   "tags": [
     "navigation",
     "editorial"
