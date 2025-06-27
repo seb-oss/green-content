@@ -4,7 +4,7 @@
   "hero_snippet": "hero-details",
   "beta": false,
   "summary": "The details component is a collapsible section that helps organize and hide content until needed.",
-  "preamble": "Details consists of a label which is always visible, and an hidden section that can be expanded or collapsed by interacting with the label section. The collapsed content is hidden both visually and semantically in the accessibility tree, i.e from screen readers. ",
+  "preamble": "Details consists of a label which is always visible, and a hidden section that can be expanded or collapsed by interacting with the label section. The collapsed content is hidden both visually and semantically in the accessibility tree, i.e from screen readers. ",
   "anatomy": true,
   "anatomy-overview": "Details consists of a label section with an icon to illustrate current state. This section always remains visible.. Below it is the content section which can be expanded or collapsed.",
   "anatomy-details": "1.  Heading\n    \n2.  Icon button\n    \n3.  Expanded content\n    \n4.  Detail seperator",
