@@ -2,5 +2,5 @@
   "title": "Alert: Dissmisible",
   "slug": "alert-dismissible",
   "snippet_component": "Alert",
-  "code": "<gds-div width=\"100%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" dismissible>\n  <strong>Dismissible</strong> User can dismiss this alert.\n</gds-alert>\n</gds-div>"
+  "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" dismissible>\n  <strong>Dismissible</strong> User can dismiss this alert.\n</gds-alert>\n</gds-div>"
 }

@@ -2,5 +2,5 @@
   "title": "Alert: Negative",
   "slug": "alert-negative-variant",
   "snippet_component": "Alert",
-  "code": "<gds-div width=\"100%\" display=\"block\">\n<gds-alert variant=\"negative\" role=\"alert\">\n  <strong>Negative</strong> Error message requiring user attention.\n</gds-alert>\n</gds-div>"
+  "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"negative\" role=\"alert\">\n  <strong>Negative</strong> Error message requiring user attention.\n</gds-alert>\n</gds-div>"
 }
