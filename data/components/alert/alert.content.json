@@ -59,7 +59,7 @@
         },
         {
           "type": "snippet",
-          "plain": true,
+          "plain": false,
           "Snippet": "alert-information"
         },
         {
@@ -70,7 +70,7 @@
         },
         {
           "type": "snippet",
-          "plain": true,
+          "plain": false,
           "Snippet": "alert-notice"
         },
         {
@@ -81,7 +81,7 @@
         },
         {
           "type": "snippet",
-          "plain": true,
+          "plain": false,
           "Snippet": "alert-positive"
         },
         {
@@ -92,7 +92,7 @@
         },
         {
           "type": "snippet",
-          "plain": true,
+          "plain": false,
           "Snippet": "alert-warning"
         },
         {
@@ -103,7 +103,7 @@
         },
         {
           "type": "snippet",
-          "plain": true,
+          "plain": false,
           "Snippet": "alert-negative-variant"
         }
       ]
@@ -116,7 +116,7 @@
       "columns": [
         {
           "type": "snippet",
-          "plain": true,
+          "plain": false,
           "Snippet": "alert-action"
         }
       ]
@@ -129,7 +129,7 @@
       "columns": [
         {
           "type": "snippet",
-          "plain": true,
+          "plain": false,
           "Snippet": "alert-dismissible"
         }
       ]
