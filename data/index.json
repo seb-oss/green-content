@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-30T08:05:22.334Z",
+    "lastUpdated": "2025-06-30T08:05:38.067Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -514,7 +514,7 @@
             "title": "Alert: Warning",
             "slug": "alert-warning",
             "path": "snippets/alert-warning/alert-warning.json",
-            "code": "<gds-div width=\"100%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>",
+            "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-warning/alert-warning.json"
             }

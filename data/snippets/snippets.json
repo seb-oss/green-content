@@ -40,7 +40,7 @@
       "title": "Alert: Warning",
       "slug": "alert-warning",
       "path": "snippets/alert-warning/alert-warning.json",
-      "code": "<gds-div width=\"100%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>"
+      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Badge: Lead",
@@ -344,5 +344,5 @@
     }
   ],
   "total": 57,
-  "lastUpdated": "2025-06-30T08:05:22.335Z"
+  "lastUpdated": "2025-06-30T08:05:38.068Z"
 }
