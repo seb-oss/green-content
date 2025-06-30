@@ -219,6 +219,9 @@ content:
                   - name: plain
                     label: Plain
                     type: boolean
+                  - name: replay
+                    label: Replay
+                    type: boolean
                   - name: Snippet
                     type: reference
                     options:
