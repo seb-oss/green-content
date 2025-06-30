@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-06-30T08:28:52.667Z",
+    "lastUpdated": "2025-06-30T09:28:40.959Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -478,7 +478,7 @@
             "title": "Alert: Information",
             "slug": "alert-information",
             "path": "snippets/alert-information/alert-information.json",
-            "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\">\n  <strong>Information</strong> Body text starts on the same row as\n  heading. A link (optional) always ends the message.\n</gds-alert>\n</gds-div>",
+            "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\">\n  <strong>Information</strong> Body text starts on the same row as\n  heading.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-information/alert-information.json"
             }
