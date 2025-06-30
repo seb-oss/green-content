@@ -4,13 +4,13 @@
       "title": "Alert: Action",
       "slug": "alert-action",
       "path": "snippets/alert-action/alert-action.json",
-      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n  <strong>Actionable</strong> Alert with a button for quick user interaction.\n</gds-alert>\n</gds-div>"
+      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n  <strong>Actionable</strong> Alert with a button for quick user interaction.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Dissmisible",
       "slug": "alert-dismissible",
       "path": "snippets/alert-dismissible/alert-dismissible.json",
-      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" dismissible>\n  <strong>Dismissible</strong> User can dismiss this alert.\n</gds-alert>\n</gds-div>"
+      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" dismissible>\n  <strong>Dismissible</strong> User can dismiss this alert.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Information",
@@ -344,5 +344,5 @@
     }
   ],
   "total": 57,
-  "lastUpdated": "2025-06-30T08:27:17.104Z"
+  "lastUpdated": "2025-06-30T08:28:52.668Z"
 }
