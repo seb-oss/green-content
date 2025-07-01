@@ -42,7 +42,7 @@
     {
       "title": "Features",
       "tag": "H2",
-      "section-content": "*   Configurable date format display\n    \n*   ‘plain’ mode to hide labels and error messages\n    \n*   Clearable for quick state reset\n    \n*   Min and max dates\n    \n*   Can be configured with visible or hidden week numbers\n    \n*   Individual dates can be marked as disabled in the calendar\n    \n*   Buttons in the calendar footer are configurable",
+      "section-content": "*   Configurable date format display\n    \n*   `plain` mode to hide labels and error messages\n    \n*   Clearable for quick state reset\n    \n*   Min and max dates\n    \n*   Can be configured with visible or hidden week numbers\n    \n*   Individual dates can be marked as disabled in the calendar\n    \n*   Buttons in the calendar footer are configurable",
       "cols": "1"
     },
     {
