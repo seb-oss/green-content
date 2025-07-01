@@ -44,12 +44,14 @@
           "type": "snippet",
           "caption": "Default size",
           "plain": false,
+          "replay": false,
           "Snippet": "segmented-control-size-default"
         },
         {
           "type": "snippet",
           "caption": "Small size",
           "plain": false,
+          "replay": false,
           "Snippet": "segmented-control-size-small"
         }
       ]
@@ -67,6 +69,7 @@
           "type": "snippet",
           "caption": "Segmented controls with icons",
           "plain": false,
+          "replay": false,
           "Snippet": "segmented-control-icons"
         }
       ]
@@ -80,13 +83,10 @@
           "type": "snippet",
           "caption": "Overflow of options",
           "plain": false,
+          "replay": false,
           "Snippet": "segmented-control-overflow"
         }
       ]
-    },
-    {
-      "title": "Do's and Don'ts",
-      "cols": "2"
     },
     {
       "title": "Do's and Don'ts",
