@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-01T08:09:16.701Z",
+    "lastUpdated": "2025-07-01T08:15:44.651Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -625,6 +625,15 @@
             "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/details-small/details-small.json"
+            }
+          },
+          {
+            "title": "Dialog: Regular",
+            "slug": "dialog-regular",
+            "path": "snippets/dialog-regular/dialog-regular.json",
+            "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Regular Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
+            "endpoints": {
+              "content": "snippets/dialog-regular/dialog-regular.json"
             }
           },
           {

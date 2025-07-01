@@ -115,6 +115,12 @@
       "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
     },
     {
+      "title": "Dialog: Regular",
+      "slug": "dialog-regular",
+      "path": "snippets/dialog-regular/dialog-regular.json",
+      "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Regular Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
+    },
+    {
       "title": "Hero: Alert",
       "slug": "hero-alert",
       "path": "snippets/hero-alert/hero-alert.json",
@@ -367,6 +373,6 @@
       "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     }
   ],
-  "total": 61,
-  "lastUpdated": "2025-07-01T08:09:16.702Z"
+  "total": 62,
+  "lastUpdated": "2025-07-01T08:15:44.651Z"
 }
