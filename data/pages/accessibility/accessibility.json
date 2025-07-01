@@ -10,7 +10,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Every component in Green Design System has accessibility in mind. For each component, we review the following areas:\n\n*   Contrast\n    \n*   Keyboard navigation\n    \n*   ARIA & HTMEL semantics\n    \n*   Focus behaviour\n    \n*   Touch interactions\n    \n*   Screen reader support\n    \n*   Darkmode compatibility"
+          "content": "Every component in Green Design System has accessibility in mind. For each component, we review the following areas:\n\n*   Contrast\n    \n*   Keyboard navigation\n    \n*   ARIA & HTML semantics\n    \n*   Focus behaviour\n    \n*   Touch interactions\n    \n*   Screen reader support\n    \n*   Darkmode compatibility"
         }
       ]
     },
