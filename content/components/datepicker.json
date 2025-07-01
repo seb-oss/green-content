@@ -51,8 +51,22 @@
     },
     {
       "title": "Size",
-      "tag": "H2",
-      "section-content": "The datepicker comes in two sizes.\n\n*   **Large**\n    \n*   **Small**: used in tables and in some special cases where the space is very limited."
+      "section-content": "The datepicker comes in two sizes.\n\n*   **Large** (default)\n    \n*   **Small**: used in tables and in some special cases where the space is very limited.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "datepicker-large"
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "datepicker-small"
+        }
+      ]
     },
     {
       "title": "Do's and don'ts",
