@@ -4,7 +4,7 @@
   "hero_snippet": "hero-form-summary",
   "beta": true,
   "summary": "Form summary shows all form errors in one place.",
-  "preamble": "When a user attempts to submit a form with errors, this component displays a summary of those errors. Including a form summary assists users in promptly identifying and addressing multiple errors in a consolidated manner. It provides a clear indication of what went wrong and what needs to be corrected.",
+  "preamble": "Form summary assists users in identifying and addressing multiple errors in one place.\n",
   "anatomy": true,
   "anatomy-overview": "The form summary consists of a card with a heading outlining the number of errors currently in the form, followed by a list of the errors. Each error has an icon button with an arrow pointing in the direction of the associated control. Clicking one of the errors moves focus to the associated form control.",
   "anatomy-list": {
@@ -64,8 +64,7 @@
       ]
     },
     {
-      "title": "Guidelines",
-      "tag": "H2",
+      "title": "Usage",
       "cols": "1",
       "columns": [
         {
