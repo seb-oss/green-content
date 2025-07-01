@@ -85,18 +85,8 @@
       ]
     },
     {
-      "title": "Guidelines",
-      "tag": "H2",
-      "section-content": "Dialogs are powerful tools for focusing user attention, but their use should be deliberate to avoid disrupting the user experience.",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Best practices",
-          "tag": "H3",
-          "content": "*   Use concise, actionable text. Clearly state the purpose and options.\n    \n*   Use button ranks to make the primary action obvious. For example, use the primary button for “Save” and secondary for “Cancel”\n    \n*   Ensure the dialog relates to the user’s current task. Include relevant details, like the name of the item being deleted."
-        }
-      ]
+      "title": "Usage",
+      "section-content": "Dialogs are powerful tools for focusing user attention, but their use should be deliberate to avoid disrupting the user experience."
     },
     {
       "title": "Do's and don'ts",
@@ -113,6 +103,12 @@
             },
             {
               "text": "Use dialogs for short, specific input tasks, like entering a file name, setting preferences, or filling out a quick form."
+            },
+            {
+              "text": "Use button ranks to make the primary action obvious. For example, use the primary button for “Save” and secondary for “Cancel”"
+            },
+            {
+              "text": "Ensure the dialog relates to the user’s current task. Include relevant information, like the name of the item being deleted."
             }
           ]
         },
