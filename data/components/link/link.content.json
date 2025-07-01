@@ -70,16 +70,16 @@
           "type": "dont",
           "dontlist": [
             {
-              "text": "Use vague link texts like “Click here” or “Read more” without context."
+              "text": "Don't use vague link texts like “Click here” or “Read more” without context."
             },
             {
-              "text": "Use links to trigger actions like opening modals, submitting forms, or toggling UI—use buttons instead."
+              "text": "Don't use links to trigger actions like opening modals, submitting forms, or toggling UI—use buttons instead."
             },
             {
-              "text": "Overload an interface with too many link styles—it can confuse users."
+              "text": "Don't overload an interface with too many link styles—it can confuse users."
             },
             {
-              "text": "Forget to test links in both light and dark modes for contrast and visibility."
+              "text": "Don't forget to test links in both light and dark modes for contrast and visibility."
             }
           ]
         }
