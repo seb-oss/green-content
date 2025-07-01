@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-01T08:04:27.675Z",
+    "lastUpdated": "2025-07-01T08:05:37.207Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -607,6 +607,15 @@
             "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers size=\"small\"></gds-datepicker>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/datepicker-small/datepicker-small.json"
+            }
+          },
+          {
+            "title": "Details: Size Large",
+            "slug": "details-large",
+            "path": "snippets/details-large/details-large.json",
+            "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/details-large/details-large.json"
             }
           },
           {
