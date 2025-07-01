@@ -1,0 +1,5 @@
+{
+  "title": "FAB: Regular",
+  "slug": "fab-regular",
+  "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    rank=\"secondary\"\n    size=\"small\"\n  >\n    <gds-icon-plus-large></gds-icon-plus-large>\n  </gds-fab>\n</gds-flex>"
+}
