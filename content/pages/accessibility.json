@@ -73,27 +73,27 @@
         },
         {
           "type": "rich-text",
-          "title": "Touch",
+          "title": "Touch interaction",
           "tag": "H2",
-          "content": "Touch surfaces big enough and fits the visuals.\n\n*   Hand gestures like: Pinching/zooming/scrolling works.\n    \n*   AA 24px, AAA 44px - Min size (44px, but an be 24px touch area outside).\n    \n*   [https://www.w3.org/WAI/WCAG21/Understanding/target-size.html](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)\n    \n*   [https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)\n    \n*   [https://accessibility.digital.gov/ux/touch-targets/](https://accessibility.digital.gov/ux/touch-targets/)"
+          "content": "Interactive elements should be easy to tap and match the visual design. Touch targets must be large enough to avoid mis-taps and support common gestures like pinching, zooming, and scrolling where applicable.\n\n*   The recommended **minimum touch** target size is 44×44 px (WCAG AAA).\n    \n*   WCAG AA allows a minimum size of 24×24 px, if there's at least 44×44 px of clickable space around it.\n    \n*   Touch targets should align with visual cues to avoid confusion or missed interactions.\n    \n\nReferences:\n\n*   [WCAG 2.1: Target Size (AA)](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)\n    \n*   [WCAG 2.2: Target Size (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)\n    \n*   [U.S. Digital Service: Touch Targets](https://accessibility.digital.gov/ux/touch-targets/)"
         },
         {
           "type": "rich-text",
-          "title": "Screen reader",
+          "title": "Screen reader support",
           "tag": "H2",
-          "content": "Works well with screen-readers.\n\n*   Usually test on: NVDA, VoiceOver (MacOS / iOS), & TalkBack (Android).\n    \n*   Can jump between headers? Which is the most common way of using a screen-reader.\n    \n*   Read out everything that can be seen (except images that have no real meaning)."
+          "content": "Components should work consistently with screen readers, ensuring a seamless and understandable experience for users who rely on assistive technologies.\n\n*   Higher priority to test with **NVDA** (PC) and **VoiceOver** (macOS/iOS), and lower priority on TalkBack (Android).\n    \n*   Users should be able to **navigate by headings**, as this is one of the most common ways to explore content with a screen reader.\n    \n*   All meaningful content should be read aloud clearly — including labels, states, and instructions. Decorative images or elements without informative value should be marked to be ignored."
         },
         {
           "type": "rich-text",
-          "title": "Dark mode",
+          "title": "Dark mode compatibility",
           "tag": "H2",
-          "content": "If the components support dark mode - and how well it does it.\n\n*   What changes? Maybe nothing?\n    \n*   Something broken?"
+          "content": "Check whether the component supports dark mode — and how well it adapts to it.\n\n*   Does anything change when switching to dark mode?\n    \n*   Is the component still fully functional and visually clear?\n    \n*   Are there any broken styles, missing contrasts, or unclear states?\n    \n\nEven if a component appears unchanged, it's important to verify that all colors, icons, and interactions remain accessible and consistent in dark mode."
         },
         {
           "type": "rich-text",
           "title": "Summary",
           "tag": "H2",
-          "content": "How is accessible is the Green Design System?\n\nOverall, the design system is accessible. However, we occasionally encounter issues, and new ones are reported from time to time. If you identify any accessibility problems, please assist us by submitting a new issue."
+          "content": "How is accessible is the Green Design System?\n\nOverall, the design system is built with accessibility in mind and performs well. However, occasional issues may arise, and new challenges can be reported as the system evolves.\n\nIf you come across an accessibility issue, please help us improve by submitting a report or creating a new issue."
         }
       ]
     }
