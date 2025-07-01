@@ -52,7 +52,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "How to use the keyboard with this component. If something is deviating from the standards.\n\n*   You can open, press, or run the component using the Enter and/or Space keys\n    \n*   You can navigate using the arrow keys when applicable\n    \n*   You can enter text when applicable, with clear indications when text entry is not possible.\n    \n*   Please note that disabled fields should be avoided. These fields cannot be clicked or written in, and often do not provide an explanation as to why. Additionally, they typically have poor contrast."
+          "content": "We ensure that components can be fully operated using the keyboard. If a component behaves differently from standard keyboard patterns, this should be clearly documented.\n\n*   Components can be activated using **Enter** and/or **Space**, where appropriate.\n    \n*   Arrow keys are used for navigation when relevant (e.g. in menus or dropdowns).\n    \n*   If writing text is allowed it should be easy to visibly see that.\n    \n*   If typing is not allowed (for example, in a read-only or locked field), this should be visually obvious and easy to understand.\n    \n*   **Avoid using disabled fields.** They can't be clicked or typed into, often lack context for why they’re inactive, and typically have poor contrast—making them inaccessible and confusing for users."
         }
       ]
     },
@@ -61,15 +61,15 @@
       "columns": [
         {
           "type": "rich-text",
-          "title": "Aria & html",
+          "title": "ARIA & HTML semantics",
           "tag": "H2",
-          "content": "Follows Aria Attributes and Roles. Uses correct html with no unnecessary aria. Common misstakes are:\n\n*   Misspelled - eg id's are case sensitive.\n    \n*   Too much - using extra aria where it is not needed."
+          "content": "We follow correct ARIA attributes and roles, and use semantic HTML as the foundation. ARIA should only be used when necessary — never as a replacement for proper HTML.  \n  \nCommon mistakes include:\n\n*   **Misspellings** – for example, id values are case-sensitive and must match exactly.\n    \n*   **Overuse** – adding ARIA attributes where they aren't needed can cause confusion for assistive technologies."
         },
         {
           "type": "rich-text",
-          "title": "Focus",
+          "title": "Focus behavior",
           "tag": "H2",
-          "content": "If focus is implemented correctly:\n\n*   There should typically be a black focus ring a few pixels away from the element.\n    \n*   Does the focus appear when using the keyboard, but not the mouse?\n    \n*   Is it sufficiently visible? Are any parts of it hidden behind other elements or outside the window?\n    \n*   Is the focus order logical? Typically, the focus order should start from the top left, move to the top right, and then proceed downwards, continuing from left to right.\n    \n*   Do focus traps work effectively? Focus traps should ensure that popups and modals prevent users from interacting with elements outside them, whether using a mouse, keyboard, or screen readers."
+          "content": "Proper focus handling is essential for keyboard and screen reader navigation.  \n  \nWhen focus is implemented correctly:\n\n*   A visible **black focus ring** should appear slightly outside the focused element (typically a few pixels away).\n    \n*   Focus should typically appear when **navigating with the keyboard**, but not when using a mouse (to avoid visual clutter).\n    \n*   The focus indicator must be **clearly visible** – it should not be hidden behind other elements or fall outside the viewport.\n    \n*   The **focus order** should follow a logical sequence: usually starting from the top left, moving to the top right, then continuing downward, left to right.\n    \n*   **Focus traps** should work effectively in pop-ups and modals, keeping the user inside until the interaction is complete. This applies to keyboard, mouse, and screen reader users alike."
         },
         {
           "type": "rich-text",
