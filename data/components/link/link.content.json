@@ -77,9 +77,6 @@
             },
             {
               "text": "Don't overload an interface with too many link styles—it can confuse users."
-            },
-            {
-              "text": "Don't forget to test links in both light and dark modes for contrast and visibility."
             }
           ]
         }
