@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-01T12:29:08.215Z",
+    "lastUpdated": "2025-07-01T12:32:14.139Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -829,7 +829,7 @@
             "title": "Hero: FAB",
             "slug": "hero-fab",
             "path": "snippets/hero-fab/hero-fab.json",
-            "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    variant=\"positive\"\n    rank=\"secondary\"\n    size=\"small\"\n  >\n    Floating <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>",
+            "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    rank=\"secondary\"\n    size=\"small\"\n  >\n    <gds-icon-bubbles slot=\"lead\"></gds-icon-bubbles>\n    Support \n  </gds-fab>\n    <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    rank=\"secondary\"\n    size=\"small\"\n  >\n    <gds-icon-bubbles></gds-icon-bubbles>\n  </gds-fab>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-fab/hero-fab.json"
             }
