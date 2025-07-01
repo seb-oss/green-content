@@ -43,6 +43,25 @@
       "cols": "1"
     },
     {
+      "title": "Size",
+      "section-content": "The details component comes in two sizes:\n\n*   **Large** (default)\n    \n*   **Small**",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "details-large"
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "details-small"
+        }
+      ]
+    },
+    {
       "title": "Do's and don'ts",
       "cols": "2",
       "columns": [
@@ -67,17 +86,6 @@
               "text": "Avoid nesting details in multiple levels."
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "Size",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false
         }
       ]
     }
