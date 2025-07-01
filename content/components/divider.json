@@ -30,10 +30,22 @@
           "content": "The color of the divider line can be set to a color token."
         },
         {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "divider-color"
+        },
+        {
           "type": "rich-text",
           "title": "Spacing",
           "tag": "H3",
           "content": "Spacing around the divider can be controlled using the `size` attribute."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "divider-spacing"
         }
       ]
     },
