@@ -1,0 +1,5 @@
+{
+  "title": "Divider: Color",
+  "slug": "divider-color",
+  "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>"
+}
