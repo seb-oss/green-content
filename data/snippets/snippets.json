@@ -109,6 +109,12 @@
       "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
     },
     {
+      "title": "Details: Size small",
+      "slug": "details-small",
+      "path": "snippets/details-small/details-small.json",
+      "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
+    },
+    {
       "title": "Hero: Alert",
       "slug": "hero-alert",
       "path": "snippets/hero-alert/hero-alert.json",
@@ -361,6 +367,6 @@
       "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     }
   ],
-  "total": 60,
-  "lastUpdated": "2025-07-01T08:05:37.208Z"
+  "total": 61,
+  "lastUpdated": "2025-07-01T08:05:58.806Z"
 }
