@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-01T12:27:31.314Z",
+    "lastUpdated": "2025-07-01T12:28:06.719Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -661,6 +661,15 @@
             "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>",
             "endpoints": {
               "content": "snippets/divider-spacing/divider-spacing.json"
+            }
+          },
+          {
+            "title": "FAB: With label",
+            "slug": "fab-label",
+            "path": "snippets/fab-label/fab-label.json",
+            "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    rank=\"secondary\"\n    size=\"small\"\n  >\n    <gds-icon-plus-large slot=\"lead\"></gds-icon-plus-large>\n    Add item\n  </gds-fab>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/fab-label/fab-label.json"
             }
           },
           {

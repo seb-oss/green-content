@@ -139,6 +139,12 @@
       "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>"
     },
     {
+      "title": "FAB: With label",
+      "slug": "fab-label",
+      "path": "snippets/fab-label/fab-label.json",
+      "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    rank=\"secondary\"\n    size=\"small\"\n  >\n    <gds-icon-plus-large slot=\"lead\"></gds-icon-plus-large>\n    Add item\n  </gds-fab>\n</gds-flex>"
+    },
+    {
       "title": "FAB: Regular",
       "slug": "fab-regular",
       "path": "snippets/fab-regular/fab-regular.json",
@@ -397,6 +403,6 @@
       "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     }
   ],
-  "total": 66,
-  "lastUpdated": "2025-07-01T12:27:31.315Z"
+  "total": 67,
+  "lastUpdated": "2025-07-01T12:28:06.719Z"
 }
