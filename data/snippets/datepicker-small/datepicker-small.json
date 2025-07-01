@@ -1,0 +1,5 @@
+{
+  "title": "Datepicker: Size small",
+  "slug": "datepicker-small",
+  "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers size=\"small\"></gds-datepicker>\n</gds-flex>"
+}

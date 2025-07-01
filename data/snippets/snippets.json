@@ -97,6 +97,12 @@
       "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers></gds-datepicker>\n</gds-flex>"
     },
     {
+      "title": "Datepicker: Size small",
+      "slug": "datepicker-small",
+      "path": "snippets/datepicker-small/datepicker-small.json",
+      "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers size=\"small\"></gds-datepicker>\n</gds-flex>"
+    },
+    {
       "title": "Hero: Alert",
       "slug": "hero-alert",
       "path": "snippets/hero-alert/hero-alert.json",
@@ -349,6 +355,6 @@
       "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     }
   ],
-  "total": 58,
-  "lastUpdated": "2025-07-01T07:41:24.927Z"
+  "total": 59,
+  "lastUpdated": "2025-07-01T07:41:55.176Z"
 }
