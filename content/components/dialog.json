@@ -70,19 +70,35 @@
     },
     {
       "title": "Do's and don'ts",
-      "tag": "H2",
+      "cols": "2",
       "columns": [
         {
-          "type": "rich-text",
-          "title": "Do",
-          "tag": "H3",
-          "content": "*   Use dialogs for critical actions that need explicit user acknowledgment, such as confirming a deletion or agreeing to terms.\n    \n*   Use dialogs for multi-step processes that benefit from a focused, step-by-step interface, like a setup wizard or onboarding flow.\n    \n*   Use dialogs for short, specific input tasks, like entering a file name, setting preferences, or filling out a quick form."
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use dialogs for critical actions that need explicit user acknowledgment, such as confirming a deletion or agreeing to terms."
+            },
+            {
+              "text": "Use dialogs for multi-step processes that benefit from a focused, step-by-step interface, like a setup wizard or onboarding flow."
+            },
+            {
+              "text": "Use dialogs for short, specific input tasks, like entering a file name, setting preferences, or filling out a quick form."
+            }
+          ]
         },
         {
-          "type": "rich-text",
-          "title": "Don´t",
-          "tag": "H3",
-          "content": "*   Don’t use dialogs for trivial confirmations or information that could be displayed inline or via notifications. Overusing dialogs interrupts workflow and causes \"dialog fatigue.\"\n    \n*   Don’t use dialogs for extensive forms or complex tasks that require significant screen space or navigation. Use a full page or panel instead.\n    \n*   Avoid dialogs for repetitive tasks, as they slow users down. Allow users to opt out or streamline the process with settings (e.g., \"Don’t ask again\")."
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don’t use dialogs for trivial confirmations or information that could be displayed inline or via notifications. Overusing dialogs interrupts workflow and causes \"dialog fatigue.\""
+            },
+            {
+              "text": "Don’t use dialogs for extensive forms or complex tasks that require significant screen space or navigation. Use a full page or panel instead."
+            },
+            {
+              "text": "Avoid dialogs for repetitive tasks, as they slow users down. Allow users to opt out or streamline the process with settings (e.g., \"Don’t ask again\")."
+            }
+          ]
         }
       ]
     }
