@@ -121,6 +121,12 @@
       "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Regular Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
     },
     {
+      "title": "Dialog: slide-out",
+      "slug": "dialog-slideout",
+      "path": "snippets/dialog-slideout/dialog-slideout.json",
+      "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Slide-out Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
+    },
+    {
       "title": "Hero: Alert",
       "slug": "hero-alert",
       "path": "snippets/hero-alert/hero-alert.json",
@@ -373,6 +379,6 @@
       "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     }
   ],
-  "total": 62,
-  "lastUpdated": "2025-07-01T08:15:44.651Z"
+  "total": 63,
+  "lastUpdated": "2025-07-01T08:16:28.082Z"
 }
