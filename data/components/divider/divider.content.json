@@ -4,9 +4,8 @@
   "hero_snippet": "hero-divider",
   "beta": true,
   "summary": "Divider creates visual and semantic separation between content.",
-  "preamble": "Dividers helps organize information by creating clear boundaries between sections, groups, or items, improving scannability and reducing visual clutter. They are commonly used in layouts like forms, lists, menus, or dashboards. By providing subtle visual cues, dividers enhance content hierarchy and guide users through the interface while maintaining a clean and cohesive design.\n\nBy default, Divider has the same semantic meaning as the `<hr>` html element, which represents a thematic break.for example, a shift of topic within a section.",
+  "preamble": "Dividers helps organize information by creating clear boundaries between sections, groups, or items. They are commonly used in layouts like forms, lists, menus, or dashboards.\n\nBy default, divider has the same semantic meaning as the `<hr>` html element, which represents a thematic break. For example, a shift of topic within a section.",
   "anatomy": false,
-  "anatomy-overview": "Divider displays a horizontal line with a configurable space above and below.",
   "tags": [
     "editorial"
   ],
@@ -35,18 +34,12 @@
           "title": "Spacing",
           "tag": "H3",
           "content": "Spacing around the divider can be controlled using the `size` attribute."
-        },
-        {
-          "type": "rich-text",
-          "title": "Semantics",
-          "tag": "H3",
-          "content": "Divider support the `role` attribute, which can be used to change the semantic meaning, for example if you need to use it as only a visual horizontal line, you can set the role to `presentation`"
         }
       ]
     },
     {
-      "title": "Guidelines",
-      "section-content": "Use dividers to support visual hierarchy when headings or spacing alone aren’t sufficient, such as between groups of menu items, or to achieve cleaner interfaces where heavy containers (e.g., cards) would feel too visually intrusive."
+      "title": "Usage",
+      "section-content": "Use dividers to support visual hierarchy when headings or spacing alone aren’t sufficient, such as between groups of menu items.\n\nBy default dividers have a semantic meaning in the browser but can be configured to be only a visual separator."
     },
     {
       "title": "Do's and don'ts",
