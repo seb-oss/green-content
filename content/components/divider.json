@@ -51,7 +51,7 @@
     },
     {
       "title": "Usage",
-      "section-content": "Use dividers to support visual hierarchy when headings or spacing alone aren’t sufficient, such as between groups of menu items.\n\nBy default dividers have a semantic meaning in the browser but can be configured to be only a visual separator."
+      "section-content": "Use dividers to support visual hierarchy when headings or spacing alone aren’t sufficient, such as between groups of menu items.\n\nBy default dividers have a semantic meaning in the browser but it can be marked as presentational using `role=\"presentation\"` ."
     },
     {
       "title": "Do's and don'ts",
@@ -61,7 +61,7 @@
           "type": "do",
           "dolist": [
             {
-              "text": "Consider the semantics in context. As a rule of thumb, if you think that a screen reader should announce the divider, then default semantics are OK, otherwise it should be marked as presentational."
+              "text": "Keep dividers semantic for content breaks, presentational for visual separation."
             }
           ]
         },
@@ -69,7 +69,7 @@
           "type": "dont",
           "dontlist": [
             {
-              "text": "Overuse Dividers: Avoid placing dividers between every element, as this creates visual clutter and fragments the interface."
+              "text": "Don't overuse dividers."
             }
           ]
         }
