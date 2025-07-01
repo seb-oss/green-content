@@ -1,16 +1,16 @@
 {
   "title": "Accessibility",
   "slug": "accessibility",
-  "summary": "Accessibility is a crucial part of our digital experience. Around 20% of people experience permanent, temporary, or situational challenges when using websites that aren't designed with accessibility in mind. By creating an inclusive digital environment, we ensure that everyone can use our services comfortably and effectively. Good accessibility practices enhance the overall experience for all users, making our website more user-friendly and easier to navigate for everyone.",
+  "summary": "Accessibility is a essential part of our digital experience. Approximately 20% of people experience permanent, temporary, or situational difficulties when using websites that lack accessible design. By creating an inclusive environment, we make our services easier to use for everyone — improving clarity, usability, and overall experience.",
   "sections": [
     {
-      "title": "What we check",
+      "title": "Accessibility checklist",
       "tag": "H2",
       "cols": "1",
       "columns": [
         {
           "type": "rich-text",
-          "content": "Every component in Green Design System have accessibility in mind. Here you can read about the different parts that we check on each component:\n\n*   Contrast\n    \n*   Keyboard navigation\n    \n*   Aria & Html\n    \n*   Focus\n    \n*   Touch\n    \n*   Screen reader\n    \n*   Darkmode"
+          "content": "Every component in Green Design System has accessibility in mind. For each component, we review the following areas:\n\n*   Contrast\n    \n*   Keyboard navigation\n    \n*   ARIA & HTMEL semantics\n    \n*   Focus behaviour\n    \n*   Touch interactions\n    \n*   Screen reader support\n    \n*   Darkmode compatibility"
         }
       ]
     },
@@ -21,13 +21,13 @@
       "columns": [
         {
           "type": "rich-text",
-          "title": "Why is high contrast needed?",
+          "title": "The importance of high contrast",
           "tag": "H3",
           "content": "High contrast ratios assist users with visual impairments by making it easier to read text and identify components or areas on a page. By adhering to this standard, content creators can make their text accessible to a broader audience, including those with significant vision challenges."
         },
         {
           "type": "rich-text",
-          "title": "What do we check with contrast and colors?",
+          "title": "What we check for contrast and colour",
           "tag": "H3",
           "content": "We ensure good contrast and well-chosen colors. Components should have strong enough contrast between their parts. Colors should be easily distinguishable, even for those who are colorblind. Sometimes, using icons or patterns can help distinguish areas better."
         },
@@ -52,7 +52,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "How to use the keyboard with this component. If something is deviating from the standards.  \n\n*   You can open, press, or run the component using the Enter and/or Space keys\n    \n*   You can navigate using the arrow keys when applicable\n    \n*   You can enter text when applicable, with clear indications when text entry is not possible.\n    \n*   Please note that disabled fields should be avoided. These fields cannot be clicked or written in, and often do not provide an explanation as to why. Additionally, they typically have poor contrast."
+          "content": "How to use the keyboard with this component. If something is deviating from the standards.\n\n*   You can open, press, or run the component using the Enter and/or Space keys\n    \n*   You can navigate using the arrow keys when applicable\n    \n*   You can enter text when applicable, with clear indications when text entry is not possible.\n    \n*   Please note that disabled fields should be avoided. These fields cannot be clicked or written in, and often do not provide an explanation as to why. Additionally, they typically have poor contrast."
         }
       ]
     },
@@ -63,7 +63,7 @@
           "type": "rich-text",
           "title": "Aria & html",
           "tag": "H2",
-          "content": "Follows Aria Attributes and Roles. Uses correct html with no unnecessary aria. Common misstakes are:\n\n*   Misspelled - eg id&apos;s are case sensitive.\n    \n*   Too much - using extra aria where it is not needed."
+          "content": "Follows Aria Attributes and Roles. Uses correct html with no unnecessary aria. Common misstakes are:\n\n*   Misspelled - eg id's are case sensitive.\n    \n*   Too much - using extra aria where it is not needed."
         },
         {
           "type": "rich-text",
