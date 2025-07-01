@@ -103,10 +103,10 @@
       "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers size=\"small\"></gds-datepicker>\n</gds-flex>"
     },
     {
-      "title": "Details: Size Large",
+      "title": "Details: Size large",
       "slug": "details-large",
       "path": "snippets/details-large/details-large.json",
-      "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
+      "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
     },
     {
       "title": "Details: Size small",
@@ -368,5 +368,5 @@
     }
   ],
   "total": 61,
-  "lastUpdated": "2025-07-01T08:05:58.806Z"
+  "lastUpdated": "2025-07-01T08:06:25.705Z"
 }
