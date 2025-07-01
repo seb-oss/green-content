@@ -108,16 +108,16 @@
           "type": "dont",
           "dontlist": [
             {
-              "text": "Use it to collect data in a form, in that case use radio button or select."
+              "text": "Don't use it to collect data in a form, in that case use radio button or select."
             },
             {
-              "text": "Use to navigate in different areas, use tabs for that."
+              "text": "Don't use to navigate in different areas, use tabs for that."
             },
             {
-              "text": "Mix items with and without icon"
+              "text": "Don't mix items with and without icon"
             },
             {
-              "text": "Use it for actions, use buttons instead."
+              "text": "Don't use it for actions, use buttons instead."
             }
           ]
         }
