@@ -23,19 +23,19 @@
           "type": "rich-text",
           "title": "The importance of high contrast",
           "tag": "H3",
-          "content": "High contrast ratios assist users with visual impairments by making it easier to read text and identify components or areas on a page. By adhering to this standard, content creators can make their text accessible to a broader audience, including those with significant vision challenges."
+          "content": "High contrast ratios make content easier to read and navigate — especially for users with visual impairments. Strong contrast helps differentiate text, components, and sections on a page. By meeting accessibility standards, we ensure our content works for a wider audience, including those with significant vision difficulties."
         },
         {
           "type": "rich-text",
           "title": "What we check for contrast and colour",
           "tag": "H3",
-          "content": "We ensure good contrast and well-chosen colors. Components should have strong enough contrast between their parts. Colors should be easily distinguishable, even for those who are colorblind. Sometimes, using icons or patterns can help distinguish areas better."
+          "content": "We evaluate the contrast between elements to ensure readability and clarity. Components should have sufficient contrast between text, icons, backgrounds, and borders. Colours must be clearly distinguishable, even for users with colour vision deficiencies. When needed, we also use patterns or icons to support meaning and improve accessibility."
         },
         {
           "type": "rich-text",
-          "title": "Here are a few good links to tools that can help",
+          "title": "Tools and standards we follow",
           "tag": "H3",
-          "content": "*   Follow: WCAG 2.1 SC.1.4.3, with ratio of 3:1 to 4.5:1.\n    \n*   Turn on and off different vision deficiencies to see how your site can look like for others, like no green color:  \n    Rendering & Emulate vision deficiencies.\n    \n*   The Chrome extension Silktide also have similar functions (and many more). This extension is whitelisted in SEB.  \n    Chrome: Silktide Color blindness.\n    \n*   There are many online contrast checkers to see if 2 colors hasve enough contrast between them. Here is one of them:  \n    [webaim.org](http://webaim.org)"
+          "content": "*   **WCAG 2.1 - SC.1.4.3:** Follow contrast ratio of 3:1 to 4.5:1, depending on text size and usage.\n    \n*   **Chrome DevTools:** Use the **Rendering > Emulate vision deficiencies** feature to see how designs appear to users with various vision conditions.\n    \n*   **Silktide (Chrome extension):** Offers a wide range of accessibility tools, including color blindness simulation. Approved for use within SEB.\n    \n*   Contrast checkers: Tools like [WebAIM Contrast Checker](https://www.figma.com/design/d3bf8YtNaXdACoec7bY1p7/Green-documentation-site?node-id=5961-4888&m=dev) help you verify if color combinations meet contrast requirements."
         },
         {
           "type": "rich-text",
