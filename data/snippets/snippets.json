@@ -127,6 +127,18 @@
       "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Slide-out Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
     },
     {
+      "title": "Divider: Color",
+      "slug": "divider-color",
+      "path": "snippets/divider-color/divider-color.json",
+      "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>"
+    },
+    {
+      "title": "Divider: Spacing",
+      "slug": "divider-spacing",
+      "path": "snippets/divider-spacing/divider-spacing.json",
+      "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>"
+    },
+    {
       "title": "Hero: Alert",
       "slug": "hero-alert",
       "path": "snippets/hero-alert/hero-alert.json",
@@ -379,6 +391,6 @@
       "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     }
   ],
-  "total": 63,
-  "lastUpdated": "2025-07-01T08:49:06.248Z"
+  "total": 65,
+  "lastUpdated": "2025-07-01T08:55:07.520Z"
 }

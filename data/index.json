@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-01T08:49:06.247Z",
+    "lastUpdated": "2025-07-01T08:55:07.519Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -643,6 +643,24 @@
             "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Slide-out Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
             "endpoints": {
               "content": "snippets/dialog-slideout/dialog-slideout.json"
+            }
+          },
+          {
+            "title": "Divider: Color",
+            "slug": "divider-color",
+            "path": "snippets/divider-color/divider-color.json",
+            "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>",
+            "endpoints": {
+              "content": "snippets/divider-color/divider-color.json"
+            }
+          },
+          {
+            "title": "Divider: Spacing",
+            "slug": "divider-spacing",
+            "path": "snippets/divider-spacing/divider-spacing.json",
+            "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>",
+            "endpoints": {
+              "content": "snippets/divider-spacing/divider-spacing.json"
             }
           },
           {
