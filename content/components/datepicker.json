@@ -47,9 +47,7 @@
     },
     {
       "title": "Usage",
-      "tag": "H2",
-      "section-content": "Use datepicker when a complete date should be entered.",
-      "cols": "1"
+      "section-content": "Use datepicker when a complete date should be entered."
     },
     {
       "title": "Size",
