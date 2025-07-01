@@ -1,0 +1,5 @@
+{
+  "title": "Details: Size small",
+  "slug": "details-small",
+  "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
+}
