@@ -37,7 +37,7 @@
   "overview": [
     {
       "title": "Size",
-      "section-content": "The segmented control comes in two sizes:\n\n*   **Default**: The most commonly used to ensure visibility.\n    \n*   **Small**: Used in confined spaces.",
+      "section-content": "The segmented control comes in two sizes:\n\n*   **Large** (Default)\n    \n*   **Small**",
       "cols": "2",
       "columns": [
         {
