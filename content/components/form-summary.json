@@ -76,7 +76,7 @@
           "type": "dont",
           "dontlist": [
             {
-              "text": "Use the form summary component for small forms with only a few controls."
+              "text": "Don't use the form summary component for small forms with only a few controls."
             }
           ]
         }
