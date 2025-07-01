@@ -74,7 +74,7 @@
           "type": "dont",
           "dontlist": [
             {
-              "text": "Place the filter options directly in the content area if there are too many categories or filters — use a slide-out modal instead to keep the interface clean and manageable."
+              "text": "Dont' place the filter options directly in the content area if there are too many categories or filters, use a slide-out modal instead."
             }
           ]
         }
