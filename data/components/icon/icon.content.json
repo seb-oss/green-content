@@ -24,8 +24,10 @@
       "section-content": "Central icons come in three weights, and Green uses a 1.5 px stroke width for consistency. They have 0% radius with a round join, ensuring a clean and modern look.\n\nIcons are available in regular and solid styles. The regular variant is our default, while the solid style is primarily used for selected states, such as highlighting the active menu item, to indicate “you are here.”\n\nWhen using icons, ensure they clearly communicate their purpose and maintain consistency across your interface to enhance user understanding."
     },
     {
-      "title": "Examples",
-      "section-content": "Here are some examples where icons are being used."
+      "title": "Size"
+    },
+    {
+      "title": "Color"
     },
     {
       "title": "Central icon system",
