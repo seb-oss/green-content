@@ -52,7 +52,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "We ensure that components can be fully operated using the keyboard. If a component behaves differently from standard keyboard patterns, this should be clearly documented.\n\n*   Components can be activated using **Enter** and/or **Space**, where appropriate.\n    \n*   Arrow keys are used for navigation when relevant (e.g. in menus or dropdowns).\n    \n*   If writing text is allowed it should be easy to visibly see that.\n    \n*   If typing is not allowed (for example, in a read-only or locked field), this should be visually obvious and easy to understand.\n    \n*   **Avoid using disabled fields.** They can't be clicked or typed into, often lack context for why they’re inactive, and typically have poor contrast—making them inaccessible and confusing for users."
+          "content": "We ensure that components can be fully operated using the keyboard. If a component behaves differently from standard keyboard patterns, this should be clearly documented.\n\n*   Components can be activated using **Enter** and/or **Space**, where appropriate.\n    \n*   **Arrow keys** are used for navigation when relevant (e.g. in menus or dropdowns).\n    \n*   If writing text is allowed it should be easy to visibly see that.\n    \n*   If typing is not allowed (for example, in a read-only or locked field), this should be visually obvious and easy to understand.\n    \n*   **Avoid using disabled fields.** They can't be clicked or typed into, often lack context for why they’re inactive, and typically have poor contrast—making them inaccessible and confusing for users."
         }
       ]
     },
