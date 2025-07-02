@@ -63,13 +63,13 @@
           "type": "rich-text",
           "title": "ARIA & HTML semantics",
           "tag": "H2",
-          "content": "We follow correct ARIA attributes and roles, and use semantic HTML as the foundation. ARIA should only be used when necessary — never as a replacement for proper HTML.  \n  \nCommon mistakes include:\n\n*   **Misspellings** – for example, id values are case-sensitive and must match exactly.\n    \n*   **Overuse** – adding ARIA attributes where they aren't needed can cause confusion for assistive technologies."
+          "content": "We follow correct ARIA attributes and roles, and use semantic HTML as the foundation. ARIA should only be used when necessary — never as a replacement for proper HTML.\n\nCommon mistakes include:\n\n*   **Misspellings** – for example, id values are case-sensitive and must match exactly.\n    \n*   **Overuse** – adding ARIA attributes where they aren't needed can cause confusion for assistive technologies."
         },
         {
           "type": "rich-text",
           "title": "Focus behavior",
           "tag": "H2",
-          "content": "Proper focus handling is essential for keyboard and screen reader navigation.  \n  \nWhen focus is implemented correctly:\n\n*   A visible **black focus ring** should appear slightly outside the focused element (typically a few pixels away).\n    \n*   Focus should typically appear when **navigating with the keyboard**, but not when using a mouse (to avoid visual clutter).\n    \n*   The focus indicator must be **clearly visible** – it should not be hidden behind other elements or fall outside the viewport.\n    \n*   The **focus order** should follow a logical sequence: usually starting from the top left, moving to the top right, then continuing downward, left to right.\n    \n*   **Focus traps** should work effectively in pop-ups and modals, keeping the user inside until the interaction is complete. This applies to keyboard, mouse, and screen reader users alike."
+          "content": "Proper focus handling is essential for keyboard and screen reader navigation.\n\nWhen focus is implemented correctly:\n\n*   A visible **black focus ring** should appear slightly outside the focused element (typically a few pixels away).\n    \n*   Focus should typically appear when **navigating with the keyboard**, but not when using a mouse (to avoid visual clutter).\n    \n*   The focus indicator must be **clearly visible** – it should not be hidden behind other elements or fall outside the viewport.\n    \n*   The **focus order** should follow a logical sequence: usually starting from the top left, moving to the top right, then continuing downward, left to right.\n    \n*   **Focus traps** should work effectively in pop-ups and modals, keeping the user inside until the interaction is complete. This applies to keyboard, mouse, and screen reader users alike."
         },
         {
           "type": "rich-text",
@@ -93,6 +93,72 @@
           "type": "rich-text",
           "title": "Summary",
           "tag": "H2",
+          "content": "How is accessible is the Green Design System?\n\nOverall, the design system is built with accessibility in mind and performs well. However, occasional issues may arise, and new challenges can be reported as the system evolves.\n\nIf you come across an accessibility issue, please help us improve by submitting a report or creating a new issue."
+        }
+      ]
+    },
+    {
+      "title": "ARIA & HTML semantics",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "We follow correct ARIA attributes and roles, and use semantic HTML as the foundation. ARIA should only be used when necessary — never as a replacement for proper HTML.\n\nCommon mistakes include:\n\n*   **Misspellings** – for example, id values are case-sensitive and must match exactly.\n    \n*   **Overuse** – adding ARIA attributes where they aren't needed can cause confusion for assistive technologies."
+        }
+      ]
+    },
+    {
+      "title": "Focus behavior",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Proper focus handling is essential for keyboard and screen reader navigation.\n\nWhen focus is implemented correctly:\n\n*   A visible **black focus ring** should appear slightly outside the focused element (typically a few pixels away).\n    \n*   Focus should typically appear when **navigating with the keyboard**, but not when using a mouse (to avoid visual clutter).\n    \n*   The focus indicator must be **clearly visible** – it should not be hidden behind other elements or fall outside the viewport.\n    \n*   The **focus order** should follow a logical sequence: usually starting from the top left, moving to the top right, then continuing downward, left to right.\n    \n*   **Focus traps** should work effectively in pop-ups and modals, keeping the user inside until the interaction is complete. This applies to keyboard, mouse, and screen reader users alike."
+        }
+      ]
+    },
+    {
+      "title": "Touch interaction",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Interactive elements should be easy to tap and match the visual design. Touch targets must be large enough to avoid mis-taps and support common gestures like pinching, zooming, and scrolling where applicable.\n\n*   The recommended **minimum touch** target size is 44×44 px (WCAG AAA).\n    \n*   WCAG AA allows a minimum size of 24×24 px, if there's at least 44×44 px of clickable space around it.\n    \n*   Touch targets should align with visual cues to avoid confusion or missed interactions.\n    \n\nReferences:\n\n*   [WCAG 2.1: Target Size (AA)](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html)\n    \n*   [WCAG 2.2: Target Size (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)\n    \n*   [U.S. Digital Service: Touch Targets](https://accessibility.digital.gov/ux/touch-targets/)"
+        }
+      ]
+    },
+    {
+      "title": "Screen reader support",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Components should work consistently with screen readers, ensuring a seamless and understandable experience for users who rely on assistive technologies.\n\n*   Higher priority to test with **NVDA** (PC) and **VoiceOver** (macOS/iOS), and lower priority on TalkBack (Android).\n    \n*   Users should be able to **navigate by headings**, as this is one of the most common ways to explore content with a screen reader.\n    \n*   All meaningful content should be read aloud clearly — including labels, states, and instructions. Decorative images or elements without informative value should be marked to be ignored."
+        }
+      ]
+    },
+    {
+      "title": "Dark mode compatibility",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Check whether the component supports dark mode — and how well it adapts to it.\n\n*   Does anything change when switching to dark mode?\n    \n*   Is the component still fully functional and visually clear?\n    \n*   Are there any broken styles, missing contrasts, or unclear states?\n    \n\nEven if a component appears unchanged, it's important to verify that all colors, icons, and interactions remain accessible and consistent in dark mode."
+        }
+      ]
+    },
+    {
+      "title": "Summary",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
           "content": "How is accessible is the Green Design System?\n\nOverall, the design system is built with accessibility in mind and performs well. However, occasional issues may arise, and new challenges can be reported as the system evolves.\n\nIf you come across an accessibility issue, please help us improve by submitting a report or creating a new issue."
         }
       ]
