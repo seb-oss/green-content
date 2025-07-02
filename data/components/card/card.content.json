@@ -51,6 +51,12 @@
           "type": "rich-text",
           "title": "2. White",
           "content": "**Purpose**: Clean, high-contrast container that draws more attention.  \n**Use when**: The content is colorful, like when visualising charts."
+        },
+        {
+          "type": "snippet",
+          "caption": "White card",
+          "plain": true,
+          "replay": false
         }
       ]
     },
