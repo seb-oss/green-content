@@ -130,7 +130,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "*   [European Accessibility Act - EU Commision](https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/union-equality-strategy-rights-persons-disabilities-2021-2030/european-accessibility-act_en)\n    \n*   [WCAG 2.1 - W3C](https://www.w3.org/TR/WCAG21/)\n    \n*   Internal Sharepoint and CX Central"
+          "content": "*   [European Accessibility Act - EU Commision](https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/union-equality-strategy-rights-persons-disabilities-2021-2030/european-accessibility-act_en)\n    \n*   [WCAG 2.1 - W3C](https://www.w3.org/TR/WCAG21/)\n    \n*   Internal Sharepoint - Accessibility\n    \n*   Internal CX Central - Accessibility"
         }
       ]
     }
