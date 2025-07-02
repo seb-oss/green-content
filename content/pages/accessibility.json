@@ -121,6 +121,18 @@
           "content": "How is accessible is the Green Design System?\n\nOverall, the design system is built with accessibility in mind and performs well. However, occasional issues may arise, and new challenges can be reported as the system evolves.\n\nIf you come across an accessibility issue, please help us improve by submitting a report or creating a new issue."
         }
       ]
+    },
+    {
+      "title": "Useful links",
+      "tag": "H2",
+      "section-content": "Read more about accessibility: the law, the standard, and SEBs recommendations.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "*   [European Accessibility Act - EU Commision](https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/union-equality-strategy-rights-persons-disabilities-2021-2030/european-accessibility-act_en)\n    \n*   [WCAG 2.1 - W3C](https://www.w3.org/TR/WCAG21/)\n    \n*   Internal Sharpoint and CX Central"
+        }
+      ]
     }
   ]
 }
