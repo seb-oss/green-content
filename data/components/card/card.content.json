@@ -17,23 +17,12 @@
   },
   "overview": [
     {
-      "title": "Features",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Variants",
-          "tag": "H3",
-          "content": "Card variants combine pairs of background and content colors."
-        }
-      ]
-    },
-    {
       "title": "Guidelines",
       "section-content": "Card background colors help guide the user’s attention, support visual hierarchy, and reinforce the overall tone of the content. Choosing the right background is about balancing clarity, emphasis, and brand expression.\n\nUse neutral tones when the content should blend seamlessly into the interface, and choose more distinctive colors when you want to draw attention or create a sense of importance or exclusivity. Be mindful not to overuse strong colors—bold choices should be intentional and meaningful.\n\nOnly the colors listed below are approved for use on cards. Alert cards follow a separate color system and are not included here. Please refrain from using any unapproved colors for card backgrounds."
     },
     {
       "title": "Variants",
+      "section-content": "Card variants combine pairs of background and content colors.",
       "cols": "2",
       "columns": [
         {
