@@ -30,7 +30,7 @@
     },
     {
       "title": "Guidelines",
-      "section-content": "Card background colors help guide the user’s attention, support visual hierarchy, and reinforce the overall tone of the content. Choosing the right background is about balancing clarity, emphasis, and brand expression.\n\nUse neutral tones when the content should blend seamlessly into the interface, and choose more distinctive colors when you want to draw attention or create a sense of importance or exclusivity. Be mindful not to overuse strong colors—bold choices should be intentional and meaningful.\n\nOnly the colors listed below are approved for use on cards. Alert cards follow a separate color system and are not included here. Please refrain from using any unapproved colors for card backgrounds.\n\n  \n\n  \n\n  \n\n4\\. Copper  \n**Purpose**: Signals exclusivity, premium content, or special areas.  \n**Use when:** You want to distinguish a premium experience or area of the interface.\n\nWe also have colors that is used for the alert cards only they are treated seperatly. Please do not use any other color on cards then the ones we guide to use here."
+      "section-content": "Card background colors help guide the user’s attention, support visual hierarchy, and reinforce the overall tone of the content. Choosing the right background is about balancing clarity, emphasis, and brand expression.\n\nUse neutral tones when the content should blend seamlessly into the interface, and choose more distinctive colors when you want to draw attention or create a sense of importance or exclusivity. Be mindful not to overuse strong colors—bold choices should be intentional and meaningful.\n\nOnly the colors listed below are approved for use on cards. Alert cards follow a separate color system and are not included here. Please refrain from using any unapproved colors for card backgrounds."
     },
     {
       "title": "Variants",
@@ -67,6 +67,17 @@
           "type": "snippet",
           "caption": "Brand 01 (senior green) card",
           "plain": true,
+          "replay": false
+        },
+        {
+          "type": "rich-text",
+          "title": "4. Brand 02 (Copper)",
+          "content": "**Purpose**: Signals exclusivity, premium content, or special areas.  \n**Use when:** You want to distinguish a premium experience or area of the interface."
+        },
+        {
+          "type": "snippet",
+          "caption": "Brand 02 (copper) card",
+          "plain": false,
           "replay": false
         }
       ]
