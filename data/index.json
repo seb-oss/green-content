@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T13:44:30.930Z",
+    "lastUpdated": "2025-07-03T13:44:51.072Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -679,6 +679,15 @@
             "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"positive\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"positive\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"positive\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-positive/button-positive.json"
+            }
+          },
+          {
+            "title": "Button: size medium",
+            "slug": "button-size-medium",
+            "path": "snippets/button-size-medium/button-size-medium.json",
+            "code": "<gds-button width=\"max-content\">\n  Medium\n</gds-button>",
+            "endpoints": {
+              "content": "snippets/button-size-medium/button-size-medium.json"
             }
           },
           {

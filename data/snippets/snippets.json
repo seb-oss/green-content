@@ -151,6 +151,12 @@
       "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"positive\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"positive\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"positive\">Tertiary</gds-button>\n</gds-flex>"
     },
     {
+      "title": "Button: size medium",
+      "slug": "button-size-medium",
+      "path": "snippets/button-size-medium/button-size-medium.json",
+      "code": "<gds-button width=\"max-content\">\n  Medium\n</gds-button>"
+    },
+    {
       "title": "Button: size small",
       "slug": "button-size-small",
       "path": "snippets/button-size-small/button-size-small.json",
@@ -517,6 +523,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 86,
-  "lastUpdated": "2025-07-03T13:44:30.931Z"
+  "total": 87,
+  "lastUpdated": "2025-07-03T13:44:51.073Z"
 }
