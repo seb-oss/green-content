@@ -92,7 +92,8 @@
         {
           "type": "snippet",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "card-link"
         }
       ]
     },
