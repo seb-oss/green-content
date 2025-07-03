@@ -58,11 +58,11 @@
     },
     {
       "title": "Behaviour",
-      "section-content": "Component acts as button and trigger a change on click. One option need to be pre-selected, most likely the first. Only one segment can be active simultaneously."
+      "section-content": "Component acts as button and trigger a change on click. By default the first item is selected. Only one segment can be active simultaneously."
     },
     {
       "title": "Icons",
-      "section-content": "The options may have an icon to accentuate the choices. Use icons sparsely but consistently.",
+      "section-content": "Each segment button has optional leading and trailing icons. Use icons when you need to reinforce the meaning of the label.",
       "cols": "1",
       "columns": [
         {
