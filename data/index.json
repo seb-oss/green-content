@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T13:12:43.158Z",
+    "lastUpdated": "2025-07-03T13:27:09.194Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -598,6 +598,15 @@
             "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"brand\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"brand\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"brand\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-brand/button-brand.json"
+            }
+          },
+          {
+            "title": "Button: icon button neutral",
+            "slug": "button-icon-button-neutral",
+            "path": "snippets/button-icon-button-neutral/button-icon-button-neutral.json",
+            "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/button-icon-button-neutral/button-icon-button-neutral.json"
             }
           },
           {

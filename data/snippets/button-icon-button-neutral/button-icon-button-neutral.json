@@ -1,0 +1,5 @@
+{
+  "title": "Button: icon button neutral",
+  "slug": "button-icon-button-neutral",
+  "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>"
+}
