@@ -1,0 +1,5 @@
+{
+  "title": "Signal: Example",
+  "slug": "signal-example",
+  "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
+}
