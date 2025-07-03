@@ -145,19 +145,25 @@
       "cols": "3",
       "columns": [
         {
-          "type": "figma",
+          "type": "snippet",
           "caption": "Next button",
-          "node": "next"
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-next"
         },
         {
-          "type": "figma",
+          "type": "snippet",
           "caption": "Back button – primary",
-          "node": "back-1"
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-back"
         },
         {
-          "type": "figma",
+          "type": "snippet",
           "caption": "Back button – secondary",
-          "node": "back-2"
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-back-secondary"
         }
       ]
     },
