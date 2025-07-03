@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T11:00:41.613Z",
+    "lastUpdated": "2025-07-03T11:07:32.520Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -589,6 +589,15 @@
             "code": "<gds-flex width=\"80%\" align-items=\"center\" justify-content=\"center\">\n  <div>\n    <gds-breadcrumbs width=\"100%\" size=\"small\">\n      <gds-link href=\"#\">\n        <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n        Home\n      </gds-link>\n      <gds-link href=\"#\">\n        <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n        Documents\n      </gds-link>\n      <gds-button rank=\"tertiary\" size=\"xs\">\n        <gds-icon-dot-grid-one-horizontal size=\"s\"></gds-icon-dot-grid-one-horizontal>\n      </gds-button>\n      <gds-link href=\"#\">\n        <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n        Settings\n      </gds-link>\n      <gds-text> Current page </gds-text>\n    </gds-breadcrumbs>\n  </div>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/breadcrumbs-overflow/breadcrumbs-overflow.json"
+            }
+          },
+          {
+            "title": "Card: grey",
+            "slug": "card-grey",
+            "path": "snippets/card-grey/card-grey.json",
+            "code": "<gds-card padding=\"l\" variant=\"primary\">\n  <gds-text tag=\"h1\" font-size=\"heading-xl\">Hello World</gds-text>\n  <gds-text color=\"secondary\">Start editing to see live preview</gds-text>\n  <gds-flex gap=\"s\">\n    <gds-button>\n      Primary\n    </gds-button>\n    <gds-button rank=\"secondary\">\n      secondary\n    </gds-button>\n</gds-card>",
+            "endpoints": {
+              "content": "snippets/card-grey/card-grey.json"
             }
           },
           {
