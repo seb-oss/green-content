@@ -1,5 +1,5 @@
 {
   "title": "Dialog: slide-out",
   "slug": "dialog-slideout",
-  "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Slide-out Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
+  "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Show slide-out dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
 }
