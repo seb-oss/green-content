@@ -4,7 +4,7 @@
   "hero_snippet": "hero-segmented-control",
   "beta": true,
   "summary": "Segmented control allows users to select a single option, immediately changing the display to reflect their selection. It is used for switching views or view options, not for navigation.",
-  "preamble": "The segmented control switches between views or to sort elements. The segmented control is good to use to provide the user with closely related choices that affect an object, state or view.",
+  "preamble": "The segmented control switches between views or to sort elements. The segmented control is good to use to provide the user with closely related choices that affect the content or view.",
   "anatomy": true,
   "anatomy-list": {
     "anatomyitems": [
@@ -76,7 +76,7 @@
     },
     {
       "title": "Overflow",
-      "section-content": "Segments can have different widths depending on the content, and if there are too many segments to fit in the container, scroll buttons will appear to the left and/or right.\n\nSegment with can also be controlled individually on the segments using the `width`, `min-width` and `max-width` Style Expression properties.",
+      "section-content": "Segments can have different widths depending on the content. If there are too many segments to fit in the container, scroll buttons will appear to the left and/or right.\n\nSegment width can also be controlled individually.",
       "cols": "1",
       "columns": [
         {
@@ -90,17 +90,16 @@
     },
     {
       "title": "Do's and Don'ts",
-      "tag": "H2",
       "cols": "2",
       "columns": [
         {
           "type": "do",
           "dolist": [
             {
-              "text": "Use max 5 options, try to have as few as possible."
+              "text": "Preferably use max 5 segments."
             },
             {
-              "text": "Keep option size consistent"
+              "text": "Keep the segment size consistent."
             }
           ]
         },
@@ -108,10 +107,10 @@
           "type": "dont",
           "dontlist": [
             {
-              "text": "Don't use it to collect data in a form, in that case use radio button or select."
+              "text": "Don't use it as a form control to collect data."
             },
             {
-              "text": "Don't use to navigate in different areas, use tabs for that."
+              "text": "Don't use to navigate in different pages."
             },
             {
               "text": "Don't mix items with and without icon"
