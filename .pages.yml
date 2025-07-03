@@ -3,6 +3,7 @@ media:
   output: /assets
   path: stg.seb.io/assets
   categories: ["image"]
+  extensions: [ png, webp, mp4, jpg, jpeg ]
 content:
   - name: components
     label: Components
