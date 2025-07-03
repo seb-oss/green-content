@@ -37,19 +37,19 @@
   "overview": [
     {
       "title": "Size",
-      "section-content": "The segmented control comes in two sizes:\n\n*   **Large** (Default)\n    \n*   **Small**",
+      "section-content": "The segmented control comes in two sizes large (default) and small.",
       "cols": "2",
       "columns": [
         {
           "type": "snippet",
-          "caption": "Default size",
+          "caption": "Large (default)",
           "plain": false,
           "replay": false,
           "Snippet": "segmented-control-size-default"
         },
         {
           "type": "snippet",
-          "caption": "Small size",
+          "caption": "Small",
           "plain": false,
           "replay": false,
           "Snippet": "segmented-control-size-small"
