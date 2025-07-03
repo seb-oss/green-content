@@ -1,5 +1,5 @@
 {
   "title": "Card: grey",
   "slug": "card-grey",
-  "code": "<gds-card padding=\"l\" variant=\"primary\">\n  <gds-text tag=\"h1\" font-size=\"heading-xl\">Hello World</gds-text>\n  <gds-text color=\"secondary\">Start editing to see live preview</gds-text>\n  <gds-flex gap=\"s\">\n    <gds-button>\n      Primary\n    </gds-button>\n    <gds-button rank=\"secondary\">\n      secondary\n    </gds-button>\n</gds-card>"
+  "code": "<gds-card padding=\"0\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\" height=\"100%\">\n  <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text tag=\"h3\" font-size=\"heading-m\">\n        This is a heading\n      </gds-text>\n      <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n        This is the body text. Please make it your own. You can use a button when that suites the context, or  seperate link. The heading can also be the link.\n      </gds-text>\n    </gds-flex>\n    <gds-flex gap=\"s\">\n      <gds-button>\n        Primary\n      </gds-button>\n      <gds-button rank=\"secondary\">\n        secondary\n      </gds-button>\n    </gds-flex>\n</gds-card>"
 }
