@@ -38,7 +38,7 @@
     {
       "title": "Usage",
       "tag": "H2",
-      "section-content": "Use links for navigation — whether it’s within the same page, across pages, or to external sites. A good link is easy to recognize, descriptive, and accessible. It should clearly communicate where it will take the user, even when read out of context (for example, by a screen reader). Avoid using links for actions such as submitting forms or opening modals — use buttons instead."
+      "section-content": "Use links for navigation whether it’s within the same page, across pages, or to external sites. A good link is easy to recognize, descriptive, and accessible. It should clearly communicate where it will take the user, even when read out of context (for example, by a screen reader). Avoid using links for actions such as submitting forms or opening modals use buttons instead."
     },
     {
       "title": "Variants",
