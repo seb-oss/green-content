@@ -38,7 +38,7 @@
   "overview": [
     {
       "title": "Variants",
-      "section-content": "The default button is our most used button. It comes in primary, secondary and tertiary, and the sizes small, medium and large.\n\nThe default button can be used as the positive, negative and inverted type.\n\nTHE CONTENTS OF THE VARIANT"
+      "section-content": "The default button is our most used button. It comes in primary, secondary and tertiary, and the sizes small, medium and large.\n\nNeutral is the default variant of the button in addition to positive, negative and brand."
     },
     {
       "title": "Negative",
@@ -158,18 +158,6 @@
           "type": "figma",
           "caption": "Back button – secondary",
           "node": "back-2"
-        }
-      ]
-    },
-    {
-      "title": "Variants",
-      "section-content": "*   **Default**: The preferred choice of button in most contexts.\n    \n*   **Positive**: To be decided.\n    \n*   **Negative**: Use for the actions that may be harmful or destructive. A good example is deleting.\n    \n*   **Tonal**: Only used internal in other components (to match a background).\n    \n*   **Inverted**: Used to place on other than the normal backgrounds (typically darker tones).",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "figma",
-          "caption": "Button variants",
-          "node": "variants"
         }
       ]
     },
