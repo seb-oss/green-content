@@ -127,6 +127,12 @@
       "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>"
     },
     {
+      "title": "Button: next",
+      "slug": "button-next",
+      "path": "snippets/button-next/button-next.json",
+      "code": "<gds-button width=\"max-content\">\n  Next \n  <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n</gds-button>"
+    },
+    {
       "title": "Button: positive",
       "slug": "button-positive",
       "path": "snippets/button-positive/button-positive.json",
@@ -493,6 +499,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 82,
-  "lastUpdated": "2025-07-03T13:33:11.972Z"
+  "total": 83,
+  "lastUpdated": "2025-07-03T13:37:53.065Z"
 }

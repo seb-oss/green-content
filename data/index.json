@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T13:33:11.971Z",
+    "lastUpdated": "2025-07-03T13:37:53.063Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -643,6 +643,15 @@
             "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-neutral-2/button-neutral-2.json"
+            }
+          },
+          {
+            "title": "Button: next",
+            "slug": "button-next",
+            "path": "snippets/button-next/button-next.json",
+            "code": "<gds-button width=\"max-content\">\n  Next \n  <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n</gds-button>",
+            "endpoints": {
+              "content": "snippets/button-next/button-next.json"
             }
           },
           {
