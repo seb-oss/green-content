@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T08:46:02.607Z",
+    "lastUpdated": "2025-07-03T08:48:59.668Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1084,6 +1084,15 @@
             "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>",
             "endpoints": {
               "content": "snippets/segmented-control-size-small/segmented-control-size-small.json"
+            }
+          },
+          {
+            "title": "Signal: Example",
+            "slug": "signal-example",
+            "path": "snippets/signal-example/signal-example.json",
+            "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/signal-example/signal-example.json"
             }
           }
         ]
