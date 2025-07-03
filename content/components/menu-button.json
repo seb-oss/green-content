@@ -4,7 +4,7 @@
   "hero_snippet": "hero-menu-button",
   "beta": false,
   "summary": "A menu button combines button and link behaviors for navigation menus.",
-  "preamble": "The menu button is used to build the main navigation in the top bar of the site. It helps users find their way by linking to key sections or features. The button can include text and an optional icon.",
+  "preamble": "The menu button is used to build a navigation bar. It helps users find their way by linking to sections on current page or other pages. The button can include text and an optional icon.",
   "anatomy": true,
   "anatomy-list": {
     "anatomyitems": [
