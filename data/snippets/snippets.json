@@ -91,6 +91,12 @@
       "code": "<gds-flex width=\"80%\" align-items=\"center\" justify-content=\"center\">\n  <div>\n    <gds-breadcrumbs width=\"100%\" size=\"small\">\n      <gds-link href=\"#\">\n        <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n        Home\n      </gds-link>\n      <gds-link href=\"#\">\n        <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n        Documents\n      </gds-link>\n      <gds-button rank=\"tertiary\" size=\"xs\">\n        <gds-icon-dot-grid-one-horizontal size=\"s\"></gds-icon-dot-grid-one-horizontal>\n      </gds-button>\n      <gds-link href=\"#\">\n        <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n        Settings\n      </gds-link>\n      <gds-text> Current page </gds-text>\n    </gds-breadcrumbs>\n  </div>\n</gds-flex>"
     },
     {
+      "title": "Card: brand 01",
+      "slug": "card-brand-01",
+      "path": "snippets/card-brand-01/card-brand-01.json",
+      "code": "<gds-card width=\"300px\" variant=\"brand-01\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n  <gds-text tag=\"h3\">\n    Ta ett aktivt beslut i hängmattan. På riktigt.\n  </gds-text>\n  <gds-theme color-scheme=\"dark\">\n    <gds-button>\n      Börja spara\n    </gds-button>\n  </gds-theme>\n</gds-card>"
+    },
+    {
       "title": "Card: grey",
       "slug": "card-grey",
       "path": "snippets/card-grey/card-grey.json",
@@ -439,6 +445,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 73,
-  "lastUpdated": "2025-07-03T11:57:44.389Z"
+  "total": 74,
+  "lastUpdated": "2025-07-03T12:03:46.899Z"
 }
