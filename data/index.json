@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T11:07:32.520Z",
+    "lastUpdated": "2025-07-03T11:17:35.217Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -589,6 +589,15 @@
             "code": "<gds-flex width=\"80%\" align-items=\"center\" justify-content=\"center\">\n  <div>\n    <gds-breadcrumbs width=\"100%\" size=\"small\">\n      <gds-link href=\"#\">\n        <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n        Home\n      </gds-link>\n      <gds-link href=\"#\">\n        <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n        Documents\n      </gds-link>\n      <gds-button rank=\"tertiary\" size=\"xs\">\n        <gds-icon-dot-grid-one-horizontal size=\"s\"></gds-icon-dot-grid-one-horizontal>\n      </gds-button>\n      <gds-link href=\"#\">\n        <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n        Settings\n      </gds-link>\n      <gds-text> Current page </gds-text>\n    </gds-breadcrumbs>\n  </div>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/breadcrumbs-overflow/breadcrumbs-overflow.json"
+            }
+          },
+          {
+            "title": "Card: grey image rounded",
+            "slug": "card-grey-image-rounded",
+            "path": "snippets/card-grey-image-rounded/card-grey-image-rounded.json",
+            "code": "<gds-card padding=\"s\" variant=\"primary\" border=\"primary\" gap=\"l\" color=\"primary\">\n  <gds-img src=\"https://api.seb.io/components/image/img.jpg\" border-radius=\"xs\"></gds-img>\n\n  <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"0 s\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text tag=\"h3\" font-size=\"heading-m\">\n        This is a heading\n      </gds-text>\n      <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n        This is the body text. Please make it your own. You can use a button when that suites the context, or  seperate link. The heading can also be the link.\n      </gds-text>\n    </gds-flex>\n    <gds-flex gap=\"s\">\n      <gds-button>\n        Primary\n      </gds-button>\n      <gds-button rank=\"secondary\">\n        secondary\n      </gds-button>\n    </gds-flex>\n</gds-card>",
+            "endpoints": {
+              "content": "snippets/card-grey-image-rounded/card-grey-image-rounded.json"
             }
           },
           {
