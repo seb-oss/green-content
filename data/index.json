@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T07:28:16.727Z",
+    "lastUpdated": "2025-07-03T07:31:12.254Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1021,6 +1021,15 @@
             "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>",
             "endpoints": {
               "content": "snippets/hero-video/hero-video.json"
+            }
+          },
+          {
+            "title": "Link: Leading",
+            "slug": "link-leading",
+            "path": "snippets/link-leading/link-leading.json",
+            "code": "<gds-link>\n<gds-icon-cain-link slot=\"lead\"></gds-icon-cain-link>\n  Link text\n</gds-link>",
+            "endpoints": {
+              "content": "snippets/link-leading/link-leading.json"
             }
           },
           {
