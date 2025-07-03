@@ -41,12 +41,12 @@
     {
       "title": "Usage",
       "tag": "H2",
-      "section-content": "Use the menu button to create clear and accessible navigation in the top bar of the site. Choose the appropriate combination of text and icon depending on the context:\n\n*   **Text only** is best for straightforward links where the label clearly communicates the destination.\n    \n*   **Text with icon** adds clarity, especially when the icon reinforces the meaning (e.g., a user icon for profile-related links).\n    \n*   **Icon only** can be used when space is limited, but only if the icon is widely recognized and its meaning is unambiguous.\n    \n\nMenu buttons visually indicate the current page or section using a background and underline. This helps users stay oriented as they move through the site."
+      "section-content": "Use the menu button to create clear and accessible navigation. Choose the appropriate combination of text and icon depending on the context:\n\n*   **Text only** is best for straightforward links where the label clearly communicates the destination.\n    \n*   **Text with icon** adds clarity, especially when the icon reinforces the meaning (e.g., a user icon for profile-related links).\n    \n*   **Icon only** can be used when space is limited, but only if the icon is widely recognized and its meaning is clear.\n    \n\nMenu buttons have a selected state that visually indicate the current page or section."
     },
     {
       "title": "Sizes",
       "tag": "H2",
-      "section-content": "The menu button comes in three sizes to fit different layout needs and navigation contexts: \n\n*   **Large** - Uses a 16px font size and is typically used in primary navigation where space allows for larger, more prominent buttons. It provides good readability and clear touch targets.\n    \n*   **Medium** - Uses a 14px font size. It works well when space is limited but readability and clarity are still important.\n    \n*   **Small** - Also uses a 14px font size but is optimized for tighter layouts and smaller viewports. The text and icon are vertically aligned to maintain visual balance in compact spaces, such as in mobile navigation or secondary toolbars.\n    \n\nRegardless of size, the height of the menu button will adapt to match the height set by the top bar. This ensures consistent alignment and spacing across the entire navigation."
+      "section-content": "The menu button comes in three sizes to fit different layout needs and navigation contexts: \n\n*   **Large** - Typically used in primary navigation where space allows for larger, more prominent buttons. It provides good readability and clear touch targets.\n    \n*   **Medium** - Works well when space is limited but readability and clarity are still important.\n    \n*   **Small** - Optimized for tighter layouts and smaller viewports. The text and icon are vertically aligned to maintain visual balance in compact spaces, such as in mobile navigation or secondary toolbars.\n    \n\nRegardless of size, the height of the menu button will adapt to match the height set by the container. This ensures consistent alignment and spacing across the entire navigation."
     },
     {
       "title": "Do's and don'ts",
@@ -56,13 +56,10 @@
           "type": "do",
           "dolist": [
             {
-              "text": "Use consistent sizing and styling within the top bar to create a clear and cohesive navigation experience."
+              "text": "Combine text and icons when it helps clarify the purpose of the button especially for actions like profile, help, or settings."
             },
             {
-              "text": "Combine text and icons when it helps clarify the purpose of the button—especially for actions like profile, help, or settings."
-            },
-            {
-              "text": "Keep button labels short and descriptive to avoid crowding the top bar. make sure icons are accessible and easily understood if used without text (e.g., user avatar)."
+              "text": "Keep button labels short and descriptive to avoid crowding the navigation bar."
             }
           ]
         },
@@ -77,9 +74,6 @@
             },
             {
               "text": "Don't use menu buttons for actions unrelated to navigation."
-            },
-            {
-              "text": "Don't add too many buttons to the top bar—keep the navigation focused and uncluttered."
             }
           ]
         }
