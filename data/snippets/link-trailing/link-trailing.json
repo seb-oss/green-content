@@ -1,0 +1,5 @@
+{
+  "title": "Link: Trailing",
+  "slug": "link-trailing",
+  "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>"
+}

@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T07:31:12.254Z",
+    "lastUpdated": "2025-07-03T07:34:47.548Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1030,6 +1030,15 @@
             "code": "<gds-link>\n<gds-icon-cain-link slot=\"lead\"></gds-icon-cain-link>\n  Link text\n</gds-link>",
             "endpoints": {
               "content": "snippets/link-leading/link-leading.json"
+            }
+          },
+          {
+            "title": "Link: Trailing",
+            "slug": "link-trailing",
+            "path": "snippets/link-trailing/link-trailing.json",
+            "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/link-trailing/link-trailing.json"
             }
           },
           {
