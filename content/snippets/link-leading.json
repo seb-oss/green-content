@@ -1,0 +1,5 @@
+{
+  "title": "Link: Leading",
+  "slug": "link-leading",
+  "code": "<gds-link>\n<gds-icon-cain-link slot=\"lead\"></gds-icon-cain-link>\n  Link text\n</gds-link>"
+}
