@@ -34,14 +34,18 @@
     },
     {
       "title": "Example",
-      "tag": "H2",
-      "section-content": "On the intranet we use the signal on the “What is new”-button to indicate a new function or feauture has been released. The button will trigger a popover with more information about what is new.",
       "cols": "2",
       "columns": [
         {
-          "type": "figma",
+          "type": "rich-text",
+          "content": "On the intranet we use the signal on the “What's new?”-button to indicate a new function or feauture has been released. The button will trigger a popover with more information about what is new."
+        },
+        {
+          "type": "snippet",
           "caption": "A floating action button with the signal as trailing element.",
-          "node": "signal_example"
+          "plain": false,
+          "replay": false,
+          "Snippet": "signal-example"
         }
       ]
     }
