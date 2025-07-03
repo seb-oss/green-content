@@ -125,6 +125,22 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Brand 01",
+      "tag": "H3",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "**Purpose:** Reinforces SEB's brand identity and highlights key content.  \n**Use when:** You want to add emphasis while aligning with SEB’s brand colors."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false
+        }
+      ]
     }
   ]
 }
