@@ -168,36 +168,27 @@
       ]
     },
     {
-      "title": "Hierarchy",
-      "section-content": "It's critical to find the right balance of what buttons to use. It's up to us as designers to guide and inform the users to take the right action.\n\n*   **Primary buttons** require the most attention from your users.\n    \n*   **Secondary buttons**, as the name says, is the second most likely choice.\n    \n*   **Tertiary buttons** are used for less used or unwanted actions that is still relevant to find.",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "figma",
-          "caption": "From the top – primary, secondary, tertiary",
-          "node": "hierarchy"
-        }
-      ]
-    },
-    {
-      "title": "Button sizes",
-      "section-content": "The default button and icon button comes in a few different sizes. 32, 40 and 48 px.",
+      "title": "Size",
+      "section-content": "Buttons can be small, medium or large. The default size is medium.",
       "cols": "3",
       "columns": [
         {
-          "type": "figma",
-          "caption": "Small – used in confined spaces, like tables.",
-          "node": "small"
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-size-small"
         },
         {
-          "type": "figma",
-          "caption": "Medium – the default size. When in doubt, go for medium.",
-          "node": "medium"
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-size-medium"
         },
         {
-          "type": "figma",
-          "caption": "Large – only used in large areas like a hero.",
-          "node": "large"
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-size-large"
         }
       ]
     },
