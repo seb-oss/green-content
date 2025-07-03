@@ -29,8 +29,12 @@
       }
     ]
   },
-  "tags": ["Form"],
-  "category": ["Components"],
+  "tags": [
+    "Form"
+  ],
+  "category": [
+    "Components"
+  ],
   "platform": {
     "web": true,
     "ios": false,

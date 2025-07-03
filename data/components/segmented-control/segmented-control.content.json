@@ -22,8 +22,13 @@
       }
     ]
   },
-  "tags": ["navigation", "button"],
-  "category": ["Components"],
+  "tags": [
+    "navigation",
+    "button"
+  ],
+  "category": [
+    "Components"
+  ],
   "platform": {
     "web": true,
     "ios": false,
