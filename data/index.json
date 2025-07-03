@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T08:10:20.056Z",
+    "lastUpdated": "2025-07-03T08:14:02.699Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1063,7 +1063,7 @@
             "title": "Segmented control: overflow",
             "slug": "segmented-control-overflow",
             "path": "snippets/segmented-control-overflow/segmented-control-overflow.json",
-            "code": "<gds-segmented-control value=\"1\" width=\"80%\">\n  <gds-segment value=\"1\" min-width=\"200px\">Min-width</gds-segment>\n  <gds-segment value=\"flaschenabfüllmaschine\" max-width=\"150px\">Flaschenabfüllmaschine</gds-segment>\n  <gds-segment value=\"longlonglong\">Long long label</gds-segment>\n  <gds-segment value=\"longlabel\">An even longer long label</gds-segment>\n  <gds-segment value=\"pinetrees\">Pinetrees</gds-segment>\n</gds-segmented-control>",
+            "code": "<gds-segmented-control value=\"1\" width=\"80%\">\n  <gds-segment value=\"1\" min-width=\"200px\">Kreditbedömning</gds-segment>\n  <gds-segment value=\"flaschenabfüllmaschine\" max-width=\"150px\">Ränteskillnadsersättning</gds-segment>\n  <gds-segment value=\"longlonglong\">Förmögenhetsskatt</gds-segment>\n  <gds-segment value=\"longlabel\">Huvudlåntagare</gds-segment>\n  <gds-segment value=\"pinetrees\">Investeringssparkonto</gds-segment>\n</gds-segmented-control>",
             "endpoints": {
               "content": "snippets/segmented-control-overflow/segmented-control-overflow.json"
             }
