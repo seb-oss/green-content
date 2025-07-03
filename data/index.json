@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T08:52:41.186Z",
+    "lastUpdated": "2025-07-03T09:18:06.593Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -631,7 +631,7 @@
             "title": "Dialog: Regular",
             "slug": "dialog-regular",
             "path": "snippets/dialog-regular/dialog-regular.json",
-            "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Regular Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
+            "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Show regular dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
             "endpoints": {
               "content": "snippets/dialog-regular/dialog-regular.json"
             }

@@ -118,7 +118,7 @@
       "title": "Dialog: Regular",
       "slug": "dialog-regular",
       "path": "snippets/dialog-regular/dialog-regular.json",
-      "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Regular Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
+      "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Show regular dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
     },
     {
       "title": "Dialog: slide-out",
@@ -428,5 +428,5 @@
     }
   ],
   "total": 71,
-  "lastUpdated": "2025-07-03T08:52:41.187Z"
+  "lastUpdated": "2025-07-03T09:18:06.594Z"
 }
