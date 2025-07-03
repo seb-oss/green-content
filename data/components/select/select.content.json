@@ -23,12 +23,40 @@
   "compare": "Dropdown",
   "overview": [
     {
-      "title": "Behaviour",
-      "section-content": "Styling for the list of options varies by browser, and long text in the select component is truncated with ellipses."
+      "title": "Usage",
+      "section-content": "Use this component instead of dropdown when you need to leverage the inherent behavior of the native select element, for example when native accessibility features, some of which are not currently replicable in custom dropdowns, are required. Usability on mobile devices is also sometimes better with native select elements.\n\nDon't use this component when you need to customize the dropdown behavior or appearance, or when you need to display complex content in the dropdown, or require multi-select functionality."
     },
     {
-      "title": "Browsers",
+      "title": "Option list",
       "section-content": "The appearance and behavior of the option list will be handled according to each browser."
+    },
+    {
+      "title": "Do's and don'ts",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use to leverage native select behavior "
+            },
+            {
+              "text": "Use for single-value selections"
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don't use when you need custom dropdown styling"
+            },
+            {
+              "text": "Don't use for multi-select functionality"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
