@@ -82,18 +82,6 @@
           "plain": false,
           "replay": false,
           "Snippet": "card-grey"
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "card-grey-image"
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "card-link"
         }
       ]
     },
