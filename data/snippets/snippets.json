@@ -97,6 +97,12 @@
       "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"brand\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"brand\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"brand\">Tertiary</gds-button>\n</gds-flex>"
     },
     {
+      "title": "Button: icon button negative",
+      "slug": "button-icon-button-negative",
+      "path": "snippets/button-icon-button-negative/button-icon-button-negative.json",
+      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"negative\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"negative\" rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"negative\" rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>"
+    },
+    {
       "title": "Button: icon button neutral",
       "slug": "button-icon-button-neutral",
       "path": "snippets/button-icon-button-neutral/button-icon-button-neutral.json",
@@ -487,6 +493,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 81,
-  "lastUpdated": "2025-07-03T13:27:54.432Z"
+  "total": 82,
+  "lastUpdated": "2025-07-03T13:28:30.495Z"
 }

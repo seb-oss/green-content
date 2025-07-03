@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T13:27:54.431Z",
+    "lastUpdated": "2025-07-03T13:28:30.494Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -598,6 +598,15 @@
             "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"brand\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"brand\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"brand\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-brand/button-brand.json"
+            }
+          },
+          {
+            "title": "Button: icon button negative",
+            "slug": "button-icon-button-negative",
+            "path": "snippets/button-icon-button-negative/button-icon-button-negative.json",
+            "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"negative\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"negative\" rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"negative\" rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/button-icon-button-negative/button-icon-button-negative.json"
             }
           },
           {

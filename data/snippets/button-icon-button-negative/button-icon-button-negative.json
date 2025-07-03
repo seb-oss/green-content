@@ -1,0 +1,5 @@
+{
+  "title": "Button: icon button negative",
+  "slug": "button-icon-button-negative",
+  "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"negative\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"negative\" rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"negative\" rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>"
+}
