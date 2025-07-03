@@ -86,6 +86,19 @@
       ]
     },
     {
+      "title": "White",
+      "tag": "H3",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "card-white"
+        }
+      ]
+    },
+    {
       "title": "Do's and don'ts",
       "cols": "2",
       "columns": [
