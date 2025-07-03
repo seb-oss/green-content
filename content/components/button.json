@@ -32,8 +32,8 @@
   ],
   "platform": {
     "web": true,
-    "ios": true,
-    "android": true
+    "ios": false,
+    "android": false
   },
   "overview": [
     {
