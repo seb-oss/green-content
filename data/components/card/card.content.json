@@ -99,12 +99,12 @@
       ]
     },
     {
-      "title": "Brand 01 (senior green) card",
-      "tag": "H3",
       "cols": "2",
       "columns": [
         {
           "type": "rich-text",
+          "title": "Brand 01 (senior green) card",
+          "tag": "H3",
           "content": "**Purpose:** Reinforces SEB's brand identity and highlights key content.  \n**Use when:** You want to add emphasis while aligning with SEB’s brand colors."
         },
         {
@@ -116,7 +116,21 @@
       ]
     },
     {
-      "title": "Brand 02 (copper)"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Brand 02 (copper)",
+          "tag": "H3",
+          "content": "**Purpose**: Signals exclusivity, premium content, or special areas.  \n**Use when:** You want to distinguish a premium experience or area of the interface."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "card-brand-02"
+        }
+      ]
     },
     {
       "title": "Do's and don'ts",
