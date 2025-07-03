@@ -37,54 +37,59 @@
   },
   "overview": [
     {
-      "title": "Default button",
-      "tag": "H2",
-      "section-content": "The default button is our most used button. It comes in primary, secondary and tertiary, and the sizes small, medium and large.\n\nThe default button can be used as the positive, negative and inverted type.",
-      "cols": "2",
+      "title": "Variants",
+      "section-content": "The default button is our most used button. It comes in primary, secondary and tertiary, and the sizes small, medium and large.\n\nThe default button can be used as the positive, negative and inverted type.\n\nTHE CONTENTS OF THE VARIANT"
+    },
+    {
+      "title": "Negative",
+      "section-content": "Negative button content",
+      "cols": "1",
       "columns": [
-        {
-          "type": "rich-text",
-          "title": "Neutral",
-          "content": "NEUTRAL CONTENT"
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "button-neutral-2"
-        },
-        {
-          "type": "rich-text",
-          "title": "Brand",
-          "content": "BUTTON BRAND CONTENT"
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "button-brand"
-        },
-        {
-          "type": "rich-text",
-          "title": "Positive",
-          "content": "POSITIVE CONTENT"
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "button-positive"
-        },
-        {
-          "type": "rich-text",
-          "title": "Negative",
-          "content": "NEGATIVE CONTENT"
-        },
         {
           "type": "snippet",
           "plain": false,
           "replay": false,
           "Snippet": "button-negative"
+        }
+      ]
+    },
+    {
+      "title": "Neutral",
+      "tag": "H3",
+      "section-content": "Neutral button content goes here",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-neutral-2"
+        }
+      ]
+    },
+    {
+      "title": "Brand",
+      "tag": "H3",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-brand"
+        }
+      ]
+    },
+    {
+      "title": "Positive",
+      "tag": "H4",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-positive"
         }
       ]
     },
