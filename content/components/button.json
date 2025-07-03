@@ -37,52 +37,54 @@
   },
   "overview": [
     {
-      "title": "Buttons",
-      "tag": "H2",
-      "cols": "3",
-      "columns": [
-        {
-          "type": "figma",
-          "caption": "Default button",
-          "node": "default-button"
-        },
-        {
-          "type": "figma",
-          "caption": "Icon button",
-          "node": "icon-button"
-        },
-        {
-          "type": "figma",
-          "caption": "Floating action button",
-          "node": "fab-button"
-        },
-        {
-          "type": "figma",
-          "caption": "Split button",
-          "node": "split-button"
-        },
-        {
-          "type": "figma",
-          "caption": "Next and back button",
-          "node": "next-back-button"
-        }
-      ]
-    },
-    {
       "title": "Default button",
       "tag": "H2",
       "section-content": "The default button is our most used button. It comes in primary, secondary and tertiary, and the sizes small, medium and large.\n\nThe default button can be used as the positive, negative and inverted type.",
       "cols": "2",
       "columns": [
         {
-          "type": "figma",
-          "caption": "Primary, secondary and tertiary",
-          "node": "default-prio"
+          "type": "rich-text",
+          "title": "Neutral",
+          "content": "NEUTRAL CONTENT"
         },
         {
-          "type": "figma",
-          "caption": "Positive and negative",
-          "node": "default-pos-neg"
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-neutral"
+        },
+        {
+          "type": "rich-text",
+          "title": "Brand",
+          "content": "BUTTON BRAND CONTENT"
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-brand"
+        },
+        {
+          "type": "rich-text",
+          "title": "Positive",
+          "content": "POSITIVE CONTENT"
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-positive"
+        },
+        {
+          "type": "rich-text",
+          "title": "Negative",
+          "content": "NEGATIVE CONTENT"
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-negative"
         }
       ]
     },
