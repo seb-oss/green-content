@@ -99,7 +99,7 @@
       ]
     },
     {
-      "title": "Brand 01",
+      "title": "Brand 01 (senior green) card",
       "tag": "H3",
       "cols": "2",
       "columns": [
@@ -114,6 +114,9 @@
           "Snippet": "card-brand-01"
         }
       ]
+    },
+    {
+      "title": "Brand 02 (copper)"
     },
     {
       "title": "Do's and don'ts",

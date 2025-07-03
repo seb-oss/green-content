@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T12:07:33.893Z",
+    "lastUpdated": "2025-07-03T12:09:35.688Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -598,6 +598,15 @@
             "code": "<gds-flex padding=\"s 0\">\n  <gds-card width=\"300px\" variant=\"brand-01\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n      Ta ett aktivt beslut i hängmattan. På riktigt.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Börja spara\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/card-brand-01/card-brand-01.json"
+            }
+          },
+          {
+            "title": "Card: Brand 02",
+            "slug": "card-brand-02",
+            "path": "snippets/card-brand-02/card-brand-02.json",
+            "code": "<gds-flex padding=\"s 0\">\n  <gds-card width=\"300px\" variant=\"brand-02\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n  Nu öppnar vi portarna till sydeuropeiska och schweiziska aktier.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Handla värdepapper\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/card-brand-02/card-brand-02.json"
             }
           },
           {
