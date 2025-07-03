@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T09:18:06.593Z",
+    "lastUpdated": "2025-07-03T09:18:26.738Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -640,7 +640,7 @@
             "title": "Dialog: slide-out",
             "slug": "dialog-slideout",
             "path": "snippets/dialog-slideout/dialog-slideout.json",
-            "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Slide-out Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
+            "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Show slide-out dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
             "endpoints": {
               "content": "snippets/dialog-slideout/dialog-slideout.json"
             }

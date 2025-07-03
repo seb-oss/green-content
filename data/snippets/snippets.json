@@ -124,7 +124,7 @@
       "title": "Dialog: slide-out",
       "slug": "dialog-slideout",
       "path": "snippets/dialog-slideout/dialog-slideout.json",
-      "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Slide-out Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
+      "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Show slide-out dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
     },
     {
       "title": "Divider: Color",
@@ -428,5 +428,5 @@
     }
   ],
   "total": 71,
-  "lastUpdated": "2025-07-03T09:18:06.594Z"
+  "lastUpdated": "2025-07-03T09:18:26.738Z"
 }
