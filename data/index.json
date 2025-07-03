@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T12:58:49.971Z",
+    "lastUpdated": "2025-07-03T13:00:16.886Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -595,7 +595,7 @@
             "title": "Button: Brand",
             "slug": "button-brand",
             "path": "snippets/button-brand/button-brand.json",
-            "code": "<gds-flex gap=\"s\">\n  <gds-button variant=\"brand\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"brand\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"brand\">Tertiary</gds-button>\n</gds-flex>",
+            "code": "<gds-flex gap=\"s\" flex-direction=\"column\" width=\"200px\" padding=\"xl\">\n  <gds-button variant=\"brand\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"brand\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"brand\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-brand/button-brand.json"
             }
@@ -604,7 +604,7 @@
             "title": "Button: negative",
             "slug": "button-negative",
             "path": "snippets/button-negative/button-negative.json",
-            "code": "<gds-flex gap=\"s\">\n  <gds-button variant=\"negative\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"negative\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"negative\">Tertiary</gds-button>\n</gds-flex>",
+            "code": "<gds-flex gap=\"s\" flex-direction=\"column\" width=\"200px\" padding=\"xl\">\n  <gds-button variant=\"negative\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"negative\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"negative\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-negative/button-negative.json"
             }
@@ -613,7 +613,7 @@
             "title": "Button: positive",
             "slug": "button-positive",
             "path": "snippets/button-positive/button-positive.json",
-            "code": "<gds-flex gap=\"s\">\n  <gds-button variant=\"positive\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"positive\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"positive\">Tertiary</gds-button>\n</gds-flex>",
+            "code": "<gds-flex gap=\"s\" flex-direction=\"column\" width=\"200px\" padding=\"xl\">\n  <gds-button variant=\"positive\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"positive\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"positive\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-positive/button-positive.json"
             }
@@ -622,7 +622,7 @@
             "title": "Button: neutral",
             "slug": "button-neutral",
             "path": "snippets/button-ranks/button-ranks.json",
-            "code": "<gds-flex gap=\"s\" flex-direction=\"column\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>",
+            "code": "<gds-flex gap=\"s\" flex-direction=\"column\" width=\"200px\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-ranks/button-ranks.json"
             }
