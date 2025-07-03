@@ -1,5 +1,5 @@
 {
   "title": "Card: grey",
   "slug": "card-grey",
-  "code": "<gds-card padding=\"l\" variant=\"primary\">\n  <gds-text tag=\"h1\" font-size=\"heading-xl\">Hello World</gds-text>\n  <gds-text color=\"secondary\">Start editing to see live preview</gds-text>\n  <gds-flex gap=\"s\">\n    <gds-button>\n      Primary\n    </gds-button>\n    <gds-button rank=\"secondary\">\n      secondary\n    </gds-button>\n</gds-card>"
+  "code": "<gds-card padding=\"l\" variant=\"primary\" height=\"100%\">\n  <gds-text tag=\"h1\" font-size=\"heading-xl\">Hello World</gds-text>\n  <gds-text color=\"secondary\">Start editing to see live preview</gds-text>\n  <gds-flex gap=\"s\">\n    <gds-button>\n      Primary\n    </gds-button>\n    <gds-button rank=\"secondary\">\n      secondary\n    </gds-button>\n</gds-card>"
 }
