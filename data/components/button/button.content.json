@@ -96,7 +96,7 @@
     },
     {
       "title": "Icon button",
-      "section-content": "When there is space, the icon button should always be grouped with a text label. This text provides additional context for users who may not understand the icon alone. If space is not available the icon need to be self explanatory, and have a tooltip function explaining the action.\n\nThe icon button comes in primary, secondary, and tertiary. In the sizes small, medium, and large. The icon button also comes as a tonal in two sets. One tonal in grey, used mostly on our container colour. And a few custom tonal combinations, used on custom combination cards. For example our alert ribbons.\n\nThe icon button can be used as the positive, negative and inverted type also when the context needs it.",
+      "section-content": "The icon button comes in different variants including neutral, positive, and negative.\n\nUse an icon button only when the icon is universally understood and can stand on its own, such as a close or expand icon.\n\nIf the action is not immediately clear, use a regular button with a text label instead to ensure clarity and accessibility.",
       "cols": "3",
       "columns": [
         {
