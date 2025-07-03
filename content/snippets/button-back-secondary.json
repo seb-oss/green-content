@@ -1,0 +1,5 @@
+{
+  "title": "Button: back secondary",
+  "slug": "button-back-secondary",
+  "code": "<gds-button width=\"max-content\" rank=\"secondary\">\n  <gds-icon-arrow-left slot=\"lead\"></gds-icon-arrow-left>\n  Back \n</gds-button>"
+}
