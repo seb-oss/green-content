@@ -99,6 +99,23 @@
       ]
     },
     {
+      "title": "Brand 01",
+      "tag": "H3",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "**Purpose:** Reinforces SEB's brand identity and highlights key content.  \n**Use when:** You want to add emphasis while aligning with SEB’s brand colors."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "card-brand-01"
+        }
+      ]
+    },
+    {
       "title": "Do's and don'ts",
       "cols": "2",
       "columns": [
@@ -123,23 +140,6 @@
               "text": "Make cards interactive: use interactive elements, such as buttons or links, within the card instead."
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "Brand 01",
-      "tag": "H3",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "**Purpose:** Reinforces SEB's brand identity and highlights key content.  \n**Use when:** You want to add emphasis while aligning with SEB’s brand colors."
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "card-brand-01"
         }
       ]
     }
