@@ -42,7 +42,6 @@
         },
         {
           "type": "snippet",
-          "caption": "A floating action button with the signal as trailing element.",
           "plain": false,
           "replay": false,
           "Snippet": "signal-example"
