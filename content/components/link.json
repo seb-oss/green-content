@@ -78,7 +78,8 @@
         {
           "type": "snippet",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "link-text-decoration"
         }
       ]
     },
