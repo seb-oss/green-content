@@ -97,17 +97,28 @@
     {
       "title": "Icon button",
       "section-content": "When there is space, the icon button should always be grouped with a text label. This text provides additional context for users who may not understand the icon alone. If space is not available the icon need to be self explanatory, and have a tooltip function explaining the action.\n\nThe icon button comes in primary, secondary, and tertiary. In the sizes small, medium, and large. The icon button also comes as a tonal in two sets. One tonal in grey, used mostly on our container colour. And a few custom tonal combinations, used on custom combination cards. For example our alert ribbons.\n\nThe icon button can be used as the positive, negative and inverted type also when the context needs it.",
-      "cols": "2",
+      "cols": "3",
       "columns": [
         {
-          "type": "figma",
-          "caption": "Icon button – default and positive",
-          "node": "icon-button"
+          "type": "snippet",
+          "caption": "Neutral",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-icon-button-neutral"
         },
         {
-          "type": "figma",
-          "caption": "Tonal and custom tonal",
-          "node": "icon-button-custom"
+          "type": "snippet",
+          "caption": "Positive",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-icon-button-positive"
+        },
+        {
+          "type": "snippet",
+          "caption": "Negative",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-icon-button-negative"
         }
       ]
     },
