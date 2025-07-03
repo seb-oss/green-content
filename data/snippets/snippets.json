@@ -376,7 +376,7 @@
       "title": "Hero: Video",
       "slug": "hero-video",
       "path": "snippets/hero-video/hero-video.json",
-      "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4\" playsinline muted autoplay loop></gds-video>"
+      "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://api.seb.io/components/video/video.mp4\" playsinline muted autoplay loop></gds-video>"
     },
     {
       "title": "Link: Leading",
@@ -428,5 +428,5 @@
     }
   ],
   "total": 71,
-  "lastUpdated": "2025-07-03T10:59:17.224Z"
+  "lastUpdated": "2025-07-03T11:00:41.614Z"
 }
