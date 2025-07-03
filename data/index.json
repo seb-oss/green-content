@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T07:37:50.436Z",
+    "lastUpdated": "2025-07-03T07:38:18.905Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1030,6 +1030,15 @@
             "code": "<gds-link>\n<gds-icon-cain-link slot=\"lead\"></gds-icon-cain-link>\n  Link text\n</gds-link>",
             "endpoints": {
               "content": "snippets/link-leading/link-leading.json"
+            }
+          },
+          {
+            "title": "Link: Text decoration",
+            "slug": "link-text-decoration",
+            "path": "snippets/link-text-decoration/link-text-decoration.json",
+            "code": "<gds-link text-decoration=\"underline\">Link text</gds-link>",
+            "endpoints": {
+              "content": "snippets/link-text-decoration/link-text-decoration.json"
             }
           },
           {

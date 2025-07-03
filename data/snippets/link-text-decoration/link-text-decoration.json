@@ -1,0 +1,5 @@
+{
+  "title": "Link: Text decoration",
+  "slug": "link-text-decoration",
+  "code": "<gds-link text-decoration=\"underline\">Link text</gds-link>"
+}
