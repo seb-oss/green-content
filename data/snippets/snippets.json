@@ -94,7 +94,7 @@
       "title": "Card: brand 01",
       "slug": "card-brand-01",
       "path": "snippets/card-brand-01/card-brand-01.json",
-      "code": "<gds-card width=\"300px\" variant=\"brand-01\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n  <gds-text tag=\"h3\">\n    Ta ett aktivt beslut i hängmattan. På riktigt.\n  </gds-text>\n  <gds-theme color-scheme=\"dark\">\n    <gds-button>\n      Börja spara\n    </gds-button>\n  </gds-theme>\n</gds-card>"
+      "code": "<gds-flex padding=\"s 0\">\n<gds-card width=\"300px\" variant=\"brand-01\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n  <gds-text tag=\"h3\">\n    Ta ett aktivt beslut i hängmattan. På riktigt.\n  </gds-text>\n  <gds-theme color-scheme=\"dark\">\n    <gds-button>\n      Börja spara\n    </gds-button>\n  </gds-theme>\n</gds-card>\n</gds-flex>"
     },
     {
       "title": "Card: grey",
@@ -446,5 +446,5 @@
     }
   ],
   "total": 74,
-  "lastUpdated": "2025-07-03T12:04:35.470Z"
+  "lastUpdated": "2025-07-03T12:05:13.046Z"
 }
