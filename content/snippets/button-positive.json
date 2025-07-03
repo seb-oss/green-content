@@ -1,0 +1,5 @@
+{
+  "title": "Button: positive",
+  "slug": "button-positive",
+  "code": "<gds-flex gap=\"s\">\n  <gds-button variant=\"positive\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"positive\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"positive\">Tertiary</gds-button>\n</gds-flex>"
+}
