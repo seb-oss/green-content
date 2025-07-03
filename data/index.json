@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T12:50:25.814Z",
+    "lastUpdated": "2025-07-03T12:52:07.023Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -592,8 +592,8 @@
             }
           },
           {
-            "title": "Button: ranks",
-            "slug": "button-ranks",
+            "title": "Button: neutral",
+            "slug": "button-neutral",
             "path": "snippets/button-ranks/button-ranks.json",
             "code": "<gds-flex gap=\"s\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {

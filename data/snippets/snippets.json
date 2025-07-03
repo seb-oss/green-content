@@ -91,8 +91,8 @@
       "code": "<gds-flex width=\"80%\" align-items=\"center\" justify-content=\"center\">\n  <div>\n    <gds-breadcrumbs width=\"100%\" size=\"small\">\n      <gds-link href=\"#\">\n        <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n        Home\n      </gds-link>\n      <gds-link href=\"#\">\n        <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n        Documents\n      </gds-link>\n      <gds-button rank=\"tertiary\" size=\"xs\">\n        <gds-icon-dot-grid-one-horizontal size=\"s\"></gds-icon-dot-grid-one-horizontal>\n      </gds-button>\n      <gds-link href=\"#\">\n        <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n        Settings\n      </gds-link>\n      <gds-text> Current page </gds-text>\n    </gds-breadcrumbs>\n  </div>\n</gds-flex>"
     },
     {
-      "title": "Button: ranks",
-      "slug": "button-ranks",
+      "title": "Button: neutral",
+      "slug": "button-neutral",
       "path": "snippets/button-ranks/button-ranks.json",
       "code": "<gds-flex gap=\"s\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>"
     },
@@ -458,5 +458,5 @@
     }
   ],
   "total": 76,
-  "lastUpdated": "2025-07-03T12:50:25.815Z"
+  "lastUpdated": "2025-07-03T12:52:07.024Z"
 }
