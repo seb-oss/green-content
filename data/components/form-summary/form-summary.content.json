@@ -23,12 +23,8 @@
       }
     ]
   },
-  "tags": [
-    "form"
-  ],
-  "category": [
-    "Components"
-  ],
+  "tags": ["form"],
+  "category": ["Components"],
   "platform": {
     "web": true,
     "ios": false,
@@ -61,7 +57,7 @@
       "section-content": "For long forms which are dynamically submitted (meaning the page does not reload), place the form summary at the bottom of the form, close to the submit button, so that it appears in view for the user without scrolling.\n\nFor long forms which are server-side driven (page reloads when submitting), place the form summary at the top so that it will be the first thing the user sees when the page reloads.\n\nShort forms, where all controls are easily in view without scrolling, form summary is generally not necessary, since all the errors are already in view."
     },
     {
-      "title": "Do's and Don'ts",
+      "title": "Do's and don'ts",
       "cols": "2",
       "columns": [
         {

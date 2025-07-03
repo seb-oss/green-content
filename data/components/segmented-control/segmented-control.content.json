@@ -22,13 +22,8 @@
       }
     ]
   },
-  "tags": [
-    "navigation",
-    "button"
-  ],
-  "category": [
-    "Components"
-  ],
+  "tags": ["navigation", "button"],
+  "category": ["Components"],
   "platform": {
     "web": true,
     "ios": false,
@@ -89,7 +84,7 @@
       ]
     },
     {
-      "title": "Do's and Don'ts",
+      "title": "Do's and don'ts",
       "cols": "2",
       "columns": [
         {
