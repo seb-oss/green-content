@@ -97,6 +97,12 @@
       "code": "<gds-flex gap=\"s\">\n  <gds-button variant=\"brand\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"brand\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"brand\">Tertiary</gds-button>\n</gds-flex>"
     },
     {
+      "title": "Button: negative",
+      "slug": "button-negative",
+      "path": "snippets/button-negative/button-negative.json",
+      "code": "<gds-flex gap=\"s\">\n  <gds-button variant=\"negative\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"negative\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"negative\">Tertiary</gds-button>\n</gds-flex>"
+    },
+    {
       "title": "Button: positive",
       "slug": "button-positive",
       "path": "snippets/button-positive/button-positive.json",
@@ -469,6 +475,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 78,
-  "lastUpdated": "2025-07-03T12:54:18.358Z"
+  "total": 79,
+  "lastUpdated": "2025-07-03T12:55:35.149Z"
 }
