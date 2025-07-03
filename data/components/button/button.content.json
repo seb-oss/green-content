@@ -41,19 +41,6 @@
       "section-content": "The default button is our most used button. It comes in primary, secondary and tertiary, and the sizes small, medium and large.\n\nNeutral is the default variant of the button in addition to positive, negative and brand."
     },
     {
-      "title": "Negative",
-      "section-content": "Negative button content",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "button-negative"
-        }
-      ]
-    },
-    {
       "title": "Neutral",
       "tag": "H3",
       "section-content": "Neutral button content goes here",
@@ -82,7 +69,7 @@
     },
     {
       "title": "Positive",
-      "tag": "H4",
+      "tag": "H3",
       "cols": "1",
       "columns": [
         {
@@ -90,6 +77,20 @@
           "plain": false,
           "replay": false,
           "Snippet": "button-positive"
+        }
+      ]
+    },
+    {
+      "title": "Negative",
+      "tag": "H3",
+      "section-content": "Negative button content",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-negative"
         }
       ]
     },
