@@ -18,7 +18,7 @@
         "text": "Trailing icon"
       },
       {
-        "text": "Link decoration"
+        "text": "Text decoration"
       }
     ]
   },
@@ -43,7 +43,27 @@
     {
       "title": "Variants",
       "tag": "H2",
-      "section-content": "**With leading icon** - Use when an icon helps reinforce the meaning of the link (e.g., a document or download icon before the text).  \n**With trailing icon** - Use for links that lead outside the current system, such as external websites. A trailing external link icon helps set expectations.  \n**With underline** - Used when a stronger visual indication is needed — for example, in long bodies of text or when links need to stand out clearly from surrounding content."
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Leading icon",
+          "tag": "H3",
+          "content": "Use when an icon helps reinforce the meaning of the link (e.g., a document or download icon before the text)."
+        },
+        {
+          "type": "rich-text",
+          "title": "Trailing icon",
+          "tag": "H3",
+          "content": "Use for links that lead to another page or outside the current application, such as external websites."
+        },
+        {
+          "type": "rich-text",
+          "title": "Text decoration",
+          "tag": "H3",
+          "content": "Used when a stronger visual indication is needed for example, in long bodies of text or when links need to stand out clearly from surrounding content."
+        }
+      ]
     },
     {
       "title": "Do’s and don’ts",
