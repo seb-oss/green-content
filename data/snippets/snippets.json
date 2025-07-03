@@ -103,16 +103,16 @@
       "code": "<gds-flex gap=\"s\" flex-direction=\"column\" width=\"200px\" padding=\"xl\">\n  <gds-button variant=\"negative\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"negative\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"negative\">Tertiary</gds-button>\n</gds-flex>"
     },
     {
+      "title": "Button: neutral",
+      "slug": "button-neutral-2",
+      "path": "snippets/button-neutral-2/button-neutral-2.json",
+      "code": "<gds-flex gap=\"s\" flex-direction=\"column\" width=\"200px\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>"
+    },
+    {
       "title": "Button: positive",
       "slug": "button-positive",
       "path": "snippets/button-positive/button-positive.json",
       "code": "<gds-flex gap=\"s\" flex-direction=\"column\" width=\"200px\" padding=\"xl\">\n  <gds-button variant=\"positive\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"positive\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"positive\">Tertiary</gds-button>\n</gds-flex>"
-    },
-    {
-      "title": "Button: neutral",
-      "slug": "button-neutral",
-      "path": "snippets/button-ranks/button-ranks.json",
-      "code": "<gds-flex gap=\"s\" flex-direction=\"column\" width=\"200px\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>"
     },
     {
       "title": "Card: brand 01",
@@ -476,5 +476,5 @@
     }
   ],
   "total": 79,
-  "lastUpdated": "2025-07-03T13:00:16.887Z"
+  "lastUpdated": "2025-07-03T13:01:42.133Z"
 }
