@@ -1,5 +1,5 @@
 {
   "title": "Dialog: Regular",
   "slug": "dialog-regular",
-  "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Regular Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
+  "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Show regular dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
 }
