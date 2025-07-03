@@ -52,16 +52,33 @@
           "content": "Use when an icon helps reinforce the meaning of the link (e.g., a document or download icon before the text)."
         },
         {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "link-leading"
+        },
+        {
           "type": "rich-text",
           "title": "Trailing icon",
           "tag": "H3",
           "content": "Use for links that lead to another page or outside the current application, such as external websites."
         },
         {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "link-trailing"
+        },
+        {
           "type": "rich-text",
           "title": "Text decoration",
           "tag": "H3",
           "content": "Used when a stronger visual indication is needed for example, in long bodies of text or when links need to stand out clearly from surrounding content."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false
         }
       ]
     },
