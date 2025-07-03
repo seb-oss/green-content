@@ -88,12 +88,6 @@
           "plain": true,
           "replay": false,
           "Snippet": "card-grey-image"
-        },
-        {
-          "type": "snippet",
-          "plain": true,
-          "replay": false,
-          "Snippet": "card-grey-image-rounded"
         }
       ]
     },
