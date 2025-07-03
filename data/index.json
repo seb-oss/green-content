@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-03T11:31:51.963Z",
+    "lastUpdated": "2025-07-03T11:34:19.736Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -607,6 +607,15 @@
             "code": "<gds-card padding=\"0\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\">\n  <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text tag=\"h3\" font-size=\"heading-m\">\n        This is a heading\n      </gds-text>\n      <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n        This is the body text. Please make it your own. You can use a button when that suites the context, or  seperate link. The heading can also be the link.\n      </gds-text>\n    </gds-flex>\n    <gds-flex gap=\"s\">\n      <gds-button>\n        Primary\n      </gds-button>\n    </gds-flex>\n</gds-card>",
             "endpoints": {
               "content": "snippets/card-grey/card-grey.json"
+            }
+          },
+          {
+            "title": "Card: link",
+            "slug": "card-link",
+            "path": "snippets/card-link/card-link.json",
+            "code": "<gds-card padding=\"0\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\">\n  <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text tag=\"h3\" font-size=\"heading-m\">\n        This is a heading\n      </gds-text>\n      <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n        This is the body text. Please make it your own. You can use a button when that suites the context, or  seperate link. The heading can also be the link.\n      </gds-text>\n    </gds-flex>\n    <gds-flex gap=\"s\">\n      <gds-link href=\"#\">\n        Primary\n        <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n      </gds-button>\n    </gds-flex>\n</gds-card>",
+            "endpoints": {
+              "content": "snippets/card-link/card-link.json"
             }
           },
           {

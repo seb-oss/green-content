@@ -75,19 +75,25 @@
       "title": "Grey (default)",
       "tag": "H3",
       "section-content": "**Purpose:** Neutral container for standard content.  \n**Use when:** The content needs gentle separation without standing out too much.",
-      "cols": "3",
+      "cols": "1",
       "columns": [
         {
           "type": "snippet",
-          "plain": true,
+          "plain": false,
           "replay": false,
           "Snippet": "card-grey"
         },
         {
           "type": "snippet",
-          "plain": true,
+          "plain": false,
           "replay": false,
           "Snippet": "card-grey-image"
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "card-link"
         }
       ]
     },
