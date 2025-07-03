@@ -79,19 +79,19 @@
       "columns": [
         {
           "type": "snippet",
-          "plain": false,
+          "plain": true,
           "replay": false,
           "Snippet": "card-grey"
         },
         {
           "type": "snippet",
-          "plain": false,
+          "plain": true,
           "replay": false,
           "Snippet": "card-grey-image"
         },
         {
           "type": "snippet",
-          "plain": false,
+          "plain": true,
           "replay": false,
           "Snippet": "card-grey-image-rounded"
         }
