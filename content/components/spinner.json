@@ -3,6 +3,7 @@
   "slug": "spinner",
   "hero_snippet": "hero-spinner",
   "beta": true,
+  "soon": true,
   "anatomy": true,
   "tags": [
     "preloader",
