@@ -182,22 +182,5 @@
         }
       ]
     }
-  ],
-  "ux-text": [
-    {
-      "title": "Do's and dont's",
-      "columns": [
-        {
-          "type": "do",
-          "dolist": [
-            {},
-            {}
-          ]
-        },
-        {
-          "type": "dont"
-        }
-      ]
-    }
   ]
 }
