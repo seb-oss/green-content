@@ -30,6 +30,10 @@ content:
         label: Beta
         type: boolean
         default: false
+      - name: soon
+        label: Cooming soon
+        type: boolean
+        default: false
       - { name: summary, label: Summary, type: string }
       - { name: preamble, label: Preamble, type: text }
       - name: anatomy
@@ -337,6 +341,15 @@ content:
               - name: snippet
                 label: Snippet
                 fields:
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: plain
+                    label: Plain
+                    type: boolean
+                  - name: replay
+                    label: Replay
+                    type: boolean
                   - name: Snippet
                     type: reference
                     options:
@@ -363,6 +376,28 @@ content:
                   - name: src
                     label: Image
                     type: image
+              - name: do
+                label: Do
+                fields:
+                  - name: dolist
+                    label: 'Do'
+                    type: object
+                    list: true
+                    fields:
+                      - name: text
+                        label: 'Text'
+                        type: string
+              - name: dont
+                label: Dont
+                fields:
+                  - name: dontlist
+                    label: 'Dont'
+                    type: object
+                    list: true
+                    fields:
+                      - name: text
+                        label: 'Text'
+                        type: string
       - name: accessibility
         type: object
         label: Accessibility
@@ -428,6 +463,15 @@ content:
               - name: snippet
                 label: Snippet
                 fields:
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: plain
+                    label: Plain
+                    type: boolean
+                  - name: replay
+                    label: Replay
+                    type: boolean
                   - name: Snippet
                     type: reference
                     options:
@@ -454,6 +498,28 @@ content:
                   - name: src
                     label: Image
                     type: image
+              - name: do
+                label: Do
+                fields:
+                  - name: dolist
+                    label: 'Do'
+                    type: object
+                    list: true
+                    fields:
+                      - name: text
+                        label: 'Text'
+                        type: string
+              - name: dont
+                label: Dont
+                fields:
+                  - name: dontlist
+                    label: 'Dont'
+                    type: object
+                    list: true
+                    fields:
+                      - name: text
+                        label: 'Text'
+                        type: string
 
   - name: pages
     label: Pages
@@ -532,6 +598,15 @@ content:
               - name: snippet
                 label: Snippet
                 fields:
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: plain
+                    label: Plain
+                    type: boolean
+                  - name: replay
+                    label: Replay
+                    type: boolean
                   - name: Snippet
                     type: reference
                     options:
@@ -557,22 +632,29 @@ content:
                     type: string
                   - name: src
                     label: Image
-                    type: image  
-              - name: details
-                label: Details
+                    type: image
+              - name: do
+                label: Do
                 fields:
-                  - name: name
-                    label: Name
-                    type: string
-                  - name: summary
-                    label: Summary
-                    type: string
-                  - name: open
-                    label: Open
-                    type: boolean
-                  - name: content
-                    label: Rich Text
-                    type: rich-text
+                  - name: dolist
+                    label: 'Do'
+                    type: object
+                    list: true
+                    fields:
+                      - name: text
+                        label: 'Text'
+                        type: string
+              - name: dont
+                label: Dont
+                fields:
+                  - name: dontlist
+                    label: 'Dont'
+                    type: object
+                    list: true
+                    fields:
+                      - name: text
+                        label: 'Text'
+                        type: string
               
 
   - name: navigation
