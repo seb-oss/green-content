@@ -3,6 +3,7 @@
   "slug": "div",
   "hero_snippet": "hero-div",
   "beta": true,
+  "soon": true,
   "summary": "Div is a base element in the declarative layout system.",
   "anatomy": false,
   "category": [
