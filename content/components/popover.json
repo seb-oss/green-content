@@ -3,6 +3,7 @@
   "slug": "popover",
   "hero_snippet": "hero-popover",
   "beta": false,
+  "soon": true,
   "summary": "A popover is a temporary view that appears above other content.",
   "anatomy": false,
   "tags": [
