@@ -3,6 +3,7 @@
   "slug": "calendar",
   "hero_snippet": "hero-calendar",
   "beta": false,
+  "soon": true,
   "summary": "The calendar displays a grid of selectable dates.",
   "preamble": "The calendar component provides the foundation for datepicker and is not intended for direct implementation. For date selection functionality, use the datepicker component where full documentation is available.",
   "anatomy": false,
