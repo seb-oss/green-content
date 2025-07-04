@@ -3,6 +3,7 @@
   "slug": "alert",
   "hero_snippet": "hero-alert",
   "beta": true,
+  "soon": false,
   "summary": "An alert displays important messages, feedback, or time-sensitive information.",
   "preamble": "An alert is a message used to inform the user about the state of a system, page, or function. Icons and color indicate the type and urgency of the information within the message.",
   "anatomy": true,
@@ -178,6 +179,23 @@
               "text": "Never omit the label property, as it’s essential for screen reader users."
             }
           ]
+        }
+      ]
+    }
+  ],
+  "ux-text": [
+    {
+      "title": "Do's and dont's",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {},
+            {}
+          ]
+        },
+        {
+          "type": "dont"
         }
       ]
     }
