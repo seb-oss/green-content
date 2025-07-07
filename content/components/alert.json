@@ -185,7 +185,7 @@
   ],
   "ux-text": [
     {
-      "title": "Keep it short and easy to read",
+      "title": "Keep the message short and easy to read",
       "tag": "H2",
       "section-content": "Keep messages short and focused. Always write with mobile users in mind—what takes up 1.5 lines on a desktop can take up 3.5 lines on a mobile screen. Aim for a maximum of 75 characters or 500 pixels wide on desktop.\n\nDo not capitalise the first letter of every word in headings or labels. Use uppercase only for:\n\n*   The first letter of the first word\n    \n*   Proper names\n    \n*   Abbreviations"
     },
