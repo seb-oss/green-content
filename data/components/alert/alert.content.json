@@ -192,7 +192,7 @@
     {
       "title": "Alert with a heading",
       "tag": "H3",
-      "section-content": "Use a heading if it helps the customer quickly understand the message. Make sure the heading clearly reflects the content—it should do more than just say something like \"Information\". Always keep the heading on the same line as the message, not above it.\n\n(Add example)"
+      "section-content": "Use a heading if it helps the customer quickly understand the message. Make sure the heading clearly reflects the content, it should do more than just say something like \"Information\". Always keep the heading on the same line as the message, not above it.\n\n(Add example)"
     },
     {
       "title": "Alert without a heading",
