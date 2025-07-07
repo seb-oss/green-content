@@ -76,13 +76,13 @@
       "title": "Badge: UX common EN",
       "slug": "badge-ux-common-en",
       "path": "snippets/badge-ux-common-en/badge-ux-common-en.json",
-      "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\">\n  <gds-badge variant=\"positive\">Signed</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for signature</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for other's signature</gds-badge>\n  <gds-badge>Expired</gds-badge>\n  <gds-badge>Closed</gds-badge>\n  <gds-badge variant=\"negative\">Removed</gds-badge>\n</gds-flex>\n"
+      "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\" padding=\"2xl xl\">\n  <gds-badge variant=\"positive\">Signed</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for signature</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for other's signature</gds-badge>\n  <gds-badge>Expired</gds-badge>\n  <gds-badge>Closed</gds-badge>\n  <gds-badge variant=\"negative\">Removed</gds-badge>\n</gds-flex>\n"
     },
     {
       "title": "Badge: UX common SV",
       "slug": "badge-ux-common-sv",
       "path": "snippets/badge-ux-common-sv/badge-ux-common-sv.json",
-      "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\">\n  <gds-badge variant=\"positive\">Signerat</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa signatur</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa annans signatur</gds-badge>\n  <gds-badge>Förfallet</gds-badge>\n  <gds-badge>Avslutad</gds-badge>\n  <gds-badge variant=\"negative\">Borttaget</gds-badge>\n</gds-flex>"
+      "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\" padding=\"2xl xl\">\n  <gds-badge variant=\"positive\">Signerat</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa signatur</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa annans signatur</gds-badge>\n  <gds-badge>Förfallet</gds-badge>\n  <gds-badge>Avslutad</gds-badge>\n  <gds-badge variant=\"negative\">Borttaget</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Badge: Variants",
@@ -542,5 +542,5 @@
     }
   ],
   "total": 90,
-  "lastUpdated": "2025-07-07T14:26:47.134Z"
+  "lastUpdated": "2025-07-07T14:29:33.956Z"
 }
