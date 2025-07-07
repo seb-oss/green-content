@@ -182,5 +182,24 @@
         }
       ]
     }
+  ],
+  "ux-text": [
+    {
+      "title": "Keep it short and easy to read",
+      "tag": "H2",
+      "section-content": "Keep messages short and focused. Always write with mobile users in mind—what takes up 1.5 lines on a desktop can take up 3.5 lines on a mobile screen. Aim for a maximum of 75 characters or 500 pixels wide on desktop.\n\nDo not capitalise the first letter of every word in headings or labels. Use uppercase only for:\n\n*   The first letter of the first word\n    \n*   Proper names\n    \n*   Abbreviations",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Alert with a heading",
+          "content": "Use a heading if it helps the customer quickly understand the message. Make sure the heading clearly reflects the content—it should do more than just say something like \"Information\". Always keep the heading on the same line as the message, not above it.\n\n(Add example)"
+        },
+        {
+          "type": "rich-text",
+          "title": "Alert without a heading",
+          "content": "It’s also fine to write the message without a heading. In some cases, the first sentence may be clear and informative enough on its own, even if it’s too long to work as a heading. Just make sure the message starts with the most important point, so the customer understands it quickly.\n\n(Add example)"
+        }
+      ]
+    }
   ]
 }
