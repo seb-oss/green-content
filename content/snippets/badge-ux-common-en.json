@@ -1,5 +1,5 @@
 {
   "title": "Badge: UX common EN",
   "slug": "badge-ux-common-en",
-  "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\">\n  <gds-badge variant=\"positive\">Signed</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for signature</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for other's signature</gds-badge>\n  <gds-badge>Expired</gds-badge>\n  <gds-badge>Closed</gds-badge>\n  <gds-badge variant=\"negative\">Removed</gds-badge>\n</gds-flex>\n"
+  "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\" padding=\"2xl xl\">\n  <gds-badge variant=\"positive\">Signed</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for signature</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for other's signature</gds-badge>\n  <gds-badge>Expired</gds-badge>\n  <gds-badge>Closed</gds-badge>\n  <gds-badge variant=\"negative\">Removed</gds-badge>\n</gds-flex>\n"
 }
