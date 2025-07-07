@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-07T14:15:38.281Z",
+    "lastUpdated": "2025-07-07T14:16:38.692Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -562,6 +562,15 @@
             "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    10,000.00\n    <gds-icon-arrow-right-up-circle slot=\"trail\"></gds-icon-arrow-right-up-circle>\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    142.00\n    <gds-icon-arrow-right-down-circle slot=\"trail\"></gds-icon-arrow-right-down-circle>\n  </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/badge-trail/badge-trail.json"
+            }
+          },
+          {
+            "title": "Badge: UX common EN",
+            "slug": "badge-ux-common-en",
+            "path": "snippets/badge-ux-common-en/badge-ux-common-en.json",
+            "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\">\n  <gds-badge variant=\"positive\">Signed</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for signature</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for other's signature</gds-badge>\n  <gds-badge>Expired</gds-badge>\n  <gds-badge>Closed</gds-badge>\n  <gds-badge variant=\"negative\">Removed</gds-badge>\n</gds-flex>\n",
+            "endpoints": {
+              "content": "snippets/badge-ux-common-en/badge-ux-common-en.json"
             }
           },
           {
