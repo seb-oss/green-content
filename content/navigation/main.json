@@ -38,14 +38,14 @@
       "icon": "IconCircleInfo"
     },
     {
-      "title": "Github",
-      "slug": "https://github.com/seb-oss/green",
-      "icon": "IconBrandGithub"
-    },
-    {
       "title": "Storybook",
       "slug": "https://storybook.seb.io",
       "icon": "IconBrandStorybook"
+    },
+    {
+      "title": "Github",
+      "slug": "https://github.com/seb-oss/green",
+      "icon": "IconBrandGithub"
     }
   ]
 }
