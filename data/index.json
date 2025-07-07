@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-07T14:13:51.415Z",
+    "lastUpdated": "2025-07-07T14:15:38.281Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -562,6 +562,15 @@
             "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    10,000.00\n    <gds-icon-arrow-right-up-circle slot=\"trail\"></gds-icon-arrow-right-up-circle>\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    142.00\n    <gds-icon-arrow-right-down-circle slot=\"trail\"></gds-icon-arrow-right-down-circle>\n  </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/badge-trail/badge-trail.json"
+            }
+          },
+          {
+            "title": "Badge: UX common SV",
+            "slug": "badge-ux-common-sv",
+            "path": "snippets/badge-ux-common-sv/badge-ux-common-sv.json",
+            "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\">\n  <gds-badge variant=\"positive\">Signerat</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa signatur</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa annans signatur</gds-badge>\n  <gds-badge>Förfallet</gds-badge>\n  <gds-badge>Avslutad</gds-badge>\n  <gds-badge variant=\"negative\">Borttaget</gds-badge>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/badge-ux-common-sv/badge-ux-common-sv.json"
             }
           },
           {
