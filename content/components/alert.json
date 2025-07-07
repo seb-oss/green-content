@@ -7,7 +7,7 @@
   "summary": "An alert displays important messages, feedback, or time-sensitive information.",
   "preamble": "An alert is a message used to inform the user about the state of a system, page, or function. Icons and color indicate the type and urgency of the information within the message.",
   "anatomy": true,
-  "anatomy-overview": "Alert consists of a card with an icon, a message text, optional action button, and optional close button. The layout is responsive and adapts based on the size of the Alert.",
+  "anatomy-overview": "Alert consists of a card with an icon, a message text, optional action button, and optional close button. The layout is responsive and adapts based on the size of the alert.",
   "anatomy-details": "1.  Alert card\n    \n2.  Alert border\n    \n3.  Text content\n    \n4.  Leading icon\n    \n5.  Primary action\n    \n6.  Link\n    \n7.  Icon button dismiss",
   "anatomy-list": {
     "anatomyitems": [
@@ -117,7 +117,7 @@
     {
       "title": "Action button",
       "tag": "H2",
-      "section-content": "Alert supports an optional action button with customizable text to trigger relevant actions.",
+      "section-content": "Alert supports an optional action button with customisable text to trigger relevant actions.",
       "cols": "1",
       "columns": [
         {
@@ -131,7 +131,7 @@
     {
       "title": "Dismissible",
       "tag": "H2",
-      "section-content": "Alerts can be configured as `dismissible` in order to show a close button in the upper right corner. This also enabled closing the Alert by pressing the Escape key.",
+      "section-content": "Alerts can be configured as `dismissible` in order to show a close button in the upper right corner. This also enabled closing the alert by pressing the escape key.",
       "cols": "1",
       "columns": [
         {
@@ -145,11 +145,11 @@
     {
       "title": "Auto-dismiss",
       "tag": "H2",
-      "section-content": "Alert can also be set up to use an auto-dismiss timer. In this configuration, a timer progress bar will be shown at the bottom of the Alert, and the Alert will close once the timer reaches the end."
+      "section-content": "Alert can also be set up to use an auto-dismiss timer. In this configuration, a timer progress bar will be shown at the bottom of the alert, and the alert will close once the timer reaches the end."
     },
     {
       "title": "Guidelines",
-      "section-content": "Select the appropriate variant to match the message’s intent, such as using positive for success messages or negative for errors. Also ensure a meaningful label property is set to describe the alert’s purpose for accessibility. A label should always be set when using Alert.\n\nChoose the role property carefully, using alert for critical messages and status for informational updates, to align with ARIA best practices.\n\nFor toast-like messages, like save confirmations and other non-critical messages, auto-dismiss can be used to avoid interrupting user workflows.",
+      "section-content": "Select the appropriate variant to match the message’s intent, such as using positive for success messages or negative for errors. Also ensure a meaningful label property is set to describe the alert’s purpose for accessibility. A label should always be set when using alert.\n\nChoose the role property carefully, using alert for critical messages and status for informational updates, to align with ARIA best practices.\n\nFor toast-like messages, like save confirmations and other non-critical messages, auto-dismiss can be used to avoid interrupting user workflows.",
       "cols": "2",
       "columns": [
         {
