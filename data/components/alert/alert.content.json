@@ -185,7 +185,7 @@
   ],
   "ux-text": [
     {
-      "title": "The message should be clear, short, and to the point",
+      "title": "Writing UX text for alerts",
       "tag": "H2",
       "section-content": "Keep messages clear, short, and to the point. Focus on what matters most, and make sure the message is easy to understand at a glance.\n\nAlways write with mobile users in mind—what takes up 1.5 lines on a desktop can take up 3.5 lines on a mobile screen. Aim for a maximum of 75 characters or 500 pixels wide on desktop.\n\nDo not capitalise the first letter of every word in headings or labels. Use uppercase only for:\n\n*   The first letter of the first word\n    \n*   Proper names\n    \n*   Abbreviations"
     },
