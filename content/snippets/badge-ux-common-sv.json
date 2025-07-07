@@ -1,0 +1,5 @@
+{
+  "title": "Badge: UX common SV",
+  "slug": "badge-ux-common-sv",
+  "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\">\n  <gds-badge variant=\"positive\">Signerat</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa signatur</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa annans signatur</gds-badge>\n  <gds-badge>Förfallet</gds-badge>\n  <gds-badge>Avslutad</gds-badge>\n  <gds-badge variant=\"negative\">Borttaget</gds-badge>\n</gds-flex>"
+}
