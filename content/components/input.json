@@ -3,6 +3,7 @@
   "slug": "input",
   "hero_snippet": "hero-input",
   "beta": true,
+  "soon": false,
   "summary": "An input lets users enter and edit text or numerical values in forms.",
   "anatomy": true,
   "anatomy-overview": "The input (and other form controls) are divided in sections that are re-used between components.\n\n*   **Header**: Label, label support, contextual help, extended support.\n    \n*   **Body**: The field with leading and trailing slots.\n    \n*   **Footer**: Character counter, dynamic information and error message.",
@@ -103,7 +104,7 @@
           "type": "rich-text",
           "title": "Optional field indicator",
           "tag": "H3",
-          "content": "We only ask for required information. If some fields are optional, we let users know by adding \"(optional)\" in brackets next to the field label. The word \"(optional)\" is shown in regular font weight to distinguish it from the label."
+          "content": "We only ask for required information. If some fields are optional, we let users know by adding \"(optional)\" in brackets next to the field label."
         },
         {
           "type": "figma",
