@@ -3,6 +3,7 @@
   "slug": "link",
   "hero_snippet": "hero-link",
   "beta": false,
+  "soon": false,
   "summary": "A link navigates users to other pages or sections of content.",
   "preamble": "The link component is used to navigate users to other pages, sections, or external resources. It provides a consistent, accessible way to present clickable text within content, helping users understand where a link will take them.",
   "anatomy": true,
@@ -117,6 +118,25 @@
               "text": "Don't overload an interface with too many link styles it can confuse users."
             }
           ]
+        }
+      ]
+    }
+  ],
+  "ux-text": [
+    {
+      "title": "Use a verb that describes the user’s action",
+      "tag": "H2",
+      "section-content": "If the user is supposed to perform an action when clicking the link, try to use a verb in the active form that describes the action. It's fine to use two verb phrases, if the user must log in or go to a page to read more before performing the main action.\n\nNever use the phrase \"click here\". Neither by itself nor in a longer phrase. It makes it unclear to the user what will happen. \"Click here\" links are also inaccessible for users with screen readers. Furthermore, \"click here\" doesn't work for users that don't use a mouse or use a phone or tablet to navigate the site."
+    },
+    {
+      "title": "Upper and lower case",
+      "tag": "H3",
+      "section-content": "Don't start each word in headings and labels with upper case. Only use upper case in:\n\n*   The first letter of the first word\n    \n*   The first letter of proper names\n    \n*   Abbreviations"
+    },
+    {
+      "columns": [
+        {
+          "type": "do"
         }
       ]
     }
