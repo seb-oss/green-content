@@ -3,6 +3,7 @@
   "slug": "form-summary",
   "hero_snippet": "hero-form-summary",
   "beta": true,
+  "soon": false,
   "summary": "Form summary shows all form errors in one place.",
   "preamble": "Form summary assists users in identifying and addressing multiple errors in one place.\n",
   "anatomy": true,
@@ -23,8 +24,12 @@
       }
     ]
   },
-  "tags": ["form"],
-  "category": ["Components"],
+  "tags": [
+    "form"
+  ],
+  "category": [
+    "Components"
+  ],
   "platform": {
     "web": true,
     "ios": false,
@@ -77,6 +82,18 @@
           ]
         }
       ]
+    }
+  ],
+  "ux-text": [
+    {
+      "title": "Writing UX text for form summaries",
+      "tag": "H2",
+      "section-content": "The list of errors is the same as the field labels for each field containing errors."
+    },
+    {
+      "title": "Multiple fields with same name",
+      "tag": "H3",
+      "section-content": "When there are multiple fields with the same name, they should be grouped together within an area (fieldset). The name of the area is then used as a reference in parentheses in the error summary.\n\n(Add example of this with caption: _Example of multiple fields labelled \"Name\")_"
     }
   ]
 }
