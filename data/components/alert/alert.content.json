@@ -192,12 +192,56 @@
     {
       "title": "Alert with a heading",
       "tag": "H3",
-      "section-content": "Use a heading if it helps the customer quickly understand the message. Make sure the heading clearly reflects the content, it should do more than just say something like \"Information\". Always keep the heading on the same line as the message, not above it.\n\n(Add example)"
+      "section-content": "Use a heading if it helps the customer quickly understand the message. Make sure the heading clearly reflects the content, it should do more than just say something like \"Information\". Always keep the heading on the same line as the message, not above it.\n\n(Add do and don't example)"
     },
     {
       "title": "Alert without a heading",
       "tag": "H3",
-      "section-content": "It’s also fine to write the message without a heading. In some cases, the first sentence may be clear and informative enough on its own, even if it’s too long to work as a heading. Just make sure the message starts with the most important point, so the customer understands it quickly.\n\n(Add example)"
+      "section-content": "It’s also fine to write the message without a heading. In some cases, the first sentence may be clear and informative enough on its own, even if it’s too long to work as a heading. Just make sure the message starts with the most important point, so the customer understands it quickly.\n\n(Add do example)"
+    },
+    {
+      "title": "Alert with a close button (X)",
+      "tag": "H3",
+      "section-content": "A close button (X) lets the customer dismiss the message. If no action is needed, you don’t have to include a button, link, or X—the message can disappear on its own. For example, after logging out of online banking, a confirmation message might appear and then close automatically.\n\n(Add do example)"
+    },
+    {
+      "title": "Alert with a button",
+      "tag": "H3",
+      "section-content": "Use a button when the customer needs to take a clear action. For example, to switch funds, confirm answers, or make changes in order to continue using a service.\n\nThere are some exceptions. Even when an action is required, a link may be more appropriate—for example, when the customer needs to select new mortgage terms. In this case, a link feels less urgent and gives the customer time to review the options.\n\n(Add do example)"
+    },
+    {
+      "title": "Alert with a link",
+      "tag": "H3",
+      "section-content": "Use a link when:\n\n*   You want to offer more information\n    \n*   The customer needs to act on another page, but the action isn’t immediate or critical\n    \n\nYou can also use a link for critical actions if a button might feel too “committing.” For example, when a customer needs to renew their loan terms, they must take action, but a button might make them think it will be submitted straight away. A link allows them to proceed at their own pace.\n\nAlways place the link on the same line as the final sentence. It should never be placed on a new line. It can either be part of the last sentence or stand on its own, but it must always appear last in the message.\n\n(Add do example)"
+    },
+    {
+      "title": "Using buttons and links together",
+      "tag": "H3",
+      "section-content": "Avoid using a button and a link in the same message. Space is limited, and mixing actions can confuse the customer. Instead, decide what the main message is. If the customer needs more information before taking action, guide them to that first—with a link—and then present the action later."
+    },
+    {
+      "title": "Alert types and writing guidelines",
+      "tag": "H2"
+    },
+    {
+      "title": "Information alert",
+      "tag": "H3",
+      "section-content": "Use information alerts to inform customers about things like new features, updates, or proactive advice.\n\nAn information alert can include:\n\n*   **Information:** A brief message about a new feature or event, or a helpful tip\n    \n*   **Instruction:** What the customer should do next, or a required step"
+    },
+    {
+      "title": "Success alert",
+      "tag": "H3",
+      "section-content": "Success alerts confirm that an action was completed successfully.\n\nWhy confirm?\n\n*   Users expect digital systems to follow social norms, including giving feedback\n    \n*   Confirmation messages reassure users that their action worked\n    \n\nA success alert should include:\n\n*   **Confirmation**: Clearly state that everything is completed and in order\n    \n*   **Instruction**: If needed, explain the next step or choice\n    \n*   **Relation** _(optional)_: Add a positive or brand-reinforcing message when appropriate\n    \n    *   For example, thank the customer when they’ve completed something sensitive, like providing KYC or private information\n        \n    *   Avoid thanking them for regular activities like payments or fund transfers"
+    },
+    {
+      "title": "Warning",
+      "tag": "H3",
+      "section-content": "Use warning ribbons for non-critical issues, such as:\n\n*   An upcoming payment due date\n    \n*   Delays in stock market price updates\n    \n*   Planned service maintenance\n    \n\nA warning message typically includes:\n\n*   **Explanation:** Describe the issue in simple terms (e.g. “Stock prices may not be up to date.”) Avoid starting with words like _Important_, _Note_, or _Warning_\n    \n*   **Estimation**: Include a time estimate for resolution, if known\n    \n*   **Apology**: Only apologise if the issue is caused by SEB’s systems\n    \n*   **Instruction**: Explain what the customer should do next, if anything. This may include a button, link, or close (X)"
+    },
+    {
+      "title": "Critical and error",
+      "tag": "H3",
+      "section-content": "Use critical or error ribbons for **serious issues** that prevent the user from doing what they need to—such as a system outage or service error.\n\nThe message should include:\n\n*   **Explanation**: Clearly explain what’s wrong. Don't begin with words like _Important_ or _Note_\n    \n*   **Apology**: Only when SEB’s systems are responsible for the issue\n    \n*   **Help or instruction**: Tell the customer what to do to move forward—either immediately or later"
     }
   ]
 }
