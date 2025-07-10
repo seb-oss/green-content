@@ -47,7 +47,7 @@
     {
       "title": "Example",
       "tag": "H2",
-      "section-content": "If a user has accounts in three countries, only those three countries should be shown as filter chips. If they have accounts in just one country, there's no need to show a country filter at all.   \nTo improve clarity and support informed decisions, display the number of results each selected filter will return. This gives users immediate feedback on how their choices are narrowing or broadening the data set."
+      "section-content": "If a user has accounts in three countries, only those three countries should be shown as filter chips. If they have accounts in just one country, there's no need to show a country filter at all. \n\n  \nTo improve clarity and support informed decisions, display the number of results each selected filter will return. This gives users immediate feedback on how their choices are narrowing or broadening the data set."
     },
     {
       "title": "Sizes",
@@ -90,7 +90,7 @@
     {
       "title": "Writing UX text for filter chips",
       "tag": "H2",
-      "section-content": "The filter chip text should be short. Use one word, if possible, but no more than three words. Write \"and (och)\" instead of the &-sign, since it's more accessible for the user. Aim at keeping the same text length for all filter chips – but only if it can be done without losing comprehensibility. Only use upper case in the first word, or if it is the first letter of proper names or abbreviations.\n\nSince chips mainly represent different types of filters, and the filters tell something about the element being filtered, it is usually best to use nouns.\n\n##### **Examples**\n\nIn English\n\n*   US-dollar, British Virgin Islands, Normal account, High risk, Global, Emerging markets, Equity funds, Biotechnology \n    \n\nIn Swedish\n\n*   US-dollar, Brittiska jungfruöarna, Fristående konto, Hög risk, Global, Tillväxtmarknader, Aktiefonder, Bioteknik\n    \n\nIf you are considering a verb, think about whether it would use buttons for actions or badges for representing e.g. status instead."
+      "section-content": "The filter chip text should be short. Use one word, if possible, but no more than three words. Write \"and (och)\" instead of the &-sign, since it's more accessible for the user. Aim at keeping the same text length for all filter chips – but only if it can be done without losing comprehensibility. Only use upper case in the first word, or if it is the first letter of proper names or abbreviations.\n\nSince chips mainly represent different types of filters, and the filters tell something about the element being filtered, it is usually best to use nouns.\n\n##### **Examples**\n\nIn English:\n\n*   US-dollar, British Virgin Islands, Normal account, High risk, Global, Emerging markets, Equity funds, Biotechnology \n    \n\nIn Swedish:\n\n*   US-dollar, Brittiska jungfruöarna, Fristående konto, Hög risk, Global, Tillväxtmarknader, Aktiefonder, Bioteknik\n    \n\nIf you are considering a verb, think about whether it would use buttons for actions or badges for representing e.g. status instead."
     },
     {
       "title": "Do's and don'ts",
