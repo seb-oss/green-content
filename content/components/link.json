@@ -136,7 +136,12 @@
     {
       "columns": [
         {
-          "type": "do"
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Start saving for your pension Read more about mortgages Become a corporate customer Log in and invest Read more and apply for a mortgage"
+            }
+          ]
         }
       ]
     }
