@@ -252,12 +252,12 @@
     {
       "title": "Use commands and requests in the button",
       "tag": "H3",
-      "section-content": "You should primarily use verbs in the imperative mood, which is the form of the verb that conveys commands or requests, for example, Order, Apply, Submit and Sign. If needed, you can add what happens, for example, Write a new message or Add a row. In special cases, the button may consist of another type of text, for example, This solution suits me."
+      "section-content": "You should primarily use verbs in the imperative mood, which is the form of the verb that conveys commands or requests, for example, \"Order\", \"Apply\", \"Submit\" and \"Sign\". If needed, you can add what happens, for example, \"Write a new message\" or \"Add a row\". In special cases, the button may consist of another type of text, for example, \"This solution suits me\"."
     },
     {
       "title": "Avoid Perform and Okay",
       "tag": "H3",
-      "section-content": "Avoid using words like Perform (Utför) and Okay (Okej) in buttons. Perform is too formal and Okay is too vague and doesn’t answer the question “What is happening?” when the user clicks the button."
+      "section-content": "Avoid using words like \"Perform (Utför)\" and \"Okay (Okej)\" in buttons. Perform is too formal and Okay is too vague and doesn’t answer the question “What is happening?” when the user clicks the button."
     },
     {
       "title": "Standard button texts",
@@ -318,7 +318,7 @@
           "type": "rich-text",
           "title": "Cancel and close",
           "tag": "H3",
-          "content": "It is important to avoid confusion for the user which button to click. The combination Cancel and Close is very similar. Instead, use Back as the secondary action when primary action is Cancel."
+          "content": "It is important to avoid confusion for the user which button to click. The combination \"Cancel\" and \"Close\" is very similar. Instead, use \"Back\" as the secondary action when primary action is \"Cancel\"."
         },
         {
           "type": "figma",
@@ -335,13 +335,13 @@
           "type": "rich-text",
           "title": "Do",
           "tag": "H3",
-          "content": "*   Answer the question “What is happening?” or “What do I get?”.\n    \n*   Use commands or requests in the button.\n    \n*   Use _Back_ as secondary action in modals where primary actions is _Cancel_."
+          "content": "*   Answer the question “What is happening?” or “What do I get?”.\n    \n*   Use commands or requests in the button.\n    \n*   Use \"Back\" as secondary action in modals where primary actions is \"Cancel\"."
         },
         {
           "type": "rich-text",
           "title": "Don't",
           "tag": "H3",
-          "content": "*   Avoid the formal _Perform (Utför)_ and the vague _Okay (Okej)_.\n    \n*   Do not use primary and secondary button text that is too similar to each other."
+          "content": "*   Avoid the formal \"Perform (Utför)\" and the vague \"Okay (Okej)\".\n    \n*   Do not use primary and secondary button text that is too similar to each other."
         },
         {
           "type": "figma",
