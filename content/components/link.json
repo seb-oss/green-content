@@ -187,7 +187,15 @@
           "type": "dont",
           "dontlist": [
             {
-              "text": "Unfortunately, this feature does not work in the browser Internet Explorer. Here you can read about the browsers we recommend. Unfortunately, this feature does not work in the browser Internet Explorer. Here you can read about the browsers we recommend."
+              "text": "Unfortunately, this feature does not work in the browser Internet Explorer. Here you can read about the browsers we recommend. (Here you can read about the browsers we recommend. needs to look like a link)"
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Unfortunately, this feature does not work in the browser Internet Explorer. Here you can read about the browsers we recommend. (this whole senteche needs to look as a link)"
             }
           ]
         }
