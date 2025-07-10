@@ -139,19 +139,30 @@
           "type": "do",
           "dolist": [
             {
-              "text": "Start saving for your pension"
+              "text": "Start saving for your pension (This needs to be formatted as links)"
             },
             {
-              "text": "Read more about mortgages"
+              "text": "Read more about mortgages (This needs to be formatted as links)"
             },
             {
-              "text": "Become a corporate customer"
+              "text": "Become a corporate customer (This needs to be formatted as links)"
             },
             {
-              "text": "Log in and invest "
+              "text": "Log in and invest (This needs to be formatted as links)"
             },
             {
-              "text": "Read more and apply for a mortgage"
+              "text": "Read more and apply for a mortgage (This needs to be formatted as links)"
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Click here or Click here (These needs to be formatted as links)"
+            },
+            {
+              "text": " Click here for more information about mortgage"
             }
           ]
         }
