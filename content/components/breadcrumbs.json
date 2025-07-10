@@ -3,6 +3,7 @@
   "slug": "breadcrumbs",
   "hero_snippet": "hero-breadcrumb",
   "beta": true,
+  "soon": false,
   "summary": "A breadcrumb is a secondary navigation showing the website hierarchy.",
   "preamble": "We use breadcrumbs to display site hierarchy (rather than navigation path) and to increase findability of parent pages.\n\nBreadcrumbs help users navigate upward in the hierarchy and typically help with back-movement also. They also help with context when navigation is otherwise out of sight (for example in a mobile view).\n\nBreadcrumbs have been proven to reduce bounce rates for search-users, when they are able to quickly find related pages.",
   "anatomy": true,
@@ -47,6 +48,7 @@
           "type": "snippet",
           "caption": "Breadcrumb in desktop",
           "plain": false,
+          "replay": false,
           "Snippet": "hero-breadcrumb"
         }
       ]
@@ -60,6 +62,7 @@
           "type": "snippet",
           "caption": "Simplified breadcrumbs",
           "plain": false,
+          "replay": false,
           "Snippet": "breadcrumbs-mobile"
         }
       ]
@@ -73,6 +76,7 @@
           "type": "snippet",
           "caption": "Breadcrumbs with custom overflow",
           "plain": false,
+          "replay": false,
           "Snippet": "breadcrumbs-overflow"
         }
       ]
@@ -80,19 +84,23 @@
   ],
   "ux-text": [
     {
-      "title": "desktop",
-      "section-content": "The breadcrumb should be the same as the heading, or if lacking of heading the menu title, on the page it represent. The last breadcrumb is the page you are currently on. If the heading is very long and we have decided to make it shorter in the menu title then use the menu title as the breadcrumb title."
+      "title": "Writing UX text for breadcrums",
+      "tag": "H2",
+      "section-content": "The breadcrumb label should match the page heading. If there’s no heading, use the menu title that represents the page. If the heading is long and a shorter menu title is already used, use the shorter version in the breadcrumb. It’s important that you use keywords that represent the page."
     },
     {
-      "title": "Breadcrumb Guidelines",
-      "section-content": "Default breadcrumbs on desktop\n\n*   The breadcrumb should match the page's heading.\n    \n*   If there is no heading, use the menu title.\n    \n*   The last breadcrumb represents the current page.\n    \n*   If the heading is very long and shortened in the menu title, use the menu title as the breadcrumb."
+      "title": "Be clear and simple",
+      "tag": "H3",
+      "section-content": "*   Use plain, recognisable words – avoid internal terms or jargon.\n    \n*   Keep each breadcrumb label short – ideally one to three words."
     },
     {
       "title": "Web page mobile",
+      "tag": "H3",
       "section-content": "In mobile views, only the previous page's heading is displayed as the breadcrumb."
     },
     {
       "title": "The apps (native)",
+      "tag": "H3",
       "section-content": "In our apps, we have the same pattern for breadcrumbs as for the mobile view. But, since each page typically features a navbar with a title there may not be enough space for a long text like the previous heading. In such cases, use \"Back\" instead. If there is no room for even the word \"Back,\" display only the back arrow. Ensure that TalkBack/VoiceOver reads the previous page's title for accessibility."
     }
   ],
