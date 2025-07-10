@@ -220,10 +220,6 @@
       "section-content": "Avoid using a button and a link in the same message. Space is limited, and mixing actions can confuse the customer. Instead, decide what the main message is. If the customer needs more information before taking action, guide them to that first – with a link – and then present the action later."
     },
     {
-      "title": "Alert types and writing guidelines",
-      "tag": "H2"
-    },
-    {
       "title": "Information alert",
       "tag": "H3",
       "section-content": "Use information alerts to inform customers about things like new features, updates, or proactive advice.\n\nAn information alert can include:\n\n*   **Information:** A brief message about a new feature or event, or a helpful tip\n    \n*   **Instruction:** What the customer should do next, or a required step"
