@@ -179,7 +179,7 @@
           "type": "do",
           "dolist": [
             {
-              "text": "Unfortunately, this feature does not work in the browser Internet Explorer. Here you can read about the browsers we recommend. (\"browser recommended needs to be a link)"
+              "text": "Unfortunately, this feature does not work in the browser Internet Explorer. Here you can read about the browsers we recommend. (\"browser recommended needs to look like a link)"
             }
           ]
         },
