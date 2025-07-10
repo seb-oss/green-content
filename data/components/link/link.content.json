@@ -139,7 +139,19 @@
           "type": "do",
           "dolist": [
             {
-              "text": "Start saving for your pension Read more about mortgages Become a corporate customer Log in and invest Read more and apply for a mortgage"
+              "text": "Start saving for your pension"
+            },
+            {
+              "text": "Read more about mortgages"
+            },
+            {
+              "text": "Become a corporate customer"
+            },
+            {
+              "text": "Log in and invest "
+            },
+            {
+              "text": "Read more and apply for a mortgage"
             }
           ]
         }
