@@ -16,5 +16,12 @@
     "web": false,
     "ios": false,
     "android": false
-  }
+  },
+  "ux-text": [
+    {
+      "title": "Writing UX text for coach marks",
+      "tag": "H2",
+      "section-content": "Each coach mark should focus on just one tip and highlight only the most important part of the page. Keep the message short and to the point.\n\nThe button text should always be \"Close\", and if there’s a link, it should say \"Read more\"."
+    }
+  ]
 }
