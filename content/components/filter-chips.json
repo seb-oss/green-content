@@ -3,6 +3,7 @@
   "slug": "filter-chips",
   "hero_snippet": "hero-filter-chips",
   "beta": false,
+  "soon": false,
   "summary": "Filter chips allow users to narrow down the data they want to see on the page.",
   "preamble": "The filter chip lets users narrow down visible content by selecting or removing specific filters. It helps refine results without navigating away from the page.",
   "anatomy": true,
@@ -81,6 +82,46 @@
               "text": "Dont' place the filter options directly in the content area if there are too many categories or filters, use a slide-out modal instead."
             }
           ]
+        }
+      ]
+    }
+  ],
+  "ux-text": [
+    {
+      "title": "Writing UX text for filter chips",
+      "tag": "H2",
+      "section-content": "The filter chip text should be short. Use one word, if possible, but no more than three words. Write \"and (och)\" instead of the &-sign, since it's more accessible for the user. Aim at keeping the same text length for all filter chips – but only if it can be done without losing comprehensibility. Only use upper case in the first word, or if it is the first letter of proper names or abbreviations.\n\nSince chips mainly represent different types of filters, and the filters tell something about the element being filtered, it is usually best to use nouns.\n\n##### **Examples**\n\nIn English\n\n*   US-dollar, British Virgin Islands, Normal account, High risk, Global, Emerging markets, Equity funds, Biotechnology \n    \n\nIn Swedish\n\n*   US-dollar, Brittiska jungfruöarna, Fristående konto, Hög risk, Global, Tillväxtmarknader, Aktiefonder, Bioteknik\n    \n\nIf you are considering a verb, think about whether it would use buttons for actions or badges for representing e.g. status instead."
+    },
+    {
+      "title": "Do's and don'ts",
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use 1–3 words. Preferably, use nouns. Aim for the same text length for all filter chips in the same context."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Avoid the &-sign for and. Do not start each word with upper case. Do not mix word classes."
+            }
+          ]
+        },
+        {
+          "type": "rich-text",
+          "title": "Examples",
+          "tag": "H3",
+          "content": "Avoid the & sign. Instead, use _and_. Do not start each word with upper case:\n\n(Add do and don't example)"
+        },
+        {
+          "type": "rich-text",
+          "tag": "H3",
+          "content": "Do not mix word classes:\n\n(Add do and don't exmples)"
         }
       ]
     }
