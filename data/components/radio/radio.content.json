@@ -3,6 +3,7 @@
   "slug": "radio",
   "hero_snippet": "hero-radio",
   "beta": true,
+  "soon": false,
   "summary": "A radio button is a form element that allows users to select one of the predefined set of choices.",
   "preamble": "Radio buttons are commonly used in forms, surveys, and settings where users need to make a single selection from a list of options.\nThe benefit of using radio buttons over select is that users may easily scan the available options and make a quick selection",
   "anatomy": true,
@@ -223,6 +224,20 @@
           "node": "yes-no-2"
         }
       ]
+    },
+    {
+      "title": "Be consistent",
+      "tag": "H3",
+      "section-content": "Keep options consistent. Decide whether they should:\n\n*   Be full sentences and start with either a capital or lowercase letter\n    \n*   End with a full stop or not\n    \n*   Be a full sentence, a phrase, or a single word\n    \n\n(Add the do and don't example from seb.io)"
+    },
+    {
+      "title": "We ask the customers, they answer",
+      "tag": "H3",
+      "section-content": "Remember, the question is asked from our perspective, and the customer provides the answer. The label should be written in the “you” form, while the answer should be in the “I” form. However, this doesn’t mean you should always include I. Sometimes, it’s better to leave it out to avoid repetition and keep the text shorter.\n\n(Add the do and don't example from seb.io)"
+    },
+    {
+      "title": "Keep it simple",
+      "section-content": "Plain text is crucial. Customers must easily understand both the words and the context. Make sure the options cover all possible choices and are clear so everyone can fill in the form. If other options might apply, include an Other option with a space for the customer to explain.\n\n(Add the do example from seb.io)"
     }
   ],
   "accessibility": [
