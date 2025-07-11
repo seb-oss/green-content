@@ -184,8 +184,9 @@
   ],
   "ux-text": [
     {
-      "title": "Labels",
-      "section-content": "The same writing principles apply to labels for input fields, radio buttons, checkboxes, dropdowns, headings, page titles, navigation links, and other short texts.",
+      "title": "Writing UX text for radio buttons",
+      "tag": "H2",
+      "section-content": "### Labels\n\nThe same writing principles apply to labels for input fields, radio buttons, checkboxes, dropdowns, headings, page titles, navigation links, and other short texts.",
       "cols": "1",
       "columns": [
         {
@@ -198,18 +199,13 @@
           "type": "rich-text",
           "title": "Single words or full sentences",
           "tag": "H3",
-          "content": "Keep texts as short as possible. Labels can be single words or full sentences. In some cases, questions work best to prompt users for the right details, such as:\n\n*   What type of property is it?\n    \n*   How many adults will live in the new home?\n    \n*   How do you earn your main income?"
-        },
-        {
-          "type": "rich-text",
-          "title": "Capitalisation rules",
-          "tag": "H3",
-          "content": "Headings and labels should not have every word capitalised. Use capital letters only for:\n\n*   The first letter of the first word\n    \n*   Proper names\n    \n*   Abbreviations"
+          "content": "Keep texts as short as possible. Labels can be single words or full sentences. In some cases, questions work best to prompt users for the right details, such as:\n\n*   Which funds do you want to buy?\n    \n*   Is the company a financial institution?\n    \n*   How do you earn your main income?"
         }
       ]
     },
     {
-      "title": "Options",
+      "title": "Radio button options",
+      "tag": "H2",
       "section-content": "### When the answer is yes and no\n\nMatch the radio button options to the label. If the label is a yes or no question, the options should be Yes and No – nothing else.",
       "cols": "2",
       "columns": [
@@ -226,14 +222,14 @@
       ]
     },
     {
-      "title": "Be consistent",
-      "tag": "H3",
-      "section-content": "Keep options consistent. Decide whether they should:\n\n*   Be full sentences and start with either a capital or lowercase letter\n    \n*   End with a full stop or not\n    \n*   Be a full sentence, a phrase, or a single word\n    \n\n(Add the do and don't example from seb.io)"
-    },
-    {
       "title": "We ask the customers, they answer",
       "tag": "H3",
       "section-content": "Remember, the question is asked from our perspective, and the customer provides the answer. The label should be written in the “you” form, while the answer should be in the “I” form. However, this doesn’t mean you should always include I. Sometimes, it’s better to leave it out to avoid repetition and keep the text shorter.\n\n(Add the do and don't example from seb.io)"
+    },
+    {
+      "title": "Be consistent",
+      "tag": "H3",
+      "section-content": "Keep options consistent. Decide whether they should:\n\n*   Be full sentences and start with either a capital or lowercase letter\n    \n*   End with a full stop or not\n    \n*   Be a full sentence, a phrase, or a single word\n    \n\n(Add the do and don't example from seb.io)"
     },
     {
       "title": "Keep it simple",
