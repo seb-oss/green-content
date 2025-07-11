@@ -3,6 +3,7 @@
   "slug": "checkbox",
   "hero_snippet": "hero-checkbox",
   "beta": true,
+  "soon": false,
   "summary": "A checkbox is a form element that allows users to select one or multiple options.",
   "preamble": "Checkboxes are commonly used in forms, settings, and filters to allow users to indicate their preferences.\nThe checkboxes are typically grouped with a theme label above and the possible options below.",
   "anatomy": true,
@@ -359,7 +360,7 @@
     },
     {
       "title": "Multiple options",
-      "section-content": "Ensure the label and options match. Provide clear instructions so users know they can select multiple options. Decide on a consistent style for option labels:\n\nFull sentences starting with a capital letter and ending with a full stop.\n\nA continuous sentence starting with lowercase, with only the last option ending in a full stop.\n\nSingle words or short phrases with no full stop."
+      "section-content": "Ensure the label and options match. Provide clear instructions so users know they can select multiple options. Decide on a consistent style for option labels:\n\n*   Full sentences starting with a capital letter and ending with a full stop.\n    \n*   A continuous sentence starting with lowercase, with only the last option ending in a full stop.\n    \n*   Single words or short phrases with no full stop."
     },
     {
       "title": "Do",
