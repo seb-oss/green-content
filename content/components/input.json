@@ -279,12 +279,32 @@
   "ux-text": [
     {
       "title": "Input field default",
-      "tag": "H3",
+      "tag": "H2",
       "section-content": "Our default input field has the label outside the field. This input field includes all the features we need in complex forms, and therefore it’s the most common."
     },
     {
       "title": "Labels",
+      "tag": "H2",
       "section-content": "The same writing principles apply to labels for input fields, radio buttons, checkboxes, dropdowns, headings, page titles, navigation links, and other short texts."
+    },
+    {
+      "title": "Skip the verb in the label",
+      "tag": "H3",
+      "section-content": "You don’t need to use verbs such as \"Enter\", \"Fill in\", \"Write\", or \"Choose\" in the label. For instance it’s shorter and easier to read \"Recipient’s name\" instead of \"Fill in the recipient’s name\".",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Label support text",
+          "tag": "H3",
+          "content": "Use the label support text to explain the label more in detail. Use only if the label isn’t clear enough. Explain what the customer needs to know to fill in the field or understand the data displayed. Be brief."
+        },
+        {
+          "type": "figma",
+          "caption": "The label support text.",
+          "node": "label-support-text"
+        }
+      ]
     },
     {
       "title": "Single-word or complete sentence",
@@ -325,49 +345,9 @@
       ]
     },
     {
-      "title": "Skip the verb in the label",
-      "section-content": "You don’t need to use verbs such as Enter, Fill in, Write, or Choose in the label. For instance it’s shorter and easier to read Recipient’s name instead of Fill in the recipient’s name.",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Label support text",
-          "tag": "H3",
-          "content": "Use the label support text to explain the label more in detail. Use only if the label isn’t clear enough. Explain what the customer needs to know to fill in the field or understand the data displayed. Be brief."
-        },
-        {
-          "type": "figma",
-          "caption": "The label support text.",
-          "node": "label-support-text"
-        }
-      ]
-    },
-    {
-      "title": "Placeholder text",
-      "section-content": "Don’t use placeholder text. Since the placeholder text lies within the input field and disappears when the user starts entering text, it’s not very accessible. If the user needs information about how to fill in the field, use the label support text instead."
-    },
-    {
-      "title": "Fixed text within the field",
-      "section-content": "A general UX writing principle is to never hide important text or place it where it’s hard to read. It’s easier to read text in the label or label support text than text within the field. Therefore we avoid having fixed text in the field except when we ask for an amount, or if you use the floating label input."
-    },
-    {
-      "title": "Display the currency with a badge",
-      "section-content": "An exception to the rule is when we ask the customer to fill in an amount, then we don’t include the currency in the label. Instead, a badge inside the input field could display the currency, e.g., kr, EUR.\n\nIn most cases, we only ask for one currency per context, and users usually know which one it is. Therefore, a badge is enough to show the required currency. Remember that the abbreviated kr or EUR in the badge must be read as the full word, kronor or euro, by a screen reader.",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "figma",
-          "node": "no-kronor-eng"
-        },
-        {
-          "type": "figma",
-          "node": "no-kronor-swe"
-        }
-      ]
-    },
-    {
       "title": "Write the time period in the label",
-      "section-content": "Don’t put time periods like month or year in a badge. Instead, add them to the label. This information is important for the user to be able to fill in the field correctly, and should not be hidden in a small badge.",
+      "tag": "H3",
+      "section-content": "Don’t put time periods like month or year in a badge inside the field. Instead, add them to the label. This information is important for the user to be able to fill in the field correctly, and should not be hidden in a small badge.",
       "cols": "2",
       "columns": [
         {
@@ -387,6 +367,32 @@
           "node": "time-period-dont-swe"
         }
       ]
+    },
+    {
+      "title": "Avoid fixed text inside the field",
+      "tag": "H2",
+      "section-content": "A general UX writing principle is to never hide important text or place it where it’s hard to read. It’s easier to read text in the label or label support text than text within the field. Therefore we avoid having fixed text in the field except when we ask for an amount, or if you use the floating label input."
+    },
+    {
+      "title": "Display the currency with a badge",
+      "tag": "H3",
+      "section-content": "An exception to the rule is when we ask the customer to fill in an amount, then we don’t include the currency in the label. Instead, a badge inside the input field could display the currency, e.g., kr, EUR.\n\nIn most cases, we only ask for one currency per context, and users usually know which one it is. Therefore, a badge is enough to show the required currency. Remember that the abbreviated kr or EUR in the badge must be read as the full word, kronor or euro, by a screen reader.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "node": "no-kronor-eng"
+        },
+        {
+          "type": "figma",
+          "node": "no-kronor-swe"
+        }
+      ]
+    },
+    {
+      "title": "Placeholder text",
+      "tag": "H3",
+      "section-content": "Don’t use placeholder text. Since the placeholder text lies within the input field and disappears when the user starts entering text, it’s not very accessible. If the user needs information about how to fill in the field, use the label support text instead."
     },
     {
       "title": "Labels do’s and dont’s",
