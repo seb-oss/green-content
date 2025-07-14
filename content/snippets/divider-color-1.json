@@ -1,5 +1,0 @@
-{
-  "title": "Divider: color",
-  "slug": "divider-color",
-  "code": "<gds-flex flex-direction=\"column\" gap=\"s\" padding=\"xl\">\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"primary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"secondary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"tertiary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"negative\"></gds-divider>\n  </gds-card>\n</gds-flex>"
-}
