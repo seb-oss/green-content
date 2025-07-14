@@ -1,0 +1,5 @@
+{
+  "title": "Icon: Usage",
+  "slug": "icon-usage",
+  "code": "<gds-grid columns=\"4\" padding=\"2xl\" width=\"max-content\" margin=\"0 auto\" gap=\"xs\">\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-home-open solid size=\"l\"></gds-icon-home-open>\n    <gds-text>Hem</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-bag size=\"l\"></gds-icon-bag>\n    <gds-text>Portfölj</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-book size=\"l\"></gds-icon-book>\n    <gds-text>Ordrar</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-search-menu size=\"l\"></gds-icon-search-menu>\n    <gds-text>Marknad</gds-text>\n  </gds-flex>\n</gds-flex>"
+}
