@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-14T09:58:50.312Z",
+    "lastUpdated": "2025-07-14T09:59:37.533Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -817,19 +817,10 @@
             }
           },
           {
-            "title": "Divider: color",
-            "slug": "divider-color",
-            "path": "snippets/divider-color-1/divider-color-1.json",
-            "code": "<gds-flex flex-direction=\"column\" gap=\"s\" padding=\"xl\">\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"primary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"secondary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"tertiary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"negative\"></gds-divider>\n  </gds-card>\n</gds-flex>",
-            "endpoints": {
-              "content": "snippets/divider-color-1/divider-color-1.json"
-            }
-          },
-          {
             "title": "Divider: Color",
             "slug": "divider-color",
             "path": "snippets/divider-color/divider-color.json",
-            "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>",
+            "code": "<gds-flex flex-direction=\"column\" gap=\"s\" padding=\"xl\">\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"primary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"secondary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"tertiary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"negative\"></gds-divider>\n  </gds-card>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/divider-color/divider-color.json"
             }
