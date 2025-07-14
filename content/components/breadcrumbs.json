@@ -91,7 +91,7 @@
     {
       "title": "Be clear and simple",
       "tag": "H3",
-      "section-content": "*   Use plain, recognisable words – avoid internal terms or jargon.\n    \n*   Keep each breadcrumb label short – ideally one to three words."
+      "section-content": "*   Use plain, recognisable words – avoid internal terms or jargon.\n    \n*   Keep each breadcrumb label short – ideally one to three words.\n    \n*   Only capitalise the first letter and the first word (e.g. “Signed”, not “SIGNED” or \"Waiting For Signature\")."
     },
     {
       "title": "Breadcrumbs on mobile web",
