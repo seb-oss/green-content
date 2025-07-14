@@ -40,7 +40,7 @@
           "type": "rich-text",
           "title": "Spacing",
           "tag": "H3",
-          "content": "Spacing around the divider can be controlled using the `size` attribute. By changing the size it changes the spacing around the hr not hte visual representation of the line itelf."
+          "content": "Spacing around the divider can be controlled using the `size` attribute."
         },
         {
           "type": "snippet",
