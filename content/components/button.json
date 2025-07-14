@@ -247,6 +247,7 @@
   ],
   "ux-text": [
     {
+      "title": "Writing UX text for buttons",
       "section-content": "The button text should answer the question \"What is happening?\" when the user clicks it, but if the purpose of the button is to convert, it should answer the question \"What do I get?\"."
     },
     {
