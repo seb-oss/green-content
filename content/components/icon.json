@@ -34,7 +34,8 @@
       ]
     },
     {
-      "title": "Size"
+      "title": "Size",
+      "section-content": "Size is a shorthand for setting both width and height at once while retaining the aspect ratio of the icon."
     },
     {
       "title": "Color"
