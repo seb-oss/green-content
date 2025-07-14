@@ -241,6 +241,12 @@
       "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Show slide-out dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
     },
     {
+      "title": "Divider: color",
+      "slug": "divider-color",
+      "path": "snippets/divider-color-1/divider-color-1.json",
+      "code": "<gds-flex flex-direction=\"column\" gap=\"s\" padding=\"xl\">\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"primary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"secondary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"tertiary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"negative\"></gds-divider>\n  </gds-card>\n</gds-flex>"
+    },
+    {
       "title": "Divider: Color",
       "slug": "divider-color",
       "path": "snippets/divider-color/divider-color.json",
@@ -559,6 +565,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 93,
-  "lastUpdated": "2025-07-14T09:51:34.621Z"
+  "total": 94,
+  "lastUpdated": "2025-07-14T09:57:32.759Z"
 }

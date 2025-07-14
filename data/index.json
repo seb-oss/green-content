@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-14T09:51:34.620Z",
+    "lastUpdated": "2025-07-14T09:57:32.758Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -814,6 +814,15 @@
             "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Show slide-out dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
             "endpoints": {
               "content": "snippets/dialog-slideout/dialog-slideout.json"
+            }
+          },
+          {
+            "title": "Divider: color",
+            "slug": "divider-color",
+            "path": "snippets/divider-color-1/divider-color-1.json",
+            "code": "<gds-flex flex-direction=\"column\" gap=\"s\" padding=\"xl\">\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"primary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"secondary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"tertiary\"></gds-divider>\n  </gds-card>\n  <gds-card width=\"100%\" variant=\"secondary\">\n    <gds-divider color=\"negative\"></gds-divider>\n  </gds-card>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/divider-color-1/divider-color-1.json"
             }
           },
           {
