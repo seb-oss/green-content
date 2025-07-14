@@ -1,5 +1,0 @@
-{
-  "title": "Divider: size",
-  "slug": "divider-size",
-  "code": "<gds-flex flex-direction=\"column\" gap=\"xl\">\n  <gds-card variant=\"secondary\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 2xl</gds-text>\n      <gds-divider color=\"primary\" size=\"2xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card variant=\"secondary\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 4xl</gds-text>\n      <gds-divider color=\"secondary\" size=\"4xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card variant=\"tertiary\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 6xl</gds-text>\n      <gds-divider color=\"tertiary\" size=\"6xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n</gds-flex>"
-}
