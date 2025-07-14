@@ -186,9 +186,15 @@
     {
       "title": "Writing UX text for radio buttons",
       "tag": "H2",
-      "section-content": "### Labels\n\nThe same writing principles apply to labels for input fields, radio buttons, checkboxes, dropdowns, headings, page titles, navigation links, and other short texts.",
+      "section-content": "Keep options short, clear, and easy to scan. Make sure each choice is specific and stands on its own – users shouldn’t need extra context to understand what they’re selecting. The label above should explain what the user is choosing.",
       "cols": "1",
       "columns": [
+        {
+          "type": "rich-text",
+          "title": "Labels",
+          "tag": "H2",
+          "content": "The same writing principles apply to labels for input fields, radio buttons, checkboxes, dropdowns, headings, page titles, navigation links, and other short texts."
+        },
         {
           "type": "rich-text",
           "title": "Use clear and informative words",
