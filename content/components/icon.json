@@ -47,7 +47,17 @@
       ]
     },
     {
-      "title": "Color"
+      "title": "Color",
+      "section-content": "Icons inherit the text color by default and support all content color tokens.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "icon-color"
+        }
+      ]
     },
     {
       "title": "Central icon system",
