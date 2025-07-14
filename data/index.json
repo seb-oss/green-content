@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-14T09:57:32.758Z",
+    "lastUpdated": "2025-07-14T09:58:50.312Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -832,6 +832,15 @@
             "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>",
             "endpoints": {
               "content": "snippets/divider-color/divider-color.json"
+            }
+          },
+          {
+            "title": "Divider: size",
+            "slug": "divider-size",
+            "path": "snippets/divider-size/divider-size.json",
+            "code": "<gds-flex flex-direction=\"column\" gap=\"xl\">\n  <gds-card variant=\"secondary\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 2xl</gds-text>\n      <gds-divider color=\"primary\" size=\"2xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card variant=\"secondary\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 4xl</gds-text>\n      <gds-divider color=\"secondary\" size=\"4xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card variant=\"tertiary\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 6xl</gds-text>\n      <gds-divider color=\"tertiary\" size=\"6xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/divider-size/divider-size.json"
             }
           },
           {
