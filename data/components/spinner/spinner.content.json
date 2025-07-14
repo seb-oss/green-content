@@ -40,7 +40,7 @@
           "type": "rich-text",
           "title": "Avoid unnecessary detail",
           "tag": "H3",
-          "content": " Don’t over-explain what’s happening in the background – keep it brief and focused on what the user needs to know."
+          "content": "Don’t over-explain what’s happening in the background – keep it brief and focused on what the user needs to know."
         }
       ]
     }
