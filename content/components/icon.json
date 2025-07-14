@@ -3,6 +3,7 @@
   "slug": "icon",
   "hero_snippet": "hero-icon",
   "beta": true,
+  "soon": false,
   "summary": "An icon helps communicate meaning quickly, enhances visual hierarchy, and supports navigation or interaction.",
   "preamble": "An icon serves as a visual shorthand that helps users quickly recognize actions, states, or categories. Icons come in two styles - regular and solid - and can be sized and colored to match your design needs. \nIn Green, we use the Central Icon System by Iconist. These icons are designed on a 24x24 px grid with a 2 px safe area, resulting in a 20x20 px live area for optimal clarity and balance. But can be used in smaller sizes to fit the size of the text and component size.",
   "anatomy": false,
@@ -21,7 +22,16 @@
   "overview": [
     {
       "title": "Usage",
-      "section-content": "Central icons come in three weights, and Green uses a 1.5 px stroke width for consistency. They have 0% radius with a round join, ensuring a clean and modern look.\n\nIcons are available in regular and solid styles. The regular variant is our default, while the solid style is primarily used for selected states, such as highlighting the active menu item, to indicate “you are here.”\n\nWhen using icons, ensure they clearly communicate their purpose and maintain consistency across your interface to enhance user understanding."
+      "section-content": "Central icons come in three weights, and Green uses a 1.5 px stroke width for consistency. They have 0% radius with a round join, ensuring a clean and modern look.\n\nIcons are available in regular and solid styles. The regular variant is our default, while the solid style is primarily used for selected states, such as highlighting the active menu item, to indicate “you are here.”\n\nWhen using icons, ensure they clearly communicate their purpose and maintain consistency across your interface to enhance user understanding.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "icon-usage"
+        }
+      ]
     },
     {
       "title": "Size"
