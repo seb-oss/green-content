@@ -21,7 +21,22 @@
     {
       "title": "Writing UX text for coach marks",
       "tag": "H2",
-      "section-content": "Each coach mark should focus on just one tip and highlight only the most important part of the page. Keep the message short and to the point.\n\nThe button text should always be \"Close\", and if there’s a link, it should say \"Read more\".\n\n(Add an example with button and link)"
+      "section-content": "## Use informative words  \n\nThe heading should be clear and informative. Avoid information-poor words such as information, important, welcome, and regarding.  \n\n One message per coach mark, write short and to the point. If there is a lot to tell, write a short summary and give the user a read more link to find out more.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "The link text ",
+          "tag": "H3",
+          "content": "In general, we recommend using link text that is more informative than just “Read more”. Tell the user what they can expect when they click the link. If the link involves an action, use a verb in the active form to describe it.\n\n However, for coach marks, there isn’t enough space for lengthy link text, so we make an exception and simply use “Read more”."
+        },
+        {
+          "type": "rich-text",
+          "title": "The button text ",
+          "tag": "H3",
+          "content": "The button closes down the coach mark, and therefore we write “Close” in the button. \n\n(Add an example with button and link)"
+        }
+      ]
     }
   ]
 }
