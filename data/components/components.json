@@ -4,223 +4,260 @@
       "title": "Alert",
       "slug": "alert",
       "summary": "An alert displays important messages, feedback, or time-sensitive information.",
-      "path": "components/alert/alert.content.json"
+      "path": "components/alert/alert.content.json",
+      "ogImage": "components/alert/alert.og.png"
     },
     {
       "title": "Badge",
       "slug": "badge",
       "summary": "A compact visual indicator for status, counts and notifications.",
-      "path": "components/badge/badge.content.json"
+      "path": "components/badge/badge.content.json",
+      "ogImage": "components/badge/badge.og.png"
     },
     {
       "title": "Blur",
       "slug": "blur",
       "summary": "The Blur component is used to apply a blur effect over content, often used to obscure sensitive or background information.",
-      "path": "components/blur/blur.content.json"
+      "path": "components/blur/blur.content.json",
+      "ogImage": "components/blur/blur.og.png"
     },
     {
       "title": "Breadcrumbs",
       "slug": "breadcrumbs",
       "summary": "A breadcrumb is a secondary navigation showing the website hierarchy.",
-      "path": "components/breadcrumbs/breadcrumbs.content.json"
+      "path": "components/breadcrumbs/breadcrumbs.content.json",
+      "ogImage": "components/breadcrumbs/breadcrumbs.og.png"
     },
     {
       "title": "Button",
       "slug": "button",
       "summary": "A button can be tapped or clicked to perform an action.",
-      "path": "components/button/button.content.json"
+      "path": "components/button/button.content.json",
+      "ogImage": "components/button/button.og.png"
     },
     {
       "title": "Calendar",
       "slug": "calendar",
       "summary": "The calendar displays a grid of selectable dates.",
-      "path": "components/calendar/calendar.content.json"
+      "path": "components/calendar/calendar.content.json",
+      "ogImage": "components/calendar/calendar.og.png"
     },
     {
       "title": "Card",
       "slug": "card",
       "summary": "The card groups related content into a single container.",
-      "path": "components/card/card.content.json"
+      "path": "components/card/card.content.json",
+      "ogImage": "components/card/card.og.png"
     },
     {
       "title": "Checkbox",
       "slug": "checkbox",
       "summary": "A checkbox is a form element that allows users to select one or multiple options.",
-      "path": "components/checkbox/checkbox.content.json"
+      "path": "components/checkbox/checkbox.content.json",
+      "ogImage": "components/checkbox/checkbox.og.png"
     },
     {
       "title": "Coachmark",
       "slug": "coachmark",
       "summary": "Coachmarks guide users through interface features.",
-      "path": "components/coachmark/coachmark.content.json"
+      "path": "components/coachmark/coachmark.content.json",
+      "ogImage": "components/coachmark/coachmark.og.png"
     },
     {
       "title": "Context menu",
       "slug": "context-menu",
       "summary": "A context menu displays a list of contextual actions.",
-      "path": "components/context-menu/context-menu.content.json"
+      "path": "components/context-menu/context-menu.content.json",
+      "ogImage": "components/context-menu/context-menu.og.png"
     },
     {
       "title": "Datepicker",
       "slug": "datepicker",
       "summary": "⁠The datepicker allows users to select a date.",
-      "path": "components/datepicker/datepicker.content.json"
+      "path": "components/datepicker/datepicker.content.json",
+      "ogImage": "components/datepicker/datepicker.og.png"
     },
     {
       "title": "Details",
       "slug": "details",
       "summary": "The details component is a collapsible section that helps organize and hide content until needed.",
-      "path": "components/details/details.content.json"
+      "path": "components/details/details.content.json",
+      "ogImage": "components/details/details.og.png"
     },
     {
       "title": "Dialog",
       "slug": "dialog",
       "summary": "⁠A dialog appears in front of content to provide critical information or ask for a decision.",
-      "path": "components/dialog/dialog.content.json"
+      "path": "components/dialog/dialog.content.json",
+      "ogImage": "components/dialog/dialog.og.png"
     },
     {
       "title": "Div",
       "slug": "div",
       "summary": "Div is a base element in the declarative layout system.",
-      "path": "components/div/div.content.json"
+      "path": "components/div/div.content.json",
+      "ogImage": "components/div/div.og.png"
     },
     {
       "title": "Divider",
       "slug": "divider",
       "summary": "Divider creates visual and semantic separation between content.",
-      "path": "components/divider/divider.content.json"
+      "path": "components/divider/divider.content.json",
+      "ogImage": "components/divider/divider.og.png"
     },
     {
       "title": "Dropdown",
       "slug": "dropdown",
       "summary": "A dropdown enables the user to choose one or multiple options from a list.",
-      "path": "components/dropdown/dropdown.content.json"
+      "path": "components/dropdown/dropdown.content.json",
+      "ogImage": "components/dropdown/dropdown.og.png"
     },
     {
       "title": "FAB",
       "slug": "fab",
       "summary": "Floating action button persists across screens for constant access to features that needs to be accessible at all times.",
-      "path": "components/fab/fab.content.json"
+      "path": "components/fab/fab.content.json",
+      "ogImage": "components/fab/fab.og.png"
     },
     {
       "title": "Filter chips",
       "slug": "filter-chips",
       "summary": "Filter chips allow users to narrow down the data they want to see on the page.",
-      "path": "components/filter-chips/filter-chips.content.json"
+      "path": "components/filter-chips/filter-chips.content.json",
+      "ogImage": "components/filter-chips/filter-chips.og.png"
     },
     {
       "title": "Flex",
       "slug": "flex",
-      "path": "components/flex/flex.content.json"
+      "path": "components/flex/flex.content.json",
+      "ogImage": "components/flex/flex.og.png"
     },
     {
       "title": "Form summary",
       "slug": "form-summary",
       "summary": "Form summary shows all form errors in one place.",
-      "path": "components/form-summary/form-summary.content.json"
+      "path": "components/form-summary/form-summary.content.json",
+      "ogImage": "components/form-summary/form-summary.og.png"
     },
     {
       "title": "Grid",
       "slug": "grid",
       "summary": "The grid is a custom element that provides a flexible grid system.",
-      "path": "components/grid/grid.content.json"
+      "path": "components/grid/grid.content.json",
+      "ogImage": "components/grid/grid.og.png"
     },
     {
       "title": "Icon",
       "slug": "icon",
       "summary": "An icon helps communicate meaning quickly, enhances visual hierarchy, and supports navigation or interaction.",
-      "path": "components/icon/icon.content.json"
+      "path": "components/icon/icon.content.json",
+      "ogImage": "components/icon/icon.og.png"
     },
     {
       "title": "Image",
       "slug": "image",
       "summary": "An image displays media with configurable dimensions and styling properties.",
-      "path": "components/image/image.content.json"
+      "path": "components/image/image.content.json",
+      "ogImage": "components/image/image.og.png"
     },
     {
       "title": "Input",
       "slug": "input",
       "summary": "An input lets users enter and edit text or numerical values in forms.",
-      "path": "components/input/input.content.json"
+      "path": "components/input/input.content.json",
+      "ogImage": "components/input/input.og.png"
     },
     {
       "title": "Link",
       "slug": "link",
       "summary": "A link navigates users to other pages or sections of content.",
-      "path": "components/link/link.content.json"
+      "path": "components/link/link.content.json",
+      "ogImage": "components/link/link.og.png"
     },
     {
       "title": "Menu button",
       "slug": "menu-button",
       "summary": "A menu button combines button and link behaviors for navigation menus.",
-      "path": "components/menu-button/menu-button.content.json"
+      "path": "components/menu-button/menu-button.content.json",
+      "ogImage": "components/menu-button/menu-button.og.png"
     },
     {
       "title": "Popover",
       "slug": "popover",
       "summary": "A popover is a temporary view that appears above other content.",
-      "path": "components/popover/popover.content.json"
+      "path": "components/popover/popover.content.json",
+      "ogImage": "components/popover/popover.og.png"
     },
     {
       "title": "Radio",
       "slug": "radio",
       "summary": "A radio button is a form element that allows users to select one of the predefined set of choices.",
-      "path": "components/radio/radio.content.json"
+      "path": "components/radio/radio.content.json",
+      "ogImage": "components/radio/radio.og.png"
     },
     {
       "title": "Rich text",
       "slug": "rich-text",
       "summary": "Rich text can be used to wrap generic HTML content and apply typography styles.",
-      "path": "components/rich-text/rich-text.content.json"
+      "path": "components/rich-text/rich-text.content.json",
+      "ogImage": "components/rich-text/rich-text.og.png"
     },
     {
       "title": "Segmented control",
       "slug": "segmented-control",
       "summary": "Segmented control allows users to select a single option, immediately changing the display to reflect their selection. It is used for switching views or view options, not for navigation.",
-      "path": "components/segmented-control/segmented-control.content.json"
+      "path": "components/segmented-control/segmented-control.content.json",
+      "ogImage": "components/segmented-control/segmented-control.og.png"
     },
     {
       "title": "Select",
       "slug": "select",
       "summary": "A select enables the user to choose one or multiple options from a list.",
-      "path": "components/select/select.content.json"
+      "path": "components/select/select.content.json",
+      "ogImage": "components/select/select.og.png"
     },
     {
       "title": "Signal",
       "slug": "signal",
       "summary": "A signal draws attention to notifications and new content.",
-      "path": "components/signal/signal.content.json"
+      "path": "components/signal/signal.content.json",
+      "ogImage": "components/signal/signal.og.png"
     },
     {
       "title": "Spinner",
       "slug": "spinner",
-      "path": "components/spinner/spinner.content.json"
+      "path": "components/spinner/spinner.content.json",
+      "ogImage": "components/spinner/spinner.og.png"
     },
     {
       "title": "Text",
       "slug": "text",
       "summary": "Text summary",
-      "path": "components/text/text.content.json"
+      "path": "components/text/text.content.json",
+      "ogImage": "components/text/text.og.png"
     },
     {
       "title": "Textarea",
       "slug": "textarea",
       "summary": "Textarea allow users to input text and digits on multiple lines.",
-      "path": "components/textarea/textarea.content.json"
+      "path": "components/textarea/textarea.content.json",
+      "ogImage": "components/textarea/textarea.og.png"
     },
     {
       "title": "Theme",
       "slug": "theme",
       "summary": "Theme summary",
-      "path": "components/theme/theme.content.json"
+      "path": "components/theme/theme.content.json",
+      "ogImage": "components/theme/theme.og.png"
     },
     {
       "title": "Video",
       "slug": "video",
       "summary": "Video summary",
-      "path": "components/video/video.content.json"
+      "path": "components/video/video.content.json",
+      "ogImage": "components/video/video.og.png"
     }
   ],
   "total": 37,
-  "lastUpdated": "2025-07-14T12:51:25.278Z"
+  "lastUpdated": "2025-07-15T12:40:00.102Z"
 }

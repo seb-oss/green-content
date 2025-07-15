@@ -1,11 +1,111 @@
 {
-  "total": 11,
-  "success": 7,
+  "total": 143,
+  "success": 143,
   "files": [
+    {
+      "type": "Component",
+      "name": "Alert",
+      "path": "components/alert/alert.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Badge",
+      "path": "components/badge/badge.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Blur",
+      "path": "components/blur/blur.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Breadcrumbs",
+      "path": "components/breadcrumbs/breadcrumbs.og.png"
+    },
     {
       "type": "Component",
       "name": "Button",
       "path": "components/button/button.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Calendar",
+      "path": "components/calendar/calendar.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Card",
+      "path": "components/card/card.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Checkbox",
+      "path": "components/checkbox/checkbox.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Coachmark",
+      "path": "components/coachmark/coachmark.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Context menu",
+      "path": "components/context-menu/context-menu.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Datepicker",
+      "path": "components/datepicker/datepicker.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Details",
+      "path": "components/details/details.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Dialog",
+      "path": "components/dialog/dialog.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Div",
+      "path": "components/div/div.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Divider",
+      "path": "components/divider/divider.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Dropdown",
+      "path": "components/dropdown/dropdown.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "FAB",
+      "path": "components/fab/fab.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Filter chips",
+      "path": "components/filter-chips/filter-chips.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Flex",
+      "path": "components/flex/flex.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Form summary",
+      "path": "components/form-summary/form-summary.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Grid",
+      "path": "components/grid/grid.og.png"
     },
     {
       "type": "Component",
@@ -14,8 +114,88 @@
     },
     {
       "type": "Component",
+      "name": "Image",
+      "path": "components/image/image.og.png"
+    },
+    {
+      "type": "Component",
       "name": "Input",
       "path": "components/input/input.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Link",
+      "path": "components/link/link.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Menu button",
+      "path": "components/menu-button/menu-button.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Popover",
+      "path": "components/popover/popover.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Radio",
+      "path": "components/radio/radio.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Rich text",
+      "path": "components/rich-text/rich-text.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Segmented control",
+      "path": "components/segmented-control/segmented-control.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Select",
+      "path": "components/select/select.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Signal",
+      "path": "components/signal/signal.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Spinner",
+      "path": "components/spinner/spinner.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Text",
+      "path": "components/text/text.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Textarea",
+      "path": "components/textarea/textarea.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Theme",
+      "path": "components/theme/theme.og.png"
+    },
+    {
+      "type": "Component",
+      "name": "Video",
+      "path": "components/video/video.og.png"
+    },
+    {
+      "type": "Page",
+      "name": "About",
+      "path": "pages/about/about.og.png"
+    },
+    {
+      "type": "Page",
+      "name": "Accessibility",
+      "path": "pages/accessibility/accessibility.og.png"
     },
     {
       "type": "Page",
@@ -24,8 +204,98 @@
     },
     {
       "type": "Page",
-      "name": "UX Writing",
+      "name": "UX writing",
       "path": "pages/ux-writing/ux-writing.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Alert: Action",
+      "path": "snippets/alert-action/alert-action.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Alert: Dissmisible",
+      "path": "snippets/alert-dismissible/alert-dismissible.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Alert: Information",
+      "path": "snippets/alert-information/alert-information.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Alert: Negative",
+      "path": "snippets/alert-negative-variant/alert-negative-variant.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Alert: Notice",
+      "path": "snippets/alert-notice/alert-notice.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Alert: Positive",
+      "path": "snippets/alert-positive/alert-positive.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Alert: Negative",
+      "path": "snippets/alert-variants/alert-variants.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Alert: Warning",
+      "path": "snippets/alert-warning/alert-warning.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Badge: Lead",
+      "path": "snippets/badge-lead/badge-lead.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Badge: Notification",
+      "path": "snippets/badge-notification/badge-notification.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Badge: Rounded",
+      "path": "snippets/badge-rounded/badge-rounded.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Badge: Size",
+      "path": "snippets/badge-size/badge-size.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Badge: Trail",
+      "path": "snippets/badge-trail/badge-trail.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Badge: UX common EN",
+      "path": "snippets/badge-ux-common-en/badge-ux-common-en.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Badge: UX common SV",
+      "path": "snippets/badge-ux-common-sv/badge-ux-common-sv.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Badge: Variants",
+      "path": "snippets/badge-variants/badge-variants.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Breadcrumbs: Mobile",
+      "path": "snippets/breadcrumbs-mobile/breadcrumbs-mobile.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Breadcrumbs: overflow",
+      "path": "snippets/breadcrumbs-overflow/breadcrumbs-overflow.og.png"
     },
     {
       "type": "Snippet",
@@ -34,8 +304,418 @@
     },
     {
       "type": "Snippet",
+      "name": "Button: back",
+      "path": "snippets/button-back/button-back.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: back secondary",
+      "path": "snippets/button-back-secondary/button-back-secondary.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: Brand",
+      "path": "snippets/button-brand/button-brand.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: icon button negative",
+      "path": "snippets/button-icon-button-negative/button-icon-button-negative.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: icon button neutral",
+      "path": "snippets/button-icon-button-neutral/button-icon-button-neutral.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: icon button positive",
+      "path": "snippets/button-icon-button-positive/button-icon-button-positive.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: negative",
+      "path": "snippets/button-negative/button-negative.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: neutral",
+      "path": "snippets/button-neutral-2/button-neutral-2.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: next",
+      "path": "snippets/button-next/button-next.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: positive",
+      "path": "snippets/button-positive/button-positive.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: neutral",
+      "path": "snippets/button-ranks/button-ranks.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: size large",
+      "path": "snippets/button-size-large/button-size-large.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: size medium",
+      "path": "snippets/button-size-medium/button-size-medium.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Button: size small",
+      "path": "snippets/button-size-small/button-size-small.og.png"
+    },
+    {
+      "type": "Snippet",
       "name": "Second example",
       "path": "snippets/button-two/button-two.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Card: brand 01",
+      "path": "snippets/card-brand-01/card-brand-01.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Card: Brand 02",
+      "path": "snippets/card-brand-02/card-brand-02.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Card: grey",
+      "path": "snippets/card-grey/card-grey.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Card: grey image",
+      "path": "snippets/card-grey-image/card-grey-image.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Card: grey image rounded",
+      "path": "snippets/card-grey-image-rounded/card-grey-image-rounded.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Card: link",
+      "path": "snippets/card-link/card-link.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Card: white",
+      "path": "snippets/card-white/card-white.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Datepicker: Size Large",
+      "path": "snippets/datepicker-large/datepicker-large.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Datepicker: Size small",
+      "path": "snippets/datepicker-small/datepicker-small.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Details: Size large",
+      "path": "snippets/details-large/details-large.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Details: Size small",
+      "path": "snippets/details-small/details-small.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Dialog: Regular",
+      "path": "snippets/dialog-regular/dialog-regular.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Dialog: slide-out",
+      "path": "snippets/dialog-slideout/dialog-slideout.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Divider: Color",
+      "path": "snippets/divider-color/divider-color.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Divider: color",
+      "path": "snippets/divider-color-1/divider-color-1.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Divider: size",
+      "path": "snippets/divider-size/divider-size.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Divider: Spacing",
+      "path": "snippets/divider-spacing/divider-spacing.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "FAB: With label",
+      "path": "snippets/fab-label/fab-label.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "FAB: Regular",
+      "path": "snippets/fab-regular/fab-regular.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Alert",
+      "path": "snippets/hero-alert/hero-alert.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Badge",
+      "path": "snippets/hero-badge/hero-badge.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Blur",
+      "path": "snippets/hero-blur/hero-blur.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Breadcrumb",
+      "path": "snippets/hero-breadcrumb/hero-breadcrumb.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Button",
+      "path": "snippets/hero-button/hero-button.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Calendar",
+      "path": "snippets/hero-calendar/hero-calendar.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Card",
+      "path": "snippets/hero-card/hero-card.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Checkbox",
+      "path": "snippets/hero-checkbox/hero-checkbox.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Coachmark",
+      "path": "snippets/hero-coachmark/hero-coachmark.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Context menu",
+      "path": "snippets/hero-context-menu/hero-context-menu.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Datepicker",
+      "path": "snippets/hero-datepicker/hero-datepicker.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Details",
+      "path": "snippets/hero-details/hero-details.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Dialog",
+      "path": "snippets/hero-dialog/hero-dialog.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Div",
+      "path": "snippets/hero-div/hero-div.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Divider",
+      "path": "snippets/hero-divider/hero-divider.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Dropdown",
+      "path": "snippets/hero-dropdown/hero-dropdown.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: FAB",
+      "path": "snippets/hero-fab/hero-fab.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Filter chips",
+      "path": "snippets/hero-filter-chips/hero-filter-chips.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Flex",
+      "path": "snippets/hero-flex/hero-flex.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Form summary",
+      "path": "snippets/hero-form-summary/hero-form-summary.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Grid",
+      "path": "snippets/hero-grid/hero-grid.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Home",
+      "path": "snippets/hero-home/hero-home.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Icon",
+      "path": "snippets/hero-icon/hero-icon.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Image",
+      "path": "snippets/hero-image/hero-image.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Input",
+      "path": "snippets/hero-input/hero-input.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Link",
+      "path": "snippets/hero-link/hero-link.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Menu button",
+      "path": "snippets/hero-menu-button/hero-menu-button.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Popover",
+      "path": "snippets/hero-popover/hero-popover.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Radio",
+      "path": "snippets/hero-radio/hero-radio.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Rich text",
+      "path": "snippets/hero-rich-text/hero-rich-text.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Segmented control",
+      "path": "snippets/hero-segmented-control/hero-segmented-control.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Select",
+      "path": "snippets/hero-select/hero-select.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Signal",
+      "path": "snippets/hero-signal/hero-signal.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Spinner",
+      "path": "snippets/hero-spinner/hero-spinner.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Text",
+      "path": "snippets/hero-text/hero-text.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Textarea",
+      "path": "snippets/hero-textarea/hero-textarea.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Theme",
+      "path": "snippets/hero-theme/hero-theme.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Hero: Video",
+      "path": "snippets/hero-video/hero-video.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Icon: color",
+      "path": "snippets/icon-color/icon-color.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Icon: size",
+      "path": "snippets/icon-size/icon-size.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Icon: Usage",
+      "path": "snippets/icon-usage/icon-usage.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Link: Leading",
+      "path": "snippets/link-leading/link-leading.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Link: Text decoration",
+      "path": "snippets/link-text-decoration/link-text-decoration.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Link: Trailing",
+      "path": "snippets/link-trailing/link-trailing.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Segmented control: Icons",
+      "path": "snippets/segmented-control-icons/segmented-control-icons.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Segmented control: overflow",
+      "path": "snippets/segmented-control-overflow/segmented-control-overflow.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Segmented control: size default ",
+      "path": "snippets/segmented-control-size-default/segmented-control-size-default.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Segmented control: size small",
+      "path": "snippets/segmented-control-size-small/segmented-control-size-small.og.png"
+    },
+    {
+      "type": "Snippet",
+      "name": "Signal: Example",
+      "path": "snippets/signal-example/signal-example.og.png"
     }
   ]
 }
