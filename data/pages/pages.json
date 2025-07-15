@@ -4,31 +4,27 @@
       "title": "About",
       "slug": "about",
       "summary": "Green Design System is the design system for Skandinaviska Enskilda Banken to make it easier and faster to build beautiful digital products and experiences under the SEB brand.",
-      "path": "pages/about/about.json",
-      "ogImage": "pages/about/about.og.png"
+      "path": "pages/about/about.json"
     },
     {
       "title": "Accessibility",
       "slug": "accessibility",
       "summary": "Accessibility is a essential part of our digital experience. Approximately 20% of people experience permanent, temporary, or situational difficulties when using websites that lack accessible design. By creating an inclusive environment, we make our services easier to use for everyone — improving clarity, usability, and overall experience.",
-      "path": "pages/accessibility/accessibility.json",
-      "ogImage": "pages/accessibility/accessibility.og.png"
+      "path": "pages/accessibility/accessibility.json"
     },
     {
       "title": "Foundation",
       "slug": "foundation",
       "summary": "Green Design System, a framework designed to bring unity, efficiency, and coherent perspective to our digital experiences. Over time it will grow and evolve but always reflect our design philosophy. User needs first, being forefront and with confidence.",
-      "path": "pages/foundation/foundation.json",
-      "ogImage": "pages/foundation/foundation.og.png"
+      "path": "pages/foundation/foundation.json"
     },
     {
       "title": "UX writing",
       "slug": "ux-writing",
       "summary": "Regardless of where, when or how the customer meets us, the experience of SEB must be the same because each meeting contributes to how we are perceived. A positive customer experience opens the door to new business. This is particularly important in texts aimed at customers. Mistakes affect the reader's concentration on the content and understanding of the text. Because our texts are correct, our credibility with customers and other visitors (=potential customers) increases.",
-      "path": "pages/ux-writing/ux-writing.json",
-      "ogImage": "pages/ux-writing/ux-writing.og.png"
+      "path": "pages/ux-writing/ux-writing.json"
     }
   ],
   "total": 4,
-  "lastUpdated": "2025-07-15T12:40:00.102Z"
+  "lastUpdated": "2025-07-15T12:49:31.804Z"
 }

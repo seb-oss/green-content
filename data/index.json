@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-07-15T12:40:00.101Z",
+    "lastUpdated": "2025-07-15T12:49:31.803Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -23,8 +23,7 @@
             "endpoints": {
               "content": "components/alert/alert.content.json",
               "images": "components/alert/alert.images.json"
-            },
-            "ogImage": "components/alert/alert.og.png"
+            }
           },
           {
             "title": "Badge",
@@ -34,8 +33,7 @@
             "endpoints": {
               "content": "components/badge/badge.content.json",
               "images": "components/badge/badge.images.json"
-            },
-            "ogImage": "components/badge/badge.og.png"
+            }
           },
           {
             "title": "Blur",
@@ -45,8 +43,7 @@
             "endpoints": {
               "content": "components/blur/blur.content.json",
               "images": "components/blur/blur.images.json"
-            },
-            "ogImage": "components/blur/blur.og.png"
+            }
           },
           {
             "title": "Breadcrumbs",
@@ -56,8 +53,7 @@
             "endpoints": {
               "content": "components/breadcrumbs/breadcrumbs.content.json",
               "images": "components/breadcrumbs/breadcrumbs.images.json"
-            },
-            "ogImage": "components/breadcrumbs/breadcrumbs.og.png"
+            }
           },
           {
             "title": "Button",
@@ -67,8 +63,7 @@
             "endpoints": {
               "content": "components/button/button.content.json",
               "images": "components/button/button.images.json"
-            },
-            "ogImage": "components/button/button.og.png"
+            }
           },
           {
             "title": "Calendar",
@@ -78,8 +73,7 @@
             "endpoints": {
               "content": "components/calendar/calendar.content.json",
               "images": "components/calendar/calendar.images.json"
-            },
-            "ogImage": "components/calendar/calendar.og.png"
+            }
           },
           {
             "title": "Card",
@@ -89,8 +83,7 @@
             "endpoints": {
               "content": "components/card/card.content.json",
               "images": "components/card/card.images.json"
-            },
-            "ogImage": "components/card/card.og.png"
+            }
           },
           {
             "title": "Checkbox",
@@ -100,8 +93,7 @@
             "endpoints": {
               "content": "components/checkbox/checkbox.content.json",
               "images": "components/checkbox/checkbox.images.json"
-            },
-            "ogImage": "components/checkbox/checkbox.og.png"
+            }
           },
           {
             "title": "Coachmark",
@@ -111,8 +103,7 @@
             "endpoints": {
               "content": "components/coachmark/coachmark.content.json",
               "images": "components/coachmark/coachmark.images.json"
-            },
-            "ogImage": "components/coachmark/coachmark.og.png"
+            }
           },
           {
             "title": "Context menu",
@@ -122,8 +113,7 @@
             "endpoints": {
               "content": "components/context-menu/context-menu.content.json",
               "images": "components/context-menu/context-menu.images.json"
-            },
-            "ogImage": "components/context-menu/context-menu.og.png"
+            }
           },
           {
             "title": "Datepicker",
@@ -133,8 +123,7 @@
             "endpoints": {
               "content": "components/datepicker/datepicker.content.json",
               "images": "components/datepicker/datepicker.images.json"
-            },
-            "ogImage": "components/datepicker/datepicker.og.png"
+            }
           },
           {
             "title": "Details",
@@ -144,8 +133,7 @@
             "endpoints": {
               "content": "components/details/details.content.json",
               "images": "components/details/details.images.json"
-            },
-            "ogImage": "components/details/details.og.png"
+            }
           },
           {
             "title": "Dialog",
@@ -155,8 +143,7 @@
             "endpoints": {
               "content": "components/dialog/dialog.content.json",
               "images": "components/dialog/dialog.images.json"
-            },
-            "ogImage": "components/dialog/dialog.og.png"
+            }
           },
           {
             "title": "Div",
@@ -166,8 +153,7 @@
             "endpoints": {
               "content": "components/div/div.content.json",
               "images": "components/div/div.images.json"
-            },
-            "ogImage": "components/div/div.og.png"
+            }
           },
           {
             "title": "Divider",
@@ -177,8 +163,7 @@
             "endpoints": {
               "content": "components/divider/divider.content.json",
               "images": "components/divider/divider.images.json"
-            },
-            "ogImage": "components/divider/divider.og.png"
+            }
           },
           {
             "title": "Dropdown",
@@ -188,8 +173,7 @@
             "endpoints": {
               "content": "components/dropdown/dropdown.content.json",
               "images": "components/dropdown/dropdown.images.json"
-            },
-            "ogImage": "components/dropdown/dropdown.og.png"
+            }
           },
           {
             "title": "FAB",
@@ -199,8 +183,7 @@
             "endpoints": {
               "content": "components/fab/fab.content.json",
               "images": "components/fab/fab.images.json"
-            },
-            "ogImage": "components/fab/fab.og.png"
+            }
           },
           {
             "title": "Filter chips",
@@ -210,8 +193,7 @@
             "endpoints": {
               "content": "components/filter-chips/filter-chips.content.json",
               "images": "components/filter-chips/filter-chips.images.json"
-            },
-            "ogImage": "components/filter-chips/filter-chips.og.png"
+            }
           },
           {
             "title": "Flex",
@@ -220,8 +202,7 @@
             "endpoints": {
               "content": "components/flex/flex.content.json",
               "images": "components/flex/flex.images.json"
-            },
-            "ogImage": "components/flex/flex.og.png"
+            }
           },
           {
             "title": "Form summary",
@@ -231,8 +212,7 @@
             "endpoints": {
               "content": "components/form-summary/form-summary.content.json",
               "images": "components/form-summary/form-summary.images.json"
-            },
-            "ogImage": "components/form-summary/form-summary.og.png"
+            }
           },
           {
             "title": "Grid",
@@ -242,8 +222,7 @@
             "endpoints": {
               "content": "components/grid/grid.content.json",
               "images": "components/grid/grid.images.json"
-            },
-            "ogImage": "components/grid/grid.og.png"
+            }
           },
           {
             "title": "Icon",
@@ -253,8 +232,7 @@
             "endpoints": {
               "content": "components/icon/icon.content.json",
               "images": "components/icon/icon.images.json"
-            },
-            "ogImage": "components/icon/icon.og.png"
+            }
           },
           {
             "title": "Image",
@@ -264,8 +242,7 @@
             "endpoints": {
               "content": "components/image/image.content.json",
               "images": "components/image/image.images.json"
-            },
-            "ogImage": "components/image/image.og.png"
+            }
           },
           {
             "title": "Input",
@@ -275,8 +252,7 @@
             "endpoints": {
               "content": "components/input/input.content.json",
               "images": "components/input/input.images.json"
-            },
-            "ogImage": "components/input/input.og.png"
+            }
           },
           {
             "title": "Link",
@@ -286,8 +262,7 @@
             "endpoints": {
               "content": "components/link/link.content.json",
               "images": "components/link/link.images.json"
-            },
-            "ogImage": "components/link/link.og.png"
+            }
           },
           {
             "title": "Menu button",
@@ -297,8 +272,7 @@
             "endpoints": {
               "content": "components/menu-button/menu-button.content.json",
               "images": "components/menu-button/menu-button.images.json"
-            },
-            "ogImage": "components/menu-button/menu-button.og.png"
+            }
           },
           {
             "title": "Popover",
@@ -308,8 +282,7 @@
             "endpoints": {
               "content": "components/popover/popover.content.json",
               "images": "components/popover/popover.images.json"
-            },
-            "ogImage": "components/popover/popover.og.png"
+            }
           },
           {
             "title": "Radio",
@@ -319,8 +292,7 @@
             "endpoints": {
               "content": "components/radio/radio.content.json",
               "images": "components/radio/radio.images.json"
-            },
-            "ogImage": "components/radio/radio.og.png"
+            }
           },
           {
             "title": "Rich text",
@@ -330,8 +302,7 @@
             "endpoints": {
               "content": "components/rich-text/rich-text.content.json",
               "images": "components/rich-text/rich-text.images.json"
-            },
-            "ogImage": "components/rich-text/rich-text.og.png"
+            }
           },
           {
             "title": "Segmented control",
@@ -341,8 +312,7 @@
             "endpoints": {
               "content": "components/segmented-control/segmented-control.content.json",
               "images": "components/segmented-control/segmented-control.images.json"
-            },
-            "ogImage": "components/segmented-control/segmented-control.og.png"
+            }
           },
           {
             "title": "Select",
@@ -352,8 +322,7 @@
             "endpoints": {
               "content": "components/select/select.content.json",
               "images": "components/select/select.images.json"
-            },
-            "ogImage": "components/select/select.og.png"
+            }
           },
           {
             "title": "Signal",
@@ -363,8 +332,7 @@
             "endpoints": {
               "content": "components/signal/signal.content.json",
               "images": "components/signal/signal.images.json"
-            },
-            "ogImage": "components/signal/signal.og.png"
+            }
           },
           {
             "title": "Spinner",
@@ -373,8 +341,7 @@
             "endpoints": {
               "content": "components/spinner/spinner.content.json",
               "images": "components/spinner/spinner.images.json"
-            },
-            "ogImage": "components/spinner/spinner.og.png"
+            }
           },
           {
             "title": "Text",
@@ -384,8 +351,7 @@
             "endpoints": {
               "content": "components/text/text.content.json",
               "images": "components/text/text.images.json"
-            },
-            "ogImage": "components/text/text.og.png"
+            }
           },
           {
             "title": "Textarea",
@@ -395,8 +361,7 @@
             "endpoints": {
               "content": "components/textarea/textarea.content.json",
               "images": "components/textarea/textarea.images.json"
-            },
-            "ogImage": "components/textarea/textarea.og.png"
+            }
           },
           {
             "title": "Theme",
@@ -406,8 +371,7 @@
             "endpoints": {
               "content": "components/theme/theme.content.json",
               "images": "components/theme/theme.images.json"
-            },
-            "ogImage": "components/theme/theme.og.png"
+            }
           },
           {
             "title": "Video",
@@ -417,8 +381,7 @@
             "endpoints": {
               "content": "components/video/video.content.json",
               "images": "components/video/video.images.json"
-            },
-            "ogImage": "components/video/video.og.png"
+            }
           }
         ]
       },
@@ -459,8 +422,7 @@
             "path": "pages/about/about.json",
             "endpoints": {
               "content": "pages/about/about.json"
-            },
-            "ogImage": "pages/about/about.og.png"
+            }
           },
           {
             "title": "Accessibility",
@@ -469,8 +431,7 @@
             "path": "pages/accessibility/accessibility.json",
             "endpoints": {
               "content": "pages/accessibility/accessibility.json"
-            },
-            "ogImage": "pages/accessibility/accessibility.og.png"
+            }
           },
           {
             "title": "Foundation",
@@ -479,8 +440,7 @@
             "path": "pages/foundation/foundation.json",
             "endpoints": {
               "content": "pages/foundation/foundation.json"
-            },
-            "ogImage": "pages/foundation/foundation.og.png"
+            }
           },
           {
             "title": "UX writing",
@@ -489,8 +449,7 @@
             "path": "pages/ux-writing/ux-writing.json",
             "endpoints": {
               "content": "pages/ux-writing/ux-writing.json"
-            },
-            "ogImage": "pages/ux-writing/ux-writing.og.png"
+            }
           }
         ]
       },
@@ -504,8 +463,7 @@
             "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n  <strong>Actionable</strong> Alert with a button for quick user interaction.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-action/alert-action.json"
-            },
-            "ogImage": "snippets/alert-action/alert-action.og.png"
+            }
           },
           {
             "title": "Alert: Dissmisible",
@@ -514,8 +472,7 @@
             "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" dismissible>\n  <strong>Dismissible</strong> User can dismiss this alert.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-dismissible/alert-dismissible.json"
-            },
-            "ogImage": "snippets/alert-dismissible/alert-dismissible.og.png"
+            }
           },
           {
             "title": "Alert: Information",
@@ -524,8 +481,7 @@
             "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\">\n  <strong>Information</strong> Body text starts on the same row as\n  heading.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-information/alert-information.json"
-            },
-            "ogImage": "snippets/alert-information/alert-information.og.png"
+            }
           },
           {
             "title": "Alert: Negative",
@@ -534,8 +490,7 @@
             "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"negative\" role=\"alert\">\n  <strong>Negative</strong> Error message requiring user attention.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-negative-variant/alert-negative-variant.json"
-            },
-            "ogImage": "snippets/alert-negative-variant/alert-negative-variant.og.png"
+            }
           },
           {
             "title": "Alert: Notice",
@@ -544,8 +499,7 @@
             "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"notice\" role=\"alert\">\n  <strong>Notice</strong> Body text with link or additional context.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-notice/alert-notice.json"
-            },
-            "ogImage": "snippets/alert-notice/alert-notice.og.png"
+            }
           },
           {
             "title": "Alert: Positive",
@@ -554,8 +508,7 @@
             "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-positive/alert-positive.json"
-            },
-            "ogImage": "snippets/alert-positive/alert-positive.og.png"
+            }
           },
           {
             "title": "Alert: Warning",
@@ -564,8 +517,7 @@
             "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-warning/alert-warning.json"
-            },
-            "ogImage": "snippets/alert-warning/alert-warning.og.png"
+            }
           },
           {
             "title": "Badge: Lead",
@@ -574,8 +526,7 @@
             "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    <gds-icon-rocket slot=\"lead\"></gds-icon-rocket>\n    Launched\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-triangle-exclamation slot=\"lead\">\n    </gds-icon-triangle-exclamation>\n    Overdue\n  </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/badge-lead/badge-lead.json"
-            },
-            "ogImage": "snippets/badge-lead/badge-lead.og.png"
+            }
           },
           {
             "title": "Badge: Notification",
@@ -584,8 +535,7 @@
             "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge variant=\"negative\" notification=\"\"></gds-badge>\n  <gds-badge variant=\"negative\" notification=\"\">9</gds-badge>\n  <gds-badge variant=\"negative\" notification=\"\">99+</gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/badge-notification/badge-notification.json"
-            },
-            "ogImage": "snippets/badge-notification/badge-notification.og.png"
+            }
           },
           {
             "title": "Badge: Rounded",
@@ -594,8 +544,7 @@
             "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge rounded=\"\" variant=\"information\"> 01 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"notice\"> 02 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"positive\"> 03 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"warning\"> 04 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\"> 05 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\" disabled=\"\"> 06 </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/badge-rounded/badge-rounded.json"
-            },
-            "ogImage": "snippets/badge-rounded/badge-rounded.og.png"
+            }
           },
           {
             "title": "Badge: Size",
@@ -604,8 +553,7 @@
             "code": "<gds-flex align-items=\"center\" gap=\"4xl\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"positive\" size=\"small\">\n    240\n  </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/badge-size/badge-size.json"
-            },
-            "ogImage": "snippets/badge-size/badge-size.og.png"
+            }
           },
           {
             "title": "Badge: Trail",
@@ -614,8 +562,7 @@
             "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    10,000.00\n    <gds-icon-arrow-right-up-circle slot=\"trail\"></gds-icon-arrow-right-up-circle>\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    142.00\n    <gds-icon-arrow-right-down-circle slot=\"trail\"></gds-icon-arrow-right-down-circle>\n  </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/badge-trail/badge-trail.json"
-            },
-            "ogImage": "snippets/badge-trail/badge-trail.og.png"
+            }
           },
           {
             "title": "Badge: UX common EN",
@@ -624,8 +571,7 @@
             "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\" padding=\"2xl xl\">\n  <gds-badge variant=\"positive\">Signed</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for signature</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for other's signature</gds-badge>\n  <gds-badge>Expired</gds-badge>\n  <gds-badge>Closed</gds-badge>\n  <gds-badge variant=\"negative\">Removed</gds-badge>\n</gds-flex>\n",
             "endpoints": {
               "content": "snippets/badge-ux-common-en/badge-ux-common-en.json"
-            },
-            "ogImage": "snippets/badge-ux-common-en/badge-ux-common-en.og.png"
+            }
           },
           {
             "title": "Badge: UX common SV",
@@ -634,8 +580,7 @@
             "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\" padding=\"2xl xl\">\n  <gds-badge variant=\"positive\">Signerat</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa signatur</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa annans signatur</gds-badge>\n  <gds-badge>Förfallet</gds-badge>\n  <gds-badge>Avslutad</gds-badge>\n  <gds-badge variant=\"negative\">Borttaget</gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/badge-ux-common-sv/badge-ux-common-sv.json"
-            },
-            "ogImage": "snippets/badge-ux-common-sv/badge-ux-common-sv.og.png"
+            }
           },
           {
             "title": "Badge: Variants",
@@ -644,8 +589,7 @@
             "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"notice\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Notice\n  </gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge variant=\"warning\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Warning\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-triangle-exclamation slot=\"lead\"></gds-icon-triangle-exclamation>\n    Negative\n  </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/badge-variants/badge-variants.json"
-            },
-            "ogImage": "snippets/badge-variants/badge-variants.og.png"
+            }
           },
           {
             "title": "Breadcrumbs: Mobile",
@@ -654,8 +598,7 @@
             "code": "<gds-breadcrumbs size=\"small\" width=\"100px\">\n  <gds-link href=\"/\">\n    <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n    Green\n  </gds-link>\n  <gds-link href=\"/folder\">\n    <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n    Folder\n  </gds-link>\n  <gds-text> Current </gds-text>\n</gds-breadcrumbs>",
             "endpoints": {
               "content": "snippets/breadcrumbs-mobile/breadcrumbs-mobile.json"
-            },
-            "ogImage": "snippets/breadcrumbs-mobile/breadcrumbs-mobile.og.png"
+            }
           },
           {
             "title": "Breadcrumbs: overflow",
@@ -664,8 +607,7 @@
             "code": "<gds-flex width=\"80%\" align-items=\"center\" justify-content=\"center\">\n  <div>\n    <gds-breadcrumbs width=\"100%\" size=\"small\">\n      <gds-link href=\"#\">\n        <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n        Home\n      </gds-link>\n      <gds-link href=\"#\">\n        <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n        Documents\n      </gds-link>\n      <gds-button rank=\"tertiary\" size=\"xs\">\n        <gds-icon-dot-grid-one-horizontal size=\"s\"></gds-icon-dot-grid-one-horizontal>\n      </gds-button>\n      <gds-link href=\"#\">\n        <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n        Settings\n      </gds-link>\n      <gds-text> Current page </gds-text>\n    </gds-breadcrumbs>\n  </div>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/breadcrumbs-overflow/breadcrumbs-overflow.json"
-            },
-            "ogImage": "snippets/breadcrumbs-overflow/breadcrumbs-overflow.og.png"
+            }
           },
           {
             "title": "Button: back secondary",
@@ -674,8 +616,7 @@
             "code": "<gds-button width=\"max-content\" rank=\"secondary\">\n  <gds-icon-arrow-left slot=\"lead\"></gds-icon-arrow-left>\n  Back \n</gds-button>",
             "endpoints": {
               "content": "snippets/button-back-secondary/button-back-secondary.json"
-            },
-            "ogImage": "snippets/button-back-secondary/button-back-secondary.og.png"
+            }
           },
           {
             "title": "Button: back",
@@ -684,8 +625,7 @@
             "code": "<gds-button width=\"max-content\">\n  <gds-icon-arrow-left slot=\"lead\"></gds-icon-arrow-left>\n  Back \n</gds-button>",
             "endpoints": {
               "content": "snippets/button-back/button-back.json"
-            },
-            "ogImage": "snippets/button-back/button-back.og.png"
+            }
           },
           {
             "title": "Button: Brand",
@@ -694,8 +634,7 @@
             "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"brand\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"brand\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"brand\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-brand/button-brand.json"
-            },
-            "ogImage": "snippets/button-brand/button-brand.og.png"
+            }
           },
           {
             "title": "Button: icon button negative",
@@ -704,8 +643,7 @@
             "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"negative\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"negative\" rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"negative\" rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-icon-button-negative/button-icon-button-negative.json"
-            },
-            "ogImage": "snippets/button-icon-button-negative/button-icon-button-negative.og.png"
+            }
           },
           {
             "title": "Button: icon button neutral",
@@ -714,8 +652,7 @@
             "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-icon-button-neutral/button-icon-button-neutral.json"
-            },
-            "ogImage": "snippets/button-icon-button-neutral/button-icon-button-neutral.og.png"
+            }
           },
           {
             "title": "Button: icon button positive",
@@ -724,8 +661,7 @@
             "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"positive\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"positive\" rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"positive\" rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-icon-button-positive/button-icon-button-positive.json"
-            },
-            "ogImage": "snippets/button-icon-button-positive/button-icon-button-positive.og.png"
+            }
           },
           {
             "title": "Button: negative",
@@ -734,8 +670,7 @@
             "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"negative\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"negative\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"negative\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-negative/button-negative.json"
-            },
-            "ogImage": "snippets/button-negative/button-negative.og.png"
+            }
           },
           {
             "title": "Button: neutral",
@@ -744,8 +679,7 @@
             "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-neutral-2/button-neutral-2.json"
-            },
-            "ogImage": "snippets/button-neutral-2/button-neutral-2.og.png"
+            }
           },
           {
             "title": "Button: next",
@@ -754,8 +688,7 @@
             "code": "<gds-button width=\"max-content\">\n  Next \n  <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n</gds-button>",
             "endpoints": {
               "content": "snippets/button-next/button-next.json"
-            },
-            "ogImage": "snippets/button-next/button-next.og.png"
+            }
           },
           {
             "title": "Button: positive",
@@ -764,8 +697,7 @@
             "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"positive\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"positive\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"positive\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-positive/button-positive.json"
-            },
-            "ogImage": "snippets/button-positive/button-positive.og.png"
+            }
           },
           {
             "title": "Button: size large",
@@ -774,8 +706,7 @@
             "code": "<gds-button width=\"max-content\" size=\"large\">\n  Large\n</gds-button>",
             "endpoints": {
               "content": "snippets/button-size-large/button-size-large.json"
-            },
-            "ogImage": "snippets/button-size-large/button-size-large.og.png"
+            }
           },
           {
             "title": "Button: size medium",
@@ -784,8 +715,7 @@
             "code": "<gds-button width=\"max-content\">\n  Medium\n</gds-button>",
             "endpoints": {
               "content": "snippets/button-size-medium/button-size-medium.json"
-            },
-            "ogImage": "snippets/button-size-medium/button-size-medium.og.png"
+            }
           },
           {
             "title": "Button: size small",
@@ -794,8 +724,7 @@
             "code": "<gds-button width=\"max-content\" size=\"small\">\n  Small\n</gds-button>",
             "endpoints": {
               "content": "snippets/button-size-small/button-size-small.json"
-            },
-            "ogImage": "snippets/button-size-small/button-size-small.og.png"
+            }
           },
           {
             "title": "Card: brand 01",
@@ -804,8 +733,7 @@
             "code": "<gds-flex padding=\"s 0\">\n  <gds-card width=\"300px\" variant=\"brand-01\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n      Ta ett aktivt beslut i hängmattan. På riktigt.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Börja spara\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/card-brand-01/card-brand-01.json"
-            },
-            "ogImage": "snippets/card-brand-01/card-brand-01.og.png"
+            }
           },
           {
             "title": "Card: Brand 02",
@@ -814,8 +742,7 @@
             "code": "<gds-flex padding=\"s 0\">\n  <gds-card width=\"300px\" variant=\"brand-02\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n  Nu öppnar vi portarna till sydeuropeiska och schweiziska aktier.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Handla värdepapper\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/card-brand-02/card-brand-02.json"
-            },
-            "ogImage": "snippets/card-brand-02/card-brand-02.og.png"
+            }
           },
           {
             "title": "Card: grey",
@@ -824,8 +751,7 @@
             "code": "<gds-flex gap=\"xl\" flex-wrap=\"no-wrap\" padding=\"xl\">\n  <gds-flex flex-direction=\"column\" gap=\"xl\" max-width=\"300px\">\n    <gds-card padding=\"0\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om\n            ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-flex gap=\"s\">\n          <gds-button>\n            Flytta bolån\n          </gds-button>\n        </gds-flex>\n    </gds-card>\n    <gds-card padding=\"0\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om\n            ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-link href=\"#\">\n          Flytta bolån\n          <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n        </gds-link>\n    </gds-card>\n  </gds-flex>\n  <gds-card padding=\"xs\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\" max-width=\"300px\"\n    height=\"max-content\">\n    <gds-img src=\"https://api.seb.io/components/image/img.jpg\" border-radius=\"xs\"></gds-img>\n    <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n      <gds-flex flex-direction=\"column\" gap=\"s\">\n        <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n          Flytta ditt bolån till oss\n        </gds-text>\n        <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n          Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett\n          lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n        </gds-text>\n      </gds-flex>\n      <gds-button>\n        Flytta bolån\n      </gds-button>\n  </gds-card>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/card-grey/card-grey.json"
-            },
-            "ogImage": "snippets/card-grey/card-grey.og.png"
+            }
           },
           {
             "title": "Card: white",
@@ -834,28 +760,25 @@
             "code": "<gds-flex gap=\"xl\" flex-wrap=\"no-wrap\" padding=\"xl\">\n  <gds-flex flex-direction=\"column\" gap=\"xl\" max-width=\"300px\">\n    <gds-card padding=\"0\" variant=\"secondary\" overflow=\"hidden\" border-color=\"subtle-01\" border-width=\"4xs\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\" lines=\"2\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-flex gap=\"s\">\n          <gds-button>\n            Flytta bolån\n          </gds-button>\n        </gds-flex>\n    </gds-card>\n    <gds-card padding=\"0\" variant=\"secondary\" overflow=\"hidden\" border-color=\"subtle-01\" border-width=\"4xs\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-link href=\"#\">\n          Flytta bolån\n          <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n        </gds-link>\n    </gds-card>\n  </gds-flex>\n  <gds-card padding=\"xs\" variant=\"secondary\" overflow=\"hidden\" border-color=\"subtle-01\" border-width=\"4xs\" gap=\"0\" color=\"primary\" max-width=\"300px\" height=\"max-content\">\n    <gds-img src=\"https://api.seb.io/components/image/img.jpg\" border-radius=\"xs\"></gds-img>\n    <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n      <gds-flex flex-direction=\"column\" gap=\"s\">\n        <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n          Flytta ditt bolån till oss\n        </gds-text>\n        <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n          Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n        </gds-text>\n      </gds-flex>\n      <gds-button>\n        Flytta bolån\n      </gds-button>\n  </gds-card>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/card-white/card-white.json"
-            },
-            "ogImage": "snippets/card-white/card-white.og.png"
+            }
           },
           {
             "title": "Datepicker: Size Large",
             "slug": "datepicker-large",
             "path": "snippets/datepicker-large/datepicker-large.json",
-            "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers></gds-datepicker>\n</gds-flex>",
+            "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers dateformat=\"d-m-y\"></gds-datepicker>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/datepicker-large/datepicker-large.json"
-            },
-            "ogImage": "snippets/datepicker-large/datepicker-large.og.png"
+            }
           },
           {
             "title": "Datepicker: Size small",
             "slug": "datepicker-small",
             "path": "snippets/datepicker-small/datepicker-small.json",
-            "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers size=\"small\"></gds-datepicker>\n</gds-flex>",
+            "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers size=\"small\" dateformat=\"d-m-y\"></gds-datepicker>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/datepicker-small/datepicker-small.json"
-            },
-            "ogImage": "snippets/datepicker-small/datepicker-small.og.png"
+            }
           },
           {
             "title": "Details: Size large",
@@ -864,8 +787,7 @@
             "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/details-large/details-large.json"
-            },
-            "ogImage": "snippets/details-large/details-large.og.png"
+            }
           },
           {
             "title": "Details: Size small",
@@ -874,8 +796,7 @@
             "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/details-small/details-small.json"
-            },
-            "ogImage": "snippets/details-small/details-small.og.png"
+            }
           },
           {
             "title": "Dialog: Regular",
@@ -884,8 +805,7 @@
             "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Show regular dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
             "endpoints": {
               "content": "snippets/dialog-regular/dialog-regular.json"
-            },
-            "ogImage": "snippets/dialog-regular/dialog-regular.og.png"
+            }
           },
           {
             "title": "Dialog: slide-out",
@@ -894,8 +814,7 @@
             "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Show slide-out dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
             "endpoints": {
               "content": "snippets/dialog-slideout/dialog-slideout.json"
-            },
-            "ogImage": "snippets/dialog-slideout/dialog-slideout.og.png"
+            }
           },
           {
             "title": "Divider: Color",
@@ -904,8 +823,7 @@
             "code": "<gds-flex flex-direction=\"column\" gap=\"xs\" width=\"100%\" padding=\"2xl\">\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text>Primary</gds-text>\n      <gds-divider color=\"primary\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text>Secondary</gds-text>\n      <gds-divider color=\"secondary\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card variant=\"tertiary\" border=\"none\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text>Tertiary</gds-text>\n      <gds-divider color=\"tertiary\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text>Negative</gds-text>\n      <gds-divider color=\"negative\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n</gds-flex>\n",
             "endpoints": {
               "content": "snippets/divider-color/divider-color.json"
-            },
-            "ogImage": "snippets/divider-color/divider-color.og.png"
+            }
           },
           {
             "title": "Divider: Spacing",
@@ -914,8 +832,7 @@
             "code": "<gds-flex flex-direction=\"column\" gap=\"xs\" width=\"100%\" padding=\"2xl\">\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 2xl</gds-text>\n      <gds-divider color=\"primary\" size=\"2xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 4xl</gds-text>\n      <gds-divider color=\"primary\" size=\"4xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 6xl</gds-text>\n      <gds-divider color=\"primary\" size=\"6xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n</gds-flex>\n",
             "endpoints": {
               "content": "snippets/divider-spacing/divider-spacing.json"
-            },
-            "ogImage": "snippets/divider-spacing/divider-spacing.og.png"
+            }
           },
           {
             "title": "FAB: With label",
@@ -924,8 +841,7 @@
             "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-plus-large slot=\"lead\"></gds-icon-plus-large>\n    Add item\n  </gds-fab>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/fab-label/fab-label.json"
-            },
-            "ogImage": "snippets/fab-label/fab-label.og.png"
+            }
           },
           {
             "title": "FAB: Regular",
@@ -934,8 +850,7 @@
             "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-plus-large></gds-icon-plus-large>\n  </gds-fab>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/fab-regular/fab-regular.json"
-            },
-            "ogImage": "snippets/fab-regular/fab-regular.og.png"
+            }
           },
           {
             "title": "Hero: Alert",
@@ -944,8 +859,7 @@
             "code": "<gds-flex width=\"280px\" display=\"block\">\n<gds-alert label=\"Positive\" button-label=\"Action\">\n  Feedback message\n</gds-alert>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-alert/hero-alert.json"
-            },
-            "ogImage": "snippets/hero-alert/hero-alert.og.png"
+            }
           },
           {
             "title": "Hero: Badge",
@@ -954,8 +868,7 @@
             "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-badge variant=\"negative\" notification>999+</gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge size=\"small\" variant=\"warning\"> 602 </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-badge/hero-badge.json"
-            },
-            "ogImage": "snippets/hero-badge/hero-badge.og.png"
+            }
           },
           {
             "title": "Hero: Blur",
@@ -964,8 +877,7 @@
             "code": "<gds-blur>\n  <gds-text>Blurred content</gds-text>\n</gds-blur>",
             "endpoints": {
               "content": "snippets/hero-blur/hero-blur.json"
-            },
-            "ogImage": "snippets/hero-blur/hero-blur.og.png"
+            }
           },
           {
             "title": "Hero: Breadcrumb",
@@ -974,8 +886,7 @@
             "code": "<div>\n  <gds-breadcrumbs size=\"small\">\n    <gds-link href=\"/\">\n      <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n      Green\n    </gds-link>\n    <gds-link href=\"/folder\">\n      <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n      Folder\n    </gds-link>\n    <gds-text> Current </gds-text>\n  </gds-breadcrumbs>\n</div>",
             "endpoints": {
               "content": "snippets/hero-breadcrumb/hero-breadcrumb.json"
-            },
-            "ogImage": "snippets/hero-breadcrumb/hero-breadcrumb.og.png"
+            }
           },
           {
             "title": "Hero: Button",
@@ -984,8 +895,7 @@
             "code": "<gds-flex gap=\"s\" align-items=\"center\">\n  <gds-button size=\"small\">Primary</gds-button>\n  <gds-button rank=\"secondary\" size=\"small\" variant=\"positive\">\n    <gds-icon-credit-card slot=\"lead\"></gds-icon-credit-card>\n    Secondary\n  </gds-button>\n  <gds-button size=\"small\" label=\"Next step 2\" rank=\"secondary\">\n    <gds-icon-arrow-right> </gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-button/hero-button.json"
-            },
-            "ogImage": "snippets/hero-button/hero-button.og.png"
+            }
           },
           {
             "title": "Hero: Calendar",
@@ -994,8 +904,7 @@
             "code": "<gds-flex overflow=\"hidden\" height=\"210px\">\n  <gds-calendar></gds-calendar>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-calendar/hero-calendar.json"
-            },
-            "ogImage": "snippets/hero-calendar/hero-calendar.og.png"
+            }
           },
           {
             "title": "Hero: Card",
@@ -1004,8 +913,7 @@
             "code": "<gds-flex gap=\"s\" align-items=\"center\">\n    <gds-card\n      variant=\"primary\"\n      border-color=\"primary\"\n      width=\"100px\"\n      height=\"80px\"\n      justify-content=\"flex-end\"\n      padding=\"s\"\n    >\n      Primary\n    </gds-card>\n    <gds-card\n      variant=\"secondary\"\n      border-color=\"secondary\"\n      width=\"100px\"\n      height=\"80px\"\n      justify-content=\"flex-end\"\n      padding=\"s\"\n    >\n      Secondary\n    </gds-card>\n    <gds-card\n      variant=\"tertiary\"\n      border-color=\"tertiary\"\n      width=\"100px\"\n      height=\"80px\"\n      justify-content=\"flex-end\"\n      padding=\"s\"\n    >\n      Tertiary\n    </gds-card>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-card/hero-card.json"
-            },
-            "ogImage": "snippets/hero-card/hero-card.og.png"
+            }
           },
           {
             "title": "Hero: Checkbox",
@@ -1014,8 +922,7 @@
             "code": "<gds-checkbox-group>\n  <gds-checkbox label=\"Checkbox 1\" value=\"1\"></gds-checkbox>\n  <gds-checkbox label=\"Checkbox 2\" value=\"2\" checked></gds-checkbox>\n  <gds-checkbox label=\"Checkbox 3\" value=\"3\"></gds-checkbox>\n</gds-checkbox-group>",
             "endpoints": {
               "content": "snippets/hero-checkbox/hero-checkbox.json"
-            },
-            "ogImage": "snippets/hero-checkbox/hero-checkbox.og.png"
+            }
           },
           {
             "title": "Hero: Coachmark",
@@ -1024,8 +931,7 @@
             "code": "<gds-flex>\n<gds-text tag=\"p\" >Coachmark</gds-text>\n<gds-coachmark placement=\"bottom\">\nCoachmark content.\n</gds-coachmark>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-coachmark/hero-coachmark.json"
-            },
-            "ogImage": "snippets/hero-coachmark/hero-coachmark.og.png"
+            }
           },
           {
             "title": "Hero: Context menu",
@@ -1034,18 +940,16 @@
             "code": "<gds-context-menu>\n  <gds-menu-item>\n    <gds-flex gap=\"s\" align-items=\"center\">\n      <gds-icon-ai></gds-icon-ai>\n      Help me write\n    </gds-flex>\n  </gds-menu-item>\n  <gds-menu-item>\n    <gds-flex gap=\"s\" align-items=\"center\">\n      <gds-icon-brush></gds-icon-brush>\n      Fix grammar\n    </gds-flex>\n  </gds-menu-item>\n</gds-context-menu>",
             "endpoints": {
               "content": "snippets/hero-context-menu/hero-context-menu.json"
-            },
-            "ogImage": "snippets/hero-context-menu/hero-context-menu.og.png"
+            }
           },
           {
             "title": "Hero: Datepicker",
             "slug": "hero-datepicker",
             "path": "snippets/hero-datepicker/hero-datepicker.json",
-            "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers></gds-datepicker>\n</gds-flex>",
+            "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers dateformat=\"d-m-y\"></gds-datepicker>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-datepicker/hero-datepicker.json"
-            },
-            "ogImage": "snippets/hero-datepicker/hero-datepicker.og.png"
+            }
           },
           {
             "title": "Hero: Details",
@@ -1054,8 +958,7 @@
             "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-details/hero-details.json"
-            },
-            "ogImage": "snippets/hero-details/hero-details.og.png"
+            }
           },
           {
             "title": "Hero: Dialog",
@@ -1064,8 +967,7 @@
             "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Open Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
             "endpoints": {
               "content": "snippets/hero-dialog/hero-dialog.json"
-            },
-            "ogImage": "snippets/hero-dialog/hero-dialog.og.png"
+            }
           },
           {
             "title": "Hero: Div",
@@ -1074,8 +976,7 @@
             "code": "<gds-flex align-items=\"center\" gap=\"s\">\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"primary\"\n  border-color=\"primary\"\n  border-width=\"xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl; l{ 6xl }\"\n  height=\"4xl; l{ 6xl }\"\n  background=\"secondary\"\n  border=\"4xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"tertiary\"\n  border-radius=\"s\"\n></gds-div>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-div/hero-div.json"
-            },
-            "ogImage": "snippets/hero-div/hero-div.og.png"
+            }
           },
           {
             "title": "Hero: Divider",
@@ -1084,8 +985,7 @@
             "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>",
             "endpoints": {
               "content": "snippets/hero-divider/hero-divider.json"
-            },
-            "ogImage": "snippets/hero-divider/hero-divider.og.png"
+            }
           },
           {
             "title": "Hero: Dropdown",
@@ -1094,8 +994,7 @@
             "code": "<gds-flex width=\"280px\">\n  <gds-dropdown label=\"Select tech\" hide-label>\n    <gds-option value=\"\">Select tech</gds-option>\n    <gds-option value=\"warp\">Warp Drive</gds-option>\n    <gds-option value=\"cybernetics\">Cybernetics</gds-option>\n    <gds-option value=\"nanotechnology\">Nanotechnology</gds-option>\n    <gds-option value=\"cloning\">Cloning</gds-option>\n    <gds-option value=\"cryonics\">Cryonics</gds-option>\n    <gds-option value=\"teleportation\">Teleportation</gds-option>\n  </gds-dropdown>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-dropdown/hero-dropdown.json"
-            },
-            "ogImage": "snippets/hero-dropdown/hero-dropdown.og.png"
+            }
           },
           {
             "title": "Hero: FAB",
@@ -1104,8 +1003,7 @@
             "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-bubbles slot=\"lead\"></gds-icon-bubbles>\n    Support \n  </gds-fab>\n    <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-bubbles></gds-icon-bubbles>\n  </gds-fab>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-fab/hero-fab.json"
-            },
-            "ogImage": "snippets/hero-fab/hero-fab.og.png"
+            }
           },
           {
             "title": "Hero: Filter chips",
@@ -1114,8 +1012,7 @@
             "code": "<gds-filter-chips\n  value=\"top-news\"\n  label=\"Pick news channel\"\n  row-collapse\n>\n  <gds-filter-chip value=\"all\">All</gds-filter-chip>\n  <gds-filter-chip value=\"top-news\">Top news</gds-filter-chip>\n  <gds-filter-chip value=\"division\">Division</gds-filter-chip>\n</gds-filter-chips>",
             "endpoints": {
               "content": "snippets/hero-filter-chips/hero-filter-chips.json"
-            },
-            "ogImage": "snippets/hero-filter-chips/hero-filter-chips.og.png"
+            }
           },
           {
             "title": "Hero: Flex",
@@ -1124,8 +1021,7 @@
             "code": "<gds-flex flex-direction=\"column\" gap=\"s\">\n  <gds-flex gap=\"s\" align-items=\"center\">\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\" border-color=\"primary\">\n      01\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\" border-color=\"primary\">\n      02\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"10px\" height=\"40px\" border-color=\"primary\">\n      03\n    </gds-card>\n  </gds-flex>\n  <gds-flex gap=\"s\" align-items=\"center\" justify-content=\"flex-end\">\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\" border-color=\"primary\">\n      04\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"10px\" height=\"40px\" border-color=\"primary\">\n      05\n    </gds-card>\n  </gds-flex>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-flex/hero-flex.json"
-            },
-            "ogImage": "snippets/hero-flex/hero-flex.og.png"
+            }
           },
           {
             "title": "Hero: Form summary",
@@ -1134,8 +1030,7 @@
             "code": "<form>\n  <gds-flex flex-direction=\"column\" gap=\"m\" align-items=\"center\" justify-content=\"center\" max-width=\"300px\">\n    <input\n      id=\"designation\"\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Designation\"\n      data-errormessage=\"A designation is required\"\n      required=\"\"\n      hidden\n    />\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>",
             "endpoints": {
               "content": "snippets/hero-form-summary/hero-form-summary.json"
-            },
-            "ogImage": "snippets/hero-form-summary/hero-form-summary.og.png"
+            }
           },
           {
             "title": "Hero: Grid",
@@ -1144,8 +1039,7 @@
             "code": "<gds-grid columns=\"12\" gap=\"xs\" width=\"280px\">\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"1/13\"\n    border-radius=\"xs\"\n    height=\"2xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Nav</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"1/5\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Sidebar</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"5/13\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Content</gds-text>\n  </gds-card>\n</gds-grid>",
             "endpoints": {
               "content": "snippets/hero-grid/hero-grid.json"
-            },
-            "ogImage": "snippets/hero-grid/hero-grid.og.png"
+            }
           },
           {
             "title": "Hero: Home",
@@ -1154,8 +1048,7 @@
             "code": "<gds-flex align-items=\"center\" justify-content=\"center\">\n<gds-badge variant=\"negative\" notification=\"\">10+</gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-home/hero-home.json"
-            },
-            "ogImage": "snippets/hero-home/hero-home.og.png"
+            }
           },
           {
             "title": "Hero: Icon",
@@ -1164,8 +1057,7 @@
             "code": "<gds-flex alig-items=\"center\" gap=\"m\">\n  <gds-icon-ai size=\"xl\"></gds-icon-ai>\n  <gds-icon-bank size=\"xl\"></gds-icon-bank>\n  <gds-icon-rocket size=\"xl\"></gds-icon-rocket>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-icon/hero-icon.json"
-            },
-            "ogImage": "snippets/hero-icon/hero-icon.og.png"
+            }
           },
           {
             "title": "Hero: Image",
@@ -1174,8 +1066,7 @@
             "code": "<gds-img width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://api.seb.io/components/image/img.jpg\"></gds-img>",
             "endpoints": {
               "content": "snippets/hero-image/hero-image.json"
-            },
-            "ogImage": "snippets/hero-image/hero-image.og.png"
+            }
           },
           {
             "title": "Hero: Input",
@@ -1184,8 +1075,7 @@
             "code": "<gds-flex width=\"280px\">\n  <gds-input plain>\n    <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n  </gds-input>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-input/hero-input.json"
-            },
-            "ogImage": "snippets/hero-input/hero-input.og.png"
+            }
           },
           {
             "title": "Hero: Link",
@@ -1194,8 +1084,7 @@
             "code": "<gds-link text-decoration=\"underline\">Link text</gds-link>",
             "endpoints": {
               "content": "snippets/hero-link/hero-link.json"
-            },
-            "ogImage": "snippets/hero-link/hero-link.og.png"
+            }
           },
           {
             "title": "Hero: Menu button",
@@ -1204,8 +1093,7 @@
             "code": "<gds-div \n  width=\"max-content\"\n  flex-direction=\"row\"\n  border-color=\"primary\"\n  background-color=\"transparent\"\n  padding=\"0\"\n  border-width=\"0 0 4xs 0\"\n  gap=\"0\"\n>\n  <gds-menu-button compact selected>\n    <gds-icon-bell slot=\"trail\"></gds-icon-bell>\n    Notification\n  </gds-menu-button>\n  <gds-popover>\n    <gds-menu-button compact slot=\"trigger\">\n      <gds-icon-people slot=\"trail\"></gds-icon-people>\n      Profile\n    </gds-menu-button>\n    <gds-flex padding=\"m\">Profile stuff</gds-flex>\n  </gds-popover>\n  <gds-menu-button\n    href=\"https://github.com/seb-oss/green\"\n    compact\n    target=\"_blank\"\n  >\n    <gds-icon-square-arrow-top-right\n      slot=\"trail\"\n    ></gds-icon-square-arrow-top-right>\n    External\n  </gds-menu-button>\n</gds-div>",
             "endpoints": {
               "content": "snippets/hero-menu-button/hero-menu-button.json"
-            },
-            "ogImage": "snippets/hero-menu-button/hero-menu-button.og.png"
+            }
           },
           {
             "title": "Hero: Popover",
@@ -1214,8 +1102,7 @@
             "code": "<gds-popover>\n  <gds-button rank=\"secondary\" slot=\"trigger\" size=\"small\">\n    Show popover\n    <gds-icon-chevron-bottom slot=\"trail\"></gds-icon-chevron-bottom>\n  </gds-button>\n  <gds-flex\n    flex-direction=\"column\"\n    gap=\"s\"\n    padding=\"m\"\n    align-items=\"flex-start\"\n    width=\"280px\"\n  >\n    <gds-text tag=\"h3\">Custom popover!</gds-text>\n    <gds-text tag=\"p\"> Popover content </gds-text>\n    <gds-button rank=\"primary\">Action</gds-button>\n  </gds-flex>\n</gds-popover>",
             "endpoints": {
               "content": "snippets/hero-popover/hero-popover.json"
-            },
-            "ogImage": "snippets/hero-popover/hero-popover.og.png"
+            }
           },
           {
             "title": "Hero: Radio",
@@ -1224,8 +1111,7 @@
             "code": "<gds-radio-group>\n  <gds-radio label=\"Radio 1\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Radio 2\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Radio 3\" value=\"3\"></gds-radio>\n</gds-radio-group>",
             "endpoints": {
               "content": "snippets/hero-radio/hero-radio.json"
-            },
-            "ogImage": "snippets/hero-radio/hero-radio.og.png"
+            }
           },
           {
             "title": "Hero: Rich text",
@@ -1234,8 +1120,7 @@
             "code": "<gds-rich-text>\n  <p>Rich <strong>text</strong> <u>with</u> <em>proper</em> style!</p>\n</gds-rich-text>",
             "endpoints": {
               "content": "snippets/hero-rich-text/hero-rich-text.json"
-            },
-            "ogImage": "snippets/hero-rich-text/hero-rich-text.og.png"
+            }
           },
           {
             "title": "Hero: Segmented control",
@@ -1244,8 +1129,7 @@
             "code": "<gds-flex width=\"280px\">\n  <gds-segmented-control value=\"1\" size=\"small\">\n    <gds-segment value=\"1\">Item 1</gds-segment>\n    <gds-segment value=\"2\">Item 2</gds-segment>\n    <gds-segment value=\"3\">Item 3</gds-segment>\n  </gds-segmented-control>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-segmented-control/hero-segmented-control.json"
-            },
-            "ogImage": "snippets/hero-segmented-control/hero-segmented-control.og.png"
+            }
           },
           {
             "title": "Hero: Select",
@@ -1254,8 +1138,7 @@
             "code": "<gds-select plain width=\"280px\">\n  <gds-icon-books slot=\"lead\"></gds-icon-books>\n  <select>\n    <option value=\"\">Select a value</option>\n    <optgroup label=\"Physics\">\n      <option value=\"quantum-mechanics\">Quantum Mechanics</option>\n      <option value=\"relativity\">Relativity</option>\n    </optgroup>\n    <optgroup label=\"Chemistry\">\n      <option value=\"organic-chemistry\">Organic Chemistry</option>\n      <option value=\"inorganic-chemistry\">Inorganic Chemistry</option>\n    </optgroup>\n    <optgroup label=\"Biology\">\n      <option value=\"genetics\">Genetics</option>\n      <option value=\"microbiology\">Microbiology</option>\n      <option value=\"ecology\">Ecology</option>\n    </optgroup>\n  </select>\n</gds-select>",
             "endpoints": {
               "content": "snippets/hero-select/hero-select.json"
-            },
-            "ogImage": "snippets/hero-select/hero-select.og.png"
+            }
           },
           {
             "title": "Hero: Signal",
@@ -1264,8 +1147,7 @@
             "code": "<gds-signal></gds-signal>",
             "endpoints": {
               "content": "snippets/hero-signal/hero-signal.json"
-            },
-            "ogImage": "snippets/hero-signal/hero-signal.og.png"
+            }
           },
           {
             "title": "Hero: Spinner",
@@ -1274,8 +1156,7 @@
             "code": "<gds-spinner size=\"sm\"></gds-spinner>",
             "endpoints": {
               "content": "snippets/hero-spinner/hero-spinner.json"
-            },
-            "ogImage": "snippets/hero-spinner/hero-spinner.og.png"
+            }
           },
           {
             "title": "Hero: Text",
@@ -1284,8 +1165,7 @@
             "code": "<gds-flex width=\"280px\" flex-direction=\"column\" gap=\"s\">\n  <gds-flex gap=\"m\">\n    <gds-text> Text </gds-text>\n    <gds-text text-decoration=\"underline\"> is </gds-text>\n    <gds-text text-decoration=\"currentcolor wavy underline\">\n      Awesome!\n    </gds-text>\n  </gds-flex>\n  <gds-flex>\n    <gds-text font-size=\"body-s\" lines=\"2\" color=\"secondary\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n    </gds-text>\n  </gds-flex>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-text/hero-text.json"
-            },
-            "ogImage": "snippets/hero-text/hero-text.og.png"
+            }
           },
           {
             "title": "Hero: Textarea",
@@ -1294,8 +1174,7 @@
             "code": "<gds-flex width=\"280px\">\n  <gds-textarea\n    label=\"Label\"\n    supporting-text=\"Label support text\"\n    resizable=\"false\"\n  >\n  </gds-textarea>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-textarea/hero-textarea.json"
-            },
-            "ogImage": "snippets/hero-textarea/hero-textarea.og.png"
+            }
           },
           {
             "title": "Hero: Theme",
@@ -1304,8 +1183,7 @@
             "code": "<gds-flex gap=\"m\">\n  <gds-theme color-scheme=\"light\" design-version=\"2023\">\n    <gds-card variant=\"secondary\" align=\"center\">\n      <gds-icon-sun size=\"xl\"></gds-icon-sun>\n    </gds-card>\n  </gds-theme>\n  <gds-theme color-scheme=\"dark\" design-version=\"2023\">\n    <gds-card variant=\"primary\" align=\"center\">\n      <gds-icon-moon size=\"xl\"></gds-icon-moon>\n    </gds-card>\n  </gds-theme>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-theme/hero-theme.json"
-            },
-            "ogImage": "snippets/hero-theme/hero-theme.og.png"
+            }
           },
           {
             "title": "Hero: Video",
@@ -1314,8 +1192,7 @@
             "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://api.seb.io/components/video/video.mp4\" playsinline muted autoplay loop></gds-video>",
             "endpoints": {
               "content": "snippets/hero-video/hero-video.json"
-            },
-            "ogImage": "snippets/hero-video/hero-video.og.png"
+            }
           },
           {
             "title": "Icon: color",
@@ -1324,8 +1201,7 @@
             "code": "<gds-flex\n  width=\"100%\"\n  padding=\"2xl\"\n  gap=\"m\"\n  flex-wrap=\"wrap\"\n  align-items=\"center\"\n  justify-content=\"center\"\n>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"primary\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Primary</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"secondary\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Secondary</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"tertiary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"tertiary\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Tertiary</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"positive\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Positive</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"notice\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Notice</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"negative\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Negative</gds-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>\n",
             "endpoints": {
               "content": "snippets/icon-color/icon-color.json"
-            },
-            "ogImage": "snippets/icon-color/icon-color.og.png"
+            }
           },
           {
             "title": "Icon: size",
@@ -1334,8 +1210,7 @@
             "code": "<gds-flex flex-wrap=\"wrap\" gap=\"l xs\" width=\"100%\" padding=\"2xl\">\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"xs\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">xs</gds-text>\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 8px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"s\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">s</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 12px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"m\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">m</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 16px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"l\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">l</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 24px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"xl\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">xl</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 32px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"2xl\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">2xl</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 40px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"3xl\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">3xl</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 48px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"4xl\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">4xl</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 64px </gds-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>\n",
             "endpoints": {
               "content": "snippets/icon-size/icon-size.json"
-            },
-            "ogImage": "snippets/icon-size/icon-size.og.png"
+            }
           },
           {
             "title": "Icon: Usage",
@@ -1344,8 +1219,7 @@
             "code": "<gds-grid columns=\"4\" padding=\"2xl\" width=\"max-content\" margin=\"0 auto\" gap=\"xs\" color=\"primary\">\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-home-open solid size=\"l\"></gds-icon-home-open>\n    <gds-text>Hem</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-bag size=\"l\"></gds-icon-bag>\n    <gds-text>Portfölj</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-book size=\"l\"></gds-icon-book>\n    <gds-text>Ordrar</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-search-menu size=\"l\"></gds-icon-search-menu>\n    <gds-text>Marknad</gds-text>\n  </gds-flex>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/icon-usage/icon-usage.json"
-            },
-            "ogImage": "snippets/icon-usage/icon-usage.og.png"
+            }
           },
           {
             "title": "Link: Leading",
@@ -1354,8 +1228,7 @@
             "code": "<gds-link>\n<gds-icon-cain-link slot=\"lead\"></gds-icon-cain-link>\n  Link text\n</gds-link>",
             "endpoints": {
               "content": "snippets/link-leading/link-leading.json"
-            },
-            "ogImage": "snippets/link-leading/link-leading.og.png"
+            }
           },
           {
             "title": "Link: Text decoration",
@@ -1364,8 +1237,7 @@
             "code": "<gds-link text-decoration=\"underline\">Link text</gds-link>",
             "endpoints": {
               "content": "snippets/link-text-decoration/link-text-decoration.json"
-            },
-            "ogImage": "snippets/link-text-decoration/link-text-decoration.og.png"
+            }
           },
           {
             "title": "Link: Trailing",
@@ -1374,8 +1246,7 @@
             "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/link-trailing/link-trailing.json"
-            },
-            "ogImage": "snippets/link-trailing/link-trailing.og.png"
+            }
           },
           {
             "title": "Segmented control: Icons",
@@ -1384,8 +1255,7 @@
             "code": "<gds-segmented-control value='2' width=\"400px\">\n  <gds-segment value=\"1\">\n    <gds-flex align-items=\"center\" justify-content=\"center\" gap=\"xs\">\n      <gds-icon-square-grid-circle size=\"m\"></gds-icon-square-grid-circle>\n      Item 1\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"2\">\n    <gds-flex align-items=\"center\" justify-content=\"center\" gap=\"xs\">\n      <gds-icon-devices size=\"m\"></gds-icon-devices>\n      Item 2\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"3\">\n    <gds-flex align-items=\"center\" justify-content=\"center\" gap=\"xs\">\n      <gds-icon-brand-green size=\"m\"></gds-icon-brand-green>\n      Item 3\n    </gds-flex>\n  </gds-segment>\n</gds-segmented-control>",
             "endpoints": {
               "content": "snippets/segmented-control-icons/segmented-control-icons.json"
-            },
-            "ogImage": "snippets/segmented-control-icons/segmented-control-icons.og.png"
+            }
           },
           {
             "title": "Segmented control: overflow",
@@ -1394,8 +1264,7 @@
             "code": "<gds-segmented-control value=\"1\" width=\"80%\">\n  <gds-segment value=\"1\" min-width=\"200px\">Kreditbedömning</gds-segment>\n  <gds-segment value=\"flaschenabfüllmaschine\" max-width=\"150px\">Ränteskillnadsersättning</gds-segment>\n  <gds-segment value=\"longlonglong\">Förmögenhetsskatt</gds-segment>\n  <gds-segment value=\"longlabel\">Huvudlåntagare</gds-segment>\n  <gds-segment value=\"pinetrees\">Investeringssparkonto</gds-segment>\n</gds-segmented-control>",
             "endpoints": {
               "content": "snippets/segmented-control-overflow/segmented-control-overflow.json"
-            },
-            "ogImage": "snippets/segmented-control-overflow/segmented-control-overflow.og.png"
+            }
           },
           {
             "title": "Segmented control: size default ",
@@ -1404,8 +1273,7 @@
             "code": "<gds-segmented-control width=\"280px\" value=\"2\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>",
             "endpoints": {
               "content": "snippets/segmented-control-size-default/segmented-control-size-default.json"
-            },
-            "ogImage": "snippets/segmented-control-size-default/segmented-control-size-default.og.png"
+            }
           },
           {
             "title": "Segmented control: size small",
@@ -1414,8 +1282,7 @@
             "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>",
             "endpoints": {
               "content": "snippets/segmented-control-size-small/segmented-control-size-small.json"
-            },
-            "ogImage": "snippets/segmented-control-size-small/segmented-control-size-small.og.png"
+            }
           },
           {
             "title": "Signal: Example",
@@ -1424,8 +1291,7 @@
             "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/signal-example/signal-example.json"
-            },
-            "ogImage": "snippets/signal-example/signal-example.og.png"
+            }
           }
         ]
       },

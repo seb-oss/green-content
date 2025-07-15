@@ -4,654 +4,561 @@
       "title": "Alert: Action",
       "slug": "alert-action",
       "path": "snippets/alert-action/alert-action.json",
-      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n  <strong>Actionable</strong> Alert with a button for quick user interaction.\n</gds-alert>\n</gds-div>",
-      "ogImage": "snippets/alert-action/alert-action.og.png"
+      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n  <strong>Actionable</strong> Alert with a button for quick user interaction.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Dissmisible",
       "slug": "alert-dismissible",
       "path": "snippets/alert-dismissible/alert-dismissible.json",
-      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" dismissible>\n  <strong>Dismissible</strong> User can dismiss this alert.\n</gds-alert>\n</gds-div>",
-      "ogImage": "snippets/alert-dismissible/alert-dismissible.og.png"
+      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" dismissible>\n  <strong>Dismissible</strong> User can dismiss this alert.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Information",
       "slug": "alert-information",
       "path": "snippets/alert-information/alert-information.json",
-      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\">\n  <strong>Information</strong> Body text starts on the same row as\n  heading.\n</gds-alert>\n</gds-div>",
-      "ogImage": "snippets/alert-information/alert-information.og.png"
+      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\">\n  <strong>Information</strong> Body text starts on the same row as\n  heading.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Negative",
       "slug": "alert-negative-variant",
       "path": "snippets/alert-negative-variant/alert-negative-variant.json",
-      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"negative\" role=\"alert\">\n  <strong>Negative</strong> Error message requiring user attention.\n</gds-alert>\n</gds-div>",
-      "ogImage": "snippets/alert-negative-variant/alert-negative-variant.og.png"
+      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"negative\" role=\"alert\">\n  <strong>Negative</strong> Error message requiring user attention.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Notice",
       "slug": "alert-notice",
       "path": "snippets/alert-notice/alert-notice.json",
-      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"notice\" role=\"alert\">\n  <strong>Notice</strong> Body text with link or additional context.\n</gds-alert>\n</gds-div>",
-      "ogImage": "snippets/alert-notice/alert-notice.og.png"
+      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"notice\" role=\"alert\">\n  <strong>Notice</strong> Body text with link or additional context.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Positive",
       "slug": "alert-positive",
       "path": "snippets/alert-positive/alert-positive.json",
-      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>\n</gds-div>",
-      "ogImage": "snippets/alert-positive/alert-positive.og.png"
+      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Warning",
       "slug": "alert-warning",
       "path": "snippets/alert-warning/alert-warning.json",
-      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>",
-      "ogImage": "snippets/alert-warning/alert-warning.og.png"
+      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>"
     },
     {
       "title": "Badge: Lead",
       "slug": "badge-lead",
       "path": "snippets/badge-lead/badge-lead.json",
-      "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    <gds-icon-rocket slot=\"lead\"></gds-icon-rocket>\n    Launched\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-triangle-exclamation slot=\"lead\">\n    </gds-icon-triangle-exclamation>\n    Overdue\n  </gds-badge>\n</gds-flex>",
-      "ogImage": "snippets/badge-lead/badge-lead.og.png"
+      "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    <gds-icon-rocket slot=\"lead\"></gds-icon-rocket>\n    Launched\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-triangle-exclamation slot=\"lead\">\n    </gds-icon-triangle-exclamation>\n    Overdue\n  </gds-badge>\n</gds-flex>"
     },
     {
       "title": "Badge: Notification",
       "slug": "badge-notification",
       "path": "snippets/badge-notification/badge-notification.json",
-      "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge variant=\"negative\" notification=\"\"></gds-badge>\n  <gds-badge variant=\"negative\" notification=\"\">9</gds-badge>\n  <gds-badge variant=\"negative\" notification=\"\">99+</gds-badge>\n</gds-flex>",
-      "ogImage": "snippets/badge-notification/badge-notification.og.png"
+      "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge variant=\"negative\" notification=\"\"></gds-badge>\n  <gds-badge variant=\"negative\" notification=\"\">9</gds-badge>\n  <gds-badge variant=\"negative\" notification=\"\">99+</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Badge: Rounded",
       "slug": "badge-rounded",
       "path": "snippets/badge-rounded/badge-rounded.json",
-      "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge rounded=\"\" variant=\"information\"> 01 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"notice\"> 02 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"positive\"> 03 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"warning\"> 04 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\"> 05 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\" disabled=\"\"> 06 </gds-badge>\n</gds-flex>",
-      "ogImage": "snippets/badge-rounded/badge-rounded.og.png"
+      "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge rounded=\"\" variant=\"information\"> 01 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"notice\"> 02 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"positive\"> 03 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"warning\"> 04 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\"> 05 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\" disabled=\"\"> 06 </gds-badge>\n</gds-flex>"
     },
     {
       "title": "Badge: Size",
       "slug": "badge-size",
       "path": "snippets/badge-size/badge-size.json",
-      "code": "<gds-flex align-items=\"center\" gap=\"4xl\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"positive\" size=\"small\">\n    240\n  </gds-badge>\n</gds-flex>",
-      "ogImage": "snippets/badge-size/badge-size.og.png"
+      "code": "<gds-flex align-items=\"center\" gap=\"4xl\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"positive\" size=\"small\">\n    240\n  </gds-badge>\n</gds-flex>"
     },
     {
       "title": "Badge: Trail",
       "slug": "badge-trail",
       "path": "snippets/badge-trail/badge-trail.json",
-      "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    10,000.00\n    <gds-icon-arrow-right-up-circle slot=\"trail\"></gds-icon-arrow-right-up-circle>\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    142.00\n    <gds-icon-arrow-right-down-circle slot=\"trail\"></gds-icon-arrow-right-down-circle>\n  </gds-badge>\n</gds-flex>",
-      "ogImage": "snippets/badge-trail/badge-trail.og.png"
+      "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    10,000.00\n    <gds-icon-arrow-right-up-circle slot=\"trail\"></gds-icon-arrow-right-up-circle>\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    142.00\n    <gds-icon-arrow-right-down-circle slot=\"trail\"></gds-icon-arrow-right-down-circle>\n  </gds-badge>\n</gds-flex>"
     },
     {
       "title": "Badge: UX common EN",
       "slug": "badge-ux-common-en",
       "path": "snippets/badge-ux-common-en/badge-ux-common-en.json",
-      "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\" padding=\"2xl xl\">\n  <gds-badge variant=\"positive\">Signed</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for signature</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for other's signature</gds-badge>\n  <gds-badge>Expired</gds-badge>\n  <gds-badge>Closed</gds-badge>\n  <gds-badge variant=\"negative\">Removed</gds-badge>\n</gds-flex>\n",
-      "ogImage": "snippets/badge-ux-common-en/badge-ux-common-en.og.png"
+      "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\" padding=\"2xl xl\">\n  <gds-badge variant=\"positive\">Signed</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for signature</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for other's signature</gds-badge>\n  <gds-badge>Expired</gds-badge>\n  <gds-badge>Closed</gds-badge>\n  <gds-badge variant=\"negative\">Removed</gds-badge>\n</gds-flex>\n"
     },
     {
       "title": "Badge: UX common SV",
       "slug": "badge-ux-common-sv",
       "path": "snippets/badge-ux-common-sv/badge-ux-common-sv.json",
-      "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\" padding=\"2xl xl\">\n  <gds-badge variant=\"positive\">Signerat</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa signatur</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa annans signatur</gds-badge>\n  <gds-badge>Förfallet</gds-badge>\n  <gds-badge>Avslutad</gds-badge>\n  <gds-badge variant=\"negative\">Borttaget</gds-badge>\n</gds-flex>",
-      "ogImage": "snippets/badge-ux-common-sv/badge-ux-common-sv.og.png"
+      "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\" padding=\"2xl xl\">\n  <gds-badge variant=\"positive\">Signerat</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa signatur</gds-badge>\n  <gds-badge variant=\"warning\">Väntar pa annans signatur</gds-badge>\n  <gds-badge>Förfallet</gds-badge>\n  <gds-badge>Avslutad</gds-badge>\n  <gds-badge variant=\"negative\">Borttaget</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Badge: Variants",
       "slug": "badge-variants",
       "path": "snippets/badge-variants/badge-variants.json",
-      "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"notice\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Notice\n  </gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge variant=\"warning\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Warning\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-triangle-exclamation slot=\"lead\"></gds-icon-triangle-exclamation>\n    Negative\n  </gds-badge>\n</gds-flex>",
-      "ogImage": "snippets/badge-variants/badge-variants.og.png"
+      "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"notice\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Notice\n  </gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge variant=\"warning\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Warning\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-triangle-exclamation slot=\"lead\"></gds-icon-triangle-exclamation>\n    Negative\n  </gds-badge>\n</gds-flex>"
     },
     {
       "title": "Breadcrumbs: Mobile",
       "slug": "breadcrumbs-mobile",
       "path": "snippets/breadcrumbs-mobile/breadcrumbs-mobile.json",
-      "code": "<gds-breadcrumbs size=\"small\" width=\"100px\">\n  <gds-link href=\"/\">\n    <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n    Green\n  </gds-link>\n  <gds-link href=\"/folder\">\n    <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n    Folder\n  </gds-link>\n  <gds-text> Current </gds-text>\n</gds-breadcrumbs>",
-      "ogImage": "snippets/breadcrumbs-mobile/breadcrumbs-mobile.og.png"
+      "code": "<gds-breadcrumbs size=\"small\" width=\"100px\">\n  <gds-link href=\"/\">\n    <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n    Green\n  </gds-link>\n  <gds-link href=\"/folder\">\n    <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n    Folder\n  </gds-link>\n  <gds-text> Current </gds-text>\n</gds-breadcrumbs>"
     },
     {
       "title": "Breadcrumbs: overflow",
       "slug": "breadcrumbs-overflow",
       "path": "snippets/breadcrumbs-overflow/breadcrumbs-overflow.json",
-      "code": "<gds-flex width=\"80%\" align-items=\"center\" justify-content=\"center\">\n  <div>\n    <gds-breadcrumbs width=\"100%\" size=\"small\">\n      <gds-link href=\"#\">\n        <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n        Home\n      </gds-link>\n      <gds-link href=\"#\">\n        <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n        Documents\n      </gds-link>\n      <gds-button rank=\"tertiary\" size=\"xs\">\n        <gds-icon-dot-grid-one-horizontal size=\"s\"></gds-icon-dot-grid-one-horizontal>\n      </gds-button>\n      <gds-link href=\"#\">\n        <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n        Settings\n      </gds-link>\n      <gds-text> Current page </gds-text>\n    </gds-breadcrumbs>\n  </div>\n</gds-flex>",
-      "ogImage": "snippets/breadcrumbs-overflow/breadcrumbs-overflow.og.png"
+      "code": "<gds-flex width=\"80%\" align-items=\"center\" justify-content=\"center\">\n  <div>\n    <gds-breadcrumbs width=\"100%\" size=\"small\">\n      <gds-link href=\"#\">\n        <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n        Home\n      </gds-link>\n      <gds-link href=\"#\">\n        <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n        Documents\n      </gds-link>\n      <gds-button rank=\"tertiary\" size=\"xs\">\n        <gds-icon-dot-grid-one-horizontal size=\"s\"></gds-icon-dot-grid-one-horizontal>\n      </gds-button>\n      <gds-link href=\"#\">\n        <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n        Settings\n      </gds-link>\n      <gds-text> Current page </gds-text>\n    </gds-breadcrumbs>\n  </div>\n</gds-flex>"
     },
     {
       "title": "Button: back secondary",
       "slug": "button-back-secondary",
       "path": "snippets/button-back-secondary/button-back-secondary.json",
-      "code": "<gds-button width=\"max-content\" rank=\"secondary\">\n  <gds-icon-arrow-left slot=\"lead\"></gds-icon-arrow-left>\n  Back \n</gds-button>",
-      "ogImage": "snippets/button-back-secondary/button-back-secondary.og.png"
+      "code": "<gds-button width=\"max-content\" rank=\"secondary\">\n  <gds-icon-arrow-left slot=\"lead\"></gds-icon-arrow-left>\n  Back \n</gds-button>"
     },
     {
       "title": "Button: back",
       "slug": "button-back",
       "path": "snippets/button-back/button-back.json",
-      "code": "<gds-button width=\"max-content\">\n  <gds-icon-arrow-left slot=\"lead\"></gds-icon-arrow-left>\n  Back \n</gds-button>",
-      "ogImage": "snippets/button-back/button-back.og.png"
+      "code": "<gds-button width=\"max-content\">\n  <gds-icon-arrow-left slot=\"lead\"></gds-icon-arrow-left>\n  Back \n</gds-button>"
     },
     {
       "title": "Button: Brand",
       "slug": "button-brand",
       "path": "snippets/button-brand/button-brand.json",
-      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"brand\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"brand\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"brand\">Tertiary</gds-button>\n</gds-flex>",
-      "ogImage": "snippets/button-brand/button-brand.og.png"
+      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"brand\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"brand\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"brand\">Tertiary</gds-button>\n</gds-flex>"
     },
     {
       "title": "Button: icon button negative",
       "slug": "button-icon-button-negative",
       "path": "snippets/button-icon-button-negative/button-icon-button-negative.json",
-      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"negative\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"negative\" rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"negative\" rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>",
-      "ogImage": "snippets/button-icon-button-negative/button-icon-button-negative.og.png"
+      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"negative\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"negative\" rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"negative\" rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>"
     },
     {
       "title": "Button: icon button neutral",
       "slug": "button-icon-button-neutral",
       "path": "snippets/button-icon-button-neutral/button-icon-button-neutral.json",
-      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>",
-      "ogImage": "snippets/button-icon-button-neutral/button-icon-button-neutral.og.png"
+      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>"
     },
     {
       "title": "Button: icon button positive",
       "slug": "button-icon-button-positive",
       "path": "snippets/button-icon-button-positive/button-icon-button-positive.json",
-      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"positive\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"positive\" rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"positive\" rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>",
-      "ogImage": "snippets/button-icon-button-positive/button-icon-button-positive.og.png"
+      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"positive\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"positive\" rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"positive\" rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>"
     },
     {
       "title": "Button: negative",
       "slug": "button-negative",
       "path": "snippets/button-negative/button-negative.json",
-      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"negative\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"negative\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"negative\">Tertiary</gds-button>\n</gds-flex>",
-      "ogImage": "snippets/button-negative/button-negative.og.png"
+      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"negative\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"negative\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"negative\">Tertiary</gds-button>\n</gds-flex>"
     },
     {
       "title": "Button: neutral",
       "slug": "button-neutral-2",
       "path": "snippets/button-neutral-2/button-neutral-2.json",
-      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>",
-      "ogImage": "snippets/button-neutral-2/button-neutral-2.og.png"
+      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>"
     },
     {
       "title": "Button: next",
       "slug": "button-next",
       "path": "snippets/button-next/button-next.json",
-      "code": "<gds-button width=\"max-content\">\n  Next \n  <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n</gds-button>",
-      "ogImage": "snippets/button-next/button-next.og.png"
+      "code": "<gds-button width=\"max-content\">\n  Next \n  <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n</gds-button>"
     },
     {
       "title": "Button: positive",
       "slug": "button-positive",
       "path": "snippets/button-positive/button-positive.json",
-      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"positive\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"positive\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"positive\">Tertiary</gds-button>\n</gds-flex>",
-      "ogImage": "snippets/button-positive/button-positive.og.png"
+      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"positive\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"positive\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"positive\">Tertiary</gds-button>\n</gds-flex>"
     },
     {
       "title": "Button: size large",
       "slug": "button-size-large",
       "path": "snippets/button-size-large/button-size-large.json",
-      "code": "<gds-button width=\"max-content\" size=\"large\">\n  Large\n</gds-button>",
-      "ogImage": "snippets/button-size-large/button-size-large.og.png"
+      "code": "<gds-button width=\"max-content\" size=\"large\">\n  Large\n</gds-button>"
     },
     {
       "title": "Button: size medium",
       "slug": "button-size-medium",
       "path": "snippets/button-size-medium/button-size-medium.json",
-      "code": "<gds-button width=\"max-content\">\n  Medium\n</gds-button>",
-      "ogImage": "snippets/button-size-medium/button-size-medium.og.png"
+      "code": "<gds-button width=\"max-content\">\n  Medium\n</gds-button>"
     },
     {
       "title": "Button: size small",
       "slug": "button-size-small",
       "path": "snippets/button-size-small/button-size-small.json",
-      "code": "<gds-button width=\"max-content\" size=\"small\">\n  Small\n</gds-button>",
-      "ogImage": "snippets/button-size-small/button-size-small.og.png"
+      "code": "<gds-button width=\"max-content\" size=\"small\">\n  Small\n</gds-button>"
     },
     {
       "title": "Card: brand 01",
       "slug": "card-brand-01",
       "path": "snippets/card-brand-01/card-brand-01.json",
-      "code": "<gds-flex padding=\"s 0\">\n  <gds-card width=\"300px\" variant=\"brand-01\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n      Ta ett aktivt beslut i hängmattan. På riktigt.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Börja spara\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>",
-      "ogImage": "snippets/card-brand-01/card-brand-01.og.png"
+      "code": "<gds-flex padding=\"s 0\">\n  <gds-card width=\"300px\" variant=\"brand-01\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n      Ta ett aktivt beslut i hängmattan. På riktigt.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Börja spara\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>"
     },
     {
       "title": "Card: Brand 02",
       "slug": "card-brand-02",
       "path": "snippets/card-brand-02/card-brand-02.json",
-      "code": "<gds-flex padding=\"s 0\">\n  <gds-card width=\"300px\" variant=\"brand-02\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n  Nu öppnar vi portarna till sydeuropeiska och schweiziska aktier.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Handla värdepapper\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>",
-      "ogImage": "snippets/card-brand-02/card-brand-02.og.png"
+      "code": "<gds-flex padding=\"s 0\">\n  <gds-card width=\"300px\" variant=\"brand-02\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n  Nu öppnar vi portarna till sydeuropeiska och schweiziska aktier.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Handla värdepapper\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>"
     },
     {
       "title": "Card: grey",
       "slug": "card-grey",
       "path": "snippets/card-grey/card-grey.json",
-      "code": "<gds-flex gap=\"xl\" flex-wrap=\"no-wrap\" padding=\"xl\">\n  <gds-flex flex-direction=\"column\" gap=\"xl\" max-width=\"300px\">\n    <gds-card padding=\"0\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om\n            ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-flex gap=\"s\">\n          <gds-button>\n            Flytta bolån\n          </gds-button>\n        </gds-flex>\n    </gds-card>\n    <gds-card padding=\"0\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om\n            ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-link href=\"#\">\n          Flytta bolån\n          <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n        </gds-link>\n    </gds-card>\n  </gds-flex>\n  <gds-card padding=\"xs\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\" max-width=\"300px\"\n    height=\"max-content\">\n    <gds-img src=\"https://api.seb.io/components/image/img.jpg\" border-radius=\"xs\"></gds-img>\n    <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n      <gds-flex flex-direction=\"column\" gap=\"s\">\n        <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n          Flytta ditt bolån till oss\n        </gds-text>\n        <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n          Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett\n          lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n        </gds-text>\n      </gds-flex>\n      <gds-button>\n        Flytta bolån\n      </gds-button>\n  </gds-card>\n</gds-flex>",
-      "ogImage": "snippets/card-grey/card-grey.og.png"
+      "code": "<gds-flex gap=\"xl\" flex-wrap=\"no-wrap\" padding=\"xl\">\n  <gds-flex flex-direction=\"column\" gap=\"xl\" max-width=\"300px\">\n    <gds-card padding=\"0\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om\n            ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-flex gap=\"s\">\n          <gds-button>\n            Flytta bolån\n          </gds-button>\n        </gds-flex>\n    </gds-card>\n    <gds-card padding=\"0\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om\n            ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-link href=\"#\">\n          Flytta bolån\n          <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n        </gds-link>\n    </gds-card>\n  </gds-flex>\n  <gds-card padding=\"xs\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\" max-width=\"300px\"\n    height=\"max-content\">\n    <gds-img src=\"https://api.seb.io/components/image/img.jpg\" border-radius=\"xs\"></gds-img>\n    <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n      <gds-flex flex-direction=\"column\" gap=\"s\">\n        <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n          Flytta ditt bolån till oss\n        </gds-text>\n        <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n          Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett\n          lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n        </gds-text>\n      </gds-flex>\n      <gds-button>\n        Flytta bolån\n      </gds-button>\n  </gds-card>\n</gds-flex>"
     },
     {
       "title": "Card: white",
       "slug": "card-white",
       "path": "snippets/card-white/card-white.json",
-      "code": "<gds-flex gap=\"xl\" flex-wrap=\"no-wrap\" padding=\"xl\">\n  <gds-flex flex-direction=\"column\" gap=\"xl\" max-width=\"300px\">\n    <gds-card padding=\"0\" variant=\"secondary\" overflow=\"hidden\" border-color=\"subtle-01\" border-width=\"4xs\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\" lines=\"2\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-flex gap=\"s\">\n          <gds-button>\n            Flytta bolån\n          </gds-button>\n        </gds-flex>\n    </gds-card>\n    <gds-card padding=\"0\" variant=\"secondary\" overflow=\"hidden\" border-color=\"subtle-01\" border-width=\"4xs\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-link href=\"#\">\n          Flytta bolån\n          <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n        </gds-link>\n    </gds-card>\n  </gds-flex>\n  <gds-card padding=\"xs\" variant=\"secondary\" overflow=\"hidden\" border-color=\"subtle-01\" border-width=\"4xs\" gap=\"0\" color=\"primary\" max-width=\"300px\" height=\"max-content\">\n    <gds-img src=\"https://api.seb.io/components/image/img.jpg\" border-radius=\"xs\"></gds-img>\n    <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n      <gds-flex flex-direction=\"column\" gap=\"s\">\n        <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n          Flytta ditt bolån till oss\n        </gds-text>\n        <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n          Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n        </gds-text>\n      </gds-flex>\n      <gds-button>\n        Flytta bolån\n      </gds-button>\n  </gds-card>\n</gds-flex>",
-      "ogImage": "snippets/card-white/card-white.og.png"
+      "code": "<gds-flex gap=\"xl\" flex-wrap=\"no-wrap\" padding=\"xl\">\n  <gds-flex flex-direction=\"column\" gap=\"xl\" max-width=\"300px\">\n    <gds-card padding=\"0\" variant=\"secondary\" overflow=\"hidden\" border-color=\"subtle-01\" border-width=\"4xs\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\" lines=\"2\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-flex gap=\"s\">\n          <gds-button>\n            Flytta bolån\n          </gds-button>\n        </gds-flex>\n    </gds-card>\n    <gds-card padding=\"0\" variant=\"secondary\" overflow=\"hidden\" border-color=\"subtle-01\" border-width=\"4xs\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-link href=\"#\">\n          Flytta bolån\n          <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n        </gds-link>\n    </gds-card>\n  </gds-flex>\n  <gds-card padding=\"xs\" variant=\"secondary\" overflow=\"hidden\" border-color=\"subtle-01\" border-width=\"4xs\" gap=\"0\" color=\"primary\" max-width=\"300px\" height=\"max-content\">\n    <gds-img src=\"https://api.seb.io/components/image/img.jpg\" border-radius=\"xs\"></gds-img>\n    <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n      <gds-flex flex-direction=\"column\" gap=\"s\">\n        <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n          Flytta ditt bolån till oss\n        </gds-text>\n        <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n          Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n        </gds-text>\n      </gds-flex>\n      <gds-button>\n        Flytta bolån\n      </gds-button>\n  </gds-card>\n</gds-flex>"
     },
     {
       "title": "Datepicker: Size Large",
       "slug": "datepicker-large",
       "path": "snippets/datepicker-large/datepicker-large.json",
-      "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers></gds-datepicker>\n</gds-flex>",
-      "ogImage": "snippets/datepicker-large/datepicker-large.og.png"
+      "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers dateformat=\"d-m-y\"></gds-datepicker>\n</gds-flex>"
     },
     {
       "title": "Datepicker: Size small",
       "slug": "datepicker-small",
       "path": "snippets/datepicker-small/datepicker-small.json",
-      "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers size=\"small\"></gds-datepicker>\n</gds-flex>",
-      "ogImage": "snippets/datepicker-small/datepicker-small.og.png"
+      "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers size=\"small\" dateformat=\"d-m-y\"></gds-datepicker>\n</gds-flex>"
     },
     {
       "title": "Details: Size large",
       "slug": "details-large",
       "path": "snippets/details-large/details-large.json",
-      "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>",
-      "ogImage": "snippets/details-large/details-large.og.png"
+      "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
     },
     {
       "title": "Details: Size small",
       "slug": "details-small",
       "path": "snippets/details-small/details-small.json",
-      "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>",
-      "ogImage": "snippets/details-small/details-small.og.png"
+      "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
     },
     {
       "title": "Dialog: Regular",
       "slug": "dialog-regular",
       "path": "snippets/dialog-regular/dialog-regular.json",
-      "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Show regular dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
-      "ogImage": "snippets/dialog-regular/dialog-regular.og.png"
+      "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Show regular dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
     },
     {
       "title": "Dialog: slide-out",
       "slug": "dialog-slideout",
       "path": "snippets/dialog-slideout/dialog-slideout.json",
-      "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Show slide-out dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
-      "ogImage": "snippets/dialog-slideout/dialog-slideout.og.png"
+      "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Show slide-out dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
     },
     {
       "title": "Divider: Color",
       "slug": "divider-color",
       "path": "snippets/divider-color/divider-color.json",
-      "code": "<gds-flex flex-direction=\"column\" gap=\"xs\" width=\"100%\" padding=\"2xl\">\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text>Primary</gds-text>\n      <gds-divider color=\"primary\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text>Secondary</gds-text>\n      <gds-divider color=\"secondary\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card variant=\"tertiary\" border=\"none\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text>Tertiary</gds-text>\n      <gds-divider color=\"tertiary\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text>Negative</gds-text>\n      <gds-divider color=\"negative\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n</gds-flex>\n",
-      "ogImage": "snippets/divider-color/divider-color.og.png"
+      "code": "<gds-flex flex-direction=\"column\" gap=\"xs\" width=\"100%\" padding=\"2xl\">\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text>Primary</gds-text>\n      <gds-divider color=\"primary\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text>Secondary</gds-text>\n      <gds-divider color=\"secondary\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card variant=\"tertiary\" border=\"none\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text>Tertiary</gds-text>\n      <gds-divider color=\"tertiary\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\" gap=\"s\">\n      <gds-text>Negative</gds-text>\n      <gds-divider color=\"negative\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n</gds-flex>\n"
     },
     {
       "title": "Divider: Spacing",
       "slug": "divider-spacing",
       "path": "snippets/divider-spacing/divider-spacing.json",
-      "code": "<gds-flex flex-direction=\"column\" gap=\"xs\" width=\"100%\" padding=\"2xl\">\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 2xl</gds-text>\n      <gds-divider color=\"primary\" size=\"2xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 4xl</gds-text>\n      <gds-divider color=\"primary\" size=\"4xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 6xl</gds-text>\n      <gds-divider color=\"primary\" size=\"6xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n</gds-flex>\n",
-      "ogImage": "snippets/divider-spacing/divider-spacing.og.png"
+      "code": "<gds-flex flex-direction=\"column\" gap=\"xs\" width=\"100%\" padding=\"2xl\">\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 2xl</gds-text>\n      <gds-divider color=\"primary\" size=\"2xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 4xl</gds-text>\n      <gds-divider color=\"primary\" size=\"4xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n  <gds-card background=\"transparent\" border=\"none\">\n    <gds-flex flex-direction=\"column\">\n      <gds-text>Size: 6xl</gds-text>\n      <gds-divider color=\"primary\" size=\"6xl\"></gds-divider>\n    </gds-flex>\n  </gds-card>\n</gds-flex>\n"
     },
     {
       "title": "FAB: With label",
       "slug": "fab-label",
       "path": "snippets/fab-label/fab-label.json",
-      "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-plus-large slot=\"lead\"></gds-icon-plus-large>\n    Add item\n  </gds-fab>\n</gds-flex>",
-      "ogImage": "snippets/fab-label/fab-label.og.png"
+      "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-plus-large slot=\"lead\"></gds-icon-plus-large>\n    Add item\n  </gds-fab>\n</gds-flex>"
     },
     {
       "title": "FAB: Regular",
       "slug": "fab-regular",
       "path": "snippets/fab-regular/fab-regular.json",
-      "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-plus-large></gds-icon-plus-large>\n  </gds-fab>\n</gds-flex>",
-      "ogImage": "snippets/fab-regular/fab-regular.og.png"
+      "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-plus-large></gds-icon-plus-large>\n  </gds-fab>\n</gds-flex>"
     },
     {
       "title": "Hero: Alert",
       "slug": "hero-alert",
       "path": "snippets/hero-alert/hero-alert.json",
-      "code": "<gds-flex width=\"280px\" display=\"block\">\n<gds-alert label=\"Positive\" button-label=\"Action\">\n  Feedback message\n</gds-alert>\n</gds-flex>",
-      "ogImage": "snippets/hero-alert/hero-alert.og.png"
+      "code": "<gds-flex width=\"280px\" display=\"block\">\n<gds-alert label=\"Positive\" button-label=\"Action\">\n  Feedback message\n</gds-alert>\n</gds-flex>"
     },
     {
       "title": "Hero: Badge",
       "slug": "hero-badge",
       "path": "snippets/hero-badge/hero-badge.json",
-      "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-badge variant=\"negative\" notification>999+</gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge size=\"small\" variant=\"warning\"> 602 </gds-badge>\n</gds-flex>",
-      "ogImage": "snippets/hero-badge/hero-badge.og.png"
+      "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-badge variant=\"negative\" notification>999+</gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge size=\"small\" variant=\"warning\"> 602 </gds-badge>\n</gds-flex>"
     },
     {
       "title": "Hero: Blur",
       "slug": "hero-blur",
       "path": "snippets/hero-blur/hero-blur.json",
-      "code": "<gds-blur>\n  <gds-text>Blurred content</gds-text>\n</gds-blur>",
-      "ogImage": "snippets/hero-blur/hero-blur.og.png"
+      "code": "<gds-blur>\n  <gds-text>Blurred content</gds-text>\n</gds-blur>"
     },
     {
       "title": "Hero: Breadcrumb",
       "slug": "hero-breadcrumb",
       "path": "snippets/hero-breadcrumb/hero-breadcrumb.json",
-      "code": "<div>\n  <gds-breadcrumbs size=\"small\">\n    <gds-link href=\"/\">\n      <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n      Green\n    </gds-link>\n    <gds-link href=\"/folder\">\n      <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n      Folder\n    </gds-link>\n    <gds-text> Current </gds-text>\n  </gds-breadcrumbs>\n</div>",
-      "ogImage": "snippets/hero-breadcrumb/hero-breadcrumb.og.png"
+      "code": "<div>\n  <gds-breadcrumbs size=\"small\">\n    <gds-link href=\"/\">\n      <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n      Green\n    </gds-link>\n    <gds-link href=\"/folder\">\n      <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n      Folder\n    </gds-link>\n    <gds-text> Current </gds-text>\n  </gds-breadcrumbs>\n</div>"
     },
     {
       "title": "Hero: Button",
       "slug": "hero-button",
       "path": "snippets/hero-button/hero-button.json",
-      "code": "<gds-flex gap=\"s\" align-items=\"center\">\n  <gds-button size=\"small\">Primary</gds-button>\n  <gds-button rank=\"secondary\" size=\"small\" variant=\"positive\">\n    <gds-icon-credit-card slot=\"lead\"></gds-icon-credit-card>\n    Secondary\n  </gds-button>\n  <gds-button size=\"small\" label=\"Next step 2\" rank=\"secondary\">\n    <gds-icon-arrow-right> </gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>",
-      "ogImage": "snippets/hero-button/hero-button.og.png"
+      "code": "<gds-flex gap=\"s\" align-items=\"center\">\n  <gds-button size=\"small\">Primary</gds-button>\n  <gds-button rank=\"secondary\" size=\"small\" variant=\"positive\">\n    <gds-icon-credit-card slot=\"lead\"></gds-icon-credit-card>\n    Secondary\n  </gds-button>\n  <gds-button size=\"small\" label=\"Next step 2\" rank=\"secondary\">\n    <gds-icon-arrow-right> </gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>"
     },
     {
       "title": "Hero: Calendar",
       "slug": "hero-calendar",
       "path": "snippets/hero-calendar/hero-calendar.json",
-      "code": "<gds-flex overflow=\"hidden\" height=\"210px\">\n  <gds-calendar></gds-calendar>\n</gds-flex>",
-      "ogImage": "snippets/hero-calendar/hero-calendar.og.png"
+      "code": "<gds-flex overflow=\"hidden\" height=\"210px\">\n  <gds-calendar></gds-calendar>\n</gds-flex>"
     },
     {
       "title": "Hero: Card",
       "slug": "hero-card",
       "path": "snippets/hero-card/hero-card.json",
-      "code": "<gds-flex gap=\"s\" align-items=\"center\">\n    <gds-card\n      variant=\"primary\"\n      border-color=\"primary\"\n      width=\"100px\"\n      height=\"80px\"\n      justify-content=\"flex-end\"\n      padding=\"s\"\n    >\n      Primary\n    </gds-card>\n    <gds-card\n      variant=\"secondary\"\n      border-color=\"secondary\"\n      width=\"100px\"\n      height=\"80px\"\n      justify-content=\"flex-end\"\n      padding=\"s\"\n    >\n      Secondary\n    </gds-card>\n    <gds-card\n      variant=\"tertiary\"\n      border-color=\"tertiary\"\n      width=\"100px\"\n      height=\"80px\"\n      justify-content=\"flex-end\"\n      padding=\"s\"\n    >\n      Tertiary\n    </gds-card>\n</gds-flex>",
-      "ogImage": "snippets/hero-card/hero-card.og.png"
+      "code": "<gds-flex gap=\"s\" align-items=\"center\">\n    <gds-card\n      variant=\"primary\"\n      border-color=\"primary\"\n      width=\"100px\"\n      height=\"80px\"\n      justify-content=\"flex-end\"\n      padding=\"s\"\n    >\n      Primary\n    </gds-card>\n    <gds-card\n      variant=\"secondary\"\n      border-color=\"secondary\"\n      width=\"100px\"\n      height=\"80px\"\n      justify-content=\"flex-end\"\n      padding=\"s\"\n    >\n      Secondary\n    </gds-card>\n    <gds-card\n      variant=\"tertiary\"\n      border-color=\"tertiary\"\n      width=\"100px\"\n      height=\"80px\"\n      justify-content=\"flex-end\"\n      padding=\"s\"\n    >\n      Tertiary\n    </gds-card>\n</gds-flex>"
     },
     {
       "title": "Hero: Checkbox",
       "slug": "hero-checkbox",
       "path": "snippets/hero-checkbox/hero-checkbox.json",
-      "code": "<gds-checkbox-group>\n  <gds-checkbox label=\"Checkbox 1\" value=\"1\"></gds-checkbox>\n  <gds-checkbox label=\"Checkbox 2\" value=\"2\" checked></gds-checkbox>\n  <gds-checkbox label=\"Checkbox 3\" value=\"3\"></gds-checkbox>\n</gds-checkbox-group>",
-      "ogImage": "snippets/hero-checkbox/hero-checkbox.og.png"
+      "code": "<gds-checkbox-group>\n  <gds-checkbox label=\"Checkbox 1\" value=\"1\"></gds-checkbox>\n  <gds-checkbox label=\"Checkbox 2\" value=\"2\" checked></gds-checkbox>\n  <gds-checkbox label=\"Checkbox 3\" value=\"3\"></gds-checkbox>\n</gds-checkbox-group>"
     },
     {
       "title": "Hero: Coachmark",
       "slug": "hero-coachmark",
       "path": "snippets/hero-coachmark/hero-coachmark.json",
-      "code": "<gds-flex>\n<gds-text tag=\"p\" >Coachmark</gds-text>\n<gds-coachmark placement=\"bottom\">\nCoachmark content.\n</gds-coachmark>\n</gds-flex>",
-      "ogImage": "snippets/hero-coachmark/hero-coachmark.og.png"
+      "code": "<gds-flex>\n<gds-text tag=\"p\" >Coachmark</gds-text>\n<gds-coachmark placement=\"bottom\">\nCoachmark content.\n</gds-coachmark>\n</gds-flex>"
     },
     {
       "title": "Hero: Context menu",
       "slug": "hero-context-menu",
       "path": "snippets/hero-context-menu/hero-context-menu.json",
-      "code": "<gds-context-menu>\n  <gds-menu-item>\n    <gds-flex gap=\"s\" align-items=\"center\">\n      <gds-icon-ai></gds-icon-ai>\n      Help me write\n    </gds-flex>\n  </gds-menu-item>\n  <gds-menu-item>\n    <gds-flex gap=\"s\" align-items=\"center\">\n      <gds-icon-brush></gds-icon-brush>\n      Fix grammar\n    </gds-flex>\n  </gds-menu-item>\n</gds-context-menu>",
-      "ogImage": "snippets/hero-context-menu/hero-context-menu.og.png"
+      "code": "<gds-context-menu>\n  <gds-menu-item>\n    <gds-flex gap=\"s\" align-items=\"center\">\n      <gds-icon-ai></gds-icon-ai>\n      Help me write\n    </gds-flex>\n  </gds-menu-item>\n  <gds-menu-item>\n    <gds-flex gap=\"s\" align-items=\"center\">\n      <gds-icon-brush></gds-icon-brush>\n      Fix grammar\n    </gds-flex>\n  </gds-menu-item>\n</gds-context-menu>"
     },
     {
       "title": "Hero: Datepicker",
       "slug": "hero-datepicker",
       "path": "snippets/hero-datepicker/hero-datepicker.json",
-      "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers></gds-datepicker>\n</gds-flex>",
-      "ogImage": "snippets/hero-datepicker/hero-datepicker.og.png"
+      "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers dateformat=\"d-m-y\"></gds-datepicker>\n</gds-flex>"
     },
     {
       "title": "Hero: Details",
       "slug": "hero-details",
       "path": "snippets/hero-details/hero-details.json",
-      "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>",
-      "ogImage": "snippets/hero-details/hero-details.og.png"
+      "code": "<gds-flex flex-direction=\"column\" width=\"280px\">\n  <gds-details name=\"group-1\" summary=\"First Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n  <gds-details name=\"group-1\" summary=\"Second Details\" size=\"small\">\n    <gds-rich-text> Details content </gds-rich-text>\n  </gds-details>\n</gds-flex>"
     },
     {
       "title": "Hero: Dialog",
       "slug": "hero-dialog",
       "path": "snippets/hero-dialog/hero-dialog.json",
-      "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Open Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
-      "ogImage": "snippets/hero-dialog/hero-dialog.og.png"
+      "code": "<gds-dialog heading=\"Dialog heading\">\n  <gds-button slot=\"trigger\">Open Dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
     },
     {
       "title": "Hero: Div",
       "slug": "hero-div",
       "path": "snippets/hero-div/hero-div.json",
-      "code": "<gds-flex align-items=\"center\" gap=\"s\">\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"primary\"\n  border-color=\"primary\"\n  border-width=\"xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl; l{ 6xl }\"\n  height=\"4xl; l{ 6xl }\"\n  background=\"secondary\"\n  border=\"4xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"tertiary\"\n  border-radius=\"s\"\n></gds-div>\n</gds-flex>",
-      "ogImage": "snippets/hero-div/hero-div.og.png"
+      "code": "<gds-flex align-items=\"center\" gap=\"s\">\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"primary\"\n  border-color=\"primary\"\n  border-width=\"xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl; l{ 6xl }\"\n  height=\"4xl; l{ 6xl }\"\n  background=\"secondary\"\n  border=\"4xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"tertiary\"\n  border-radius=\"s\"\n></gds-div>\n</gds-flex>"
     },
     {
       "title": "Hero: Divider",
       "slug": "hero-divider",
       "path": "snippets/hero-divider/hero-divider.json",
-      "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>",
-      "ogImage": "snippets/hero-divider/hero-divider.og.png"
+      "code": "<gds-div min-width=\"280px\" align-items=\"center\">\n  <gds-divider\n    color=\"quarternary\"\n    size=\"2xl\"\n    width=\"100%\"\n  ></gds-divider>\n</gds-div>"
     },
     {
       "title": "Hero: Dropdown",
       "slug": "hero-dropdown",
       "path": "snippets/hero-dropdown/hero-dropdown.json",
-      "code": "<gds-flex width=\"280px\">\n  <gds-dropdown label=\"Select tech\" hide-label>\n    <gds-option value=\"\">Select tech</gds-option>\n    <gds-option value=\"warp\">Warp Drive</gds-option>\n    <gds-option value=\"cybernetics\">Cybernetics</gds-option>\n    <gds-option value=\"nanotechnology\">Nanotechnology</gds-option>\n    <gds-option value=\"cloning\">Cloning</gds-option>\n    <gds-option value=\"cryonics\">Cryonics</gds-option>\n    <gds-option value=\"teleportation\">Teleportation</gds-option>\n  </gds-dropdown>\n</gds-flex>",
-      "ogImage": "snippets/hero-dropdown/hero-dropdown.og.png"
+      "code": "<gds-flex width=\"280px\">\n  <gds-dropdown label=\"Select tech\" hide-label>\n    <gds-option value=\"\">Select tech</gds-option>\n    <gds-option value=\"warp\">Warp Drive</gds-option>\n    <gds-option value=\"cybernetics\">Cybernetics</gds-option>\n    <gds-option value=\"nanotechnology\">Nanotechnology</gds-option>\n    <gds-option value=\"cloning\">Cloning</gds-option>\n    <gds-option value=\"cryonics\">Cryonics</gds-option>\n    <gds-option value=\"teleportation\">Teleportation</gds-option>\n  </gds-dropdown>\n</gds-flex>"
     },
     {
       "title": "Hero: FAB",
       "slug": "hero-fab",
       "path": "snippets/hero-fab/hero-fab.json",
-      "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-bubbles slot=\"lead\"></gds-icon-bubbles>\n    Support \n  </gds-fab>\n    <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-bubbles></gds-icon-bubbles>\n  </gds-fab>\n</gds-flex>",
-      "ogImage": "snippets/hero-fab/hero-fab.og.png"
+      "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-bubbles slot=\"lead\"></gds-icon-bubbles>\n    Support \n  </gds-fab>\n    <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-bubbles></gds-icon-bubbles>\n  </gds-fab>\n</gds-flex>"
     },
     {
       "title": "Hero: Filter chips",
       "slug": "hero-filter-chips",
       "path": "snippets/hero-filter-chips/hero-filter-chips.json",
-      "code": "<gds-filter-chips\n  value=\"top-news\"\n  label=\"Pick news channel\"\n  row-collapse\n>\n  <gds-filter-chip value=\"all\">All</gds-filter-chip>\n  <gds-filter-chip value=\"top-news\">Top news</gds-filter-chip>\n  <gds-filter-chip value=\"division\">Division</gds-filter-chip>\n</gds-filter-chips>",
-      "ogImage": "snippets/hero-filter-chips/hero-filter-chips.og.png"
+      "code": "<gds-filter-chips\n  value=\"top-news\"\n  label=\"Pick news channel\"\n  row-collapse\n>\n  <gds-filter-chip value=\"all\">All</gds-filter-chip>\n  <gds-filter-chip value=\"top-news\">Top news</gds-filter-chip>\n  <gds-filter-chip value=\"division\">Division</gds-filter-chip>\n</gds-filter-chips>"
     },
     {
       "title": "Hero: Flex",
       "slug": "hero-flex",
       "path": "snippets/hero-flex/hero-flex.json",
-      "code": "<gds-flex flex-direction=\"column\" gap=\"s\">\n  <gds-flex gap=\"s\" align-items=\"center\">\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\" border-color=\"primary\">\n      01\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\" border-color=\"primary\">\n      02\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"10px\" height=\"40px\" border-color=\"primary\">\n      03\n    </gds-card>\n  </gds-flex>\n  <gds-flex gap=\"s\" align-items=\"center\" justify-content=\"flex-end\">\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\" border-color=\"primary\">\n      04\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"10px\" height=\"40px\" border-color=\"primary\">\n      05\n    </gds-card>\n  </gds-flex>\n</gds-flex>",
-      "ogImage": "snippets/hero-flex/hero-flex.og.png"
+      "code": "<gds-flex flex-direction=\"column\" gap=\"s\">\n  <gds-flex gap=\"s\" align-items=\"center\">\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\" border-color=\"primary\">\n      01\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\" border-color=\"primary\">\n      02\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"10px\" height=\"40px\" border-color=\"primary\">\n      03\n    </gds-card>\n  </gds-flex>\n  <gds-flex gap=\"s\" align-items=\"center\" justify-content=\"flex-end\">\n    <gds-card variant=\"secondary\" width=\"40px\" height=\"40px\" border-color=\"primary\">\n      04\n    </gds-card>\n    <gds-card variant=\"secondary\" width=\"10px\" height=\"40px\" border-color=\"primary\">\n      05\n    </gds-card>\n  </gds-flex>\n</gds-flex>"
     },
     {
       "title": "Hero: Form summary",
       "slug": "hero-form-summary",
       "path": "snippets/hero-form-summary/hero-form-summary.json",
-      "code": "<form>\n  <gds-flex flex-direction=\"column\" gap=\"m\" align-items=\"center\" justify-content=\"center\" max-width=\"300px\">\n    <input\n      id=\"designation\"\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Designation\"\n      data-errormessage=\"A designation is required\"\n      required=\"\"\n      hidden\n    />\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>",
-      "ogImage": "snippets/hero-form-summary/hero-form-summary.og.png"
+      "code": "<form>\n  <gds-flex flex-direction=\"column\" gap=\"m\" align-items=\"center\" justify-content=\"center\" max-width=\"300px\">\n    <input\n      id=\"designation\"\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Designation\"\n      data-errormessage=\"A designation is required\"\n      required=\"\"\n      hidden\n    />\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>"
     },
     {
       "title": "Hero: Grid",
       "slug": "hero-grid",
       "path": "snippets/hero-grid/hero-grid.json",
-      "code": "<gds-grid columns=\"12\" gap=\"xs\" width=\"280px\">\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"1/13\"\n    border-radius=\"xs\"\n    height=\"2xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Nav</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"1/5\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Sidebar</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"5/13\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Content</gds-text>\n  </gds-card>\n</gds-grid>",
-      "ogImage": "snippets/hero-grid/hero-grid.og.png"
+      "code": "<gds-grid columns=\"12\" gap=\"xs\" width=\"280px\">\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"1/13\"\n    border-radius=\"xs\"\n    height=\"2xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Nav</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"1/5\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Sidebar</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"5/13\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Content</gds-text>\n  </gds-card>\n</gds-grid>"
     },
     {
       "title": "Hero: Home",
       "slug": "hero-home",
       "path": "snippets/hero-home/hero-home.json",
-      "code": "<gds-flex align-items=\"center\" justify-content=\"center\">\n<gds-badge variant=\"negative\" notification=\"\">10+</gds-badge>\n</gds-flex>",
-      "ogImage": "snippets/hero-home/hero-home.og.png"
+      "code": "<gds-flex align-items=\"center\" justify-content=\"center\">\n<gds-badge variant=\"negative\" notification=\"\">10+</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Hero: Icon",
       "slug": "hero-icon",
       "path": "snippets/hero-icon/hero-icon.json",
-      "code": "<gds-flex alig-items=\"center\" gap=\"m\">\n  <gds-icon-ai size=\"xl\"></gds-icon-ai>\n  <gds-icon-bank size=\"xl\"></gds-icon-bank>\n  <gds-icon-rocket size=\"xl\"></gds-icon-rocket>\n</gds-flex>",
-      "ogImage": "snippets/hero-icon/hero-icon.og.png"
+      "code": "<gds-flex alig-items=\"center\" gap=\"m\">\n  <gds-icon-ai size=\"xl\"></gds-icon-ai>\n  <gds-icon-bank size=\"xl\"></gds-icon-bank>\n  <gds-icon-rocket size=\"xl\"></gds-icon-rocket>\n</gds-flex>"
     },
     {
       "title": "Hero: Image",
       "slug": "hero-image",
       "path": "snippets/hero-image/hero-image.json",
-      "code": "<gds-img width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://api.seb.io/components/image/img.jpg\"></gds-img>",
-      "ogImage": "snippets/hero-image/hero-image.og.png"
+      "code": "<gds-img width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://api.seb.io/components/image/img.jpg\"></gds-img>"
     },
     {
       "title": "Hero: Input",
       "slug": "hero-input",
       "path": "snippets/hero-input/hero-input.json",
-      "code": "<gds-flex width=\"280px\">\n  <gds-input plain>\n    <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n  </gds-input>\n</gds-flex>",
-      "ogImage": "snippets/hero-input/hero-input.og.png"
+      "code": "<gds-flex width=\"280px\">\n  <gds-input plain>\n    <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n  </gds-input>\n</gds-flex>"
     },
     {
       "title": "Hero: Link",
       "slug": "hero-link",
       "path": "snippets/hero-link/hero-link.json",
-      "code": "<gds-link text-decoration=\"underline\">Link text</gds-link>",
-      "ogImage": "snippets/hero-link/hero-link.og.png"
+      "code": "<gds-link text-decoration=\"underline\">Link text</gds-link>"
     },
     {
       "title": "Hero: Menu button",
       "slug": "hero-menu-button",
       "path": "snippets/hero-menu-button/hero-menu-button.json",
-      "code": "<gds-div \n  width=\"max-content\"\n  flex-direction=\"row\"\n  border-color=\"primary\"\n  background-color=\"transparent\"\n  padding=\"0\"\n  border-width=\"0 0 4xs 0\"\n  gap=\"0\"\n>\n  <gds-menu-button compact selected>\n    <gds-icon-bell slot=\"trail\"></gds-icon-bell>\n    Notification\n  </gds-menu-button>\n  <gds-popover>\n    <gds-menu-button compact slot=\"trigger\">\n      <gds-icon-people slot=\"trail\"></gds-icon-people>\n      Profile\n    </gds-menu-button>\n    <gds-flex padding=\"m\">Profile stuff</gds-flex>\n  </gds-popover>\n  <gds-menu-button\n    href=\"https://github.com/seb-oss/green\"\n    compact\n    target=\"_blank\"\n  >\n    <gds-icon-square-arrow-top-right\n      slot=\"trail\"\n    ></gds-icon-square-arrow-top-right>\n    External\n  </gds-menu-button>\n</gds-div>",
-      "ogImage": "snippets/hero-menu-button/hero-menu-button.og.png"
+      "code": "<gds-div \n  width=\"max-content\"\n  flex-direction=\"row\"\n  border-color=\"primary\"\n  background-color=\"transparent\"\n  padding=\"0\"\n  border-width=\"0 0 4xs 0\"\n  gap=\"0\"\n>\n  <gds-menu-button compact selected>\n    <gds-icon-bell slot=\"trail\"></gds-icon-bell>\n    Notification\n  </gds-menu-button>\n  <gds-popover>\n    <gds-menu-button compact slot=\"trigger\">\n      <gds-icon-people slot=\"trail\"></gds-icon-people>\n      Profile\n    </gds-menu-button>\n    <gds-flex padding=\"m\">Profile stuff</gds-flex>\n  </gds-popover>\n  <gds-menu-button\n    href=\"https://github.com/seb-oss/green\"\n    compact\n    target=\"_blank\"\n  >\n    <gds-icon-square-arrow-top-right\n      slot=\"trail\"\n    ></gds-icon-square-arrow-top-right>\n    External\n  </gds-menu-button>\n</gds-div>"
     },
     {
       "title": "Hero: Popover",
       "slug": "hero-popover",
       "path": "snippets/hero-popover/hero-popover.json",
-      "code": "<gds-popover>\n  <gds-button rank=\"secondary\" slot=\"trigger\" size=\"small\">\n    Show popover\n    <gds-icon-chevron-bottom slot=\"trail\"></gds-icon-chevron-bottom>\n  </gds-button>\n  <gds-flex\n    flex-direction=\"column\"\n    gap=\"s\"\n    padding=\"m\"\n    align-items=\"flex-start\"\n    width=\"280px\"\n  >\n    <gds-text tag=\"h3\">Custom popover!</gds-text>\n    <gds-text tag=\"p\"> Popover content </gds-text>\n    <gds-button rank=\"primary\">Action</gds-button>\n  </gds-flex>\n</gds-popover>",
-      "ogImage": "snippets/hero-popover/hero-popover.og.png"
+      "code": "<gds-popover>\n  <gds-button rank=\"secondary\" slot=\"trigger\" size=\"small\">\n    Show popover\n    <gds-icon-chevron-bottom slot=\"trail\"></gds-icon-chevron-bottom>\n  </gds-button>\n  <gds-flex\n    flex-direction=\"column\"\n    gap=\"s\"\n    padding=\"m\"\n    align-items=\"flex-start\"\n    width=\"280px\"\n  >\n    <gds-text tag=\"h3\">Custom popover!</gds-text>\n    <gds-text tag=\"p\"> Popover content </gds-text>\n    <gds-button rank=\"primary\">Action</gds-button>\n  </gds-flex>\n</gds-popover>"
     },
     {
       "title": "Hero: Radio",
       "slug": "hero-radio",
       "path": "snippets/hero-radio/hero-radio.json",
-      "code": "<gds-radio-group>\n  <gds-radio label=\"Radio 1\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Radio 2\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Radio 3\" value=\"3\"></gds-radio>\n</gds-radio-group>",
-      "ogImage": "snippets/hero-radio/hero-radio.og.png"
+      "code": "<gds-radio-group>\n  <gds-radio label=\"Radio 1\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Radio 2\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Radio 3\" value=\"3\"></gds-radio>\n</gds-radio-group>"
     },
     {
       "title": "Hero: Rich text",
       "slug": "hero-rich-text",
       "path": "snippets/hero-rich-text/hero-rich-text.json",
-      "code": "<gds-rich-text>\n  <p>Rich <strong>text</strong> <u>with</u> <em>proper</em> style!</p>\n</gds-rich-text>",
-      "ogImage": "snippets/hero-rich-text/hero-rich-text.og.png"
+      "code": "<gds-rich-text>\n  <p>Rich <strong>text</strong> <u>with</u> <em>proper</em> style!</p>\n</gds-rich-text>"
     },
     {
       "title": "Hero: Segmented control",
       "slug": "hero-segmented-control",
       "path": "snippets/hero-segmented-control/hero-segmented-control.json",
-      "code": "<gds-flex width=\"280px\">\n  <gds-segmented-control value=\"1\" size=\"small\">\n    <gds-segment value=\"1\">Item 1</gds-segment>\n    <gds-segment value=\"2\">Item 2</gds-segment>\n    <gds-segment value=\"3\">Item 3</gds-segment>\n  </gds-segmented-control>\n</gds-flex>",
-      "ogImage": "snippets/hero-segmented-control/hero-segmented-control.og.png"
+      "code": "<gds-flex width=\"280px\">\n  <gds-segmented-control value=\"1\" size=\"small\">\n    <gds-segment value=\"1\">Item 1</gds-segment>\n    <gds-segment value=\"2\">Item 2</gds-segment>\n    <gds-segment value=\"3\">Item 3</gds-segment>\n  </gds-segmented-control>\n</gds-flex>"
     },
     {
       "title": "Hero: Select",
       "slug": "hero-select",
       "path": "snippets/hero-select/hero-select.json",
-      "code": "<gds-select plain width=\"280px\">\n  <gds-icon-books slot=\"lead\"></gds-icon-books>\n  <select>\n    <option value=\"\">Select a value</option>\n    <optgroup label=\"Physics\">\n      <option value=\"quantum-mechanics\">Quantum Mechanics</option>\n      <option value=\"relativity\">Relativity</option>\n    </optgroup>\n    <optgroup label=\"Chemistry\">\n      <option value=\"organic-chemistry\">Organic Chemistry</option>\n      <option value=\"inorganic-chemistry\">Inorganic Chemistry</option>\n    </optgroup>\n    <optgroup label=\"Biology\">\n      <option value=\"genetics\">Genetics</option>\n      <option value=\"microbiology\">Microbiology</option>\n      <option value=\"ecology\">Ecology</option>\n    </optgroup>\n  </select>\n</gds-select>",
-      "ogImage": "snippets/hero-select/hero-select.og.png"
+      "code": "<gds-select plain width=\"280px\">\n  <gds-icon-books slot=\"lead\"></gds-icon-books>\n  <select>\n    <option value=\"\">Select a value</option>\n    <optgroup label=\"Physics\">\n      <option value=\"quantum-mechanics\">Quantum Mechanics</option>\n      <option value=\"relativity\">Relativity</option>\n    </optgroup>\n    <optgroup label=\"Chemistry\">\n      <option value=\"organic-chemistry\">Organic Chemistry</option>\n      <option value=\"inorganic-chemistry\">Inorganic Chemistry</option>\n    </optgroup>\n    <optgroup label=\"Biology\">\n      <option value=\"genetics\">Genetics</option>\n      <option value=\"microbiology\">Microbiology</option>\n      <option value=\"ecology\">Ecology</option>\n    </optgroup>\n  </select>\n</gds-select>"
     },
     {
       "title": "Hero: Signal",
       "slug": "hero-signal",
       "path": "snippets/hero-signal/hero-signal.json",
-      "code": "<gds-signal></gds-signal>",
-      "ogImage": "snippets/hero-signal/hero-signal.og.png"
+      "code": "<gds-signal></gds-signal>"
     },
     {
       "title": "Hero: Spinner",
       "slug": "hero-spinner",
       "path": "snippets/hero-spinner/hero-spinner.json",
-      "code": "<gds-spinner size=\"sm\"></gds-spinner>",
-      "ogImage": "snippets/hero-spinner/hero-spinner.og.png"
+      "code": "<gds-spinner size=\"sm\"></gds-spinner>"
     },
     {
       "title": "Hero: Text",
       "slug": "hero-text",
       "path": "snippets/hero-text/hero-text.json",
-      "code": "<gds-flex width=\"280px\" flex-direction=\"column\" gap=\"s\">\n  <gds-flex gap=\"m\">\n    <gds-text> Text </gds-text>\n    <gds-text text-decoration=\"underline\"> is </gds-text>\n    <gds-text text-decoration=\"currentcolor wavy underline\">\n      Awesome!\n    </gds-text>\n  </gds-flex>\n  <gds-flex>\n    <gds-text font-size=\"body-s\" lines=\"2\" color=\"secondary\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n    </gds-text>\n  </gds-flex>\n</gds-flex>",
-      "ogImage": "snippets/hero-text/hero-text.og.png"
+      "code": "<gds-flex width=\"280px\" flex-direction=\"column\" gap=\"s\">\n  <gds-flex gap=\"m\">\n    <gds-text> Text </gds-text>\n    <gds-text text-decoration=\"underline\"> is </gds-text>\n    <gds-text text-decoration=\"currentcolor wavy underline\">\n      Awesome!\n    </gds-text>\n  </gds-flex>\n  <gds-flex>\n    <gds-text font-size=\"body-s\" lines=\"2\" color=\"secondary\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n    </gds-text>\n  </gds-flex>\n</gds-flex>"
     },
     {
       "title": "Hero: Textarea",
       "slug": "hero-textarea",
       "path": "snippets/hero-textarea/hero-textarea.json",
-      "code": "<gds-flex width=\"280px\">\n  <gds-textarea\n    label=\"Label\"\n    supporting-text=\"Label support text\"\n    resizable=\"false\"\n  >\n  </gds-textarea>\n</gds-flex>",
-      "ogImage": "snippets/hero-textarea/hero-textarea.og.png"
+      "code": "<gds-flex width=\"280px\">\n  <gds-textarea\n    label=\"Label\"\n    supporting-text=\"Label support text\"\n    resizable=\"false\"\n  >\n  </gds-textarea>\n</gds-flex>"
     },
     {
       "title": "Hero: Theme",
       "slug": "hero-theme",
       "path": "snippets/hero-theme/hero-theme.json",
-      "code": "<gds-flex gap=\"m\">\n  <gds-theme color-scheme=\"light\" design-version=\"2023\">\n    <gds-card variant=\"secondary\" align=\"center\">\n      <gds-icon-sun size=\"xl\"></gds-icon-sun>\n    </gds-card>\n  </gds-theme>\n  <gds-theme color-scheme=\"dark\" design-version=\"2023\">\n    <gds-card variant=\"primary\" align=\"center\">\n      <gds-icon-moon size=\"xl\"></gds-icon-moon>\n    </gds-card>\n  </gds-theme>\n</gds-flex>",
-      "ogImage": "snippets/hero-theme/hero-theme.og.png"
+      "code": "<gds-flex gap=\"m\">\n  <gds-theme color-scheme=\"light\" design-version=\"2023\">\n    <gds-card variant=\"secondary\" align=\"center\">\n      <gds-icon-sun size=\"xl\"></gds-icon-sun>\n    </gds-card>\n  </gds-theme>\n  <gds-theme color-scheme=\"dark\" design-version=\"2023\">\n    <gds-card variant=\"primary\" align=\"center\">\n      <gds-icon-moon size=\"xl\"></gds-icon-moon>\n    </gds-card>\n  </gds-theme>\n</gds-flex>"
     },
     {
       "title": "Hero: Video",
       "slug": "hero-video",
       "path": "snippets/hero-video/hero-video.json",
-      "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://api.seb.io/components/video/video.mp4\" playsinline muted autoplay loop></gds-video>",
-      "ogImage": "snippets/hero-video/hero-video.og.png"
+      "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://api.seb.io/components/video/video.mp4\" playsinline muted autoplay loop></gds-video>"
     },
     {
       "title": "Icon: color",
       "slug": "icon-color",
       "path": "snippets/icon-color/icon-color.json",
-      "code": "<gds-flex\n  width=\"100%\"\n  padding=\"2xl\"\n  gap=\"m\"\n  flex-wrap=\"wrap\"\n  align-items=\"center\"\n  justify-content=\"center\"\n>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"primary\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Primary</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"secondary\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Secondary</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"tertiary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"tertiary\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Tertiary</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"positive\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Positive</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"notice\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Notice</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"negative\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Negative</gds-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>\n",
-      "ogImage": "snippets/icon-color/icon-color.og.png"
+      "code": "<gds-flex\n  width=\"100%\"\n  padding=\"2xl\"\n  gap=\"m\"\n  flex-wrap=\"wrap\"\n  align-items=\"center\"\n  justify-content=\"center\"\n>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"primary\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Primary</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"secondary\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Secondary</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"tertiary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"tertiary\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Tertiary</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"positive\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Positive</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"notice\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Notice</gds-text>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"xs\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"100px\"\n      height=\"100px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-ai color=\"negative\" size=\"xl\"></gds-icon-ai>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"column\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"0\"\n    >\n      <gds-text tag=\"small\">Negative</gds-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>\n"
     },
     {
       "title": "Icon: size",
       "slug": "icon-size",
       "path": "snippets/icon-size/icon-size.json",
-      "code": "<gds-flex flex-wrap=\"wrap\" gap=\"l xs\" width=\"100%\" padding=\"2xl\">\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"xs\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">xs</gds-text>\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 8px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"s\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">s</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 12px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"m\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">m</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 16px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"l\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">l</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 24px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"xl\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">xl</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 32px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"2xl\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">2xl</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 40px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"3xl\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">3xl</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 48px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"4xl\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">4xl</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 64px </gds-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>\n",
-      "ogImage": "snippets/icon-size/icon-size.og.png"
+      "code": "<gds-flex flex-wrap=\"wrap\" gap=\"l xs\" width=\"100%\" padding=\"2xl\">\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"xs\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">xs</gds-text>\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 8px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"s\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">s</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 12px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"m\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">m</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 16px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"l\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">l</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 24px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"xl\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">xl</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 32px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"2xl\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">2xl</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 40px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"3xl\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">3xl</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 48px </gds-text>\n    </gds-flex>\n  </gds-flex>\n\n  <gds-flex\n    flex-direction=\"column\"\n    align-items=\"center\"\n    justify-content=\"flex-start\"\n    gap=\"s\"\n  >\n    <gds-card\n      variant=\"secondary\"\n      width=\"80px\"\n      height=\"80px\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n    >\n      <gds-icon-credit-card size=\"4xl\"></gds-icon-credit-card>\n    </gds-card>\n    <gds-flex\n      flex-direction=\"row\"\n      align-items=\"center\"\n      justify-content=\"center\"\n      border-color=\"primary\"\n      gap=\"xs\"\n    >\n      <gds-text tag=\"small\">4xl</gds-text>\n\n      <gds-text tag=\"small\" color=\"secondary/0.4\"> 64px </gds-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>\n"
     },
     {
       "title": "Icon: Usage",
       "slug": "icon-usage",
       "path": "snippets/icon-usage/icon-usage.json",
-      "code": "<gds-grid columns=\"4\" padding=\"2xl\" width=\"max-content\" margin=\"0 auto\" gap=\"xs\" color=\"primary\">\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-home-open solid size=\"l\"></gds-icon-home-open>\n    <gds-text>Hem</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-bag size=\"l\"></gds-icon-bag>\n    <gds-text>Portfölj</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-book size=\"l\"></gds-icon-book>\n    <gds-text>Ordrar</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-search-menu size=\"l\"></gds-icon-search-menu>\n    <gds-text>Marknad</gds-text>\n  </gds-flex>\n</gds-flex>",
-      "ogImage": "snippets/icon-usage/icon-usage.og.png"
+      "code": "<gds-grid columns=\"4\" padding=\"2xl\" width=\"max-content\" margin=\"0 auto\" gap=\"xs\" color=\"primary\">\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-home-open solid size=\"l\"></gds-icon-home-open>\n    <gds-text>Hem</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-bag size=\"l\"></gds-icon-bag>\n    <gds-text>Portfölj</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-book size=\"l\"></gds-icon-book>\n    <gds-text>Ordrar</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-search-menu size=\"l\"></gds-icon-search-menu>\n    <gds-text>Marknad</gds-text>\n  </gds-flex>\n</gds-flex>"
     },
     {
       "title": "Link: Leading",
       "slug": "link-leading",
       "path": "snippets/link-leading/link-leading.json",
-      "code": "<gds-link>\n<gds-icon-cain-link slot=\"lead\"></gds-icon-cain-link>\n  Link text\n</gds-link>",
-      "ogImage": "snippets/link-leading/link-leading.og.png"
+      "code": "<gds-link>\n<gds-icon-cain-link slot=\"lead\"></gds-icon-cain-link>\n  Link text\n</gds-link>"
     },
     {
       "title": "Link: Text decoration",
       "slug": "link-text-decoration",
       "path": "snippets/link-text-decoration/link-text-decoration.json",
-      "code": "<gds-link text-decoration=\"underline\">Link text</gds-link>",
-      "ogImage": "snippets/link-text-decoration/link-text-decoration.og.png"
+      "code": "<gds-link text-decoration=\"underline\">Link text</gds-link>"
     },
     {
       "title": "Link: Trailing",
       "slug": "link-trailing",
       "path": "snippets/link-trailing/link-trailing.json",
-      "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>",
-      "ogImage": "snippets/link-trailing/link-trailing.og.png"
+      "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>"
     },
     {
       "title": "Segmented control: Icons",
       "slug": "segmented-control-icons",
       "path": "snippets/segmented-control-icons/segmented-control-icons.json",
-      "code": "<gds-segmented-control value='2' width=\"400px\">\n  <gds-segment value=\"1\">\n    <gds-flex align-items=\"center\" justify-content=\"center\" gap=\"xs\">\n      <gds-icon-square-grid-circle size=\"m\"></gds-icon-square-grid-circle>\n      Item 1\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"2\">\n    <gds-flex align-items=\"center\" justify-content=\"center\" gap=\"xs\">\n      <gds-icon-devices size=\"m\"></gds-icon-devices>\n      Item 2\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"3\">\n    <gds-flex align-items=\"center\" justify-content=\"center\" gap=\"xs\">\n      <gds-icon-brand-green size=\"m\"></gds-icon-brand-green>\n      Item 3\n    </gds-flex>\n  </gds-segment>\n</gds-segmented-control>",
-      "ogImage": "snippets/segmented-control-icons/segmented-control-icons.og.png"
+      "code": "<gds-segmented-control value='2' width=\"400px\">\n  <gds-segment value=\"1\">\n    <gds-flex align-items=\"center\" justify-content=\"center\" gap=\"xs\">\n      <gds-icon-square-grid-circle size=\"m\"></gds-icon-square-grid-circle>\n      Item 1\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"2\">\n    <gds-flex align-items=\"center\" justify-content=\"center\" gap=\"xs\">\n      <gds-icon-devices size=\"m\"></gds-icon-devices>\n      Item 2\n    </gds-flex>\n  </gds-segment>\n  <gds-segment value=\"3\">\n    <gds-flex align-items=\"center\" justify-content=\"center\" gap=\"xs\">\n      <gds-icon-brand-green size=\"m\"></gds-icon-brand-green>\n      Item 3\n    </gds-flex>\n  </gds-segment>\n</gds-segmented-control>"
     },
     {
       "title": "Segmented control: overflow",
       "slug": "segmented-control-overflow",
       "path": "snippets/segmented-control-overflow/segmented-control-overflow.json",
-      "code": "<gds-segmented-control value=\"1\" width=\"80%\">\n  <gds-segment value=\"1\" min-width=\"200px\">Kreditbedömning</gds-segment>\n  <gds-segment value=\"flaschenabfüllmaschine\" max-width=\"150px\">Ränteskillnadsersättning</gds-segment>\n  <gds-segment value=\"longlonglong\">Förmögenhetsskatt</gds-segment>\n  <gds-segment value=\"longlabel\">Huvudlåntagare</gds-segment>\n  <gds-segment value=\"pinetrees\">Investeringssparkonto</gds-segment>\n</gds-segmented-control>",
-      "ogImage": "snippets/segmented-control-overflow/segmented-control-overflow.og.png"
+      "code": "<gds-segmented-control value=\"1\" width=\"80%\">\n  <gds-segment value=\"1\" min-width=\"200px\">Kreditbedömning</gds-segment>\n  <gds-segment value=\"flaschenabfüllmaschine\" max-width=\"150px\">Ränteskillnadsersättning</gds-segment>\n  <gds-segment value=\"longlonglong\">Förmögenhetsskatt</gds-segment>\n  <gds-segment value=\"longlabel\">Huvudlåntagare</gds-segment>\n  <gds-segment value=\"pinetrees\">Investeringssparkonto</gds-segment>\n</gds-segmented-control>"
     },
     {
       "title": "Segmented control: size default ",
       "slug": "segmented-control-size-default",
       "path": "snippets/segmented-control-size-default/segmented-control-size-default.json",
-      "code": "<gds-segmented-control width=\"280px\" value=\"2\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>",
-      "ogImage": "snippets/segmented-control-size-default/segmented-control-size-default.og.png"
+      "code": "<gds-segmented-control width=\"280px\" value=\"2\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     },
     {
       "title": "Segmented control: size small",
       "slug": "segmented-control-size-small",
       "path": "snippets/segmented-control-size-small/segmented-control-size-small.json",
-      "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>",
-      "ogImage": "snippets/segmented-control-size-small/segmented-control-size-small.og.png"
+      "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     },
     {
       "title": "Signal: Example",
       "slug": "signal-example",
       "path": "snippets/signal-example/signal-example.json",
-      "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>",
-      "ogImage": "snippets/signal-example/signal-example.og.png"
+      "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
   "total": 93,
-  "lastUpdated": "2025-07-15T12:40:00.102Z"
+  "lastUpdated": "2025-07-15T12:49:31.805Z"
 }
