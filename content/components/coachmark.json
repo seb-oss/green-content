@@ -21,9 +21,14 @@
     {
       "title": "Writing UX text for coach marks",
       "tag": "H2",
-      "section-content": "## Use informative words  \n\nThe heading should be clear and informative. Avoid information-poor words such as information, important, welcome, and regarding.  \n\n One message per coach mark, write short and to the point. If there is a lot to tell, write a short summary and give the user a read more link to find out more.",
       "cols": "1",
       "columns": [
+        {
+          "type": "rich-text",
+          "title": "Use informative words  ",
+          "tag": "H3",
+          "content": "The heading should be clear and informative. Avoid information-poor words such as information, important, welcome, and regarding.  \n\n One message per coach mark, write short and to the point. If there is a lot to tell, write a short summary and give the user a read more link to find out more."
+        },
         {
           "type": "rich-text",
           "title": "The link text ",
