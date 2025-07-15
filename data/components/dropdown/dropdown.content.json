@@ -3,6 +3,7 @@
   "slug": "dropdown",
   "hero_snippet": "hero-dropdown",
   "beta": true,
+  "soon": false,
   "summary": "A dropdown enables the user to choose one or multiple options from a list.",
   "preamble": "The dropdown component is designed for single or multiple selections but with customizable features.\n",
   "anatomy": true,
@@ -315,7 +316,7 @@
     },
     {
       "title": "Capitalisation rules",
-      "section-content": "Headings and labels should not have every word capitalised. Use capital letters only for:\n\n*   The first letter of the first word\n    \n*   Proper names"
+      "section-content": "Headings and labels should not have every word capitalised. Use capital letters only for:\n\n*   The first letter of the first word\n    \n*   Proper names\n    \n*   Abbreviations"
     }
   ],
   "accessibility": [
