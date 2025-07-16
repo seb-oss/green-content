@@ -3,6 +3,7 @@
   "slug": "menu-button",
   "hero_snippet": "hero-menu-button",
   "beta": false,
+  "soon": false,
   "summary": "A menu button combines button and link behaviors for navigation menus.",
   "preamble": "The menu button is used to build a navigation bar. It helps users find their way by linking to sections on current page or other pages. The button can include text and an optional icon.",
   "anatomy": true,
@@ -78,6 +79,13 @@
           ]
         }
       ]
+    }
+  ],
+  "ux-text": [
+    {
+      "title": "Writing UX text for menu buttons",
+      "tag": "H2",
+      "section-content": "Menu buttons help users navigate clearly and quickly. Use clear, concise text so users immediately understand where they’re going. Unlike most other buttons, the menu button doesn’t need to include a verb.\n\n#### Best practices\n\n*   **Use short, simple text** – ideally 1–2 words\n    \n*   **Be descriptive** – the text should make the destination obvious\n    \n*   **Use sentence case** – capitalise only the first word (e.g. _Profile_, _Settings_)\n    \n*   **Avoid unnecessary words** – write _Profile_ instead of _Go to profile page_"
     }
   ]
 }
