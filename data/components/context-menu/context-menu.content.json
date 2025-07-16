@@ -3,6 +3,7 @@
   "slug": "context-menu",
   "hero_snippet": "hero-context-menu",
   "beta": false,
+  "soon": false,
   "summary": "A context menu displays a list of contextual actions.",
   "preamble": "Context menu provides a compact menu of contextual actions relevant to a specific item, row, or element within an interface, such as a table, list, or card. Triggered by a dedicated button (e.g., a \"More\" or three-dot icon), it appears as a popover, offering a focused set of options like edit, delete, copy, or share. The context menu enhances user efficiency by surfacing relevant actions directly tied to the selected item, reducing clutter and improving accessibility.",
   "anatomy": true,
@@ -85,6 +86,13 @@
           ]
         }
       ]
+    }
+  ],
+  "ux-text": [
+    {
+      "title": "Writing UX text for context menus",
+      "tag": "H2",
+      "section-content": "If the button needs text for accessibility, use \"More\" (or \"Mer\" in Swedish).\n\nWhen the user selects the button, it opens a dropdown on desktop, or a slide-up on mobile. This space is limited, so keep the text short. For example, instead of saying “Change payment” and “Delete payment”, just say \"Change\" and \"Delete\". The user is already on the payments page, so they’ll understand the context.\n\nUse concise verbs like \"Change\", \"Delete\", and \"Remove\" to save space and avoid repetition. If the action isn’t clear, add a bit more context, but keep it as brief as possible.\n\n(Add do and don't example)"
     }
   ]
 }
