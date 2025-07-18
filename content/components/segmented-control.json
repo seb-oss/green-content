@@ -3,6 +3,7 @@
   "slug": "segmented-control",
   "hero_snippet": "hero-segmented-control",
   "beta": true,
+  "soon": false,
   "summary": "Segmented control allows users to select a single option, immediately changing the display to reflect their selection. It is used for switching views or view options, not for navigation.",
   "preamble": "The segmented control switches between views or to sort elements. The segmented control is good to use to provide the user with closely related choices that affect the content or view.",
   "anatomy": true,
@@ -22,8 +23,13 @@
       }
     ]
   },
-  "tags": ["navigation", "button"],
-  "category": ["Components"],
+  "tags": [
+    "navigation",
+    "button"
+  ],
+  "category": [
+    "Components"
+  ],
   "platform": {
     "web": true,
     "ios": false,
@@ -121,7 +127,7 @@
   "ux-text": [
     {
       "title": "Writing",
-      "section-content": "In general, there is not much room for vast labels in segmented controls. Keep the text of the controls concise and simple.\n\n*   Write short and to the point\n    \n*   Make it clear what content the user can expect when clicking\n    \n*   Only use upper case on the first word, or if it is a proper name or abbreviation"
+      "section-content": "In general, there is not much room for vast labels in segmented controls. Keep the text of the controls concise and simple.\n\n*   Write short and to the point\n    \n*   Make it clear what content the user can expect when clicking\n    \n*   Only use upper case on the first word, or if it is a proper name or abbreviation\n    \n\n(Add real example according to the ux text principles)"
     }
   ],
   "accessibility": [
