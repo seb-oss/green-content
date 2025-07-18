@@ -410,7 +410,7 @@
           "type": "rich-text",
           "title": "Don't",
           "tag": "H3",
-          "content": "*   Do not use verbs in the label.\n    \n*   Do not use placeholder text.\n    \n*   Do not use too many characters."
+          "content": "*   Don't use verbs in the label.\n    \n*   Don't use placeholder text.\n    \n*   Don't use too many characters."
         }
       ]
     },
