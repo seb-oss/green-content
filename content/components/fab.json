@@ -105,7 +105,7 @@
   ],
   "ux-text": [
     {
-      "title": "Writing UX text for FAB",
+      "title": "Writing UX text for FAB's",
       "tag": "H2",
       "section-content": "The same text rules apply to FAB's (floating action buttons) as to regular buttons.\n\n[See guidelines for buttons](https://seb.io/component/button)"
     }
