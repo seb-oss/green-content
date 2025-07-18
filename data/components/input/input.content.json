@@ -314,32 +314,32 @@
       "columns": [
         {
           "type": "figma",
-          "caption": "Single-word example (Eng).",
+          "caption": "Single-word example (English).",
           "node": "single-or-complete-1"
         },
         {
           "type": "figma",
-          "caption": "Single-word example (Swe).",
+          "caption": "Single-word example (Swedish).",
           "node": "single-or-complete-2"
         },
         {
           "type": "figma",
-          "caption": "Complete sentence example (Eng).",
+          "caption": "Complete sentence example (English).",
           "node": "single-or-complete-3"
         },
         {
           "type": "figma",
-          "caption": "Complete sentence example (Swe).",
+          "caption": "Complete sentence example (Swedish).",
           "node": "single-or-complete-4"
         },
         {
           "type": "figma",
-          "caption": "Query format example (Eng).",
+          "caption": "Query format example (English).",
           "node": "query-format-1"
         },
         {
           "type": "figma",
-          "caption": "Query format example (Swe).",
+          "caption": "Query format example (Swedish).",
           "node": "query-format-2"
         }
       ]
@@ -381,10 +381,12 @@
       "columns": [
         {
           "type": "figma",
+          "caption": "Display the currency with a badge (English)",
           "node": "no-kronor-eng"
         },
         {
           "type": "figma",
+          "caption": "Display the currency with a badge (Swedish)",
           "node": "no-kronor-swe"
         }
       ]
