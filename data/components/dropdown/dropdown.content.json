@@ -265,8 +265,9 @@
   ],
   "ux-text": [
     {
-      "title": "Labels",
-      "section-content": "The same writing principles apply to labels for input fields, radio buttons, checkboxes, dropdowns, headings, page titles, navigation links, and other short texts.\n\nWhen selection components follow common design standards, users understand how to use them and submit their choices. You don’t need to add words like Select in dropdowns they already know what to do."
+      "title": "Writing UX text for drop-downs",
+      "tag": "H2",
+      "section-content": "### Labels\n\nThe same writing principles apply to labels for input fields, drop-downs, radio buttons, checkboxes, headings, page titles, navigation links, and other short texts.\n\nWhen selection components follow common design standards, users understand how to use them and submit their choices. You don’t need to add words like Select in drop-downs they already know what to do."
     },
     {
       "title": "Use clear and informative words",
@@ -281,35 +282,35 @@
         },
         {
           "type": "figma",
-          "caption": "Query format example (Eng).",
+          "caption": "Query format example",
           "node": "single-words"
         },
         {
           "type": "rich-text",
           "title": "Multiple selections",
           "tag": "H3",
-          "content": "If users can choose multiple options in a dropdown, clarify this in the label or description. Dropdown choices should be short and easy to understand."
+          "content": "If users can choose multiple options in a dropdown, clarify this in the label or description. Drop-down choices should be short and easy to understand."
         },
         {
           "type": "figma",
-          "caption": "Multiple selection example (Eng).",
+          "caption": "Multiple selection example",
           "node": "multiple-selections"
         }
       ]
     },
     {
       "title": "Placeholder text",
-      "section-content": "If a dropdown has no default option, the placeholder text should say Select.",
+      "section-content": "If a drop-down has no default option, the placeholder text should say Select.",
       "cols": "2",
       "columns": [
         {
           "type": "figma",
-          "caption": "Placeholder text example (Eng).",
+          "caption": "Placeholder text example (English).",
           "node": "placeholder-eng"
         },
         {
           "type": "figma",
-          "caption": "Placeholder text example (Swe).",
+          "caption": "Placeholder text example (Swedish).",
           "node": "placeholder-swe"
         }
       ]
