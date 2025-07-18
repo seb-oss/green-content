@@ -27,7 +27,7 @@
           "type": "rich-text",
           "title": "Use informative words  ",
           "tag": "H3",
-          "content": "The heading should be clear and informative. Avoid information-poor words such as information, important, welcome, and regarding.  \n\n One message per coach mark, write short and to the point. If there is a lot to tell, write a short summary and give the user a read more link to find out more."
+          "content": "The heading should be clear and informative. Avoid information-poor words such as \"information\", \"important\", \"welcome\", and \"regarding\".  \n\n One message per coach mark, write short and to the point. If there is a lot to tell, write a short summary and give the user a read more link to find out more."
         },
         {
           "type": "rich-text",
@@ -39,7 +39,7 @@
           "type": "rich-text",
           "title": "The button text ",
           "tag": "H3",
-          "content": "The button closes the coach mark, and therefore we write “Close” in the button. Do not write vague options like ”Got it!” Or ”I understand”.\n\n(Add an example with button and link)"
+          "content": "The button closes the coach mark, and therefore we write “Close” in the button. Do not write vague options like ”Got it!” or ”I understand”.\n\n(Add an example with button and link)"
         }
       ]
     }
