@@ -165,7 +165,7 @@
     },
     {
       "title": "Include only the necessary words",
-      "tag": "H2",
+      "tag": "H3",
       "section-content": "Sometimes the link can be a complete sentence, but don't make the sentence too long. Never include several sentences. Don't include preceding articles or punctuation mark."
     },
     {
@@ -200,12 +200,12 @@
     },
     {
       "title": "Link outside of the text",
-      "tag": "H4",
+      "tag": "H3",
       "section-content": "Follow us on Twitter and LinkedIn to get the latest insight on corporate, institutional and investment banking. [Follow us on Social media](https://designlibrary.sebgroup.com/components/component-link/)"
     },
     {
       "title": "Add items to a list",
-      "tag": "H4",
+      "tag": "H3",
       "section-content": "Although links are primarily to be used for navigation, it happens that we use linked design for actions that the customer can perform. When the link indicates that it can add more of the same item to a list, you may begin the link text with a plus sign. For instance: [\\+ Add another company](https://designlibrary.sebgroup.com/components/component-link/)\n\nHowever, links that indicate that the user can delete an item should not begin with a minus."
     },
     {
