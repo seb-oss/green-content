@@ -124,9 +124,9 @@
   ],
   "ux-text": [
     {
-      "title": "Use a verb that describes the user’s action",
+      "title": "Writing UX text for links",
       "tag": "H2",
-      "section-content": "If the user is supposed to perform an action when clicking the link, try to use a verb in the active form that describes the action. It's fine to use two verb phrases, if the user must log in or go to a page to read more before performing the main action.\n\nNever use the phrase \"click here\". Neither by itself nor in a longer phrase. It makes it unclear to the user what will happen. \"Click here\" links are also inaccessible for users with screen readers. Furthermore, \"click here\" doesn't work for users that don't use a mouse or use a phone or tablet to navigate the site."
+      "section-content": "### Use a verb that describes the user’s action\n\nIf the user is supposed to perform an action when clicking the link, try to use a verb in the active form that describes the action. It's fine to use two verb phrases, if the user must log in or go to a page to read more before performing the main action.\n\nNever use the phrase \"click here\". Neither by itself nor in a longer phrase. It makes it unclear to the user what will happen. \"Click here\" links are also inaccessible for users with screen readers. Furthermore, \"click here\" doesn't work for users that don't use a mouse or use a phone or tablet to navigate the site.\n\n**Use consistent casing**: Only capitalise the first letter of the first word."
     },
     {
       "title": "Upper and lower case",
