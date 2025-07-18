@@ -218,8 +218,9 @@
   ],
   "ux-text": [
     {
-      "title": "Labels",
-      "section-content": "Write checkbox labels so customers can easily understand what checking or leaving the box blank means. This is especially important for stand-alone checkboxes, such as accepting terms or subscribing to emails with news and offers. If there is a header label, make sure it matches the individual checkbox label, whether grouped or stand-alone. Never use checkbox if the answer is yes or no."
+      "title": "Writing UX text for checkboxes",
+      "tag": "H2",
+      "section-content": "### Lables\n\nWrite checkbox labels so customers can easily understand what checking or leaving the box blank means. This is especially important for stand-alone checkboxes, such as accepting terms or subscribing to emails with news and offers. If there is a header label, make sure it matches the individual checkbox label, whether grouped or stand-alone. Never use checkbox if the answer is yes or no."
     },
     {
       "title": "Stand-alone checkbox",
