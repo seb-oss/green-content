@@ -296,12 +296,6 @@
           "node": "negation-do-eng"
         },
         {
-          "type": "rich-text",
-          "title": "Svenska",
-          "tag": "H4",
-          "content": "Ja tack, jag vill ha exklusiva erbjudanden och nyheter via mejl."
-        },
-        {
           "type": "figma",
           "node": "negation-do-swe"
         }
