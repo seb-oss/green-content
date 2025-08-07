@@ -62,7 +62,7 @@
   ],
   "ux-text": [
     {
-      "title": "Writing UX text for select",
+      "title": "Writing UX text for selects",
       "tag": "H2",
       "section-content": "The same text principle apply to select as dropdown.\n\n[See guidelines for dropdown](https://stg.seb.io/component/dropdown)"
     }
