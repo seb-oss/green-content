@@ -2,13 +2,13 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-07T08:39:38.839Z",
+    "lastUpdated": "2025-08-07T10:46:39.389Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
         "content": {
-          "title": "Designed to bring unity to our digital experiences.",
-          "summary": "Green Design System is built to support creation of beautiful, consistent and accessible financial products for generations to come.",
+          "title": "Green Design System",
+          "summary": "is built to support creation of beautiful, consistent and accessible financial products for generations to come.",
           "path": "home.json"
         }
       },
