@@ -4,6 +4,7 @@
   "summary": "The fundamental parts of the design system that supports all of SEB's interfaces such as colour and typography.",
   "sections": [
     {
+      "max-width": false,
       "cols": "1",
       "columns": [
         {
@@ -14,6 +15,7 @@
     },
     {
       "title": "Colours",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -31,6 +33,7 @@
     {
       "title": "Typography",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -47,7 +50,12 @@
           "type": "paragraph",
           "tag": "p",
           "text": "Our typography guidelines outline how to use font styles, sizes,  and weights effectively across different elements, from headings  and body text to small UI details."
-        },
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "columns": [
         {
           "type": "image",
           "src": "/assets/metallic-surface.jpg"
@@ -56,6 +64,7 @@
     },
     {
       "title": "Icons",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
