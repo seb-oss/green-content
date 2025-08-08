@@ -6,6 +6,7 @@
     {
       "title": "What is Green?",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -32,6 +33,7 @@
     {
       "title": "How Green works",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -44,6 +46,7 @@
     {
       "title": "Maintaining and educating",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -56,6 +59,7 @@
     {
       "title": "Built on contributions",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -67,6 +71,7 @@
     },
     {
       "title": "Contact us",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
