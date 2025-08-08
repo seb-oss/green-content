@@ -4,6 +4,16 @@
   "summary": "Green Design System is the design system for Skandinaviska Enskilda Banken to make it easier and faster to build beautiful digital products and experiences under the SEB brand.",
   "sections": [
     {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/SEB20240905_Seb_innovation_studio_0928_v001.jpg"
+        }
+      ]
+    },
+    {
       "title": "What is Green?",
       "tag": "H2",
       "max-width": true,
@@ -53,6 +63,15 @@
           "type": "paragraph",
           "tag": "p",
           "text": "Navigating the world of Green Design System involves more than just design and code. Delve into our Figma libraries, explore diverse code implementations, and leverage our comprehensive documentation. We're committed to supporting your journey with coaching sessions tailored for both design intricacies and development challenges."
+        }
+      ]
+    },
+    {
+      "max-width": true,
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/SEB20241114_11399.jpg"
         }
       ]
     },
