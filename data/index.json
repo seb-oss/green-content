@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-08T11:19:59.806Z",
+    "lastUpdated": "2025-08-08T11:32:33.905Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -449,6 +449,15 @@
             "path": "pages/foundationcolours/foundationcolours.json",
             "endpoints": {
               "content": "pages/foundationcolours/foundationcolours.json"
+            }
+          },
+          {
+            "title": "Typography",
+            "slug": "foundation/typography",
+            "summary": "Our typography guidelines outline how to use font styles, sizes,  and weights effectively across different elements, from headings  and body text to small UI details.",
+            "path": "pages/foundationtypography/foundationtypography.json",
+            "endpoints": {
+              "content": "pages/foundationtypography/foundationtypography.json"
             }
           },
           {

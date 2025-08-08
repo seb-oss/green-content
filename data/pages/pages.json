@@ -25,12 +25,18 @@
       "path": "pages/foundationcolours/foundationcolours.json"
     },
     {
+      "title": "Typography",
+      "slug": "foundation/typography",
+      "summary": "Our typography guidelines outline how to use font styles, sizes,  and weights effectively across different elements, from headings  and body text to small UI details.",
+      "path": "pages/foundationtypography/foundationtypography.json"
+    },
+    {
       "title": "UX writing",
       "slug": "ux-writing",
       "summary": "Regardless of where, when or how the customer meets us, the experience of SEB must be the same because each meeting contributes to how we are perceived. A positive customer experience opens the door to new business. This is particularly important in texts aimed at customers. Mistakes affect the reader's concentration on the content and understanding of the text. Because our texts are correct, our credibility with customers and other visitors increases.",
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 5,
-  "lastUpdated": "2025-08-08T11:19:59.807Z"
+  "total": 6,
+  "lastUpdated": "2025-08-08T11:32:33.906Z"
 }
