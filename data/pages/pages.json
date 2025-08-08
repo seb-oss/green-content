@@ -15,7 +15,7 @@
     {
       "title": "Foundation",
       "slug": "foundation",
-      "summary": "Green Design System, a framework designed to bring unity, efficiency, and coherent perspective to our digital experiences. Over time it will grow and evolve but always reflect our design philosophy. User needs first, being forefront and with confidence.",
+      "summary": "The fundamental parts of the design system that supports all of SEB's interfaces such as color and typography.",
       "path": "pages/foundation/foundation.json"
     },
     {
@@ -26,5 +26,5 @@
     }
   ],
   "total": 4,
-  "lastUpdated": "2025-08-08T10:50:29.337Z"
+  "lastUpdated": "2025-08-08T11:05:31.680Z"
 }
