@@ -9,13 +9,13 @@
         {
           "type": "image",
           "src": "/assets/tonality-circles.jpg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "h2",
-          "size": "heading-l",
-          "text": "Tonality"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Tonality",
+      "cols": "1",
+      "columns": [
         {
           "type": "paragraph",
           "tag": "p",
