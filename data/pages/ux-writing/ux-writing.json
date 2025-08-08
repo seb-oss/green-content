@@ -25,12 +25,6 @@
           "title": "A few examples of UX texts:",
           "tag": "H3",
           "content": "*   Labels and headings\n    \n*   Menus\n    \n*   Buttons, links, and navigation texts\n    \n*   Error messages\n    \n*   Help texts and instructions\n    \n*   Onboardings\n    \n*   Empty states\n    \n*   Loading screen messages\n    \n*   Success messages\n    \n*   Disclaimer texts"
-        },
-        {
-          "type": "rich-text",
-          "title": "Translate texts from Swedish to English",
-          "tag": "H2",
-          "content": "If you need to translate Swedish texts into English, the bank has agreements with, among others, Språkkonsulterna and Lionbridge. Contact them directly to order a translation.\n\nWhen you contact them to ask if they are available to take on the assignment, they want to know approximately how many words are to be translated. They also need to know the name of who will pay the invoice before you send the translation document.\n\n*   Språkkonsulterna: [info@sprakkonsulterna.se](mailto:info@sprakkonsulterna.se)\n    \n*   Lionbridge: [jakob.nordby@lionbridge.com](mailto:jakob.nordby@lionbridge.com)\n    \n\nWhen you need help with tone-of-voice, instructions, vocabulary or a UX writer to work with, please don’t hesitate to contact the UX writing team. Reach out in the Teams channels UX writing in Green Design System or UX writing in CX Community, or if you already have a contact or dedicated writer for your team or product, simply contact that person."
         }
       ]
     }
