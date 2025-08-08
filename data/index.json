@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-08T11:05:31.679Z",
+    "lastUpdated": "2025-08-08T11:09:28.730Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -436,7 +436,7 @@
           {
             "title": "Foundation",
             "slug": "foundation",
-            "summary": "The fundamental parts of the design system that supports all of SEB's interfaces such as color and typography.",
+            "summary": "The fundamental parts of the design system that supports all of SEB's interfaces such as colour and typography.",
             "path": "pages/foundation/foundation.json",
             "endpoints": {
               "content": "pages/foundation/foundation.json"
