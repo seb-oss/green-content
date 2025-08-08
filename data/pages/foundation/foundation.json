@@ -9,43 +9,13 @@
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Our tonality is a voice that speaks to the user, we do not scream, but when needed we raise our voice to be heard. The balance in volume allows us to point the user in the right direction, wave to get noticed or whisper when needed."
-        },
-        {
           "type": "image",
           "src": "/assets/tonality-circles.jpg"
         },
         {
-          "type": "details",
-          "summary": "Timeless",
-          "open": false,
-          "content": "Embracing a modern aesthetic, the Green Design System radiates elegance. Its visual elements are a harmonious blend of contemporary design principles, ensuring a fresh and relevant appearance that stands the test of time."
-        },
-        {
-          "type": "details",
-          "summary": "To the point",
-          "open": false,
-          "content": "Elegance is found in simplicity. The Green Design System champions an uncluttered approach, where every visual element serves a purpose. The result is an interface that feels effortless, allowing users to navigate seamlessly without unnecessary distractions."
-        },
-        {
-          "type": "details",
-          "summary": "Confidence in simplicity",
-          "open": false,
-          "content": "In the world of design, confidence shines through simplicity. The Green Design System adheres to the philosophy that \"less is more.\" By stripping away the superfluous, it exudes confidence, allowing the core essence of the design to take center stage."
-        },
-        {
-          "type": "details",
-          "summary": "Attention to detail",
-          "open": false,
-          "content": "Just as in our business operations, the Green Design System is meticulous in its attention to detail. Every pixel, every color, and every interaction is carefully considered, contributing to a visually polished and refined user interface."
-        },
-        {
-          "type": "details",
-          "summary": "Effortless",
-          "open": false,
-          "content": "The visual style of the Green Design System is not just about aesthetics; it's about creating an effortless harmony. The components seamlessly interact, the color palette is carefully curated, and the typography flows with purpose. It's a visual symphony that enhances the user experience."
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Our tonality is a voice that speaks to the user, we do not scream, but when needed we raise our voice to be heard. The balance in volume allows us to point the user in the right direction, wave to get noticed or whisper when needed."
         }
       ]
     },
@@ -73,44 +43,6 @@
           "type": "paragraph",
           "tag": "p",
           "text": "The Green Design System ensures a unified visual experience. Empowering designers and developers with versatile, accessible and coherent components."
-        },
-        {
-          "type": "details",
-          "name": "features",
-          "summary": "Consistency",
-          "open": false,
-          "content": "The Green Design System ensures a seamless and consistent visual experience across our entire product suite. Every element, from buttons to typography, is meticulously crafted, creating a cohesive and polished user interface."
-        },
-        {
-          "type": "details",
-          "name": "features",
-          "summary": "Efficiency",
-          "open": false,
-          "content": "With an extensive library of reusable components, Green Design System empowers our teams to design and develop with speed and precision. This efficiency allows for more time spent on creative innovation and less on repetitive tasks, ultimately reducing time-to-market."
-        },
-        {
-          "type": "details",
-          "summary": "Adaptability",
-          "open": false,
-          "content": "Green Design System adapts to the ever-changing landscape of our product needs. Whether it's a minor enhancement or a major overhaul, the system flexibly scales to maintain a user-centric and intuitive experience."
-        },
-        {
-          "type": "details",
-          "summary": "User-Centric Principles",
-          "open": false,
-          "content": "Rooted in user-centric design principles, our Design System places the user at the forefront. From accessible color choices to responsive design elements, we prioritize inclusivity and user satisfaction, ensuring that our products are both functional and enjoyable."
-        },
-        {
-          "type": "details",
-          "summary": "Components and Styles",
-          "open": false,
-          "content": "Explore a palette inspired by the versatility and vibrancy of our brand promise, typography and iconography are carefully chosen for both style and functionality. Our library of components is a playground of possibilities, designed to create interfaces that are not only visually appealing but also accessible and highly UX centered."
-        },
-        {
-          "type": "details",
-          "summary": "Implementation",
-          "open": false,
-          "content": "Integrating the Green Design System into your projects is as effortless as a seamless user experience. Whether you're a designer seeking inspiration or a developer looking for efficient code snippets, our documentation provides clear guidance. Let's embark on this journey together, creating digital experiences that reflect the innovation and precision of SEB."
         }
       ]
     }
