@@ -67,7 +67,8 @@
       ]
     },
     {
-      "max-width": true,
+      "max-width": false,
+      "cols": "1",
       "columns": [
         {
           "type": "image",
