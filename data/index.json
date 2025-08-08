@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-08T11:09:28.730Z",
+    "lastUpdated": "2025-08-08T11:19:44.945Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -440,6 +440,15 @@
             "path": "pages/foundation/foundation.json",
             "endpoints": {
               "content": "pages/foundation/foundation.json"
+            }
+          },
+          {
+            "title": "Colours",
+            "slug": "/foundation/colours",
+            "summary": "Colour is a powerful tool in design, shaping hierarchy, guiding attention, and reinforcing brand identity. In Green, colours work alongside whitespace and typography to create clarity and balance.",
+            "path": "pages/foundationcolours/foundationcolours.json",
+            "endpoints": {
+              "content": "pages/foundationcolours/foundationcolours.json"
             }
           },
           {

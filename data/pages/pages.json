@@ -19,12 +19,18 @@
       "path": "pages/foundation/foundation.json"
     },
     {
+      "title": "Colours",
+      "slug": "/foundation/colours",
+      "summary": "Colour is a powerful tool in design, shaping hierarchy, guiding attention, and reinforcing brand identity. In Green, colours work alongside whitespace and typography to create clarity and balance.",
+      "path": "pages/foundationcolours/foundationcolours.json"
+    },
+    {
       "title": "UX writing",
       "slug": "ux-writing",
       "summary": "Regardless of where, when or how the customer meets us, the experience of SEB must be the same because each meeting contributes to how we are perceived. A positive customer experience opens the door to new business. This is particularly important in texts aimed at customers. Mistakes affect the reader's concentration on the content and understanding of the text. Because our texts are correct, our credibility with customers and other visitors increases.",
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 4,
-  "lastUpdated": "2025-08-08T11:09:28.731Z"
+  "total": 5,
+  "lastUpdated": "2025-08-08T11:19:44.946Z"
 }
