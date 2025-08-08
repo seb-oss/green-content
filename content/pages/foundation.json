@@ -12,13 +12,14 @@
         },
         {
           "type": "paragraph",
-          "tag": "p",
-          "text": "Our tonality is a voice that speaks to the user, we do not scream, but when needed we raise our voice to be heard. The balance in volume allows us to point the user in the right direction, wave to get noticed or whisper when needed."
+          "tag": "h2",
+          "size": "heading-l",
+          "text": "Tonality"
         },
         {
           "type": "paragraph",
-          "tag": "h2",
-          "text": "Tonality"
+          "tag": "p",
+          "text": "Our tonality is a voice that speaks to the user, we do not scream, but when needed we raise our voice to be heard. The balance in volume allows us to point the user in the right direction, wave to get noticed or whisper when needed."
         }
       ]
     },
