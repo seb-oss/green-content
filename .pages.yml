@@ -549,6 +549,10 @@ content:
           - name: section-content
             label: Content
             type: rich-text
+          - name: max-width
+            label: Max width 80ch
+            type: boolean
+            default: false
           - name: cols
             label: Columns
             type: select
