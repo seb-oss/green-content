@@ -1,5 +1,45 @@
 {
   "title": "Colours",
   "slug": "foundation/colours",
-  "summary": "Colour is a powerful tool in design, shaping hierarchy, guiding attention, and reinforcing brand identity. In Green, colours work alongside whitespace and typography to create clarity and balance."
+  "summary": "Colour is a powerful tool in design, shaping hierarchy, guiding attention, and reinforcing brand identity. In Green, colours work alongside whitespace and typography to create clarity and balance.",
+  "sections": [
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Our six brand colors form the foundation of the Green design system. Each color has been carefully selected to create a vibrant and cohesive palette that reflects our brand’s identity while maintaining flexibility across various design elements."
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Building on these six core colors, we have developed a comprehensive palette for each, featuring 14 tints per color. These extended palettes allow for greater versatility and nuance, ensuring consistency and depth across all visual elements."
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Maintaining a balanced and engaging interface requires thoughtful color usage. Our approach ensures that color enhances usability, guides attention, and maintains harmony throughout the design system. "
+        },
+        {
+          "type": "paragraph",
+          "text": "By leveraging our extended palettes, we create clear visual hierarchies, accommodate accessible contrast levels, and bring cohesion to both functional and expressive design elements."
+        },
+        {
+          "type": "paragraph",
+          "text": "All colors in Green are carefully translated to work in both light and dark modes, ensuring consistency and accessibility across different themes. This adaptation preserves contrast, readability, and the overall visual integrity of the interface, no matter the user’s preferred mode."
+        }
+      ]
+    }
+  ]
 }
