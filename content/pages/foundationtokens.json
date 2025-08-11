@@ -4,7 +4,7 @@
   "summary": "Tokens capture colors, typography, spacing, and other atomic design decisions as named, reusable values that are used in designs, tools and code so interfaces stay consistent and easy to update.",
   "sections": [
     {
-      "max-width": true,
+      "max-width": false,
       "cols": "1",
       "columns": [
         {
