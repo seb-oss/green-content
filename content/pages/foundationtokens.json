@@ -1,0 +1,42 @@
+{
+  "title": "Tokens",
+  "slug": "foundation/tokens",
+  "summary": "Tokens capture colors, typography, spacing, and other atomic design decisions as named, reusable values that are used in designs, tools and code so interfaces stay consistent and easy to update.",
+  "sections": [
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/9761.jpg"
+        }
+      ]
+    },
+    {
+      "max-width": false
+    },
+    {
+      "title": "How it works",
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "All design tokens and related assets live in this repository. We use Style Dictionary to transform those tokens into platform-specific files and formats that GDS supports. Because tokens follow a specific hierarchy aligned to SEB’s design, adding or changing tokens must go through the token life cycle process."
+        }
+      ]
+    },
+    {
+      "title": "Design tokens — what they are",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Design tokens are the building blocks of every UI element. They replace hardcoded values with self-explanatory names so designers and engineers reference the same source of truth. A token has two parts:\n\n1.  A code like name, such as: `gds.sys.color.l3.background.primary`\n    \n2.  An associated value, such as: `#1b1b1b`\n    \n\nA token’s value can be a color, a typeface, a measurement, or even a reference to another token. If a designer and an engineer both reference the token for “secondary container color,” they will get the same color everywhere — even if the underlying hex value changes later."
+        }
+      ]
+    }
+  ]
+}
