@@ -24,20 +24,13 @@
       ]
     },
     {
-      "title": "Designing with colors",
       "max-width": false,
       "cols": "1",
       "columns": [
         {
           "type": "paragraph",
           "text": "Maintaining a balanced and engaging interface requires thoughtful color usage. Our approach ensures that color enhances usability, guides attention, and maintains harmony throughout the design system. "
-        }
-      ]
-    },
-    {
-      "max-width": false,
-      "cols": "1",
-      "columns": [
+        },
         {
           "type": "paragraph",
           "text": "By leveraging our extended palettes, we create clear visual hierarchies, accommodate accessible contrast levels, and bring cohesion to both functional and expressive design elements."
