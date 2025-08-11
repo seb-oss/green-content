@@ -14,9 +14,6 @@
       ]
     },
     {
-      "max-width": true
-    },
-    {
       "title": "How it works",
       "max-width": true,
       "cols": "1",
@@ -41,6 +38,7 @@
     {
       "title": "Parts of a token name",
       "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
