@@ -7,11 +7,13 @@
       "title": "Written ID – our tone of voice",
       "tag": "H2",
       "section-content": "SEB's Written ID is our guiding light, and it forms the basis for all our communication, including UX writing. Our communication must show that we live and operate according to our language keys:\n\n*   **Open and personal:** We are people speaking to people. That’s why we prefer using an informal, personal voice rather than an official one.\n    \n*   **Relevant and clear:** Our texts are clear and easy to grasp, and we start with what’s most important.\n    \n*   **Driven and engaged:** We have the engagement and energy; we share our drive with our customers. Linguistically that means our language is alert and modern.\n    \n\nThe voice the customers encounter when they use a service on the internet banking services or the mobile apps must be the same in guides, sales, error messages, etc. But UX writing should, to a greater degree than other non-fiction texts, be consistent. Therefore, we have special principles for different design components.",
+      "max-width": true,
       "cols": "1"
     },
     {
       "title": "UX writing in SEB",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
