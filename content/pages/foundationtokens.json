@@ -37,6 +37,16 @@
           "content": "Design tokens are the building blocks of every UI element. They replace hardcoded values with self-explanatory names so designers and engineers reference the same source of truth. A token has two parts:\n\n1.  A code like name, such as: `gds.sys.color.l3.background.primary`\n    \n2.  An associated value, such as: `#1b1b1b`\n    \n\nA token’s value can be a color, a typeface, a measurement, or even a reference to another token. If a designer and an engineer both reference the token for “secondary container color,” they will get the same color everywhere — even if the underlying hex value changes later."
         }
       ]
+    },
+    {
+      "title": "Parts of a token name",
+      "max-width": false,
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The parts of a token name are separated by periods and proceed from the most general information `gds` to the most specific `primary`.\n\nAn example of a token name is: `gds.sys.color.l3.background.primary`\n\n1\\. `gds` is the design system prefix referring to `Green Design System` all tokens names start with this.\n\n2\\. `sys` is an abbreviation for the token class: “ref” for reference tokens, “sys” for system tokens.\n\n3\\. `color` is the type of the token. Can be: color, dimension, font-family and more. See \\[section 8 in the Design Tokens Format Module\\]([https://tr.designtokens.org/format/#types](https://tr.designtokens.org/format/#types)) for more types.\n\n4\\. `l3.background.primary` the remaining parts are descriptive words communicating the tokens role. In this care we use a \\[level system\\](/foundation/colours#levels) to create a color structure."
+        }
+      ]
     }
   ]
 }
