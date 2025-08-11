@@ -1,5 +1,27 @@
 {
   "title": "Colours",
   "slug": "foundation/colours",
-  "summary": "Colour is a powerful tool in design, shaping hierarchy, guiding attention, and reinforcing brand identity. In Green, colours work alongside whitespace and typography to create clarity and balance."
+  "summary": "Colour is a powerful tool in design, shaping hierarchy, guiding attention, and reinforcing brand identity. In Green, colours work alongside whitespace and typography to create clarity and balance.",
+  "sections": [
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Our six brand colors form the foundation of the Green design system. Each color has been carefully selected to create a vibrant and cohesive palette that reflects our brand’s identity while maintaining flexibility across various design elements."
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Building on these six core colors, we have developed a comprehensive palette for each, featuring 14 tints per color. These extended palettes allow for greater versatility and nuance, ensuring consistency and depth across all visual elements."
+        }
+      ]
+    }
+  ]
 }
