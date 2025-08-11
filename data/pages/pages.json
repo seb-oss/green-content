@@ -25,6 +25,12 @@
       "path": "pages/foundationcolours/foundationcolours.json"
     },
     {
+      "title": "Tokens",
+      "slug": "foundation/tokens",
+      "summary": "Tokens capture colors, typography, spacing, and other atomic design decisions as named, reusable values that are used in designs, tools and code so interfaces stay consistent and easy to update.",
+      "path": "pages/foundationtokens/foundationtokens.json"
+    },
+    {
       "title": "Typography",
       "slug": "foundation/typography",
       "summary": "Our typography guidelines outline how to use font styles, sizes,  and weights effectively across different elements, from headings  and body text to small UI details.",
@@ -37,6 +43,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 6,
-  "lastUpdated": "2025-08-11T08:36:40.958Z"
+  "total": 7,
+  "lastUpdated": "2025-08-11T08:56:24.560Z"
 }
