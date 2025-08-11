@@ -25,9 +25,9 @@
       "path": "pages/foundationcolours/foundationcolours.json"
     },
     {
-      "title": "Tokens",
+      "title": "Design Tokens",
       "slug": "foundation/design-tokens",
-      "summary": "Tokens capture colors, typography, spacing, and other atomic design decisions as named, reusable values that are used in designs, tools and code so interfaces stay consistent and easy to update.",
+      "summary": "Design tokens capture colors, typography, spacing, and other atomic design decisions as named, reusable values that are used in designs, tools and code so interfaces stay consistent and easy to update.",
       "path": "pages/foundationtokens/foundationtokens.json"
     },
     {
@@ -44,5 +44,5 @@
     }
   ],
   "total": 7,
-  "lastUpdated": "2025-08-11T09:11:40.836Z"
+  "lastUpdated": "2025-08-11T09:12:26.749Z"
 }
