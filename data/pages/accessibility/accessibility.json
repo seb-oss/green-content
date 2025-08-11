@@ -6,6 +6,7 @@
     {
       "title": "Accessibility checklist",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -17,6 +18,7 @@
     {
       "title": "Contrast",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -48,6 +50,7 @@
     {
       "title": "Keyboard navigation",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -59,6 +62,7 @@
     {
       "title": "ARIA & HTML semantics",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -70,6 +74,7 @@
     {
       "title": "Focus behavior",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -81,6 +86,7 @@
     {
       "title": "Touch interaction",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -92,6 +98,7 @@
     {
       "title": "Screen reader support",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -103,6 +110,7 @@
     {
       "title": "Dark mode compatibility",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -114,6 +122,7 @@
     {
       "title": "Summary",
       "tag": "H2",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -126,6 +135,7 @@
       "title": "Useful links",
       "tag": "H2",
       "section-content": "Read more about accessibility: the law, the standard, and SEBs recommendations.",
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
