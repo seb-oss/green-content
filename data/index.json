@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-11T09:08:53.403Z",
+    "lastUpdated": "2025-08-11T09:11:40.834Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -453,7 +453,7 @@
           },
           {
             "title": "Tokens",
-            "slug": "foundation/tokens",
+            "slug": "foundation/design-tokens",
             "summary": "Tokens capture colors, typography, spacing, and other atomic design decisions as named, reusable values that are used in designs, tools and code so interfaces stay consistent and easy to update.",
             "path": "pages/foundationtokens/foundationtokens.json",
             "endpoints": {
