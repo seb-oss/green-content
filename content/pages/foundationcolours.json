@@ -22,6 +22,31 @@
           "text": "Building on these six core colors, we have developed a comprehensive palette for each, featuring 14 tints per color. These extended palettes allow for greater versatility and nuance, ensuring consistency and depth across all visual elements."
         }
       ]
+    },
+    {
+      "title": "Designing with colors",
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Maintaining a balanced and engaging interface requires thoughtful color usage. Our approach ensures that color enhances usability, guides attention, and maintains harmony throughout the design system. "
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "By leveraging our extended palettes, we create clear visual hierarchies, accommodate accessible contrast levels, and bring cohesion to both functional and expressive design elements."
+        },
+        {
+          "type": "paragraph",
+          "text": "All colors in Green are carefully translated to work in both light and dark modes, ensuring consistency and accessibility across different themes. This adaptation preserves contrast, readability, and the overall visual integrity of the interface, no matter the user’s preferred mode."
+        }
+      ]
     }
   ]
 }
