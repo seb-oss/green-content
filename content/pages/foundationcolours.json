@@ -4,7 +4,7 @@
   "summary": "Colour is a powerful tool in design, shaping hierarchy, guiding attention, and reinforcing brand identity. In Green, colours work alongside whitespace and typography to create clarity and balance.",
   "sections": [
     {
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
