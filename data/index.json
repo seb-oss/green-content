@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-12T10:57:40.222Z",
+    "lastUpdated": "2025-08-12T10:58:45.116Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1246,6 +1246,15 @@
             "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://api.seb.io/components/video/video.mp4\" playsinline muted autoplay loop></gds-video>",
             "endpoints": {
               "content": "snippets/hero-video/hero-video.json"
+            }
+          },
+          {
+            "title": "Hero: Yearpicker",
+            "slug": "hero-yearpicker",
+            "path": "snippets/hero-yearpicker/hero-yearpicker.json",
+            "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers dateformat=\"d-m-y\"></gds-datepicker>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/hero-yearpicker/hero-yearpicker.json"
             }
           },
           {

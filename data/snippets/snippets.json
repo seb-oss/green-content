@@ -499,6 +499,12 @@
       "code": "<gds-video width=\"100%\" height=\"100%\" object-fit=\"cover\" object-position=\"center\" src=\"https://api.seb.io/components/video/video.mp4\" playsinline muted autoplay loop></gds-video>"
     },
     {
+      "title": "Hero: Yearpicker",
+      "slug": "hero-yearpicker",
+      "path": "snippets/hero-yearpicker/hero-yearpicker.json",
+      "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers dateformat=\"d-m-y\"></gds-datepicker>\n</gds-flex>"
+    },
+    {
       "title": "Icon: color",
       "slug": "icon-color",
       "path": "snippets/icon-color/icon-color.json",
@@ -565,6 +571,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 94,
-  "lastUpdated": "2025-08-12T10:57:40.223Z"
+  "total": 95,
+  "lastUpdated": "2025-08-12T10:58:45.117Z"
 }
