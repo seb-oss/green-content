@@ -30,6 +30,21 @@
           "src": "/assets/typography.jpg"
         }
       ]
+    },
+    {
+      "title": "Weight",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Font weight is an important tool in design that helps establish hierarchy, create emphasis, and improve readability of your design. "
+        },
+        {
+          "type": "paragraph",
+          "text": "GDS – SEB SanSerif offers the weights bold, medium, the new weight book, regular and light. Our styles are using the middle spectra. Bold and light can be used in special cases."
+        }
+      ]
     }
   ]
 }
