@@ -1,5 +1,5 @@
 {
   "title": "Hero: Alert",
   "slug": "hero-alert",
-  "code": "<gds-flex width=\"280px\" display=\"block\">\n<gds-alert label=\"Positive\" button-label=\"Action\">\n  Feedback message\n</gds-alert>\n</gds-flex>"
+  "code": "<gds-flex width=\"280px\" display=\"block\">\n<gds-alert label=\"Negative\" button-label=\"Action\">\n  Feedback message\n</gds-alert>\n</gds-flex>"
 }
