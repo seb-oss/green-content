@@ -427,6 +427,12 @@
       "code": "<gds-div \n  width=\"max-content\"\n  flex-direction=\"row\"\n  border-color=\"primary\"\n  background-color=\"transparent\"\n  padding=\"0\"\n  border-width=\"0 0 4xs 0\"\n  gap=\"0\"\n>\n  <gds-menu-button compact selected>\n    <gds-icon-bell slot=\"trail\"></gds-icon-bell>\n    Notification\n  </gds-menu-button>\n  <gds-popover>\n    <gds-menu-button compact slot=\"trigger\">\n      <gds-icon-people slot=\"trail\"></gds-icon-people>\n      Profile\n    </gds-menu-button>\n    <gds-flex padding=\"m\">Profile stuff</gds-flex>\n  </gds-popover>\n  <gds-menu-button\n    href=\"https://github.com/seb-oss/green\"\n    compact\n    target=\"_blank\"\n  >\n    <gds-icon-square-arrow-top-right\n      slot=\"trail\"\n    ></gds-icon-square-arrow-top-right>\n    External\n  </gds-menu-button>\n</gds-div>"
     },
     {
+      "title": "Hero: Monthpicker",
+      "slug": "hero-monthpicker",
+      "path": "snippets/hero-monthpicker/hero-monthpicker.json",
+      "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers dateformat=\"d-m-y\"></gds-datepicker>\n</gds-flex>"
+    },
+    {
       "title": "Hero: Popover",
       "slug": "hero-popover",
       "path": "snippets/hero-popover/hero-popover.json",
@@ -559,6 +565,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 93,
-  "lastUpdated": "2025-08-12T08:42:29.027Z"
+  "total": 94,
+  "lastUpdated": "2025-08-12T10:56:44.000Z"
 }
