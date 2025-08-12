@@ -1,6 +1,7 @@
 {
   "title": "Yearpicker",
   "slug": "yearpicker",
+  "hero_snippet": "hero-yearpicker",
   "beta": true,
   "soon": true,
   "anatomy": false,
