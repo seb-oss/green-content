@@ -4,16 +4,6 @@
   "summary": "Our typography guidelines outline how to use font styles, sizes,  and weights effectively across different elements, from headings  and body text to small UI details.",
   "sections": [
     {
-      "max-width": false,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "image",
-          "src": "/assets/typography.jpg"
-        }
-      ]
-    },
-    {
       "max-width": true,
       "cols": "1",
       "columns": [
@@ -28,6 +18,16 @@
         {
           "type": "paragraph",
           "text": "Our typography guidelines outline how to use font styles, sizes,  and weights effectively across different elements, from headings  and body text to small UI details."
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/typography.jpg"
         }
       ]
     }
