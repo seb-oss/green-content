@@ -4,6 +4,7 @@
   "hero_snippet": "hero-monthpicker",
   "beta": true,
   "soon": true,
+  "summary": "The monthpicker displays a grid of selectable months.",
   "anatomy": false,
   "tags": [
     "date",
