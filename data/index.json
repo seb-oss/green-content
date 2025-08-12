@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-12T10:59:14.960Z",
+    "lastUpdated": "2025-08-12T11:05:52.306Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -277,6 +277,7 @@
           {
             "title": "Monthpicker",
             "slug": "monthpicker",
+            "summary": "The monthpicker displays a grid of selectable months.",
             "path": "components/monthpicker/monthpicker.content.json",
             "endpoints": {
               "content": "components/monthpicker/monthpicker.content.json",
@@ -395,6 +396,7 @@
           {
             "title": "Yearpicker",
             "slug": "yearpicker",
+            "summary": "The yearpicker displays a grid of selectable years.",
             "path": "components/yearpicker/yearpicker.content.json",
             "endpoints": {
               "content": "components/yearpicker/yearpicker.content.json",
