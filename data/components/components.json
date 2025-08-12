@@ -224,8 +224,13 @@
       "slug": "video",
       "summary": "Video summary",
       "path": "components/video/video.content.json"
+    },
+    {
+      "title": "Yearpicker",
+      "slug": "yearpicker",
+      "path": "components/yearpicker/yearpicker.content.json"
     }
   ],
-  "total": 38,
-  "lastUpdated": "2025-08-12T08:41:46.419Z"
+  "total": 39,
+  "lastUpdated": "2025-08-12T08:42:29.026Z"
 }

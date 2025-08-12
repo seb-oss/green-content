@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-12T08:41:46.418Z",
+    "lastUpdated": "2025-08-12T08:42:29.025Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -390,6 +390,15 @@
             "endpoints": {
               "content": "components/video/video.content.json",
               "images": "components/video/video.images.json"
+            }
+          },
+          {
+            "title": "Yearpicker",
+            "slug": "yearpicker",
+            "path": "components/yearpicker/yearpicker.content.json",
+            "endpoints": {
+              "content": "components/yearpicker/yearpicker.content.json",
+              "images": "components/yearpicker/yearpicker.images.json"
             }
           }
         ]
