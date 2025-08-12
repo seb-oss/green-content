@@ -156,6 +156,11 @@
       "path": "components/menu-button/menu-button.content.json"
     },
     {
+      "title": "Monthpicker",
+      "slug": "monthpicker",
+      "path": "components/monthpicker/monthpicker.content.json"
+    },
+    {
       "title": "Popover",
       "slug": "popover",
       "summary": "A popover is a temporary view that appears above other content.",
@@ -221,6 +226,6 @@
       "path": "components/video/video.content.json"
     }
   ],
-  "total": 37,
-  "lastUpdated": "2025-08-12T07:57:08.204Z"
+  "total": 38,
+  "lastUpdated": "2025-08-12T08:41:46.419Z"
 }
