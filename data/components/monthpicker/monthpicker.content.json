@@ -1,6 +1,7 @@
 {
   "title": "Monthpicker",
   "slug": "monthpicker",
+  "hero_snippet": "hero-monthpicker",
   "beta": true,
   "soon": true,
   "anatomy": false,
