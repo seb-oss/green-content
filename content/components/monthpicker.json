@@ -1,0 +1,17 @@
+{
+  "title": "Monthpicker",
+  "slug": "monthpicker",
+  "beta": true,
+  "soon": true,
+  "anatomy": false,
+  "tags": [
+    "date",
+    "form",
+    "time"
+  ],
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
+}
