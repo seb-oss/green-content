@@ -145,7 +145,16 @@
     {
       "title": "Auto-dismiss",
       "tag": "H2",
-      "section-content": "Alert can also be set up to use an auto-dismiss timer. In this configuration, a timer progress bar will be shown at the bottom of the alert, and the alert will close once the timer reaches the end."
+      "section-content": "Alert can also be set up to use an auto-dismiss timer. In this configuration, a timer progress bar will be shown at the bottom of the alert, and the alert will close once the timer reaches the end.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": true,
+          "Snippet": "alert-auto-dismiss"
+        }
+      ]
     },
     {
       "title": "Guidelines",
