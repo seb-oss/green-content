@@ -7,6 +7,12 @@
       "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n  <strong>Actionable</strong> Alert with a button for quick user interaction.\n</gds-alert>\n</gds-div>"
     },
     {
+      "title": "Alert: Auto Dismiss",
+      "slug": "alert-auto-dismiss",
+      "path": "snippets/alert-auto-dismiss/alert-auto-dismiss.json",
+      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\" timeout=\"15000\">\n  <strong>Auto Dismiss</strong>This alert disappears automatically after a delay.\n</gds-alert>\n</gds-div>"
+    },
+    {
       "title": "Alert: Dissmisible",
       "slug": "alert-dismissible",
       "path": "snippets/alert-dismissible/alert-dismissible.json",
@@ -571,6 +577,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 95,
-  "lastUpdated": "2025-08-13T12:13:43.779Z"
+  "total": 96,
+  "lastUpdated": "2025-08-13T12:45:40.227Z"
 }

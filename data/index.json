@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-13T12:13:43.778Z",
+    "lastUpdated": "2025-08-13T12:45:40.226Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -510,6 +510,15 @@
             "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n  <strong>Actionable</strong> Alert with a button for quick user interaction.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-action/alert-action.json"
+            }
+          },
+          {
+            "title": "Alert: Auto Dismiss",
+            "slug": "alert-auto-dismiss",
+            "path": "snippets/alert-auto-dismiss/alert-auto-dismiss.json",
+            "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\" timeout=\"15000\">\n  <strong>Auto Dismiss</strong>This alert disappears automatically after a delay.\n</gds-alert>\n</gds-div>",
+            "endpoints": {
+              "content": "snippets/alert-auto-dismiss/alert-auto-dismiss.json"
             }
           },
           {
