@@ -28,7 +28,7 @@
           "type": "rich-text",
           "title": "Keep it calm and polite",
           "tag": "H3",
-          "content": "Avoid phrases like _Loading…_ or _Just a moment…_ on their own – they can feel vague or dismissive. A polite, neutral tone works best."
+          "content": "Avoid phrases like \"Loading_…_\" or \"Just a moment…\" on their own – they can feel vague or dismissive. A polite, neutral tone works best."
         },
         {
           "type": "rich-text",
