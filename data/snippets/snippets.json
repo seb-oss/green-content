@@ -268,7 +268,7 @@
       "title": "Hero: Alert",
       "slug": "hero-alert",
       "path": "snippets/hero-alert/hero-alert.json",
-      "code": "<gds-flex width=\"280px\" display=\"block\">\n<gds-alert variant=\"Negative\" button-label=\"Action\">\n  Feedback message\n</gds-alert>\n</gds-flex>"
+      "code": "<gds-flex width=\"280px\" display=\"block\">\n<gds-alert variant=\"negative\" button-label=\"Action\">\n  Feedback message\n</gds-alert>\n</gds-flex>"
     },
     {
       "title": "Hero: Badge",
@@ -572,5 +572,5 @@
     }
   ],
   "total": 95,
-  "lastUpdated": "2025-08-13T12:12:53.631Z"
+  "lastUpdated": "2025-08-13T12:13:43.779Z"
 }
