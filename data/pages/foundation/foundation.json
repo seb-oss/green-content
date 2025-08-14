@@ -51,16 +51,6 @@
       ]
     },
     {
-      "max-width": false,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "image",
-          "src": "/assets/metallic-surface.jpg"
-        }
-      ]
-    },
-    {
       "title": "Icons",
       "max-width": true,
       "cols": "1",
