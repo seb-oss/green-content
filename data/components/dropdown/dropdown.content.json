@@ -56,6 +56,7 @@
     "android": false
   },
   "compare": "Select",
+  "compare-content": "\\[COMPARE\\_CONTENT\\_FOR\\_DROPDOWN\\]",
   "overview": [
     {
       "title": "Sizes",

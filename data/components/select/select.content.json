@@ -22,7 +22,7 @@
     "android": false
   },
   "compare": "Dropdown",
-  "compare-content": "This is the compare content for SELECT",
+  "compare-content": "\\[COMPARE\\_CONTENT\\_FOR\\_SELECT\\]",
   "overview": [
     {
       "title": "Usage",
