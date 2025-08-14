@@ -298,7 +298,7 @@
       "title": "Hero: Button",
       "slug": "hero-button",
       "path": "snippets/hero-button/hero-button.json",
-      "code": "<gds-flex gap=\"s\" align-items=\"center\">\n  <gds-button size=\"small\">Primary</gds-button>\n  <gds-button rank=\"secondary\" size=\"small\" variant=\"positive\">\n    <gds-icon-credit-card slot=\"lead\"></gds-icon-credit-card>\n    Secondary\n  </gds-button>\n  <gds-button size=\"small\" label=\"Next step 2\" rank=\"secondary\">\n    <gds-icon-arrow-right> </gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>"
+      "code": "<gds-flex gap=\"s\" align-items=\"center\">\n  <gds-button size=\"small\">Primary</gds-button>\n  <gds-button rank=\"secondary\" size=\"small\">\n    <gds-icon-credit-card slot=\"lead\"></gds-icon-credit-card>\n    Secondary\n  </gds-button>\n  <gds-button size=\"small\" label=\"Next step 2\" rank=\"secondary\">\n    <gds-icon-arrow-right> </gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>"
     },
     {
       "title": "Hero: Calendar",
@@ -578,5 +578,5 @@
     }
   ],
   "total": 96,
-  "lastUpdated": "2025-08-13T12:46:08.000Z"
+  "lastUpdated": "2025-08-14T07:47:57.638Z"
 }
