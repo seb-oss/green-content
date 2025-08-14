@@ -25,7 +25,7 @@
           "type": "rich-text",
           "title": "The importance of high contrast",
           "tag": "H3",
-          "content": "High contrast ratios make content easier to read and navigate — especially for users with visual impairments. Strong contrast helps differentiate text, components, and sections on a page. By meeting accessibility standards, we ensure our content works for a wider audience, including those with significant vision difficulties."
+          "content": "High contrast ratios make content easier to read and navigate – especially for users with visual impairments. Strong contrast helps differentiate text, components, and sections on a page. By meeting accessibility standards, we ensure our content works for a wider audience, including those with significant vision difficulties."
         },
         {
           "type": "rich-text",
@@ -103,7 +103,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Components should work consistently with screen readers, ensuring a seamless and understandable experience for users who rely on assistive technologies.\n\n*   Higher priority to test with **NVDA** (PC) and **VoiceOver** (macOS/iOS), and lower priority on TalkBack (Android).\n    \n*   Users should be able to **navigate by headings**, as this is one of the most common ways to explore content with a screen reader.\n    \n*   All meaningful content should be read aloud clearly — including labels, states, and instructions. Decorative images or elements without informative value should be marked to be ignored."
+          "content": "Components should work consistently with screen readers, ensuring a seamless and understandable experience for users who rely on assistive technologies.\n\n*   Higher priority to test with **NVDA** (PC) and **VoiceOver** (macOS/iOS), and lower priority on TalkBack (Android).\n    \n*   Users should be able to **navigate by headings**, as this is one of the most common ways to explore content with a screen reader.\n    \n*   All meaningful content should be read aloud clearly – including labels, states, and instructions. Decorative images or elements without informative value should be marked to be ignored."
         }
       ]
     },
@@ -115,7 +115,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Check whether the component supports dark mode — and how well it adapts to it.\n\n*   Does anything change when switching to dark mode?\n    \n*   Is the component still fully functional and visually clear?\n    \n*   Are there any broken styles, missing contrasts, or unclear states?\n    \n\nEven if a component appears unchanged, it's important to verify that all colors, icons, and interactions remain accessible and consistent in dark mode."
+          "content": "Check whether the component supports dark mode – and how well it adapts to it.\n\n*   Does anything change when switching to dark mode?\n    \n*   Is the component still fully functional and visually clear?\n    \n*   Are there any broken styles, missing contrasts, or unclear states?\n    \n\nEven if a component appears unchanged, it's important to verify that all colors, icons, and interactions remain accessible and consistent in dark mode."
         }
       ]
     },
@@ -127,7 +127,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "How is accessible is the Green Design System?\n\nOverall, the design system is built with accessibility in mind and performs well. However, occasional issues may arise, and new challenges can be reported as the system evolves.\n\nIf you come across an accessibility issue, please help us improve by submitting a report or creating a new issue."
+          "content": "How accessible is the Green Design System?\n\nOverall, the design system is built with accessibility in mind and performs well. However, occasional issues may arise, and new challenges can be reported as the system evolves.\n\nIf you come across an accessibility issue, please help us improve by submitting a report or creating a new issue."
         }
       ]
     },
