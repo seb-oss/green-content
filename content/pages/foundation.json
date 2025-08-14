@@ -50,6 +50,11 @@
           "type": "paragraph",
           "tag": "p",
           "text": "Our typography guidelines outline how to use font styles, sizes,  and weights effectively across different elements, from headings  and body text to small UI details."
+        },
+        {
+          "type": "image",
+          "caption": "Parings display and preamble",
+          "src": "/assets/typography_foundation.png"
         }
       ]
     },
