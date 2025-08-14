@@ -25,7 +25,6 @@
         },
         {
           "type": "image",
-          "caption": "Green color palette",
           "src": "/assets/palette_foundation.png"
         }
       ]
@@ -53,7 +52,6 @@
         },
         {
           "type": "image",
-          "caption": "Parings display and preamble",
           "src": "/assets/pairings_typo.png"
         }
       ]
