@@ -22,6 +22,7 @@
     "android": false
   },
   "compare": "Dropdown",
+  "compare-content": "This is the compare content for SELECT",
   "overview": [
     {
       "title": "Usage",
