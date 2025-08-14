@@ -153,6 +153,9 @@ content:
           search: "title"
           value: "{title}"
           label: "{title}"
+      - name: compare-content
+        label: 'Compare text: for this component'
+        type: rich-text
       - name: overview
         type: object
         label: Overview
