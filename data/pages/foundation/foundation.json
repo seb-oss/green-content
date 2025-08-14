@@ -1,7 +1,7 @@
 {
   "title": "Foundation",
   "slug": "foundation",
-  "summary": "The fundamental parts of the design system that supports all of SEB's interfaces such as colour and typography.",
+  "summary": "The fundamental parts of the design system that supports all of SEB's interfaces such as colours and typography.",
   "sections": [
     {
       "max-width": false,
@@ -21,7 +21,7 @@
         {
           "type": "paragraph",
           "tag": "p",
-          "text": "Our six brand colors form the foundation of the Green design system. Each color has been carefully selected to create a vibrant and cohesive palette that reflects our brand’s identity while maintaining flexibility across various design elements."
+          "text": "Based on our brand colors we have set up a scale with tints on each one to create a vibrant cohesive palette that reflects our brand’s identity while maintaining flexibility across various design elements.\n\n//Our six brand colors form the foundation of the Green design system. Each color has been carefully selected to create a vibrant and cohesive palette that reflects our brand’s identity while maintaining flexibility across various design elements.//\n"
         },
         {
           "type": "paragraph",
