@@ -9,7 +9,7 @@
     {
       "title": "Accessibility",
       "slug": "accessibility",
-      "summary": "Accessibility is a essential part of our digital experience. Approximately 20% of people experience permanent, temporary, or situational difficulties when using websites that lack accessible design. By creating an inclusive environment, we make our services easier to use for everyone — improving clarity, usability, and overall experience.",
+      "summary": "Accessibility is central to SEB’s digital experience. The Green Design System is designed to make our services usable for everyone – improving clarity, usability, and overall experience.",
       "path": "pages/accessibility/accessibility.json"
     },
     {
@@ -44,5 +44,5 @@
     }
   ],
   "total": 7,
-  "lastUpdated": "2025-08-14T11:35:31.356Z"
+  "lastUpdated": "2025-08-14T11:42:49.544Z"
 }
