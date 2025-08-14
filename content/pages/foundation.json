@@ -53,7 +53,8 @@
         },
         {
           "type": "image",
-          "caption": "Parings display and preamble"
+          "caption": "Parings display and preamble",
+          "src": "/assets/pairings_typo.png"
         }
       ]
     },
