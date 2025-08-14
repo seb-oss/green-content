@@ -21,12 +21,11 @@
         {
           "type": "paragraph",
           "tag": "p",
-          "text": "Based on our brand colors we have set up a scale with tints on each one to create a vibrant cohesive palette that reflects our brand’s identity while maintaining flexibility across various design elements.\n\n//Our six brand colors form the foundation of the Green design system. Each color has been carefully selected to create a vibrant and cohesive palette that reflects our brand’s identity while maintaining flexibility across various design elements.//\n"
+          "text": "Based on our brand colors, we have developed a comprehensive palette of tints for each. These extended palettes allow for greater versatility and nuance, ensuring consistency and depth across all visual elements.\n"
         },
         {
           "type": "paragraph",
-          "tag": "p",
-          "text": "Building on these six core colors, we have developed a comprehensive palette of tints for eachThese extended palettes allow for greater versatility and nuance, ensuring consistency and depth across all visual elements."
+          "tag": "p"
         }
       ]
     },
