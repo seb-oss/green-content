@@ -26,7 +26,7 @@
         {
           "type": "image",
           "caption": "Color palette",
-          "src": "/assets/SEB global.png"
+          "src": "/assets/palette_foundation.png"
         }
       ]
     },
@@ -54,7 +54,7 @@
         {
           "type": "image",
           "caption": "Parings display and preamble",
-          "src": "/assets/typography_foundation.png"
+          "src": "/assets/pairings_typo.png"
         }
       ]
     },
