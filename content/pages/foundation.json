@@ -8,8 +8,7 @@
       "cols": "1",
       "columns": [
         {
-          "type": "image",
-          "src": "/assets/tonality-circles.jpg"
+          "type": "image"
         }
       ]
     },
