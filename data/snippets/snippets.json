@@ -394,7 +394,7 @@
       "title": "Hero: Grid",
       "slug": "hero-grid",
       "path": "snippets/hero-grid/hero-grid.json",
-      "code": "<gds-grid columns=\"12\" gap=\"xs\" width=\"280px\">\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"1/13\"\n    border-radius=\"xs\"\n    height=\"2xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Nav</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"1/5\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Sidebar</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"primary\"\n    grid-column=\"5/13\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Content</gds-text>\n  </gds-card>\n</gds-grid>"
+      "code": "<gds-grid columns=\"12\" gap=\"xs\" width=\"280px\">\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"subtle-01\"\n    grid-column=\"1/13\"\n    border-radius=\"xs\"\n    height=\"2xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Nav</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"subtle-01\"\n    grid-column=\"1/5\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Sidebar</gds-text>\n  </gds-card>\n  <gds-card\n    variant=\"secondary\"\n    border-color=\"subtle-01\"\n    grid-column=\"5/13\"\n    border-radius=\"xs\"\n    height=\"6xl\"\n    padding=\"xs\"\n  >\n    <gds-text tag=\"small\">Content</gds-text>\n  </gds-card>\n</gds-grid>\n"
     },
     {
       "title": "Hero: Home",
@@ -578,5 +578,5 @@
     }
   ],
   "total": 96,
-  "lastUpdated": "2025-08-14T13:29:09.256Z"
+  "lastUpdated": "2025-08-14T13:29:49.967Z"
 }
