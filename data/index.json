@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-14T07:47:57.637Z",
+    "lastUpdated": "2025-08-14T08:03:53.707Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1173,7 +1173,7 @@
             "title": "Hero: Radio",
             "slug": "hero-radio",
             "path": "snippets/hero-radio/hero-radio.json",
-            "code": "<gds-radio-group>\n  <gds-radio label=\"Radio 1\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Radio 2\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Radio 3\" value=\"3\"></gds-radio>\n</gds-radio-group>",
+            "code": "<gds-radio-group>\n  <gds-radio label=\"Radio 1\" value=\"1\"checked=\"true\"></gds-radio>\n  <gds-radio label=\"Radio 2\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Radio 3\" value=\"3\"></gds-radio>\n</gds-radio-group>",
             "endpoints": {
               "content": "snippets/hero-radio/hero-radio.json"
             }
