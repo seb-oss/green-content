@@ -72,6 +72,10 @@
           "type": "paragraph",
           "tag": "p",
           "text": "These icons are designed on a 24x24 px grid with a 2 px safe area, resulting in a 20x20 px live area for optimal clarity and balance."
+        },
+        {
+          "type": "image",
+          "src": "/assets/icon_img.png"
         }
       ]
     }
