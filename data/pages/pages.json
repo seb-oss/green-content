@@ -13,6 +13,12 @@
       "path": "pages/accessibility/accessibility.json"
     },
     {
+      "title": "Visual direction",
+      "slug": "design-direction/visual-direction",
+      "summary": "With our visual language we help the user to navigate, make choices and solve problems. It’s what makes the design direction come to life! With usability and writing as core pillars the visual design inherits the brand principles in a digital context.",
+      "path": "pages/design-directionvisual-direction/design-directionvisual-direction.json"
+    },
+    {
       "title": "Design direction",
       "slug": "design-direction",
       "summary": "Following the brand values for SEB the Digital design direction is not just about aesthetics, it’s about clarity, function, and enhancing the user journey. In our complex world, we aim to simplify and remove obstacles for all our users. There for all aspects of design is part of the experience, such as writing and accessibility.\n\nSo the user experience will be clear, seamless and engaging.",
@@ -49,6 +55,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 8,
-  "lastUpdated": "2025-08-18T09:45:59.423Z"
+  "total": 9,
+  "lastUpdated": "2025-08-18T09:49:18.284Z"
 }

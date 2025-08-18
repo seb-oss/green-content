@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-18T09:45:59.422Z",
+    "lastUpdated": "2025-08-18T09:49:18.283Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -465,6 +465,15 @@
             "path": "pages/accessibility/accessibility.json",
             "endpoints": {
               "content": "pages/accessibility/accessibility.json"
+            }
+          },
+          {
+            "title": "Visual direction",
+            "slug": "design-direction/visual-direction",
+            "summary": "With our visual language we help the user to navigate, make choices and solve problems. It’s what makes the design direction come to life! With usability and writing as core pillars the visual design inherits the brand principles in a digital context.",
+            "path": "pages/design-directionvisual-direction/design-directionvisual-direction.json",
+            "endpoints": {
+              "content": "pages/design-directionvisual-direction/design-directionvisual-direction.json"
             }
           },
           {
