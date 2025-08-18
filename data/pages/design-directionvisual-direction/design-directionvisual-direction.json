@@ -4,6 +4,16 @@
   "summary": "With our visual language we help the user to navigate, make choices and solve problems. It’s what makes the design direction come to life! With usability and writing as core pillars the visual design inherits the brand principles in a digital context.",
   "sections": [
     {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/visual_direction.png"
+        }
+      ]
+    },
+    {
       "title": "Volume",
       "max-width": true,
       "cols": "1",
