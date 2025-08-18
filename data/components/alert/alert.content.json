@@ -5,7 +5,7 @@
   "beta": true,
   "soon": false,
   "summary": "An alert displays important messages, feedback, or time-sensitive information.",
-  "preamble": "An alert is a message used to inform the user about the state of a system, page, or function. Icons and color indicate the type and urgency of the information within the message.",
+  "preamble": "An alert is a message used to inform the user about the state of a system, page, or function. Icons and colour indicate the type and urgency of the information within the message.",
   "anatomy": true,
   "anatomy-overview": "Alert consists of a card with an icon, a message text, optional action button, and optional close button. The layout is responsive and adapts based on the size of the alert.",
   "anatomy-details": "1.  Alert card\n    \n2.  Alert border\n    \n3.  Text content\n    \n4.  Leading icon\n    \n5.  Primary action\n    \n6.  Link\n    \n7.  Icon button dismiss",
@@ -56,7 +56,7 @@
           "type": "rich-text",
           "title": "Information",
           "tag": "H3",
-          "content": "Used for _passive_, non-critical updates like tips or background info. It's quiet and unobtrusive."
+          "content": "Used for _passive_, non-critical updates like tips or background information. It's quiet and unobtrusive."
         },
         {
           "type": "snippet",
