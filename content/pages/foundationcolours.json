@@ -51,7 +51,7 @@
         {
           "type": "paragraph",
           "tag": "p",
-          "text": "The Green Design System (GDS) colors are structured into three groups, background, content and state. Backgrounds are divided into three levels, ensuring clarity and consistency across UI elements. "
+          "text": "The Green Design System (GDS) colors are structured into four groups - background, content, border and state. Backgrounds are divided into three levels, ensuring clarity and consistency across UI elements. "
         },
         {
           "type": "paragraph",
