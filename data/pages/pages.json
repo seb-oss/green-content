@@ -13,8 +13,8 @@
       "path": "pages/accessibility/accessibility.json"
     },
     {
-      "title": "Design",
-      "slug": "design",
+      "title": "Design direction",
+      "slug": "design-direction",
       "summary": "Design preamble",
       "path": "pages/design/design.json"
     },
@@ -50,5 +50,5 @@
     }
   ],
   "total": 8,
-  "lastUpdated": "2025-08-18T08:03:50.508Z"
+  "lastUpdated": "2025-08-18T08:11:33.869Z"
 }
