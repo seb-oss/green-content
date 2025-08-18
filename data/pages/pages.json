@@ -20,13 +20,13 @@
     },
     {
       "title": "Colours",
-      "slug": "foundation/colours",
+      "slug": "primitives/colours",
       "summary": "Colour is a powerful tool in design, shaping hierarchy, guiding attention, and reinforcing brand identity. In Green, colours work alongside whitespace and typography to create clarity and balance.",
       "path": "pages/foundationcolours/foundationcolours.json"
     },
     {
       "title": "Design Tokens",
-      "slug": "foundation/design-tokens",
+      "slug": "primitives/design-tokens",
       "summary": "Design tokens capture colors, typography, spacing, and other atomic design decisions as named, reusable values that are used in designs, tools and code so interfaces stay consistent and easy to update.",
       "path": "pages/foundationtokens/foundationtokens.json"
     },
@@ -44,5 +44,5 @@
     }
   ],
   "total": 7,
-  "lastUpdated": "2025-08-18T07:59:50.875Z"
+  "lastUpdated": "2025-08-18T08:00:22.281Z"
 }
