@@ -4,16 +4,6 @@
   "summary": "Our typography guidelines outline how to use font styles, sizes,  and weights effectively across different elements, from headings  and body text to small UI details.",
   "sections": [
     {
-      "max-width": false,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "image",
-          "src": "/assets/typography.jpg"
-        }
-      ]
-    },
-    {
       "max-width": true,
       "cols": "1",
       "columns": [
@@ -43,6 +33,16 @@
         {
           "type": "paragraph",
           "text": "GDS – SEB SanSerif offers the weights bold, medium, the new weight book, regular and light. Our styles are using the middle spectra. Bold and light can be used in special cases."
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/typography.jpg"
         }
       ]
     },
