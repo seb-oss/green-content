@@ -1,5 +1,29 @@
 {
   "title": "Visual direction",
   "slug": "design-direction/visual-direction",
-  "summary": "With our visual language we help the user to navigate, make choices and solve problems. It’s what makes the design direction come to life! With usability and writing as core pillars the visual design inherits the brand principles in a digital context."
+  "summary": "With our visual language we help the user to navigate, make choices and solve problems. It’s what makes the design direction come to life! With usability and writing as core pillars the visual design inherits the brand principles in a digital context.",
+  "sections": [
+    {
+      "title": "Volume",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Our visual language is like a voice that speaks with you, not at you. By adjusting its volume, we can gently raise or lower that voice to guide attention where it’s needed."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "When balanced with visual cues and keywords, it helps us lead the user in the right direction. Finding that balance is part of crafting layouts and user flows."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "This voice is one of our most powerful tools – essential for shaping the overall experience."
+        }
+      ]
+    }
+  ]
 }
