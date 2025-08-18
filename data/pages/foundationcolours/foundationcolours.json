@@ -69,6 +69,17 @@
           "title": "Content colours",
           "tag": "H3",
           "content": "Content tokens are used for text, icons, and other foreground elements. They ensure readability and clear contrast against background roles like document, surface, and container."
+        },
+        {
+          "type": "rich-text",
+          "title": "Border colours",
+          "tag": "H3",
+          "content": "Border tokens are used to define the edges of components and layout sections. They help separate content and add structure to the interface."
+        },
+        {
+          "type": "rich-text",
+          "title": "State colours",
+          "content": "State tokens provide visual feedback for interactions, ensuring consistency across components in both light and dark mode. We have defined an extensive set of tokens to support customisation across primary, secondary, and tertiary components."
         }
       ]
     },
