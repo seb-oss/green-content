@@ -1,0 +1,26 @@
+{
+  "title": "Primitives",
+  "slug": "primitives",
+  "links": [
+    {
+      "title": "Colours",
+      "slug": "primitives/colours"
+    },
+    {
+      "title": "Design tokens",
+      "slug": "primitives/design-tokens"
+    },
+    {
+      "title": "Layout",
+      "slug": "primitives/layout"
+    },
+    {
+      "title": "Spacing",
+      "slug": "primitives/spacing"
+    },
+    {
+      "title": "Typography",
+      "slug": "primitives/typography"
+    }
+  ]
+}
