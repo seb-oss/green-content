@@ -11,8 +11,14 @@
       "slug": "main",
       "path": "navigation/main.json",
       "links": 6
+    },
+    {
+      "title": "Primitives",
+      "slug": "primitives",
+      "path": "navigation/primitives.json",
+      "links": 5
     }
   ],
-  "total": 2,
-  "lastUpdated": "2025-08-18T08:54:51.742Z"
+  "total": 3,
+  "lastUpdated": "2025-08-18T08:56:53.277Z"
 }
