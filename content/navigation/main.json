@@ -13,13 +13,12 @@
       "icon": "IconSquareGridCircle"
     },
     {
-      "title": "Templates",
-      "slug": "templates",
-      "icon": "IconDevices"
+      "title": "Design",
+      "slug": "design"
     },
     {
-      "title": "Foundation",
-      "slug": "foundation",
+      "title": "Primitives",
+      "slug": "primitives",
       "icon": "IconBrandGreen"
     },
     {
@@ -31,21 +30,6 @@
       "title": "Accessibility",
       "slug": "accessibility",
       "icon": "IconPeopleA11y"
-    },
-    {
-      "title": "About",
-      "slug": "about",
-      "icon": "IconCircleInfo"
-    },
-    {
-      "title": "Storybook",
-      "slug": "https://storybook.seb.io",
-      "icon": "IconBrandStorybook"
-    },
-    {
-      "title": "Github",
-      "slug": "https://github.com/seb-oss/green",
-      "icon": "IconBrandGithub"
     }
   ]
 }
