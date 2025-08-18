@@ -60,13 +60,13 @@
         },
         {
           "type": "rich-text",
-          "title": "Background levels",
+          "title": "Background colours",
           "tag": "H3",
           "content": "Background tokens are grouped by their level in the interface:  \nL1 – the base layer of the screen,  L2 – structural layers like cards and modals,  L3 – backgrounds for components like buttons and inputs.  This structure supports clarity, consistency, and a clear visual hierarchy."
         },
         {
           "type": "rich-text",
-          "title": "Content",
+          "title": "Content colours",
           "tag": "H3",
           "content": "Content tokens are used for text, icons, and other foreground elements. They ensure readability and clear contrast against background roles like document, surface, and container."
         }
