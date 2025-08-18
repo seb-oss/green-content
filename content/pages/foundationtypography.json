@@ -75,6 +75,39 @@
           "text": "These roles are more descriptive, allowing for simpler application across a broader range of use cases, from large to small screens."
         }
       ]
+    },
+    {
+      "title": "Display",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Display text is meant to make a strong visual impact. Display fonts are typically used sparingly, as they are designed for aesthetics rather than long-form readability."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "In terms of size, display text is significantly larger than regular headings, often used for hero sections"
+        }
+      ]
+    },
+    {
+      "title": "Heading",
+      "max-width": true,
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Headings help structure content and establish a clear hierarchy in your design. Heading levels range from H1 (largest) to H6 (smallest), each serving a different purpose. "
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Consistent use of heading sizes helps guide users through the content, improving readability. Keep the size differences noticeable but balanced for a clean and cohesive design."
+        }
+      ]
     }
   ]
 }
