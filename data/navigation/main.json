@@ -14,7 +14,8 @@
     },
     {
       "title": "Design",
-      "slug": "design"
+      "slug": "design",
+      "icon": "IconDirection"
     },
     {
       "title": "Primitives",
