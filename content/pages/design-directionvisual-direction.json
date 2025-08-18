@@ -44,6 +44,12 @@
           "type": "paragraph",
           "tag": "p",
           "text": "These principles are foundational and should be considered at every stage of design and development. They also reflect our global brand values in a digital context."
+        },
+        {
+          "type": "rich-text",
+          "title": "Modern, yet timeless",
+          "tag": "H3",
+          "content": "​GDS is designed to feel contemporary while avoiding trends that quickly date. Our components and layouts are built to endure, balancing innovation with a sense of familiarity.  \n  \nThis supports long-term consistency without sacrificing relevance."
         }
       ]
     }
