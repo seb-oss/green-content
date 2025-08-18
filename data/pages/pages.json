@@ -13,6 +13,12 @@
       "path": "pages/accessibility/accessibility.json"
     },
     {
+      "title": "Applied design",
+      "slug": "design-direction/applied-design",
+      "summary": "SEB's visual design is intuitive, unified, and sophisticated, prioritizing quality craftsmanship. Our guiding words – Clean, Clear, and Craft – are fundamental to our daily design approach. These guidelines serve as a practical resource to ensure the creation of designs of the highest standard.",
+      "path": "pages/design-directionapplied-design/design-directionapplied-design.json"
+    },
+    {
       "title": "Visual direction",
       "slug": "design-direction/visual-direction",
       "summary": "With our visual language we help the user to navigate, make choices and solve problems. It’s what makes the design direction come to life! With usability and writing as core pillars the visual design inherits the brand principles in a digital context.",
@@ -55,6 +61,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 9,
-  "lastUpdated": "2025-08-18T09:49:18.284Z"
+  "total": 10,
+  "lastUpdated": "2025-08-18T09:51:17.716Z"
 }

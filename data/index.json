@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-18T09:49:18.283Z",
+    "lastUpdated": "2025-08-18T09:51:17.715Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -465,6 +465,15 @@
             "path": "pages/accessibility/accessibility.json",
             "endpoints": {
               "content": "pages/accessibility/accessibility.json"
+            }
+          },
+          {
+            "title": "Applied design",
+            "slug": "design-direction/applied-design",
+            "summary": "SEB's visual design is intuitive, unified, and sophisticated, prioritizing quality craftsmanship. Our guiding words – Clean, Clear, and Craft – are fundamental to our daily design approach. These guidelines serve as a practical resource to ensure the creation of designs of the highest standard.",
+            "path": "pages/design-directionapplied-design/design-directionapplied-design.json",
+            "endpoints": {
+              "content": "pages/design-directionapplied-design/design-directionapplied-design.json"
             }
           },
           {
