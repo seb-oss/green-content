@@ -15,7 +15,7 @@
     },
     {
       "title": "Before we dive in",
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -32,7 +32,7 @@
     },
     {
       "title": "Aim high, shoot long! And get lost in the woods",
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -54,7 +54,7 @@
     },
     {
       "title": "How do we build on our brand tolerance?",
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -75,7 +75,7 @@
     },
     {
       "title": "So, what should an SEB experience feel like?",
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
