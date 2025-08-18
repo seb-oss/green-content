@@ -96,6 +96,7 @@
     {
       "title": "Heading",
       "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "paragraph",
