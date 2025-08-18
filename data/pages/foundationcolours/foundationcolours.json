@@ -82,28 +82,6 @@
           "content": "State tokens provide visual feedback for interactions, ensuring consistency across components in both light and dark mode. We have defined an extensive set of tokens to support customisation across primary, secondary, and tertiary components."
         }
       ]
-    },
-    {
-      "title": "Colour anatomy",
-      "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Color is a powerful tool in design, shaping hierarchy, guiding attention, and reinforcing brand identity. In Green, colors work alongside whitespace and typography to create clarity and balance."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "At SEB, our grey palette provides a neutral foundation, ensuring flexibility and a professional tone. Alert colors—red, orange, green, and blue—are used sparingly to draw attention to critical actions or states. When used thoughtfully, color enhances readability and usability without overwhelming the interface."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Just as important as color is space—giving elements room to breathe ensures a clear and structured layout. Typography also plays a key role, maintaining legibility and reinforcing the visual hierarchy. By combining these elements effectively, we create a system that feels both functional and refined."
-        }
-      ]
     }
   ]
 }
