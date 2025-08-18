@@ -26,6 +26,24 @@
           "text": "To succeed, we need the guidance, empathy and the right tools. ​\nThis manifest is one of those tools. It’s a guide on how to make decisions, move forward and make changes that matter."
         }
       ]
+    },
+    {
+      "title": "Aim high, shoot long! And get lost in the woods",
+      "max-width": false,
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "With the backing of our design system, guidance and community we can focus on the parts that matter: Creating user experiences that are proactive and drive the bank forward."
+        },
+        {
+          "type": "paragraph",
+          "text": "We might shoot to high and miss the target, but we have gained momentum and new knowledge.\nThe path to the best solutions are seldom straight and the end goal will change, so stay agile and vigilant."
+        },
+        {
+          "type": "paragraph",
+          "text": "And if you get lost along the way, just embrace it! New insights trigger innovation!"
+        }
+      ]
     }
   ]
 }
