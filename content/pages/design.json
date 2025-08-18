@@ -12,6 +12,20 @@
           "src": "/assets/About.png"
         }
       ]
+    },
+    {
+      "title": "Before we dive in",
+      "max-width": false,
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "​We should always be on the user's side. We are the guardians, the safe keepers and the will for change in an ever changing world.\nKnowing how we are perceived and experienced, we can motivate change within SEB and to our users."
+        },
+        {
+          "type": "paragraph",
+          "text": "To succeed, we need the guidance, empathy and the right tools. ​\nThis manifest is one of those tools. It’s a guide on how to make decisions, move forward and make changes that matter."
+        }
+      ]
     }
   ]
 }
