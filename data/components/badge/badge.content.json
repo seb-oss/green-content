@@ -33,7 +33,7 @@
     {
       "title": "Usage",
       "tag": "H2",
-      "section-content": "Badges are especially useful for:\n\n*   **Status indicators** – Showing that something is new, in progress, needs attention, or has been successfully completed.\n    \n*   **Counters** – Indicating the number of new messages, notifications, or tasks.\n    \n*   **Contextual highlights** – Marking a feature as beta or signaling updates users should be aware of.\n    \n\nUse badges sparingly - too many can create visual noise and reduce their impact. Always ensure that the badge color, icon and label clearly support the intended message."
+      "section-content": "Badges are especially useful for:\n\n*   **Status indicators** – Showing that something is new, in progress, needs attention, or has been successfully completed.\n    \n*   **Counters** – Indicating the number of new messages, notifications, or tasks.\n    \n*   **Contextual highlights** – Marking a feature as beta or signaling updates users should be aware of.\n    \n\nUse badges sparingly – too many can create visual noise and reduce their impact. Always ensure that the badge color, icon and label clearly support the intended message."
     },
     {
       "title": "Variants",
@@ -65,7 +65,7 @@
     },
     {
       "title": "Notification mode",
-      "section-content": "Optimized for notification indicators.",
+      "section-content": "Optimised for notification indicators.",
       "cols": "1",
       "columns": [
         {
