@@ -57,6 +57,40 @@
           "type": "paragraph",
           "tag": "p",
           "text": "This structured approach ensures clear visual hierarchy, making it easy to design interfaces with depth and contrast while maintaining flexibility across different layouts."
+        },
+        {
+          "type": "rich-text",
+          "title": "Background levels",
+          "tag": "H3",
+          "content": "Background tokens are grouped by their level in the interface:  \nL1 – the base layer of the screen,  L2 – structural layers like cards and modals,  L3 – backgrounds for components like buttons and inputs.  This structure supports clarity, consistency, and a clear visual hierarchy."
+        },
+        {
+          "type": "rich-text",
+          "title": "Content",
+          "tag": "H3",
+          "content": "Content tokens are used for text, icons, and other foreground elements. They ensure readability and clear contrast against background roles like document, surface, and container."
+        }
+      ]
+    },
+    {
+      "title": "Colour anatomy",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Color is a powerful tool in design, shaping hierarchy, guiding attention, and reinforcing brand identity. In Green, colors work alongside whitespace and typography to create clarity and balance."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "At SEB, our grey palette provides a neutral foundation, ensuring flexibility and a professional tone. Alert colors—red, orange, green, and blue—are used sparingly to draw attention to critical actions or states. When used thoughtfully, color enhances readability and usability without overwhelming the interface."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Just as important as color is space—giving elements room to breathe ensures a clear and structured layout. Typography also plays a key role, maintaining legibility and reinforcing the visual hierarchy. By combining these elements effectively, we create a system that feels both functional and refined."
         }
       ]
     }
