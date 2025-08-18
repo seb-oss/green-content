@@ -1,7 +1,7 @@
 {
   "title": "Design direction",
   "slug": "design-direction",
-  "summary": "Following the brand values for SEB the Digital design direction is not just about aesthetics, it’s about clarity, function, and enhancing the user journey. In our complex world, we aim to simplify and remove obstacles for all our users. There for all aspects of design is part of the experience, such as writing and accessibility.  \n  \nSo the user experience will be clear, seamless and engaging.",
+  "summary": "Following the brand values for SEB the Digital design direction is not just about aesthetics, it’s about clarity, function, and enhancing the user journey. In our complex world, we aim to simplify and remove obstacles for all our users. There for all aspects of design is part of the experience, such as writing and accessibility.\n\nSo the user experience will be clear, seamless and engaging.",
   "sections": [
     {
       "max-width": false,
@@ -16,6 +16,7 @@
     {
       "title": "Before we dive in",
       "max-width": false,
+      "cols": "1",
       "columns": [
         {
           "type": "paragraph",
@@ -32,6 +33,7 @@
     {
       "title": "Aim high, shoot long! And get lost in the woods",
       "max-width": false,
+      "cols": "1",
       "columns": [
         {
           "type": "paragraph",
@@ -53,6 +55,7 @@
     {
       "title": "How do we build on our brand tolerance?",
       "max-width": false,
+      "cols": "1",
       "columns": [
         {
           "type": "paragraph",
@@ -73,6 +76,7 @@
     {
       "title": "So, what should an SEB experience feel like?",
       "max-width": false,
+      "cols": "1",
       "columns": [
         {
           "type": "paragraph",
