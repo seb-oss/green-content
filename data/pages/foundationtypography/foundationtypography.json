@@ -210,6 +210,10 @@
         {
           "type": "image",
           "src": "/assets/typography_pairings2.png"
+        },
+        {
+          "type": "image",
+          "src": "/assets/typography_pairings.png"
         }
       ]
     }
