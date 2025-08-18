@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-18T08:00:43.965Z",
+    "lastUpdated": "2025-08-18T08:03:50.507Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -451,6 +451,15 @@
             "path": "pages/accessibility/accessibility.json",
             "endpoints": {
               "content": "pages/accessibility/accessibility.json"
+            }
+          },
+          {
+            "title": "Design",
+            "slug": "design",
+            "summary": "Design preamble",
+            "path": "pages/design/design.json",
+            "endpoints": {
+              "content": "pages/design/design.json"
             }
           },
           {

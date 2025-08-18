@@ -1,0 +1,17 @@
+{
+  "title": "Design",
+  "slug": "design",
+  "summary": "Design preamble",
+  "sections": [
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/About.png"
+        }
+      ]
+    }
+  ]
+}

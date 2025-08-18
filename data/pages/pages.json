@@ -13,6 +13,12 @@
       "path": "pages/accessibility/accessibility.json"
     },
     {
+      "title": "Design",
+      "slug": "design",
+      "summary": "Design preamble",
+      "path": "pages/design/design.json"
+    },
+    {
       "title": "Primitives",
       "slug": "primitives",
       "summary": "The fundamental parts of the design system that supports all of SEB's interfaces such as colours and typography.",
@@ -43,6 +49,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 7,
-  "lastUpdated": "2025-08-18T08:00:43.966Z"
+  "total": 8,
+  "lastUpdated": "2025-08-18T08:03:50.508Z"
 }
