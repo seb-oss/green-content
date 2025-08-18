@@ -46,6 +46,15 @@
           "text": "When designing layouts, spacing values range from 1 px to 120 px, providing flexibility while maintaining a structured and harmonious design."
         }
       ]
+    },
+    {
+      "max-width": false,
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/spacing.png"
+        }
+      ]
     }
   ]
 }
