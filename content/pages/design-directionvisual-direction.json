@@ -24,6 +24,28 @@
           "text": "This voice is one of our most powerful tools – essential for shaping the overall experience."
         }
       ]
+    },
+    {
+      "title": "Design principles",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "This design language is a direct descendant and part of the global brand identity. It caters to designers and developers with design assets and code."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Together we can focus on the user and the experience we want to build, and swiftly make changes as needed."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "These principles are foundational and should be considered at every stage of design and development. They also reflect our global brand values in a digital context."
+        }
+      ]
     }
   ]
 }
