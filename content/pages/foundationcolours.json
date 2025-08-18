@@ -4,6 +4,15 @@
   "summary": "Colour is a powerful tool in design, shaping hierarchy, guiding attention, and reinforcing brand identity. In Green, colours work alongside whitespace and typography to create clarity and balance.",
   "sections": [
     {
+      "max-width": false,
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/colors_hero.jpg"
+        }
+      ]
+    },
+    {
       "title": "Designing with colors",
       "max-width": true,
       "cols": "1",
@@ -30,15 +39,6 @@
           "type": "paragraph",
           "tag": "p",
           "text": "All colors in Green are carefully translated to work in both light and dark modes, ensuring consistency and accessibility across different themes. This adaptation preserves contrast, readability, and the overall visual integrity of the interface, no matter the user’s preferred mode."
-        }
-      ]
-    },
-    {
-      "max-width": false,
-      "columns": [
-        {
-          "type": "image",
-          "src": "/assets/colors_hero.jpg"
         }
       ]
     }
