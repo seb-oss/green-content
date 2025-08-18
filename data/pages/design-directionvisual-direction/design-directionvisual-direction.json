@@ -54,30 +54,6 @@
           "type": "paragraph",
           "tag": "p",
           "text": "These principles are foundational and should be considered at every stage of design and development. They also reflect our global brand values in a digital context."
-        },
-        {
-          "type": "rich-text",
-          "title": "Modern, yet timeless",
-          "tag": "H3",
-          "content": "​GDS is designed to feel contemporary while avoiding trends that quickly date. Our components and layouts are built to endure, balancing innovation with a sense of familiarity.\n\nThis supports long-term consistency without sacrificing relevance."
-        },
-        {
-          "type": "rich-text",
-          "title": "​Confidence. Less is more.",
-          "tag": "H3",
-          "content": "​Our design speaks with quiet authority. We rely on clarity, precision, and restraint to build trust. Every element must earn its place—interfaces are purposeful and to the point, never overloaded or ambiguous."
-        },
-        {
-          "type": "rich-text",
-          "title": "​Elegant, uncluttered, and effortless",
-          "tag": "H3",
-          "content": "​We aim for digital experiences that feel calm and intentional. Interfaces should be intuitive, reduced to only the essential elements. Through layout, spacing, and interaction, we create effortless flows that prioritize user needs over decorative excess."
-        },
-        {
-          "type": "rich-text",
-          "title": "​Attention to detail. Just like in our business.",
-          "tag": "H3",
-          "content": "​Just as our business is built on trust and precision, our design system is built on carefully crafted details. From pixel-perfect icon alignment to consistent typographic rhythm, every component is held to the highest standard. These micro-decisions add up to macro quality."
         }
       ]
     },
