@@ -51,17 +51,12 @@
         {
           "type": "paragraph",
           "tag": "p",
-          "text": "The Green Design System (GDS) colors are structured into three levels, ensuring clarity and consistency across UI elements. "
+          "text": "The Green Design System (GDS) colors are structured into three groups, background, content and state. Backgrounds are divided into three levels, ensuring clarity and consistency across UI elements. "
         },
         {
           "type": "paragraph",
           "tag": "p",
           "text": "This structured approach ensures clear visual hierarchy, making it easy to design interfaces with depth and contrast while maintaining flexibility across different layouts."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Background tokens are grouped by their level in the interface:\nL1 – the base layer of the screen\nL2 – structural layers like cards and modals\nL3 – backgrounds for components like buttons and inputs.  \nThis structure supports clarity, consistency, and a clear visual hierarchy."
         }
       ]
     }
