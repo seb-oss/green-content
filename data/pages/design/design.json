@@ -69,6 +69,26 @@
           "text": "That’s why our design system, governance, and community are key to staying on track and succeeding together."
         }
       ]
+    },
+    {
+      "title": "So, what should an SEB experience feel like?",
+      "max-width": false,
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "First and foremost, it’s about the volume and tone we use when we communicate with our users. Are we being calm and clear, or loud and overwhelming?"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Every design choice contributes to that perception. As a designer, you can’t just focus on your own part – you need to understand the whole picture and how your decisions impact the overall experience. A choice that works for your screen but clashes with the wider flow is usually not a good choice. Great experiences come from consistency, awareness, and collaboration."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the Visual direction you will be able to see examples on how to combine the components to layouts."
+        }
+      ]
     }
   ]
 }
