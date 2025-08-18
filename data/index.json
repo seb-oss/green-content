@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-18T08:13:26.240Z",
+    "lastUpdated": "2025-08-18T08:22:15.517Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -456,7 +456,7 @@
           {
             "title": "Design direction",
             "slug": "design-direction",
-            "summary": "Design preamble",
+            "summary": "Following the brand values for SEB the Digital design direction is not just about aesthetics, it’s about clarity, function, and enhancing the user journey. In our complex world, we aim to simplify and remove obstacles for all our users. There for all aspects of design is part of the experience, such as writing and accessibility.  \n  \nSo the user experience will be clear, seamless and engaging.",
             "path": "pages/design/design.json",
             "endpoints": {
               "content": "pages/design/design.json"
