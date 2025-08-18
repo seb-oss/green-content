@@ -202,6 +202,11 @@
           "text": "Equally important is the spacing between these elements. Proper spacing helps separate and define relationships between text styles, preventing visual clutter and ensuring a natural reading rhythm. Adjust spacing to create clear groupings while maintaining alignment and harmony across the layout."
         }
       ]
+    },
+    {
+      "title": "VARFÖR FUNKAR INTE DET HÄR?",
+      "tag": "H2",
+      "max-width": false
     }
   ]
 }
