@@ -1,6 +1,6 @@
 {
-  "title": "Foundation",
-  "slug": "foundation",
+  "title": "Primitives",
+  "slug": "primitives",
   "summary": "The fundamental parts of the design system that supports all of SEB's interfaces such as colours and typography.",
   "sections": [
     {

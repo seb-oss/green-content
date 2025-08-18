@@ -13,8 +13,8 @@
       "path": "pages/accessibility/accessibility.json"
     },
     {
-      "title": "Foundation",
-      "slug": "foundation",
+      "title": "Primitives",
+      "slug": "primitives",
       "summary": "The fundamental parts of the design system that supports all of SEB's interfaces such as colours and typography.",
       "path": "pages/foundation/foundation.json"
     },
@@ -44,5 +44,5 @@
     }
   ],
   "total": 7,
-  "lastUpdated": "2025-08-18T07:57:25.133Z"
+  "lastUpdated": "2025-08-18T07:59:50.875Z"
 }
