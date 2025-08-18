@@ -19,6 +19,12 @@
       "path": "pages/design-directionapplied-design/design-directionapplied-design.json"
     },
     {
+      "title": "Spacing",
+      "slug": "design-direction/spacing",
+      "summary": "Spacing is a fundamental tool for structuring layouts, guiding the user’s eye, and ensuring clarity in design. In Green, we use spacing to create hierarchy, balance, and visual rhythm, making interfaces feel intentional and easy to navigate.",
+      "path": "pages/design-directionspacing/design-directionspacing.json"
+    },
+    {
       "title": "Visual direction",
       "slug": "design-direction/visual-direction",
       "summary": "With our visual language we help the user to navigate, make choices and solve problems. It’s what makes the design direction come to life! With usability and writing as core pillars the visual design inherits the brand principles in a digital context.",
@@ -61,6 +67,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 10,
-  "lastUpdated": "2025-08-18T11:19:56.033Z"
+  "total": 11,
+  "lastUpdated": "2025-08-18T11:23:00.041Z"
 }
