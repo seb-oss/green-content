@@ -183,19 +183,7 @@
       "title": "Add items to a list",
       "tag": "H2",
       "section-content": "Although links are primarily to be used for navigation, it happens that we use linked design for actions that the customer can perform. When the link indicates that it can add more of the same item to a list, you may begin the link text with a plus sign. For instance: [\\+ Add another company](#)\n\nHowever, links that indicate that the user can delete an item should not begin with a minus.",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Do",
-          "content": "[\\+ Add a new country](#)"
-        },
-        {
-          "type": "rich-text",
-          "title": "Don't",
-          "content": "[\\- Delete the country](#)"
-        }
-      ]
+      "cols": "2"
     }
   ]
 }
