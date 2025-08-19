@@ -190,12 +190,12 @@
     },
     {
       "title": "Should I place the link in or after the text?",
-      "tag": "H3",
+      "tag": "H2",
       "section-content": "The purpose of the text decides the placement of the links. If the user is supposed to read the text in its entirety, place the link after the text or in a separate link list. If the user reads the text to act, you can place the links directly in the text."
     },
     {
       "title": "Link in the text",
-      "tag": "H4",
+      "tag": "H3",
       "section-content": "When the purpose of the text is to help the user navigate forward, you can put the link directly in the text.\n\n*   You can find the agreement under [**My agreements**](https://designlibrary.sebgroup.com/components/component-link/)."
     },
     {
@@ -205,7 +205,7 @@
     },
     {
       "title": "Add items to a list",
-      "tag": "H3",
+      "tag": "H2",
       "section-content": "Although links are primarily to be used for navigation, it happens that we use linked design for actions that the customer can perform. When the link indicates that it can add more of the same item to a list, you may begin the link text with a plus sign. For instance: [\\+ Add another company](https://designlibrary.sebgroup.com/components/component-link/)\n\nHowever, links that indicate that the user can delete an item should not begin with a minus."
     },
     {
