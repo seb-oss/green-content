@@ -51,7 +51,7 @@
       ]
     },
     {
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
