@@ -9,8 +9,7 @@
       "cols": "1",
       "columns": [
         {
-          "type": "image",
-          "src": "/assets/visual_direction.png"
+          "type": "image"
         }
       ]
     },
