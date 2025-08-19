@@ -280,19 +280,19 @@
       "title": "Dialog: UX do 2",
       "slug": "dialog-ux-do-2",
       "path": "snippets/dialog-ux-do-2/dialog-ux-do-2.json",
-      "code": "<gds-flex padding=\"xl\" width=\"100%\" justify-content=\"center\" alig-items=\"center\">\n  <gds-dialog heading=\"Cancel the application\">\n    <gds-button slot=\"trigger\">Open Dialog</gds-button>\n    <gds-text tag=\"p\">\n  Are you sure you want to cancel? Nothing will be saved and you'll need to start again if you still want to apply.\n    </gds-text>\n    <gds-flex slot=\"footer\" gap=\"s\">\n      <gds-button rank=\"secondary\">Back</gds-button>\n      <gds-button>Yes, cancel</gds-button>\n    </gds-flex>\n  </gds-dialog>\n</gds-flex>"
+      "code": "<gds-flex padding=\"xl\" width=\"100%\" justify-content=\"center\" alig-items=\"center\">\n  <gds-dialog heading=\"Cancel the application\">\n    <gds-button slot=\"trigger\">Open dialog</gds-button>\n    <gds-text tag=\"p\">\n  Are you sure you want to cancel? Nothing will be saved and you'll need to start again if you still want to apply.\n    </gds-text>\n    <gds-flex slot=\"footer\" gap=\"s\">\n      <gds-button rank=\"secondary\">Back</gds-button>\n      <gds-button>Yes, cancel</gds-button>\n    </gds-flex>\n  </gds-dialog>\n</gds-flex>"
     },
     {
       "title": "Dialog: UX do",
       "slug": "dialog-ux-do",
       "path": "snippets/dialog-ux-do/dialog-ux-do.json",
-      "code": "<gds-flex padding=\"xl\" width=\"100%\" justify-content=\"center\" alig-items=\"center\">\n<gds-dialog heading=\"Cancel the application\" >\n  <gds-button slot=\"trigger\">Open Dialog</gds-button>\n  <gds-text tag=\"p\">\n  If you cancel, nothing will be saved and you'll need to start again if you still want to apply.\n  </gds-text>\n  <gds-flex slot=\"footer\" gap=\"s\">\n    <gds-button rank=\"secondary\">Back</gds-button>\n    <gds-button>Cancel application</gds-button>\n  </gds-flex>\n</gds-dialog>\n</gds-flex>"
+      "code": "<gds-flex padding=\"xl\" width=\"100%\" justify-content=\"center\" alig-items=\"center\">\n<gds-dialog heading=\"Cancel the application\" >\n  <gds-button slot=\"trigger\">Open dialog</gds-button>\n  <gds-text tag=\"p\">\n  If you cancel, nothing will be saved and you'll need to start again if you still want to apply.\n  </gds-text>\n  <gds-flex slot=\"footer\" gap=\"s\">\n    <gds-button rank=\"secondary\">Back</gds-button>\n    <gds-button>Cancel application</gds-button>\n  </gds-flex>\n</gds-dialog>\n</gds-flex>"
     },
     {
       "title": "Dialog: UX don't",
       "slug": "dialog-ux-dont",
       "path": "snippets/dialog-ux-dont/dialog-ux-dont.json",
-      "code": "<gds-flex padding=\"xl\" width=\"100%\" justify-content=\"center\" alig-items=\"center\">\n  <gds-dialog heading=\"Cancel the application\">\n    <gds-button slot=\"trigger\">Open Dialog</gds-button>\n    <gds-text tag=\"p\">\n  Are you sure you want to cancel? Nothing will be saved and you'll need to start again if you still want to apply.\n    </gds-text>\n    <gds-flex slot=\"footer\" gap=\"s\">\n      <gds-button rank=\"secondary\">No, close</gds-button>\n      <gds-button>Yes, cancel</gds-button>\n    </gds-flex>\n  </gds-dialog>\n</gds-flex>"
+      "code": "<gds-flex padding=\"xl\" width=\"100%\" justify-content=\"center\" alig-items=\"center\">\n  <gds-dialog heading=\"Cancel the application\">\n    <gds-button slot=\"trigger\">Open dialog</gds-button>\n    <gds-text tag=\"p\">\n  Are you sure you want to cancel? Nothing will be saved and you'll need to start again if you still want to apply.\n    </gds-text>\n    <gds-flex slot=\"footer\" gap=\"s\">\n      <gds-button rank=\"secondary\">No, close</gds-button>\n      <gds-button>Yes, cancel</gds-button>\n    </gds-flex>\n  </gds-dialog>\n</gds-flex>"
     },
     {
       "title": "Divider: Color",
@@ -626,5 +626,5 @@
     }
   ],
   "total": 104,
-  "lastUpdated": "2025-08-19T12:32:10.138Z"
+  "lastUpdated": "2025-08-19T12:32:55.782Z"
 }
