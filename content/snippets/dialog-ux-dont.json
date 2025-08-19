@@ -1,4 +1,5 @@
 {
   "title": "Dialog: UX don't",
-  "slug": "dialog-ux-dont"
+  "slug": "dialog-ux-dont",
+  "code": "<gds-flex padding=\"xl\" width=\"100%\" justify-content=\"center\" alig-items=\"center\">\n  <gds-dialog heading=\"Cancel the application\">\n    <gds-button slot=\"trigger\">Open Dialog</gds-button>\n    <gds-text tag=\"p\">\n  Are you sure you want to cancel? Nothing will be saved and you'll need to start again if you still want to apply.\n    </gds-text>\n    <gds-flex slot=\"footer\" gap=\"s\">\n      <gds-button rank=\"secondary\">No, close</gds-button>\n      <gds-button>Yes, cancel</gds-button>\n    </gds-flex>\n  </gds-dialog>\n</gds-flex>"
 }
