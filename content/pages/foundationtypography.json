@@ -110,14 +110,8 @@
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Body text is the main content of your design, used for paragraphs, articles and detailed information. Its primary function is readability, therefor it should be simple, clear, and consistent. "
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Proper line spacing and contrast also enhance clarity and user comfort when reading. Maintaining consistency in body text ensures a cohesive, user-friendly design."
+          "type": "rich-text",
+          "content": "Body text is primarily used for longer passages of content, providing readability and clarity in paragraphs, articles, and other text-heavy contexts."
         }
       ]
     },
