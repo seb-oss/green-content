@@ -1,0 +1,5 @@
+{
+  "title": "Filter chips: UX classes do",
+  "slug": "filter-chips-ux-classes-do",
+  "code": "<gds-flex\n  padding=\"xl\"\n  width=\"100%\"\n  justify-content=\"center\"\n  alig-items=\"center\"\n>\n  <gds-filter-chips>\n    <gds-filter-chip size=\"small\" selected>Card purchase</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Direct debit</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Bankgiro or plusgiro</gds-filter-chip>\n    <gds-filter-chip size=\"small\" selected>Swish</gds-filter-chip>\n  </gds-filter-chips>\n</gds-flex>\n"
+}
