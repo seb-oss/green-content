@@ -542,9 +542,9 @@ content:
         options:
           collection: pages
           multiple: false
-          search: title
-          value: slug
-          label: title
+          search: "title, slug"
+          value: "{slug}"
+          label: "{title} - {slug}"
       - name: sections
         type: object
         label: Sections
