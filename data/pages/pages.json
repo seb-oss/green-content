@@ -61,12 +61,18 @@
       "path": "pages/foundationtypography/foundationtypography.json"
     },
     {
+      "title": "Layout",
+      "slug": "layout",
+      "summary": "Declerative layout stuff",
+      "path": "pages/layout/layout.json"
+    },
+    {
       "title": "UX writing",
       "slug": "ux-writing",
       "summary": "Wherever customers meet us, their experience of SEB should be consistent. A good experience builds trust and can lead to new business. Customer-facing text must be correct – mistakes distract and reduce credibility.",
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 11,
-  "lastUpdated": "2025-08-19T08:22:15.397Z"
+  "total": 12,
+  "lastUpdated": "2025-08-19T08:22:57.211Z"
 }

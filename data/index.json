@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T08:22:15.396Z",
+    "lastUpdated": "2025-08-19T08:22:57.210Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -537,6 +537,15 @@
             "path": "pages/foundationtypography/foundationtypography.json",
             "endpoints": {
               "content": "pages/foundationtypography/foundationtypography.json"
+            }
+          },
+          {
+            "title": "Layout",
+            "slug": "layout",
+            "summary": "Declerative layout stuff",
+            "path": "pages/layout/layout.json",
+            "endpoints": {
+              "content": "pages/layout/layout.json"
             }
           },
           {
