@@ -10,8 +10,7 @@
       "cols": "1",
       "columns": [
         {
-          "type": "image",
-          "src": "/assets/colour_hero_2.png"
+          "type": "image"
         }
       ]
     },
