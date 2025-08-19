@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T11:35:49.057Z",
+    "lastUpdated": "2025-08-19T11:40:19.759Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -629,6 +629,7 @@
             "title": "Alert: UX text heading do",
             "slug": "alert-ux-do",
             "path": "snippets/alert-ux-do/alert-ux-do.json",
+            "code": "<gds-flex width=\"80%\" display=\"block\">\n<gds-alert variant=\"negative\" button-label=\"Try again\">\n  <strong>We were unable to show your e-invoices.</strong> Try again. If it still doesn't work, <u>contact us</u>\n</gds-alert>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/alert-ux-do/alert-ux-do.json"
             }
