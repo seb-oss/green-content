@@ -1,7 +1,7 @@
 {
   "title": "Design tokens",
   "slug": "primitives/design-tokens",
-  "summary": "Design tokens capture colors, typography, spacing, and other atomic design decisions as named, reusable values that are used in designs, tools and code so interfaces stay consistent and easy to update.",
+  "summary": "Design tokens capture colors, typography, spacing, and other design decisions as named, reusable values used in designs, tools, and code - keeping interfaces consistent and easy to update.",
   "parent": "primitives",
   "sections": [
     {
