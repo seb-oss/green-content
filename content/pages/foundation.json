@@ -57,6 +57,10 @@
         {
           "type": "image",
           "src": "/assets/primitives_typography.png"
+        },
+        {
+          "type": "rich-text",
+          "content": "[Read more about typography](https://stg.seb.io/primitives/typography)"
         }
       ]
     },
