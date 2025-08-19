@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T12:16:59.376Z",
+    "lastUpdated": "2025-08-19T12:17:27.823Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -974,6 +974,14 @@
             "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Show slide-out dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>",
             "endpoints": {
               "content": "snippets/dialog-slideout/dialog-slideout.json"
+            }
+          },
+          {
+            "title": "Dialog: UX do 2",
+            "slug": "dialog-ux-do-2",
+            "path": "snippets/dialog-ux-do-2/dialog-ux-do-2.json",
+            "endpoints": {
+              "content": "snippets/dialog-ux-do-2/dialog-ux-do-2.json"
             }
           },
           {

@@ -277,6 +277,11 @@
       "code": "<gds-dialog heading=\"Dialog heading\" variant=\"slide-out\">\n  <gds-button slot=\"trigger\">Show slide-out dialog</gds-button>\n  This is the content of the dialog.\n</gds-dialog>"
     },
     {
+      "title": "Dialog: UX do 2",
+      "slug": "dialog-ux-do-2",
+      "path": "snippets/dialog-ux-do-2/dialog-ux-do-2.json"
+    },
+    {
       "title": "Dialog: UX do",
       "slug": "dialog-ux-do",
       "path": "snippets/dialog-ux-do/dialog-ux-do.json"
@@ -617,6 +622,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 103,
-  "lastUpdated": "2025-08-19T12:16:59.377Z"
+  "total": 104,
+  "lastUpdated": "2025-08-19T12:17:27.824Z"
 }
