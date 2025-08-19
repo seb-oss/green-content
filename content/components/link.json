@@ -134,7 +134,7 @@
           "type": "do",
           "dolist": [
             {
-              "text": "Start saving for your pension (This needs to be formatted as links)"
+              "text": "<u>Start saving for your pension,</u> (This needs to be formatted as links)"
             },
             {
               "text": "Read more about mortgages (This needs to be formatted as links)"
