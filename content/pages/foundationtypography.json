@@ -78,7 +78,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Display text is meant to make a strong visual impact. This style is used sparingly, as they are designed for strong visual impact.  \n  \nTherefore, display text is perfect when you need to raise the volume."
+          "content": "Display text is meant to make a strong visual impact. This style is used sparingly, as they are designed for strong visual impact.\n\nTherefore, display text is perfect when you need to raise the volume."
         }
       ]
     },
@@ -127,13 +127,13 @@
       ]
     },
     {
-      "title": "Pairings",
+      "title": "Pairings that will change the heading if this works",
       "max-width": true,
       "cols": "1",
       "columns": [
         {
           "type": "rich-text",
-          "content": "Pairing the different text styles is key to creating a strong visual hierarchy. _These are defined with a few examples but a more cohesive and thorough guide will be available soon._  \n  \nEqually important is proper spacing between these elements. It helps separate and define relationships between text styles, and ensures a natural reading rhythm."
+          "content": "Pairing the different text styles is key to creating a strong visual hierarchy. _These are defined with a few examples but a more cohesive and thorough guide will be available soon._\n\nEqually important is proper spacing between these elements. It helps separate and define relationships between text styles, and ensures a natural reading rhythm."
         }
       ]
     },
