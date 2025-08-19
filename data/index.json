@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T11:47:51.284Z",
+    "lastUpdated": "2025-08-19T11:48:49.039Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -641,6 +641,15 @@
             "code": "<gds-flex width=\"80%\" display=\"block\">\n<gds-alert variant=\"negative\" button-label=\"Try again\">\n  <strong>We were unable to show your e-invoices.</strong><br /> Try again. If it still doesn't work, <u>contact us</u>\n</gds-alert>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/alert-ux-dont/alert-ux-dont.json"
+            }
+          },
+          {
+            "title": "Alert: UX with a close button",
+            "slug": "alert-ux-with-a-close-button",
+            "path": "snippets/alert-ux-with-a-close-button/alert-ux-with-a-close-button.json",
+            "code": "<gds-flex width=\"80%\" display=\"block\">\n  <gds-alert variant=\"positive\" dismissible>\n    You logged out!\n  </gds-alert>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/alert-ux-with-a-close-button/alert-ux-with-a-close-button.json"
             }
           },
           {
