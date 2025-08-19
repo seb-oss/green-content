@@ -2,6 +2,7 @@
   "title": "Visual direction",
   "slug": "design-direction/visual-direction",
   "summary": "Our visual language helps the user to navigate, make choices and solve problems. With usability and writing as core pillars the visual design inherits the brand principles in a digital context.",
+  "parent": "design-direction",
   "sections": [
     {
       "max-width": false,
