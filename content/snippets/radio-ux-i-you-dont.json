@@ -1,5 +1,5 @@
 {
   "title": "Radio: UX I and you dont",
   "slug": "radio-ux-i-you-dont",
-  "code": "<gds-radio-group label=\"How do you want the goods delivered?\">\n  <gds-radio\n    label=\"You will receive them by courier, 2–3 days.\"\n    value=\"1\"\n    checked=\"true\"\n  ></gds-radio>\n  <gds-radio\n    label=\"You will receive them by express courier, 1 day.\"\n    value=\"2\"\n  ></gds-radio>\n  <gds-radio label=\"You collect in the store\" value=\"3\"></gds-radio>\n  <gds-radio label=\"You collect from parcel box\" value=\"3\"></gds-radio>\n</gds-radio-group>\n"
+  "code": "<gds-flex padding=\"xl\">\n  <gds-radio-group label=\"How do you want the goods delivered?\" value=\"1\">\n    <gds-radio\n      label=\"You will receive them by courier, 2–3 days.\"\n      value=\"1\"\n    ></gds-radio>\n    <gds-radio\n      label=\"You will receive them by express courier, 1 day.\"\n      value=\"2\"\n    ></gds-radio>\n    <gds-radio label=\"You collect in the store\" value=\"3\"></gds-radio>\n    <gds-radio label=\"You collect from parcel box\" value=\"3\"></gds-radio>\n  </gds-radio-group>\n</gds-flex>\n"
 }
