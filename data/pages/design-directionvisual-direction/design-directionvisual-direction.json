@@ -59,7 +59,7 @@
     },
     {
       "max-width": false,
-      "cols": "2",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
