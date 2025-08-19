@@ -14,28 +14,6 @@
       ]
     },
     {
-      "title": "Volume",
-      "max-width": false,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Our visual language is like a voice that speaks with you, not at you. By adjusting its volume, we can gently raise or lower that voice to guide attention where it’s needed."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "When balanced with visual cues and keywords, it helps us lead the user in the right direction. Finding that balance is part of crafting layouts and user flows."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "This voice is one of our most powerful tools – essential for shaping the overall experience."
-        }
-      ]
-    },
-    {
       "title": "Design principles",
       "max-width": true,
       "cols": "1",
