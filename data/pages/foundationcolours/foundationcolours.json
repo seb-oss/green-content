@@ -36,10 +36,6 @@
       "columns": [
         {
           "type": "paragraph",
-          "text": "Maintaining a balanced and engaging interface requires thoughtful color usage. Our approach ensures that color enhances usability, guides attention, and maintains harmony throughout the design system. By leveraging our extended palettes, we create clear visual hierarchies, accommodate accessible contrast levels, and bring cohesion to both functional and expressive design elements."
-        },
-        {
-          "type": "paragraph",
           "tag": "p",
           "text": "All colors in Green are carefully translated to work in both light and dark modes, ensuring consistency and accessibility across different themes. This adaptation preserves contrast, readability, and the overall visual integrity of the interface, no matter the user’s preferred mode."
         }
