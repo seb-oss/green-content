@@ -124,6 +124,10 @@
       ]
     },
     {
+      "title": "Do not mix word classes",
+      "cols": "2"
+    },
+    {
       "title": "Do's and don'ts",
       "tag": "H2",
       "cols": "1",
