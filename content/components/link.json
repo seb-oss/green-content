@@ -144,25 +144,18 @@
     {
       "title": "Include only the necessary words",
       "tag": "H3",
-      "section-content": "Sometimes the link can be a complete sentence, but don't make the sentence too long. Never include several sentences. Don't include preceding articles or punctuation mark."
-    },
-    {
+      "section-content": "Sometimes the link can be a complete sentence, but don't make the sentence too long. Never include several sentences. Don't include preceding articles or punctuation mark.",
+      "cols": "2",
       "columns": [
         {
-          "type": "do",
-          "dolist": [
-            {
-              "text": "Unfortunately, this feature does not work in the browser Internet Explorer. Here you can read about the browsers we recommend. (\"browser recommended needs to look like a link)"
-            }
-          ]
+          "type": "rich-text",
+          "title": "Do",
+          "content": "Unfortunately, this feature does not work in the browser Internet Explorer. Here you can read about the [browsers we recommend](#)."
         },
         {
-          "type": "dont",
-          "dontlist": [
-            {
-              "text": "Unfortunately, this feature does not work in the browser Internet Explorer. Here you can read about the browsers we recommend. (Here you can read about the browsers we recommend. needs to look like a link)"
-            }
-          ]
+          "type": "rich-text",
+          "title": "Don't",
+          "content": "Unfortunately, this feature does not work in the browser Internet Explorer. [Here you can read about the browsers we recommend.](#)"
         }
       ]
     },
@@ -174,12 +167,12 @@
     {
       "title": "Link in the text",
       "tag": "H3",
-      "section-content": "When the purpose of the text is to help the user navigate forward, you can put the link directly in the text.\n\n*   You can find the agreement under [**My agreements**](https://designlibrary.sebgroup.com/components/component-link/)."
+      "section-content": "When the purpose of the text is to help the user navigate forward, you can put the link directly in the text.\n\n*   You can find the agreement under [My agreements](#)."
     },
     {
       "title": "Link outside of the text",
       "tag": "H3",
-      "section-content": "Follow us on Twitter and LinkedIn to get the latest insight on corporate, institutional and investment banking. [Follow us on Social media](https://designlibrary.sebgroup.com/components/component-link/)"
+      "section-content": "Follow us on Twitter and LinkedIn to get the latest insight on corporate, institutional and investment banking. [Follow us on Social media.](#)"
     },
     {
       "title": "Put links before a form component",
@@ -189,25 +182,18 @@
     {
       "title": "Add items to a list",
       "tag": "H2",
-      "section-content": "Although links are primarily to be used for navigation, it happens that we use linked design for actions that the customer can perform. When the link indicates that it can add more of the same item to a list, you may begin the link text with a plus sign. For instance: [\\+ Add another company](https://designlibrary.sebgroup.com/components/component-link/)\n\nHowever, links that indicate that the user can delete an item should not begin with a minus."
-    },
-    {
+      "section-content": "Although links are primarily to be used for navigation, it happens that we use linked design for actions that the customer can perform. When the link indicates that it can add more of the same item to a list, you may begin the link text with a plus sign. For instance: [\\+ Add another company](#)\n\nHowever, links that indicate that the user can delete an item should not begin with a minus.",
+      "cols": "2",
       "columns": [
         {
-          "type": "do",
-          "dolist": [
-            {
-              "text": "+ Add a new country"
-            }
-          ]
+          "type": "rich-text",
+          "title": "Do",
+          "content": "[\\+ Add a new country](#)"
         },
         {
-          "type": "dont",
-          "dontlist": [
-            {
-              "text": "- Delete the country"
-            }
-          ]
+          "type": "rich-text",
+          "title": "Don't",
+          "content": "[\\- Delete the country](#)"
         }
       ]
     }
