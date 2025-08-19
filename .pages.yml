@@ -531,7 +531,7 @@ content:
     path: content/pages
     filename: "{fields.slug}.json"
     view:
-      fields: [title, date]
+      fields: [title, parent]
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: slug, label: Slug, type: string, required: true }
