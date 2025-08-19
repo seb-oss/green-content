@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T12:38:54.349Z",
+    "lastUpdated": "2025-08-19T12:40:46.964Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1037,6 +1037,15 @@
             "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-plus-large></gds-icon-plus-large>\n  </gds-fab>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/fab-regular/fab-regular.json"
+            }
+          },
+          {
+            "title": "Filter chips: UX do",
+            "slug": "filter-chips-ux-do",
+            "path": "snippets/filter-chips-ux-do/filter-chips-ux-do.json",
+            "code": "<gds-flex\n  padding=\"xl\"\n  width=\"100%\"\n  justify-content=\"center\"\n  alig-items=\"center\"\n>\n  <gds-filter-chips>\n    <gds-filter-chip size=\"small\">Commodities and precious metals</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Technology and innovation</gds-filter-chip>\n  </gds-filter-chips>\n</gds-flex>\n",
+            "endpoints": {
+              "content": "snippets/filter-chips-ux-do/filter-chips-ux-do.json"
             }
           },
           {

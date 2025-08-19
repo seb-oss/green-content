@@ -319,6 +319,12 @@
       "code": "<gds-flex>\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n  >\n    <gds-icon-plus-large></gds-icon-plus-large>\n  </gds-fab>\n</gds-flex>"
     },
     {
+      "title": "Filter chips: UX do",
+      "slug": "filter-chips-ux-do",
+      "path": "snippets/filter-chips-ux-do/filter-chips-ux-do.json",
+      "code": "<gds-flex\n  padding=\"xl\"\n  width=\"100%\"\n  justify-content=\"center\"\n  alig-items=\"center\"\n>\n  <gds-filter-chips>\n    <gds-filter-chip size=\"small\">Commodities and precious metals</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Technology and innovation</gds-filter-chip>\n  </gds-filter-chips>\n</gds-flex>\n"
+    },
+    {
       "title": "Filter chips: UX example",
       "slug": "filter-chips-ux-example",
       "path": "snippets/filter-chips-ux-example/filter-chips-ux-example.json",
@@ -631,6 +637,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 105,
-  "lastUpdated": "2025-08-19T12:38:54.350Z"
+  "total": 106,
+  "lastUpdated": "2025-08-19T12:40:46.966Z"
 }
