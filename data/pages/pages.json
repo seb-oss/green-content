@@ -39,7 +39,7 @@
     {
       "title": "Primitives",
       "slug": "primitives",
-      "summary": "The fundamental parts of the design system that supports all of SEB's interfaces such as colours and typography.",
+      "summary": "The primitives represent the fundamental parts of the design system like colors, typography, spacing, and sizing. This ensures consistency across the entire design system.",
       "path": "pages/foundation/foundation.json"
     },
     {
@@ -74,5 +74,5 @@
     }
   ],
   "total": 12,
-  "lastUpdated": "2025-08-19T08:38:42.883Z"
+  "lastUpdated": "2025-08-19T08:51:23.274Z"
 }
