@@ -77,14 +77,8 @@
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Display text is meant to make a strong visual impact. Display fonts are typically used sparingly, as they are designed for aesthetics rather than long-form readability."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "In terms of size, display text is significantly larger than regular headings, often used for hero sections."
+          "type": "rich-text",
+          "content": "Display text is meant to make a strong visual impact. This style is used sparingly, as they are designed for strong visual impact.  \n  \nTherefore, display text is perfect when you need to raise the volume."
         }
       ]
     },
@@ -94,14 +88,8 @@
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Headings help structure content and establish a clear hierarchy in your design. Heading levels range from H1 (largest) to H6 (smallest), each serving a different purpose. "
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Consistent use of heading sizes helps guide users through the content, improving readability. Keep the size differences noticeable but balanced for a clean and cohesive design."
+          "type": "rich-text",
+          "content": "Headings help establish a clear hierarchy in your layout. Heading levels range from H1 (largest) to H6 (smallest). Keep the size differences noticeable but balanced for a clean and cohesive design."
         }
       ]
     },
