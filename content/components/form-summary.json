@@ -93,7 +93,7 @@
     {
       "title": "Multiple fields with same name",
       "tag": "H3",
-      "section-content": "When there are multiple fields with the same name, they should be grouped together within an area (fieldset). The name of the area is then used as a reference in parentheses in the error summary.\n\n(Add example of this with caption: _Example of multiple fields labelled \"Name\")_"
+      "section-content": "When there are multiple fields with the same name, they should be grouped together within an area (fieldset). The name of the area is then used as a reference in parentheses in the error summary.\n\n**Coming soon...**"
     }
   ]
 }
