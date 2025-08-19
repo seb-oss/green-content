@@ -56,7 +56,7 @@
       "columns": [
         {
           "type": "paragraph",
-          "text": "Typography sizes help establish a clear visual hierarchy, guiding users through content effortlessly. Our type scale ranges from 82px down to 12px, with each size serving a specific role in structuring information effectively."
+          "text": "Our type scale ranges from 82px down to 12px, with each size serving a specific role in structuring information effectively."
         }
       ]
     },
@@ -67,15 +67,7 @@
       "columns": [
         {
           "type": "paragraph",
-          "text": "Hierarchy is shown through changes in font weight, size and colors. The updated type scale categorizes styles into roles. "
-        },
-        {
-          "type": "paragraph",
-          "text": "Green type styles are defined by five roles – display, headline, preamble, body and detail. "
-        },
-        {
-          "type": "paragraph",
-          "text": "These roles are more descriptive, allowing for simpler application across a broader range of use cases, from large to small screens."
+          "text": "Hierarchy is shown through changes in font weight, size and colors. The type scale categorizes styles into roles. The type styles are defined by five roles – display, headline, preamble, body and detail. "
         }
       ]
     },
