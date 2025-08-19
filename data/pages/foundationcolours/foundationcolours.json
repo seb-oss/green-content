@@ -60,7 +60,7 @@
           "type": "rich-text",
           "title": "Background colours and levels",
           "tag": "H3",
-          "content": "Background tokens are grouped by their level in the interface:  \nL1 – the base layer of the screen,  L2 – structural layers like cards and modals,  L3 – backgrounds for components like buttons and inputs.  This structure supports clarity, consistency, and a clear visual hierarchy."
+          "content": "Background colours are grouped by their level in the interface:  \n  \n**L1** – the base layer of the screen  \n**L2** – structural layers like cards and modals  \n**L3** – backgrounds for components like buttons and inputs   \n  \nThis structure supports clarity, consistency, and a clear visual hierarchy."
         },
         {
           "type": "rich-text",
