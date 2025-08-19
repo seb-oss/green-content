@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T14:01:19.364Z",
+    "lastUpdated": "2025-08-19T14:02:52.482Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1496,6 +1496,15 @@
             "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/link-trailing/link-trailing.json"
+            }
+          },
+          {
+            "title": "Radio: Ux consistent do",
+            "slug": "radio-ux-consistent-do",
+            "path": "snippets/radio-ux-consistent-do/radio-ux-consistent-do.json",
+            "code": "<gds-radio-group label=\"Delivery options\">\n  <gds-radio label=\"Home delivery, 2–3 days\" value=\"1\" checked></gds-radio>\n  <gds-radio label=\"Express delivery, 1 day\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Pick up in the store\" value=\"3\"></gds-radio>\n  <gds-radio label=\"Parcel locker\" value=\"4\"></gds-radio>\n</gds-radio-group>",
+            "endpoints": {
+              "content": "snippets/radio-ux-consistent-do/radio-ux-consistent-do.json"
             }
           },
           {

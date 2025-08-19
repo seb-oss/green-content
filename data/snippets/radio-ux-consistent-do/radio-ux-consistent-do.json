@@ -1,0 +1,5 @@
+{
+  "title": "Radio: Ux consistent do",
+  "slug": "radio-ux-consistent-do",
+  "code": "<gds-radio-group label=\"Delivery options\">\n  <gds-radio label=\"Home delivery, 2–3 days\" value=\"1\" checked></gds-radio>\n  <gds-radio label=\"Express delivery, 1 day\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Pick up in the store\" value=\"3\"></gds-radio>\n  <gds-radio label=\"Parcel locker\" value=\"4\"></gds-radio>\n</gds-radio-group>"
+}
