@@ -102,7 +102,7 @@
     {
       "title": "Writing UX text for date pickers",
       "tag": "H2",
-      "section-content": "This is an exception to the usual rule, in the date picker, we do use placeholder text in the field, even though we normally advise against it. This is because the user selects the day, month, and year from a calendar, so they don’t rely on the field itself for guidance. The placeholder simply acts as a visual aid and doesn’t affect how we guide the user once it disappears. It just shows how the date will be displayed after selection.\n\nIn Swedish, we use the ISO format: åååå-mm-dd (lowercase, with hyphens). (Add visual example)\n\nIn English, we follow the UK standard format: DD/MM/YYYY (uppercase, with slashes).(Add visual example)"
+      "section-content": "This is an exception to the usual rule, in the date picker, we do use placeholder text in the field, even though we normally advise against it. This is because the user selects the day, month, and year from a calendar, so they don’t rely on the field itself for guidance. The placeholder simply acts as a visual aid and doesn’t affect how we guide the user once it disappears. It just shows how the date will be displayed after selection.\n\nIn Swedish, we use the ISO format: åååå-mm-dd (lowercase, with hyphens).\n\nIn English, we follow the UK standard format: DD/MM/YYYY (uppercase, with slashes)."
     }
   ]
 }
