@@ -55,6 +55,12 @@
       "code": "<gds-flex width=\"80%\" display=\"block\">\n<gds-alert variant=\"negative\" button-label=\"Try again\">\n  <strong>We were unable to show your e-invoices.</strong><br /> Try again. If it still doesn't work, <u>contact us</u>\n</gds-alert>\n</gds-flex>"
     },
     {
+      "title": "Alert: UX without heading",
+      "slug": "alert-ux-without-heading",
+      "path": "snippets/alert-ux-without-heading/alert-ux-without-heading.json",
+      "code": "<gds-flex width=\"80%\" display=\"block\">\n<gds-alert variant=\"information\" dismissible>\n Automated advice for this savings account was disabled on 9 July as the data was\nmore than 24 months old.\n</gds-alert>\n</gds-flex>"
+    },
+    {
       "title": "Alert: Warning",
       "slug": "alert-warning",
       "path": "snippets/alert-warning/alert-warning.json",
@@ -589,6 +595,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 98,
-  "lastUpdated": "2025-08-19T11:43:37.134Z"
+  "total": 99,
+  "lastUpdated": "2025-08-19T11:46:29.366Z"
 }
