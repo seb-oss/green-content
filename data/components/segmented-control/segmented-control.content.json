@@ -128,7 +128,7 @@
     {
       "title": "Writing UX text for segmented controls",
       "tag": "H2",
-      "section-content": "In general, there is not much room for vast labels in segmented controls. Keep the text concise and simple.\n\n*   Write short and to the point\n    \n*   Make it clear what content the user can expect when clicking\n    \n*   Only use upper case on the first word, or if it is a proper name or abbreviation\n    \n\n(Add real example according to the ux text principles)"
+      "section-content": "In general, there is not much room for vast labels in segmented controls. Keep the text concise and simple.\n\n*   Write short and to the point\n    \n*   Make it clear what content the user can expect when clicking\n    \n*   Only use upper case on the first word, or if it is a proper name or abbreviation"
     }
   ],
   "accessibility": [
