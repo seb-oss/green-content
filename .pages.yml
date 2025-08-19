@@ -545,6 +545,11 @@ content:
           search: "title,slug"
           value: "{slug}"
           label: "{title}"
+      - name: layout
+        label: Layout
+        type: select
+        options:
+          values: ["editorial", "collection"]
       - name: sections
         type: object
         label: Sections
