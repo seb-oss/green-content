@@ -90,11 +90,43 @@
     {
       "title": "Writing UX text for filter chips",
       "tag": "H2",
-      "section-content": "The filter chip text should be short. Use one word, if possible, but no more than three words. Write \"and\" instead of the &-sign, since it's more accessible for the user. Aim at keeping the same text length for all filter chips – but only if it can be done without losing comprehensibility. Only use uppercase in the first word, or if it is the first letter of proper names or abbreviations.\n\nSince chips mainly represent different types of filters, and the filters tell something about the element being filtered, it is usually best to use nouns.\n\n##### **Examples**\n\n*   US-dollar, British Virgin Islands, Normal account, High risk, Global, Emerging markets, Equity funds, Biotechnology\n    \n\n(Add example)\n\nIf you are considering a verb, think about whether it would use buttons for actions or badges for representing e.g. status instead."
+      "section-content": "The filter chip text should be short. Use one word, if possible, but no more than three words. Write \"and\" instead of the &-sign, since it's more accessible for the user. Aim at keeping the same text length for all filter chips – but only if it can be done without losing comprehensibility. Only use uppercase in the first word, or if it is the first letter of proper names or abbreviations.\n\nSince chips mainly represent different types of filters, and the filters tell something about the element being filtered, it is usually best to use nouns.\n\n##### **Examples**\n\n*   US-dollar, British Virgin Islands, Normal account, High risk, Global, Emerging markets, Equity funds, Biotechnology\n    \n\nIf you are considering a verb, think about whether it would use buttons for actions or badges for representing e.g. status instead.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Do",
+          "plain": false,
+          "replay": false,
+          "Snippet": "filter-chips-ux-example"
+        }
+      ]
+    },
+    {
+      "title": "Avoid the & sign",
+      "section-content": "Avoid the & sign. Instead, use _and_. Do not start each word with upper case:",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Do",
+          "plain": false,
+          "replay": false,
+          "Snippet": "filter-chips-ux-do"
+        },
+        {
+          "type": "snippet",
+          "caption": "Don't",
+          "plain": false,
+          "replay": false,
+          "Snippet": "filter-chips-ux-dont"
+        }
+      ]
     },
     {
       "title": "Do's and don'ts",
       "tag": "H2",
+      "cols": "1",
       "columns": [
         {
           "type": "do",
@@ -111,16 +143,6 @@
               "text": "Avoid the &-sign for and. Do not start each word with upper case. Do not mix word classes."
             }
           ]
-        },
-        {
-          "type": "rich-text",
-          "tag": "H3",
-          "content": "Avoid the & sign. Instead, use _and_. Do not start each word with upper case:\n\n(Add do and don't example)"
-        },
-        {
-          "type": "rich-text",
-          "tag": "H3",
-          "content": "Do not mix word classes:\n\n(Add do and don't exmples)"
         }
       ]
     }
