@@ -129,37 +129,17 @@
       "section-content": "### Use a verb that describes the user’s action\n\nIf the user is supposed to perform an action when clicking the link, try to use a verb in the active form that describes the action. It's fine to use two verb phrases, if the user must log in or go to a page to read more before performing the main action.\n\nNever use the phrase \"click here\". Neither by itself nor in a longer phrase. It makes it unclear to the user what will happen. \"Click here\" links are also inaccessible for users with screen readers. Furthermore, \"click here\" doesn't work for users that don't use a mouse or use a phone or tablet to navigate the site.\n\n**Use consistent casing**: Only capitalise the first letter of the first word."
     },
     {
+      "cols": "2",
       "columns": [
         {
-          "type": "do",
-          "dolist": [
-            {
-              "text": "<u>Start saving for your pension,</u> (This needs to be formatted as links)"
-            },
-            {
-              "text": "Read more about mortgages (This needs to be formatted as links)"
-            },
-            {
-              "text": "Become a corporate customer (This needs to be formatted as links)"
-            },
-            {
-              "text": "Log in and invest (This needs to be formatted as links)"
-            },
-            {
-              "text": "Read more and apply for a mortgage (This needs to be formatted as links)"
-            }
-          ]
+          "type": "rich-text",
+          "title": "Do",
+          "content": "*   Start saving for your pension\n    \n*   Read more about mortgages\n    \n*   Become a corporate customer\n    \n*   Log in and invest\n    \n*   Read more and apply for a mortgage"
         },
         {
-          "type": "dont",
-          "dontlist": [
-            {
-              "text": "Click here or Click here (These needs to be formatted as links see design library)"
-            },
-            {
-              "text": " Click here for more information about mortgage"
-            }
-          ]
+          "type": "rich-text",
+          "title": "Don't",
+          "content": "*   Click here or Click here\n    \n*   Click here for more information about mortgage"
         }
       ]
     },
