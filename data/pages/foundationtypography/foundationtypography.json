@@ -142,12 +142,10 @@
       "cols": "1",
       "columns": [
         {
-          "type": "image",
-          "src": "/assets/typography_pairings2.png"
+          "type": "image"
         },
         {
-          "type": "image",
-          "src": "/assets/typography_pairings.png"
+          "type": "image"
         }
       ]
     }
