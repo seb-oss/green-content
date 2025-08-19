@@ -14,6 +14,21 @@
       ]
     },
     {
+      "title": "Volume",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Our visual language is like a voice that speaks with you, not at you. By adjusting its volume, we can gently raise or lower that voice to guide attention where it’s needed.\n\nWhen balanced with visual cues and keywords, it helps us lead the user in the right direction. Finding that balance is part of crafting layouts and user flows.\n\nThis voice is one of our most powerful tools – essential for shaping the overall experience."
+        },
+        {
+          "type": "image",
+          "src": "/assets/tonality-circles.jpg"
+        }
+      ]
+    },
+    {
       "title": "Design principles",
       "max-width": true,
       "cols": "1",
@@ -58,21 +73,6 @@
           "type": "rich-text",
           "title": "​Attention to detail. Just like in our business.",
           "content": "​Just as our business is built on trust and precision, our design system is built on carefully crafted details. From pixel-perfect icon alignment to consistent typographic rhythm, every component is held to the highest standard. These micro-decisions add up to macro quality."
-        }
-      ]
-    },
-    {
-      "title": "Volume",
-      "max-width": false,
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "Our visual language is like a voice that speaks with you, not at you. By adjusting its volume, we can gently raise or lower that voice to guide attention where it’s needed.\n\nWhen balanced with visual cues and keywords, it helps us lead the user in the right direction. Finding that balance is part of crafting layouts and user flows.\n\nThis voice is one of our most powerful tools – essential for shaping the overall experience."
-        },
-        {
-          "type": "image",
-          "src": "/assets/tonality-circles.jpg"
         }
       ]
     }
