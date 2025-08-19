@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T13:59:15.903Z",
+    "lastUpdated": "2025-08-19T14:00:42.905Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -533,7 +533,7 @@
           {
             "title": "Typography",
             "slug": "primitives/typography",
-            "summary": "Our typography guidelines outline how to use font styles, sizes,  and weights effectively across different elements, from headings  and body text to small UI details.",
+            "summary": "Typography plays a crucial role in shaping the look and feel of our design. It not only impacts readability but also establish our brand identity.",
             "path": "pages/foundationtypography/foundationtypography.json",
             "endpoints": {
               "content": "pages/foundationtypography/foundationtypography.json"
@@ -1505,6 +1505,15 @@
             "code": "<gds-radio-group label=\"How do you want the goods delivered?\">\n  <gds-radio label=\"Home to me by courier, 2–3 days.\" value=\"1\" checked></gds-radio>\n  <gds-radio label=\"Home to me by express courier, 1 day.\" value=\"2\"></gds-radio>\n  <gds-radio label=\"I pick up at the store.\" value=\"3\"></gds-radio>\n  <gds-radio label=\"I collect from a parcel locker.\" value=\"4\"></gds-radio>\n</gds-radio-group>",
             "endpoints": {
               "content": "snippets/radio-ux-i-you-do/radio-ux-i-you-do.json"
+            }
+          },
+          {
+            "title": "Radio: UX I and you dont",
+            "slug": "radio-ux-i-you-dont",
+            "path": "snippets/radio-ux-i-you-dont/radio-ux-i-you-dont.json",
+            "code": "<gds-radio-group label=\"How do you want the goods delivered?\">\n  <gds-radio\n    label=\"You will receive them by courier, 2–3 days.\"\n    value=\"1\"\n    checked=\"true\"\n  ></gds-radio>\n  <gds-radio\n    label=\"You will receive them by express courier, 1 day.\"\n    value=\"2\"\n  ></gds-radio>\n  <gds-radio label=\"You collect in the store\" value=\"3\"></gds-radio>\n  <gds-radio label=\"You collect from parcel box\" value=\"3\"></gds-radio>\n</gds-radio-group>\n",
+            "endpoints": {
+              "content": "snippets/radio-ux-i-you-dont/radio-ux-i-you-dont.json"
             }
           },
           {

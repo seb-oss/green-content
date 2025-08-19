@@ -57,7 +57,7 @@
     {
       "title": "Typography",
       "slug": "primitives/typography",
-      "summary": "Our typography guidelines outline how to use font styles, sizes,  and weights effectively across different elements, from headings  and body text to small UI details.",
+      "summary": "Typography plays a crucial role in shaping the look and feel of our design. It not only impacts readability but also establish our brand identity.",
       "path": "pages/foundationtypography/foundationtypography.json"
     },
     {
@@ -74,5 +74,5 @@
     }
   ],
   "total": 12,
-  "lastUpdated": "2025-08-19T13:59:15.904Z"
+  "lastUpdated": "2025-08-19T14:00:42.907Z"
 }
