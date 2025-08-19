@@ -1,4 +1,5 @@
 {
   "title": "Alert: UX text heading don't",
-  "slug": "alert-ux-dont"
+  "slug": "alert-ux-dont",
+  "code": "<gds-flex width=\"80%\" display=\"block\">\n<gds-alert variant=\"negative\" button-label=\"Try again\">\n  <strong>We were unable to show your e-invoices.</strong><br />Try again. If it still doesn't work, <u>contact us</u>\n</gds-alert>\n</gds-flex>"
 }
