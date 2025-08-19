@@ -49,7 +49,7 @@
         {
           "type": "paragraph",
           "tag": "p",
-          "text": "The Green Design System (GDS) colors are structured into four groups - background, content, border and state. Backgrounds are divided into three levels, ensuring clarity and consistency across UI elements. "
+          "text": "The colors are structured into four groups - background, content, border and state. Backgrounds are divided into three levels."
         },
         {
           "type": "paragraph",
@@ -58,7 +58,7 @@
         },
         {
           "type": "rich-text",
-          "title": "Background colours",
+          "title": "Background colours and levels",
           "tag": "H3",
           "content": "Background tokens are grouped by their level in the interface:  \nL1 – the base layer of the screen,  L2 – structural layers like cards and modals,  L3 – backgrounds for components like buttons and inputs.  This structure supports clarity, consistency, and a clear visual hierarchy."
         },
