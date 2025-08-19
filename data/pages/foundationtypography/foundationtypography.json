@@ -20,15 +20,7 @@
       "columns": [
         {
           "type": "paragraph",
-          "text": "Typography plays a crucial role in shaping the look and feel of our design. It not only impacts readability but also helps establish a consistent visual identity, guiding users through content with clarity  and hierarchy. "
-        },
-        {
-          "type": "paragraph",
-          "text": "By maintaining consistency in typography, we create a cohesive user experience that enhances communication, reinforces brand identity, and improves overall design aesthetics."
-        },
-        {
-          "type": "paragraph",
-          "text": "Our typography guidelines outline how to use font styles, sizes,  and weights effectively across different elements, from headings  and body text to small UI details."
+          "text": "Guidelines contains how to use font styles, sizes, and weights effectively across different elements, from headings  and body text to small UI details."
         }
       ]
     },
