@@ -1,0 +1,5 @@
+{
+  "title": "Filter chips: UX dont",
+  "slug": "filter-chips-ux-dont",
+  "code": "<gds-flex\n  padding=\"xl\"\n  width=\"100%\"\n  justify-content=\"center\"\n  alig-items=\"center\"\n>\n  <gds-filter-chips>\n    <gds-filter-chip size=\"small\">Commodities & Precious Metals</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Technology & Innovation</gds-filter-chip>\n  </gds-filter-chips>\n</gds-flex>\n"
+}
