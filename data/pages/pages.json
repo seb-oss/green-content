@@ -61,9 +61,9 @@
       "path": "pages/foundationtypography/foundationtypography.json"
     },
     {
-      "title": "Layout",
+      "title": "Declarative Layout",
       "slug": "primitives/layout",
-      "summary": "Declarative layout make sure layouts stays consistent. The relationships between elements, rely on the set rules for spacing, grids, and sizing.",
+      "summary": "A micro-frontend optimized layout system for responsive layouts without utility classes. The relationships between elements rely on the set rules for spacing, grids, and sizing, ensuring consistency throughout.",
       "path": "pages/layout/layout.json"
     },
     {
@@ -74,5 +74,5 @@
     }
   ],
   "total": 12,
-  "lastUpdated": "2025-08-19T13:24:20.676Z"
+  "lastUpdated": "2025-08-19T13:31:19.588Z"
 }

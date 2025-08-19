@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T13:24:20.675Z",
+    "lastUpdated": "2025-08-19T13:31:19.586Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -540,9 +540,9 @@
             }
           },
           {
-            "title": "Layout",
+            "title": "Declarative Layout",
             "slug": "primitives/layout",
-            "summary": "Declarative layout make sure layouts stays consistent. The relationships between elements, rely on the set rules for spacing, grids, and sizing.",
+            "summary": "A micro-frontend optimized layout system for responsive layouts without utility classes. The relationships between elements rely on the set rules for spacing, grids, and sizing, ensuring consistency throughout.",
             "path": "pages/layout/layout.json",
             "endpoints": {
               "content": "pages/layout/layout.json"
