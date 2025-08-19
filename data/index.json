@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T14:36:11.296Z",
+    "lastUpdated": "2025-08-19T14:44:28.114Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -479,7 +479,7 @@
           {
             "title": "Spacing",
             "slug": "primitives/spacing",
-            "summary": "Spacing is a fundamental tool for structuring layouts, guiding the user’s eye, and ensuring clarity in design. In Green, we use spacing to create hierarchy, balance, and visual rhythm, making interfaces feel intentional and easy to navigate.",
+            "summary": "Spacing is a fundamental tool for structuring layouts. In Green, we use spacing to create hierarchy, balance, and visual rhythm, making interfaces feel intentional and easy to navigate.",
             "path": "pages/design-directionspacing/design-directionspacing.json",
             "endpoints": {
               "content": "pages/design-directionspacing/design-directionspacing.json"

@@ -21,7 +21,7 @@
     {
       "title": "Spacing",
       "slug": "primitives/spacing",
-      "summary": "Spacing is a fundamental tool for structuring layouts, guiding the user’s eye, and ensuring clarity in design. In Green, we use spacing to create hierarchy, balance, and visual rhythm, making interfaces feel intentional and easy to navigate.",
+      "summary": "Spacing is a fundamental tool for structuring layouts. In Green, we use spacing to create hierarchy, balance, and visual rhythm, making interfaces feel intentional and easy to navigate.",
       "path": "pages/design-directionspacing/design-directionspacing.json"
     },
     {
@@ -74,5 +74,5 @@
     }
   ],
   "total": 12,
-  "lastUpdated": "2025-08-19T14:36:11.297Z"
+  "lastUpdated": "2025-08-19T14:44:28.115Z"
 }
