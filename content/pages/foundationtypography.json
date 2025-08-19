@@ -121,19 +121,8 @@
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Detail style is used for ui elements like buttons, form inputs and tooltips. It provides essential, concise information. "
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "For size, detail text is set between 12px and 16px, depending on the component and context. It should be paired with adequate spacing and contrast to ensure readability. "
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Consistent use of detail text in UI components helps improve clarity and user experience while maintaining a clean, minimal design."
+          "type": "rich-text",
+          "content": "The detail style is used for ui elements like buttons, form inputs and tooltips. For size, detail text is set between 12 px and 16 px, depending on the component and context."
         }
       ]
     },
