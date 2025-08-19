@@ -210,6 +210,9 @@
             },
             {
               "text": "Don’t mix default and contained versions."
+            },
+            {
+              "text": "Don't add links to a check box. If you need links, place them close but outside the checkbox."
             }
           ]
         }
