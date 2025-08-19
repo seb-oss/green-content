@@ -1,5 +1,5 @@
 {
   "title": "Alert: UX with a button",
   "slug": "alert-ux-with-a-button",
-  "code": "<gds-flex padding=\"xl\" display=\"block\">\n  <gds-alert variant=\"warning\" button-label=\"Change or confirm\">\n    Automated advice for this savings will stop on 9 September. To continue receiving placement advice, you need to change\n    or confirm your answer.\n  </gds-alert>\n</gds-flex>"
+  "code": "<gds-flex padding=\"xl\"  width=\"100%\" display=\"block\">\n  <gds-alert variant=\"warning\" button-label=\"Change or confirm\">\n    Automated advice for this savings will stop on 9 September. To continue receiving placement advice, you need to change\n    or confirm your answer.\n  </gds-alert>\n</gds-flex>"
 }

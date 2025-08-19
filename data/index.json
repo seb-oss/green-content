@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T12:00:30.445Z",
+    "lastUpdated": "2025-08-19T12:01:42.004Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -647,7 +647,7 @@
             "title": "Alert: UX with a button",
             "slug": "alert-ux-with-a-button",
             "path": "snippets/alert-ux-with-a-button/alert-ux-with-a-button.json",
-            "code": "<gds-flex padding=\"xl\" display=\"block\">\n  <gds-alert variant=\"warning\" button-label=\"Change or confirm\">\n    Automated advice for this savings will stop on 9 September. To continue receiving placement advice, you need to change\n    or confirm your answer.\n  </gds-alert>\n</gds-flex>",
+            "code": "<gds-flex padding=\"xl\"  width=\"100%\" display=\"block\">\n  <gds-alert variant=\"warning\" button-label=\"Change or confirm\">\n    Automated advice for this savings will stop on 9 September. To continue receiving placement advice, you need to change\n    or confirm your answer.\n  </gds-alert>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/alert-ux-with-a-button/alert-ux-with-a-button.json"
             }
@@ -656,7 +656,7 @@
             "title": "Alert: UX with a link",
             "slug": "alert-ux-with-a-link",
             "path": "snippets/alert-ux-with-a-close-button/alert-ux-with-a-close-button.json",
-            "code": "<gds-flex padding=\"xl\" display=\"block\">\n  <gds-alert variant=\"information\">\n    <strong>Welcome to your new financial overview.</strong> We've made it easier to get a clear view of your finances. The old page will close in August. If you added any details yourself on the old page, like savings or debts, you'll need to add them again here. <u>Go to the old overview</u>\n  </gds-alert>\n</gds-flex>",
+            "code": "<gds-flex padding=\"xl\" width=\"100%\" display=\"block\">\n  <gds-alert variant=\"information\">\n    <strong>Welcome to your new financial overview.</strong> We've made it easier to get a clear view of your finances. The old page will close in August. If you added any details yourself on the old page, like savings or debts, you'll need to add them again here. <u>Go to the old overview</u>\n  </gds-alert>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/alert-ux-with-a-close-button/alert-ux-with-a-close-button.json"
             }
