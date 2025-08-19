@@ -63,7 +63,7 @@
     {
       "title": "Layout",
       "slug": "primitives/layout",
-      "summary": "Declerative layout stuff",
+      "summary": "Declarative layout make sure layouts stays consistent. The relationships between elements, rely on the set rules for spacing, grids, and sizing.",
       "path": "pages/layout/layout.json"
     },
     {
@@ -74,5 +74,5 @@
     }
   ],
   "total": 12,
-  "lastUpdated": "2025-08-19T11:19:20.302Z"
+  "lastUpdated": "2025-08-19T11:34:03.050Z"
 }
