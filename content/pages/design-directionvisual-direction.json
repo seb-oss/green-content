@@ -19,10 +19,6 @@
       "cols": "1",
       "columns": [
         {
-          "type": "image",
-          "src": "/assets/volym.png"
-        },
-        {
           "type": "paragraph",
           "tag": "p",
           "text": "Our visual language is like a voice that speaks to you, not at you. By adjusting its volume, we can gently raise or lower that voice to guide attention where it’s needed."
@@ -36,6 +32,10 @@
           "type": "paragraph",
           "tag": "p",
           "text": "This voice is one of our most powerful tools – essential for shaping the overall experience."
+        },
+        {
+          "type": "image",
+          "src": "/assets/volym.png"
         }
       ]
     },
