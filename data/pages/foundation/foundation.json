@@ -38,7 +38,7 @@
         {
           "type": "paragraph",
           "tag": "p",
-          "text": "Typography plays a crucial role in shaping the look and feel of our design. It not only impacts readability but also helps establish a consistent visual identity, guiding users through content with clarity  and hierarchy. "
+          "text": "Typography plays a crucial role in shaping the look and feel of our design. It not only impacts readability but also helps establish a consistent visual identity, guiding users through content with clarity and hierarchy. "
         },
         {
           "type": "paragraph",
@@ -52,7 +52,7 @@
         },
         {
           "type": "image",
-          "src": "/assets/pairings_typo.png"
+          "src": "/assets/primitives_typography.png"
         }
       ]
     },
