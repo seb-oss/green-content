@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T08:51:23.273Z",
+    "lastUpdated": "2025-08-19T09:00:21.751Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -541,7 +541,7 @@
           },
           {
             "title": "Layout",
-            "slug": "layout",
+            "slug": "primitives/layout",
             "summary": "Declerative layout stuff",
             "path": "pages/layout/layout.json",
             "endpoints": {

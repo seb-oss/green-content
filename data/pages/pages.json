@@ -62,7 +62,7 @@
     },
     {
       "title": "Layout",
-      "slug": "layout",
+      "slug": "primitives/layout",
       "summary": "Declerative layout stuff",
       "path": "pages/layout/layout.json"
     },
@@ -74,5 +74,5 @@
     }
   ],
   "total": 12,
-  "lastUpdated": "2025-08-19T08:51:23.274Z"
+  "lastUpdated": "2025-08-19T09:00:21.753Z"
 }

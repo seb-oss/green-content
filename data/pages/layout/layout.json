@@ -1,6 +1,6 @@
 {
   "title": "Layout",
-  "slug": "layout",
+  "slug": "primitives/layout",
   "summary": "Declerative layout stuff",
   "parent": "primitives"
 }
