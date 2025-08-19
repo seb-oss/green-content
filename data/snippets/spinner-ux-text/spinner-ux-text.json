@@ -1,0 +1,5 @@
+{
+  "title": "Spinner: UX text",
+  "slug": "spinner-ux-text",
+  "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
+}

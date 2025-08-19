@@ -683,8 +683,14 @@
       "slug": "signal-example",
       "path": "snippets/signal-example/signal-example.json",
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
+    },
+    {
+      "title": "Spinner: UX text",
+      "slug": "spinner-ux-text",
+      "path": "snippets/spinner-ux-text/spinner-ux-text.json",
+      "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 114,
-  "lastUpdated": "2025-08-19T14:17:12.068Z"
+  "total": 115,
+  "lastUpdated": "2025-08-19T14:20:55.733Z"
 }
