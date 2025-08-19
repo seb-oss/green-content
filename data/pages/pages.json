@@ -62,7 +62,7 @@
     },
     {
       "title": "Declarative Layout",
-      "slug": "primitives/layout",
+      "slug": "primitives/declarative-layout",
       "summary": "A micro-frontend optimized layout system for responsive layouts without utility classes. The relationships between elements rely on the set rules for spacing, grids, and sizing, ensuring consistency throughout.",
       "path": "pages/layout/layout.json"
     },
@@ -74,5 +74,5 @@
     }
   ],
   "total": 12,
-  "lastUpdated": "2025-08-19T14:28:46.629Z"
+  "lastUpdated": "2025-08-19T14:31:14.265Z"
 }
