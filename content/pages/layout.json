@@ -1,6 +1,6 @@
 {
   "title": "Layout",
   "slug": "primitives/layout",
-  "summary": "Declerative layout stuff",
+  "summary": "Declarative layout make sure layouts stays consistent. The relationships between elements, rely on the set rules for spacing, grids, and sizing.",
   "parent": "primitives"
 }
