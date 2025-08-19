@@ -17,6 +17,7 @@
     {
       "title": "How it works",
       "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
