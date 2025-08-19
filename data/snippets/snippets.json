@@ -325,6 +325,12 @@
       "code": "<gds-flex\n  padding=\"xl\"\n  width=\"100%\"\n  justify-content=\"center\"\n  alig-items=\"center\"\n>\n  <gds-filter-chips>\n    <gds-filter-chip size=\"small\" selected>Card purchase</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Direct debit</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Bankgiro or plusgiro</gds-filter-chip>\n    <gds-filter-chip size=\"small\" selected>Swish</gds-filter-chip>\n  </gds-filter-chips>\n</gds-flex>\n"
     },
     {
+      "title": "Filter chips: UX classes don't",
+      "slug": "filter-chips-ux-classes-dont",
+      "path": "snippets/filter-chips-ux-classes-dont/filter-chips-ux-classes-dont.json",
+      "code": "<gds-flex padding=\"xl\" width=\"100%\" justify-content=\"center\" alig-items=\"center\">\n  <gds-filter-chips>\n    <gds-filter-chip size=\"small\" selected>Card purchase</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Direct debit</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Pay to bankgiro or plusgiro</gds-filter-chip>\n    <gds-filter-chip size=\"small\" selected>Swish</gds-filter-chip>\n  </gds-filter-chips>\n</gds-flex>"
+    },
+    {
       "title": "Filter chips: UX do",
       "slug": "filter-chips-ux-do",
       "path": "snippets/filter-chips-ux-do/filter-chips-ux-do.json",
@@ -649,6 +655,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 108,
-  "lastUpdated": "2025-08-19T12:59:12.159Z"
+  "total": 109,
+  "lastUpdated": "2025-08-19T13:00:13.406Z"
 }
