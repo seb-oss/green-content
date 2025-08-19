@@ -279,7 +279,8 @@
     {
       "title": "Dialog: UX do 2",
       "slug": "dialog-ux-do-2",
-      "path": "snippets/dialog-ux-do-2/dialog-ux-do-2.json"
+      "path": "snippets/dialog-ux-do-2/dialog-ux-do-2.json",
+      "code": "<gds-flex padding=\"xl\" width=\"100%\" justify-content=\"center\" alig-items=\"center\">\n  <gds-dialog heading=\"Cancel the application\">\n    <gds-button slot=\"trigger\">Open Dialog</gds-button>\n    <gds-text tag=\"p\">\n  Are you sure you want to cancel? Nothing will be saved and you'll need to start again if you still want to apply.\n    </gds-text>\n    <gds-flex slot=\"footer\" gap=\"s\">\n      <gds-button rank=\"secondary\">Back</gds-button>\n      <gds-button>Yes, cancel</gds-button>\n    </gds-flex>\n  </gds-dialog>\n</gds-flex>"
     },
     {
       "title": "Dialog: UX do",
@@ -624,5 +625,5 @@
     }
   ],
   "total": 104,
-  "lastUpdated": "2025-08-19T12:25:28.358Z"
+  "lastUpdated": "2025-08-19T12:26:30.325Z"
 }
