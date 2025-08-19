@@ -66,7 +66,7 @@
           "type": "rich-text",
           "title": "Content colours",
           "tag": "H3",
-          "content": "Content tokens are used for text, icons, and other foreground elements. They ensure readability and clear contrast against background roles like document, surface, and container."
+          "content": "Content colours are used for text, icons, and other foreground elements. They guarantee readability and clear contrast against the background."
         },
         {
           "type": "rich-text",
