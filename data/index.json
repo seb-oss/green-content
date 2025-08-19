@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T11:34:03.049Z",
+    "lastUpdated": "2025-08-19T11:35:49.057Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -623,6 +623,22 @@
             "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-positive/alert-positive.json"
+            }
+          },
+          {
+            "title": "Alert: UX text heading do",
+            "slug": "alert-ux-do",
+            "path": "snippets/alert-ux-do/alert-ux-do.json",
+            "endpoints": {
+              "content": "snippets/alert-ux-do/alert-ux-do.json"
+            }
+          },
+          {
+            "title": "Alert: UX text heading don't",
+            "slug": "alert-ux-dont",
+            "path": "snippets/alert-ux-dont/alert-ux-dont.json",
+            "endpoints": {
+              "content": "snippets/alert-ux-dont/alert-ux-dont.json"
             }
           },
           {

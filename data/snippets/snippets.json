@@ -43,6 +43,16 @@
       "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\">\n  <strong>Positive</strong> Feedback message with optional CTA.\n</gds-alert>\n</gds-div>"
     },
     {
+      "title": "Alert: UX text heading do",
+      "slug": "alert-ux-do",
+      "path": "snippets/alert-ux-do/alert-ux-do.json"
+    },
+    {
+      "title": "Alert: UX text heading don't",
+      "slug": "alert-ux-dont",
+      "path": "snippets/alert-ux-dont/alert-ux-dont.json"
+    },
+    {
       "title": "Alert: Warning",
       "slug": "alert-warning",
       "path": "snippets/alert-warning/alert-warning.json",
@@ -577,6 +587,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 96,
-  "lastUpdated": "2025-08-19T11:34:03.050Z"
+  "total": 98,
+  "lastUpdated": "2025-08-19T11:35:49.058Z"
 }
