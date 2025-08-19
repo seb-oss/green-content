@@ -55,10 +55,10 @@
       "code": "<gds-flex width=\"80%\" display=\"block\">\n<gds-alert variant=\"negative\" button-label=\"Try again\">\n  <strong>We were unable to show your e-invoices.</strong><br /> Try again. If it still doesn't work, <u>contact us</u>\n</gds-alert>\n</gds-flex>"
     },
     {
-      "title": "Alert: UX with a button",
-      "slug": "alert-ux-with-a-button",
+      "title": "Alert: UX with a link",
+      "slug": "alert-ux-with-a-link",
       "path": "snippets/alert-ux-with-a-close-button/alert-ux-with-a-close-button.json",
-      "code": "<gds-flex padding=\"xl\" display=\"block\">\n  <gds-alert variant=\"warning\" button-label=\"Change or confirm\">\n    Automated advice for this savings will stop on 9 September. To continue receiving placement advice, you need to change\n    or confirm your answer.\n  </gds-alert>\n</gds-flex>"
+      "code": "<gds-flex padding=\"xl\" display=\"block\">\n  <gds-alert variant=\"information\">\n    <strong>Welcome to your new financial overview.</strong> We've made it easier to get a clear view of your finances. The old page will close in August. If you added any details yourself on the old page, like savings or debts, you'll need to add them again here. <u>Go to the old overview</u>\n  </gds-alert>\n</gds-flex>"
     },
     {
       "title": "Alert: UX without heading",
@@ -602,5 +602,5 @@
     }
   ],
   "total": 100,
-  "lastUpdated": "2025-08-19T11:55:43.056Z"
+  "lastUpdated": "2025-08-19T11:58:17.629Z"
 }
