@@ -132,12 +132,12 @@
         {
           "type": "rich-text",
           "title": "Do",
-          "content": "*   Start saving for your pension\n    \n*   Read more about mortgages\n    \n*   Become a corporate customer\n    \n*   Log in and invest\n    \n*   Read more and apply for a mortgage"
+          "content": "*   [Start saving for your pension](#)\n    \n*   [Read more about mortgages](#)\n    \n*   [Become a corporate customer](#)\n    \n*   [Log in and invest](#)\n    \n*   [Read more and apply for a mortgage](#)"
         },
         {
           "type": "rich-text",
           "title": "Don't",
-          "content": "*   Click here or Click here\n    \n*   Click here for more information about mortgage"
+          "content": "*   [Click here](#) or Click [here](#)\n    \n*   [Click here for more information about mortgage](#)"
         }
       ]
     },
