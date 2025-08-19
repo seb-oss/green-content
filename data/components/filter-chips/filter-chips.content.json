@@ -125,7 +125,22 @@
     },
     {
       "title": "Do not mix word classes",
-      "cols": "2"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Do",
+          "plain": false,
+          "replay": false,
+          "Snippet": "filter-chips-ux-classes-do"
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "filter-chips-ux-classes-dont"
+        }
+      ]
     },
     {
       "title": "Do's and don'ts",
