@@ -88,7 +88,7 @@
     {
       "title": "Writing UX text for form summaries",
       "tag": "H2",
-      "section-content": "The list of errors is the same as the field labels for each field containing errors.\n\n(Add example)"
+      "section-content": "The list of errors is the same as the field labels for each field containing errors."
     },
     {
       "title": "Multiple fields with same name",
