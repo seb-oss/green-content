@@ -15,16 +15,16 @@
     },
     {
       "title": "Volume",
-      "max-width": false,
-      "cols": "2",
+      "max-width": true,
+      "cols": "1",
       "columns": [
-        {
-          "type": "rich-text",
-          "content": "Our visual language is like a voice that speaks to you, not at you. By adjusting its volume, we can gently raise or lower that voice to guide attention where it’s needed.\n\nWhen balanced with visual cues and keywords, it helps us lead the user in the right direction. Finding that balance is part of crafting layouts and user flows.\n\nThis voice is one of our most powerful tools – essential for shaping the overall experience."
-        },
         {
           "type": "image",
           "src": "/assets/volym.png"
+        },
+        {
+          "type": "rich-text",
+          "content": "Our visual language is like a voice that speaks to you, not at you. By adjusting its volume, we can gently raise or lower that voice to guide attention where it’s needed.\n\nWhen balanced with visual cues and keywords, it helps us lead the user in the right direction. Finding that balance is part of crafting layouts and user flows.\n\nThis voice is one of our most powerful tools – essential for shaping the overall experience."
         }
       ]
     },
