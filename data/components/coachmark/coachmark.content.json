@@ -39,7 +39,7 @@
           "type": "rich-text",
           "title": "The button text ",
           "tag": "H3",
-          "content": "The button closes the coach mark, and therefore we write “Close” in the button. Do not write vague options like ”Got it!” or ”I understand”.\n\n(Add an example with button and link)"
+          "content": "The button closes the coach mark, and therefore we write “Close” in the button. Do not write vague options like ”Got it!” or ”I understand”."
         }
       ]
     }
