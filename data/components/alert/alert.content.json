@@ -201,18 +201,22 @@
     {
       "title": "Alert with a heading",
       "tag": "H3",
-      "section-content": "Use a heading if it helps the customer quickly understand the message. Make sure the heading clearly reflects the content, it should do more than just say something like \"Information\". Always keep the heading on the same line as the message, not above it.\n\n(Add do and don't example)",
+      "section-content": "Use a heading if it helps the customer quickly understand the message. Make sure the heading clearly reflects the content, it should do more than just say something like \"Information\". Always keep the heading on the same line as the message, not above it.",
       "cols": "2",
       "columns": [
         {
           "type": "snippet",
+          "caption": "Do",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "alert-ux-do"
         },
         {
           "type": "snippet",
+          "caption": "Don't",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "alert-ux-dont"
         }
       ]
     },
