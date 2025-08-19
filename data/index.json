@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T14:02:52.482Z",
+    "lastUpdated": "2025-08-19T14:03:14.946Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1505,6 +1505,15 @@
             "code": "<gds-radio-group label=\"Delivery options\">\n  <gds-radio label=\"Home delivery, 2–3 days\" value=\"1\" checked></gds-radio>\n  <gds-radio label=\"Express delivery, 1 day\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Pick up in the store\" value=\"3\"></gds-radio>\n  <gds-radio label=\"Parcel locker\" value=\"4\"></gds-radio>\n</gds-radio-group>",
             "endpoints": {
               "content": "snippets/radio-ux-consistent-do/radio-ux-consistent-do.json"
+            }
+          },
+          {
+            "title": "Radio: UX consistent dont",
+            "slug": "radio-ux-consistent-dont",
+            "path": "snippets/radio-ux-consistent-dont/radio-ux-consistent-dont.json",
+            "code": "<gds-radio-group label=\"How do you want the goods delivered?\">\n  <gds-radio label=\"Home delivery\" value=\"1\" checked></gds-radio>\n  <gds-radio\n    label=\"I want to pick up the package in the store\"\n    value=\"2\"\n  ></gds-radio>\n  <gds-radio label=\"Collect from parcel locker\" value=\"3\"></gds-radio>\n  <gds-radio label=\"express delivery\" value=\"4\"></gds-radio>\n</gds-radio-group>",
+            "endpoints": {
+              "content": "snippets/radio-ux-consistent-dont/radio-ux-consistent-dont.json"
             }
           },
           {
