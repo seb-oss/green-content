@@ -23,10 +23,6 @@
         {
           "type": "paragraph",
           "text": "Based on our brand colors, we have developed a comprehensive palette of tints for each one. These extended palettes allow for greater versatility and nuance, ensuring consistency and depth across all visual elements."
-        },
-        {
-          "type": "image",
-          "src": "/assets/palette_colors.png"
         }
       ]
     },
@@ -60,7 +56,7 @@
           "type": "rich-text",
           "title": "Background colours and levels",
           "tag": "H3",
-          "content": "Background colours are grouped by their level in the interface:  \n  \n**L1** – the base layer of the screen  \n**L2** – structural layers like cards and modals  \n**L3** – backgrounds for components like buttons and inputs   \n  \nThis structure supports clarity, consistency, and a clear visual hierarchy."
+          "content": "Background colours are grouped by their level in the interface:\n\n**L1** – the base layer of the screen  \n**L2** – structural layers like cards and modals  \n**L3** – backgrounds for components like buttons and inputs \n\nThis structure supports clarity, consistency, and a clear visual hierarchy."
         },
         {
           "type": "rich-text",
