@@ -9,7 +9,8 @@
       "cols": "1",
       "columns": [
         {
-          "type": "image"
+          "type": "image",
+          "src": "/assets/spacing.png"
         }
       ]
     },
