@@ -99,19 +99,8 @@
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "A preamble appears below a heading and serves as a brief overview or summary that provides context or sets the tone for the content that follows."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Effective use of preambles enhances user engagement and helps clarify the purpose of the section or page."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "In terms of size, the preamble is generally larger than body text but smaller than headings. "
+          "type": "rich-text",
+          "content": "A preamble appears below a heading and serves as a summary for the content that follows. In terms of size, the preamble is generally larger than body text but smaller than headings."
         }
       ]
     },
