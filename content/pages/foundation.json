@@ -50,13 +50,13 @@
           "text": "By maintaining consistency in typography, we create a cohesive user experience that enhances communication, reinforces brand identity, and improves overall design aesthetics."
         },
         {
+          "type": "rich-text",
+          "content": "[Read more about typography](https://stg.seb.io/primitives/typography)"
+        },
+        {
           "type": "paragraph",
           "tag": "p",
           "text": "Our typography guidelines outline how to use font styles, sizes,  and weights effectively across different elements, from headings  and body text to small UI details."
-        },
-        {
-          "type": "rich-text",
-          "content": "[Read more about typography](https://stg.seb.io/primitives/typography)"
         },
         {
           "type": "image",
