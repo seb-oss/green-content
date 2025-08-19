@@ -55,6 +55,12 @@
       "code": "<gds-flex width=\"80%\" display=\"block\">\n<gds-alert variant=\"negative\" button-label=\"Try again\">\n  <strong>We were unable to show your e-invoices.</strong><br /> Try again. If it still doesn't work, <u>contact us</u>\n</gds-alert>\n</gds-flex>"
     },
     {
+      "title": "Alert: UX with a button",
+      "slug": "alert-ux-with-a-button",
+      "path": "snippets/alert-ux-with-a-button/alert-ux-with-a-button.json",
+      "code": "<gds-flex padding=\"xl\" display=\"block\">\n  <gds-alert variant=\"warning\" button-label=\"Change or confirm\">\n    Automated advice for this savings will stop on 9 September. To continue receiving placement advice, you need to change\n    or confirm your answer.\n  </gds-alert>\n</gds-flex>"
+    },
+    {
       "title": "Alert: UX with a link",
       "slug": "alert-ux-with-a-link",
       "path": "snippets/alert-ux-with-a-close-button/alert-ux-with-a-close-button.json",
@@ -601,6 +607,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 100,
-  "lastUpdated": "2025-08-19T11:58:33.193Z"
+  "total": 101,
+  "lastUpdated": "2025-08-19T12:00:30.447Z"
 }
