@@ -1,0 +1,5 @@
+{
+  "title": "Alert: UX with a close button",
+  "slug": "alert-ux-with-a-close-button",
+  "code": "<gds-flex width=\"80%\" display=\"block\">\n  <gds-alert variant=\"positive\" dismissible>\n    You logged out!\n  </gds-alert>\n</gds-flex>"
+}
