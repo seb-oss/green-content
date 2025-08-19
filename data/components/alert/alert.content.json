@@ -223,7 +223,16 @@
     {
       "title": "Alert without a heading",
       "tag": "H3",
-      "section-content": "It’s also fine to write the message without a heading. In some cases, the first sentence may be clear and informative enough on its own, even if it’s too long to work as a heading. Just make sure the message starts with the most important point, so the customer understands it quickly.\n\n(Add do example)"
+      "section-content": "It’s also fine to write the message without a heading. In some cases, the first sentence may be clear and informative enough on its own, even if it’s too long to work as a heading. Just make sure the message starts with the most important point, so the customer understands it quickly.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "alert-ux-without-heading"
+        }
+      ]
     },
     {
       "title": "Alert with a close button (X)",
