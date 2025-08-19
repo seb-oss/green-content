@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T14:09:53.736Z",
+    "lastUpdated": "2025-08-19T14:11:58.993Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1538,7 +1538,7 @@
             "title": "Radio: UX keep it simple",
             "slug": "radio-ux-keep-it-simple",
             "path": "snippets/radio-ux-keep-it-simple/radio-ux-keep-it-simple.json",
-            "code": "<gds-radio-group label=\"How do you get your income?\" value=\"5\">\n  <gds-radio label=\"Employment\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Own employment\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Temporary employment\" value=\"3\"></gds-radio>\n  <gds-radio label=\"Pension\" value=\"4\"></gds-radio>\n  <gds-radio label=\"Other income\" value=\"5\" checked></gds-radio>\n</gds-radio-group>\n<gds-input label=\"Explain how you get your income\"></gds-input>",
+            "code": "<gds-flex padding=\"xl\" flex-direction=\"column\" gap=\"l\">\n  <gds-radio-group label=\"How do you get your income?\" value=\"5\">\n    <gds-radio label=\"Employment\" value=\"1\"></gds-radio>\n    <gds-radio label=\"Own employment\" value=\"2\"></gds-radio>\n    <gds-radio label=\"Temporary employment\" value=\"3\"></gds-radio>\n    <gds-radio label=\"Pension\" value=\"4\"></gds-radio>\n    <gds-radio label=\"Other income\" value=\"5\" checked></gds-radio>\n  </gds-radio-group>\n  <gds-input label=\"Explain how you get your income\"></gds-input>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/radio-ux-keep-it-simple/radio-ux-keep-it-simple.json"
             }
