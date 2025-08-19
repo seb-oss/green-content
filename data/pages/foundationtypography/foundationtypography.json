@@ -110,14 +110,8 @@
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Body text is the main content of your design, used for paragraphs, articles and detailed information. Its primary function is readability, therefor it should be simple, clear, and consistent. "
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Proper line spacing and contrast also enhance clarity and user comfort when reading. Maintaining consistency in body text ensures a cohesive, user-friendly design."
+          "type": "rich-text",
+          "content": "Body text is primarily used for longer passages of content, providing readability and clarity in paragraphs, articles, and other text-heavy contexts."
         }
       ]
     },
@@ -127,19 +121,8 @@
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Detail style is used for ui elements like buttons, form inputs and tooltips. It provides essential, concise information. "
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "For size, detail text is set between 12px and 16px, depending on the component and context. It should be paired with adequate spacing and contrast to ensure readability. "
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Consistent use of detail text in UI components helps improve clarity and user experience while maintaining a clean, minimal design."
+          "type": "rich-text",
+          "content": "The detail style is used for ui elements like buttons, form inputs and tooltips. For size, detail text is set between 12 px and 16 px, depending on the component and context."
         }
       ]
     },
