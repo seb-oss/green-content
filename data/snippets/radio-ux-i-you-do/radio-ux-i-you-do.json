@@ -1,0 +1,5 @@
+{
+  "title": "Radio: UX I and you do",
+  "slug": "radio-ux-i-you-do",
+  "code": "<gds-radio-group label=\"How do you want the goods delivered?\">\n  <gds-radio label=\"Home to me by courier, 2–3 days.\" value=\"1\" checked></gds-radio>\n  <gds-radio label=\"Home to me by express courier, 1 day.\" value=\"2\"></gds-radio>\n  <gds-radio label=\"I pick up at the store.\" value=\"3\"></gds-radio>\n  <gds-radio label=\"I collect from a parcel locker.\" value=\"4\"></gds-radio>\n</gds-radio-group>"
+}

@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-19T13:51:09.340Z",
+    "lastUpdated": "2025-08-19T13:59:15.903Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1496,6 +1496,15 @@
             "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/link-trailing/link-trailing.json"
+            }
+          },
+          {
+            "title": "Radio: UX I and you do",
+            "slug": "radio-ux-i-you-do",
+            "path": "snippets/radio-ux-i-you-do/radio-ux-i-you-do.json",
+            "code": "<gds-radio-group label=\"How do you want the goods delivered?\">\n  <gds-radio label=\"Home to me by courier, 2–3 days.\" value=\"1\" checked></gds-radio>\n  <gds-radio label=\"Home to me by express courier, 1 day.\" value=\"2\"></gds-radio>\n  <gds-radio label=\"I pick up at the store.\" value=\"3\"></gds-radio>\n  <gds-radio label=\"I collect from a parcel locker.\" value=\"4\"></gds-radio>\n</gds-radio-group>",
+            "endpoints": {
+              "content": "snippets/radio-ux-i-you-do/radio-ux-i-you-do.json"
             }
           },
           {

@@ -625,6 +625,12 @@
       "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>"
     },
     {
+      "title": "Radio: UX I and you do",
+      "slug": "radio-ux-i-you-do",
+      "path": "snippets/radio-ux-i-you-do/radio-ux-i-you-do.json",
+      "code": "<gds-radio-group label=\"How do you want the goods delivered?\">\n  <gds-radio label=\"Home to me by courier, 2–3 days.\" value=\"1\" checked></gds-radio>\n  <gds-radio label=\"Home to me by express courier, 1 day.\" value=\"2\"></gds-radio>\n  <gds-radio label=\"I pick up at the store.\" value=\"3\"></gds-radio>\n  <gds-radio label=\"I collect from a parcel locker.\" value=\"4\"></gds-radio>\n</gds-radio-group>"
+    },
+    {
       "title": "Segmented control: Icons",
       "slug": "segmented-control-icons",
       "path": "snippets/segmented-control-icons/segmented-control-icons.json",
@@ -655,6 +661,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 109,
-  "lastUpdated": "2025-08-19T13:51:09.342Z"
+  "total": 110,
+  "lastUpdated": "2025-08-19T13:59:15.904Z"
 }
