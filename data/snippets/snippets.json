@@ -649,6 +649,12 @@
       "code": "<gds-radio-group label=\"How do you want the goods delivered?\">\n  <gds-radio\n    label=\"You will receive them by courier, 2–3 days.\"\n    value=\"1\"\n    checked=\"true\"\n  ></gds-radio>\n  <gds-radio\n    label=\"You will receive them by express courier, 1 day.\"\n    value=\"2\"\n  ></gds-radio>\n  <gds-radio label=\"You collect in the store\" value=\"3\"></gds-radio>\n  <gds-radio label=\"You collect from parcel box\" value=\"3\"></gds-radio>\n</gds-radio-group>\n"
     },
     {
+      "title": "Radio: UX keep it simple",
+      "slug": "radio-ux-keep-it-simple",
+      "path": "snippets/radio-ux-keep-it-simple/radio-ux-keep-it-simple.json",
+      "code": "<gds-radio-group label=\"How do you get your income?\">\n  <gds-radio label=\"Employment\" value=\"1\"></gds-radio>\n  <gds-radio label=\"Own employment\" value=\"2\"></gds-radio>\n  <gds-radio label=\"Temporary employment\" value=\"3\"></gds-radio>\n  <gds-radio label=\"Pension\" value=\"4\"></gds-radio>\n  <gds-radio label=\"Other income\" value=\"5\" checked></gds-radio>\n</gds-radio-group>"
+    },
+    {
       "title": "Segmented control: Icons",
       "slug": "segmented-control-icons",
       "path": "snippets/segmented-control-icons/segmented-control-icons.json",
@@ -679,6 +685,6 @@
       "code": "<gds-flex align-items=\"center\" gap=\"m\">\n  <gds-fab\n    inset=\"auto\"\n    position=\"relative\"\n    size=\"small\"\n    rank=\"secondary\"\n  >\n    What's new? \n    <gds-signal slot=\"trail\"></gds-signal>\n  </gds-fab>\n</gds-flex>"
     }
   ],
-  "total": 113,
-  "lastUpdated": "2025-08-19T14:04:17.299Z"
+  "total": 114,
+  "lastUpdated": "2025-08-19T14:05:00.290Z"
 }
