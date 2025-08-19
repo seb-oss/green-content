@@ -237,7 +237,16 @@
     {
       "title": "Alert with a close button (X)",
       "tag": "H3",
-      "section-content": "A close button (X) lets the customer dismiss the message. If no action is needed, you don’t have to include a button, link, or X – the message can disappear on its own. For example, after logging out of online banking, a confirmation message might appear and then close automatically.\n\n(Add do example)"
+      "section-content": "A close button (X) lets the customer dismiss the message. If no action is needed, you don’t have to include a button, link, or X – the message can disappear on its own. For example, after logging out of online banking, a confirmation message might appear and then close automatically.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "alert-ux-with-a-close-button"
+        }
+      ]
     },
     {
       "title": "Alert with a button",
