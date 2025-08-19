@@ -132,19 +132,8 @@
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Pairing display text and headings with preamble and body styles is key to creating a strong visual hierarchy and guiding users through the content flow."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "This contrast in size and weight between headings/displays and the preamble ensures readability, adds depth, and creates a visually balanced layout. Keep preambles visually distinct but complementary to the larger elements for a clean, cohesive design."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Equally important is the spacing between these elements. Proper spacing helps separate and define relationships between text styles, preventing visual clutter and ensuring a natural reading rhythm. Adjust spacing to create clear groupings while maintaining alignment and harmony across the layout."
+          "type": "rich-text",
+          "content": "Pairing the different text styles is key to creating a strong visual hierarchy. _These are defined with a few examples but a more cohesive and thorough guide will be available soon._  \n  \nEqually important is proper spacing between these elements. It helps separate and define relationships between text styles, and ensures a natural reading rhythm."
         }
       ]
     },
