@@ -84,6 +84,21 @@
           "src": "/assets/icon_img.png"
         }
       ]
+    },
+    {
+      "title": "Design tokens",
+      "max-width": true,
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Text about design tokens."
+        },
+        {
+          "type": "rich-text",
+          "content": "[Read more about design tokens](https://stg.seb.io/primitives/design-tokens)"
+        }
+      ]
     }
   ]
 }
