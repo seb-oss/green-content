@@ -124,6 +124,25 @@
           "src": "/assets/promitives_spacing.png"
         }
       ]
+    },
+    {
+      "title": "Declarative layout",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "A micro-frontend optimized layout system for responsive layouts without utility classes. The relationships between elements rely on the set rules for spacing, grids, and sizing, ensuring consistency throughout."
+        },
+        {
+          "type": "rich-text",
+          "content": "[Read more about declarative layout](A micro-frontend optimized layout system for responsive layouts without utility classes. The relationships between elements rely on the set rules for spacing, grids, and sizing, ensuring consistency throughout.)"
+        },
+        {
+          "type": "image",
+          "src": "/assets/primitives_declarative.png"
+        }
+      ]
     }
   ]
 }
