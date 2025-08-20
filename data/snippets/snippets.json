@@ -436,7 +436,7 @@
       "title": "Hero: Div",
       "slug": "hero-div",
       "path": "snippets/hero-div/hero-div.json",
-      "code": "<gds-flex align-items=\"center\" gap=\"s\">\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"primary\"\n  border-color=\"primary\"\n  border-width=\"xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl; l{ 6xl }\"\n  height=\"4xl; l{ 6xl }\"\n  background=\"secondary\"\n  border=\"4xs\"\n></gds-div>\n\n<gds-div\n  width=\"4xl\"\n  height=\"4xl\"\n  background=\"tertiary\"\n  border-radius=\"s\"\n></gds-div>\n</gds-flex>"
+      "code": "<gds-flex align-items=\"center\" gap=\"s\" width=\"100%\" padding=\"2xl\">\n  <gds-card\n    width=\"4xl\"\n    height=\"4xl\"\n    background=\"03\"\n    border-radius=\"max\"\n  ></gds-card>\n  <gds-card\n    width=\"4xl\"\n    height=\"4xl\"\n    background=\"03\"\n    border-radius=\"xl 0 xl 0\"\n  ></gds-card>\n  <gds-card width=\"4xl\" height=\"4xl\" background=\"03\"></gds-card>\n</gds-flex>\n"
     },
     {
       "title": "Hero: Divider",
@@ -704,5 +704,5 @@
     }
   ],
   "total": 117,
-  "lastUpdated": "2025-08-20T12:38:26.952Z"
+  "lastUpdated": "2025-08-20T12:46:43.970Z"
 }
