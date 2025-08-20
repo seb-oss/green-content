@@ -93,7 +93,7 @@
         {
           "type": "paragraph",
           "tag": "p",
-          "text": "Text about design tokens."
+          "text": "Design tokens capture colors, typography, spacing, and other design decisions as named, reusable values used in designs, tools, and code - keeping interfaces consistent and easy to update."
         },
         {
           "type": "rich-text",
