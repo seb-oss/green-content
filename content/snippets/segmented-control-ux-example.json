@@ -1,0 +1,5 @@
+{
+  "title": "Segmented control: UX example ",
+  "slug": "segmented-control-ux-example",
+  "code": "<gds-flex align-items=\"center\" justify-content=\"center\" padding=\"xl\">\n\n<gds-segmented-control value=\"bank\">\n  <gds-segment value=\"bank\">Bank account</gds-segment>\n  <gds-segment value=\"ekot\">Ekot account</gds-segment>\n  <gds-segment value=\"bankgiro\">Bankgiro/plusgiro</gds-segment>\n</gds-segmented-control>\n</gds-flex>"
+}
