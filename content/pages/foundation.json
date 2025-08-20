@@ -98,6 +98,10 @@
         {
           "type": "rich-text",
           "content": "[Read more about design tokens](https://stg.seb.io/primitives/design-tokens)"
+        },
+        {
+          "type": "image",
+          "src": "/assets/tokens.png"
         }
       ]
     }
