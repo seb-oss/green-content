@@ -209,6 +209,7 @@
           "caption": "Do",
           "plain": false,
           "replay": false,
+          "variant": "Do",
           "Snippet": "alert-ux-do"
         },
         {
@@ -216,6 +217,7 @@
           "caption": "Don't",
           "plain": false,
           "replay": false,
+          "variant": "Dont",
           "Snippet": "alert-ux-dont"
         }
       ]
