@@ -1,0 +1,5 @@
+{
+  "title": "Declarative layout: Property to token table",
+  "slug": "declarative-layout/token-table",
+  "code": "<gds-rich-text>\n<table>\n  <tr>\n    <th>Property group</th>\n    <th>Token collection</th>\n  </tr>\n  <tr>\n    <td>margin, padding, gap, border-width</td>\n    <td>gds.sys.space.*</td>\n  </tr>\n  <tr>\n    <td>background</td>\n    <td>gds.sys.color.l[x].*</td>\n  </tr>\n  <tr>\n    <td>color</td>\n    <td>gds.sys.color.content.*</td>\n  </tr>\n  <tr>\n    <td>border-color</td>\n    <td>gds.sys.color.border.*</td>\n  </tr>\n</table>\n</gds-rich-text>"
+}

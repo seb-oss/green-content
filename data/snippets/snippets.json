@@ -253,6 +253,12 @@
       "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers size=\"small\" dateformat=\"d-m-y\"></gds-datepicker>\n</gds-flex>"
     },
     {
+      "title": "Declarative layout: Property to token table",
+      "slug": "declarative-layout/token-table",
+      "path": "snippets/declarative-layouttoken-table/declarative-layouttoken-table.json",
+      "code": "<gds-rich-text>\n<table>\n  <tr>\n    <th>Property group</th>\n    <th>Token collection</th>\n  </tr>\n  <tr>\n    <td>margin, padding, gap, border-width</td>\n    <td>gds.sys.space.*</td>\n  </tr>\n  <tr>\n    <td>background</td>\n    <td>gds.sys.color.l[x].*</td>\n  </tr>\n  <tr>\n    <td>color</td>\n    <td>gds.sys.color.content.*</td>\n  </tr>\n  <tr>\n    <td>border-color</td>\n    <td>gds.sys.color.border.*</td>\n  </tr>\n</table>\n</gds-rich-text>"
+    },
+    {
       "title": "Details: Size large",
       "slug": "details-large",
       "path": "snippets/details-large/details-large.json",
@@ -691,6 +697,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 115,
-  "lastUpdated": "2025-08-20T09:01:44.933Z"
+  "total": 116,
+  "lastUpdated": "2025-08-20T09:05:28.759Z"
 }
