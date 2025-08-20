@@ -273,6 +273,7 @@
     },
     {
       "title": "Keep it simple",
+      "tag": "H3",
       "section-content": "Plain text is crucial. Customers must easily understand both the words and the context. Make sure the options cover all possible choices and are clear so everyone can fill in the form. If other options might apply, include an Other option with a space for the customer to explain.",
       "cols": "2",
       "columns": [
