@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-20T12:01:29.397Z",
+    "lastUpdated": "2025-08-20T12:02:00.318Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -665,7 +665,7 @@
             "title": "Alert: UX with a link",
             "slug": "alert-ux-withlink",
             "path": "snippets/alert-ux-withlink/alert-ux-withlink.json",
-            "code": "<gds-flex padding=\"xl\" width=\"100%\" display=\"block\">\n  <gds-alert variant=\"information\">\n    <strong>Welcome to your new financial overview.</strong> We've made it easier to get a clear view of your finances. The old page will close in August. If you added any details yourself on the old page, like savings or debts, you'll need to add them again here. <a href=\"#\">Go to the old overview</a>\n  </gds-alert>\n</gds-flex>",
+            "code": "<gds-flex padding=\"xl\" width=\"100%\" display=\"block\">\n  <gds-alert variant=\"information\">\n    <gds-rich-text>\n      <strong>Welcome to your new financial overview.</strong> We've made it easier to get a clear view of your finances. The old page will close in August. If you added any details yourself on the old page, like savings or debts, you'll need to add them again here. <a href=\"#\">Go to the old overview</a>\n    </gds-rich-text>\n  </gds-alert>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/alert-ux-withlink/alert-ux-withlink.json"
             }
