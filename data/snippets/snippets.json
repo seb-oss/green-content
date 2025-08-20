@@ -46,13 +46,13 @@
       "title": "Alert: UX text heading do",
       "slug": "alert-ux-do",
       "path": "snippets/alert-ux-do/alert-ux-do.json",
-      "code": "<gds-flex min-height=\"250px\" padding=\"xl\">\n  <gds-alert variant=\"negative\" button-label=\"Try again\">\n    <strong>We were unable to show your e-invoices.</strong> Try again. If it still doesn't work, <u>contact us</u>\n  </gds-alert>\n</gds-flex>"
+      "code": "<gds-flex min-height=\"250px\" width=\"100%\" padding=\"xl\">\n  <gds-alert variant=\"negative\" button-label=\"Try again\">\n    <strong>We were unable to show your e-invoices.</strong> Try again. If it still doesn't work, <u>contact us</u>\n  </gds-alert>\n</gds-flex>"
     },
     {
       "title": "Alert: UX text heading don't",
       "slug": "alert-ux-dont",
       "path": "snippets/alert-ux-dont/alert-ux-dont.json",
-      "code": "<gds-flex min-height=\"250px\" padding=\"xl\">\n<gds-alert variant=\"negative\" button-label=\"Try again\">\n  <strong>We were unable to show your e-invoices.</strong><br /> Try again. If it still doesn't work, <u>contact us</u>\n</gds-alert>\n</gds-flex>"
+      "code": "<gds-flex min-height=\"250px\" width=\"100%\" padding=\"xl\">\n<gds-alert variant=\"negative\" button-label=\"Try again\">\n  <strong>We were unable to show your e-invoices.</strong><br /> Try again. If it still doesn't work, <u>contact us</u>\n</gds-alert>\n</gds-flex>"
     },
     {
       "title": "Alert: UX with a button",
@@ -704,5 +704,5 @@
     }
   ],
   "total": 117,
-  "lastUpdated": "2025-08-20T11:58:27.355Z"
+  "lastUpdated": "2025-08-20T12:01:00.104Z"
 }
