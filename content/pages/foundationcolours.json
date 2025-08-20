@@ -23,13 +23,7 @@
         {
           "type": "paragraph",
           "text": "Based on our brand colors, we have developed a comprehensive palette of tints for each one. These extended palettes allow for greater versatility and nuance, ensuring consistency and depth across all visual elements."
-        }
-      ]
-    },
-    {
-      "max-width": true,
-      "cols": "1",
-      "columns": [
+        },
         {
           "type": "paragraph",
           "tag": "p",
