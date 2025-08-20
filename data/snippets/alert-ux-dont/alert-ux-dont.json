@@ -1,5 +1,5 @@
 {
   "title": "Alert: UX text heading don't",
   "slug": "alert-ux-dont",
-  "code": "<gds-flex min-height=\"250px\" width=\"100%\" padding=\"xl\">\n<gds-alert variant=\"negative\" button-label=\"Try again\">\n  <strong>We were unable to show your e-invoices.</strong><br /> Try again. If it still doesn't work, <u>contact us</u>\n</gds-alert>\n</gds-flex>"
+  "code": "<gds-div min-height=\"250px\" width=\"100%\" padding=\"xl\">\n  <gds-alert variant=\"negative\" button-label=\"Try again\">\n    <strong>We were unable to show your e-invoices.</strong><br /> Try again. If it still doesn't work, <u>contact us</u>\n  </gds-alert>\n</gds-div>"
 }

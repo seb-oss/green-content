@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-20T12:02:00.318Z",
+    "lastUpdated": "2025-08-20T12:06:32.434Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -638,7 +638,7 @@
             "title": "Alert: UX text heading do",
             "slug": "alert-ux-do",
             "path": "snippets/alert-ux-do/alert-ux-do.json",
-            "code": "<gds-flex min-height=\"250px\" width=\"100%\" padding=\"xl\">\n  <gds-alert variant=\"negative\" button-label=\"Try again\">\n    <strong>We were unable to show your e-invoices.</strong> Try again. If it still doesn't work, <u>contact us</u>\n  </gds-alert>\n</gds-flex>",
+            "code": "<gds-div min-height=\"250px\" width=\"100%\" padding=\"xl\">\n  <gds-alert variant=\"negative\" button-label=\"Try again\">\n    <strong>We were unable to show your e-invoices.</strong> Try again. If it still doesn't work, <u>contact us</u>\n  </gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-ux-do/alert-ux-do.json"
             }
@@ -647,7 +647,7 @@
             "title": "Alert: UX text heading don't",
             "slug": "alert-ux-dont",
             "path": "snippets/alert-ux-dont/alert-ux-dont.json",
-            "code": "<gds-flex min-height=\"250px\" width=\"100%\" padding=\"xl\">\n<gds-alert variant=\"negative\" button-label=\"Try again\">\n  <strong>We were unable to show your e-invoices.</strong><br /> Try again. If it still doesn't work, <u>contact us</u>\n</gds-alert>\n</gds-flex>",
+            "code": "<gds-div min-height=\"250px\" width=\"100%\" padding=\"xl\">\n  <gds-alert variant=\"negative\" button-label=\"Try again\">\n    <strong>We were unable to show your e-invoices.</strong><br /> Try again. If it still doesn't work, <u>contact us</u>\n  </gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-ux-dont/alert-ux-dont.json"
             }
@@ -674,7 +674,7 @@
             "title": "Alert: UX without heading",
             "slug": "alert-ux-without-heading",
             "path": "snippets/alert-ux-without-heading/alert-ux-without-heading.json",
-            "code": "<gds-flex width=\"100%\" padding=\"xl\">\n<gds-alert variant=\"information\" dismissible>\n Automated advice for this savings account was disabled on 9 July as the data was\nmore than 24 months old.\n</gds-alert>\n</gds-flex>",
+            "code": "<div width=\"100%\" padding=\"xl\">\n  <gds-alert variant=\"information\" dismissible>\n   Automated advice for this savings account was disabled on 9 July as the data was\n  more than 24 months old.\n  </gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-ux-without-heading/alert-ux-without-heading.json"
             }
