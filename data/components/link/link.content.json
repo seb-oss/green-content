@@ -132,29 +132,33 @@
         {
           "type": "rich-text",
           "title": "Do",
+          "tag": "H3",
           "content": "*   [Start saving for your pension](#)\n    \n*   [Read more about mortgages](#)\n    \n*   [Become a corporate customer](#)\n    \n*   [Log in and invest](#)\n    \n*   [Read more and apply for a mortgage](#)"
         },
         {
           "type": "rich-text",
           "title": "Don't",
+          "tag": "H3",
           "content": "*   [Click here](#) or Click [here](#)\n    \n*   [Click here for more information about mortgage](#)"
         }
       ]
     },
     {
-      "title": "Include only the necessary words",
+      "title": "Only include necessary words",
       "tag": "H3",
-      "section-content": "Sometimes the link can be a complete sentence, but don't make the sentence too long. Never include several sentences. Don't include preceding articles or punctuation mark.",
+      "section-content": "A link can sometimes be a full sentence, but keep it short. Don’t use more than one sentence, and avoid starting with articles or adding punctuation.",
       "cols": "2",
       "columns": [
         {
           "type": "rich-text",
           "title": "Do",
-          "content": "Unfortunately, this feature does not work in the browser Internet Explorer. Here you can read about the [browsers we recommend](#)."
+          "tag": "H3",
+          "content": "Unfortunately, this feature doesn't work in the browser Internet Explorer. Here you can read about the [browsers we recommend](#)."
         },
         {
           "type": "rich-text",
           "title": "Don't",
+          "tag": "H3",
           "content": "Unfortunately, this feature does not work in the browser Internet Explorer. [Here you can read about the browsers we recommend.](#)"
         }
       ]
