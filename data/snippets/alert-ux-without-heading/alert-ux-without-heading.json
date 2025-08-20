@@ -1,5 +1,5 @@
 {
   "title": "Alert: UX without heading",
   "slug": "alert-ux-without-heading",
-  "code": "<gds-flex width=\"80%\" display=\"block\">\n<gds-alert variant=\"information\" dismissible>\n Automated advice for this savings account was disabled on 9 July as the data was\nmore than 24 months old.\n</gds-alert>\n</gds-flex>"
+  "code": "<gds-flex width=\"100%\" padding=\"xl\">\n<gds-alert variant=\"information\" dismissible>\n Automated advice for this savings account was disabled on 9 July as the data was\nmore than 24 months old.\n</gds-alert>\n</gds-flex>"
 }
