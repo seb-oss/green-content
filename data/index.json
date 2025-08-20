@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-20T08:37:07.402Z",
+    "lastUpdated": "2025-08-20T08:42:42.586Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -546,6 +546,15 @@
             "path": "pages/layout/layout.json",
             "endpoints": {
               "content": "pages/layout/layout.json"
+            }
+          },
+          {
+            "title": "Icon",
+            "slug": "primitives/icon",
+            "summary": "Icons are a powerful tool in the interface. They condense complex ideas into simple visuals, making actions and information easier to recognize at a glance. When used consistently, icons strengthen brand expression, improve usability, and create a more intuitive experience.",
+            "path": "pages/primitivesicon/primitivesicon.json",
+            "endpoints": {
+              "content": "pages/primitivesicon/primitivesicon.json"
             }
           },
           {

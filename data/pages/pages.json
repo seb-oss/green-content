@@ -67,12 +67,18 @@
       "path": "pages/layout/layout.json"
     },
     {
+      "title": "Icon",
+      "slug": "primitives/icon",
+      "summary": "Icons are a powerful tool in the interface. They condense complex ideas into simple visuals, making actions and information easier to recognize at a glance. When used consistently, icons strengthen brand expression, improve usability, and create a more intuitive experience.",
+      "path": "pages/primitivesicon/primitivesicon.json"
+    },
+    {
       "title": "UX writing",
       "slug": "ux-writing",
       "summary": "Wherever customers meet us, their experience of SEB should be consistent. A good experience builds trust and can lead to new business. Customer-facing text must be correct – mistakes distract and reduce credibility.",
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 12,
-  "lastUpdated": "2025-08-20T08:37:07.403Z"
+  "total": 13,
+  "lastUpdated": "2025-08-20T08:42:42.587Z"
 }
