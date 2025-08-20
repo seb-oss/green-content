@@ -185,7 +185,7 @@
     },
     {
       "title": "Add items to a list",
-      "tag": "H2",
+      "tag": "H3",
       "section-content": "Although links are primarily to be used for navigation, it happens that we use linked design for actions that the customer can perform. When the link indicates that it can add more of the same item to a list, you may begin the link text with a plus sign. For instance: [\\+ Add another company](#)\n\nHowever, links that indicate that the user can delete an item should not begin with a minus.\n\n##### **Do**\n\n[\\+ Add a new country](https://designlibrary.sebgroup.com/components/component-link/)\n\n##### **Don't**\n\n[\\- Delete the country](https://designlibrary.sebgroup.com/components/component-link/)",
       "cols": "2"
     }
