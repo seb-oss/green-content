@@ -104,6 +104,25 @@
           "src": "/assets/primitives_tokens.png"
         }
       ]
+    },
+    {
+      "title": "Spacing",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Spacing is a fundamental tool for structuring layouts. In Green, we use spacing to create hierarchy, balance, and visual rhythm, making interfaces feel intentional and easy to navigate."
+        },
+        {
+          "type": "rich-text",
+          "content": "[Read more about spacing](https://stg.seb.io/primitives/spacing)"
+        },
+        {
+          "type": "image"
+        }
+      ]
     }
   ]
 }
