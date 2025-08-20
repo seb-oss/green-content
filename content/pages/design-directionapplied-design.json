@@ -2,5 +2,17 @@
   "title": "Applied design",
   "slug": "design-direction/applied-design",
   "summary": "Applied design shows how our visual design comes to life in concrete examples - with templates and clear guidance for building layouts.",
-  "parent": "design-direction"
+  "parent": "design-direction",
+  "sections": [
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/applied_design.png"
+        }
+      ]
+    }
+  ]
 }
