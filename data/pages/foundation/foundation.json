@@ -136,7 +136,7 @@
         },
         {
           "type": "rich-text",
-          "content": "[Read more about declarative layout](A micro-frontend optimized layout system for responsive layouts without utility classes. The relationships between elements rely on the set rules for spacing, grids, and sizing, ensuring consistency throughout.)"
+          "content": "[Read more about declarative layout](https://stg.seb.io/primitives/declarative-layout)"
         },
         {
           "type": "image",
