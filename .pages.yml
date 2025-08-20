@@ -230,6 +230,11 @@ content:
                   - name: replay
                     label: Replay
                     type: boolean
+                  - name: variant
+                    label: Variant
+                    type: select
+                    options:
+                      values: [ Do, Dont ]
                   - name: Snippet
                     type: reference
                     options:
@@ -353,6 +358,11 @@ content:
                   - name: replay
                     label: Replay
                     type: boolean
+                  - name: variant
+                    label: Variant
+                    type: select
+                    options:
+                      values: [ Do, Dont ]
                   - name: Snippet
                     type: reference
                     options:
@@ -475,6 +485,11 @@ content:
                   - name: replay
                     label: Replay
                     type: boolean
+                  - name: variant
+                    label: Variant
+                    type: select
+                    options:
+                      values: [ Do, Dont ]
                   - name: Snippet
                     type: reference
                     options:
@@ -628,6 +643,11 @@ content:
                   - name: replay
                     label: Replay
                     type: boolean
+                  - name: variant
+                    label: Variant
+                    type: select
+                    options:
+                      values: [ Do, Dont ]
                   - name: Snippet
                     type: reference
                     options:
