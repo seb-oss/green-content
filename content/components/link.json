@@ -166,27 +166,27 @@
     {
       "title": "Placing links",
       "tag": "H2",
-      "section-content": "The purpose of the text decides the placement of the links. If the user is supposed to read the text in its entirety, place the link after the text or in a separate link list. If the user reads the text to act, you can place the links directly in the text."
+      "section-content": "The purpose of the text decides where links should go. If users need to read the whole text, place links at the end or in a separate list. If the text is meant to prompt action, place links directly in the text."
     },
     {
-      "title": "Link in the text",
+      "title": "Links within text",
       "tag": "H3",
-      "section-content": "When the purpose of the text is to help the user navigate forward, you can put the link directly in the text.\n\n*   You can find the agreement under [My agreements](#)."
+      "section-content": "When the purpose of the text is to help the user navigate forward, you can put the link directly in the text.\n\n**Example:** You can find the agreement under [My agreements](#)."
     },
     {
       "title": "Link outside of the text",
       "tag": "H3",
-      "section-content": "Follow us on Twitter and LinkedIn to get the latest insight on corporate, institutional and investment banking. [Follow us on Social media.](#)"
+      "section-content": "**Example:** Follow us on Twitter and LinkedIn to get the latest insight on corporate, institutional and investment banking. [Follow us on Social media.](#)"
     },
     {
-      "title": "Put links before a form component",
+      "title": "Links before a form component",
       "tag": "H3",
       "section-content": "Always place important links, like terms and conditions or a help or guidance link, **before** a form component. This way users can read the information they need before deciding to interact with the checkbox or field."
     },
     {
       "title": "Add items to a list",
       "tag": "H2",
-      "section-content": "Although links are primarily to be used for navigation, it happens that we use linked design for actions that the customer can perform. When the link indicates that it can add more of the same item to a list, you may begin the link text with a plus sign. For instance: [\\+ Add another company](#)\n\nHowever, links that indicate that the user can delete an item should not begin with a minus.",
+      "section-content": "Although links are primarily to be used for navigation, it happens that we use linked design for actions that the customer can perform. When the link indicates that it can add more of the same item to a list, you may begin the link text with a plus sign. For instance: [\\+ Add another company](#)\n\nHowever, links that indicate that the user can delete an item should not begin with a minus.\n\n##### **Do**\n\n[\\+ Add a new country](https://designlibrary.sebgroup.com/components/component-link/)\n\n##### **Don't**\n\n[\\- Delete the country](https://designlibrary.sebgroup.com/components/component-link/)",
       "cols": "2"
     }
   ]
