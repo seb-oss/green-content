@@ -120,7 +120,8 @@
           "content": "[Read more about spacing](https://stg.seb.io/primitives/spacing)"
         },
         {
-          "type": "image"
+          "type": "image",
+          "src": "/assets/promitives_spacing.png"
         }
       ]
     }
