@@ -6,7 +6,7 @@
   "layout": "editorial",
   "sections": [
     {
-      "max-width": false,
+      "max-width": true,
       "cols": "2",
       "columns": [
         {
