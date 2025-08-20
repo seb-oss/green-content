@@ -685,6 +685,12 @@
       "code": "<gds-segmented-control width=\"280px\" value='2' size=\"small\">\n<gds-segment value=\"1\">Item 1</gds-segment>\n<gds-segment value=\"2\">Item 2</gds-segment>\n<gds-segment value=\"3\">Item 3</gds-segment>\n</gds-segmented-control>"
     },
     {
+      "title": "Segmented control: UX example ",
+      "slug": "segmented-control-ux-example",
+      "path": "snippets/segmented-control-ux-example/segmented-control-ux-example.json",
+      "code": "<gds-flex align-items=\"center\" justify-content=\"center\" padding=\"xl\">\n\n<gds-segmented-control value=\"bank\">\n  <gds-segment value=\"bank\">Bank account</gds-segment>\n  <gds-segment value=\"ekot\">Ekot account</gds-segment>\n  <gds-segment value=\"bankgiro\">Bankgiro/plusgiro</gds-segment>\n</gds-segmented-control>\n</gds-flex>"
+    },
+    {
       "title": "Signal: Example",
       "slug": "signal-example",
       "path": "snippets/signal-example/signal-example.json",
@@ -697,6 +703,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 116,
-  "lastUpdated": "2025-08-20T09:32:04.493Z"
+  "total": 117,
+  "lastUpdated": "2025-08-20T10:40:03.278Z"
 }
