@@ -6,6 +6,16 @@
   "layout": "editorial",
   "sections": [
     {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/declarative.png"
+        }
+      ]
+    },
+    {
       "max-width": true,
       "cols": "1",
       "columns": [
