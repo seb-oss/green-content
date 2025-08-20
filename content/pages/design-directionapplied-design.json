@@ -13,6 +13,17 @@
           "src": "/assets/applied_design.png"
         }
       ]
+    },
+    {
+      "title": "What to expect",
+      "max-width": false,
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Here you’ll find inspiration on how to work with visual design, as well as reusable templates for common contexts such as login and other flows. This is just the starting point - in the near future we’ll continue to expand and develop this area together, making it easier to apply visual design consistently across our products."
+        }
+      ]
     }
   ]
 }
