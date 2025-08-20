@@ -22,7 +22,7 @@
     "android": false
   },
   "compare": "Dropdown",
-  "compare-content": "Select wraps the native `<select>` element, and is a good choice for single-select scenarios where customization is not required. Select delivers slightly better accessibility and mobile experiences compared to Dropdown due to its native nature.",
+  "compare-content": "Select wraps the native `<select>` element and is a good choice for single-select scenarios where customization is not required. Select delivers slightly better accessibility and mobile experiences compared to Dropdown, due to its native nature.",
   "overview": [
     {
       "title": "Usage",
