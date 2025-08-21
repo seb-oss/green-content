@@ -21,5 +21,6 @@
     "ios": false,
     "android": false
   },
-  "compare": "Datepicker"
+  "compare": "Datepicker",
+  "compare-content": "Calendar renders a grid of dates inline on the page. It can be interactive or just display static information, for example highlighting bank holidays."
 }
