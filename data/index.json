@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-21T10:25:59.972Z",
+    "lastUpdated": "2025-08-21T10:29:12.109Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -962,7 +962,7 @@
             "title": "Declarative layout: Hero",
             "slug": "declarative-layout-hero",
             "path": "snippets/declarative-layout-hero/declarative-layout-hero.json",
-            "code": "<gds-flex padding=\"2xl\">\n  <gds-grid columns=\"12\" gap=\"xs\" width=\"600px\">\n    <gds-card variant=\"primary\" grid-column=\"1/13\" height=\"2xl\"></gds-card>\n    <gds-card variant=\"secondary\" grid-column=\"1/5\" height=\"6xl\"></gds-card>\n    <gds-card variant=\"brand-01\" grid-column=\"5/13\" height=\"6xl\"></gds-card>\n    <gds-card\n      variant=\"brand-02\"\n      border-color=\"subtle-01\"\n      grid-column=\"1/3\"\n      height=\"6xl\"\n    ></gds-card>\n    <gds-card variant=\"positive\" grid-column=\"3/7\" height=\"6xl\"></gds-card>\n    <gds-card variant=\"notice\" grid-column=\"7/13\" height=\"6xl\"></gds-card>\n  </gds-grid>\n</gds-flex>\n",
+            "code": "<gds-flex padding=\"4xl 2xl\">\n  <gds-grid columns=\"12\" gap=\"xs\" width=\"600px\">\n    <gds-card variant=\"primary\" grid-column=\"1/13\" height=\"2xl\"></gds-card>\n    <gds-card variant=\"secondary\" grid-column=\"1/5\" height=\"6xl\"></gds-card>\n    <gds-card variant=\"brand-01\" grid-column=\"5/13\" height=\"6xl\"></gds-card>\n    <gds-card\n      variant=\"brand-02\"\n      border-color=\"subtle-01\"\n      grid-column=\"1/3\"\n      height=\"6xl\"\n    ></gds-card>\n    <gds-card variant=\"positive\" grid-column=\"3/7\" height=\"6xl\"></gds-card>\n    <gds-card variant=\"notice\" grid-column=\"7/13\" height=\"6xl\"></gds-card>\n  </gds-grid>\n</gds-flex>\n",
             "endpoints": {
               "content": "snippets/declarative-layout-hero/declarative-layout-hero.json"
             }
