@@ -1,7 +1,7 @@
 {
   "title": "Design direction",
   "slug": "design-direction",
-  "summary": "At SEB, digital design is not just about aesthetics - it’s about clarity, function, and supporting the user journey. We simplify and remove obstacles, with accessibility and writing as essential parts.",
+  "summary": "At SEB, digital design is not just about aesthetics - it’s about clarity, function, and supporting the user journey. We simplify and remove obstacles, with accessibility and writing as equal parts.",
   "sections": [
     {
       "max-width": false,
@@ -21,7 +21,7 @@
         {
           "type": "paragraph",
           "tag": "p",
-          "text": "​We should always be on the user's side. We are the guardians, the safe keepers and the will for change in an ever changing world.\nKnowing how we are perceived and experienced, we can motivate change within SEB and to our users."
+          "text": "​We should always be on the user's side. We are the guardians, the safe keepers and the will for change in an ever changing world. Knowing how we are perceived and experienced, we can motivate change within SEB and to our users."
         },
         {
           "type": "paragraph",
