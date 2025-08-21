@@ -4,8 +4,28 @@
   "summary": "Figma is our core design tool, where you’ll find everything needed to create consistent and user-friendly experiences. Components, variables, and typography styles to icons and more — it’s all in one place, ready to support your design work.",
   "sections": [
     {
-      "title": "Content for figma",
-      "max-width": false
+      "title": "Access to Figma",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "To access Figma, you need a Figma account with an SEB email address. If you need help with accessing SEB:s Figma libraries, please contact [figmasupport@seb.se](mailto:figmasupport@seb.se)."
+        }
+      ]
+    },
+    {
+      "title": "Figma libraries",
+      "section-content": "A library in Figma is a collection of design assets, like components, styles, and variables. These design assets live in a single file, but can be reused across different files or projects.",
+      "max-width": false,
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "SEB Figma libraries",
+          "tag": "H3",
+          "content": "You will need to add some libraries to your design files when designing an SEB experience.  \nGo to assets, choose \"Recommended\", there you find the following libraries:  \n  \n– Green for web 💚  \n– Green icons & logotypes  \n– Green typography  \n– Green variables & styles  \n  \n[Read more about Figma libraries on the Figma site](https://help.figma.com/hc/en-us/articles/360041051154-Guide-to-libraries-in-Figma)"
+        }
+      ]
     }
   ]
 }
