@@ -261,6 +261,11 @@ content:
                   - name: src
                     label: Image
                     type: image
+              - name: code
+                label: Code
+                type: code
+                options:
+                  language: html
               - name: do
                 label: Do
                 fields:
@@ -283,6 +288,7 @@ content:
                       - name: text
                         label: 'Text'
                         type: string
+           
 
       - name: ux-text
         type: object
