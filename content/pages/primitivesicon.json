@@ -5,6 +5,7 @@
   "parent": "primitives",
   "sections": [
     {
+      "title": "Hello content",
       "max-width": false
     }
   ]
