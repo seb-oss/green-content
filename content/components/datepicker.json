@@ -39,6 +39,7 @@
     "android": false
   },
   "compare": "Calendar",
+  "compare-content": "Datepickers are used to enter a date. The user can enter the date as numbers using three predefined spinner inputs (year, month, day), or select a date from the calendar popover.",
   "overview": [
     {
       "title": "Features",
