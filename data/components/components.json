@@ -170,7 +170,7 @@
     {
       "title": "Radio",
       "slug": "radio",
-      "summary": "A radio button is a form element that allows users to select one of the predefined set of choices.",
+      "summary": "A radio button is a form control that allows users to select one of the predefined set of choices.",
       "path": "components/radio/radio.content.json"
     },
     {
@@ -234,5 +234,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2025-08-21T08:37:42.891Z"
+  "lastUpdated": "2025-08-21T08:41:37.876Z"
 }

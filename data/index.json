@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-21T08:37:42.890Z",
+    "lastUpdated": "2025-08-21T08:41:37.875Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -297,7 +297,7 @@
           {
             "title": "Radio",
             "slug": "radio",
-            "summary": "A radio button is a form element that allows users to select one of the predefined set of choices.",
+            "summary": "A radio button is a form control that allows users to select one of the predefined set of choices.",
             "path": "components/radio/radio.content.json",
             "endpoints": {
               "content": "components/radio/radio.content.json",
