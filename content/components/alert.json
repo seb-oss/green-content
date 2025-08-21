@@ -190,18 +190,6 @@
           ]
         }
       ]
-    },
-    {
-      "title": "___CODE__EXAMPLE",
-      "tag": "H2",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "code",
-          "caption": "Caption for this code snippet",
-          "code": "<a href=\"#\"> \n  This is an example\n</a>"
-        }
-      ]
     }
   ],
   "ux-text": [
