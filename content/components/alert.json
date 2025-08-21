@@ -190,6 +190,17 @@
           ]
         }
       ]
+    },
+    {
+      "title": "___CODE__EXAMPLE",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "code",
+          "code": "<a href=\"#\"> \n  This is an example\n</a>"
+        }
+      ]
     }
   ],
   "ux-text": [
