@@ -4,6 +4,15 @@
   "summary": "Figma is our core design tool, where you’ll find everything needed to create consistent and user-friendly experiences. Components, variables, and typography styles to icons and more — it’s all in one place, ready to support your design work.",
   "sections": [
     {
+      "max-width": false,
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/figma.png"
+        }
+      ]
+    },
+    {
       "title": "Access to Figma",
       "max-width": true,
       "cols": "1",
