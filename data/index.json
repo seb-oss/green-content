@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-21T08:50:27.377Z",
+    "lastUpdated": "2025-08-21T08:51:07.345Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -955,6 +955,15 @@
             "code": "<gds-flex width=\"200px\">\n  <gds-datepicker show-week-numbers size=\"small\" dateformat=\"d-m-y\"></gds-datepicker>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/datepicker-small/datepicker-small.json"
+            }
+          },
+          {
+            "title": "Declarative layout: Hero",
+            "slug": "declarative-layout-hero",
+            "path": "snippets/declarative-layout-hero/declarative-layout-hero.json",
+            "code": "<gds-grid columns=\"12\" gap=\"xs\" width=\"600px\">\n  <gds-card\n    grid-column=\"1/13\"\n    height=\"2xl\"\n  >\n    <gds-text tag=\"small\">Card</gds-text>\n  </gds-card>\n  <gds-card\n    grid-column=\"1/5\"\n    height=\"6xl\"\n  >\n    <gds-text tag=\"small\">Card</gds-text>\n  </gds-card>\n  <gds-card\n    grid-column=\"5/13\"\n    height=\"6xl\"\n  >\n    <gds-text tag=\"small\">Card</gds-text>\n  </gds-card>\n  <gds-card\n    grid-column=\"1/3\"\n    height=\"2xl\"\n  >\n    <gds-text tag=\"small\">Card</gds-text>\n  </gds-card>\n  <gds-card\n    grid-column=\"3/7\"\n    height=\"6xl\"\n  >\n    <gds-text tag=\"small\">Card</gds-text>\n  </gds-card>\n  <gds-card\n    grid-column=\"7/13\"\n    height=\"6xl\"\n  >\n    <gds-text tag=\"small\">Card</gds-text>\n  </gds-card>\n</gds-grid>\n",
+            "endpoints": {
+              "content": "snippets/declarative-layout-hero/declarative-layout-hero.json"
             }
           },
           {
