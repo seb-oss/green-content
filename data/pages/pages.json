@@ -75,7 +75,7 @@
     {
       "title": "Icons",
       "slug": "primitives/icons",
-      "summary": "Icons are a powerful tool in the interface. They condense complex ideas into simple visuals, making actions and information easier to recognize at a glance. When used consistently, icons strengthen brand expression, improve usability, and create a more intuitive experience.",
+      "summary": "Icons are a powerful tool in the interface. When used consistently, icons strengthen brand expression, improve usability, and create a more intuitive experience.",
       "path": "pages/primitivesicon/primitivesicon.json"
     },
     {
@@ -86,5 +86,5 @@
     }
   ],
   "total": 14,
-  "lastUpdated": "2025-08-21T10:49:14.513Z"
+  "lastUpdated": "2025-08-21T10:50:56.766Z"
 }
