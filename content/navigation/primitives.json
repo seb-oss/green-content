@@ -3,10 +3,6 @@
   "slug": "primitives",
   "links": [
     {
-      "title": "Icons",
-      "slug": "primitives/icons"
-    },
-    {
       "title": "Colours",
       "slug": "primitives/colours"
     },
@@ -17,6 +13,10 @@
     {
       "title": "Declarative layout",
       "slug": "primitives/declarative-layout"
+    },
+    {
+      "title": "Icons",
+      "slug": "primitives/icons"
     },
     {
       "title": "Spacing",
