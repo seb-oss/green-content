@@ -7347,6 +7347,94 @@
       }
     }
   },
+  "mic-on": {
+    "id": "mic-on",
+    "nodeId": "5230:277",
+    "displayName": "Mic On",
+    "fileName": "mic-on.svg",
+    "urlPath": "mic-on",
+    "variants": {
+      "regular": "<path d=\"M12 19C15.0754 19 17.7186 17.1489 18.8759 14.5M12 19C8.92448 19 6.28136 17.1489 5.12402 14.5M12 19V21.25M12 15.75C9.65274 15.75 7.74995 13.8472 7.74995 11.5V7C7.74995 4.65279 9.65274 2.75 12 2.75C14.3472 2.75 16.25 4.65279 16.25 7V11.5C16.25 13.8472 14.3472 15.75 12 15.75Z\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path d=\"M7 7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.23858 17 7V11.5C17 14.2614 14.7614 16.5 12 16.5C9.23858 16.5 7 14.2614 7 11.5V7Z\" fill=\"currentColor\"/>\n<path d=\"M5.81123 14.1997C5.64539 13.8201 5.20326 13.6468 4.82369 13.8127C4.44412 13.9785 4.27087 14.4207 4.4367 14.8002C5.61403 17.4948 8.19054 19.4406 11.2499 19.7163V21.2499C11.2499 21.6642 11.5857 21.9999 11.9999 21.9999C12.4141 21.9999 12.7499 21.6642 12.7499 21.2499V19.7163C15.8093 19.4406 18.3858 17.4948 19.5631 14.8002C19.7289 14.4207 19.5557 13.9785 19.1761 13.8127C18.7966 13.6468 18.3544 13.8201 18.1886 14.1997C17.1463 16.5852 14.7667 18.2499 11.9999 18.2499C9.23314 18.2499 6.85352 16.5852 5.81123 14.1997Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/mic-on.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/mic-on.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Play and sound"
+      ],
+      "tags": [
+        "microphone, mic, sound, podcast"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/mic-on",
+        "import": "import '@sebgroup/green-core/icon/mic-on.js'",
+        "component": "<gds-icon-mic-on></gds-icon-mic-on>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/mic-on",
+        "import": "import { Iconmic-on } from '@sebgroup/green-react/icon/mic-on'",
+        "component": "<Iconmic-on></Iconmic-on>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/mic-on",
+        "import": "import '@sebgroup/green-core/icon/mic-on.js'",
+        "component": "<gds-icon-mic-on></gds-icon-mic-on>"
+      }
+    }
+  },
+  "mic-off": {
+    "id": "mic-off",
+    "nodeId": "5230:188",
+    "displayName": "Mic Off",
+    "fileName": "mic-off.svg",
+    "urlPath": "mic-off",
+    "variants": {
+      "regular": "<path d=\"M16.25 11.5V7C16.25 4.65279 14.3472 2.75 12 2.75C10.6334 2.75 9.41741 3.39504 8.63994 4.39727M3 3L7.75 7.75M7.75 7.75V11.5C7.75 13.8472 9.65279 15.75 12 15.75C13.0463 15.75 14.0043 15.3719 14.7449 14.7449M7.75 7.75L14.7449 14.7449M14.7449 14.7449L17.0474 17.0474M21 21L17.0474 17.0474M12 19C8.92453 19 6.2814 17.1489 5.12407 14.5M12 19V21.25M12 19C13.9439 19 15.715 18.2605 17.0474 17.0474\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path d=\"M17.0001 11.5C17.0001 12.1846 16.8625 12.8371 16.6134 13.4313L7.67383 4.49163C8.53954 3.00174 10.1528 2 12.0001 2C14.7615 2 17.0001 4.23858 17.0001 7V11.5Z\" fill=\"currentColor\"/>\n<path d=\"M3.53033 2.46967C3.23744 2.17678 2.76256 2.17678 2.46967 2.46967C2.17678 2.76256 2.17678 3.23744 2.46967 3.53033L7 8.06066V11.5C7 14.2614 9.23858 16.5 12 16.5C12.9805 16.5 13.8962 16.2172 14.6684 15.7291L15.9288 16.9894C14.822 17.7832 13.4661 18.2499 11.9999 18.2499C9.23314 18.2499 6.85352 16.5852 5.81123 14.1997C5.64539 13.8201 5.20326 13.6468 4.82369 13.8127C4.44412 13.9785 4.27086 14.4207 4.4367 14.8002C5.61403 17.4948 8.19054 19.4406 11.2499 19.7163V21.2499C11.2499 21.6642 11.5857 21.9999 11.9999 21.9999C12.4141 21.9999 12.7499 21.6642 12.7499 21.2499V19.7163C14.3398 19.5729 15.8004 18.9781 17.0011 18.0617L20.4697 21.5303C20.7626 21.8232 21.2374 21.8232 21.5303 21.5303C21.8232 21.2374 21.8232 20.7626 21.5303 20.4697L3.53033 2.46967Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/mic-off.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/mic-off.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Play and sound"
+      ],
+      "tags": [
+        "microphone-off"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/mic-off",
+        "import": "import '@sebgroup/green-core/icon/mic-off.js'",
+        "component": "<gds-icon-mic-off></gds-icon-mic-off>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/mic-off",
+        "import": "import { Iconmic-off } from '@sebgroup/green-react/icon/mic-off'",
+        "component": "<Iconmic-off></Iconmic-off>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/mic-off",
+        "import": "import '@sebgroup/green-core/icon/mic-off.js'",
+        "component": "<gds-icon-mic-off></gds-icon-mic-off>"
+      }
+    }
+  },
   "people": {
     "id": "people",
     "nodeId": "1153:7583",
