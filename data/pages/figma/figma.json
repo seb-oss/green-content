@@ -38,7 +38,7 @@
           "type": "rich-text",
           "title": "SEB Figma libraries",
           "tag": "H3",
-          "content": "Connect libraries to your Figma files - go to assets, choose \"Recommended\", and add the following :\n\n– Green for web 💚  \n– Green icons & logotypes  \n– Green typography  \n– Green variables & styles"
+          "content": "Connect libraries to your Figma files - go to assets, choose \"Recommended\", add the following:\n\n– Green for web 💚  \n– Green icons & logotypes  \n– Green typography  \n– Green variables & styles"
         }
       ]
     }
