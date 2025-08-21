@@ -37,6 +37,11 @@
       "path": "pages/design/design.json"
     },
     {
+      "title": "Figma",
+      "slug": "figma",
+      "path": "pages/figma/figma.json"
+    },
+    {
       "title": "Primitives",
       "slug": "primitives",
       "summary": "The primitives represent the fundamental parts of the design system like colors, typography, spacing, and sizing. This ensures consistency across the entire design system.",
@@ -79,6 +84,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 13,
-  "lastUpdated": "2025-08-21T08:45:58.048Z"
+  "total": 14,
+  "lastUpdated": "2025-08-21T08:50:27.378Z"
 }

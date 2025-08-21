@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-21T08:45:58.046Z",
+    "lastUpdated": "2025-08-21T08:50:27.377Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -501,6 +501,14 @@
             "path": "pages/design/design.json",
             "endpoints": {
               "content": "pages/design/design.json"
+            }
+          },
+          {
+            "title": "Figma",
+            "slug": "figma",
+            "path": "pages/figma/figma.json",
+            "endpoints": {
+              "content": "pages/figma/figma.json"
             }
           },
           {
