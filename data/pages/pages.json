@@ -33,7 +33,7 @@
     {
       "title": "Design direction",
       "slug": "design-direction",
-      "summary": "At SEB, digital design is not just about aesthetics - it’s about clarity, function, and supporting the user journey. We simplify and remove obstacles, with accessibility and writing as essential parts.",
+      "summary": "At SEB, digital design is not just about aesthetics - it’s about clarity, function, and supporting the user journey. We simplify and remove obstacles, with accessibility and writing as equal parts.",
       "path": "pages/design/design.json"
     },
     {
@@ -86,5 +86,5 @@
     }
   ],
   "total": 14,
-  "lastUpdated": "2025-08-21T09:56:19.444Z"
+  "lastUpdated": "2025-08-21T09:58:34.026Z"
 }
