@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-21T08:41:37.875Z",
+    "lastUpdated": "2025-08-21T08:42:40.686Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -88,7 +88,7 @@
           {
             "title": "Checkbox",
             "slug": "checkbox",
-            "summary": "A checkbox is a form element that allows users to select one or multiple options.",
+            "summary": "A checkbox is a form control that allows users to select one or multiple options.",
             "path": "components/checkbox/checkbox.content.json",
             "endpoints": {
               "content": "components/checkbox/checkbox.content.json",

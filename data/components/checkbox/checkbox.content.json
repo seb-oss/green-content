@@ -4,7 +4,7 @@
   "hero_snippet": "hero-checkbox",
   "beta": true,
   "soon": false,
-  "summary": "A checkbox is a form element that allows users to select one or multiple options.",
+  "summary": "A checkbox is a form control that allows users to select one or multiple options.",
   "preamble": "Checkboxes are commonly used in forms, settings, and filters to allow users to indicate their preferences.\nThe checkboxes are typically grouped with a theme label above and the possible options below.",
   "anatomy": true,
   "anatomy-overview": "The checkbox (and other form controls) are divided in sections that are re-used between components. Header: Label, label support, contextual help, extended support.\n\n*   **Body**: The checkbox.\n    \n*   **Footer**: Error message.",
@@ -43,6 +43,7 @@
     "android": false
   },
   "compare": "Radio",
+  "compare-content": "A checkbox is a multiple selection form control that allows users to select one or more of the predefined set of choices.",
   "overview": [
     {
       "title": "Variants",
