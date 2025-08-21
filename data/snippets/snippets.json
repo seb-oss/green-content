@@ -22,7 +22,7 @@
       "title": "Alert: Information",
       "slug": "alert-information",
       "path": "snippets/alert-information/alert-information.json",
-      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\">\n  <strong>Information</strong> Body text starts on the same row as\n  heading.\n</gds-alert>\n</gds-div>"
+      "code": "<gds-div width=\"80%\" display=\"block\">\n  <gds-alert variant=\"information\" role=\"alert\">\n    <strong>Information</strong> Body text starts on the same row as\n    heading.\n  </gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Negative",
@@ -710,5 +710,5 @@
     }
   ],
   "total": 118,
-  "lastUpdated": "2025-08-21T12:55:40.265Z"
+  "lastUpdated": "2025-08-21T12:56:41.716Z"
 }
