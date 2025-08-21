@@ -23,7 +23,7 @@
       "columns": [
         {
           "type": "paragraph",
-          "size": "body-l",
+          "size": "heading-s",
           "text": "Declarative programming is a non-imperative style of programming in which programs describe their desired results without explicitly listing commands or steps that must be performed."
         },
         {
