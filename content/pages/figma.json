@@ -17,7 +17,7 @@
     {
       "title": "Figma libraries",
       "section-content": "A library in Figma is a collection of design assets, like components, styles, and variables. These design assets live in a single file, but can be reused across different files or projects.",
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
