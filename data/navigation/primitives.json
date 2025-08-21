@@ -3,6 +3,10 @@
   "slug": "primitives",
   "links": [
     {
+      "title": "Icons",
+      "slug": "primitives/icons"
+    },
+    {
       "title": "Colours",
       "slug": "primitives/colours"
     },
