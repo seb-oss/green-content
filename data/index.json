@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-21T09:06:27.102Z",
+    "lastUpdated": "2025-08-21T09:15:25.456Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -506,6 +506,7 @@
           {
             "title": "Figma",
             "slug": "figma",
+            "summary": "Figma is our core design tool, where you’ll find everything needed to create consistent and user-friendly experiences. Components, variables, and typography styles to icons and more — it’s all in one place, ready to support your design work.",
             "path": "pages/figma/figma.json",
             "endpoints": {
               "content": "pages/figma/figma.json"
