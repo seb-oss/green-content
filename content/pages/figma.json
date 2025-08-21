@@ -18,12 +18,13 @@
       "title": "Figma libraries",
       "section-content": "A library in Figma is a collection of design assets, like components, styles, and variables. These design assets live in a single file, but can be reused across different files or projects.",
       "max-width": false,
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
           "title": "SEB Figma libraries",
           "tag": "H3",
-          "content": "You will need to add some libraries to your design files when designing an SEB experience.  \nGo to assets, choose \"Recommended\", there you find the following libraries:  \n  \n– Green for web 💚  \n– Green icons & logotypes  \n– Green typography  \n– Green variables & styles  \n  \n[Read more about Figma libraries on the Figma site](https://help.figma.com/hc/en-us/articles/360041051154-Guide-to-libraries-in-Figma)"
+          "content": "You will need to add some libraries to your design files when designing an SEB experience.  \nGo to assets, choose \"Recommended\", there you find the following libraries:\n\n– Green for web 💚  \n– Green icons & logotypes  \n– Green typography  \n– Green variables & styles\n\n[Read more about Figma libraries on the Figma site](https://help.figma.com/hc/en-us/articles/360041051154-Guide-to-libraries-in-Figma)"
         }
       ]
     }
