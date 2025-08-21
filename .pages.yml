@@ -263,9 +263,15 @@ content:
                     type: image
               - name: code
                 label: Code
-                type: code
-                options:
-                  language: html
+                fields:
+                - name: caption
+                  label: Caption
+                  type: string
+                - name: code
+                  label: Code
+                  type: code
+                  options:
+                    language: html
               - name: do
                 label: Do
                 fields:
