@@ -20,7 +20,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "To access Figma, you need a Figma account with an SEB email address. If you need help with accessing SEB:s Figma libraries, please contact [figmasupport@seb.se](mailto:figmasupport@seb.se)."
+          "content": "To access Figma, you need a Figma account with an SEB email address. Find all the information you need to get your Figma license on [Confluence](https://confluence-general.sebank.se/pages/viewpage.action?spaceKey=FDT&title=Figma+design+tool+Home)\n\nIf you need help with accessing SEB:s Figma libraries, please contact [figmasupport@seb.se](mailto:figmasupport@seb.se)."
         }
       ]
     },
