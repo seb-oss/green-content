@@ -5,6 +5,16 @@
   "parent": "primitives",
   "sections": [
     {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/icons.png"
+        }
+      ]
+    },
+    {
       "title": "How to use, and how not to use icons",
       "section-content": "Here you’ll find guidance on how to use icons - from placement, sizes, and colors to best practices. We’ll also highlight how icons should not be used. More information will be added soon.",
       "max-width": false
