@@ -401,6 +401,17 @@ content:
                   - name: src
                     label: Image
                     type: image
+              - name: code
+                label: Code
+                fields:
+                - name: caption
+                  label: Caption
+                  type: string
+                - name: code
+                  label: Code
+                  type: code
+                  options:
+                    language: html
               - name: do
                 label: Do
                 fields:
@@ -528,6 +539,17 @@ content:
                   - name: src
                     label: Image
                     type: image
+              - name: code
+                label: Code
+                fields:
+                - name: caption
+                  label: Caption
+                  type: string
+                - name: code
+                  label: Code
+                  type: code
+                  options:
+                    language: html
               - name: do
                 label: Do
                 fields:
@@ -686,6 +708,17 @@ content:
                   - name: src
                     label: Image
                     type: image
+              - name: code
+                label: Code
+                fields:
+                - name: caption
+                  label: Caption
+                  type: string
+                - name: code
+                  label: Code
+                  type: code
+                  options:
+                    language: html
               - name: do
                 label: Do
                 fields:
