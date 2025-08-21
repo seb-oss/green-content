@@ -256,7 +256,7 @@
       "title": "Declarative layout: Hero",
       "slug": "declarative-layout-hero",
       "path": "snippets/declarative-layout-hero/declarative-layout-hero.json",
-      "code": "<gds-grid columns=\"12\" gap=\"xs\" width=\"600px\">\n  <gds-card\n    grid-column=\"1/13\"\n    height=\"2xl\"\n  >\n    <gds-text tag=\"small\">Card</gds-text>\n  </gds-card>\n  <gds-card\n    grid-column=\"1/5\"\n    height=\"6xl\"\n  >\n    <gds-text tag=\"small\">Card</gds-text>\n  </gds-card>\n  <gds-card\n    grid-column=\"5/13\"\n    height=\"6xl\"\n  >\n    <gds-text tag=\"small\">Card</gds-text>\n  </gds-card>\n  <gds-card\n    grid-column=\"1/3\"\n    height=\"2xl\"\n  >\n    <gds-text tag=\"small\">Card</gds-text>\n  </gds-card>\n  <gds-card\n    grid-column=\"3/7\"\n    height=\"6xl\"\n  >\n    <gds-text tag=\"small\">Card</gds-text>\n  </gds-card>\n  <gds-card\n    grid-column=\"7/13\"\n    height=\"6xl\"\n  >\n    <gds-text tag=\"small\">Card</gds-text>\n  </gds-card>\n</gds-grid>\n"
+      "code": "<gds-grid columns=\"12\" gap=\"xs\" width=\"600px\">\n  <gds-card\n    grid-column=\"1/13\"\n    height=\"2xl\"\n    border\n  >\n  </gds-card>\n  <gds-card\n    grid-column=\"1/5\"\n    height=\"6xl\"\n  >\n\n  </gds-card>\n  <gds-card\n    grid-column=\"5/13\"\n    height=\"6xl\"\n  >\n  </gds-card>\n  <gds-card\n    grid-column=\"1/3\"\n    height=\"6xl\"\n  >\n  </gds-card>\n  <gds-card\n    grid-column=\"3/7\"\n    height=\"6xl\"\n  >\n  </gds-card>\n  <gds-card\n    grid-column=\"7/13\"\n    height=\"6xl\"\n  >\n  </gds-card>\n</gds-grid>\n"
     },
     {
       "title": "Declarative layout: Property to token table",
@@ -710,5 +710,5 @@
     }
   ],
   "total": 118,
-  "lastUpdated": "2025-08-21T08:52:45.913Z"
+  "lastUpdated": "2025-08-21T09:06:27.104Z"
 }
