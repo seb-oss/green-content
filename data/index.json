@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-26T11:18:27.037Z",
+    "lastUpdated": "2025-08-26T11:19:14.132Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -719,7 +719,7 @@
             "title": "Badge: Rounded",
             "slug": "badge-rounded",
             "path": "snippets/badge-rounded/badge-rounded.json",
-            "code": "<gds-flex gap=\"xl\" align-items=\"center\">\n  <gds-badge rounded=\"\" variant=\"information\"> 01 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"notice\"> 02 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"positive\"> 03 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"warning\"> 04 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\"> 05 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\" disabled=\"\"> 06 </gds-badge>\n</gds-flex>",
+            "code": "<gds-flex gap=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"100%\" flex-wrap=\"wrap\">\n  <gds-badge rounded=\"\" variant=\"information\"> 01 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"notice\"> 02 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"positive\"> 03 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"warning\"> 04 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\"> 05 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\" disabled=\"\"> 06 </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/badge-rounded/badge-rounded.json"
             }
