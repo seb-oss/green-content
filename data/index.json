@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-08-26T11:26:47.109Z",
+    "lastUpdated": "2025-08-26T11:53:30.971Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1241,7 +1241,7 @@
             "title": "Hero: Div",
             "slug": "hero-div",
             "path": "snippets/hero-div/hero-div.json",
-            "code": "<gds-flex align-items=\"center\" justify-content=\"center\" gap=\"s\" width=\"100%\" padding=\"2xl\">\n  <gds-card\n    width=\"3xl\"\n    height=\"3xl\"\n    background=\"03\"\n    border-radius=\"max\"\n  ></gds-card>\n  <gds-card\n    width=\"3xl\"\n    height=\"3xl\"\n    background=\"03\"\n    border-radius=\"xl 0 xl 0\"\n  ></gds-card>\n  <gds-card width=\"3xl\" height=\"3xl\" background=\"03\"></gds-card>\n</gds-flex>\n",
+            "code": "<gds-flex align-items=\"center\" justify-content=\"center\" gap=\"s\" width=\"100%\" padding=\"2xl\">\n  <gds-card\n    width=\"3xl\"\n    height=\"3xl\"\n    background=\"neutral-03\"\n    border-radius=\"max\"\n  ></gds-card>\n  <gds-card\n    width=\"3xl\"\n    height=\"3xl\"\n    background=\"neutral-03\"\n    border-radius=\"xl 0 xl 0\"\n  ></gds-card>\n  <gds-card width=\"3xl\" height=\"3xl\" background=\"neutral-03\"></gds-card>\n</gds-flex>\n",
             "endpoints": {
               "content": "snippets/hero-div/hero-div.json"
             }
