@@ -1,5 +1,5 @@
 {
   "title": "Card: Brand 02",
   "slug": "card-brand-02",
-  "code": "<gds-flex padding=\"s 0\">\n  <gds-card width=\"300px\" variant=\"brand-02\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n  Nu öppnar vi portarna till sydeuropeiska och schweiziska aktier.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Handla värdepapper\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>"
+  "code": "<gds-flex padding=\"xl\">\n  <gds-card width=\"300px\" variant=\"brand-02\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n  Nu öppnar vi portarna till sydeuropeiska och schweiziska aktier.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Handla värdepapper\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>"
 }
