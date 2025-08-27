@@ -84,7 +84,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "We follow correct ARIA attributes and roles, and use semantic HTML as the foundation. ARIA should only be used when necessary — never as a replacement for proper HTML.\n\nCommon mistakes include:\n\n*   **Misspellings** – for example, id values are case-sensitive and must match exactly.\n    \n*   **Overuse** – adding ARIA attributes where they aren't needed can cause confusion for assistive technologies."
+          "content": "We follow correct ARIA attributes and roles, and use semantic HTML as the foundation. ARIA should only be used when necessary - never as a replacement for proper HTML.\n\nCommon mistakes include:\n\n*   **Misspellings** – for example, id values are case-sensitive and must match exactly.\n    \n*   **Overuse** – adding ARIA attributes where they aren't needed can cause confusion for assistive technologies."
         }
       ]
     },
