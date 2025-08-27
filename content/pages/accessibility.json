@@ -54,7 +54,7 @@
           "type": "rich-text",
           "title": "Tools and standards we follow",
           "tag": "H3",
-          "content": "*   **WCAG 2.1 - SC.1.4.3:** Follow contrast ratio of 3:1 to 4.5:1, depending on text size and usage.\n    \n*   **Chrome DevTools:** Use the **Rendering > Emulate vision deficiencies** feature to see how designs appear to users with various vision conditions.\n    \n*   **Silktide (Chrome extension):** Offers a wide range of accessibility tools, including color blindness simulation. Approved for use within SEB.\n    \n*   Contrast checkers: Tools like [WebAIM Contrast Checker](https://www.figma.com/design/d3bf8YtNaXdACoec7bY1p7/Green-documentation-site?node-id=5961-4888&m=dev) help you verify if color combinations meet contrast requirements."
+          "content": "*   **WCAG 2.1 - SC.1.4.3:** Follow contrast ratio of 3:1 to 4.5:1, depending on text size and usage.\n    \n*   **Chrome DevTools:** Use the **Rendering > Emulate vision deficiencies** feature to see how designs appear to users with various vision conditions.\n    \n*   **Silktide (Chrome extension):** Offers a wide range of accessibility tools, including color blindness simulation. Approved for use within SEB.\n    \n*   Contrast checkers: Tools like [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) help you verify if color combinations meet contrast requirements."
         },
         {
           "type": "rich-text",
