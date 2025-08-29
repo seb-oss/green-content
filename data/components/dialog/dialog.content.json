@@ -2,7 +2,7 @@
   "title": "Dialog",
   "slug": "dialog",
   "hero_snippet": "hero-dialog",
-  "beta": true,
+  "beta": false,
   "soon": false,
   "summary": "⁠A dialog appears in front of content to provide critical information or ask for a decision.",
   "preamble": "Dialogs are used to provide the user with a focused interface for specific tasks or information, appearing as a temporary window that requires user interaction before returning to the main application.",
