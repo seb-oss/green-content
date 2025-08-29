@@ -287,7 +287,7 @@
     {
       "title": "Critical and error alert",
       "tag": "H3",
-      "section-content": "Use critical or error alerts for serious issues that prevent the user from doing what they need to – such as a system outage or service error.\n\nThe message should include:\n\n*   **Explanation**: Clearly explain what’s wrong. Don't begin with words like _Important_ or _Note_\n    \n*   **Apology**: Only when SEB’s systems are responsible for the issue\n    \n*   **Help or instruction**: Tell the customer what to do to move forward – either immediately or later"
+      "section-content": "Use critical or error alerts for serious issues that prevent the user from doing what they need to - such as a system outage or service error.\n\nThe message should include:\n\n*   **Explanation**: Clearly explain what’s wrong. Don't begin with words like _Important_ or _Note_\n    \n*   **Apology**: Only when SEB’s systems are responsible for the issue\n    \n*   **Help or instruction**: Tell the customer what to do to move forward – either immediately or later"
     }
   ]
 }
