@@ -2,7 +2,7 @@
   "title": "Icon",
   "slug": "icon",
   "hero_snippet": "hero-icon",
-  "beta": true,
+  "beta": false,
   "soon": false,
   "summary": "An icon helps communicate meaning quickly, enhances visual hierarchy, and supports navigation or interaction.",
   "preamble": "An icon serves as a visual shorthand that helps users quickly recognize actions, states, or categories. Icons come in two styles - regular and solid - and can be sized and colored to match your design needs. \nIn Green, we use the Central Icon System by Iconist. These icons are designed on a 24x24 px grid with a 2 px safe area, resulting in a 20x20 px live area for optimal clarity and balance. But can be used in smaller sizes to fit the size of the text and component size.",
