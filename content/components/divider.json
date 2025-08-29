@@ -2,7 +2,7 @@
   "title": "Divider",
   "slug": "divider",
   "hero_snippet": "hero-divider",
-  "beta": true,
+  "beta": false,
   "soon": false,
   "summary": "Divider creates visual and semantic separation between content.",
   "preamble": "Dividers helps organize information by creating clear boundaries between sections, groups, or items. They are commonly used in layouts like forms, lists, menus, or dashboards.\n\nBy default, divider has the same semantic meaning as the `<hr>` html element, which represents a thematic break. For example, a shift of topic within a section.",
