@@ -2,7 +2,7 @@
   "title": "Select",
   "slug": "select",
   "hero_snippet": "hero-select",
-  "beta": true,
+  "beta": false,
   "soon": false,
   "summary": "A select enables the user to choose one or multiple options from a list.",
   "preamble": "The select component is designed for single-choice selections, offering native mobile functionality and enhanced accessibility. Best suited for simple option lists, while maintaining familiar dropdown behaviour across devices.",
