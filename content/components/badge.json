@@ -2,7 +2,7 @@
   "title": "Badge",
   "slug": "badge",
   "hero_snippet": "hero-badge",
-  "beta": true,
+  "beta": false,
   "soon": false,
   "summary": "A compact visual indicator for status, counts and notifications.",
   "preamble": "A badge is a compact visual indicator that helps highlight status, categorie content, or display notifications. It can be different variants and sizes to effectively communicate meaning. Badges help users quickly understand the state or related elements in the interface.",
