@@ -2,7 +2,8 @@
   "title": "Grid",
   "slug": "grid",
   "hero_snippet": "hero-grid",
-  "beta": true,
+  "beta": false,
+  "soon": false,
   "summary": "The grid is a custom element that provides a flexible grid system.",
   "anatomy": false,
   "category": [
