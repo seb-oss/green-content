@@ -2,7 +2,8 @@
   "title": "Rich text",
   "slug": "rich-text",
   "hero_snippet": "hero-rich-text",
-  "beta": true,
+  "beta": false,
+  "soon": false,
   "summary": "Rich text can be used to wrap generic HTML content and apply typography styles.",
   "anatomy": false,
   "tags": [

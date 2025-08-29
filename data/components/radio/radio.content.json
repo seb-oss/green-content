@@ -2,7 +2,7 @@
   "title": "Radio",
   "slug": "radio",
   "hero_snippet": "hero-radio",
-  "beta": true,
+  "beta": false,
   "soon": false,
   "summary": "A radio button is a form control that allows users to select one of the predefined set of choices.",
   "preamble": "Radio buttons are commonly used in forms, surveys, and settings where users need to make a single selection from a list of options.\nThe benefit of using radio buttons over select is that users may easily scan the available options and make a quick selection",
