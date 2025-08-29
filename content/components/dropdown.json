@@ -2,7 +2,7 @@
   "title": "Dropdown",
   "slug": "dropdown",
   "hero_snippet": "hero-dropdown",
-  "beta": true,
+  "beta": false,
   "soon": false,
   "summary": "A dropdown enables the user to choose one or multiple options from a list.",
   "preamble": "The dropdown component is designed for single or multiple selections but with customizable features.\n",
