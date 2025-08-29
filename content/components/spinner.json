@@ -2,7 +2,7 @@
   "title": "Spinner",
   "slug": "spinner",
   "hero_snippet": "hero-spinner",
-  "beta": true,
+  "beta": false,
   "soon": true,
   "anatomy": true,
   "tags": [
