@@ -2,7 +2,7 @@
   "title": "Segmented control",
   "slug": "segmented-control",
   "hero_snippet": "hero-segmented-control",
-  "beta": true,
+  "beta": false,
   "soon": false,
   "summary": "Segmented control allows users to select a single option, immediately changing the display to reflect their selection. It is used for switching views or view options, not for navigation.",
   "preamble": "The segmented control switches between views or to sort elements. The segmented control is good to use to provide the user with closely related choices that affect the content or view.",
