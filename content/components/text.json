@@ -2,7 +2,8 @@
   "title": "Text",
   "slug": "text",
   "hero_snippet": "hero-text",
-  "beta": true,
+  "beta": false,
+  "soon": false,
   "summary": "Text summary",
   "anatomy": false,
   "tags": [
