@@ -2,7 +2,7 @@
   "title": "Checkbox",
   "slug": "checkbox",
   "hero_snippet": "hero-checkbox",
-  "beta": true,
+  "beta": false,
   "soon": false,
   "summary": "A checkbox is a form control that allows users to select one or multiple options.",
   "preamble": "Checkboxes are commonly used in forms, settings, and filters to allow users to indicate their preferences.\nThe checkboxes are typically grouped with a theme label above and the possible options below.",
