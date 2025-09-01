@@ -34,7 +34,7 @@
       "title": "Alert: Notice",
       "slug": "alert-notice",
       "path": "snippets/alert-notice/alert-notice.json",
-      "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"notice\" role=\"alert\">\n  <strong>Notice</strong> Body text with link or additional context.\n</gds-alert>\n</gds-div>"
+      "code": "<gds-div width=\"80%\" display=\"block\">\n  <gds-alert variant=\"notice\" role=\"alert\">\n    <strong>Notice</strong> Body text with link or additional context.\n  </gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Positive",
@@ -710,5 +710,5 @@
     }
   ],
   "total": 118,
-  "lastUpdated": "2025-09-01T13:36:51.494Z"
+  "lastUpdated": "2025-09-01T13:42:54.849Z"
 }
