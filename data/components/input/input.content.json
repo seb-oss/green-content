@@ -2,7 +2,7 @@
   "title": "Input",
   "slug": "input",
   "hero_snippet": "hero-input",
-  "beta": true,
+  "beta": false,
   "soon": false,
   "summary": "An input lets users enter and edit text or numerical values in forms.",
   "anatomy": true,
