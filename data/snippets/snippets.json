@@ -10,7 +10,7 @@
       "title": "Alert: Auto Dismiss",
       "slug": "alert-auto-dismiss",
       "path": "snippets/alert-auto-dismiss/alert-auto-dismiss.json",
-      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"positive\" role=\"alert\" timeout=\"15000\">\n  <strong>Auto Dismiss</strong>This alert disappears automatically after a delay.\n</gds-alert>\n</gds-div>"
+      "code": "<gds-div width=\"90%\" display=\"block\">\n  <gds-alert variant=\"positive\" role=\"alert\" timeout=\"15000\">\n    <strong>Auto Dismiss</strong>This alert disappears automatically after a delay.\n  </gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Dissmisible",
@@ -710,5 +710,5 @@
     }
   ],
   "total": 118,
-  "lastUpdated": "2025-09-01T07:58:43.165Z"
+  "lastUpdated": "2025-09-01T11:39:10.669Z"
 }
