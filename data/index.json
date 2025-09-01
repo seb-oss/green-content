@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-09-01T11:39:10.668Z",
+    "lastUpdated": "2025-09-01T13:36:51.493Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -620,7 +620,7 @@
             "title": "Alert: Negative",
             "slug": "alert-negative-variant",
             "path": "snippets/alert-negative-variant/alert-negative-variant.json",
-            "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"negative\" role=\"alert\">\n  <strong>Negative</strong> Error message requiring user attention.\n</gds-alert>\n</gds-div>",
+            "code": "<gds-div width=\"80%\" display=\"block\">\n  <gds-alert variant=\"negative\" role=\"alert\">\n    <strong>Negative</strong> Error message requiring user attention.\n  </gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-negative-variant/alert-negative-variant.json"
             }
