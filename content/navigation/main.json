@@ -13,6 +13,11 @@
       "icon": "IconSquareGridCircle"
     },
     {
+      "title": "Studio",
+      "slug": "studio",
+      "icon": "IconBrandGreen"
+    },
+    {
       "title": "Design direction",
       "slug": "design-direction",
       "icon": "IconDirection"
@@ -20,7 +25,7 @@
     {
       "title": "Primitives",
       "slug": "primitives",
-      "icon": "IconBrandGreen"
+      "icon": "IconShapes"
     },
     {
       "title": "UX writing",
