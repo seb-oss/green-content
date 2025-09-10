@@ -38,8 +38,8 @@
   },
   "overview": [
     {
-      "title": "Variants",
-      "section-content": "The default button is our most used button. It comes in primary, secondary and tertiary, and the sizes small, medium and large.\n\nNeutral is the default variant of the button in addition to positive, negative and brand."
+      "title": "Variants and ranks",
+      "section-content": "Variant is used to communicate the intent of the button, such as positive, negative, notice.  \n  \nRank determines the priority of the button, and can be primary, secondary or tertiary. All variants are each available in those three ranks."
     },
     {
       "title": "Neutral",
@@ -99,7 +99,7 @@
     },
     {
       "title": "Icon button",
-      "section-content": "The icon button comes in different variants including neutral, positive, and negative.\n\nUse an icon button only when the icon is universally understood and can stand on its own, such as a close or expand icon.\n\nIf the action is not immediately clear, use a regular button with a text label instead to ensure clarity and accessibility.",
+      "section-content": "Use an icon button only when the icon is universally understood and can stand on its own, such as a close or expand icon.\n\nIf the action is not immediately clear, use a regular button with a text label instead to ensure clarity and accessibility.\n\nThe icon button comes in the same ranks and variants as regular buttons.",
       "cols": "3",
       "columns": [
         {
