@@ -32,7 +32,7 @@ const toPascalCase = (str) => {
     .join("");
 };
 
-const reactComponentName = `Icon${toPascalCase(name)}`;
+// const reactComponentName = `Icon${toPascalCase(name)}`;
 
 // Helper function to create a framework config
 const createFrameworkConfig = (name) => ({
@@ -211,6 +211,7 @@ async function main() {
       for (const [name, regularData] of regularIcons) {
         const iconKey = toKebabCase(name);
         const solidData = solidIcons.get(name);
+        const reactComponentName = `Icon${toPascalCase(name)}`;
         const toDisplayName = (str) => {
           return (
             str
