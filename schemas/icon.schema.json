@@ -6,6 +6,7 @@
       "type": "object",
       "required": [
         "displayName",
+        "reactName",
         "variants",
         "static",
         "id",
@@ -17,6 +18,9 @@
       ],
       "properties": {
         "displayName": {
+          "type": "string"
+        },
+        "reactName": {
           "type": "string"
         },
         "width": {

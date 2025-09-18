@@ -25,6 +25,15 @@ const toKebabCase = (str) => {
     .replace(/[^a-z0-9-]/g, "");
 };
 
+const toPascalCase = (str) => {
+  return str
+    .split(/[-_\s]/)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join("");
+};
+
+const reactComponentName = `Icon${toPascalCase(name)}`;
+
 // Helper function to create a framework config
 const createFrameworkConfig = (name) => ({
   path: `@sebgroup/green-core/icon/${name}`,
@@ -222,6 +231,7 @@ async function main() {
           nodeId: regularData.nodeId,
           displayName: toDisplayName(iconKey),
           fileName: `${iconKey}.svg`,
+          reactName: reactComponentName,
           urlPath: iconKey,
           variants: {
             regular: regularData.svg,
@@ -243,14 +253,8 @@ async function main() {
             web: createFrameworkConfig(iconKey),
             react: {
               ...createFrameworkConfig(iconKey),
-              import: `import { Icon${name.replace(
-                /\s+/g,
-                ""
-              )} } from '@sebgroup/green-react/icon/${iconKey}'`,
-              component: `<Icon${name.replace(/\s+/g, "")}></Icon${name.replace(
-                /\s+/g,
-                ""
-              )}>`,
+              import: `import { ${reactComponentName} } from '@sebgroup/green-react/icon/${iconKey}'`,
+              component: `<${reactComponentName}></${reactComponentName}>`,
             },
             angular: createFrameworkConfig(iconKey),
           },
