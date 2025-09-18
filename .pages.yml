@@ -599,15 +599,6 @@ content:
             list: true
             blockKey: type
             blocks:
-              - name: figma
-                label: Figma Node
-                fields:
-                  - name: caption
-                    label: Caption
-                    type: string
-                  - name: node
-                    label: IMG ID
-                    type: string
               - name: rich-text
                 label: Rich Text
                 fields:
