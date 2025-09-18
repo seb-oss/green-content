@@ -261,6 +261,21 @@ content:
                   - name: src
                     label: Image
                     type: image
+              - name: details
+                label: Details
+                fields:
+                  - name: name
+                    label: Name
+                    type: string
+                  - name: summary
+                    label: Summary
+                    type: string
+                  - name: open
+                    label: Open
+                    type: boolean
+                  - name: content
+                    label: Rich Text
+                    type: rich-text
               - name: code
                 label: Code
                 fields:
@@ -401,6 +416,21 @@ content:
                   - name: src
                     label: Image
                     type: image
+              - name: details
+                label: Details
+                fields:
+                  - name: name
+                    label: Name
+                    type: string
+                  - name: summary
+                    label: Summary
+                    type: string
+                  - name: open
+                    label: Open
+                    type: boolean
+                  - name: content
+                    label: Rich Text
+                    type: rich-text
               - name: code
                 label: Code
                 fields:
@@ -539,6 +569,21 @@ content:
                   - name: src
                     label: Image
                     type: image
+              - name: details
+                label: Details
+                fields:
+                  - name: name
+                    label: Name
+                    type: string
+                  - name: summary
+                    label: Summary
+                    type: string
+                  - name: open
+                    label: Open
+                    type: boolean
+                  - name: content
+                    label: Rich Text
+                    type: rich-text
               - name: code
                 label: Code
                 fields:
