@@ -572,6 +572,83 @@ content:
                       - name: text
                         label: 'Text'
                         type: string
+      - name: faq
+        type: object
+        label: FAQ
+        list: true
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: tag
+            label: Tag
+            type: select
+            options:
+              values: [H2, H3, H4, H5]
+          - name: section-content
+            label: Content
+            type: rich-text
+          - name: cols
+            label: Columns
+            type: select
+            options:
+              values: ["1", "2", "3"]
+          - name: columns
+            label: Columns
+            type: block
+            list: true
+            blockKey: type
+            blocks:
+              - name: figma
+                label: Figma Node
+                fields:
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: node
+                    label: IMG ID
+                    type: string
+              - name: rich-text
+                label: Rich Text
+                fields:
+                  - name: title
+                    label: Title
+                    type: string
+                  - name: tag
+                    label: Tag
+                    type: select
+                    options:
+                      values: [H2, H3, H4, H5]
+                  - name: content
+                    label: Rich Text
+                    type: rich-text
+              - name: paragraph
+                label: Paragraph
+                fields:
+                  - name: tag
+                    label: Tag
+                    type: string
+                  - name: size
+                    label: Size
+                    type: string
+                  - name: text
+                    label: Text
+                    type: text
+              - name: faq-list
+                label: Questions
+                fields:
+                  - name: question
+                    label: 'Question'
+                    type: object
+                    list: true
+                    fields:
+                      - name: text
+                        label: 'Text'
+                        type: string
+                      - name: content
+                        label: 'Answer'
+                        type: rich-text
+
 
   - name: pages
     label: Pages
