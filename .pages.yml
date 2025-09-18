@@ -643,7 +643,7 @@ content:
                     list: true
                     fields:
                       - name: text
-                        label: 'Text'
+                        label: 'Question'
                         type: string
                       - name: content
                         label: 'Answer'
