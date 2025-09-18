@@ -644,6 +644,15 @@ content:
             list: true
             blockKey: type
             blocks:
+              - name: figma
+                label: Figma Node
+                fields:
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: node
+                    label: IMG ID
+                    type: string
               - name: rich-text
                 label: Rich Text
                 fields:
@@ -670,20 +679,97 @@ content:
                   - name: text
                     label: Text
                     type: text
-              - name: faq-list
-                label: Questions
+              - name: snippet
+                label: Snippet
                 fields:
-                  - name: question
-                    label: 'Question'
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: plain
+                    label: Plain
+                    type: boolean
+                  - name: replay
+                    label: Replay
+                    type: boolean
+                  - name: variant
+                    label: Variant
+                    type: select
+                    options:
+                      values: [ Do, Dont ]
+                  - name: Snippet
+                    type: reference
+                    options:
+                      collection: snippets
+                      multiple: false
+                      search: "title,slug"
+                      value: "{slug}"
+                      label: "{title}"
+              - name: image
+                label: Image
+                fields:
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: width
+                    label: Width
+                    type: string
+                  - name: height
+                    label: Height
+                    type: string
+                  - name: ratio
+                    label: Ratio
+                    type: string
+                  - name: src
+                    label: Image
+                    type: image
+              - name: details
+                label: Details
+                fields:
+                  - name: name
+                    label: Name
+                    type: string
+                  - name: summary
+                    label: Summary
+                    type: string
+                  - name: open
+                    label: Open
+                    type: boolean
+                  - name: content
+                    label: Rich Text
+                    type: rich-text
+              - name: code
+                label: Code
+                fields:
+                - name: caption
+                  label: Caption
+                  type: string
+                - name: code
+                  label: Code
+                  type: code
+                  options:
+                    language: html
+              - name: do
+                label: Do
+                fields:
+                  - name: dolist
+                    label: 'Do'
                     type: object
                     list: true
                     fields:
                       - name: text
-                        label: 'Question'
+                        label: 'Text'
                         type: string
-                      - name: content
-                        label: 'Answer'
-                        type: rich-text
+              - name: dont
+                label: Dont
+                fields:
+                  - name: dontlist
+                    label: 'Dont'
+                    type: object
+                    list: true
+                    fields:
+                      - name: text
+                        label: 'Text'
+                        type: string
 
 
   - name: pages
