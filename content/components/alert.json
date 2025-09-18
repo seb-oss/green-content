@@ -292,16 +292,23 @@
   ],
   "faq": [
     {
+      "title": "FAQ",
+      "section-content": "This is a list of frequently asked question related to Alert",
       "cols": "1",
       "columns": [
         {
-          "type": "faq-list",
-          "question": [
-            {
-              "text": "Frequently asked question",
-              "content": "The answer"
-            }
-          ]
+          "type": "details",
+          "name": "faq",
+          "summary": "Frequently asked question",
+          "open": false,
+          "content": "Th answer"
+        },
+        {
+          "type": "details",
+          "name": "faq",
+          "summary": "Summary",
+          "open": false,
+          "content": "answer"
         }
       ]
     }
