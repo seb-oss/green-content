@@ -1,0 +1,6 @@
+{
+  "title": "Button: Size XS",
+  "slug": "button-size-xs",
+  "snippet_component": "null",
+  "code": "<gds-button width=\"max-content\" size=\"xs\">\n  XS\n</gds-button>"
+}

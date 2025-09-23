@@ -217,6 +217,12 @@
       "code": "<gds-button width=\"max-content\" size=\"small\">\n  Small\n</gds-button>"
     },
     {
+      "title": "Button: Size XS",
+      "slug": "button-size-xs",
+      "path": "snippets/button-size-xs/button-size-xs.json",
+      "code": "<gds-button width=\"max-content\" size=\"xs\">\n  XS\n</gds-button>"
+    },
+    {
       "title": "Card: brand 01",
       "slug": "card-brand-01",
       "path": "snippets/card-brand-01/card-brand-01.json",
@@ -709,6 +715,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 118,
-  "lastUpdated": "2025-09-23T13:05:53.557Z"
+  "total": 119,
+  "lastUpdated": "2025-09-23T13:20:11.074Z"
 }
