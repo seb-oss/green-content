@@ -39,7 +39,7 @@
   "overview": [
     {
       "title": "Variants and ranks",
-      "section-content": "Variant is used to communicate the intent of the button, such as positive, negative, notice.  \n  \nRank determines the priority of the button, and can be primary, secondary or tertiary. All variants are each available in those three ranks."
+      "section-content": "Variant is used to communicate the intent of the button, such as positive, negative, notice.\n\nRank determines the priority of the button, and can be primary, secondary or tertiary. All variants are each available in those three ranks."
     },
     {
       "title": "Neutral",
@@ -172,9 +172,15 @@
     },
     {
       "title": "Size",
-      "section-content": "Buttons can be small, medium or large. The default size is medium.",
-      "cols": "3",
+      "section-content": "Buttons can be xs, small, medium or large. The default size is medium.",
+      "cols": "2",
       "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-size-xs"
+        },
         {
           "type": "snippet",
           "plain": false,
