@@ -56,7 +56,7 @@
   "overview": [
     {
       "title": "Variants",
-      "section-content": "To be able to use forms in all context's we provide two versions of input fields.\n\n*   **Default**\n    \n*   Coming soon **Floating label** (label inside): Can only be used in specific contexts. Limited features due to accessibility.",
+      "section-content": "To be able to use forms in all context's we provide two versions of input fields.\n\n*   **Default**\n    \n*   Coming soon **Floating label** (label inside): Can only be used in specific contexts. Limited features due to accessibility. Read more about how to use the Floating label on the UX text page [Input field floating label](https://seb.io/component/input/ux-text#input-field-floating-label-5)",
       "columns": [
         {
           "type": "figma",
