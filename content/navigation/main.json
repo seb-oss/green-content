@@ -8,14 +8,14 @@
       "icon": "IconHomeOpen"
     },
     {
-      "title": "Components",
-      "slug": "components",
-      "icon": "IconSquareGridCircle"
-    },
-    {
       "title": "Studio",
       "slug": "studio",
       "icon": "IconBrandGreen"
+    },
+    {
+      "title": "Components",
+      "slug": "components",
+      "icon": "IconSquareGridCircle"
     },
     {
       "title": "Design direction",
