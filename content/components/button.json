@@ -100,7 +100,7 @@
     {
       "title": "Notice",
       "tag": "H3",
-      "section-content": "Used only for the notice alert and for buy actions (e.g. buying stocks or funds).",
+      "section-content": "Use only for the notice alert and for buy actions (e.g. buying stocks or funds).",
       "cols": "1",
       "columns": [
         {
