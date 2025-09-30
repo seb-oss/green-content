@@ -86,7 +86,7 @@
     {
       "title": "Negative",
       "tag": "H3",
-      "section-content": "Guidelines coming soon.",
+      "section-content": "Used for destructive actions such as \"Delete\". Also used for sell actions (e.g. selling stocks or funds).",
       "cols": "1",
       "columns": [
         {
@@ -94,6 +94,19 @@
           "plain": false,
           "replay": false,
           "Snippet": "button-negative"
+        }
+      ]
+    },
+    {
+      "title": "Notice",
+      "tag": "H3",
+      "section-content": "Used only for the notice alert and for buy actions (e.g. buying stocks or funds).",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false
         }
       ]
     },
