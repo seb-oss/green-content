@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-09-30T11:43:09.155Z",
+    "lastUpdated": "2025-09-30T11:52:01.675Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -866,6 +866,15 @@
             "code": "<gds-button width=\"max-content\">\n  Next \n  <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n</gds-button>",
             "endpoints": {
               "content": "snippets/button-next/button-next.json"
+            }
+          },
+          {
+            "title": "Button: notice",
+            "slug": "button-notice",
+            "path": "snippets/button-notice/button-notice.json",
+            "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"notice\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"notice\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"notice\">Tertiary</gds-button>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/button-notice/button-notice.json"
             }
           },
           {
