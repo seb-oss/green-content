@@ -106,7 +106,8 @@
         {
           "type": "snippet",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "button-notice"
         }
       ]
     },
