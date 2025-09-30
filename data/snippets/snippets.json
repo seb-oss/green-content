@@ -643,6 +643,12 @@
       "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>"
     },
     {
+      "title": "Button: notice",
+      "slug": "notice",
+      "path": "snippets/notice/notice.json",
+      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"notice\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"notice\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"notice\">Tertiary</gds-button>\n</gds-flex>"
+    },
+    {
       "title": "Radio: Ux consistent do",
       "slug": "radio-ux-consistent-do",
       "path": "snippets/radio-ux-consistent-do/radio-ux-consistent-do.json",
@@ -715,6 +721,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 119,
-  "lastUpdated": "2025-09-30T12:00:10.616Z"
+  "total": 120,
+  "lastUpdated": "2025-09-30T12:00:51.555Z"
 }
