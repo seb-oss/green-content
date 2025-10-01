@@ -1,5 +1,6 @@
 {
   "title": "Input: Search exception",
   "slug": "input-search-exception",
-  "snippet_component": "Input"
+  "snippet_component": "Input",
+  "code": "<gds-input label=\"Search industry\">\n<gds-icon-magnifying-glass slot=\"lead\"</gds-icon-magnifying-glass>\n</gds-input>"
 }
