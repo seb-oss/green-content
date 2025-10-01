@@ -1,6 +1,7 @@
 {
   "title": "Breadcrumbs: Mobile",
   "slug": "breadcrumbs-mobile",
+  "snippet_component": "Breadcrumbs",
   "dependencies": [
     "gds-icon-chevron-left"
   ],

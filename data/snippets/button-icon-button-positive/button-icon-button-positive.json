@@ -1,5 +1,6 @@
 {
   "title": "Button: icon button positive",
   "slug": "button-icon-button-positive",
+  "snippet_component": "Button",
   "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"positive\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"positive\" rank=\"secondary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n  <gds-button variant=\"positive\" rank=\"tertiary\">\n    <gds-icon-arrow-right></gds-icon-arrow-right>\n  </gds-button>\n</gds-flex>"
 }
