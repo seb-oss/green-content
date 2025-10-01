@@ -291,7 +291,15 @@
       "title": "Skip the verb in the label",
       "tag": "H3",
       "section-content": "You don’t need to use verbs such as \"Enter\", \"Fill in\", \"Write\", or \"Choose\" in the label. For instance it’s shorter and easier to read \"Recipient’s name\" instead of \"Fill in the recipient’s name\".\n\nAn exception to the rule is labels for search fields, where the text often uses the verb “Search” or a verb + noun, such as “Search industry”.",
-      "cols": "1"
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "input-search-exception"
+        }
+      ]
     },
     {
       "title": "Label support text",
