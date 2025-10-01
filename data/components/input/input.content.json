@@ -306,7 +306,7 @@
     },
     {
       "tag": "H3",
-      "cols": "1",
+      "cols": "2",
       "columns": [
         {
           "type": "rich-text",
