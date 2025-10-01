@@ -1,5 +1,6 @@
 {
   "title": "Badge: Lead",
   "slug": "badge-lead",
+  "snippet_component": "Badge",
   "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    <gds-icon-rocket slot=\"lead\"></gds-icon-rocket>\n    Launched\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-triangle-exclamation slot=\"lead\">\n    </gds-icon-triangle-exclamation>\n    Overdue\n  </gds-badge>\n</gds-flex>"
 }

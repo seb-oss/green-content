@@ -1,5 +1,6 @@
 {
   "title": "Badge: Rounded",
   "slug": "badge-rounded",
+  "snippet_component": "Badge",
   "code": "<gds-flex gap=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"100%\" flex-wrap=\"wrap\">\n  <gds-badge rounded=\"\" variant=\"information\"> 01 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"notice\"> 02 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"positive\"> 03 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"warning\"> 04 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\"> 05 </gds-badge>\n  <gds-badge rounded=\"\" variant=\"negative\" disabled=\"\"> 06 </gds-badge>\n</gds-flex>"
 }

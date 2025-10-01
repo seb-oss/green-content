@@ -1,5 +1,6 @@
 {
   "title": "Alert: Auto Dismiss",
   "slug": "alert-auto-dismiss",
+  "snippet_component": "Alert",
   "code": "<gds-div width=\"90%\" display=\"block\">\n  <gds-alert variant=\"positive\" role=\"alert\" timeout=\"15000\">\n    <strong>Auto Dismiss</strong>This alert disappears automatically after a delay.\n  </gds-alert>\n</gds-div>"
 }

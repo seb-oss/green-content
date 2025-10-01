@@ -1,5 +1,6 @@
 {
   "title": "Button: neutral",
   "slug": "button-neutral-2",
+  "snippet_component": "Button",
   "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>"
 }

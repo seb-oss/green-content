@@ -1,5 +1,6 @@
 {
   "title": "Button: back",
   "slug": "button-back",
+  "snippet_component": "Button",
   "code": "<gds-button width=\"max-content\">\n  <gds-icon-arrow-left slot=\"lead\"></gds-icon-arrow-left>\n  Back \n</gds-button>"
 }

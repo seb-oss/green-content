@@ -1,8 +1,7 @@
 {
   "title": "Breadcrumbs: Mobile",
   "slug": "breadcrumbs-mobile",
-  "dependencies": [
-    "gds-icon-chevron-left"
-  ],
+  "snippet_component": "Breadcrumbs",
+  "dependencies": ["gds-icon-chevron-left"],
   "code": "<gds-breadcrumbs size=\"small\" width=\"100px\">\n  <gds-link href=\"/\">\n    <gds-icon-home-open slot=\"lead\"></gds-icon-home-open>\n    Green\n  </gds-link>\n  <gds-link href=\"/folder\">\n    <gds-icon-folder slot=\"lead\"></gds-icon-folder>\n    Folder\n  </gds-link>\n  <gds-text> Current </gds-text>\n</gds-breadcrumbs>"
 }
