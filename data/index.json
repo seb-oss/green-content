@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-01T13:48:51.591Z",
+    "lastUpdated": "2025-10-01T13:55:48.897Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1520,7 +1520,7 @@
             "title": "Input: Search exception",
             "slug": "input-search-exception",
             "path": "snippets/input-search-exception/input-search-exception.json",
-            "code": "<gds-input label=\"Search industry\">\n<gds-icon-magnifying-glass slot=\"lead\"</gds-icon-magnifying-glass>\n</gds-input>",
+            "code": "<gds-flex align-items=\"center\" justify-content=\"center\" width=\"340px\" min-height=\"200px\" padding=\"2xl\">\n  <gds-input label=\"Search industry\">\n    <gds-icon-magnifying-glass slot=\"lead\"></gds-icon-magnifying-glass>\n  </gds-input>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/input-search-exception/input-search-exception.json"
             }
