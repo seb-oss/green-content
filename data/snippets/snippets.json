@@ -627,7 +627,8 @@
     {
       "title": "Input: Search exception",
       "slug": "input-search-exception",
-      "path": "snippets/input-search-exception/input-search-exception.json"
+      "path": "snippets/input-search-exception/input-search-exception.json",
+      "code": "<gds-input label=\"Search industry\">\n<gds-icon-magnifying-glass slot=\"lead\"</gds-icon-magnifying-glass>\n</gds-input>"
     },
     {
       "title": "Link: Leading",
@@ -727,5 +728,5 @@
     }
   ],
   "total": 121,
-  "lastUpdated": "2025-10-01T13:24:08.070Z"
+  "lastUpdated": "2025-10-01T13:46:08.389Z"
 }
