@@ -25,6 +25,10 @@
     {
       "title": "Typography",
       "slug": "primitives/typography"
+    },
+    {
+      "title": "Shadows",
+      "slug": "primitives/shadows"
     }
   ]
 }
