@@ -18,7 +18,26 @@
       "max-width": true,
       "columns": [
         {
-          "type": "rich-text"
+          "type": "paragraph",
+          "text": "Shadows are used sparingly in Green to create depth and hierarchy when needed.\nOur overall design language follows a flat approach, where surfaces are defined primarily by color and spacing. However, shadows can help emphasize components that appear above others — for example floating action buttons, popover menus, or modals."
+        },
+        {
+          "type": "paragraph"
+        }
+      ]
+    },
+    {
+      "title": "Shadow variants",
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "We use six elevation levels from XS to 2XL. XS, S, and M are subtle shadows used to accentuate components or provide slight separation from the background when needed. L, XL, and 2XL are reserved for overlays, popovers, modals, and full takeovers - elements that require clear focus above other content."
+        },
+        {
+          "type": "paragraph",
+          "text": "Shadows should be applied consistently and with care. They are not decorative, but a way to communicate depth and interaction."
         }
       ]
     }
