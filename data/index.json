@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-03T08:58:53.898Z",
+    "lastUpdated": "2025-10-07T12:39:05.573Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -564,6 +564,14 @@
             "path": "pages/primitivesicon/primitivesicon.json",
             "endpoints": {
               "content": "pages/primitivesicon/primitivesicon.json"
+            }
+          },
+          {
+            "title": "Shadows",
+            "slug": "primitives/shadows",
+            "path": "pages/primitivesshadows/primitivesshadows.json",
+            "endpoints": {
+              "content": "pages/primitivesshadows/primitivesshadows.json"
             }
           },
           {

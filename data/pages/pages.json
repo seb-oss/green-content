@@ -79,12 +79,17 @@
       "path": "pages/primitivesicon/primitivesicon.json"
     },
     {
+      "title": "Shadows",
+      "slug": "primitives/shadows",
+      "path": "pages/primitivesshadows/primitivesshadows.json"
+    },
+    {
       "title": "UX writing",
       "slug": "ux-writing",
       "summary": "Wherever customers meet us, their experience of SEB should be consistent. A good experience builds trust and can lead to new business. Customer-facing text must be correct – mistakes distract and reduce credibility.",
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 14,
-  "lastUpdated": "2025-10-03T08:58:53.900Z"
+  "total": 15,
+  "lastUpdated": "2025-10-07T12:39:05.574Z"
 }
