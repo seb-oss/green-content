@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-07T13:35:43.639Z",
+    "lastUpdated": "2025-10-07T13:57:05.351Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -426,7 +426,7 @@
             "title": "Primitives",
             "slug": "primitives",
             "path": "navigation/primitives.json",
-            "links": 6,
+            "links": 7,
             "endpoint": "navigation/primitives.json"
           }
         ]
