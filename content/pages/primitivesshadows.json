@@ -1,6 +1,26 @@
 {
   "title": "Shadows",
   "slug": "primitives/shadows",
+  "summary": "Shadows help define hierarchy, depth, and interaction. In Green, they work together with other primitives to support clarity and visual balance.",
   "parent": "primitives",
-  "layout": "editorial"
+  "layout": "editorial",
+  "sections": [
+    {
+      "max-width": false,
+      "columns": [
+        {
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "title": "Designing with shadows",
+      "max-width": true,
+      "columns": [
+        {
+          "type": "rich-text"
+        }
+      ]
+    }
+  ]
 }
