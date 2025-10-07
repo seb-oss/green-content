@@ -20,18 +20,9 @@
     },
     {
       "title": "Shadow variants",
-      "max-width": false,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "text": "We use six elevation levels from XS to 2XL. XS, S, and M are subtle shadows used to accentuate components or provide slight separation from the background when needed. L, XL, and 2XL are reserved for overlays, popovers, modals, and full takeovers - elements that require clear focus above other content."
-        },
-        {
-          "type": "paragraph",
-          "text": "Shadows should be applied consistently and with care. They are not decorative, but a way to communicate depth and interaction."
-        }
-      ]
+      "section-content": "We use six elevation levels from XS to 2XL. XS, S, and M are subtle shadows used to accentuate components or provide slight separation from the background when needed. L, XL, and 2XL are reserved for overlays, popovers, modals, and full takeovers - elements that require clear focus above other content.\n\nShadows should be applied consistently and with care. They are not decorative, but a way to communicate depth and interaction.",
+      "max-width": true,
+      "cols": "1"
     }
   ]
 }
