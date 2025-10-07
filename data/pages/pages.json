@@ -81,6 +81,7 @@
     {
       "title": "Shadows",
       "slug": "primitives/shadows",
+      "summary": "Shadows help define hierarchy, depth, and interaction. In Green, they work together with other primitives to support clarity and visual balance.",
       "path": "pages/primitivesshadows/primitivesshadows.json"
     },
     {
@@ -91,5 +92,5 @@
     }
   ],
   "total": 15,
-  "lastUpdated": "2025-10-07T12:39:42.765Z"
+  "lastUpdated": "2025-10-07T12:45:01.428Z"
 }
