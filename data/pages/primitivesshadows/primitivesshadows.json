@@ -15,16 +15,8 @@
     },
     {
       "title": "Designing with shadows",
-      "max-width": true,
-      "columns": [
-        {
-          "type": "paragraph",
-          "text": "Shadows are used sparingly in Green to create depth and hierarchy when needed.\nOur overall design language follows a flat approach, where surfaces are defined primarily by color and spacing. However, shadows can help emphasize components that appear above others — for example floating action buttons, popover menus, or modals."
-        },
-        {
-          "type": "paragraph"
-        }
-      ]
+      "section-content": "Shadows are used sparingly in Green to create depth and hierarchy when needed.\n\nOur overall design language follows a flat approach, where surfaces are defined primarily by color and spacing. However, shadows can help emphasize components that appear above others — for example floating action buttons, popover menus, or modals.",
+      "max-width": true
     },
     {
       "title": "Shadow variants",
