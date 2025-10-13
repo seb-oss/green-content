@@ -127,7 +127,7 @@ content:
         type: select
         options:
           multiple: true
-          values: [Components, Elements, Layout, Tokens, Utils]
+          values: [Components, Patterns, Elements, Layout, Tokens, Utils]
       - name: platform
         label: Platform
         type: object
