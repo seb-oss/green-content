@@ -1,5 +1,6 @@
 {
-  "title": "Card: brand 01",
+  "title": "Card: Brand 01",
   "slug": "card-brand-01",
-  "code": "<gds-flex padding=\"xl\">\n  <gds-card width=\"300px\" variant=\"brand-01\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n      Ta ett aktivt beslut i hängmattan. På riktigt.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Börja spara\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>"
+  "snippet_component": "Card",
+  "code": "<gds-flex padding=\"4xl\" margin=\"auto\">\n  <gds-card variant=\"brand-01\" aspect-ratio=\"16/9\" width=\"240px\" justify-content=\"center\" text-align=\"center\"\n    align-items=\"center\" gap=\"s\">\n    <gds-flex align-items=\"center\" justify-content='center' aspect-ratio=\"1/1\" padding=\"xs\" background=\"brand-01\"\n      border-radius=\"max\" border-color=\"inversed\" border-width=\"5xs\">\n      <gds-icon-copy size=\"l\"></gds-icon-copy>\n    </gds-flex>\n    <gds-text font=\"detail-book-m\">Replace this slot with your content.</gds-text>\n  </gds-card>\n</gds-flex>"
 }

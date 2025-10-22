@@ -223,6 +223,12 @@
       "code": "<gds-button width=\"max-content\" size=\"xs\">\n  XS\n</gds-button>"
     },
     {
+      "title": "Card: Brand 01",
+      "slug": "card-brand-01",
+      "path": "snippets/card-brand-01/card-brand-01.json",
+      "code": "<gds-flex padding=\"4xl\" margin=\"auto\">\n  <gds-card variant=\"brand-01\" aspect-ratio=\"16/9\" width=\"240px\" justify-content=\"center\" text-align=\"center\"\n    align-items=\"center\" gap=\"s\">\n    <gds-flex align-items=\"center\" justify-content='center' aspect-ratio=\"1/1\" padding=\"xs\" background=\"brand-01\"\n      border-radius=\"max\" border-color=\"inversed\" border-width=\"5xs\">\n      <gds-icon-copy size=\"l\"></gds-icon-copy>\n    </gds-flex>\n    <gds-text font=\"detail-book-m\">Replace this slot with your content.</gds-text>\n  </gds-card>\n</gds-flex>"
+    },
+    {
       "title": "Card: Interaction default",
       "slug": "card-interaction-default",
       "path": "snippets/card-interaction-default/card-interaction-default.json",
@@ -793,6 +799,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 132,
-  "lastUpdated": "2025-10-22T12:03:39.644Z"
+  "total": 133,
+  "lastUpdated": "2025-10-22T12:08:26.782Z"
 }
