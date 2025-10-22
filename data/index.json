@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-22T10:42:13.754Z",
+    "lastUpdated": "2025-10-22T10:49:33.301Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -975,6 +975,15 @@
             "code": "<gds-card variant=\"tertiary\" aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>",
             "endpoints": {
               "content": "snippets/card-neutral-02/card-neutral-02.json"
+            }
+          },
+          {
+            "title": "Card pattern 01: No header",
+            "slug": "card-pattern-01-no-header",
+            "path": "snippets/card-pattern-01-no-header/card-pattern-01-no-header.json",
+            "code": "<gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Use the header slot to customise\" width=\"240px\" margin=\"auto\" variant=\"neutral-02\" outlined>\n</gds-card-pattern-01>",
+            "endpoints": {
+              "content": "snippets/card-pattern-01-no-header/card-pattern-01-no-header.json"
             }
           },
           {
