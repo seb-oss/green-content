@@ -1,0 +1,6 @@
+{
+  "title": "CP01 - Actions: Combined",
+  "slug": "cp01-actions-combined",
+  "snippet_component": "Card pattern 01",
+  "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01 title=\"Multiple actions\"\n    excerpt=\"Card with two interactive buttons for primary and secondary actions\">\n    <gds-button slot=\"footer\">Primary</gds-button>\n    <gds-link href=\"#\" slot=\"footer\" size=\"medium\">\n      <gds-icon-chain-link slot=\"lead\"></gds-icon-chain-link>\n      Link text\n    </gds-link>\n  </gds-card-pattern-01>\n</gds-flex>"
+}
