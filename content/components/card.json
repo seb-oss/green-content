@@ -49,10 +49,16 @@
         },
         {
           "type": "snippet",
-          "caption": "Neutral 02 outlined",
+          "caption": "Neutral 02 · Outlined",
           "plain": false,
           "replay": false,
           "Snippet": "card-neutral-02-outlined"
+        },
+        {
+          "type": "snippet",
+          "caption": "Brand 01",
+          "plain": false,
+          "replay": false
         }
       ]
     },
@@ -151,7 +157,7 @@
           "name": "card-faq",
           "summary": "When should I use the standalone card instead of a pattern?",
           "open": false,
-          "content": "Use the standalone card only when you need a custom layout or experimental setup that doesn’t fit an existing pattern.  \nFor standard use cases, start from a card pattern instead - it already includes structure, spacing, and slot logic.  \n  \nTip: Starting with a card pattern helps maintain consistency across spacing, hierarchy, and interaction behavior."
+          "content": "Use the standalone card only when you need a custom layout or experimental setup that doesn’t fit an existing pattern.  \nFor standard use cases, start from a card pattern instead - it already includes structure, spacing, and slot logic.\n\nTip: Starting with a card pattern helps maintain consistency across spacing, hierarchy, and interaction behavior."
         },
         {
           "type": "details",
