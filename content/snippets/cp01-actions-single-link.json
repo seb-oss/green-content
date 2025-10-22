@@ -1,0 +1,6 @@
+{
+  "title": "CP01 - Actions: Single link",
+  "slug": "cp01-actions-single-link",
+  "snippet_component": "Card pattern 01",
+  "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01 \n    title=\"Single link\"\n    excerpt=\"Card with one interactive link in footer for navigation\">\n    <gds-link href=\"#\" slot=\"footer\" size=\"medium\">\n      Link text\n      <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n    </gds-link>\n  </gds-card-pattern-01>\n</gds-flex>"
+}
