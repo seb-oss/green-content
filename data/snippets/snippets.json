@@ -268,7 +268,7 @@
       "title": "Card pattern 01: No header",
       "slug": "card-pattern-01-no-header",
       "path": "snippets/card-pattern-01-no-header/card-pattern-01-no-header.json",
-      "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Use the header slot to customise\" width=\"240px\" variant=\"neutral-02\" outlined>\n  </gds-card-pattern-01>\n</gds-flex>"
+      "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Use the header slot to customise\" width=\"240px\">\n  </gds-card-pattern-01>\n</gds-flex>"
     },
     {
       "title": "Datepicker: Size Large",
@@ -758,5 +758,5 @@
     }
   ],
   "total": 126,
-  "lastUpdated": "2025-10-22T11:04:11.768Z"
+  "lastUpdated": "2025-10-22T11:05:53.243Z"
 }
