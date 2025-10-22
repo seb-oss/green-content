@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-22T12:00:51.812Z",
+    "lastUpdated": "2025-10-22T12:03:39.642Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -954,7 +954,7 @@
             "title": "Card: Neutral 01",
             "slug": "card-neutral-01",
             "path": "snippets/card-neutral-01/card-neutral-01.json",
-            "code": "<gds-card aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>",
+            "code": "<gds-flex padding=\"4xl\" margin=\"auto\">\n  <gds-card variant=\"primary\" aspect-ratio=\"16/9\" width=\"240px\" justify-content=\"center\" text-align=\"center\"\n    align-items=\"center\" gap=\"s\">\n    <gds-flex align-items=\"center\" justify-content='center' aspect-ratio=\"1/1\" padding=\"xs\" background=\"brand-01\"\n      border-radius=\"max\" color=\"neutral-03\">\n      <gds-icon-copy size=\"l\"></gds-icon-copy>\n    </gds-flex>\n    <gds-text font=\"detail-book-m\">Replace this slot with your content.</gds-text>\n  </gds-card>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/card-neutral-01/card-neutral-01.json"
             }
@@ -963,7 +963,7 @@
             "title": "Card: Neutral 02 outlined",
             "slug": "card-neutral-02-outlined",
             "path": "snippets/card-neutral-02-outlined/card-neutral-02-outlined.json",
-            "code": "<gds-card variant=\"secondary\" aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>",
+            "code": "<gds-flex padding=\"4xl\" margin=\"auto\">\n  <gds-card variant=\"secondary\" aspect-ratio=\"16/9\" width=\"240px\" justify-content=\"center\" text-align=\"center\"\n    align-items=\"center\" gap=\"s\">\n    <gds-flex align-items=\"center\" justify-content='center' aspect-ratio=\"1/1\" padding=\"xs\" background=\"brand-01\"\n      border-radius=\"max\" color=\"neutral-03\">\n      <gds-icon-copy size=\"l\"></gds-icon-copy>\n    </gds-flex>\n    <gds-text font=\"detail-book-m\">Replace this slot with your content.</gds-text>\n  </gds-card>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/card-neutral-02-outlined/card-neutral-02-outlined.json"
             }
@@ -972,7 +972,7 @@
             "title": "Card: Neutral 02",
             "slug": "card-neutral-02",
             "path": "snippets/card-neutral-02/card-neutral-02.json",
-            "code": "<gds-card variant=\"tertiary\" aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>",
+            "code": "<gds-flex padding=\"4xl\" margin=\"auto\">\n  <gds-card variant=\"tertiary\" aspect-ratio=\"16/9\" width=\"240px\" justify-content=\"center\" text-align=\"center\"\n    align-items=\"center\" gap=\"s\">\n    <gds-flex align-items=\"center\" justify-content='center' aspect-ratio=\"1/1\" padding=\"xs\" background=\"brand-01\"\n      border-radius=\"max\" color=\"neutral-03\">\n      <gds-icon-copy size=\"l\"></gds-icon-copy>\n    </gds-flex>\n    <gds-text font=\"detail-book-m\">Replace this slot with your content.</gds-text>\n  </gds-card>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/card-neutral-02/card-neutral-02.json"
             }
