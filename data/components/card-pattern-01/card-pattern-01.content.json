@@ -84,7 +84,7 @@
     {
       "title": "Decorative elements",
       "tag": "H3",
-      "section-content": "Footer can have two types of decorative elements, a label which you set by setting the label property on the component, and you can also slot in a element such as icon button.\n\nNote that decorative elements on a linked card are always inert.",
+      "section-content": "The footer supports two types of decorative elements: a label, set via the `label` property, and slotted elements, such as an icon button.\n\nNote: On a linked card, all decorative elements are always inert.",
       "cols": "2",
       "columns": [
         {
@@ -104,7 +104,7 @@
     {
       "title": "Empty",
       "tag": "H3",
-      "section-content": "No footer content",
+      "section-content": "The footer will not show if the card is linked without a label, or if no slotted elements are provided.",
       "cols": "2",
       "columns": [
         {
