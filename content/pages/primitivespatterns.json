@@ -7,13 +7,13 @@
   "sections": [
     {
       "section-content": "Patterns go beyond individual components, they define how elements work together, how they behave, and how they should be used to create a consistent and accessible user experience across SEB’s products.",
-      "max-width": false
+      "max-width": true
     },
     {
       "title": "Patterns can be:",
       "tag": "H3",
       "section-content": "*   Pre-composed components, such as the Card pattern 01 or form pattern, or\n    \n*   broader approaches to behavior or layout, such as dark mode / light mode or responsive layout patterns.",
-      "max-width": false
+      "max-width": true
     }
   ]
 }
