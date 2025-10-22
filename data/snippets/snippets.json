@@ -274,13 +274,19 @@
       "title": "CP01 - Actions: Combined",
       "slug": "cp01-actions-combined",
       "path": "snippets/cp01-actions-combined/cp01-actions-combined.json",
-      "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01 title=\"Multiple actions\"\n    excerpt=\"Card with two interactive buttons for primary and secondary actions\">\n    <gds-button slot=\"footer\">Primary</gds-button>\n    <gds-link href=\"#\" slot=\"footer\" size=\"medium\">\n      <gds-icon-chain-link slot=\"lead\"></gds-icon-chain-link>\n      Link text\n    </gds-link>\n  </gds-card-pattern-01>\n</gds-flex>"
+      "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n      title=\"Combined actions\"\n      excerpt=\"Card showing both button and link interactions in footer\">\n    <gds-button slot=\"footer\">Primary</gds-button>\n    <gds-link href=\"#\" slot=\"footer\" size=\"medium\">\n      <gds-icon-chain-link slot=\"lead\"></gds-icon-chain-link>\n      Link text\n    </gds-link>\n  </gds-card-pattern-01>\n</gds-flex>"
     },
     {
       "title": "CP01 - Actions: Multiple",
       "slug": "cp01-actions-multiple",
       "path": "snippets/cp01-actions-multiple/cp01-actions-multiple.json",
       "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01 title=\"Multiple actions\"\n    excerpt=\"Card with two interactive buttons for primary and secondary actions\">\n    <gds-button slot=\"footer\">Primary</gds-button>\n    <gds-button slot=\"footer\" rank=\"secondary\">Secondary</gds-button>\n  </gds-card-pattern-01>\n</gds-flex>"
+    },
+    {
+      "title": "CP01 - Actions: Single link",
+      "slug": "cp01-actions-single-link",
+      "path": "snippets/cp01-actions-single-link/cp01-actions-single-link.json",
+      "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01 \n    title=\"Single link\"\n    excerpt=\"Card with one interactive link in footer for navigation\">\n    <gds-link href=\"#\" slot=\"footer\" size=\"medium\">\n      Link text\n      <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n    </gds-link>\n  </gds-card-pattern-01>\n</gds-flex>"
     },
     {
       "title": "CP01 - Footer: Decorative",
@@ -787,6 +793,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 131,
-  "lastUpdated": "2025-10-22T11:46:38.952Z"
+  "total": 132,
+  "lastUpdated": "2025-10-22T11:48:28.738Z"
 }
