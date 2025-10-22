@@ -2,5 +2,5 @@
   "title": "Card: Neutral 02 outlined",
   "slug": "card-neutral-02-outlined",
   "snippet_component": "Card",
-  "code": "<gds-card variant=\"secondary\" aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>"
+  "code": "<gds-flex padding=\"4xl\" margin=\"auto\">\n  <gds-card variant=\"secondary\" aspect-ratio=\"16/9\" width=\"240px\" justify-content=\"center\" text-align=\"center\"\n    align-items=\"center\" gap=\"s\">\n    <gds-flex align-items=\"center\" justify-content='center' aspect-ratio=\"1/1\" padding=\"xs\" background=\"brand-01\"\n      border-radius=\"max\" color=\"neutral-03\">\n      <gds-icon-copy size=\"l\"></gds-icon-copy>\n    </gds-flex>\n    <gds-text font=\"detail-book-m\">Replace this slot with your content.</gds-text>\n  </gds-card>\n</gds-flex>"
 }
