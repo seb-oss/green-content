@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-22T08:42:30.202Z",
+    "lastUpdated": "2025-10-22T08:50:13.787Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -920,6 +920,15 @@
             "code": "<gds-button width=\"max-content\" size=\"xs\">\n  XS\n</gds-button>",
             "endpoints": {
               "content": "snippets/button-size-xs/button-size-xs.json"
+            }
+          },
+          {
+            "title": "Card: Interaction linked",
+            "slug": "card-interaction-linked",
+            "path": "snippets/card-interaction-linked/card-interaction-linked.json",
+            "code": "<gds-card-linked href=\"#\" variant=\"primary\" aspect-ratio=\"16/9\" width=\"240px\" margin=\"auto\" justify-content=\"center\" text-align=\"center\" align-items=\"center\" gap=\"m\">\n  <gds-flex align-items=\"center\" justify-content='center' aspect-ratio=\"1/1\" padding=\"xs\" background=\"brand-01\" border-radius=\"max\" color=\"neutral-03\">\n    <gds-icon-copy size=\"l\"></gds-icon-copy>\n  </gds-flex>\n  <gds-text font=\"detail-book-m\">Replace this slot with your content.</gds-text>\n</gds-card>",
+            "endpoints": {
+              "content": "snippets/card-interaction-linked/card-interaction-linked.json"
             }
           },
           {
