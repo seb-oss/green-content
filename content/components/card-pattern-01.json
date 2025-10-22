@@ -7,6 +7,19 @@
   "summary": "Card pattern 01 is a pre-built composition based on the card component.",
   "preamble": "Card pattern 01 provides a ready-to-use structure that combines image, text, and actions, with both default and linked interaction types. This ensures consistent layout, spacing, and accessibility while allowing flexibility through slots.",
   "anatomy": true,
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Header (slot)"
+      },
+      {
+        "text": "Content"
+      },
+      {
+        "text": "Footer (slot)"
+      }
+    ]
+  },
   "tags": [
     "editorial"
   ],
