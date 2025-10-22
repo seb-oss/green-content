@@ -1,5 +1,5 @@
 {
   "title": "Hero: Card",
   "slug": "hero-card",
-  "code": "<gds-grid columns=\"2\" gap=\"xl\" max-width=\"320px\" margin=\"0 auto\" width=\"100%\" padding=\"s\">\n  <gds-card variant=\"primary\" width=\"100%\" height=\"80px\" justify-content=\"flex-end\" padding=\"s\">\n    Neutral 01\n  </gds-card>\n  <gds-card variant=\"secondary\" width=\"100%\" height=\"80px\" justify-content=\"flex-end\" padding=\"s\">\n    Neutral 02 outlined\n  </gds-card>\n</gds-flex>"
+  "code": "<gds-flex gap=\"s\" align-items=\"center\" justify-content=\"center\" padding=\"xl\" height=\"100%\">\n  <gds-card variant=\"secondary\" width=\"160px\" height=\"80px\">\n  </gds-card>\n</gds-flex>"
 }
