@@ -2,5 +2,5 @@
   "title": "CP01 - Footer: Empty",
   "slug": "cp01-footer-empty",
   "snippet_component": "Card pattern 01",
-  "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"No footer\" width=\"280px\">\n  </gds-card-pattern-01>\n</gds-flex>"
+  "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"230px\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"No footer\" width=\"280px\">\n  </gds-card-pattern-01>\n</gds-flex>"
 }
