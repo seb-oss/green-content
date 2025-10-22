@@ -38,25 +38,40 @@
     },
     {
       "title": "Header",
-      "cols": "3",
+      "cols": "2",
       "columns": [
         {
+          "type": "rich-text",
+          "title": "Empty",
+          "tag": "H3",
+          "content": "No header content."
+        },
+        {
           "type": "snippet",
-          "caption": "No header content.",
           "plain": false,
           "replay": false,
           "Snippet": "card-pattern-01-no-header"
         },
         {
+          "type": "rich-text",
+          "title": "Image",
+          "tag": "H3",
+          "content": "Can be 16:9 (landscape) or 1:1 (portrait)."
+        },
+        {
           "type": "snippet",
-          "caption": "Header with image.",
           "plain": false,
           "replay": false,
           "Snippet": "card-pattern-01-header-image"
         },
         {
+          "type": "rich-text",
+          "title": "Custom",
+          "tag": "H3",
+          "content": "Allows placement of custom content."
+        },
+        {
           "type": "snippet",
-          "caption": "Custom header with slotted content.",
           "plain": false,
           "replay": false,
           "Snippet": "card-pattern-01-header-custom"
