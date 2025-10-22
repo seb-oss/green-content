@@ -14,6 +14,30 @@
       "tag": "H3",
       "section-content": "*   Pre-composed components, such as the Card pattern 01 or form pattern, or\n    \n*   broader approaches to behavior or layout, such as dark mode / light mode or responsive layout patterns.",
       "max-width": true
+    },
+    {
+      "title": "What a pattern includes",
+      "tag": "H3",
+      "section-content": "*   **Components** - the building blocks that make up the pattern.\n    \n*   **Arrangement** - how components are placed and structured to fulfill a function, for example a “sign-in form” or a “product card.”\n    \n*   **Behavior** - how the pattern behaves and interacts, including states, transitions, and flows (like a step-by-step form or a search interaction).\n    \n*   **Guidelines rules** - for when and how to use the pattern, including accessibility, motion, content, and visual best practices.",
+      "max-width": true
+    },
+    {
+      "title": "Why patterns matter",
+      "tag": "H3",
+      "section-content": "Patterns ensure a consistent and predictable experience for users, and efficiency for designers and developers. They help teams focus on solving design problems rather than reinventing solutions for familiar tasks.",
+      "max-width": true
+    },
+    {
+      "title": "By using shared patterns, we:",
+      "tag": "H3",
+      "section-content": "*   Maintain visual and behavioral consistency\n    \n*   Strengthen accessibility and usability across products\n    \n*   Reduce design and development effort\n    \n*   Support scalability as our product ecosystem grows",
+      "max-width": true
+    },
+    {
+      "title": "Examples of patterns",
+      "tag": "H3",
+      "section-content": "*   **Multi-step form** – collects information across several steps.\n    \n*   **Empty states** – communicates when there’s no content or data available.\n    \n*   **Navigation bar** – combines logo, navigation links, and search in a consistent layout.\n    \n*   **Dark mode / light mode** – defines how our color system and components adapt across themes.",
+      "max-width": true
     }
   ]
 }
