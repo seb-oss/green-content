@@ -30,5 +30,15 @@
     "web": false,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Slots",
+      "section-content": "All card patterns are built on top of the base card component.  \nCard pattern 01 is available in both interaction types - default card and linked card, and uses slots to build flexible yet consistent layouts.\n\n**Each variant consists of:**\n\n*   **Header slot** \\- img, icon or custom.\n    \n*   **Main area** \\- includes heading and excerpt.\n    \n*   **Footer slot** Supports actions depending on card type (see below)."
+    },
+    {
+      "title": "Header",
+      "cols": "3"
+    }
+  ]
 }
