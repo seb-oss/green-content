@@ -5,6 +5,12 @@
   "beta": true,
   "soon": false,
   "anatomy": true,
+  "tags": [
+    "editorial"
+  ],
+  "category": [
+    "Patterns"
+  ],
   "platform": {
     "web": false,
     "ios": false,
