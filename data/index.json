@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-22T10:32:31.271Z",
+    "lastUpdated": "2025-10-22T10:36:20.571Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1208,6 +1208,15 @@
             "code": "<gds-flex overflow=\"hidden\" height=\"210px\">\n  <gds-calendar></gds-calendar>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-calendar/hero-calendar.json"
+            }
+          },
+          {
+            "title": "Hero: Card pattern 01",
+            "slug": "hero-card-pattern-01",
+            "path": "snippets/hero-card-pattern-01/hero-card-pattern-01.json",
+            "code": "<gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Use the header slot to customise\" width=\"240px\" margin=\"auto\" variant=\"neutral-02\" outlined>\n</gds-card-pattern-01>",
+            "endpoints": {
+              "content": "snippets/hero-card-pattern-01/hero-card-pattern-01.json"
             }
           },
           {

@@ -409,6 +409,12 @@
       "code": "<gds-flex overflow=\"hidden\" height=\"210px\">\n  <gds-calendar></gds-calendar>\n</gds-flex>"
     },
     {
+      "title": "Hero: Card pattern 01",
+      "slug": "hero-card-pattern-01",
+      "path": "snippets/hero-card-pattern-01/hero-card-pattern-01.json",
+      "code": "<gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Use the header slot to customise\" width=\"240px\" margin=\"auto\" variant=\"neutral-02\" outlined>\n</gds-card-pattern-01>"
+    },
+    {
       "title": "Hero: Card",
       "slug": "hero-card",
       "path": "snippets/hero-card/hero-card.json",
@@ -733,6 +739,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 122,
-  "lastUpdated": "2025-10-22T10:32:31.272Z"
+  "total": 123,
+  "lastUpdated": "2025-10-22T10:36:20.572Z"
 }

@@ -1,0 +1,6 @@
+{
+  "title": "Hero: Card pattern 01",
+  "slug": "hero-card-pattern-01",
+  "snippet_component": "Card pattern 01",
+  "code": "<gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Use the header slot to customise\" width=\"240px\" margin=\"auto\" variant=\"neutral-02\" outlined>\n</gds-card-pattern-01>"
+}
