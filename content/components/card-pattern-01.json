@@ -4,6 +4,8 @@
   "hero_snippet": "hero-card-pattern-01",
   "beta": true,
   "soon": false,
+  "summary": "Card pattern 01 is a pre-built composition based on the card component.",
+  "preamble": "It provides a ready-to-use structure that combines image, text, and actions, with both default and linked interaction types.\n\nThis pattern ensures consistent layout, spacing, and accessibility while allowing flexibility through slots.",
   "anatomy": true,
   "tags": [
     "editorial"
