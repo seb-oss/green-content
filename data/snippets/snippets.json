@@ -271,6 +271,12 @@
       "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Use the header slot to customise\" width=\"240px\">\n  </gds-card-pattern-01>\n</gds-flex>"
     },
     {
+      "title": "CP01 - Actions: Multiple",
+      "slug": "cp01-actions-multiple",
+      "path": "snippets/cp01-actions-multiple/cp01-actions-multiple.json",
+      "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01 title=\"Multiple actions\"\n    excerpt=\"Card with two interactive buttons for primary and secondary actions\">\n    <gds-button slot=\"footer\">Primary</gds-button>\n    <gds-button slot=\"footer\" rank=\"secondary\">Secondary</gds-button>\n  </gds-card-pattern-01>\n</gds-flex>"
+    },
+    {
       "title": "CP01 - Footer: Decorative",
       "slug": "cp01-footer-decorative",
       "path": "snippets/cp01-footer-decorative/cp01-footer-decorative.json",
@@ -775,6 +781,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 129,
-  "lastUpdated": "2025-10-22T11:41:05.686Z"
+  "total": 130,
+  "lastUpdated": "2025-10-22T11:45:22.011Z"
 }
