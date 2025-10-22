@@ -126,5 +126,47 @@
         }
       ]
     }
+  ],
+  "faq": [
+    {
+      "cols": "1",
+      "columns": [
+        {
+          "type": "details",
+          "name": "card-faq",
+          "summary": "How should I use the card component in Figma?",
+          "open": false,
+          "content": "The card component is the foundation used inside all card patterns.  \nYou can also use it on its own when building custom layouts that aren’t covered by a predefined pattern."
+        },
+        {
+          "type": "details",
+          "name": "card-faq",
+          "summary": "What can I adjust in the card component?",
+          "open": false,
+          "content": "The component supports the following adjustments:\n\n*   Switching between appearance variants (neutral 01, neutral 02, outlined)\n    \n*   Adding your own content through the slot instance"
+        },
+        {
+          "type": "details",
+          "name": "card-faq",
+          "summary": "How do I choose the linked variant of the card?",
+          "open": false,
+          "content": "In Figma the card is divided by two separate components. This is to be able to have the linked card with states for your prototypes. So if you need a linked card you pull in the card-linked into your design."
+        },
+        {
+          "type": "details",
+          "name": "card-faq",
+          "summary": "When should I use the standalone card instead of a pattern?",
+          "open": false,
+          "content": "Use the standalone card only when you need a custom layout or experimental setup that doesn’t fit an existing pattern.  \nFor standard use cases, start from a card pattern instead - it already includes structure, spacing, and slot logic.  \n  \nTip: Starting with a card pattern helps maintain consistency across spacing, hierarchy, and interaction behavior."
+        },
+        {
+          "type": "details",
+          "name": "card-faq",
+          "summary": "What should I avoid when working with the card component?",
+          "open": false,
+          "content": "To keep consistency and avoid breaking behavior:\n\n*   Don’t mix linked and default cards in the same group or grid.\n    \n*   Don’t detach slots or nested elements, always use component properties.\n    \n*   Don’t override padding or corner radius manually, these are controlled by the base component."
+        }
+      ]
+    }
   ]
 }
