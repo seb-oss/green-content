@@ -1,6 +1,7 @@
 {
   "title": "Card pattern 01",
   "slug": "card-pattern-01",
+  "hero_snippet": "hero-card-pattern-01",
   "beta": true,
   "soon": false,
   "anatomy": true,
