@@ -31,7 +31,7 @@
   "overview": [
     {
       "title": "Variants",
-      "cols": "3",
+      "cols": "2",
       "columns": [
         {
           "type": "snippet",
@@ -58,7 +58,8 @@
           "type": "snippet",
           "caption": "Brand 01",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "card-brand-01"
         }
       ]
     },
