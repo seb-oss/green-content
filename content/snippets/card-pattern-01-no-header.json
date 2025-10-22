@@ -2,5 +2,5 @@
   "title": "Card pattern 01: No header",
   "slug": "card-pattern-01-no-header",
   "snippet_component": "Card pattern 01",
-  "code": "<gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Use the header slot to customise\" width=\"240px\" margin=\"auto\" variant=\"neutral-02\" outlined>\n</gds-card-pattern-01>"
+  "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Use the header slot to customise\" width=\"240px\" variant=\"neutral-02\" outlined>\n  </gds-card-pattern-01>\n</gds-flex>"
 }
