@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-22T11:39:57.894Z",
+    "lastUpdated": "2025-10-22T11:41:05.684Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1017,7 +1017,7 @@
             "title": "CP01 - Footer: Empty",
             "slug": "cp01-footer-empty",
             "path": "snippets/cp01-footer-empty/cp01-footer-empty.json",
-            "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"230px\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"No footer\" width=\"280px\">\n  </gds-card-pattern-01>\n</gds-flex>",
+            "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"No footer\" width=\"280px\">\n  </gds-card-pattern-01>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/cp01-footer-empty/cp01-footer-empty.json"
             }
