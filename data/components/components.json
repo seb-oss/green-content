@@ -39,6 +39,7 @@
     {
       "title": "Card pattern 01",
       "slug": "card-pattern-01",
+      "summary": "Card pattern 01 is a pre-built composition based on the card component.",
       "path": "components/card-pattern-01/card-pattern-01.content.json"
     },
     {
@@ -239,5 +240,5 @@
     }
   ],
   "total": 40,
-  "lastUpdated": "2025-10-22T10:38:39.640Z"
+  "lastUpdated": "2025-10-22T10:39:29.740Z"
 }
