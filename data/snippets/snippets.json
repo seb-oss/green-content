@@ -382,7 +382,7 @@
       "title": "Hero: Card",
       "slug": "hero-card",
       "path": "snippets/hero-card/hero-card.json",
-      "code": "<gds-flex gap=\"s\" align-items=\"center\">\n  <gds-card variant=\"primary\" width=\"100px\" height=\"80px\" justify-content=\"flex-end\" padding=\"s\">\n    Primary\n  </gds-card>\n  <gds-card variant=\"secondary\" width=\"100px\" height=\"80px\" justify-content=\"flex-end\" padding=\"s\">\n    Secondary\n  </gds-card>\n  <gds-card variant=\"brand-01\" width=\"100px\" height=\"80px\" justify-content=\"flex-end\" padding=\"s\">\n    Brand\n  </gds-card>\n</gds-flex>"
+      "code": "<gds-grid columns=\"2\" gap=\"xl\" max-width=\"320px\" margin=\"0 auto\" width=\"100%\" padding=\"s\">\n  <gds-card variant=\"primary\" width=\"100%\" height=\"80px\" justify-content=\"flex-end\" padding=\"s\">\n    Neutral 01\n  </gds-card>\n  <gds-card variant=\"secondary\" width=\"100%\" height=\"80px\" justify-content=\"flex-end\" padding=\"s\">\n    Neutral 02 outlined\n  </gds-card>\n</gds-flex>"
     },
     {
       "title": "Hero: Checkbox",
@@ -704,5 +704,5 @@
     }
   ],
   "total": 117,
-  "lastUpdated": "2025-10-22T08:13:27.344Z"
+  "lastUpdated": "2025-10-22T08:22:51.038Z"
 }
