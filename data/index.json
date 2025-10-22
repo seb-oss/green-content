@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-22T08:25:46.749Z",
+    "lastUpdated": "2025-10-22T08:31:30.357Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -920,6 +920,15 @@
             "code": "<gds-button width=\"max-content\" size=\"xs\">\n  XS\n</gds-button>",
             "endpoints": {
               "content": "snippets/button-size-xs/button-size-xs.json"
+            }
+          },
+          {
+            "title": "Card: Neutral 01",
+            "slug": "card-neutral-01",
+            "path": "snippets/card-neutral-01/card-neutral-01.json",
+            "code": "<gds-card aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>",
+            "endpoints": {
+              "content": "snippets/card-neutral-01/card-neutral-01.json"
             }
           },
           {

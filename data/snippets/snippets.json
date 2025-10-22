@@ -223,6 +223,12 @@
       "code": "<gds-button width=\"max-content\" size=\"xs\">\n  XS\n</gds-button>"
     },
     {
+      "title": "Card: Neutral 01",
+      "slug": "card-neutral-01",
+      "path": "snippets/card-neutral-01/card-neutral-01.json",
+      "code": "<gds-card aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>"
+    },
+    {
       "title": "Datepicker: Size Large",
       "slug": "datepicker-large",
       "path": "snippets/datepicker-large/datepicker-large.json",
@@ -703,6 +709,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 117,
-  "lastUpdated": "2025-10-22T08:25:46.750Z"
+  "total": 118,
+  "lastUpdated": "2025-10-22T08:31:30.358Z"
 }
