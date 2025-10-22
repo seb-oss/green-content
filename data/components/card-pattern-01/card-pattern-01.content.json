@@ -79,15 +79,14 @@
       ]
     },
     {
-      "title": "Footer",
+      "title": "Footer"
+    },
+    {
+      "title": "Decorative elements",
+      "tag": "H3",
+      "section-content": "Footer can have two types of decorative elements, a label which you set by setting the label property on the component, and you can also slot in a element such as icon button.\n\nNote that decorative elements on a linked card are always inert.",
       "cols": "2",
       "columns": [
-        {
-          "type": "rich-text",
-          "title": "Default",
-          "tag": "H3",
-          "content": "Non-interactive link indicator"
-        },
         {
           "type": "snippet",
           "plain": false,
@@ -95,22 +94,19 @@
           "Snippet": "cp01-footer-label"
         },
         {
-          "type": "rich-text",
-          "title": "Decorative",
-          "content": "Visual elements without interaction."
-        },
-        {
           "type": "snippet",
           "plain": false,
           "replay": false,
           "Snippet": "cp01-footer-decorative"
-        },
-        {
-          "type": "rich-text",
-          "title": "Empty",
-          "tag": "H3",
-          "content": "No footer content"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Empty",
+      "tag": "H3",
+      "section-content": "No footer content",
+      "cols": "2",
+      "columns": [
         {
           "type": "snippet",
           "plain": false,
