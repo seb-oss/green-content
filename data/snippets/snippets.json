@@ -238,7 +238,7 @@
       "title": "Card: Neutral 02",
       "slug": "card-neutral-02",
       "path": "snippets/card-neutral-02/card-neutral-02.json",
-      "code": "<gds-card variant=\"secondary\" aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>"
+      "code": "<gds-card variant=\"tertiary\" aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>"
     },
     {
       "title": "Datepicker: Size Large",
@@ -722,5 +722,5 @@
     }
   ],
   "total": 120,
-  "lastUpdated": "2025-10-22T08:32:45.671Z"
+  "lastUpdated": "2025-10-22T08:33:27.743Z"
 }
