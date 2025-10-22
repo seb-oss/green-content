@@ -283,6 +283,12 @@
       "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"No footer\" width=\"240px\">\n  </gds-card-pattern-01>\n</gds-flex>"
     },
     {
+      "title": "CP01 - Footer: Label",
+      "slug": "cp01-footer-label",
+      "path": "snippets/cp01-footer-label/cp01-footer-label.json",
+      "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"No footer\" width=\"240px\" label=\"Read more\">\n  </gds-card-pattern-01>\n</gds-flex>"
+    },
+    {
       "title": "Datepicker: Size Large",
       "slug": "datepicker-large",
       "path": "snippets/datepicker-large/datepicker-large.json",
@@ -769,6 +775,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 128,
-  "lastUpdated": "2025-10-22T11:16:26.933Z"
+  "total": 129,
+  "lastUpdated": "2025-10-22T11:18:20.862Z"
 }
