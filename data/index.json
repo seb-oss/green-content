@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-22T11:03:00.125Z",
+    "lastUpdated": "2025-10-22T11:04:11.766Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -981,7 +981,7 @@
             "title": "Card pattern 01: Header Custom",
             "slug": "card-pattern-01-header-custom",
             "path": "snippets/card-pattern-01-header-custom/card-pattern-01-header-custom.json",
-            "code": "<gds-card-pattern-01 href=\"#\" width=\"240px\" margin=\"auto\" title=\"Custom Header\" excerpt=\"Flexible header slot for custom content\">\n  <gds-icon-cloudy-sun size=\"xl\" slot=\"header\"></gds-icon-cloudy-sun>\n</gds-card-pattern-01>",
+            "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" width=\"240px\" title=\"Custom Header\" excerpt=\"Flexible header slot for custom content\">\n    <gds-icon-cloudy-sun size=\"xl\" slot=\"header\"></gds-icon-cloudy-sun>\n  </gds-card-pattern-01>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/card-pattern-01-header-custom/card-pattern-01-header-custom.json"
             }
@@ -990,7 +990,7 @@
             "title": "Card pattern 01: Header Image",
             "slug": "card-pattern-01-header-image",
             "path": "snippets/card-pattern-01-header-image/card-pattern-01-header-image.json",
-            "code": "<gds-card-pattern-01 href=\"#\" title=\"Title\" excerpt=\"Excerpt\" width=\"240px\"\n  margin=\"auto\" variant=\"neutral-02\" outlined src=\"https://api.seb.io/assets/launch-hero.jpg\" label=\"Read more\">\n</gds-card-pattern-01>",
+            "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"Title\" excerpt=\"Excerpt\" width=\"240px\"\n     variant=\"neutral-02\" outlined src=\"https://api.seb.io/assets/launch-hero.jpg\">\n  </gds-card-pattern-01>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/card-pattern-01-header-image/card-pattern-01-header-image.json"
             }
@@ -999,7 +999,7 @@
             "title": "Card pattern 01: No header",
             "slug": "card-pattern-01-no-header",
             "path": "snippets/card-pattern-01-no-header/card-pattern-01-no-header.json",
-            "code": "<gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Use the header slot to customise\" width=\"240px\" margin=\"auto\" variant=\"neutral-02\" outlined>\n</gds-card-pattern-01>",
+            "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Use the header slot to customise\" width=\"240px\" variant=\"neutral-02\" outlined>\n  </gds-card-pattern-01>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/card-pattern-01-no-header/card-pattern-01-no-header.json"
             }
