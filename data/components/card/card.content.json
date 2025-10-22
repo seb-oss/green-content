@@ -5,9 +5,21 @@
   "beta": false,
   "soon": false,
   "summary": "The card groups related content into a single container.",
-  "preamble": "Cards are used to presents content in a visually distinct, self-contained unit. It typically acts as a container for related information, such as text, images, buttons, or other interactive elements, grouped together to convey a single idea or action. ",
-  "anatomy": false,
-  "anatomy-overview": "A card is a container with rounded corners and a background and content color determined by its variant. The card has one main slot where any type of content can be placed.",
+  "preamble": "The card is a container component used to group related content and actions. It serves as the foundation for our card patterns. Card can contain multiple interactive elements (buttons and links) or be configured as a single interactive element (a linked card).",
+  "anatomy": true,
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Container"
+      },
+      {
+        "text": "Outline"
+      },
+      {
+        "text": "Slot"
+      }
+    ]
+  },
   "category": [
     "Layout"
   ],
