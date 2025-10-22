@@ -253,6 +253,12 @@
       "code": "<gds-card variant=\"tertiary\" aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>"
     },
     {
+      "title": "Card pattern 01: Header Image",
+      "slug": "card-pattern-01-header-image",
+      "path": "snippets/card-pattern-01-header-image/card-pattern-01-header-image.json",
+      "code": "<gds-card-pattern-01 href=\"#\" title=\"Title\" excerpt=\"Excerpt\" width=\"240px\"\n  margin=\"auto\" variant=\"neutral-02\" outlined src=\"https://api.seb.io/assets/launch-hero.jpg\" label=\"Read more\">\n</gds-card-pattern-01>"
+    },
+    {
       "title": "Card pattern 01: No header",
       "slug": "card-pattern-01-no-header",
       "path": "snippets/card-pattern-01-no-header/card-pattern-01-no-header.json",
@@ -745,6 +751,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 124,
-  "lastUpdated": "2025-10-22T10:49:33.302Z"
+  "total": 125,
+  "lastUpdated": "2025-10-22T10:55:03.379Z"
 }
