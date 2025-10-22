@@ -1,0 +1,6 @@
+{
+  "title": "Card: Neutral 02",
+  "slug": "card-neutral-02",
+  "snippet_component": "Card",
+  "code": "<gds-card variant=\"secondary\" aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>"
+}
