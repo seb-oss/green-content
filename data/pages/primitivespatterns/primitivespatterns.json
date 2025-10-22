@@ -24,13 +24,7 @@
     {
       "title": "Why patterns matter",
       "tag": "H3",
-      "section-content": "Patterns ensure a consistent and predictable experience for users, and efficiency for designers and developers. They help teams focus on solving design problems rather than reinventing solutions for familiar tasks.",
-      "max-width": true
-    },
-    {
-      "title": "By using shared patterns, we:",
-      "tag": "H3",
-      "section-content": "*   Maintain visual and behavioral consistency\n    \n*   Strengthen accessibility and usability across products\n    \n*   Reduce design and development effort\n    \n*   Support scalability as our product ecosystem grows",
+      "section-content": "Patterns ensure a consistent and predictable experience for users, and efficiency for designers and developers. They help teams focus on solving design problems rather than reinventing solutions for familiar tasks. By using shared patterns, we:\n\n*   Maintain visual and behavioral consistency\n    \n*   Strengthen accessibility and usability across products\n    \n*   Reduce design and development effort\n    \n*   Support scalability as our product ecosystem grows",
       "max-width": true
     },
     {
