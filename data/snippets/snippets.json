@@ -229,6 +229,12 @@
       "code": "<gds-card aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>"
     },
     {
+      "title": "Card: Neutral 02 outlined",
+      "slug": "card-neutral-02-outlined",
+      "path": "snippets/card-neutral-02-outlined/card-neutral-02-outlined.json",
+      "code": "<gds-card variant=\"secondary\" aspect-ratio=\"16/9\" width=\"180px\" margin=\"auto\"></gds-card>"
+    },
+    {
       "title": "Card: Neutral 02",
       "slug": "card-neutral-02",
       "path": "snippets/card-neutral-02/card-neutral-02.json",
@@ -715,6 +721,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 119,
-  "lastUpdated": "2025-10-22T08:32:00.237Z"
+  "total": 120,
+  "lastUpdated": "2025-10-22T08:32:45.671Z"
 }
