@@ -115,9 +115,6 @@
           "dontlist": [
             {
               "text": "Overload content: Avoid cramming too much information into a single card."
-            },
-            {
-              "text": "Make cards interactive: use interactive elements, such as buttons or links, within the card instead."
             }
           ]
         }
