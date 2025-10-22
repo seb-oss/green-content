@@ -2,5 +2,5 @@
   "title": "CP01 - Footer: Label",
   "slug": "cp01-footer-label",
   "snippet_component": "Card pattern 01",
-  "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"No footer\" width=\"240px\" label=\"Read more\">\n  </gds-card-pattern-01>\n</gds-flex>"
+  "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Label on the decorative element\" width=\"240px\" label=\"Read more\">\n  </gds-card-pattern-01>\n</gds-flex>"
 }
