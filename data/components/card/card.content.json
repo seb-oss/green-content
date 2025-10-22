@@ -62,9 +62,26 @@
       "columns": [
         {
           "type": "rich-text",
-          "title": "Default card",
+          "title": "Default",
           "tag": "H3",
-          "content": "Supports multiple click areas (for example, a button and a link)."
+          "content": "The entire card area is not clickable. The slotted content can contain one or several clickable elements, such as button and link."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "card-interaction-default"
+        },
+        {
+          "type": "rich-text",
+          "title": "Linked",
+          "content": "The entire card area is clickable. The slotted content can include one decorative element. This element must be inert (non-interactive) since the whole card already functions as the clickable target."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "card-interaction-linked"
         }
       ]
     },
