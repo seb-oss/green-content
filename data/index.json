@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-22T12:00:06.236Z",
+    "lastUpdated": "2025-10-22T12:00:51.812Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -76,9 +76,9 @@
             }
           },
           {
-            "title": "Card pattern 01",
+            "title": "Card Pattern 01",
             "slug": "card-pattern-01",
-            "summary": "Card pattern 01 is a pre-built composition based on the card component.",
+            "summary": "Card Pattern 01 is a pre-built composition based on the card component.",
             "path": "components/card-pattern-01/card-pattern-01.content.json",
             "endpoints": {
               "content": "components/card-pattern-01/card-pattern-01.content.json",
