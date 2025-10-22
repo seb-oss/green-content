@@ -57,6 +57,18 @@
       ]
     },
     {
+      "title": "Interaction types",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Default card",
+          "tag": "H3",
+          "content": "Supports multiple click areas (for example, a button and a link)."
+        }
+      ]
+    },
+    {
       "title": "Do's and don'ts",
       "cols": "2",
       "columns": [
