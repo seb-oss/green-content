@@ -1,0 +1,6 @@
+{
+  "title": "Card: Interaction default",
+  "slug": "card-interaction-default",
+  "snippet_component": "Card",
+  "code": "<gds-card variant=\"primary\" aspect-ratio=\"16/9\" width=\"240px\" margin=\"auto\" justify-content=\"center\"\n  text-align=\"center\" align-items=\"center\" gap=\"s\">\n  <gds-flex align-items=\"center\" justify-content='center' aspect-ratio=\"1/1\" padding=\"xs\" background=\"brand-01\"\n    border-radius=\"max\" color=\"neutral-03\">\n    <gds-icon-copy size=\"l\"></gds-icon-copy>\n  </gds-flex>\n  <gds-text font=\"detail-book-m\">Replace this slot with your content.</gds-text>\n</gds-card>"
+}
