@@ -7,16 +7,24 @@
       "slug": "primitives/colours"
     },
     {
-      "title": "Design tokens",
-      "slug": "primitives/design-tokens"
-    },
-    {
       "title": "Declarative layout",
       "slug": "primitives/declarative-layout"
     },
     {
+      "title": "Design tokens",
+      "slug": "primitives/design-tokens"
+    },
+    {
       "title": "Icons",
       "slug": "primitives/icons"
+    },
+    {
+      "title": "Patterns",
+      "slug": "primitives/patterns"
+    },
+    {
+      "title": "Shadows",
+      "slug": "primitives/shadows"
     },
     {
       "title": "Spacing",
@@ -25,10 +33,6 @@
     {
       "title": "Typography",
       "slug": "primitives/typography"
-    },
-    {
-      "title": "Shadows",
-      "slug": "primitives/shadows"
     }
   ]
 }
