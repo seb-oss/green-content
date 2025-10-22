@@ -86,6 +86,19 @@
       ]
     },
     {
+      "title": "Usage",
+      "section-content": "Do not mix linked and default cards in the same group or grid.  \nInteractions should be consistent across a set of cards to ensure a predictable and accessible experience. If you must use both in the same view, do it with care, for example, by visually separating them or clearly communicating the interaction difference.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Why this matters",
+          "tag": "H3",
+          "content": "*   **Consistency** - users should understand how a card behaves before they interact with it. Mixing types can make it unclear whether the whole card or only parts are clickable.\n    \n*   **Accessibility** - linked cards rely on different interaction logic and focus handling compared to cards with multiple actions. Mixing them can create confusion for keyboard and screen-reader users.\n    \n*   **Visual clarity** - linked cards use hover and press states that don’t apply to default cards, which can create inconsistent visual feedback."
+        }
+      ]
+    },
+    {
       "title": "Do's and don'ts",
       "cols": "2",
       "columns": [
