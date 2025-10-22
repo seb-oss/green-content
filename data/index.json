@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-22T11:05:53.242Z",
+    "lastUpdated": "2025-10-22T11:06:38.702Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -990,7 +990,7 @@
             "title": "Card pattern 01: Header Image",
             "slug": "card-pattern-01-header-image",
             "path": "snippets/card-pattern-01-header-image/card-pattern-01-header-image.json",
-            "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"Title\" excerpt=\"Excerpt\" width=\"240px\"\n     variant=\"neutral-02\" outlined src=\"https://api.seb.io/assets/launch-hero.jpg\">\n  </gds-card-pattern-01>\n</gds-flex>",
+            "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"Title\" excerpt=\"Excerpt\" width=\"240px\" src=\"https://api.seb.io/assets/launch-hero.jpg\">\n  </gds-card-pattern-01>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/card-pattern-01-header-image/card-pattern-01-header-image.json"
             }
