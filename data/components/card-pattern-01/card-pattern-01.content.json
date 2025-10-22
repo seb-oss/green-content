@@ -91,7 +91,8 @@
         {
           "type": "snippet",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "cp01-footer-label"
         },
         {
           "type": "rich-text",
@@ -101,7 +102,8 @@
         {
           "type": "snippet",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "cp01-footer-decorative"
         },
         {
           "type": "rich-text",
@@ -112,7 +114,8 @@
         {
           "type": "snippet",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "cp01-footer-empty"
         }
       ]
     }
