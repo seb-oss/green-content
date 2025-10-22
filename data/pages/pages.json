@@ -81,6 +81,7 @@
     {
       "title": "Patterns",
       "slug": "primitives/patterns",
+      "summary": "Patterns are reusable solutions to common design problems. They describe how components, behaviors, and guidelines come together to solve a specific user or interface need.",
       "path": "pages/primitivespatterns/primitivespatterns.json"
     },
     {
@@ -97,5 +98,5 @@
     }
   ],
   "total": 16,
-  "lastUpdated": "2025-10-22T12:25:12.218Z"
+  "lastUpdated": "2025-10-22T12:27:20.294Z"
 }
