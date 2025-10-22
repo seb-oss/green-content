@@ -122,7 +122,20 @@
         {
           "type": "snippet",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "cp01-actions-multiple"
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "cp01-actions-combined"
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "cp01-actions-single-link"
         }
       ]
     }
