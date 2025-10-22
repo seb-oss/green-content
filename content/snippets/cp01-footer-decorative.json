@@ -1,0 +1,6 @@
+{
+  "title": "CP01 - Footer: Decorative",
+  "slug": "cp01-footer-decorative",
+  "snippet_component": "Card pattern 01",
+  "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"No footer\" width=\"240px\">\n    <gds-button rank=\"secondary\" slot=\"footer\" size=\"small\" inert>\n      <gds-icon-chevron-right size=\"m\"></gds-icon-chevron-right>\n    </gds-button>\n  </gds-card-pattern-01>\n</gds-flex>"
+}
