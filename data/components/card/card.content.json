@@ -30,73 +30,7 @@
   },
   "overview": [
     {
-      "title": "Usage",
-      "section-content": "Cards are designed to be flexible and consistent, adhering to the design system's guidelines for typography, spacing, colors, and interaction patterns.\n\nCard background colors help guide the user’s attention, support visual hierarchy, and reinforce the overall tone of the content. Choosing the right background is about balancing clarity, emphasis, and brand expression.\n\nUse neutral tones when the content should blend seamlessly into the interface, and choose more distinctive colors when you want to draw attention or create a sense of importance or exclusivity. Be mindful not to overuse strong colors – bold choices should be intentional and meaningful.\n\nOnly the colors listed below are approved for use on cards. Alert cards follow a separate color system and are not included here. Please refrain from using any unapproved colors for card backgrounds."
-    },
-    {
-      "title": "Variants",
-      "section-content": "Card variants combine pairs of background and content colors."
-    },
-    {
-      "title": "Grey (default)",
-      "tag": "H3",
-      "section-content": "**Purpose:** Neutral container for standard content.  \n**Use when:** The content needs gentle separation without standing out too much.",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "card-grey"
-        }
-      ]
-    },
-    {
-      "title": "White",
-      "tag": "H3",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "card-white"
-        }
-      ]
-    },
-    {
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Brand 01 (senior green)",
-          "tag": "H3",
-          "content": "**Purpose:** Reinforces SEB's brand identity and highlights key content.  \n**Use when:** You want to add emphasis while aligning with SEB’s brand colors."
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "card-brand-01"
-        }
-      ]
-    },
-    {
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Brand 02 (copper)",
-          "tag": "H3",
-          "content": "**Purpose**: Signals exclusivity, premium content, or special areas.  \n**Use when:** You want to distinguish a premium experience or area of the interface."
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "card-brand-02"
-        }
-      ]
+      "title": "Variants"
     },
     {
       "title": "Do's and don'ts",

@@ -223,30 +223,6 @@
       "code": "<gds-button width=\"max-content\" size=\"xs\">\n  XS\n</gds-button>"
     },
     {
-      "title": "Card: brand 01",
-      "slug": "card-brand-01",
-      "path": "snippets/card-brand-01/card-brand-01.json",
-      "code": "<gds-flex padding=\"xl\">\n  <gds-card width=\"300px\" variant=\"brand-01\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n      Ta ett aktivt beslut i hängmattan. På riktigt.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Börja spara\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>"
-    },
-    {
-      "title": "Card: Brand 02",
-      "slug": "card-brand-02",
-      "path": "snippets/card-brand-02/card-brand-02.json",
-      "code": "<gds-flex padding=\"xl\">\n  <gds-card width=\"300px\" variant=\"brand-02\" align-items=\"flex-start\" justify-content=\"flex-end\" height=\"320px\">\n    <gds-text tag=\"h3\">\n  Nu öppnar vi portarna till sydeuropeiska och schweiziska aktier.\n    </gds-text>\n    <gds-theme color-scheme=\"dark\">\n      <gds-button>\n        Handla värdepapper\n      </gds-button>\n    </gds-theme>\n  </gds-card>\n</gds-flex>"
-    },
-    {
-      "title": "Card: grey",
-      "slug": "card-grey",
-      "path": "snippets/card-grey/card-grey.json",
-      "code": "<gds-flex gap=\"xl\" flex-wrap=\"no-wrap\" padding=\"xl\">\n  <gds-flex flex-direction=\"column\" gap=\"xl\" max-width=\"300px\">\n    <gds-card padding=\"0\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om\n            ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-flex gap=\"s\">\n          <gds-button>\n            Flytta bolån\n          </gds-button>\n        </gds-flex>\n    </gds-card>\n    <gds-card padding=\"0\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om\n            ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-link href=\"#\">\n          Flytta bolån\n          <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n        </gds-link>\n    </gds-card>\n  </gds-flex>\n  <gds-card padding=\"xs\" variant=\"primary\" overflow=\"hidden\" border=\"primary\" gap=\"0\" color=\"primary\" max-width=\"300px\"\n    height=\"max-content\">\n    <gds-img src=\"https://api.seb.io/components/image/img.jpg\" border-radius=\"xs\"></gds-img>\n    <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n      <gds-flex flex-direction=\"column\" gap=\"s\">\n        <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n          Flytta ditt bolån till oss\n        </gds-text>\n        <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n          Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett\n          lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n        </gds-text>\n      </gds-flex>\n      <gds-button>\n        Flytta bolån\n      </gds-button>\n  </gds-card>\n</gds-flex>"
-    },
-    {
-      "title": "Card: white",
-      "slug": "card-white",
-      "path": "snippets/card-white/card-white.json",
-      "code": "<gds-flex gap=\"xl\" flex-wrap=\"no-wrap\" padding=\"xl\">\n  <gds-flex flex-direction=\"column\" gap=\"xl\" max-width=\"300px\">\n    <gds-card padding=\"0\" variant=\"secondary\" overflow=\"hidden\" border-color=\"subtle-01\" border-width=\"4xs\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\" lines=\"2\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-flex gap=\"s\">\n          <gds-button>\n            Flytta bolån\n          </gds-button>\n        </gds-flex>\n    </gds-card>\n    <gds-card padding=\"0\" variant=\"secondary\" overflow=\"hidden\" border-color=\"subtle-01\" border-width=\"4xs\" gap=\"0\" color=\"primary\">\n      <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n        <gds-flex flex-direction=\"column\" gap=\"s\">\n          <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n            Flytta ditt bolån till oss\n          </gds-text>\n          <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n            Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n          </gds-text>\n        </gds-flex>\n        <gds-link href=\"#\">\n          Flytta bolån\n          <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n        </gds-link>\n    </gds-card>\n  </gds-flex>\n  <gds-card padding=\"xs\" variant=\"secondary\" overflow=\"hidden\" border-color=\"subtle-01\" border-width=\"4xs\" gap=\"0\" color=\"primary\" max-width=\"300px\" height=\"max-content\">\n    <gds-img src=\"https://api.seb.io/components/image/img.jpg\" border-radius=\"xs\"></gds-img>\n    <gds-flex flex-direction=\"column\" gap=\"l\" padding=\"l\">\n      <gds-flex flex-direction=\"column\" gap=\"s\">\n        <gds-text tag=\"h3\" font-size=\"heading-s\" font-weight=\"book\">\n          Flytta ditt bolån till oss\n        </gds-text>\n        <gds-text tag=\"p\" font-size=\"body-m\" text-wrap=\"pretty\" width=\"90%\">\n          Genom att flytta ditt bolån till oss har du möjligheten att sänka din bolåneränta. Efter att du ansökt om ett lånelöfte hör vi så snabbt som möjligt av oss till dig med ditt individuella erbjudande.\n        </gds-text>\n      </gds-flex>\n      <gds-button>\n        Flytta bolån\n      </gds-button>\n  </gds-card>\n</gds-flex>"
-    },
-    {
       "title": "Datepicker: Size Large",
       "slug": "datepicker-large",
       "path": "snippets/datepicker-large/datepicker-large.json",
@@ -727,6 +703,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 121,
-  "lastUpdated": "2025-10-22T08:10:16.973Z"
+  "total": 117,
+  "lastUpdated": "2025-10-22T08:13:27.344Z"
 }
