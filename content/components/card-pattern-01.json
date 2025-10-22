@@ -146,6 +146,7 @@
   ],
   "faq": [
     {
+      "cols": "1",
       "columns": [
         {
           "type": "details",
