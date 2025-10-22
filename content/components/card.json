@@ -30,7 +30,31 @@
   },
   "overview": [
     {
-      "title": "Variants"
+      "title": "Variants",
+      "cols": "3",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Neutral 01 (grey)\t- default choice for use on white backgrounds.",
+          "plain": false,
+          "replay": false,
+          "Snippet": "card-neutral-01"
+        },
+        {
+          "type": "snippet",
+          "caption": "Neutral 02 (white) - use on darker or grey backgrounds.",
+          "plain": false,
+          "replay": false,
+          "Snippet": "card-neutral-02"
+        },
+        {
+          "type": "snippet",
+          "caption": "Neutral 02 outlined",
+          "plain": false,
+          "replay": false,
+          "Snippet": "card-neutral-02-outlined"
+        }
+      ]
     },
     {
       "title": "Do's and don'ts",
