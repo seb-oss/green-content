@@ -77,6 +77,44 @@
           "Snippet": "card-pattern-01-header-custom"
         }
       ]
+    },
+    {
+      "title": "Footer",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Default",
+          "tag": "H3",
+          "content": "Non-interactive link indicator"
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false
+        },
+        {
+          "type": "rich-text",
+          "title": "Decorative",
+          "content": "Visual elements without interaction."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false
+        },
+        {
+          "type": "rich-text",
+          "title": "Empty",
+          "tag": "H3",
+          "content": "No footer content"
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false
+        }
+      ]
     }
   ]
 }
