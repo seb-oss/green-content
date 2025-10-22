@@ -53,10 +53,17 @@
           "plain": false,
           "replay": false,
           "Snippet": "card-neutral-02-outlined"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Brand 01",
+      "tag": "H3",
+      "section-content": "Can only be used in special contexts and with specific content. This will be added as guidelines soon. Since we do not have any matching action components for now you can only slot text, link and icon.",
+      "cols": "1",
+      "columns": [
         {
           "type": "snippet",
-          "caption": "Brand 01",
           "plain": false,
           "replay": false,
           "Snippet": "card-brand-01"
