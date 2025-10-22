@@ -79,6 +79,11 @@
       "path": "pages/primitivesicon/primitivesicon.json"
     },
     {
+      "title": "Patterns",
+      "slug": "primitives/patterns",
+      "path": "pages/primitivespatterns/primitivespatterns.json"
+    },
+    {
       "title": "Shadows",
       "slug": "primitives/shadows",
       "summary": "Shadows help define hierarchy, depth, and interaction. In Green, they work together with other primitives to support clarity and visual balance.",
@@ -91,6 +96,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 15,
-  "lastUpdated": "2025-10-22T12:22:34.677Z"
+  "total": 16,
+  "lastUpdated": "2025-10-22T12:25:12.218Z"
 }

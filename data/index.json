@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-22T12:22:34.676Z",
+    "lastUpdated": "2025-10-22T12:25:12.216Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -574,6 +574,14 @@
             "path": "pages/primitivesicon/primitivesicon.json",
             "endpoints": {
               "content": "pages/primitivesicon/primitivesicon.json"
+            }
+          },
+          {
+            "title": "Patterns",
+            "slug": "primitives/patterns",
+            "path": "pages/primitivespatterns/primitivespatterns.json",
+            "endpoints": {
+              "content": "pages/primitivespatterns/primitivespatterns.json"
             }
           },
           {
