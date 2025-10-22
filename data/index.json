@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-22T09:36:28.671Z",
+    "lastUpdated": "2025-10-22T10:32:31.271Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -73,6 +73,15 @@
             "endpoints": {
               "content": "components/calendar/calendar.content.json",
               "images": "components/calendar/calendar.images.json"
+            }
+          },
+          {
+            "title": "Card pattern 01",
+            "slug": "card-pattern-01",
+            "path": "components/card-pattern-01/card-pattern-01.content.json",
+            "endpoints": {
+              "content": "components/card-pattern-01/card-pattern-01.content.json",
+              "images": "components/card-pattern-01/card-pattern-01.images.json"
             }
           },
           {

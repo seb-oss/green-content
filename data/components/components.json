@@ -37,6 +37,11 @@
       "path": "components/calendar/calendar.content.json"
     },
     {
+      "title": "Card pattern 01",
+      "slug": "card-pattern-01",
+      "path": "components/card-pattern-01/card-pattern-01.content.json"
+    },
+    {
       "title": "Card",
       "slug": "card",
       "summary": "The card groups related content into a single container.",
@@ -233,6 +238,6 @@
       "path": "components/yearpicker/yearpicker.content.json"
     }
   ],
-  "total": 39,
-  "lastUpdated": "2025-10-22T09:36:28.673Z"
+  "total": 40,
+  "lastUpdated": "2025-10-22T10:32:31.272Z"
 }
