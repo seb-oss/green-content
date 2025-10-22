@@ -1,0 +1,12 @@
+{
+  "title": "Card pattern 01",
+  "slug": "card-pattern-01",
+  "beta": false,
+  "soon": false,
+  "anatomy": true,
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
+}
