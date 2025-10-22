@@ -1,5 +1,5 @@
 {
-  "title": "CP01 - Actions Multiple",
+  "title": "CP01 - Actions: Multiple",
   "slug": "cp01-actions-multiple",
   "snippet_component": "Card pattern 01",
   "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01 title=\"Multiple actions\"\n    excerpt=\"Card with two interactive buttons for primary and secondary actions\">\n    <gds-button slot=\"footer\">Primary</gds-button>\n    <gds-button slot=\"footer\" rank=\"secondary\">Secondary</gds-button>\n  </gds-card-pattern-01>\n</gds-flex>"
