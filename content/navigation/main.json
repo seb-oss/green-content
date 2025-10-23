@@ -18,6 +18,11 @@
       "icon": "IconSquareGridCircle"
     },
     {
+      "title": "Patterns",
+      "slug": "patterns",
+      "icon": "IconCirclesThree"
+    },
+    {
       "title": "Design direction",
       "slug": "design-direction",
       "icon": "IconDirection"
