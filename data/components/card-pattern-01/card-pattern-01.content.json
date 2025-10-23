@@ -84,7 +84,7 @@
     {
       "title": "Decorative elements",
       "tag": "H3",
-      "section-content": "The footer supports two types of decorative elements: a label, set via the `label` property, and slotted elements, such as an icon button.\n\nNote: On a linked card, all decorative elements are always inert.",
+      "section-content": "The footer on a linked card upports two types of decorative elements: a label, set via the `label` property, and slotted elements, such as an icon button.\n\nNote: All decorative elements are always inert.",
       "cols": "2",
       "columns": [
         {
