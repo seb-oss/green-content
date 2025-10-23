@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-23T08:39:06.708Z",
+    "lastUpdated": "2025-10-23T12:55:06.217Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -579,7 +579,7 @@
           {
             "title": "Patterns",
             "slug": "primitives/patterns",
-            "summary": "Patterns are reusable solutions to common design problems. They describe how components, behaviors, and guidelines come together to solve a specific user or interface need.",
+            "summary": "Patterns are reusable solutions to common design problems. They show how components, behaviour, and guidelines work together to meet a specific user or interface need.",
             "path": "pages/primitivespatterns/primitivespatterns.json",
             "endpoints": {
               "content": "pages/primitivespatterns/primitivespatterns.json"

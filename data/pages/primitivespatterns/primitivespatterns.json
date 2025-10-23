@@ -1,36 +1,36 @@
 {
   "title": "Patterns",
   "slug": "primitives/patterns",
-  "summary": "Patterns are reusable solutions to common design problems. They describe how components, behaviors, and guidelines come together to solve a specific user or interface need.",
+  "summary": "Patterns are reusable solutions to common design problems. They show how components, behaviour, and guidelines work together to meet a specific user or interface need.",
   "parent": "primitives",
   "layout": "editorial",
   "sections": [
     {
-      "section-content": "Patterns go beyond individual components, they define how elements work together, how they behave, and how they should be used to create a consistent and accessible user experience across SEB’s products.",
+      "section-content": "Patterns go beyond individual components. They define how elements interact, how they behave, and how they should be used to create a consistent and accessible user experience across SEB’s products.",
       "max-width": true
     },
     {
-      "title": "Patterns can be:",
+      "title": "Patterns can be either:",
       "tag": "H3",
-      "section-content": "*   Pre-composed components, such as the Card pattern 01 or form pattern, or\n    \n*   broader approaches to behavior or layout, such as dark mode / light mode or responsive layout patterns.",
+      "section-content": "*   pre-composed components, such as the card pattern 01 or form pattern,\n    \n    or\n    \n*   broader approaches to behaviour or layout, such as dark or light mode, or responsive layout patterns.",
       "max-width": true
     },
     {
-      "title": "What a pattern includes",
+      "title": "Patterns consist of these elements:",
       "tag": "H3",
-      "section-content": "*   **Components** - the building blocks that make up the pattern.\n    \n*   **Arrangement** - how components are placed and structured to fulfill a function, for example a “sign-in form” or a “product card.”\n    \n*   **Behavior** - how the pattern behaves and interacts, including states, transitions, and flows (like a step-by-step form or a search interaction).\n    \n*   **Guidelines rules** - for when and how to use the pattern, including accessibility, motion, content, and visual best practices.",
+      "section-content": "*   **Componentst:** The building blocks that make up the pattern.\n    \n*   **Arrangement:**  How components are placed and structured to fulfill a function, for example a “sign-in form” or a “product card.”\n    \n*   **Behaviour:** How the pattern behaves and interacts, including states, transitions, and flows (like a step-by-step form or a search interaction).\n    \n*   **Guidelines:** When and how to use the pattern, including accessibility, motion, content, and visual best practices.",
       "max-width": true
     },
     {
       "title": "Why patterns matter",
       "tag": "H3",
-      "section-content": "Patterns ensure a consistent and predictable experience for users, and efficiency for designers and developers. They help teams focus on solving design problems rather than reinventing solutions for familiar tasks. By using shared patterns, we:\n\n*   Maintain visual and behavioral consistency\n    \n*   Strengthen accessibility and usability across products\n    \n*   Reduce design and development effort\n    \n*   Support scalability as our product ecosystem grows",
+      "section-content": "Patterns ensure a consistent and predictable experience for users, and efficiency for designers and developers. They help teams focus on solving design problems rather than reinventing solutions for familiar tasks. By using shared patterns, we:\n\n*   maintain visual and behavioral consistency\n    \n*   strengthen accessibility and usability across products\n    \n*   reduce design and development effort\n    \n*   support scalability as our product ecosystem grows.",
       "max-width": true
     },
     {
       "title": "Examples of patterns",
       "tag": "H3",
-      "section-content": "*   **Multi-step form** – collects information across several steps.\n    \n*   **Empty states** – communicates when there’s no content or data available.\n    \n*   **Navigation bar** – combines logo, navigation links, and search in a consistent layout.\n    \n*   **Dark mode / light mode** – defines how our color system and components adapt across themes.",
+      "section-content": "*   **Multi-step form** – collects information across several steps.\n    \n*   **Empty states** – communicates when there is no content or data available.\n    \n*   **Navigation bar** – combines logo, navigation links, and search in a consistent layout.\n    \n*   **Dark and light mode** – defines how our colour system and components adapt across themes.",
       "max-width": true
     }
   ]
