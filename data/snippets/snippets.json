@@ -313,6 +313,12 @@
       "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"230px\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Label on the decorative element\" width=\"280px\" label=\"Read more\">\n  </gds-card-pattern-01>\n</gds-flex>"
     },
     {
+      "title": "CP01 - Variant: Neutral 01",
+      "slug": "cp01-variant-neutral-01",
+      "path": "snippets/cp01-variant-neutral-01/cp01-variant-neutral-01.json",
+      "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n      title=\"Neutral 01\"\n      excerpt=\"Default card appearance\"\n      href=\"#\"\n      label=\"Learn more\"\n      src=\"https://api.seb.io/assets/launch-hero.jpg\"\n    ></gds-card-pattern-01>\n</gds-flex>"
+    },
+    {
       "title": "Datepicker: Size Large",
       "slug": "datepicker-large",
       "path": "snippets/datepicker-large/datepicker-large.json",
@@ -799,6 +805,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 133,
-  "lastUpdated": "2025-10-23T07:32:40.363Z"
+  "total": 134,
+  "lastUpdated": "2025-10-23T07:35:25.617Z"
 }

@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-23T07:32:40.362Z",
+    "lastUpdated": "2025-10-23T07:35:25.615Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1074,6 +1074,15 @@
             "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"230px\">\n  <gds-card-pattern-01 href=\"#\" title=\"This is a heading\" excerpt=\"Label on the decorative element\" width=\"280px\" label=\"Read more\">\n  </gds-card-pattern-01>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/cp01-footer-label/cp01-footer-label.json"
+            }
+          },
+          {
+            "title": "CP01 - Variant: Neutral 01",
+            "slug": "cp01-variant-neutral-01",
+            "path": "snippets/cp01-variant-neutral-01/cp01-variant-neutral-01.json",
+            "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n      title=\"Neutral 01\"\n      excerpt=\"Default card appearance\"\n      href=\"#\"\n      label=\"Learn more\"\n      src=\"https://api.seb.io/assets/launch-hero.jpg\"\n    ></gds-card-pattern-01>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/cp01-variant-neutral-01/cp01-variant-neutral-01.json"
             }
           },
           {
