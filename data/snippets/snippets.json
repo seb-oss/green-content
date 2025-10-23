@@ -325,6 +325,12 @@
       "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n    variant=\"neutral-02\"\n    title=\"Neutral 02\"\n    excerpt=\"Secondary variant\"\n    href=\"#\"\n    label=\"Learn more\"\n    src=\"https://api.seb.io/assets/launch-hero.jpg\"\n  ></gds-card-pattern-01>\n</gds-flex>"
     },
     {
+      "title": "CP01 - Variants: Neutral 02 · Outlined",
+      "slug": "cp01-variants-neutral-02-outlined",
+      "path": "snippets/cp01-variants-neutral-02-outlined/cp01-variants-neutral-02-outlined.json",
+      "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n    variant=\"neutral-02\"\n    outlined\n    title=\"Neutral 02 · Outlined\"\n    excerpt=\"Secondary variant without border\"\n    href=\"#\"\n    label=\"Learn more\"\n    src=\"https://api.seb.io/assets/launch-hero.jpg\"\n  ></gds-card-pattern-01>\n</gds-flex>"
+    },
+    {
       "title": "Datepicker: Size Large",
       "slug": "datepicker-large",
       "path": "snippets/datepicker-large/datepicker-large.json",
@@ -811,6 +817,6 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     }
   ],
-  "total": 135,
-  "lastUpdated": "2025-10-23T07:36:47.096Z"
+  "total": 136,
+  "lastUpdated": "2025-10-23T07:37:50.922Z"
 }
