@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-10-23T07:41:40.730Z",
+    "lastUpdated": "2025-10-23T07:43:36.215Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1080,7 +1080,7 @@
             "title": "CP01 - Variant: Neutral 01",
             "slug": "cp01-variant-neutral-01",
             "path": "snippets/cp01-variant-neutral-01/cp01-variant-neutral-01.json",
-            "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n      title=\"Neutral 01\"\n      excerpt=\"Default card appearance\"\n      href=\"#\"\n      label=\"Learn more\"\n      src=\"https://api.seb.io/assets/launch-hero.jpg\"\n    ></gds-card-pattern-01>\n</gds-flex>",
+            "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" max-width=\"340px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n      title=\"Neutral 01\"\n      excerpt=\"Default card appearance\"\n      href=\"#\"\n      label=\"Learn more\"\n      src=\"https://api.seb.io/assets/launch-hero.jpg\"\n    ></gds-card-pattern-01>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/cp01-variant-neutral-01/cp01-variant-neutral-01.json"
             }
@@ -1089,7 +1089,7 @@
             "title": "CP01 - Variant: Neutral 02",
             "slug": "cp01-variant-neutral-02",
             "path": "snippets/cp01-variant-neutral-02/cp01-variant-neutral-02.json",
-            "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" max-width=\"340px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n    variant=\"neutral-02\"\n    title=\"Neutral 02\"\n    excerpt=\"Secondary variant\"\n    href=\"#\"\n    label=\"Learn more\"\n    src=\"https://api.seb.io/assets/launch-hero.jpg\"\n  ></gds-card-pattern-01>\n</gds-flex>",
+            "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n    variant=\"neutral-02\"\n    title=\"Neutral 02\"\n    excerpt=\"Secondary variant\"\n    href=\"#\"\n    label=\"Learn more\"\n    src=\"https://api.seb.io/assets/launch-hero.jpg\"\n  ></gds-card-pattern-01>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/cp01-variant-neutral-02/cp01-variant-neutral-02.json"
             }

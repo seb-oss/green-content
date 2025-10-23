@@ -2,5 +2,5 @@
   "title": "CP01 - Variant: Neutral 01",
   "slug": "cp01-variant-neutral-01",
   "snippet_component": "Card pattern 01",
-  "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n      title=\"Neutral 01\"\n      excerpt=\"Default card appearance\"\n      href=\"#\"\n      label=\"Learn more\"\n      src=\"https://api.seb.io/assets/launch-hero.jpg\"\n    ></gds-card-pattern-01>\n</gds-flex>"
+  "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" max-width=\"340px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n      title=\"Neutral 01\"\n      excerpt=\"Default card appearance\"\n      href=\"#\"\n      label=\"Learn more\"\n      src=\"https://api.seb.io/assets/launch-hero.jpg\"\n    ></gds-card-pattern-01>\n</gds-flex>"
 }
