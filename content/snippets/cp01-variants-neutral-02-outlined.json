@@ -1,0 +1,6 @@
+{
+  "title": "CP01 - Variants: Neutral 02 · Outlined",
+  "slug": "cp01-variants-neutral-02-outlined",
+  "snippet_component": "Card pattern 01",
+  "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n    variant=\"neutral-02\"\n    outlined\n    title=\"Neutral 02 · Outlined\"\n    excerpt=\"Secondary variant without border\"\n    href=\"#\"\n    label=\"Learn more\"\n    src=\"https://api.seb.io/assets/launch-hero.jpg\"\n  ></gds-card-pattern-01>\n</gds-flex>"
+}
