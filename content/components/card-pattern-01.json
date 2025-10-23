@@ -117,6 +117,7 @@
     },
     {
       "title": "Actions",
+      "section-content": "Note: This only applies to the default card (not linked).",
       "cols": "2",
       "columns": [
         {
