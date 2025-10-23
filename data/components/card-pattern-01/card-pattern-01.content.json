@@ -142,14 +142,19 @@
     {
       "title": "Variants",
       "section-content": "In Card pattern 01, you can choose between two variants: `neutral-01` and `neutral-02`. The `neutral-02` variant can also be outlined.",
-      "cols": "2",
+      "cols": "1",
       "columns": [
         {
           "type": "snippet",
           "plain": false,
           "replay": false,
           "Snippet": "cp01-variant-neutral-01"
-        },
+        }
+      ]
+    },
+    {
+      "cols": "2",
+      "columns": [
         {
           "type": "snippet",
           "plain": false,
