@@ -1,7 +1,7 @@
 {
   "title": "Login",
   "slug": "login",
-  "code": "<gds-flex>\n  <gds-card>\n    <gds-text>Login template example.</gds-text>\n  </gds-card>\n</gds-flex>",
+  "code": "<gds-grid width=\"100%\" gap=\"xl\" columns=\"1; m{2}\" height=\"100vh\">\n  <gds-img src=\"https://api.seb.io/assets/seb-private.jpg\" object-fit=\"cover\" border-radius=\"m\" min-width=\"100%\"></gds-img>\n  <gds-flex flex-direction=\"column\" gap=\"s\" width=\"100%\" height=\"100%\" align-items=\"center\" justify-content=\"center\">\n    <gds-card>\n      <gds-text font=\"heading-s\">Login with BankID</gds-text>\n      <gds-segmented-control value=\"card\">\n        <gds-segment value=\"mobile\">Mobile BankID</gds-segment>\n        <gds-segment value=\"card\">BankID on card</gds-segment>\n      </gds-segmented-control>\n      <gds-text font=\"body-regular-m\" text-align=\"center\">Start the BankID app on your phone or tablet and press Scan QR code.</gds-text>\n      <gds-img width=\"150\" height=\"150\" margin=\"0 auto\" src=\"https://api.seb.io/assets/qr-code.jpg\"></gds-img>\n      <gds-flex gap=\"s\" align-items=\"center\">\n        <gds-divider color=\"subtle-01\"></gds-divider>\n        <gds-text>or</gds-text>\n        <gds-divider color=\"subtle-01\"></gds-divider>\n      </gds-flex>\n      <gds-button rank=\"secondary\">\n        <gds-icon-brand-bankid slot=\"lead\"></gds-icon-brand-bankid>\n        BankID on this device\n      </gds-button>\n      <gds-button rank=\"tertiary\">\n        Change login method\n      </gds-button>\n    </gds-card>\n  </gds-flex>\n</gds-grid>",
   "related_components": [
     "Button",
     "Input"
