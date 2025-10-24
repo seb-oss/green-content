@@ -22,13 +22,13 @@
       "max-width": true
     },
     {
-      "title": "Why patterns matter",
+      "title": "Why patterns matter:",
       "tag": "H3",
       "section-content": "Patterns ensure a consistent and predictable experience for users, and efficiency for designers and developers. They help teams focus on solving design problems rather than reinventing solutions for familiar tasks. By using shared patterns, we:\n\n*   maintain visual and behavioral consistency\n    \n*   strengthen accessibility and usability across products\n    \n*   reduce design and development effort\n    \n*   support scalability as our product ecosystem grows.",
       "max-width": true
     },
     {
-      "title": "Examples of patterns",
+      "title": "Examples of patterns:",
       "tag": "H3",
       "section-content": "*   **Multi-step form** – collects information across several steps.\n    \n*   **Empty states** – communicates when there is no content or data available.\n    \n*   **Navigation bar** – combines logo, navigation links, and search in a consistent layout.\n    \n*   **Dark and light mode** – defines how our colour system and components adapt across themes.",
       "max-width": true
