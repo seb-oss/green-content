@@ -328,7 +328,7 @@
       "title": "CP01 - Variants: Neutral 02 · Outlined",
       "slug": "cp01-variants-neutral-02-outlined",
       "path": "snippets/cp01-variants-neutral-02-outlined/cp01-variants-neutral-02-outlined.json",
-      "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" max-width=\"380px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n    variant=\"neutral-02\"\n    outlined\n    title=\"Neutral 02 · Outlined\"\n    excerpt=\"Secondary variant without border\"\n    href=\"#\"\n    label=\"Learn more\"\n    src=\"https://api.seb.io/assets/launch-hero.jpg\"\n  ></gds-card-pattern-01>\n</gds-flex>"
+      "code": "<gds-flex padding=\"2xl\" margin=\"auto\" min-height=\"280px\" max-width=\"380px\" align-items=\"center\" justify-content=\"center\">\n  <gds-card-pattern-01\n    variant=\"neutral-02\"\n    outlined\n    title=\"Neutral 02 · Outlined\"\n    excerpt=\"Neutral 02 variant with border\"\n    href=\"#\"\n    label=\"Learn more\"\n    src=\"https://api.seb.io/assets/launch-hero.jpg\"\n  ></gds-card-pattern-01>\n</gds-flex>"
     },
     {
       "title": "Datepicker: Size Large",
@@ -818,5 +818,5 @@
     }
   ],
   "total": 136,
-  "lastUpdated": "2025-10-24T06:55:26.288Z"
+  "lastUpdated": "2025-10-24T08:51:36.904Z"
 }
