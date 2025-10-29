@@ -3599,6 +3599,186 @@
       }
     }
   },
+  "chevron-right-small": {
+    "id": "chevron-right-small",
+    "nodeId": "5805:433",
+    "displayName": "Chevron Right Small",
+    "fileName": "chevron-right-small.svg",
+    "reactName": "IconChevronRightSmall",
+    "urlPath": "chevron-right-small",
+    "variants": {
+      "regular": "<path d=\"M10 16L14 12L10 8\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.46967 7.46967C9.76256 7.17678 10.2374 7.17678 10.5303 7.46967L14.5303 11.4697C14.8232 11.7626 14.8232 12.2374 14.5303 12.5303L10.5303 16.5303C10.2374 16.8232 9.76256 16.8232 9.46967 16.5303C9.17678 16.2374 9.17678 15.7626 9.46967 15.4697L12.9393 12L9.46967 8.53033C9.17678 8.23744 9.17678 7.76256 9.46967 7.46967Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/chevron-right-small.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/chevron-right-small.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Arrows"
+      ],
+      "tags": [
+        "chevron-right-small"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/chevron-right-small",
+        "import": "import '@sebgroup/green-core/icon/chevron-right-small.js'",
+        "component": "<gds-icon-chevron-right-small></gds-icon-chevron-right-small>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/chevron-right-small",
+        "import": "import { IconChevronRightSmall } from '@sebgroup/green-react/icon/chevron-right-small'",
+        "component": "<IconChevronRightSmall></IconChevronRightSmall>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/chevron-right-small",
+        "import": "import '@sebgroup/green-core/icon/chevron-right-small.js'",
+        "component": "<gds-icon-chevron-right-small></gds-icon-chevron-right-small>"
+      }
+    }
+  },
+  "chevron-left-small": {
+    "id": "chevron-left-small",
+    "nodeId": "5805:436",
+    "displayName": "Chevron Left Small",
+    "fileName": "chevron-left-small.svg",
+    "reactName": "IconChevronLeftSmall",
+    "urlPath": "chevron-left-small",
+    "variants": {
+      "regular": "<path d=\"M14 16L10 12L14 8\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14.5303 7.46967C14.2374 7.17678 13.7626 7.17678 13.4697 7.46967L9.46967 11.4697C9.17678 11.7626 9.17678 12.2374 9.46967 12.5303L13.4697 16.5303C13.7626 16.8232 14.2374 16.8232 14.5303 16.5303C14.8232 16.2374 14.8232 15.7626 14.5303 15.4697L11.0607 12L14.5303 8.53033C14.8232 8.23744 14.8232 7.76256 14.5303 7.46967Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/chevron-left-small.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/chevron-left-small.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Arrows"
+      ],
+      "tags": [
+        "chevron-left-small"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/chevron-left-small",
+        "import": "import '@sebgroup/green-core/icon/chevron-left-small.js'",
+        "component": "<gds-icon-chevron-left-small></gds-icon-chevron-left-small>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/chevron-left-small",
+        "import": "import { IconChevronLeftSmall } from '@sebgroup/green-react/icon/chevron-left-small'",
+        "component": "<IconChevronLeftSmall></IconChevronLeftSmall>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/chevron-left-small",
+        "import": "import '@sebgroup/green-core/icon/chevron-left-small.js'",
+        "component": "<gds-icon-chevron-left-small></gds-icon-chevron-left-small>"
+      }
+    }
+  },
+  "chevron-top-small": {
+    "id": "chevron-top-small",
+    "nodeId": "5341:3210",
+    "displayName": "Chevron Top Small",
+    "fileName": "chevron-top-small.svg",
+    "reactName": "IconChevronTopSmall",
+    "urlPath": "chevron-top-small",
+    "variants": {
+      "regular": "<path d=\"M8 14L12 10L16 14\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11.4697 9.46967C11.7626 9.17678 12.2374 9.17678 12.5303 9.46967L16.5303 13.4697C16.8232 13.7626 16.8232 14.2374 16.5303 14.5303C16.2374 14.8232 15.7626 14.8232 15.4697 14.5303L12 11.0607L8.53033 14.5303C8.23744 14.8232 7.76256 14.8232 7.46967 14.5303C7.17678 14.2374 7.17678 13.7626 7.46967 13.4697L11.4697 9.46967Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/chevron-top-small.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/chevron-top-small.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Arrows"
+      ],
+      "tags": [
+        "chevron-top-small"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/chevron-top-small",
+        "import": "import '@sebgroup/green-core/icon/chevron-top-small.js'",
+        "component": "<gds-icon-chevron-top-small></gds-icon-chevron-top-small>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/chevron-top-small",
+        "import": "import { IconChevronTopSmall } from '@sebgroup/green-react/icon/chevron-top-small'",
+        "component": "<IconChevronTopSmall></IconChevronTopSmall>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/chevron-top-small",
+        "import": "import '@sebgroup/green-core/icon/chevron-top-small.js'",
+        "component": "<gds-icon-chevron-top-small></gds-icon-chevron-top-small>"
+      }
+    }
+  },
+  "chevron-down-small": {
+    "id": "chevron-down-small",
+    "nodeId": "5341:3209",
+    "displayName": "Chevron Down Small",
+    "fileName": "chevron-down-small.svg",
+    "reactName": "IconChevronDownSmall",
+    "urlPath": "chevron-down-small",
+    "variants": {
+      "regular": "<path d=\"M8 10L12 14L16 10\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11.4697 14.5303C11.7626 14.8232 12.2374 14.8232 12.5303 14.5303L16.5303 10.5303C16.8232 10.2374 16.8232 9.76256 16.5303 9.46967C16.2374 9.17678 15.7626 9.17678 15.4697 9.46967L12 12.9393L8.53033 9.46967C8.23744 9.17678 7.76256 9.17678 7.46967 9.46967C7.17678 9.76256 7.17678 10.2374 7.46967 10.5303L11.4697 14.5303Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/chevron-down-small.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/chevron-down-small.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Arrows"
+      ],
+      "tags": [
+        "chevron-down-small"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/chevron-down-small",
+        "import": "import '@sebgroup/green-core/icon/chevron-down-small.js'",
+        "component": "<gds-icon-chevron-down-small></gds-icon-chevron-down-small>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/chevron-down-small",
+        "import": "import { IconChevronDownSmall } from '@sebgroup/green-react/icon/chevron-down-small'",
+        "component": "<IconChevronDownSmall></IconChevronDownSmall>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/chevron-down-small",
+        "import": "import '@sebgroup/green-core/icon/chevron-down-small.js'",
+        "component": "<gds-icon-chevron-down-small></gds-icon-chevron-down-small>"
+      }
+    }
+  },
   "chevron-double-up": {
     "id": "chevron-double-up",
     "nodeId": "1090:15580",
@@ -3869,96 +4049,6 @@
       }
     }
   },
-  "chevron-top-small": {
-    "id": "chevron-top-small",
-    "nodeId": "5341:3210",
-    "displayName": "Chevron Top Small",
-    "fileName": "chevron-top-small.svg",
-    "reactName": "IconChevronTopSmall",
-    "urlPath": "chevron-top-small",
-    "variants": {
-      "regular": "<path d=\"M8 14L12 10L16 14\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
-      "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11.4697 9.46967C11.7626 9.17678 12.2374 9.17678 12.5303 9.46967L16.5303 13.4697C16.8232 13.7626 16.8232 14.2374 16.5303 14.5303C16.2374 14.8232 15.7626 14.8232 15.4697 14.5303L12 11.0607L8.53033 14.5303C8.23744 14.8232 7.76256 14.8232 7.46967 14.5303C7.17678 14.2374 7.17678 13.7626 7.46967 13.4697L11.4697 9.46967Z\" fill=\"currentColor\"/>"
-    },
-    "static": {
-      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/chevron-top-small.svg",
-      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/chevron-top-small.svg"
-    },
-    "meta": {
-      "description": "",
-      "categories": [
-        "Arrows"
-      ],
-      "tags": [
-        "chevron-top-small"
-      ],
-      "width": 24,
-      "height": 24,
-      "viewBox": "0 0 24 24"
-    },
-    "framework": {
-      "web": {
-        "path": "@sebgroup/green-core/icon/chevron-top-small",
-        "import": "import '@sebgroup/green-core/icon/chevron-top-small.js'",
-        "component": "<gds-icon-chevron-top-small></gds-icon-chevron-top-small>"
-      },
-      "react": {
-        "path": "@sebgroup/green-core/icon/chevron-top-small",
-        "import": "import { IconChevronTopSmall } from '@sebgroup/green-react/icon/chevron-top-small'",
-        "component": "<IconChevronTopSmall></IconChevronTopSmall>"
-      },
-      "angular": {
-        "path": "@sebgroup/green-core/icon/chevron-top-small",
-        "import": "import '@sebgroup/green-core/icon/chevron-top-small.js'",
-        "component": "<gds-icon-chevron-top-small></gds-icon-chevron-top-small>"
-      }
-    }
-  },
-  "chevron-down-small": {
-    "id": "chevron-down-small",
-    "nodeId": "5341:3209",
-    "displayName": "Chevron Down Small",
-    "fileName": "chevron-down-small.svg",
-    "reactName": "IconChevronDownSmall",
-    "urlPath": "chevron-down-small",
-    "variants": {
-      "regular": "<path d=\"M8 10L12 14L16 10\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
-      "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11.4697 14.5303C11.7626 14.8232 12.2374 14.8232 12.5303 14.5303L16.5303 10.5303C16.8232 10.2374 16.8232 9.76256 16.5303 9.46967C16.2374 9.17678 15.7626 9.17678 15.4697 9.46967L12 12.9393L8.53033 9.46967C8.23744 9.17678 7.76256 9.17678 7.46967 9.46967C7.17678 9.76256 7.17678 10.2374 7.46967 10.5303L11.4697 14.5303Z\" fill=\"currentColor\"/>"
-    },
-    "static": {
-      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/chevron-down-small.svg",
-      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/chevron-down-small.svg"
-    },
-    "meta": {
-      "description": "",
-      "categories": [
-        "Arrows"
-      ],
-      "tags": [
-        "chevron-down-small"
-      ],
-      "width": 24,
-      "height": 24,
-      "viewBox": "0 0 24 24"
-    },
-    "framework": {
-      "web": {
-        "path": "@sebgroup/green-core/icon/chevron-down-small",
-        "import": "import '@sebgroup/green-core/icon/chevron-down-small.js'",
-        "component": "<gds-icon-chevron-down-small></gds-icon-chevron-down-small>"
-      },
-      "react": {
-        "path": "@sebgroup/green-core/icon/chevron-down-small",
-        "import": "import { IconChevronDownSmall } from '@sebgroup/green-react/icon/chevron-down-small'",
-        "component": "<IconChevronDownSmall></IconChevronDownSmall>"
-      },
-      "angular": {
-        "path": "@sebgroup/green-core/icon/chevron-down-small",
-        "import": "import '@sebgroup/green-core/icon/chevron-down-small.js'",
-        "component": "<gds-icon-chevron-down-small></gds-icon-chevron-down-small>"
-      }
-    }
-  },
   "arrow-split": {
     "id": "arrow-split",
     "nodeId": "5341:3208",
@@ -4046,6 +4136,276 @@
         "path": "@sebgroup/green-core/icon/cursor",
         "import": "import '@sebgroup/green-core/icon/cursor.js'",
         "component": "<gds-icon-cursor></gds-icon-cursor>"
+      }
+    }
+  },
+  "expand": {
+    "id": "expand",
+    "nodeId": "5805:516",
+    "displayName": "Expand",
+    "fileName": "expand.svg",
+    "reactName": "IconExpand",
+    "urlPath": "expand",
+    "variants": {
+      "regular": "<path d=\"M13.75 3.75H20.25V10.25M13.75 10.25L19.4766 4.52344M10.25 13.75L4.52344 19.4766M3.75 13.75V20.25H10.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13 3.75C13 3.33579 13.3358 3 13.75 3H20.25C20.6642 3 21 3.33579 21 3.75V10.25C21 10.6642 20.6642 11 20.25 11C19.8358 11 19.5 10.6642 19.5 10.25V5.56066L14.2803 10.7803C13.9874 11.0732 13.5126 11.0732 13.2197 10.7803C12.9268 10.4874 12.9268 10.0126 13.2197 9.71967L18.4393 4.5H13.75C13.3358 4.5 13 4.16421 13 3.75ZM3 13.75C3 13.3358 3.33579 13 3.75 13C4.16421 13 4.5 13.3358 4.5 13.75V18.4393L9.71967 13.2197C10.0126 12.9268 10.4874 12.9268 10.7803 13.2197C11.0732 13.5126 11.0732 13.9874 10.7803 14.2803L5.56066 19.5H10.25C10.6642 19.5 11 19.8358 11 20.25C11 20.6642 10.6642 21 10.25 21H3.75C3.33579 21 3 20.6642 3 20.25V13.75Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/expand.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/expand.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Arrows"
+      ],
+      "tags": [
+        "expand-45, enlarge"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/expand",
+        "import": "import '@sebgroup/green-core/icon/expand.js'",
+        "component": "<gds-icon-expand></gds-icon-expand>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/expand",
+        "import": "import { IconExpand } from '@sebgroup/green-react/icon/expand'",
+        "component": "<IconExpand></IconExpand>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/expand",
+        "import": "import '@sebgroup/green-core/icon/expand.js'",
+        "component": "<gds-icon-expand></gds-icon-expand>"
+      }
+    }
+  },
+  "minimize": {
+    "id": "minimize",
+    "nodeId": "5805:676",
+    "displayName": "Minimize",
+    "fileName": "minimize.svg",
+    "reactName": "IconMinimize",
+    "urlPath": "minimize",
+    "variants": {
+      "regular": "<path d=\"M13.75 3.75V10.25M13.75 10.25H20.25M13.75 10.25L20.25 3.75M10.25 20.25V13.75M10.25 13.75H3.75M10.25 13.75L3.75 20.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13.75 3C14.1642 3 14.5 3.33579 14.5 3.75V8.43934L19.7197 3.21967C20.0126 2.92678 20.4874 2.92678 20.7803 3.21967C21.0732 3.51256 21.0732 3.98744 20.7803 4.28033L15.5607 9.5H20.25C20.6642 9.5 21 9.83579 21 10.25C21 10.6642 20.6642 11 20.25 11H13.75C13.3358 11 13 10.6642 13 10.25V3.75C13 3.33579 13.3358 3 13.75 3ZM3.75 14.5C3.33579 14.5 3 14.1642 3 13.75C3 13.3358 3.33579 13 3.75 13H10.25C10.6642 13 11 13.3358 11 13.75V20.25C11 20.6642 10.6642 21 10.25 21C9.83579 21 9.5 20.6642 9.5 20.25V15.5607L4.28033 20.7803C3.98744 21.0732 3.51256 21.0732 3.21967 20.7803C2.92678 20.4874 2.92678 20.0126 3.21967 19.7197L8.43934 14.5H3.75Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/minimize.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/minimize.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Arrows"
+      ],
+      "tags": [
+        "minimize-45, arrow, shrink"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/minimize",
+        "import": "import '@sebgroup/green-core/icon/minimize.js'",
+        "component": "<gds-icon-minimize></gds-icon-minimize>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/minimize",
+        "import": "import { IconMinimize } from '@sebgroup/green-react/icon/minimize'",
+        "component": "<IconMinimize></IconMinimize>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/minimize",
+        "import": "import '@sebgroup/green-core/icon/minimize.js'",
+        "component": "<gds-icon-minimize></gds-icon-minimize>"
+      }
+    }
+  },
+  "sort-ascending": {
+    "id": "sort-ascending",
+    "nodeId": "5805:838",
+    "displayName": "Sort Ascending",
+    "fileName": "sort-ascending.svg",
+    "reactName": "IconSortAscending",
+    "urlPath": "sort-ascending",
+    "variants": {
+      "regular": "<path d=\"M14.3482 10.25L15.5606 7.75M15.5606 7.75L17.5005 3.75L19.4338 7.75M15.5606 7.75H19.4338M19.4338 7.75L20.6421 10.25M14.75 13.75H20.25L14.75 20.25H20.25M7 3.75V20.25M7 20.25L4 17.25M7 20.25L10 17.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M17.5005 3C17.788 3.00019 18.0501 3.16475 18.1753 3.42363L20.1018 7.40968C20.1067 7.41918 20.1113 7.42881 20.1158 7.43854L21.3169 9.92363C21.4971 10.2966 21.3409 10.745 20.968 10.9253C20.5951 11.1055 20.1466 10.9493 19.9664 10.5764L18.9628 8.5H16.0299L15.0225 10.5773C14.8417 10.95 14.3931 11.1056 14.0204 10.9248C13.6477 10.7441 13.4921 10.2954 13.6728 9.92273L14.8781 7.4376C14.8825 7.42789 14.8872 7.4183 14.892 7.40883L16.8252 3.42273C16.9506 3.16402 17.213 2.99981 17.5005 3ZM16.7574 7H18.2378L17.4989 5.47111L16.7574 7Z\" fill=\"currentColor\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14 13.75C14 13.3358 14.3358 13 14.75 13H20.25C20.542 13 20.8075 13.1695 20.9304 13.4344C21.0533 13.6994 21.0112 14.0115 20.8225 14.2345L16.3671 19.5H20.25C20.6642 19.5 21 19.8358 21 20.25C21 20.6642 20.6642 21 20.25 21H14.75C14.458 21 14.1925 20.8305 14.0696 20.5656C13.9467 20.3006 13.9888 19.9885 14.1775 19.7655L18.6329 14.5H14.75C14.3358 14.5 14 14.1642 14 13.75Z\" fill=\"currentColor\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M7 3C7.41421 3 7.75 3.33579 7.75 3.75V18.4393L9.46967 16.7197C9.76256 16.4268 10.2374 16.4268 10.5303 16.7197C10.8232 17.0126 10.8232 17.4874 10.5303 17.7803L7.53033 20.7803C7.23744 21.0732 6.76256 21.0732 6.46967 20.7803L3.46967 17.7803C3.17678 17.4874 3.17678 17.0126 3.46967 16.7197C3.76256 16.4268 4.23744 16.4268 4.53033 16.7197L6.25 18.4393V3.75C6.25 3.33579 6.58579 3 7 3Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/sort-ascending.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/sort-ascending.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Arrows"
+      ],
+      "tags": [
+        "filter-ascending, sort, az"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/sort-ascending",
+        "import": "import '@sebgroup/green-core/icon/sort-ascending.js'",
+        "component": "<gds-icon-sort-ascending></gds-icon-sort-ascending>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/sort-ascending",
+        "import": "import { IconSortAscending } from '@sebgroup/green-react/icon/sort-ascending'",
+        "component": "<IconSortAscending></IconSortAscending>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/sort-ascending",
+        "import": "import '@sebgroup/green-core/icon/sort-ascending.js'",
+        "component": "<gds-icon-sort-ascending></gds-icon-sort-ascending>"
+      }
+    }
+  },
+  "sort-descending": {
+    "id": "sort-descending",
+    "nodeId": "5805:755",
+    "displayName": "Sort Descending",
+    "fileName": "sort-descending.svg",
+    "reactName": "IconSortDescending",
+    "urlPath": "sort-descending",
+    "variants": {
+      "regular": "<path d=\"M14.3477 20.25L15.5601 17.75M15.5601 17.75L17.5 13.75L19.4333 17.75M15.5601 17.75H19.4333M19.4333 17.75L20.6416 20.25M14.75 3.75H20.25L14.75 10.25H20.25M7 3.75V20.25M7 20.25L4 17.25M7 20.25L10 17.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M17.5005 13C17.788 13.0002 18.0501 13.1647 18.1753 13.4236L20.1018 17.4097C20.1067 17.4192 20.1113 17.4288 20.1158 17.4385L21.3169 19.9236C21.4971 20.2966 21.3409 20.745 20.968 20.9253C20.5951 21.1055 20.1466 20.9493 19.9664 20.5764L18.9628 18.5H16.0299L15.0225 20.5773C14.8417 20.95 14.3931 21.1056 14.0204 20.9248C13.6477 20.7441 13.4921 20.2954 13.6728 19.9227L14.8781 17.4376C14.8825 17.4279 14.8872 17.4183 14.892 17.4088L16.8252 13.4227C16.9506 13.164 17.213 12.9998 17.5005 13ZM16.7574 17H18.2378L17.4989 15.4711L16.7574 17Z\" fill=\"currentColor\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14 3.75C14 3.33579 14.3358 3 14.75 3H20.25C20.542 3 20.8075 3.16951 20.9304 3.43444C21.0533 3.69936 21.0112 4.01152 20.8225 4.23446L16.3671 9.5H20.25C20.6642 9.5 21 9.83579 21 10.25C21 10.6642 20.6642 11 20.25 11H14.75C14.458 11 14.1925 10.8305 14.0696 10.5656C13.9467 10.3006 13.9888 9.98848 14.1775 9.76554L18.6329 4.5H14.75C14.3358 4.5 14 4.16421 14 3.75Z\" fill=\"currentColor\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M7 3C7.41421 3 7.75 3.33579 7.75 3.75V18.4393L9.46967 16.7197C9.76256 16.4268 10.2374 16.4268 10.5303 16.7197C10.8232 17.0126 10.8232 17.4874 10.5303 17.7803L7.53033 20.7803C7.23744 21.0732 6.76256 21.0732 6.46967 20.7803L3.46967 17.7803C3.17678 17.4874 3.17678 17.0126 3.46967 16.7197C3.76256 16.4268 4.23744 16.4268 4.53033 16.7197L6.25 18.4393V3.75C6.25 3.33579 6.58579 3 7 3Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/sort-descending.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/sort-descending.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Arrows"
+      ],
+      "tags": [
+        "filter-descending, sort, za"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/sort-descending",
+        "import": "import '@sebgroup/green-core/icon/sort-descending.js'",
+        "component": "<gds-icon-sort-descending></gds-icon-sort-descending>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/sort-descending",
+        "import": "import { IconSortDescending } from '@sebgroup/green-react/icon/sort-descending'",
+        "component": "<IconSortDescending></IconSortDescending>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/sort-descending",
+        "import": "import '@sebgroup/green-core/icon/sort-descending.js'",
+        "component": "<gds-icon-sort-descending></gds-icon-sort-descending>"
+      }
+    }
+  },
+  "sort-down": {
+    "id": "sort-down",
+    "nodeId": "5805:971",
+    "displayName": "Sort Down",
+    "fileName": "sort-down.svg",
+    "reactName": "IconSortDown",
+    "urlPath": "sort-down",
+    "variants": {
+      "regular": "<path d=\"M3.75 5.75H18.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M3.75 12H11.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M3.75 18.25H9.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M18 10.75V18.5M14.75 15.75L18 19L21.25 15.75\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 5.75C3 5.33579 3.33579 5 3.75 5H18.25C18.6642 5 19 5.33579 19 5.75C19 6.16421 18.6642 6.5 18.25 6.5H3.75C3.33579 6.5 3 6.16421 3 5.75Z\" fill=\"currentColor\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 12C3 11.5858 3.33579 11.25 3.75 11.25H11.25C11.6642 11.25 12 11.5858 12 12C12 12.4142 11.6642 12.75 11.25 12.75H3.75C3.33579 12.75 3 12.4142 3 12Z\" fill=\"currentColor\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 18.25C3 17.8358 3.33579 17.5 3.75 17.5H9.25C9.66421 17.5 10 17.8358 10 18.25C10 18.6642 9.66421 19 9.25 19H3.75C3.33579 19 3 18.6642 3 18.25Z\" fill=\"currentColor\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M18 10C18.4142 10 18.75 10.3358 18.75 10.75V17.1893L20.7197 15.2197C21.0126 14.9268 21.4874 14.9268 21.7803 15.2197C22.0732 15.5126 22.0732 15.9874 21.7803 16.2803L18.5303 19.5303C18.2374 19.8232 17.7626 19.8232 17.4697 19.5303L14.2197 16.2803C13.9268 15.9874 13.9268 15.5126 14.2197 15.2197C14.5126 14.9268 14.9874 14.9268 15.2803 15.2197L17.25 17.1893V10.75C17.25 10.3358 17.5858 10 18 10Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/sort-down.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/sort-down.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Arrows"
+      ],
+      "tags": [
+        "filter-desc"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/sort-down",
+        "import": "import '@sebgroup/green-core/icon/sort-down.js'",
+        "component": "<gds-icon-sort-down></gds-icon-sort-down>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/sort-down",
+        "import": "import { IconSortDown } from '@sebgroup/green-react/icon/sort-down'",
+        "component": "<IconSortDown></IconSortDown>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/sort-down",
+        "import": "import '@sebgroup/green-core/icon/sort-down.js'",
+        "component": "<gds-icon-sort-down></gds-icon-sort-down>"
+      }
+    }
+  },
+  "sort-up": {
+    "id": "sort-up",
+    "nodeId": "5805:1115",
+    "displayName": "Sort Up",
+    "fileName": "sort-up.svg",
+    "reactName": "IconSortUp",
+    "urlPath": "sort-up",
+    "variants": {
+      "regular": "<path d=\"M3.75 18.25H18.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M3.75 12H11.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M3.75 5.75H9.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M18 13.25V5.25M14.75 8L18 4.75L21.25 8\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 18.25C3 17.8358 3.33579 17.5 3.75 17.5H18.25C18.6642 17.5 19 17.8358 19 18.25C19 18.6642 18.6642 19 18.25 19H3.75C3.33579 19 3 18.6642 3 18.25Z\" fill=\"currentColor\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 12C3 11.5858 3.33579 11.25 3.75 11.25H11.25C11.6642 11.25 12 11.5858 12 12C12 12.4142 11.6642 12.75 11.25 12.75H3.75C3.33579 12.75 3 12.4142 3 12Z\" fill=\"currentColor\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 5.75C3 5.33579 3.33579 5 3.75 5H9.25C9.66421 5 10 5.33579 10 5.75C10 6.16421 9.66421 6.5 9.25 6.5H3.75C3.33579 6.5 3 6.16421 3 5.75Z\" fill=\"currentColor\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M18 14C18.4142 14 18.75 13.6642 18.75 13.25V6.56066L20.7197 8.53033C21.0126 8.82322 21.4874 8.82322 21.7803 8.53033C22.0732 8.23744 22.0732 7.76256 21.7803 7.46967L18.5303 4.21967C18.2374 3.92678 17.7626 3.92678 17.4697 4.21967L14.2197 7.46967C13.9268 7.76256 13.9268 8.23744 14.2197 8.53033C14.5126 8.82322 14.9874 8.82322 15.2803 8.53033L17.25 6.56066V13.25C17.25 13.6642 17.5858 14 18 14Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/sort-up.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/sort-up.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Arrows"
+      ],
+      "tags": [
+        "filter-asc"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/sort-up",
+        "import": "import '@sebgroup/green-core/icon/sort-up.js'",
+        "component": "<gds-icon-sort-up></gds-icon-sort-up>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/sort-up",
+        "import": "import { IconSortUp } from '@sebgroup/green-react/icon/sort-up'",
+        "component": "<IconSortUp></IconSortUp>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/sort-up",
+        "import": "import '@sebgroup/green-core/icon/sort-up.js'",
+        "component": "<gds-icon-sort-up></gds-icon-sort-up>"
       }
     }
   },
