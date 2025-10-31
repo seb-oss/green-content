@@ -170,7 +170,7 @@
         {
           "type": "rich-text",
           "title": "Page alert",
-          "content": "Used for messages affecting the entire page (e.g., Bankgiro is down).\n\n*   Placed at the top of the page, below the header."
+          "content": "Used for messages affecting the entire page (e.g., _Bankgiro is down_).\n\n*   Placed at the top of the page, below the header."
         },
         {
           "type": "rich-text",
