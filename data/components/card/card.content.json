@@ -5,7 +5,7 @@
   "beta": false,
   "soon": false,
   "summary": "The card groups related content into a single container.",
-  "preamble": "The card is a container component used to group related content and actions. It serves as the foundation for our card patterns. Card can contain multiple interactive elements (buttons and links) or be configured as a single interactive element (a linked card).",
+  "preamble": "The card is a container component used to group related content and actions. It serves as the foundation for our card patterns. A card can contain multiple interactive elements (buttons and links) or be configured as a single interactive element (a linked card).",
   "anatomy": true,
   "anatomy-list": {
     "anatomyitems": [
@@ -35,14 +35,14 @@
       "columns": [
         {
           "type": "snippet",
-          "caption": "Neutral 01 (grey)\t- default choice for use on white backgrounds.",
+          "caption": "Neutral 01 (grey)\t– default choice for use on white backgrounds.",
           "plain": false,
           "replay": false,
           "Snippet": "card-neutral-01"
         },
         {
           "type": "snippet",
-          "caption": "Neutral 02 (white) - use on darker or grey backgrounds.",
+          "caption": "Neutral 02 (white) – use on darker or grey backgrounds.",
           "plain": false,
           "replay": false,
           "Snippet": "card-neutral-02"
@@ -101,14 +101,14 @@
     },
     {
       "title": "Usage",
-      "section-content": "Do not mix linked and default cards in the same group or grid.  \nInteractions should be consistent across a set of cards to ensure a predictable and accessible experience. If you must use both in the same view, do it with care, for example, by visually separating them or clearly communicating the interaction difference.",
+      "section-content": "Do not mix linked and default cards in the same group or grid. Interactions should be consistent across a set of cards to ensure a predictable and accessible experience. If you must use both in the same view, do it with care, for example, by visually separating them or clearly communicating the interaction difference.",
       "cols": "1",
       "columns": [
         {
           "type": "rich-text",
           "title": "Why this matters",
           "tag": "H3",
-          "content": "*   **Consistency** - users should understand how a card behaves before they interact with it. Mixing types can make it unclear whether the whole card or only parts are clickable.\n    \n*   **Accessibility** - linked cards rely on different interaction logic and focus handling compared to cards with multiple actions. Mixing them can create confusion for keyboard and screen-reader users.\n    \n*   **Visual clarity** - linked cards use hover and press states that don’t apply to default cards, which can create inconsistent visual feedback."
+          "content": "*   **Consistency** – users should understand how a card behaves before they interact with it. Mixing types can make it unclear whether the whole card or only parts are clickable.\n    \n*   **Accessibility** – linked cards rely on different interaction logic and focus handling compared to cards with multiple actions. Mixing them can create confusion for keyboard and screen-reader users.\n    \n*   **Visual clarity** – linked cards use hover and press states that don’t apply to default cards, which can create inconsistent visual feedback."
         }
       ]
     },
@@ -144,7 +144,7 @@
           "name": "card-faq",
           "summary": "How should I use the card component in Figma?",
           "open": false,
-          "content": "The card component is the foundation used inside all card patterns.  \nYou can also use it on its own when building custom layouts that aren’t covered by a predefined pattern."
+          "content": "The card component is the foundation used inside all card patterns. You can also use it on its own when building custom layouts that aren’t covered by a predefined pattern."
         },
         {
           "type": "details",
@@ -165,7 +165,7 @@
           "name": "card-faq",
           "summary": "When should I use the standalone card instead of a pattern?",
           "open": false,
-          "content": "Use the standalone card only when you need a custom layout or experimental setup that doesn’t fit an existing pattern.  \nFor standard use cases, start from a card pattern instead - it already includes structure, spacing, and slot logic.\n\nTip: Starting with a card pattern helps maintain consistency across spacing, hierarchy, and interaction behavior."
+          "content": "Use the standalone card only when you need a custom layout or experimental setup that doesn’t fit an existing pattern. For standard use cases, start from a card pattern instead - it already includes structure, spacing, and slot logic.\n\nTip: Starting with a card pattern helps maintain consistency across spacing, hierarchy, and interaction behavior."
         },
         {
           "type": "details",
