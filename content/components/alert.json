@@ -179,7 +179,7 @@
         },
         {
           "type": "rich-text",
-          "title": "Specific",
+          "title": "Specific alert",
           "content": "Used for messages related to specific content (e.g., _Negative balance_).\n\n*   Placed directly in the content area, close to the element it concerns (such as a table or field)."
         }
       ]
