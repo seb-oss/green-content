@@ -194,6 +194,7 @@
     {
       "title": "Placement",
       "section-content": "The most important rule is to place the alert near the issue that triggered it.",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
@@ -208,13 +209,11 @@
         },
         {
           "type": "rich-text",
-          "title": "Group alert",
           "content": "Used for messages related to a specific module (e.g., _Transaction listing is unavailable_).\n\n*   Placed within the module, at the top."
         },
         {
           "type": "rich-text",
-          "title": "Specific alert",
-          "content": "Used for messages related to specific content (e.g., _Negative balance_).\n\n*   **Placed directly in the content area, close to the element it concerns (such as a table or field).**"
+          "content": "Used for messages related to specific content (e.g., _Negative balance_).\n\n*   Placed directly in the content area, close to the element it concerns (such as a table or field)."
         }
       ]
     }
