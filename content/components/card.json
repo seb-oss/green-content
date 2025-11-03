@@ -151,7 +151,7 @@
           "name": "card-faq",
           "summary": "What can I adjust in the card component?",
           "open": false,
-          "content": "The component supports the following adjustments:\n\n*   Switching between appearance variants (neutral 01, neutral 02, outlined)\n    \n*   Adding your own content through the slot instance"
+          "content": "The component supports the following adjustments:\n\n*   You can switch between appearance variants (neutral 01, neutral 02, outlined).\n    \n*   You can add your own content through the slot instance."
         },
         {
           "type": "details",
@@ -165,7 +165,7 @@
           "name": "card-faq",
           "summary": "When should I use the standalone card instead of a pattern?",
           "open": false,
-          "content": "Use the standalone card only when you need a custom layout or experimental setup that doesn’t fit an existing pattern. For standard use cases, start from a card pattern instead - it already includes structure, spacing, and slot logic.\n\nTip: Starting with a card pattern helps maintain consistency across spacing, hierarchy, and interaction behavior."
+          "content": "Use the standalone card only when you need a custom layout or experimental setup that doesn’t fit an existing pattern. For standard use cases, start from a card pattern instead – it already includes structure, spacing, and slot logic.\n\nTip: Starting with a card pattern helps maintain consistency across spacing, hierarchy, and interaction behavior."
         },
         {
           "type": "details",
