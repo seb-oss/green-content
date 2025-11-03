@@ -120,7 +120,7 @@
           "type": "do",
           "dolist": [
             {
-              "text": "Maintain consistency: Follow the design system’s guidelines for typography, spacing, colors, and borders to ensure cards look cohesive across the application."
+              "text": "Maintain consistency: Follow the design system guidelines for typography, spacing, colours, and borders to ensure cards look cohesive across the application."
             }
           ]
         },
