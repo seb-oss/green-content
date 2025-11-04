@@ -1,0 +1,13 @@
+{
+  "title": "Toggle switch",
+  "slug": "toggle-switch",
+  "beta": false,
+  "soon": true,
+  "summary": "A toggle switch allows users to turn a setting on or off. ",
+  "anatomy": true,
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
+}

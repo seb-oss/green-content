@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-11-03T13:50:27.771Z",
+    "lastUpdated": "2025-11-04T09:54:05.387Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -391,6 +391,16 @@
             "endpoints": {
               "content": "components/theme/theme.content.json",
               "images": "components/theme/theme.images.json"
+            }
+          },
+          {
+            "title": "Toggle switch",
+            "slug": "toggle-switch",
+            "summary": "A toggle switch allows users to turn a setting on or off. ",
+            "path": "components/toggle-switch/toggle-switch.content.json",
+            "endpoints": {
+              "content": "components/toggle-switch/toggle-switch.content.json",
+              "images": "components/toggle-switch/toggle-switch.images.json"
             }
           },
           {
