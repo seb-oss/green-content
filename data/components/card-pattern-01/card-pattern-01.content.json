@@ -34,7 +34,7 @@
   "overview": [
     {
       "title": "Slots",
-      "section-content": "All card patterns are built on top of the base card component. Card pattern 01 is available in both interaction types - default card and linked card, and uses slots to build flexible yet consistent layouts.\n\nEach variant consists of:\n\n*   **Header slot** - img, icon or custom.\n    \n*   **Main area** - includes heading and excerpt.\n    \n*   **Footer** slot Supports actions depending on card type (see below)."
+      "section-content": "All card patterns are built on top of the base card component. Card pattern 01 is available in both interaction types – default card and linked card, and uses slots to build flexible yet consistent layouts.\n\nEach variant consists of:\n\n*   **header slot** – img, icon or custom\n    \n*   **main area** – includes heading and excerpt\n    \n*   **footer** **slot** – supports actions depending on card type (see below)."
     },
     {
       "title": "Header",
@@ -142,7 +142,7 @@
     },
     {
       "title": "Variants",
-      "section-content": "In Card pattern 01, you can choose between two variants: `neutral-01` and `neutral-02`. The `neutral-02` variant can also be outlined.",
+      "section-content": "In card pattern 01, you can choose between two variants: `neutral-01` and `neutral-02`. The `neutral-02` variant can also be outlined.",
       "cols": "1",
       "columns": [
         {
@@ -182,7 +182,7 @@
           "name": "faq-cp01",
           "summary": "Should I edit the nested card inside a pattern?",
           "open": false,
-          "content": "No. When using a Card pattern 01 component, you should not adjust any properties on the nested card itself. All changes should be made from the pattern-level properties and within the slot components. This ensures consistency and prevents conflicts between nested states or appearances."
+          "content": "No. When using Card pattern 01 component, you should not adjust any properties on the nested card itself. All changes should be made from the pattern-level properties and within the slot components. This ensures consistency and prevents conflicts between nested states or appearances."
         },
         {
           "type": "details",
