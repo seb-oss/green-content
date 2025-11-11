@@ -189,7 +189,7 @@
           "name": "faq-cp01",
           "summary": "What slot versions exist in Card pattern 01 ?",
           "open": false,
-          "content": "Each variant of Card pattern 01 is built using slot layouts that define how content areas are structured. Slots help you adapt the card to different content needs without unnecessary overrides or complex property toggles.\n\nHere are the available slot versions:\n\n*   Content only with footer - contains a heading, excerpt, and footer. Use for simple content without imagery or metadata.\n    \n*   Content with header and footer - includes an additional header slot above the text area for custom content.\n    \n*   Image as header, text and footer - adds an image area above the text block. Available in two aspect ratios: 16:9 (landscape) or 1:1 (square)."
+          "content": "Each variant of Card pattern 01 is built using slot layouts that define how content areas are structured. Slots help you adapt the card to different content needs without unnecessary overrides or complex property toggles.\n\nHere are the available slot versions:\n\n*   Content only with footer – contains a heading, excerpt, and footer. Use for simple content without imagery or metadata.\n    \n*   Content with header and footer – includes an additional header slot above the text area for custom content.\n    \n*   Image as header, text and footer – adds an image area above the text block. Available in two aspect ratios: 16:9 (landscape) or 1:1 (square)."
         }
       ]
     }
