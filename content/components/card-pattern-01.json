@@ -173,7 +173,7 @@
         {
           "type": "details",
           "name": "faq-cp01",
-          "summary": "How is the Card pattern 01 built in Figma?",
+          "summary": "How is the card pattern 01 built in Figma?",
           "open": false,
           "content": "All components are built using nested card components and slot components. The default card and linked card are two separate base components in Figma. This separation makes it possible to apply and prototype states (like hover and pressed) on the linked version."
         },
@@ -182,14 +182,14 @@
           "name": "faq-cp01",
           "summary": "Should I edit the nested card inside a pattern?",
           "open": false,
-          "content": "No. When using Card pattern 01 component, you should not adjust any properties on the nested card itself. All changes should be made from the pattern-level properties and within the slot components. This ensures consistency and prevents conflicts between nested states or appearances."
+          "content": "No. When using card pattern 01 component, you should not adjust any properties on the nested card itself. All changes should be made from the pattern-level properties and within the slot components. This ensures consistency and prevents conflicts between nested states or appearances."
         },
         {
           "type": "details",
           "name": "faq-cp01",
-          "summary": "What slot versions exist in Card pattern 01 ?",
+          "summary": "What slot versions exist in card pattern 01 ?",
           "open": false,
-          "content": "Each variant of Card pattern 01 is built using slot layouts that define how content areas are structured. Slots help you adapt the card to different content needs without unnecessary overrides or complex property toggles.\n\nHere are the available slot versions:\n\n*   Content only with footer – contains a heading, excerpt, and footer. Use for simple content without imagery or metadata.\n    \n*   Content with header and footer – includes an additional header slot above the text area for custom content.\n    \n*   Image as header, text and footer – adds an image area above the text block. Available in two aspect ratios: 16:9 (landscape) or 1:1 (square)."
+          "content": "Each variant of card pattern 01 is built using slot layouts that define how content areas are structured. Slots help you adapt the card to different content needs without unnecessary overrides or complex property toggles.\n\nHere are the available slot versions:\n\n*   Content only with footer – contains a heading, excerpt, and footer. Use for simple content without imagery or metadata.\n    \n*   Content with header and footer – includes an additional header slot above the text area for custom content.\n    \n*   Image as header, text and footer – adds an image area above the text block. Available in two aspect ratios: 16:9 (landscape) or 1:1 (square)."
         }
       ]
     }
