@@ -221,17 +221,6 @@
         },
         {
           "type": "rich-text",
-          "title": "Static data",
-          "tag": "H3",
-          "content": "Used to display static data in a form or compilation. This approach is preferred over disabling fields, which can be problematic for accessibility."
-        },
-        {
-          "type": "figma",
-          "caption": "Example usage of static data.",
-          "node": "static-data"
-        },
-        {
-          "type": "rich-text",
           "title": "Placeholder",
           "tag": "H3",
           "content": "Avoid using placeholder text (also known as watermark), as it can confuse users into thinking the field is already filled with data. Instructions should not be placed in the field, as they disappear once the user starts typing. Instead, use support text to guide users on what should be entered."
