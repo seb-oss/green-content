@@ -8,5 +8,49 @@
     "web": false,
     "ios": false,
     "android": false
-  }
+  },
+  "ux-text": [
+    {
+      "title": "Writing UX text for table",
+      "section-content": "Tables should make information easy to scan, compare and understand at a glance. Good table writing focuses on clarity, consistency and space efficiency.",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Keep the column label short and clear",
+          "tag": "H3",
+          "content": "Use short labels and values. Aim for one or two words in each cell whenever possible. Avoid unnecessary words or repetition. If more explanation is needed, use tooltips."
+        },
+        {
+          "type": "rich-text",
+          "title": "Units and symbols",
+          "tag": "H4",
+          "content": "Do not repeat units or symbols, such as %, kr or EUR, in every cell if the entire column uses the same unit. Instead, include the unit or symbol in the column heading."
+        },
+        {
+          "type": "rich-text",
+          "title": "Be careful with capital letters",
+          "tag": "H4",
+          "content": "Use sentence case in headings and labels. Only capitalise:\n\n*   the first word\n    \n*   proper names\n    \n*   abbreviations."
+        },
+        {
+          "type": "rich-text",
+          "title": "Handle empty values clearly",
+          "tag": "H3",
+          "content": "Don’t leave cells blank. Use an en dash (–) to show that a value is missing or not applicable."
+        },
+        {
+          "type": "rich-text",
+          "title": "Align content for readability",
+          "tag": "H3",
+          "content": "#### Left-align text and right-align numbers to make scanning easier."
+        },
+        {
+          "type": "rich-text",
+          "title": "Error messages or other messages in tables",
+          "tag": "H3",
+          "content": "Sometimes, error handling is required in tables. Keep messages concise, as space is often limited.\n\n*   Short messages can appear within a table column.\n    \n*   Longer messages should appear in a separate row beneath the relevant data.\n    \n*   Messages may include a link to a help page or another relevant page.  \n    Messages displayed below should be limited to two rows, including any links.\n    \n\n#### Example: If a mutual fund has been removed from our range, but the customer has not yet updated their default fund distribution, an error message will appear when they try to buy funds according to that distribution or change it.\n\n**Example message:**\n\nIt is no longer possible to trade in this fund. Please change your fund distribution."
+        }
+      ]
+    }
+  ]
 }
