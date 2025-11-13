@@ -14,15 +14,17 @@
     {
       "title": "Writing UX text for toggle switch",
       "tag": "H2",
-      "section-content": "### Be clear about what on and off mean\n\nThe labels or nearby text should make the toggle’s purpose clear. Users should instantly understand what happens when it’s turned on or off – don’t be vague. Write labels that describe the active state, not the action, and avoid negatives as they can cause confusion.\n\n**Do – labels that describe the active state:**\n\n_Notifications_ – On/Off\n\n_Dark mode_ – On/Off  \n  \n\n**Don't – describe the action, be too vague or use netagtives:**\n\n_Turn on notification_ or _Turn on dark mode –_ On/Off\n\n_Enable_ – On/Off (too vague, enable what?)\n\nDisable _–_ On/Off\n\nDon’t show _–_ On/Off"
+      "section-content": "### Be clear about what on and off mean\n\nThe labels or nearby text should make the toggle’s purpose clear. Users should instantly understand what happens when it’s turned on or off – don’t be vague. Write labels that describe the active state, not the action, and avoid negatives as they can cause confusion.\n\n**Do – labels that describe the active state:**\n\n_Notifications_ – On/Off\n\n_Dark mode_ – On/Off\n\n**Don't – describe the action, be too vague or use netagtives:**\n\n_Turn on notification_ or _Turn on dark mode –_ On/Off\n\n_Enable_ – On/Off (too vague, enable what?)\n\nDisable _–_ On/Off\n\nDon’t show _–_ On/Off"
     },
     {
       "title": "Keep labels short",
+      "tag": "H3",
       "section-content": "One or two words is ideal.\n\n**Do:** _Wi-Fi_, _Location_, _Auto-update_  \n**Don’t:** _Automatically download updates in the background_"
     },
     {
       "title": "Provide context where needed",
-      "section-content": "Add a short description if the toggle affects something non-obvious.  \n  \n**Example:**  \nAuto-renew – On/Off  \n_Your subscription will renew every month._"
+      "tag": "H3",
+      "section-content": "Add a short description if the toggle affects something non-obvious.\n\n**Example:**  \nAuto-renew – On/Off  \n_Your subscription will renew every month._"
     }
   ]
 }
