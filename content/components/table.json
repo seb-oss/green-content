@@ -1,0 +1,12 @@
+{
+  "title": "Table",
+  "slug": "table",
+  "beta": false,
+  "soon": true,
+  "anatomy": true,
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
+}
