@@ -209,6 +209,11 @@
       "path": "components/spinner/spinner.content.json"
     },
     {
+      "title": "Table",
+      "slug": "table",
+      "path": "components/table/table.content.json"
+    },
+    {
       "title": "Text",
       "slug": "text",
       "summary": "Text summary",
@@ -245,6 +250,6 @@
       "path": "components/yearpicker/yearpicker.content.json"
     }
   ],
-  "total": 41,
-  "lastUpdated": "2025-11-13T12:13:42.301Z"
+  "total": 42,
+  "lastUpdated": "2025-11-13T12:17:00.566Z"
 }
