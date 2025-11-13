@@ -26,7 +26,12 @@
           ]
         },
         {
-          "type": "dont"
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don't – describe the action, be too vague or use negatives:  Turn on notification or Turn on dark mode – On/Off  Enable – On/Off (too vague, enable what?)  Disable – On/Off  Don’t show – On/Off"
+            }
+          ]
         }
       ]
     },
