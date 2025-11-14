@@ -14,7 +14,7 @@
     {
       "title": "Writing UX text for toggle switch",
       "tag": "H2",
-      "section-content": "### Be clear about what on and off mean\n\nThe labels or nearby text should make the toggle’s purpose clear. Users should instantly understand what happens when it’s turned on or off – don’t be vague. Write labels that describe the active state, not the action, and avoid negatives as they can cause confusion.\n\n**Do – labels that describe the active state:**\n\n_Notifications_ – On/Off\n\n_Dark mode_ – On/Off\n\n**Don't – describe the action, be too vague or use negatives:**\n\n_Turn on notification_ or _Turn on dark mode –_ On/Off\n\n_Enable_ – On/Off (too vague, enable what?)\n\nDisable _–_ On/Off\n\nDon’t show _–_ On/Off"
+      "section-content": "The labels or nearby text should make the toggle’s purpose clear. Labels should make the purpose obvious at a glance, show what the on and off state means, and avoid confusion or unnecessary wording. The goal is to help users feel confident about the choice they’re making. Write labels that describe the active state, not the action, be clear, and avoid vague wording or unclear terms, and don't use negatives as they can cause confusion.\n\n**Do – labels that describe the active state:**\n\n_Notifications_ – On/Off\n\n_Dark mode_ – On/Off\n\n**Don't – describe the action, be too vague or use negatives:**\n\n_Turn on notification_ or _Turn on dark mode –_ On/Off\n\n_Enable_ – On/Off (too vague, enable what?)\n\nDisable _–_ On/Off\n\nDon’t show _–_ On/Off"
     },
     {
       "title": "Keep labels short",
