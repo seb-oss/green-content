@@ -44,7 +44,7 @@
     {
       "title": "Neutral",
       "tag": "H3",
-      "section-content": "Guidelines coming soon.",
+      "section-content": "This is our default button used for most cases. Carefully choose what rank to use and avoid using more than one primary button for each context.",
       "cols": "1",
       "columns": [
         {
@@ -58,7 +58,7 @@
     {
       "title": "Brand",
       "tag": "H3",
-      "section-content": "Generally avoid using this button. Further guidelines coming soon.",
+      "section-content": "Our brand button is used in specific scenarios, such as hero areas, login or brand enforcing messages.",
       "cols": "1",
       "columns": [
         {
@@ -66,20 +66,6 @@
           "plain": false,
           "replay": false,
           "Snippet": "button-brand"
-        }
-      ]
-    },
-    {
-      "title": "Positive",
-      "tag": "H3",
-      "section-content": "Guidelines coming soon.",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "button-positive"
         }
       ]
     },
@@ -114,7 +100,7 @@
     {
       "title": "Icon button",
       "section-content": "Use an icon button only when the icon is universally understood and can stand on its own, such as a close or expand icon.\n\nIf the action is not immediately clear, use a regular button with a text label instead to ensure clarity and accessibility.\n\nThe icon button comes in the same ranks and variants as regular buttons.",
-      "cols": "3",
+      "cols": "2",
       "columns": [
         {
           "type": "snippet",
@@ -122,13 +108,6 @@
           "plain": false,
           "replay": false,
           "Snippet": "button-icon-button-neutral"
-        },
-        {
-          "type": "snippet",
-          "caption": "Positive",
-          "plain": false,
-          "replay": false,
-          "Snippet": "button-icon-button-positive"
         },
         {
           "type": "snippet",
@@ -186,7 +165,7 @@
     },
     {
       "title": "Size",
-      "section-content": "Buttons can be xs, small, medium or large. The default size is medium.",
+      "section-content": "Buttons can be xs, small, medium or large. The default size is medium.  \nChoose size depending on context. Avoid to mix different sizes in the same context.",
       "cols": "2",
       "columns": [
         {
@@ -217,7 +196,7 @@
     },
     {
       "title": "Desktop placements",
-      "section-content": "*   **Left**: In overviews and widgets, the user tends to read from top to bottom, therefore the buttons are kept to the left.\n    \n*   **Right**: Modals and flows move the user from left to right, therefore the buttons are placed to the right.",
+      "section-content": "*   **Left**: In overviews and widgets, the user tends to read from top to bottom following the left side, therefore the buttons are kept to the left. Place the primary button furthest to the left.\n    \n*   **Right**: Modals and flows move the user forward (interpreted as to the right in western culture), therefore the buttons are placed to the right. Place the primary button furthest to the right.",
       "cols": "2",
       "columns": [
         {
@@ -227,7 +206,7 @@
         },
         {
           "type": "figma",
-          "caption": "Placement",
+          "caption": "Placement right",
           "node": "placement-desktop-2"
         }
       ]
