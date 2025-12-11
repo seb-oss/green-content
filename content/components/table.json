@@ -13,6 +13,7 @@
     {
       "title": "Writing UX text for table",
       "section-content": "Tables should make information easy to scan, compare and understand at a glance. Good table writing focuses on clarity, consistency and space efficiency.",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
