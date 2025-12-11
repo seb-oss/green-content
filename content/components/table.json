@@ -49,7 +49,7 @@
           "type": "rich-text",
           "title": "Error messages or other messages in tables",
           "tag": "H3",
-          "content": "Sometimes, error handling is required in tables. Keep messages concise, as space is often limited.\n\n*   Short messages can appear within a table column.\n    \n*   Longer messages should appear in a separate row beneath the relevant data.\n    \n*   Messages may include a link to a help page or another relevant page.  \n    Messages displayed below should be limited to two rows, including any links.\n    \n\n#### Example: If a mutual fund has been removed from our range, but the customer has not yet updated their default fund distribution, an error message will appear when they try to buy funds according to that distribution or change it.\n\n**Example message:**\n\nIt is no longer possible to trade in this fund. Please change your fund distribution."
+          "content": "Sometimes, error handling is required in tables. Keep messages concise, as space is often limited.\n\n*   Short messages can appear within a table column.\n    \n*   Longer messages should appear in a separate row beneath the relevant data.\n    \n*   Messages may include a link to a help page or another relevant page.  \n    Messages displayed below should be limited to two rows, including any links.\n    \n\nExample: If a mutual fund has been removed from our range, but the customer has not yet updated their default fund distribution, an error message will appear when they try to buy funds according to that distribution or change it.\n\n**Example message:**\n\nIt is no longer possible to trade in this fund. Please change your fund distribution."
         }
       ]
     }
