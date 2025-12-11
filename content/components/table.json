@@ -43,7 +43,7 @@
           "type": "rich-text",
           "title": "Align content for readability",
           "tag": "H3",
-          "content": "#### Left-align text and right-align numbers to make scanning easier."
+          "content": "Left-align text and right-align numbers to make scanning easier."
         },
         {
           "type": "rich-text",
