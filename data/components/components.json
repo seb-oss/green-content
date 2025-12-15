@@ -162,12 +162,6 @@
       "path": "components/menu-button/menu-button.content.json"
     },
     {
-      "title": "Monthpicker",
-      "slug": "monthpicker",
-      "summary": "The monthpicker displays a grid of selectable months.",
-      "path": "components/monthpicker/monthpicker.content.json"
-    },
-    {
       "title": "Popover",
       "slug": "popover",
       "summary": "A popover is a temporary view that appears above other content.",
@@ -243,14 +237,8 @@
       "slug": "video",
       "summary": "Video summary",
       "path": "components/video/video.content.json"
-    },
-    {
-      "title": "Yearpicker",
-      "slug": "yearpicker",
-      "summary": "The yearpicker displays a grid of selectable years.",
-      "path": "components/yearpicker/yearpicker.content.json"
     }
   ],
-  "total": 42,
-  "lastUpdated": "2025-12-15T12:43:31.320Z"
+  "total": 40,
+  "lastUpdated": "2025-12-15T13:07:06.887Z"
 }
