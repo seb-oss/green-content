@@ -5,9 +5,9 @@
   "featured": [
     "badge",
     "button",
-    "card",
     "dropdown",
     "input",
-    "segmented-control"
+    "segmented-control",
+    "table"
   ]
 }
