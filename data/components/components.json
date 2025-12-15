@@ -211,6 +211,7 @@
     {
       "title": "Table",
       "slug": "table",
+      "summary": "A customizable table with pagination, sorting and filtering.",
       "path": "components/table/table.content.json"
     },
     {
@@ -251,5 +252,5 @@
     }
   ],
   "total": 42,
-  "lastUpdated": "2025-12-15T12:41:59.321Z"
+  "lastUpdated": "2025-12-15T12:43:31.320Z"
 }
