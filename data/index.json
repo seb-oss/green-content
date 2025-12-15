@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-12-11T09:51:05.360Z",
+    "lastUpdated": "2025-12-15T12:41:59.320Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1849,6 +1849,15 @@
             "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>",
             "endpoints": {
               "content": "snippets/spinner-ux-text/spinner-ux-text.json"
+            }
+          },
+          {
+            "title": "Table: Hero",
+            "slug": "table-hero",
+            "path": "snippets/table-hero/table-hero.json",
+            "code": "<gds-table>\n</gds-table>",
+            "endpoints": {
+              "content": "snippets/table-hero/table-hero.json"
             }
           }
         ]
