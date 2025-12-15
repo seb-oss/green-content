@@ -1,14 +1,21 @@
 {
   "title": "Table",
   "slug": "table",
-  "beta": false,
+  "hero_snippet": "table-hero",
+  "beta": true,
   "soon": true,
+  "summary": "A customizable table with pagination, sorting and filtering.",
   "anatomy": true,
   "platform": {
     "web": false,
     "ios": false,
     "android": false
   },
+  "overview": [
+    {
+      "section-content": "A data table component that handles asynchronous data loading, pagination, sorting, and filtering through a provider function. Supports row selection, searchable columns, responsive layouts, and customizable cell rendering including badges, buttons, links, and formatted values."
+    }
+  ],
   "ux-text": [
     {
       "title": "Writing UX text for table",
