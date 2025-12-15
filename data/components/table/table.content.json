@@ -6,6 +6,12 @@
   "soon": true,
   "summary": "A customizable table with pagination, sorting and filtering.",
   "anatomy": true,
+  "tags": [
+    "data"
+  ],
+  "category": [
+    "Components"
+  ],
   "platform": {
     "web": false,
     "ios": false,
