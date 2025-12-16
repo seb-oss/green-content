@@ -21,6 +21,11 @@
   "overview": [
     {
       "section-content": "A data table component that handles asynchronous data loading, pagination, sorting, and filtering through a provider function. Supports row selection, searchable columns, responsive layouts, and customizable cell rendering including badges, buttons, links, and formatted values."
+    },
+    {
+      "title": "Guidelines",
+      "section-content": "*   Always include a header row\n    \n*   Use clear and descriptive column labels\n    \n*   Keep the structure predictable and consistent\n    \n*   Avoid complex or merged headers where possible\n    \n*   Text content should be left-aligned for readability.\n    \n*   Numeric values should be right-aligned, preferably aligned by decimal, to support comparison.\n    \n*   Avoid repeating information in table cells when it can be communicated through the column header. Reducing repetition improves scannability and overall clarity.",
+      "cols": "1"
     }
   ],
   "ux-text": [
