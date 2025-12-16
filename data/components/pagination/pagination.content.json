@@ -1,0 +1,12 @@
+{
+  "title": "Pagination",
+  "slug": "pagination",
+  "beta": true,
+  "soon": false,
+  "anatomy": false,
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
+}
