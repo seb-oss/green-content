@@ -64,6 +64,12 @@
           "title": "Sorting accessibility considerations",
           "tag": "H4",
           "content": "*   Sorting must be available using keyboard interaction.\n    \n*   The current sort state should be communicated to assistive technologies.\n    \n*   The sorting indicator should not be the only way to convey sorting state."
+        },
+        {
+          "type": "rich-text",
+          "title": "Density modes",
+          "tag": "H3",
+          "content": "The density property allows customizing the table's visual spacing with these options:\n\n*   **Comfortable** (Default) - Standard spacing for balanced readability\n    \n*   **Compact** \\- Reduced spacing to maximize information density\n    \n*   **Spacious** - Increased spacing for enhanced readability"
         }
       ]
     },
