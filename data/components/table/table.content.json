@@ -42,7 +42,7 @@
     {
       "title": "When to use",
       "tag": "H2",
-      "section-content": "### Use the table component when:\n\n*   You have multiple items that share the same set of attributes  (for example users, transactions, configurations or accounts).\n    \n*   Users need to compare values across items, such as dates, statuses or amounts.\n    \n*   The content is data-centric, rather than descriptive or narrative.\n    \n*   Users are expected to scan, sort, filter or act on the data.\n    \n*   The information has a clear and consistent structure, where each column represents the same type of data across all rows."
+      "section-content": "*   You have multiple items that share the same set of attributes  (for example users, transactions, configurations or accounts).\n    \n*   Users need to compare values across items, such as dates, statuses or amounts.\n    \n*   The content is data-centric, rather than descriptive or narrative.\n    \n*   Users are expected to scan, sort, filter or act on the data.\n    \n*   The information has a clear and consistent structure, where each column represents the same type of data across all rows."
     },
     {
       "title": "When not to use",
