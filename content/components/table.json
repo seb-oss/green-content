@@ -57,10 +57,12 @@
       "section-content": "The `variant` property controls the visual style of the table container card. These variants can be used: `primary`, `secondary` (Default), `tertiary`\n\n> Naming is subject to change on the next major release. On Figma they are named Neutral 01 (primary), Neutral 02 (Secondary) and Neutral 02 · Outlined (Tertiary)"
     },
     {
-      "title": "Striped"
+      "title": "Striped",
+      "section-content": "When `striped` boolean is set, alternating row background colors are applied to even-numbered rows."
     },
     {
-      "title": "Plain"
+      "title": "Plain",
+      "section-content": "When `plain` boolean is set, the table header and footer are removed, rendering only the data table."
     },
     {
       "title": "Interactions",
@@ -82,6 +84,10 @@
     {
       "title": "Responsive",
       "section-content": "When the responsive boolean is set to true, the table transforms its layout for smaller screens, will retain horizontal scroll until that condition is met at smaller than 760px.\n\n*   Rows are restructured into a card-like format\n    \n*   Column names are displayed on the left side\n    \n*   Corresponding cell values are shown on the right side"
+    },
+    {
+      "title": "Slots",
+      "section-content": "There are dedicated slots on the header area to slot in other GDS components such as dropdown or button for filtering and exporting data.\n\n> Table has state slots that can be used when there is an error, empty and not search results."
     },
     {
       "title": "Guidelines",
