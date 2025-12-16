@@ -130,6 +130,9 @@
             },
             {
               "text": "Items are standalone and do not share a common structure."
+            },
+            {
+              "text": "The dataset is small and comparison does not add value."
             }
           ]
         }
