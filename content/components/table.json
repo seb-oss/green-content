@@ -106,6 +106,9 @@
               "text": "Use tables for overview and comparison."
             },
             {
+              "text": "You have multiple items that share the same set of attributes  (for example users, transactions, configurations or accounts)."
+            },
+            {
               "text": "Keep structure simple and consistent."
             },
             {
