@@ -45,6 +45,7 @@
     },
     {
       "title": "Features",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
