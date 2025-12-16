@@ -88,7 +88,7 @@
     },
     {
       "title": "Slots",
-      "section-content": "There are dedicated slots on the header area to slot in other GDS components such as dropdown or button for filtering and exporting data.\n\nTable supports state slots:\n\n1.  Error\n    \n2.  Empty\n    \n3.  No results"
+      "section-content": "The table header includes dedicated slots for other Green Design System components, such as dropdowns or buttons, used for filtering and exporting data. The table also supports state slots for error, empty and no results states."
     },
     {
       "title": "Guidelines",
