@@ -5,7 +5,6 @@
   "beta": true,
   "soon": false,
   "summary": "A customizable table with pagination, sorting and filtering.",
-  "preamble": "A data table component that handles asynchronous data loading, pagination, sorting, and filtering through a provider function. Supports row selection, searchable columns, responsive layouts, and customizable cell rendering including badges, buttons, links, and formatted values.",
   "anatomy": true,
   "anatomy-list": {
     "anatomyitems": [
