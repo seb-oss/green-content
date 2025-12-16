@@ -44,6 +44,34 @@
       "section-content": "*   Items are standalone and do not share a common structure.\n    \n*   Content is primarily descriptive, narrative or instructional.\n    \n*   You are presenting steps, guidelines, explanations or recommendations.\n    \n*   The dataset is small and comparison does not add value.\n    \n*   A simpler structure provides better readability and accessibility.\n    \n\n### Consider alternatives\n\n*   **Bulleted lists** - For independent items without comparable attributes.\n    \n*   **Numbered lists** - When order or sequence matters.\n    \n*   **Text or other components** - When content is explanatory or not data-driven."
     },
     {
+      "title": "Features",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Sorting",
+          "content": "Table header cells can support sorting when enabled. Sorting helps users organise data and compare values within a column."
+        },
+        {
+          "type": "rich-text",
+          "title": "Sorting behaviour",
+          "tag": "H3",
+          "content": "*   A sorting indicator is shown on hover when sorting is enabled.\n    \n*   Selecting a column header sorts the table by that column.\n    \n*   The sorting indicator remains visible while the column is sorted.\n    \n*   Selecting the same column header again reverses the sort order.\n    \n*   When justified to the right, sorting indicator appears on the left. Column label positioned to the right of the indicator.\n    \n*   Only one column can be sorted at a time."
+        },
+        {
+          "type": "rich-text",
+          "title": "Sorting guidelines",
+          "tag": "H3",
+          "content": "*   Enable sorting only when it adds clear value for the user.\n    \n*   Use sorting primarily for columns with comparable values, such as numbers, dates or statuses.\n    \n*   Avoid enabling sorting on columns where order is not meaningful.\n    \n*   Ensure the sorting state is clearly communicated visually."
+        },
+        {
+          "type": "rich-text",
+          "title": "Sorting accessibility considerations",
+          "tag": "H3",
+          "content": "*   Sorting must be available using keyboard interaction.\n    \n*   The current sort state should be communicated to assistive technologies.\n    \n*   The sorting indicator should not be the only way to convey sorting state."
+        }
+      ]
+    },
+    {
       "title": "Guidelines",
       "section-content": "*   Always include a header row.\n    \n*   Use clear and descriptive column labels.\n    \n*   Keep the structure predictable and consistent.\n    \n*   Avoid complex or merged headers where possible.\n    \n*   Text content should be left-aligned for readability.\n    \n*   Numeric values should be right-aligned, preferably aligned by decimal, to support comparison.\n    \n*   Avoid repeating information in table cells when it can be communicated through the column header. Reducing repetition improves scannability and overall clarity.",
       "cols": "1"
