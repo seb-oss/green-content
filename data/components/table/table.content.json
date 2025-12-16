@@ -16,6 +16,15 @@
       },
       {
         "text": "Cells - Contain values aligned to the column type."
+      },
+      {
+        "text": "Column label"
+      },
+      {
+        "text": "Sort icon"
+      },
+      {
+        "text": "Table container (card)"
       }
     ]
   },
