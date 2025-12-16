@@ -79,7 +79,8 @@
       "section-content": "All the cell content types can be used on actions.\n\nActions accepts an array of cell types such as buttons. When you need to use two buttons align them to the left.\n\nIf you have more than two buttons use the context menu.\n\nActions will always show in the end of the row."
     },
     {
-      "title": "Formatting"
+      "title": "Formatting",
+      "section-content": "**Column justification**  \nDefault alignment is left (start), with options to justify content to the right (end), and supports space-between layouts.  \nExample: in email columns where cell value and action buttons need clear distinction and consistent alignment across rows.\n\n**Column width and wrapping**  \nColumns can have custom width. When width is set, content will wrap within the cell.\n\n**Cell vertical alignment**  \nCells can be vertically aligned to start (default centered). Recommended to align to start when long or wrapped content is present, ensuring consistent top alignment for labels or values across rows.\n\n**Sortable columns**  \nWhen justified to the right, sorting indicator appears on the left. Column label positioned to the right of the indicator."
     },
     {
       "title": "Responsive",
