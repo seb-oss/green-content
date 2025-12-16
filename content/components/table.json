@@ -4,7 +4,7 @@
   "hero_snippet": "table-hero",
   "beta": true,
   "soon": false,
-  "summary": "A customizable table with pagination, sorting and filtering.",
+  "summary": "A table displays structured data for overview and comparison.",
   "anatomy": true,
   "anatomy-list": {
     "anatomyitems": [
