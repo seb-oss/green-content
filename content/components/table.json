@@ -68,52 +68,8 @@
     {
       "title": "Cell content types",
       "tag": "H2",
-      "section-content": "Write a short text about the different cell content you can use.  \nAny of the cell types can be used on the main value, lead or trail slot.",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Badge",
-          "tag": "H3",
-          "content": "\\[\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\]"
-        },
-        {
-          "type": "rich-text",
-          "title": "Image",
-          "tag": "H3",
-          "content": "\\[\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\]"
-        },
-        {
-          "type": "rich-text",
-          "title": "Icon",
-          "tag": "H3",
-          "content": "\\[\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\]"
-        },
-        {
-          "type": "rich-text",
-          "title": "Button",
-          "tag": "H3",
-          "content": "\\[\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\]"
-        },
-        {
-          "type": "rich-text",
-          "title": "Link",
-          "tag": "H3",
-          "content": "\\[\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\]"
-        },
-        {
-          "type": "rich-text",
-          "title": "Context menu",
-          "tag": "H3",
-          "content": "\\[\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\]"
-        },
-        {
-          "type": "rich-text",
-          "title": "Formatters",
-          "tag": "H3",
-          "content": "Formatted text such as number, account and date"
-        }
-      ]
+      "section-content": "The table supports multiple cell types:\n\n1.  Badge\n    \n2.  Image\n    \n3.  Icon\n    \n4.  Button\n    \n5.  Link\n    \n6.  Context menu\n    \n7.  Formatted text\n    \n    1.  Number\n        \n    2.  Account\n        \n    3.  Date\n        \n\nCell types correspond to their respective Green Design System components and accept their available properties for customization.  \n  \nAny of the cell types can be used on the main value, lead or trail slot.",
+      "cols": "1"
     },
     {
       "title": "Actions",
