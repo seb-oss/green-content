@@ -1,6 +1,7 @@
 {
   "title": "Pagination",
   "slug": "pagination",
+  "hero_snippet": "pagination-hero",
   "beta": true,
   "soon": false,
   "anatomy": false,
