@@ -54,7 +54,7 @@
     },
     {
       "title": "Variants",
-      "section-content": "The `variant` property controls the visual style of the table container card.\n\nThere are three variants available:\n\n1.  Primary\n    \n2.  Secondary\n    \n3.  Tertiary\n    \n\n**Naming will change on the next major release:**  \nPrimary - Neutral 01, Secondary - Neutral 02, Tertiary - Neutral 02 (Outlined boolean)."
+      "section-content": "The `variant` property controls the visual style of the table container card.\n\nThere are three variants available:\n\n1.  **Primary**\n    \n2.  **Secondary**\n    \n3.  **Tertiary**\n    \n\n**Naming will change on the next major release:**  \nPrimary - Neutral 01, Secondary - Neutral 02, Tertiary - Neutral 02 (Outlined boolean)."
     },
     {
       "title": "Striped",
@@ -71,7 +71,7 @@
     {
       "title": "Cell",
       "tag": "H2",
-      "section-content": "The table supports multiple cell types, each mapped to corresponding Green Design System components and their available properties. Any cell type can be used in the main value, lead or trail slot.\n\n1.  Badge\n    \n2.  Image\n    \n3.  Icon\n    \n4.  Button\n    \n5.  Link\n    \n6.  Context menu\n    \n7.  Formatted text - Number, account, date",
+      "section-content": "The table supports multiple cell types, each mapped to corresponding Green Design System components and their available properties. Any cell type can be used in the main value, lead or trail slot.\n\n1.  **Badge**\n    \n2.  **Image**\n    \n3.  **Icon**\n    \n4.  **Button**\n    \n5.  **Link**\n    \n6.  **Context menu**\n    \n7.  **Formatted text - Number, account, date**",
       "cols": "1"
     },
     {
