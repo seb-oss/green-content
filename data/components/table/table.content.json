@@ -44,97 +44,77 @@
       "section-content": "The table component is used to display structured data in rows and columns. It supports overview, comparison and data-driven tasks where users need to scan or interact with multiple items.  \nTables should represent meaningful data relationships and must not be used for layout or visual alignment."
     },
     {
-      "title": "When to use",
-      "tag": "H2",
-      "section-content": "*   You have multiple items that share the same set of attributes  (for example users, transactions, configurations or accounts).\n    \n*   Users need to compare values across items, such as dates, statuses or amounts.\n    \n*   The content is data-centric, rather than descriptive or narrative.\n    \n*   Users are expected to scan, sort, filter or act on the data.\n    \n*   The information has a clear and consistent structure, where each column represents the same type of data across all rows."
+      "title": "Sorting",
+      "section-content": "Table header cells can support sorting when enabled. Sorting helps users organise data and compare values within a column.\n\n*   A sorting indicator is shown on hover when sorting is enabled.\n    \n*   Selecting a column header sorts the table by that column.\n    \n*   The sorting indicator remains visible while the column is sorted.\n    \n*   Selecting the same column header again reverses the sort order.\n    \n*   When justified to the right, sorting indicator appears on the left. Column label positioned to the right of the indicator.\n    \n*   Only one column can be sorted at a time.\n    \n\n### Sorting guidelines\n\n*   Enable sorting only when it adds clear value for the user.\n    \n*   Use sorting primarily for columns with comparable values, such as numbers, dates or statuses.\n    \n*   Avoid enabling sorting on columns where order is not meaningful.\n    \n*   Ensure the sorting state is clearly communicated visually.\n    \n\n### Sorting accessibility considerations\n\n*   Sorting must be available using keyboard interaction.\n    \n*   The current sort state should be communicated to assistive technologies.\n    \n*   The sorting indicator should not be the only way to convey sorting state.",
+      "cols": "1"
     },
     {
-      "title": "When not to use",
-      "section-content": "*   Items are standalone and do not share a common structure.\n    \n*   Content is primarily descriptive, narrative or instructional.\n    \n*   You are presenting steps, guidelines, explanations or recommendations.\n    \n*   The dataset is small and comparison does not add value.\n    \n*   A simpler structure provides better readability and accessibility.\n    \n\n### Consider alternatives\n\n*   **Bulleted lists** - For independent items without comparable attributes.\n    \n*   **Numbered lists** - When order or sequence matters.\n    \n*   **Text or other components** - When content is explanatory or not data-driven."
+      "title": "Density modes",
+      "section-content": "The density property allows customizing the table's visual spacing with these options:\n\n*   **Comfortable** (Default) - Standard spacing for balanced readability\n    \n*   **Compact** - Reduced spacing to maximize information density\n    \n*   **Spacious** - Increased spacing for enhanced readability"
     },
     {
-      "title": "Features",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Sorting",
-          "tag": "H3",
-          "content": "Table header cells can support sorting when enabled. Sorting helps users organise data and compare values within a column.\n\n*   A sorting indicator is shown on hover when sorting is enabled.\n    \n*   Selecting a column header sorts the table by that column.\n    \n*   The sorting indicator remains visible while the column is sorted.\n    \n*   Selecting the same column header again reverses the sort order.\n    \n*   When justified to the right, sorting indicator appears on the left. Column label positioned to the right of the indicator.\n    \n*   Only one column can be sorted at a time."
-        },
-        {
-          "type": "rich-text",
-          "title": "Sorting guidelines",
-          "tag": "H4",
-          "content": "*   Enable sorting only when it adds clear value for the user.\n    \n*   Use sorting primarily for columns with comparable values, such as numbers, dates or statuses.\n    \n*   Avoid enabling sorting on columns where order is not meaningful.\n    \n*   Ensure the sorting state is clearly communicated visually."
-        },
-        {
-          "type": "rich-text",
-          "title": "Sorting accessibility considerations",
-          "tag": "H4",
-          "content": "*   Sorting must be available using keyboard interaction.\n    \n*   The current sort state should be communicated to assistive technologies.\n    \n*   The sorting indicator should not be the only way to convey sorting state."
-        },
-        {
-          "type": "rich-text",
-          "title": "Density modes",
-          "tag": "H3",
-          "content": "The density property allows customizing the table's visual spacing with these options:\n\n*   **Comfortable** (Default) - Standard spacing for balanced readability\n    \n*   **Compact** - Reduced spacing to maximize information density\n    \n*   **Spacious** - Increased spacing for enhanced readability"
-        },
-        {
-          "type": "rich-text",
-          "title": "Interactions",
-          "tag": "H3",
-          "content": "Tables may support interaction when it helps users complete their task.  \nSupported behaviours may include:\n\n*   Column sorting\n    \n*   Row selection\n    \n*   Bulk actions\n    \n*   Interactive cells such as links or status indicators\n    \n\nOnly add interaction when it adds clear value and does not reduce clarity."
-        }
-      ]
+      "title": "Variants"
+    },
+    {
+      "title": "Interactions",
+      "section-content": "Tables may support interaction when it helps users complete their task.  \nSupported behaviours may include:\n\n*   Column sorting\n    \n*   Row selection\n    \n*   Bulk actions\n    \n*   Interactive cells such as links or status indicators\n    \n\nOnly add interaction when it adds clear value and does not reduce clarity."
     },
     {
       "title": "Cell content types",
       "tag": "H2",
-      "section-content": "Write a short text about the different cell content you can use.",
+      "section-content": "Write a short text about the different cell content you can use.  \nAny of the cell types can be used on the main value, lead or trail slot.",
       "cols": "1",
       "columns": [
         {
           "type": "rich-text",
-          "title": "Text",
+          "title": "Badge",
           "tag": "H3",
-          "content": "Write a short description here."
+          "content": "\\[\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\]"
         },
         {
           "type": "rich-text",
-          "title": "Status",
+          "title": "Image",
           "tag": "H3",
-          "content": "Write a short description here."
+          "content": "\\[\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\]"
         },
         {
           "type": "rich-text",
-          "title": "Actions",
+          "title": "Icon",
           "tag": "H3",
-          "content": "Write a short description here. Buttons, links, more menu (when more than two actions?)"
+          "content": "\\[\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\]"
         },
         {
           "type": "rich-text",
-          "title": "Checkbox (selectable row)",
+          "title": "Button",
           "tag": "H3",
-          "content": "Write a short description here."
+          "content": "\\[\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\]"
         },
         {
           "type": "rich-text",
-          "title": "Leading item",
+          "title": "Link",
           "tag": "H3",
-          "content": "Write a short description here."
+          "content": "\\[\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\]"
         },
         {
           "type": "rich-text",
-          "title": "Trailing item",
+          "title": "Context menu",
           "tag": "H3",
-          "content": "Write a short description here."
+          "content": "\\[\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\]"
+        },
+        {
+          "type": "rich-text",
+          "title": "Formatters",
+          "tag": "H3",
+          "content": "Formatted text such as number, account and date"
         }
       ]
     },
     {
+      "title": "Formatting"
+    },
+    {
       "title": "Guidelines",
-      "section-content": "*   Always include a header row.\n    \n*   Use clear and descriptive column labels.\n    \n*   Keep the structure predictable and consistent.\n    \n*   Avoid complex or merged headers where possible.\n    \n*   Text content should be left-aligned for readability.\n    \n*   Numeric values should be right-aligned, preferably aligned by decimal, to support comparison.\n    \n*   Avoid repeating information in table cells when it can be communicated through the column header. Reducing repetition improves scannability and overall clarity.",
+      "section-content": "*   Use clear and descriptive column labels.\n    \n*   Keep the structure predictable and consistent.\n    \n*   Text content should be left-aligned for readability.\n    \n*   Numeric values should be right-aligned, preferably aligned by decimal, to support comparison.\n    \n*   Avoid repeating information in table cells when it can be communicated through the column header.",
       "cols": "1"
     },
     {
@@ -222,7 +202,7 @@
   ],
   "accessibility": [
     {
-      "section-content": "*   Use semantic structure so relationships between headers and cells are clear.\n    \n*   Ensure column headers are programmatically associated with their cells.\n    \n*   Provide a clear title or caption describing the purpose of the table.\n    \n*   Ensure the table remains usable on smaller screens;  \n    \\- allow horizontal scrolling when needed  \n    \\- preserve context and readability \n    \n\nIf a table becomes difficult to use on mobile, consider alternative patterns."
+      "section-content": "*   Use semantic structure so relationships between headers and cells are clear.\n    \n*   Ensure column headers are programmatically associated with their cells.\n    \n*   Provide a clear title or caption describing the purpose of the table.\n    \n*   Ensure the table remains usable on smaller screens;  \n    \\- allow horizontal scrolling when needed  \n    \\- preserve context and readability\n    \n\nIf a table becomes difficult to use on mobile, consider alternative patterns."
     }
   ]
 }
