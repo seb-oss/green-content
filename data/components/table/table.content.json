@@ -116,6 +116,10 @@
       ]
     },
     {
+      "title": "Actions",
+      "section-content": "All the cell content types can be used on actions.\n\nActions accepts an array of cell types such as buttons. When you need to use two buttons align them to the left.\n\nIf you have more than two buttons use the context menu.\n\nActions will always show in the end of the row."
+    },
+    {
       "title": "Formatting"
     },
     {
