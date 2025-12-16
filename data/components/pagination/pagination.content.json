@@ -3,7 +3,7 @@
   "slug": "pagination",
   "hero_snippet": "pagination-hero",
   "beta": true,
-  "soon": false,
+  "soon": true,
   "anatomy": false,
   "platform": {
     "web": false,
