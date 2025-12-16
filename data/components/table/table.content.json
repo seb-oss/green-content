@@ -56,13 +56,13 @@
         {
           "type": "rich-text",
           "title": "Sorting guidelines",
-          "tag": "H3",
+          "tag": "H4",
           "content": "*   Enable sorting only when it adds clear value for the user.\n    \n*   Use sorting primarily for columns with comparable values, such as numbers, dates or statuses.\n    \n*   Avoid enabling sorting on columns where order is not meaningful.\n    \n*   Ensure the sorting state is clearly communicated visually."
         },
         {
           "type": "rich-text",
           "title": "Sorting accessibility considerations",
-          "tag": "H3",
+          "tag": "H4",
           "content": "*   Sorting must be available using keyboard interaction.\n    \n*   The current sort state should be communicated to assistive technologies.\n    \n*   The sorting indicator should not be the only way to convey sorting state."
         }
       ]
