@@ -70,6 +70,12 @@
           "title": "Density modes",
           "tag": "H3",
           "content": "The density property allows customizing the table's visual spacing with these options:\n\n*   **Comfortable** (Default) - Standard spacing for balanced readability\n    \n*   **Compact** \\- Reduced spacing to maximize information density\n    \n*   **Spacious** - Increased spacing for enhanced readability"
+        },
+        {
+          "type": "rich-text",
+          "title": "Interactions",
+          "tag": "H3",
+          "content": "Tables may support interaction when it helps users complete their task.  \nSupported behaviours may include:\n\n*   Column sorting\n    \n*   Row selection\n    \n*   Bulk actions\n    \n*   Interactive cells such as links or status indicators \n    \n\nOnly add interaction when it adds clear value and does not reduce clarity."
         }
       ]
     },
