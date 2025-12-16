@@ -56,6 +56,9 @@
       "title": "Variants"
     },
     {
+      "title": "Striped"
+    },
+    {
       "title": "Interactions",
       "section-content": "Tables may support interaction when it helps users complete their task.  \nSupported behaviours may include:\n\n*   Column sorting\n    \n*   Row selection\n    \n*   Bulk actions\n    \n*   Interactive cells such as links or status indicators\n    \n\nOnly add interaction when it adds clear value and does not reduce clarity."
     },
@@ -111,6 +114,9 @@
     },
     {
       "title": "Formatting"
+    },
+    {
+      "title": "Responsive"
     },
     {
       "title": "Guidelines",
