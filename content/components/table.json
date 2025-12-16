@@ -53,7 +53,8 @@
       "section-content": "The density property allows customizing the table's visual spacing with these options:\n\n*   **Comfortable** (Default) - Standard spacing for balanced readability\n    \n*   **Compact** - Reduced spacing to maximize information density\n    \n*   **Spacious** - Increased spacing for enhanced readability"
     },
     {
-      "title": "Variants"
+      "title": "Variants",
+      "section-content": "The `variant` property controls the visual style of the table container card. These variants can be used: `primary`, `secondary` (Default), `tertiary`\n\n> Naming is subject to change on the next major release. On Figma they are named Neutral 01 (primary), Neutral 02 (Secondary) and Neutral 02 · Outlined (Tertiary)"
     },
     {
       "title": "Striped"
