@@ -43,6 +43,10 @@
       "title": "When to use",
       "tag": "H2",
       "section-content": "### Use the table component when:\n\n*   You have multiple items that share the same set of attributes  (for example users, transactions, configurations or accounts).\n    \n*   Users need to compare values across items, such as dates, statuses or amounts.\n    \n*   The content is data-centric, rather than descriptive or narrative.\n    \n*   Users are expected to scan, sort, filter or act on the data.\n    \n*   The information has a clear and consistent structure, where each column represents the same type of data across all rows."
+    },
+    {
+      "title": "When not to use",
+      "section-content": "### Avoid using the table component when:\n\n*   Items are standalone and do not share a common structure\n    \n*   Content is primarily descriptive, narrative or instructional\n    \n*   You are presenting steps, guidelines, explanations or recommendations\n    \n*   The dataset is small and comparison does not add value\n    \n*   A simpler structure provides better readability and accessibility\n    \n\n### Consider alternatives\n\n*   **Bulleted lists** - For independent items without comparable attributes.\n    \n*   **Numbered lists** - When order or sequence matters.\n    \n*   **Text or other components** - When content is explanatory or not data-driven."
     }
   ],
   "ux-text": [
