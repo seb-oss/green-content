@@ -84,7 +84,7 @@
     },
     {
       "title": "Responsive",
-      "section-content": "When the responsive boolean is set to true, the table transforms its layout for smaller screens, will retain horizontal scroll until that condition is met at smaller than 760px.\n\n*   Rows are restructured into a card-like format\n    \n*   Column names are displayed on the left side\n    \n*   Corresponding cell values are shown on the right side"
+      "section-content": "When the responsive option is enabled, the table adapts its layout for smaller screens. Horizontal scrolling is used until the viewport is smaller than 760px, at which point rows are restructured into a card-like format with column names on the left and corresponding values on the right."
     },
     {
       "title": "Slots",
