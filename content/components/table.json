@@ -36,11 +36,6 @@
       "section-content": "The table component is used to display structured data in rows and columns. It supports overview, comparison and data-driven tasks where users need to scan or interact with multiple items.  \nTables should represent meaningful data relationships and must not be used for layout or visual alignment."
     },
     {
-      "title": "Guidelines",
-      "section-content": "*   Always include a header row.\n    \n*   Use clear and descriptive column labels.\n    \n*   Keep the structure predictable and consistent.\n    \n*   Avoid complex or merged headers where possible.\n    \n*   Text content should be left-aligned for readability.\n    \n*   Numeric values should be right-aligned, preferably aligned by decimal, to support comparison.\n    \n*   Avoid repeating information in table cells when it can be communicated through the column header. Reducing repetition improves scannability and overall clarity.",
-      "cols": "1"
-    },
-    {
       "title": "When to use",
       "tag": "H2",
       "section-content": "*   You have multiple items that share the same set of attributes  (for example users, transactions, configurations or accounts).\n    \n*   Users need to compare values across items, such as dates, statuses or amounts.\n    \n*   The content is data-centric, rather than descriptive or narrative.\n    \n*   Users are expected to scan, sort, filter or act on the data.\n    \n*   The information has a clear and consistent structure, where each column represents the same type of data across all rows."
@@ -48,6 +43,11 @@
     {
       "title": "When not to use",
       "section-content": "*   Items are standalone and do not share a common structure.\n    \n*   Content is primarily descriptive, narrative or instructional.\n    \n*   You are presenting steps, guidelines, explanations or recommendations.\n    \n*   The dataset is small and comparison does not add value.\n    \n*   A simpler structure provides better readability and accessibility.\n    \n\n### Consider alternatives\n\n*   **Bulleted lists** - For independent items without comparable attributes.\n    \n*   **Numbered lists** - When order or sequence matters.\n    \n*   **Text or other components** - When content is explanatory or not data-driven."
+    },
+    {
+      "title": "Guidelines",
+      "section-content": "*   Always include a header row.\n    \n*   Use clear and descriptive column labels.\n    \n*   Keep the structure predictable and consistent.\n    \n*   Avoid complex or merged headers where possible.\n    \n*   Text content should be left-aligned for readability.\n    \n*   Numeric values should be right-aligned, preferably aligned by decimal, to support comparison.\n    \n*   Avoid repeating information in table cells when it can be communicated through the column header. Reducing repetition improves scannability and overall clarity.",
+      "cols": "1"
     },
     {
       "title": "Do's and Don'ts",
