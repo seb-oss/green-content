@@ -203,7 +203,7 @@
   ],
   "accessibility": [
     {
-      "section-content": "*   Use semantic structure so relationships between headers and cells are clear.\n    \n*   Ensure column headers are programmatically associated with their cells.\n    \n*   Provide a clear title or caption describing the purpose of the table.\n    \n*   Ensure the table remains usable on smaller screens;  \n    \\- allow horizontal scrolling when needed  \n    \\- preserve context and readability\n    \n\nIf a table becomes difficult to use on mobile, consider alternative patterns."
+      "section-content": "*   Use semantic structure so relationships between headers and cells are clear.\n    \n*   Ensure column headers are programmatically associated with their cells.\n    \n*   Provide a clear title or caption describing the purpose of the table.\n    \n*   Ensure the table remains usable on smaller screens;  \n    \\- allow horizontal scrolling when needed  \n    \\- preserve context and readability\n    \n*   If a table becomes difficult to use on mobile, consider alternative patterns."
     }
   ]
 }
