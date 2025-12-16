@@ -49,6 +49,7 @@
         {
           "type": "rich-text",
           "title": "Sorting",
+          "tag": "H3",
           "content": "Table header cells can support sorting when enabled. Sorting helps users organise data and compare values within a column."
         },
         {
