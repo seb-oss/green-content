@@ -78,13 +78,13 @@
           "type": "rich-text",
           "title": "Density modes",
           "tag": "H3",
-          "content": "The density property allows customizing the table's visual spacing with these options:\n\n*   **Comfortable** (Default) - Standard spacing for balanced readability\n    \n*   **Compact** \\- Reduced spacing to maximize information density\n    \n*   **Spacious** - Increased spacing for enhanced readability"
+          "content": "The density property allows customizing the table's visual spacing with these options:\n\n*   **Comfortable** (Default) - Standard spacing for balanced readability\n    \n*   **Compact** - Reduced spacing to maximize information density\n    \n*   **Spacious** - Increased spacing for enhanced readability"
         },
         {
           "type": "rich-text",
           "title": "Interactions",
           "tag": "H3",
-          "content": "Tables may support interaction when it helps users complete their task.  \nSupported behaviours may include:\n\n*   Column sorting\n    \n*   Row selection\n    \n*   Bulk actions\n    \n*   Interactive cells such as links or status indicators \n    \n\nOnly add interaction when it adds clear value and does not reduce clarity."
+          "content": "Tables may support interaction when it helps users complete their task.  \nSupported behaviours may include:\n\n*   Column sorting\n    \n*   Row selection\n    \n*   Bulk actions\n    \n*   Interactive cells such as links or status indicators\n    \n\nOnly add interaction when it adds clear value and does not reduce clarity."
         }
       ]
     },
@@ -218,6 +218,11 @@
           "content": "Sometimes, error handling is required in tables. Keep messages concise, as space is often limited.\n\n*   Short messages can appear within a table column.\n    \n*   Longer messages should appear in a separate row beneath the relevant data.\n    \n*   Messages may include a link to a help page or another relevant page.  \n    Messages displayed below should be limited to two rows, including any links.\n    \n\nExample: If a mutual fund has been removed from our range, but the customer has not yet updated their default fund distribution, an error message will appear when they try to buy funds according to that distribution or change it.\n\n**Example message:**\n\nIt is no longer possible to trade in this fund. Please change your fund distribution."
         }
       ]
+    }
+  ],
+  "accessibility": [
+    {
+      "section-content": "*   Use semantic structure so relationships between headers and cells are clear.\n    \n*   Ensure column headers are programmatically associated with their cells.\n    \n*   Provide a clear title or caption describing the purpose of the table.\n    \n*   Ensure the table remains usable on smaller screens;  \n    \\- allow horizontal scrolling when needed  \n    \\- preserve context and readability \n    \n\nIf a table becomes difficult to use on mobile, consider alternative patterns."
     }
   ]
 }
