@@ -54,7 +54,7 @@
     },
     {
       "title": "Variants",
-      "section-content": "The `variant` property controls the visual style of the table container card. These variants can be used: `primary`, `secondary` (Default), `tertiary`\n\n> Naming is subject to change on the next major release. On Figma they are named Neutral 01 (primary), Neutral 02 (Secondary) and Neutral 02 · Outlined (Tertiary)"
+      "section-content": "The `variant` property controls the visual style of the table container card.\n\nThere are three variants available:\n\n1.  Primary\n    \n2.  Secondary\n    \n3.  Tertiary\n    \n\nNaming will change on the next major release:\n\n*   Primary - Neutral 01\n    \n*   Secondary - Neutral 02\n    \n*   Tertiary - Neutral 02 (Outlined boolean)"
     },
     {
       "title": "Striped",
