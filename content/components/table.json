@@ -124,6 +124,7 @@
     {
       "title": "Cell content types",
       "tag": "H2",
+      "section-content": "Write a short text about the different cell content you can use.",
       "cols": "1",
       "columns": [
         {
