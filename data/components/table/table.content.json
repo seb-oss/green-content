@@ -50,13 +50,7 @@
           "type": "rich-text",
           "title": "Sorting",
           "tag": "H3",
-          "content": "Table header cells can support sorting when enabled. Sorting helps users organise data and compare values within a column."
-        },
-        {
-          "type": "rich-text",
-          "title": "Sorting behaviour",
-          "tag": "H3",
-          "content": "*   A sorting indicator is shown on hover when sorting is enabled.\n    \n*   Selecting a column header sorts the table by that column.\n    \n*   The sorting indicator remains visible while the column is sorted.\n    \n*   Selecting the same column header again reverses the sort order.\n    \n*   When justified to the right, sorting indicator appears on the left. Column label positioned to the right of the indicator.\n    \n*   Only one column can be sorted at a time."
+          "content": "Table header cells can support sorting when enabled. Sorting helps users organise data and compare values within a column.\n\n*   A sorting indicator is shown on hover when sorting is enabled.\n    \n*   Selecting a column header sorts the table by that column.\n    \n*   The sorting indicator remains visible while the column is sorted.\n    \n*   Selecting the same column header again reverses the sort order.\n    \n*   When justified to the right, sorting indicator appears on the left. Column label positioned to the right of the indicator.\n    \n*   Only one column can be sorted at a time."
         },
         {
           "type": "rich-text",
