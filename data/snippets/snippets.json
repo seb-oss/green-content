@@ -745,6 +745,12 @@
       "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"notice\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"notice\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"notice\">Tertiary</gds-button>\n</gds-flex>"
     },
     {
+      "title": "Pagination: Hero",
+      "slug": "pagination-hero",
+      "path": "snippets/pagination-hero/pagination-hero.json",
+      "code": "<gds-pagination rows=\"10\" page=\"2\" total=\"100\"></gds-pagination>"
+    },
+    {
       "title": "Radio: Ux consistent do",
       "slug": "radio-ux-consistent-do",
       "path": "snippets/radio-ux-consistent-do/radio-ux-consistent-do.json",
@@ -823,6 +829,6 @@
       "code": "<gds-table>\n</gds-table>"
     }
   ],
-  "total": 137,
-  "lastUpdated": "2025-12-16T13:51:45.972Z"
+  "total": 138,
+  "lastUpdated": "2025-12-16T13:53:05.312Z"
 }
