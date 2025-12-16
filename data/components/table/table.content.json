@@ -120,6 +120,37 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Cell types",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Text",
+          "tag": "H3",
+          "content": "Write a short description here."
+        },
+        {
+          "type": "rich-text",
+          "title": "Status",
+          "tag": "H3",
+          "content": "Write a short description here."
+        },
+        {
+          "type": "rich-text",
+          "title": "Actions",
+          "tag": "H3",
+          "content": "Write a short description here."
+        },
+        {
+          "type": "rich-text",
+          "title": "Checkbox (selectable row)",
+          "tag": "H3",
+          "content": "Write a short description here."
+        }
+      ]
     }
   ],
   "ux-text": [
