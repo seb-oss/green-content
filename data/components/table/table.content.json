@@ -50,6 +50,7 @@
       "section-content": "*   Items are standalone and do not share a common structure.\n    \n*   Content is primarily descriptive, narrative or instructional.\n    \n*   You are presenting steps, guidelines, explanations or recommendations.\n    \n*   The dataset is small and comparison does not add value.\n    \n*   A simpler structure provides better readability and accessibility.\n    \n\n### Consider alternatives\n\n*   **Bulleted lists** - For independent items without comparable attributes.\n    \n*   **Numbered lists** - When order or sequence matters.\n    \n*   **Text or other components** - When content is explanatory or not data-driven."
     },
     {
+      "title": "Do's and Don'ts",
       "cols": "2",
       "columns": [
         {
