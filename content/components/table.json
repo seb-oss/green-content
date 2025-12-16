@@ -45,8 +45,22 @@
     },
     {
       "title": "Sorting",
-      "section-content": "Table header cells can support sorting when enabled. Sorting helps users organise data and compare values within a column.\n\n*   A sorting indicator is shown on hover when sorting is enabled.\n    \n*   Selecting a column header sorts the table by that column.\n    \n*   The sorting indicator remains visible while the column is sorted.\n    \n*   Selecting the same column header again reverses the sort order.\n    \n*   When justified to the right, sorting indicator appears on the left. Column label positioned to the right of the indicator.\n    \n*   Only one column can be sorted at a time.  \n    \n\n**Sorting guidelines**\n\n*   Enable sorting only when it adds clear value for the user.\n    \n*   Use sorting primarily for columns with comparable values, such as numbers, dates or statuses.\n    \n*   Avoid enabling sorting on columns where order is not meaningful.\n    \n*   Ensure the sorting state is clearly communicated visually.  \n    \n\n**Sorting accessibility considerations**\n\n*   Sorting must be available using keyboard interaction.\n    \n*   The current sort state should be communicated to assistive technologies.\n    \n*   The sorting indicator should not be the only way to convey sorting state.",
-      "cols": "1"
+      "section-content": "Table header cells can support sorting when enabled. Sorting helps users organise data and compare values within a column.\n\n*   A sorting indicator is shown on hover when sorting is enabled.\n    \n*   Selecting a column header sorts the table by that column.\n    \n*   The sorting indicator remains visible while the column is sorted.\n    \n*   Selecting the same column header again reverses the sort order.\n    \n*   When justified to the right, sorting indicator appears on the left. Column label positioned to the right of the indicator.\n    \n*   Only one column can be sorted at a time.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Sorting guidelines",
+          "tag": "H4",
+          "content": "*   Enable sorting only when it adds clear value for the user.\n    \n*   Use sorting primarily for columns with comparable values, such as numbers, dates or statuses.\n    \n*   Avoid enabling sorting on columns where order is not meaningful.\n    \n*   Ensure the sorting state is clearly communicated visually."
+        },
+        {
+          "type": "rich-text",
+          "title": "Sorting accessibility considerations",
+          "tag": "H4",
+          "content": "*   Sorting must be available using keyboard interaction.\n    \n*   The current sort state should be communicated to assistive technologies.\n    \n*   The sorting indicator should not be the only way to convey sorting state."
+        }
+      ]
     },
     {
       "title": "Density",
