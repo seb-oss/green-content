@@ -5,6 +5,7 @@
   "beta": true,
   "soon": false,
   "summary": "A customizable table with pagination, sorting and filtering.",
+  "preamble": "A data table component that handles asynchronous data loading, pagination, sorting, and filtering through a provider function. Supports row selection, searchable columns, responsive layouts, and customizable cell rendering including badges, buttons, links, and formatted values.",
   "anatomy": true,
   "anatomy-list": {
     "anatomyitems": [
@@ -32,7 +33,7 @@
   },
   "overview": [
     {
-      "section-content": "A data table component that handles asynchronous data loading, pagination, sorting, and filtering through a provider function. Supports row selection, searchable columns, responsive layouts, and customizable cell rendering including badges, buttons, links, and formatted values.\n\nAlign the texts with how we write on the other!  \nThis is a suggestion;  \nThe table component is used to display structured data in rows and columns. It supports overview, comparison and data-driven tasks where users need to scan or interact with multiple items.  \nTables should represent meaningful data relationships and must not be used for layout or visual alignment."
+      "section-content": "The table component is used to display structured data in rows and columns. It supports overview, comparison and data-driven tasks where users need to scan or interact with multiple items.  \nTables should represent meaningful data relationships and must not be used for layout or visual alignment."
     },
     {
       "title": "Guidelines",
