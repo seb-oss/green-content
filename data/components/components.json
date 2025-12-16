@@ -232,9 +232,9 @@
       "path": "components/theme/theme.content.json"
     },
     {
-      "title": "Toggle switch",
-      "slug": "toggle-switch",
-      "summary": "A toggle switch allows users to turn a setting on or off. ",
+      "title": "Toggle",
+      "slug": "toggle",
+      "summary": "A toggle allows users to turn a setting on or off. ",
       "path": "components/toggle-switch/toggle-switch.content.json"
     },
     {
@@ -245,5 +245,5 @@
     }
   ],
   "total": 41,
-  "lastUpdated": "2025-12-16T13:59:37.709Z"
+  "lastUpdated": "2025-12-16T14:01:30.909Z"
 }
