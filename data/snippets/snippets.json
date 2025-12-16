@@ -827,8 +827,14 @@
       "slug": "table-hero",
       "path": "snippets/table-hero/table-hero.json",
       "code": "<gds-table>\n</gds-table>"
+    },
+    {
+      "title": "Toggle: Hero",
+      "slug": "toggle-hero",
+      "path": "snippets/toggle-hero/toggle-hero.json",
+      "code": "<span>...</span>"
     }
   ],
-  "total": 138,
-  "lastUpdated": "2025-12-16T14:01:30.910Z"
+  "total": 139,
+  "lastUpdated": "2025-12-16T14:02:37.700Z"
 }
