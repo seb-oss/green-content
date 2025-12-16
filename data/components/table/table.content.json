@@ -6,6 +6,7 @@
   "soon": true,
   "summary": "A customizable table with pagination, sorting and filtering.",
   "anatomy": true,
+  "anatomy-details": "A table consists of:\n\n*   **Header row** - Defines and labels each column.\n    \n*   **Rows** - Each row represents a single item or record.\n    \n*   **Cells** - Contain values aligned to the column type.",
   "tags": [
     "data"
   ],
