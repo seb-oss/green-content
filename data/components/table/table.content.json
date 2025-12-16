@@ -71,7 +71,7 @@
     {
       "title": "Cell",
       "tag": "H2",
-      "section-content": "The table supports multiple cell types:\n\n1.  Badge\n    \n2.  Image\n    \n3.  Icon\n    \n4.  Button\n    \n5.  Link\n    \n6.  Context menu\n    \n7.  Formatted text\n    \n    1.  Number\n        \n    2.  Account\n        \n    3.  Date\n        \n\nCell types correspond to their respective Green Design System components and accept their available properties for customization.\n\nAny of the cell types can be used on the main value, lead or trail slot.",
+      "section-content": "The table supports multiple cell types, each mapped to corresponding Green Design System components and their available properties. Any cell type can be used in the main value, lead or trail slot.\n\n1.  Badge\n    \n2.  Image\n    \n3.  Icon\n    \n4.  Button\n    \n5.  Link\n    \n6.  Context menu\n    \n7.  Formatted text - Number, account, date",
       "cols": "1"
     },
     {
