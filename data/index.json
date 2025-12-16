@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2025-12-16T13:53:39.107Z",
+    "lastUpdated": "2025-12-16T13:56:22.117Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1737,7 +1737,7 @@
             "title": "Pagination: Hero",
             "slug": "pagination-hero",
             "path": "snippets/pagination-hero/pagination-hero.json",
-            "code": "<gds-pagination rows=\"10\" page=\"2\" total=\"100\"></gds-pagination>",
+            "code": "<gds-pagination rows=\"2\" page=\"2\" total=\"4\"></gds-pagination>",
             "endpoints": {
               "content": "snippets/pagination-hero/pagination-hero.json"
             }
