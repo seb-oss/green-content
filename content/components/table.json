@@ -127,6 +127,9 @@
             },
             {
               "text": "Add interaction without a clear user need."
+            },
+            {
+              "text": "Items are standalone and do not share a common structure."
             }
           ]
         }
