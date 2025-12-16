@@ -49,7 +49,7 @@
       "cols": "1"
     },
     {
-      "title": "Density modes",
+      "title": "Density",
       "section-content": "The density property allows customizing the table's visual spacing with these options:\n\n*   **Comfortable** (Default) - Standard spacing for balanced readability\n    \n*   **Compact** - Reduced spacing to maximize information density\n    \n*   **Spacious** - Increased spacing for enhanced readability"
     },
     {
@@ -69,7 +69,7 @@
       "section-content": "Tables may support interaction when it helps users complete their task.  \nSupported behaviours may include:\n\n*   Column sorting\n    \n*   Row selection\n    \n*   Bulk actions\n    \n*   Interactive cells such as links or status indicators\n    \n\nOnly add interaction when it adds clear value and does not reduce clarity."
     },
     {
-      "title": "Cell content types",
+      "title": "Cell",
       "tag": "H2",
       "section-content": "The table supports multiple cell types:\n\n1.  Badge\n    \n2.  Image\n    \n3.  Icon\n    \n4.  Button\n    \n5.  Link\n    \n6.  Context menu\n    \n7.  Formatted text\n    \n    1.  Number\n        \n    2.  Account\n        \n    3.  Date\n        \n\nCell types correspond to their respective Green Design System components and accept their available properties for customization.  \n  \nAny of the cell types can be used on the main value, lead or trail slot.",
       "cols": "1"
