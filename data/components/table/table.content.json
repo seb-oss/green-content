@@ -54,7 +54,7 @@
     },
     {
       "title": "Variants",
-      "section-content": "The `variant` property controls the visual style of the table container card.\n\nThere are three variants available:\n\n1.  **Primary**\n    \n2.  **Secondary**\n    \n3.  **Tertiary**\n    \n\n**Naming will change on the next major release:**  \nPrimary - Neutral 01, Secondary - Neutral 02, Tertiary - Neutral 02 (Outlined boolean)."
+      "section-content": "The `variant` property controls the visual style of the table container card. There are three variants available:\n\n1.  **Primary**\n    \n2.  **Secondary**\n    \n3.  **Tertiary**\n    \n\n**Naming will change on the next major release:**  \nPrimary - Neutral 01, Secondary - Neutral 02, Tertiary - Neutral 02 (Outlined boolean)."
     },
     {
       "title": "Striped",
