@@ -149,6 +149,18 @@
           "title": "Checkbox (selectable row)",
           "tag": "H3",
           "content": "Write a short description here."
+        },
+        {
+          "type": "rich-text",
+          "title": "Leading item",
+          "tag": "H3",
+          "content": "Write a short description here."
+        },
+        {
+          "type": "rich-text",
+          "title": "Trailing item",
+          "tag": "H3",
+          "content": "Write a short description here."
         }
       ]
     }
