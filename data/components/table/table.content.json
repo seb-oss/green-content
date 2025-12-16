@@ -116,7 +116,8 @@
       "title": "Formatting"
     },
     {
-      "title": "Responsive"
+      "title": "Responsive",
+      "section-content": "When the responsive boolean is set to true, the table transforms its layout for smaller screens ( <760px ), will retain horizontal scroll until that condition is met.\n\n*   Rows are restructured into a card-like format\n    \n*   Column names are displayed on the left side\n    \n*   Corresponding cell values are shown on the right side"
     },
     {
       "title": "Guidelines",
