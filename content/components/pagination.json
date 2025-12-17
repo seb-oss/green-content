@@ -7,8 +7,14 @@
   "summary": "Pagination helps users navigate large result sets by dividing content into clear, manageable pages.",
   "anatomy": false,
   "platform": {
-    "web": false,
+    "web": true,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Usage",
+      "section-content": "*   Use pagination for long lists such as tables, search results, or content listings.\n    \n*   Pagination is preferred over infinite scroll when users need overview, comparison, or predictable navigation.\n    \n*   Always associate pagination with the content it controls."
+    }
+  ]
 }
