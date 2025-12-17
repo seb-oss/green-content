@@ -44,6 +44,18 @@
       "section-content": "The table component is used to display structured data in rows and columns. It supports overview, comparison and data-driven tasks where users need to scan or interact with multiple items. Tables should represent meaningful data relationships and must not be used for layout or visual alignment."
     },
     {
+      "title": "Density",
+      "section-content": "The density property allows customizing the table's visual spacing with these options:\n\n*   **Comfortable** (Default) - Standard spacing for balanced readability\n    \n*   **Compact** - Reduced spacing to maximize information density\n    \n*   **Spacious** - Increased spacing for enhanced readability"
+    },
+    {
+      "title": "Variants",
+      "section-content": "The `variant` property controls the visual style of the table container card. There are three variants available:\n\n1.  **Primary**\n    \n2.  **Secondary**\n    \n3.  **Tertiary**\n    \n\n**Naming will change on the next major release:**  \nPrimary - Neutral 01, Secondary - Neutral 02, Tertiary - Neutral 02 (Outlined boolean)."
+    },
+    {
+      "title": "Striped",
+      "section-content": "When the `striped`option is enabled, alternating background colors are applied to even rows."
+    },
+    {
       "title": "Sorting",
       "section-content": "Table head cells can support sorting when enabled. Sorting helps users organise data and compare values within a column.\n\n*   A sorting indicator is shown on hover when sorting is enabled.\n    \n*   Selecting a column head sorts the table by that column.\n    \n*   The sorting indicator remains visible while the column is sorted.\n    \n*   Selecting the same column head again reverses the sort order.\n    \n*   In right-aligned columns, the sorting indicator is positioned to the left, with the column label placed to the right.\n    \n*   Only one column can be sorted at a time.",
       "cols": "1",
@@ -61,18 +73,6 @@
           "content": "*   Sorting must be available using keyboard interaction.\n    \n*   The current sort state should be communicated to assistive technologies.\n    \n*   The sorting indicator should not be the only way to convey sorting state."
         }
       ]
-    },
-    {
-      "title": "Density",
-      "section-content": "The density property allows customizing the table's visual spacing with these options:\n\n*   **Comfortable** (Default) - Standard spacing for balanced readability\n    \n*   **Compact** - Reduced spacing to maximize information density\n    \n*   **Spacious** - Increased spacing for enhanced readability"
-    },
-    {
-      "title": "Variants",
-      "section-content": "The `variant` property controls the visual style of the table container card. There are three variants available:\n\n1.  **Primary**\n    \n2.  **Secondary**\n    \n3.  **Tertiary**\n    \n\n**Naming will change on the next major release:**  \nPrimary - Neutral 01, Secondary - Neutral 02, Tertiary - Neutral 02 (Outlined boolean)."
-    },
-    {
-      "title": "Striped",
-      "section-content": "When the `striped`option is enabled, alternating background colors are applied to even rows."
     },
     {
       "title": "Interactions",
