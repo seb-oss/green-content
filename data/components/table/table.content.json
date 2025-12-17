@@ -101,6 +101,14 @@
       "section-content": "The table header and footer are visible by default. The header shows a search field, and a dropdown for showing and hiding the columns. The header can be customised through the slots.  \n  \nThe footer contains a pagination, ([read more about the pagination here](https://seb.io/component/pagination)), and displays an item range indicating the currently visible rows and the total number of items, for example “1–10 of 100”."
     },
     {
+      "title": "Searchable",
+      "section-content": "ADD CONTENT HERE, and get the content for header."
+    },
+    {
+      "title": "Settings",
+      "section-content": "ADD CONTENT HERE, and get the content for header."
+    },
+    {
       "title": "Plain",
       "section-content": "When the `plain` option is enabled, the table is rendered without a header or footer, displaying only the data table."
     },
