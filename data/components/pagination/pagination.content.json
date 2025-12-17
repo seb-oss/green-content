@@ -4,6 +4,7 @@
   "hero_snippet": "pagination-hero",
   "beta": true,
   "soon": true,
+  "summary": "Pagination helps users navigate large result sets by dividing content into clear, manageable pages.",
   "anatomy": false,
   "platform": {
     "web": false,

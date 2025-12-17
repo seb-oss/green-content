@@ -164,6 +164,7 @@
     {
       "title": "Pagination",
       "slug": "pagination",
+      "summary": "Pagination helps users navigate large result sets by dividing content into clear, manageable pages.",
       "path": "components/pagination/pagination.content.json"
     },
     {
@@ -245,5 +246,5 @@
     }
   ],
   "total": 41,
-  "lastUpdated": "2025-12-17T09:26:04.771Z"
+  "lastUpdated": "2025-12-17T15:05:56.372Z"
 }
