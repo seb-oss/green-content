@@ -45,7 +45,7 @@
     },
     {
       "title": "Sorting",
-      "section-content": "Table header cells can support sorting when enabled. Sorting helps users organise data and compare values within a column.\n\n*   A sorting indicator is shown on hover when sorting is enabled.\n    \n*   Selecting a column header sorts the table by that column.\n    \n*   The sorting indicator remains visible while the column is sorted.\n    \n*   Selecting the same column header again reverses the sort order.\n    \n*   When justified to the right, sorting indicator appears on the left. Column label positioned to the right of the indicator.\n    \n*   Only one column can be sorted at a time.",
+      "section-content": "Table head cells can support sorting when enabled. Sorting helps users organise data and compare values within a column.\n\n*   A sorting indicator is shown on hover when sorting is enabled.\n    \n*   Selecting a column head sorts the table by that column.\n    \n*   The sorting indicator remains visible while the column is sorted.\n    \n*   Selecting the same column head again reverses the sort order.\n    \n*   In right-aligned columns, the sorting indicator is positioned to the left, with the column label placed to the right.\n    \n*   Only one column can be sorted at a time.",
       "cols": "1",
       "columns": [
         {
