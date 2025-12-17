@@ -41,7 +41,7 @@
   },
   "overview": [
     {
-      "section-content": "The table component is used to display structured data in rows and columns. It supports overview, comparison and data-driven tasks where users need to scan or interact with multiple items.  \nTables should represent meaningful data relationships and must not be used for layout or visual alignment."
+      "section-content": "The table component is used to display structured data in rows and columns. It supports overview, comparison and data-driven tasks where users need to scan or interact with multiple items. Tables should represent meaningful data relationships and must not be used for layout or visual alignment."
     },
     {
       "title": "Sorting",
