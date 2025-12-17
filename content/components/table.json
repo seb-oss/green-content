@@ -76,7 +76,7 @@
     },
     {
       "title": "Plain",
-      "section-content": "When `plain` boolean is set, the table header and footer are removed, rendering only the data table."
+      "section-content": "When the `plain` option is enabled, the table is rendered without a header or footer, displaying only the data table."
     },
     {
       "title": "Interactions",
