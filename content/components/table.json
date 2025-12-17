@@ -105,8 +105,8 @@
       "section-content": "If you enable the settings, a dropdown for choosing columns is visable."
     },
     {
-      "title": "Footer",
-      "section-content": "The footer contains a pagination, ([read more about the pagination here](https://seb.io/component/pagination)), and displays an item range indicating the currently visible rows and the total number of items, for example “1–10 of 100”."
+      "title": "Pagination",
+      "section-content": "The pagination is placed in the footer, ([read more about the pagination here](https://seb.io/component/pagination)), and displays an item range indicating the currently visible rows and the total number of items, for example “1–10 of 100”."
     },
     {
       "title": "Plain",
