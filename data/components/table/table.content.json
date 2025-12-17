@@ -94,7 +94,7 @@
     },
     {
       "title": "Formatting",
-      "section-content": "**Column justification**  \nColumns are left-aligned by default, with options for right alignment and space-between layouts. This is useful for columns where values and actions need clear separation and consistent alignment across rows.\n\n**Column width and wrapping**  \nColumns can have custom width. When width is set, content will wrap within the cell.\n\n**Cell vertical alignment**  \nCells are vertically centered by default and can be aligned to the start. Start alignment is recommended when content wraps, ensuring consistent top alignment across rows.\n\n**Sortable columns**  \nSortable columns are left-aligned by default, with the label on the left and the sorting indicator on the right. For right-aligned columns, the sorting indicator is placed on the left and the label on the right."
+      "section-content": "**Column justification**  \nColumns are left-aligned by default, with options for right alignment and space-between layouts. This is useful for columns where values and actions need clear separation and consistent alignment across rows.\n\n**Column width and wrapping**  \nColumns can have custom width. When width is set, content will wrap within the cell.\n\n**Cell vertical alignment**  \nCells are vertically centered by default and can be aligned to the start. Start alignment is recommended when content wraps, ensuring consistent top alignment across rows.\n\n**Sortable columns**  \nColumns are left-aligned by default, with the label on the left and the sorting indicator on the right. For right-aligned columns, the sorting indicator is placed on the left and the label on the right."
     },
     {
       "title": "Responsive",
