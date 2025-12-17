@@ -72,7 +72,7 @@
     },
     {
       "title": "Striped",
-      "section-content": "When `striped` boolean is set, alternating row background colors are applied to even-numbered rows."
+      "section-content": "When the `striped`option is enabled, alternating background colors are applied to even rows."
     },
     {
       "title": "Plain",
