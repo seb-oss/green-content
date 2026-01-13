@@ -85,11 +85,6 @@
       "path": "pages/primitivesshadows/primitivesshadows.json"
     },
     {
-      "title": "Name on spacing page",
-      "slug": "spacing/name-on-spacing-page",
-      "path": "pages/spacingname-on-spacing-page/spacingname-on-spacing-page.json"
-    },
-    {
       "title": "Spacings",
       "slug": "spacings",
       "summary": "Spacing is a fundamental tool for structuring layouts. In Green, we use spacing to create hierarchy, balance, and visual rhythm, making interfaces feel intentional and easy to navigate.",
@@ -108,6 +103,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 18,
-  "lastUpdated": "2026-01-13T10:07:00.912Z"
+  "total": 17,
+  "lastUpdated": "2026-01-13T10:07:26.838Z"
 }
