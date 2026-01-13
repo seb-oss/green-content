@@ -90,12 +90,18 @@
       "path": "pages/spacingname-on-spacing-page/spacingname-on-spacing-page.json"
     },
     {
+      "title": "Spacings",
+      "slug": "spacings",
+      "summary": "Spacing is a fundamental tool for structuring layouts. In Green, we use spacing to create hierarchy, balance, and visual rhythm, making interfaces feel intentional and easy to navigate.",
+      "path": "pages/spacings/spacings.json"
+    },
+    {
       "title": "UX writing",
       "slug": "ux-writing",
       "summary": "Wherever customers meet us, their experience of SEB should be consistent. A good experience builds trust and can lead to new business. Customer-facing text must be correct – mistakes distract and reduce credibility.",
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 16,
-  "lastUpdated": "2026-01-13T09:53:41.784Z"
+  "total": 17,
+  "lastUpdated": "2026-01-13T09:56:53.191Z"
 }
