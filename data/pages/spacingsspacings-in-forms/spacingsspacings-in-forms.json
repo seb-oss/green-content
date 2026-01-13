@@ -34,6 +34,12 @@
       "tag": "H2",
       "section-content": "On mobile, fields are usually displayed in a single column and stretch to full width for easier scanning and touch interaction.\n\nOn larger screens, related fields can be placed side by side within the grid, as long as readability and accessibility are maintained.",
       "max-width": true
+    },
+    {
+      "title": "Spacing can vary depending on complexity of the form",
+      "tag": "H2",
+      "section-content": "When a form contains many fields within a group, the vertical spacing often needs to increase to avoid a dense and overwhelming appearance. For simple forms, use XL (24) between fields. For more complex forms with many fields, increase to 2XL (32). The spacing between groups can remain the same to keep a consistent rhythm.",
+      "max-width": true
     }
   ]
 }
