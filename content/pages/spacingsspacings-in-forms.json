@@ -28,6 +28,12 @@
       "tag": "H2",
       "section-content": "Sections are used to group related fields under a common heading. Clear spacing between sections helps users scan and understand the form structure, making longer forms easier to navigate.\n\n  \nUse consistent section spacing to build rhythm and hierarchy. As a guideline, section spacing should be about two to times larger than the spacing between fields (if field spacing is XL (24), section spacing can be 2XL (48)). If a divider is used between sections, the spacing above and below the divider can be slightly smaller since the divider already provides a visual separation.",
       "max-width": true
+    },
+    {
+      "title": "Form contexts",
+      "tag": "H2",
+      "section-content": "On mobile, fields are usually displayed in a single column and stretch to full width for easier scanning and touch interaction.\n\nOn larger screens, related fields can be placed side by side within the grid, as long as readability and accessibility are maintained.",
+      "max-width": true
     }
   ]
 }
