@@ -12,11 +12,6 @@
         {
           "type": "rich-text",
           "content": "Adjust the spacing slightly based on button size, this approach maintains consistent visual rhythm while clearly grouping related actions.\n\n*   Large buttons: use M (16). \n    \n*   Medium buttons: use S (12). \n    \n*   Small buttons: use XS (8)."
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false
         }
       ]
     },
@@ -28,11 +23,6 @@
         {
           "type": "rich-text",
           "content": "When buttons are stacked vertically, use the same spacing values as for horizontal layouts. This keeps spacing consistent across button sizes and breakpoints, maintaining a clear and cohesive relationship between all actions in the group."
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false
         }
       ]
     }
