@@ -14,10 +14,13 @@
     {
       "title": "Vertical spacing",
       "tag": "H3",
-      "section-content": "Fields that belong together should have smaller spacing between them to visually form a group. This helps users understand that the fields are related and should be completed together. Use consistent vertical spacing within each group to create a calm, structured flow and support quick scanning.",
       "max-width": false,
       "cols": "2",
       "columns": [
+        {
+          "type": "rich-text",
+          "content": "Fields that belong together should have smaller spacing between them to visually form a group. This helps users understand that the fields are related and should be completed together. Use consistent vertical spacing within each group to create a calm, structured flow and support quick scanning."
+        },
         {
           "type": "snippet",
           "plain": false,
