@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-13T14:24:08.937Z",
+    "lastUpdated": "2026-01-13T14:24:44.702Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -621,8 +621,8 @@
             }
           },
           {
-            "title": "Spacings - forms",
-            "slug": "spacings/in-forms",
+            "title": "Forms",
+            "slug": "spacings/forms",
             "summary": "Good spacing makes forms easier to read, scan, and complete. It helps users see how fields relate to each other, creates a clear hierarchy, and ensures enough room for focus states and touch targets. Consistent spacing makes forms feel structured and effortless to use.",
             "path": "pages/spacingsspacings-in-forms/spacingsspacings-in-forms.json",
             "endpoints": {
