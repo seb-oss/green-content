@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-13T09:43:11.976Z",
+    "lastUpdated": "2026-01-13T09:43:44.414Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -602,6 +602,14 @@
             "path": "pages/primitivesshadows/primitivesshadows.json",
             "endpoints": {
               "content": "pages/primitivesshadows/primitivesshadows.json"
+            }
+          },
+          {
+            "title": "Name on spacing page",
+            "slug": "spacing/name-on-spacing-page",
+            "path": "pages/spacingname-on-spacing-page/spacingname-on-spacing-page.json",
+            "endpoints": {
+              "content": "pages/spacingname-on-spacing-page/spacingname-on-spacing-page.json"
             }
           },
           {

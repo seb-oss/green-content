@@ -91,12 +91,17 @@
       "path": "pages/primitivesshadows/primitivesshadows.json"
     },
     {
+      "title": "Name on spacing page",
+      "slug": "spacing/name-on-spacing-page",
+      "path": "pages/spacingname-on-spacing-page/spacingname-on-spacing-page.json"
+    },
+    {
       "title": "UX writing",
       "slug": "ux-writing",
       "summary": "Wherever customers meet us, their experience of SEB should be consistent. A good experience builds trust and can lead to new business. Customer-facing text must be correct – mistakes distract and reduce credibility.",
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 16,
-  "lastUpdated": "2026-01-13T09:43:11.977Z"
+  "total": 17,
+  "lastUpdated": "2026-01-13T09:43:44.415Z"
 }
