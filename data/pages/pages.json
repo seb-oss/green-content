@@ -91,14 +91,14 @@
       "path": "pages/spacings/spacings.json"
     },
     {
-      "title": "Spacings for button groups",
-      "slug": "spacings/spacings-for-button-groups",
+      "title": "For button groups",
+      "slug": "spacings/for-button-groups",
       "summary": "Button spacing helps create clear relationships between actions and ensures buttons feel balanced within a layout. The spacing depends on how the buttons are arranged, side by side or stacked, and should always feel visually connected to the surrounding form or content.",
       "path": "pages/spacingsspacings-for-button-groups/spacingsspacings-for-button-groups.json"
     },
     {
-      "title": "Spacings in forms",
-      "slug": "spacings/spacings-in-forms",
+      "title": "In forms",
+      "slug": "spacings/in-forms",
       "summary": "Good spacing makes forms easier to read, scan, and complete. It helps users see how fields relate to each other, creates a clear hierarchy, and ensures enough room for focus states and touch targets. Consistent spacing makes forms feel structured and effortless to use.",
       "path": "pages/spacingsspacings-in-forms/spacingsspacings-in-forms.json"
     },
@@ -110,5 +110,5 @@
     }
   ],
   "total": 18,
-  "lastUpdated": "2026-01-13T13:54:03.872Z"
+  "lastUpdated": "2026-01-13T13:56:18.094Z"
 }
