@@ -1,5 +1,23 @@
 {
   "title": "Spacings for button groups",
   "slug": "spacings/spacings-for-button-groups",
-  "summary": "Button spacing helps create clear relationships between actions and ensures buttons feel balanced within a layout. The spacing depends on how the buttons are arranged, side by side or stacked, and should always feel visually connected to the surrounding form or content."
+  "summary": "Button spacing helps create clear relationships between actions and ensures buttons feel balanced within a layout. The spacing depends on how the buttons are arranged, side by side or stacked, and should always feel visually connected to the surrounding form or content.",
+  "sections": [
+    {
+      "title": "Horisontal button group",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Adjust the spacing slightly based on button size, this approach maintains consistent visual rhythm while clearly grouping related actions.\n\n*   \\- Large buttons: use M (16). \n    \n*   \\- Medium buttons: use S (12). \n    \n*   \\- Small buttons: use XS (8)."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false
+        }
+      ]
+    }
+  ]
 }
