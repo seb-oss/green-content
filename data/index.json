@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-13T10:08:36.947Z",
+    "lastUpdated": "2026-01-13T10:11:48.231Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -439,7 +439,7 @@
             "title": "Main",
             "slug": "main",
             "path": "navigation/main.json",
-            "links": 8,
+            "links": 9,
             "endpoint": "navigation/main.json"
           },
           {

@@ -41,6 +41,10 @@
       "title": "Accessibility",
       "slug": "accessibility",
       "icon": "IconPeopleA11y"
+    },
+    {
+      "title": "Spacings",
+      "slug": "spacings"
     }
   ]
 }
