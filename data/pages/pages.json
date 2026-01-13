@@ -91,7 +91,7 @@
       "path": "pages/spacings/spacings.json"
     },
     {
-      "title": "Spacing - button groups",
+      "title": "Button groups",
       "slug": "spacings/button-groups",
       "summary": "Button spacing helps create clear relationships between actions and ensures buttons feel balanced within a layout. The spacing depends on how the buttons are arranged, side by side or stacked, and should always feel visually connected to the surrounding form or content.",
       "path": "pages/spacingsspacings-for-button-groups/spacingsspacings-for-button-groups.json"
@@ -110,5 +110,5 @@
     }
   ],
   "total": 18,
-  "lastUpdated": "2026-01-13T14:22:08.949Z"
+  "lastUpdated": "2026-01-13T14:24:08.939Z"
 }
