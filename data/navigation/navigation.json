@@ -16,7 +16,7 @@
       "title": "Primitives",
       "slug": "primitives",
       "path": "navigation/primitives.json",
-      "links": 8
+      "links": 7
     },
     {
       "title": "Spacings",
@@ -26,5 +26,5 @@
     }
   ],
   "total": 4,
-  "lastUpdated": "2026-01-13T09:56:53.192Z"
+  "lastUpdated": "2026-01-13T09:57:44.893Z"
 }
