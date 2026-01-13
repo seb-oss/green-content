@@ -8,7 +8,7 @@
       "title": "Field group spacing",
       "tag": "H2",
       "section-content": "Spacing in a field group should follow a consistent structure both vertically and horizontally.",
-      "max-width": true,
+      "max-width": false,
       "cols": "1"
     },
     {
