@@ -13,13 +13,6 @@
         {
           "type": "rich-text",
           "content": "Adjust the spacing slightly based on button size, this approach maintains consistent visual rhythm while clearly grouping related actions.\n\n*   Large buttons: use M (16). \n    \n*   Medium buttons: use S (12). \n    \n*   Small buttons: use XS (8)."
-        },
-        {
-          "type": "snippet",
-          "caption": "The spacing is based on size on the buttons.",
-          "plain": false,
-          "replay": false,
-          "Snippet": "spacing-horisontal-buttons"
         }
       ]
     },
