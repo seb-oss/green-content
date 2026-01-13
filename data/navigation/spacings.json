@@ -3,12 +3,12 @@
   "slug": "spacings",
   "links": [
     {
-      "title": "In forms",
-      "slug": "spacings/in-forms"
+      "title": "Spacings - forms",
+      "slug": "spacings/spacings-forms"
     },
     {
-      "title": "For button groups",
-      "slug": "spacings/for-button-groups"
+      "title": "Spacing - button groups",
+      "slug": "spacings/spacing-button-groups"
     }
   ]
 }
