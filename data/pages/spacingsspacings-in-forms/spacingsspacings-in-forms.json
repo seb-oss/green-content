@@ -7,22 +7,23 @@
     {
       "title": "Field group spacing",
       "tag": "H2",
+      "section-content": "Spacing in a field group should follow a consistent structure both vertically and horizontally.",
       "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Vertical spacing",
-          "tag": "H3",
-          "content": "Fields that belong together should have smaller spacing between them to visually form a group. This helps users understand that the fields are related and should be completed together. Use consistent vertical spacing within each group to create a calm, structured flow and support quick scanning."
-        },
-        {
-          "type": "rich-text",
-          "title": "Horisontal spacing",
-          "tag": "H3",
-          "content": "When fields are placed side by side, their spacing should follow the grid gaps to stay consistent with the overall layout. This means the gap will vary between screen sizes, adapting to the grid defined for each breakpoint. This creates a balanced rhythm in the form.  \n\nAvoid placing fields side by side if it risks reducing readability or accessibility, for example, when labels or helper texts vary in length, or when users need to compare or enter longer text values. In those cases, stacking fields vertically provides better clarity and flow."
-        }
-      ]
+      "cols": "1"
+    },
+    {
+      "title": "Vertical spacing",
+      "tag": "H3",
+      "section-content": "Fields that belong together should have smaller spacing between them to visually form a group. This helps users understand that the fields are related and should be completed together. Use consistent vertical spacing within each group to create a calm, structured flow and support quick scanning.",
+      "max-width": false,
+      "cols": "2"
+    },
+    {
+      "title": "Form input max width",
+      "tag": "H2",
+      "section-content": "To keep forms easy to read, limit the maximum width of the form container on large screens. We have set a max width for the large components of 420px. Very wide forms can make it harder for users to follow the flow or connect labels with fields.\n\nFor the compact versions this decreases to 320 on desktop. In a mobile device input components can always take the full width.",
+      "max-width": true,
+      "cols": "1"
     },
     {
       "title": "Section spacing",
@@ -46,17 +47,21 @@
       "cols": "1"
     },
     {
+      "title": "Horisontal spacing",
+      "max-width": false
+    },
+    {
       "title": "Density mode",
       "section-content": "Density variants of form components allow forms to adapt to different use cases. The default layout uses comfortable spacing for readability, while a compact version can be used in data-heavy contexts where users need to see and edit many fields at once.\n\nThe spacing between fields in a compact variant with a horisontal layout should not follow the grid in these cases, the margins need to work independently to maintain a balanced and readable form layout. The grid itself doesn’t adapt to density.",
       "max-width": true,
       "cols": "1"
     },
     {
-      "title": "Form input max width",
-      "tag": "H2",
-      "section-content": "To keep forms easy to read, limit the maximum width of the form container on large screens. We have set a max width for the large components of 420px. Very wide forms can make it harder for users to follow the flow or connect labels with fields.\n\nFor the compact versions this decreases to 320 on desktop. In a mobile device input components can always take the full width.",
-      "max-width": true,
-      "cols": "1"
+      "title": "Horisontal spacing",
+      "tag": "H3",
+      "section-content": "When fields are placed side by side, their spacing should follow the grid gaps to stay consistent with the overall layout. This means the gap will vary between screen sizes, adapting to the grid defined for each breakpoint. This creates a balanced rhythm in the form.  \n\nAvoid placing fields side by side if it risks reducing readability or accessibility, for example, when labels or helper texts vary in length, or when users need to compare or enter longer text values. In those cases, stacking fields vertically provides better clarity and flow.",
+      "max-width": false,
+      "cols": "2"
     }
   ]
 }
