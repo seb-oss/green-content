@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-13T09:43:44.414Z",
+    "lastUpdated": "2026-01-13T09:45:56.664Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -448,6 +448,13 @@
             "path": "navigation/primitives.json",
             "links": 8,
             "endpoint": "navigation/primitives.json"
+          },
+          {
+            "title": "Spacings",
+            "slug": "spacings",
+            "path": "navigation/spacings.json",
+            "links": 1,
+            "endpoint": "navigation/spacings.json"
           }
         ]
       },
