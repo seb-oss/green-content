@@ -7,7 +7,7 @@
     {
       "title": "Field group spacing",
       "tag": "H2",
-      "max-width": false,
+      "max-width": true,
       "columns": [
         {
           "type": "rich-text",
@@ -22,6 +22,12 @@
           "content": "When fields are placed side by side, their spacing should follow the grid gaps to stay consistent with the overall layout. This means the gap will vary between screen sizes, adapting to the grid defined for each breakpoint. This creates a balanced rhythm in the form.  \n\nAvoid placing fields side by side if it risks reducing readability or accessibility, for example, when labels or helper texts vary in length, or when users need to compare or enter longer text values. In those cases, stacking fields vertically provides better clarity and flow."
         }
       ]
+    },
+    {
+      "title": "Section spacing",
+      "tag": "H2",
+      "section-content": "Sections are used to group related fields under a common heading. Clear spacing between sections helps users scan and understand the form structure, making longer forms easier to navigate.\n\n  \nUse consistent section spacing to build rhythm and hierarchy. As a guideline, section spacing should be about two to times larger than the spacing between fields (if field spacing is XL (24), section spacing can be 2XL (48)). If a divider is used between sections, the spacing above and below the divider can be slightly smaller since the divider already provides a visual separation.",
+      "max-width": true
     }
   ]
 }
