@@ -8,6 +8,7 @@
       "title": "Field group spacing",
       "tag": "H2",
       "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
@@ -27,30 +28,35 @@
       "title": "Section spacing",
       "tag": "H2",
       "section-content": "Sections are used to group related fields under a common heading. Clear spacing between sections helps users scan and understand the form structure, making longer forms easier to navigate.\n\nUse consistent section spacing to build rhythm and hierarchy. As a guideline, section spacing should be about two to times larger than the spacing between fields (if field spacing is XL (24), section spacing can be 2XL (48)). If a divider is used between sections, the spacing above and below the divider can be slightly smaller since the divider already provides a visual separation.",
-      "max-width": true
+      "max-width": true,
+      "cols": "1"
     },
     {
       "title": "Form contexts",
       "tag": "H2",
       "section-content": "On mobile, fields are usually displayed in a single column and stretch to full width for easier scanning and touch interaction.\n\nOn larger screens, related fields can be placed side by side within the grid, as long as readability and accessibility are maintained.",
-      "max-width": true
+      "max-width": true,
+      "cols": "1"
     },
     {
       "title": "Spacing can vary depending on complexity of the form",
       "tag": "H2",
       "section-content": "When a form contains many fields within a group, the vertical spacing often needs to increase to avoid a dense and overwhelming appearance. For simple forms, use XL (24) between fields. For more complex forms with many fields, increase to 2XL (32). The spacing between groups can remain the same to keep a consistent rhythm.",
-      "max-width": true
+      "max-width": true,
+      "cols": "1"
     },
     {
       "title": "Density mode",
       "section-content": "Density variants of form components allow forms to adapt to different use cases. The default layout uses comfortable spacing for readability, while a compact version can be used in data-heavy contexts where users need to see and edit many fields at once.\n\nThe spacing between fields in a compact variant with a horisontal layout should not follow the grid in these cases, the margins need to work independently to maintain a balanced and readable form layout. The grid itself doesn’t adapt to density.",
-      "max-width": false
+      "max-width": true,
+      "cols": "1"
     },
     {
       "title": "Form input max width",
       "tag": "H2",
       "section-content": "To keep forms easy to read, limit the maximum width of the form container on large screens. We have set a max width for the large components of 420px. Very wide forms can make it harder for users to follow the flow or connect labels with fields.\n\nFor the compact versions this decreases to 320 on desktop. In a mobile device input components can always take the full width.",
-      "max-width": false
+      "max-width": true,
+      "cols": "1"
     }
   ]
 }
