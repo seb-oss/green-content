@@ -1,6 +1,6 @@
 {
   "title": "Spacing",
-  "slug": "primitives/spacing",
+  "slug": "spacing",
   "summary": "Spacing is a fundamental tool for structuring layouts. In Green, we use spacing to create hierarchy, balance, and visual rhythm, making interfaces feel intentional and easy to navigate.",
   "parent": "primitives",
   "sections": [
