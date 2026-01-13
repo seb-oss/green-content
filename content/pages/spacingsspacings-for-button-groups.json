@@ -16,6 +16,7 @@
         },
         {
           "type": "snippet",
+          "caption": "The spacing is based on size on the buttons.",
           "plain": false,
           "replay": false,
           "Snippet": "spacing-horisontal-buttons"
