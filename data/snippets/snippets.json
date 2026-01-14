@@ -454,7 +454,7 @@
       "title": "Form spacing: Vertical",
       "slug": "form-spacing-vertical",
       "path": "snippets/form-spacing-vertical/form-spacing-vertical.json",
-      "code": "<gds-flex flex-direction=\"column\" align-items=\"flex-start\" padding='2xl' width=\"100%\">\n  <gds-text font=\"heading-s\" margin=\"0 0 0 8xl\">Logga in</gds-text>\n  <gds-flex height=\"2xl\" align-items=\"center\">\n    <gds-badge variant=\"notice\">M (16)\n      <gds-icon-square-placeholder slot=\"lead\" solid='true'></gds-icon-square-placeholder>\n    </gds-badge>\n  </gds-flex>\n  <gds-input label=\"E-postadress\" margin=\"0 0 0 8xl\"></gds-input>\n  <gds-badge variant=\"notice\">XL (24)\n    <gds-icon-square-placeholder slot=\"lead\" solid='true'></gds-icon-square-placeholder>\n  </gds-badge>\n  <gds-input label=\"Engångskod\" supporting-text=\"Fyll i kod med 8 tecken\" margin=\"0 0 0 8xl\"></gds-input>\n  <gds-badge variant=\"notice\">XL (24)\n    <gds-icon-square-placeholder slot=\"lead\" solid='true'></gds-icon-square-placeholder>\n  </gds-badge>\n  <gds-button variant='brand' rank='primary'margin=\"0 0 0 8xl\" width='100%'>Logga in</gds-button>\n</gds-flex>"
+      "code": "<gds-flex>\n\n  <gds-flex flex-direction=\"column\" width=\"100px\">\n    <gds-badge variant=\"notice\">M 16)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\"></gds-icon-square-placeholder>\n    </gds-badge>\n    <gds-badge variant=\"notice\">XL 24)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\"></gds-icon-square-placeholder>\n    </gds-badge>\n    <gds-badge variant=\"notice\">XL 24)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\"></gds-icon-square-placeholder>\n    </gds-badge>\n  </gds-flex>\n\n  <gds-flex flex-direction=\"column\" gap=\"m\" padding=\"2xl\" width=\"100%\">\n    <gds-flex align-items=\"flex-start\">\n      <gds-text font=\"heading-s\">Logga in</gds-text>\n    </gds-flex>\n\n    <gds-flex flex-direction=\"column\" width=\"100%\" gap=\"xl\">\n      <gds-flex align-items=\"flex-start\" width=\"100%\">\n        <gds-input label=\"E-postadress\"></gds-input>\n      </gds-flex>\n\n      <gds-flex align-items=\"flex-start\">\n        <gds-input label=\"Engångskod\" supporting-text=\"Fyll i kod med 8 tecken\"></gds-input>\n      </gds-flex>\n\n      <gds-flex align-items=\"flex-start\" width=\"100%\">\n        <gds-button variant=\"brand\" rank=\"primary\" width=\"100%\">Logga in</gds-button>\n      </gds-flex>\n    </gds-flex>\n  </gds-flex>\n\n</gds-flex>"
     },
     {
       "title": "Hero: Alert",
@@ -848,5 +848,5 @@
     }
   ],
   "total": 141,
-  "lastUpdated": "2026-01-14T08:21:54.346Z"
+  "lastUpdated": "2026-01-14T10:32:36.161Z"
 }
