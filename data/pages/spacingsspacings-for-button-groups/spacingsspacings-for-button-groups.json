@@ -19,6 +19,10 @@
           "plain": false,
           "replay": false,
           "Snippet": "spacing-horisontal-buttons"
+        },
+        {
+          "type": "image",
+          "src": "/assets/designdirection.jpg"
         }
       ]
     },
