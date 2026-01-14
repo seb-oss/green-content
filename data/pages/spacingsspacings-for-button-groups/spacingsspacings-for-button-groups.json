@@ -30,6 +30,11 @@
         {
           "type": "rich-text",
           "content": "When buttons are stacked vertically, use the same spacing values as for horizontal layouts. This keeps spacing consistent across button sizes and breakpoints, maintaining a clear and cohesive relationship between all actions in the group."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false
         }
       ]
     }
