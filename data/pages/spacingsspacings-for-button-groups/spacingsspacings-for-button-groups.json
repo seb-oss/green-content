@@ -15,8 +15,10 @@
           "content": "Adjust the spacing based on button size, this approach maintains consistent visual rhythm while clearly grouping related actions.\n\n*   **Small buttons** use XS (8).\n    \n*   **Medium buttons** use S (12). \n    \n*   **Large buttons use** M (16)."
         },
         {
-          "type": "image",
-          "src": "/assets/designdirection.jpg"
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "spacing-horisontal-buttons"
         }
       ]
     },
