@@ -451,6 +451,12 @@
       "code": "<gds-flex\n  padding=\"xl\"\n  width=\"100%\"\n  justify-content=\"center\"\n  alig-items=\"center\"\n>\n  <gds-filter-chips value=\"us-dollar\">\n    <gds-filter-chip size=\"small\" value=\"us-dollar\">US-dollar</gds-filter-chip>\n    <gds-filter-chip size=\"small\">British Virgin Islands</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Normal account</gds-filter-chip>\n    <gds-filter-chip size=\"small\">High risk</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Global</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Emerging markets</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Equity funds</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Biotechnology</gds-filter-chip>\n  </gds-filter-chips>\n</gds-flex>\n"
     },
     {
+      "title": "Form spacing: Horisontal",
+      "slug": "form-spacing-horisontal",
+      "path": "snippets/form-spacing-horisontal/form-spacing-horisontal.json",
+      "code": "<gds-flex width=\"100%\" flex-direction=\"column\" align-items=\"center\">\n  <gds-flex flex-direction=\"row\" padding=\"m\" gap=\"m\">\n    <gds-flex align-items=\"flex-start\" gap=\"2xl\">\n      <gds-datepicker label=\"From\" width=180px\"></gds-datepicker>\n      <gds-datepicker label=\"To\" width=180px\"></gds-datepicker>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex>\n    <gds-badge variant=\"notice\">XL 24)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\"></gds-icon-square-placeholder>\n    </gds-badge>\n  </gds-flex>\n</gds-flex>"
+    },
+    {
       "title": "Form spacing: Vertical",
       "slug": "form-spacing-vertical",
       "path": "snippets/form-spacing-vertical/form-spacing-vertical.json",
@@ -853,6 +859,6 @@
       "code": "<span>...</span>"
     }
   ],
-  "total": 142,
-  "lastUpdated": "2026-01-14T14:30:12.193Z"
+  "total": 143,
+  "lastUpdated": "2026-01-15T18:09:09.102Z"
 }
