@@ -451,6 +451,12 @@
       "code": "<gds-flex\n  padding=\"xl\"\n  width=\"100%\"\n  justify-content=\"center\"\n  alig-items=\"center\"\n>\n  <gds-filter-chips value=\"us-dollar\">\n    <gds-filter-chip size=\"small\" value=\"us-dollar\">US-dollar</gds-filter-chip>\n    <gds-filter-chip size=\"small\">British Virgin Islands</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Normal account</gds-filter-chip>\n    <gds-filter-chip size=\"small\">High risk</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Global</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Emerging markets</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Equity funds</gds-filter-chip>\n    <gds-filter-chip size=\"small\">Biotechnology</gds-filter-chip>\n  </gds-filter-chips>\n</gds-flex>\n"
     },
     {
+      "title": "Form spacing: Density",
+      "slug": "form-spacing-density",
+      "path": "snippets/form-spacing-density/form-spacing-density.json",
+      "code": "<gds-flex width=\"100%\" padding=\"2xl\" justify-content=\"center\">\n  <gds-flex flex-direction=\"column\" width=\"100px\" margin=\"4xl 0 0 0\" gap=\"4xl\">\n    <gds-badge variant=\"notice\">XS (8)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n    </gds-badge>\n    <gds-badge variant=\"notice\">S (12)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n    </gds-badge>\n    <gds-flex margin=\"m 0 0 0\">\n      <gds-badge variant=\"notice\">S (12)\n          <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n      </gds-badge>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" gap=\"xs\" padding=\"2xl\" width=\"100%\">\n    <gds-flex align-items=\"flex-start\">\n      <gds-text font=\"heading-xs\">Logga in</gds-text>\n    </gds-flex>\n    <gds-flex flex-direction=\"column\" width=\"100%\" gap=\"xs\">\n      <gds-flex align-items=\"flex-start\" width=\"100%\">\n        <gds-input label=\"E-postadress\" size=\"small\"></gds-input>\n      </gds-flex>\n      <gds-flex align-items=\"flex-start\">\n        <gds-input label=\"Engångskod\" supporting-text=\"Fyll i kod med 8 tecken\" size=\"small\"></gds-input>\n      </gds-flex>\n      <gds-flex align-items=\"flex-start\" width=\"100%\">\n        <gds-button variant=\"brand\" size=\"small\" rank=\"primary\" width=\"100%\">Logga in</gds-button>\n      </gds-flex>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
+    },
+    {
       "title": "Form spacing: Horisontal",
       "slug": "form-spacing-horisontal",
       "path": "snippets/form-spacing-horisontal/form-spacing-horisontal.json",
@@ -865,6 +871,6 @@
       "code": "<span>...</span>"
     }
   ],
-  "total": 144,
-  "lastUpdated": "2026-01-15T19:44:52.686Z"
+  "total": 145,
+  "lastUpdated": "2026-01-15T20:00:22.704Z"
 }
