@@ -82,9 +82,20 @@
     },
     {
       "title": "Density mode",
-      "section-content": "Density variants of form components allow forms to adapt to different use cases. The default layout uses comfortable spacing for readability, while a compact version can be used in data-heavy contexts where users need to see and edit many fields at once.\n\nThe spacing between fields in a compact variant with a horisontal layout should not follow the grid in these cases, the margins need to work independently to maintain a balanced and readable form layout. The grid itself doesn’t adapt to density.",
       "max-width": false,
-      "cols": "2"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Density variants of form components allow forms to adapt to different use cases. The default layout uses comfortable spacing for readability, while a compact version can be used in data-heavy contexts where users need to see and edit many fields at once.\n\nThe spacing between fields in a compact variant with a horisontal layout should not follow the grid in these cases, the margins need to work independently to maintain a balanced and readable form layout. The grid itself doesn’t adapt to density."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "form-spacing-density"
+        }
+      ]
     },
     {
       "title": "Form input max width",
