@@ -33,9 +33,20 @@
     {
       "title": "Horisontal spacing",
       "tag": "H3",
-      "section-content": "When fields are placed side by side, their spacing should follow the grid gaps to stay consistent with the overall layout. This means the gap will vary between screen sizes, adapting to the grid defined for each breakpoint. This creates a balanced rhythm in the form.  \n\nAvoid placing fields side by side if it risks reducing readability or accessibility, for example, when labels or helper texts vary in length, or when users need to compare or enter longer text values. In those cases, stacking fields vertically provides better clarity and flow.",
       "max-width": false,
-      "cols": "2"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "When fields are placed side by side, their spacing should follow the grid gaps to stay consistent with the overall layout. This means the gap will vary between screen sizes, adapting to the grid defined for each breakpoint. This creates a balanced rhythm in the form.  \n\nAvoid placing fields side by side if it risks reducing readability or accessibility, for example, when labels or helper texts vary in length, or when users need to compare or enter longer text values. In those cases, stacking fields vertically provides better clarity and flow."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "form-spacing-horisontal"
+        }
+      ]
     },
     {
       "title": "Section spacing",
