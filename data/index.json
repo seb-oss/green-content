@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-15T18:16:16.997Z",
+    "lastUpdated": "2026-01-15T19:00:39.086Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1331,7 +1331,7 @@
             "title": "Form spacing: Vertical",
             "slug": "form-spacing-vertical",
             "path": "snippets/form-spacing-vertical/form-spacing-vertical.json",
-            "code": "<gds-flex width=\"100%\">\n\n  <gds-flex flex-direction=\"column\" width=\"100px\">\n    <gds-badge variant=\"notice\">M 16)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\"></gds-icon-square-placeholder>\n    </gds-badge>\n    <gds-badge variant=\"notice\">XL 24)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\"></gds-icon-square-placeholder>\n    </gds-badge>\n    <gds-badge variant=\"notice\">XL 24)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\"></gds-icon-square-placeholder>\n    </gds-badge>\n  </gds-flex>\n\n  <gds-flex flex-direction=\"column\" gap=\"m\" padding=\"2xl\" width=\"100%\">\n    <gds-flex align-items=\"flex-start\">\n      <gds-text font=\"heading-s\">Logga in</gds-text>\n    </gds-flex>\n\n    <gds-flex flex-direction=\"column\" width=\"100%\" gap=\"xl\">\n      <gds-flex align-items=\"flex-start\" width=\"100%\">\n        <gds-input label=\"E-postadress\"></gds-input>\n      </gds-flex>\n\n      <gds-flex align-items=\"flex-start\">\n        <gds-input label=\"Engångskod\" supporting-text=\"Fyll i kod med 8 tecken\"></gds-input>\n      </gds-flex>\n\n      <gds-flex align-items=\"flex-start\" width=\"100%\">\n        <gds-button variant=\"brand\" rank=\"primary\" width=\"100%\">Logga in</gds-button>\n      </gds-flex>\n    </gds-flex>\n  </gds-flex>\n\n</gds-flex>",
+            "code": "<gds-flex width=\"100%\">\n  <gds-flex flex-direction=\"column\" width=\"100px\" margin=\"5xl 0 0 0\" gap=\"5xl\">\n    <gds-badge variant=\"notice\">M (16)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n    </gds-badge>\n    <gds-badge variant=\"notice\">XL (24)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n    </gds-badge>\n    <gds-flex margin=\"s 0 0 0\">\n      <gds-badge variant=\"notice\">XL (24)\n        <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n      </gds-badge>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" gap=\"m\" padding=\"2xl\" width=\"100%\">\n    <gds-flex align-items=\"flex-start\">\n      <gds-text font=\"heading-s\">Logga in</gds-text>\n    </gds-flex>\n    <gds-flex flex-direction=\"column\" width=\"100%\" gap=\"xl\">\n      <gds-flex align-items=\"flex-start\" width=\"100%\">\n        <gds-input label=\"E-postadress\"></gds-input>\n      </gds-flex>\n      <gds-flex align-items=\"flex-start\">\n        <gds-input label=\"Engångskod\" supporting-text=\"Fyll i kod med 8 tecken\"></gds-input>\n      </gds-flex>\n      <gds-flex align-items=\"flex-start\" width=\"100%\">\n        <gds-button variant=\"brand\" rank=\"primary\" width=\"100%\">Logga in</gds-button>\n      </gds-flex>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/form-spacing-vertical/form-spacing-vertical.json"
             }
