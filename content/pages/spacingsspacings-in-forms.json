@@ -51,9 +51,20 @@
     {
       "title": "Section spacing",
       "tag": "H2",
-      "section-content": "Sections are used to group related fields under a common heading. Clear spacing between sections helps users scan and understand the form structure, making longer forms easier to navigate.\n\nUse consistent section spacing to build rhythm and hierarchy. As a guideline, section spacing should be about two to times larger than the spacing between fields (if field spacing is XL (24), section spacing can be 2XL (48)). If a divider is used between sections, the spacing above and below the divider can be slightly smaller since the divider already provides a visual separation.",
       "max-width": false,
-      "cols": "2"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Sections are used to group related fields under a common heading. Clear spacing between sections helps users scan and understand the form structure, making longer forms easier to navigate.\n\nUse consistent section spacing to build rhythm and hierarchy. As a guideline, section spacing should be about two to times larger than the spacing between fields (if field spacing is XL (24), section spacing can be 2XL (48)). If a divider is used between sections, the spacing above and below the divider can be slightly smaller since the divider already provides a visual separation."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "form-spacing-sections"
+        }
+      ]
     },
     {
       "title": "Form contexts",
