@@ -23,7 +23,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Spacing in a field group should follow a consistent structure both vertically and horizontally, and reflect how fields are grouped semantically.\n\nField groups should be represented both visually and in code. Fields that belong together should be grouped using <fieldset> and <legend>, and the spacing should reinforce that structure."
+          "content": "Spacing in a field group should follow a consistent structure both vertically and horizontally, and reflect how fields are grouped semantically.\n\nField groups should be represented both visually and in code. Fields that belong together should be grouped using `<fieldset>` and `<legend>`, and the spacing should reinforce that structure."
         }
       ]
     },
