@@ -18,9 +18,14 @@
     {
       "title": "Field group spacing",
       "tag": "H2",
-      "section-content": "Spacing in a field group should follow a consistent structure both vertically and horizontally.",
       "max-width": false,
-      "cols": "1"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Spacing in a field group should follow a consistent structure both vertically and horizontally, and reflect how fields are grouped semantically.\n\nField groups should be represented both visually and in code. Fields that belong together should be grouped using <fieldset> and <legend>, and the spacing should reinforce that structure."
+        }
+      ]
     },
     {
       "title": "Vertical spacing",
@@ -30,7 +35,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Fields that belong together should have smaller spacing between them to visually form a group. This helps users understand that the fields are related and should be completed together. Use consistent vertical spacing within each group to create a calm, structured flow and support quick scanning."
+          "content": "Fields that belong together should have smaller spacing between them to visually form a group. This helps users understand that the fields are related and should be completed together. Use consistent vertical spacing within each group to create a calm, structured flow and support quick scanning.\n\nVertical spacing is used to show which fields belong together. Fields that are part of the same group should have smaller spacing between them, while the space between different groups should be larger. This creates a clear visual structure and makes the grouping easy to scan and understand.\n\nUse consistent vertical spacing within each group and between groups to create a predictable and calm layout."
         },
         {
           "type": "snippet",
