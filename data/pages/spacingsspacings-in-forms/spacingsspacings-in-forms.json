@@ -100,9 +100,20 @@
     {
       "title": "Form input max width",
       "tag": "H2",
-      "section-content": "To keep forms easy to read, limit the maximum width of the form container on large screens. We have set a max width for the large components of 420px. Very wide forms can make it harder for users to follow the flow or connect labels with fields.\n\nFor the compact versions this decreases to 320 on desktop. In a mobile device input components can always take the full width.",
       "max-width": false,
-      "cols": "2"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "To keep forms easy to read, limit the maximum width of the form container on large screens. We have set a max width for the large components of 420px. Very wide forms can make it harder for users to follow the flow or connect labels with fields.\n\nFor the compact versions this decreases to 320 on desktop. In a mobile device input components can always take the full width."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "form-spacing-max-width"
+        }
+      ]
     }
   ]
 }
