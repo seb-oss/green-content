@@ -64,14 +64,14 @@
       ]
     },
     {
-      "title": "Section spacing",
+      "title": "Fieldset spacing",
       "tag": "H2",
       "max-width": false,
       "cols": "2",
       "columns": [
         {
           "type": "rich-text",
-          "content": "Sections are used to group related fields under a common heading. Clear spacing between sections helps users scan and understand the form structure, making longer forms easier to navigate.\n\nUse consistent section spacing to build rhythm and hierarchy. As a guideline, section spacing should be about two to times larger than the spacing between fields (if field spacing is XL (24), section spacing can be 2XL (48)). If a divider is used between sections, the spacing above and below the divider can be slightly smaller since the divider already provides a visual separation."
+          "content": "Use consistent section spacing to build rhythm and hierarchy. As a guideline, section spacing should be about two to times larger than the spacing between fields (if field spacing is XL (24), section spacing can be 2XL (48)). If a divider is used between sections, the spacing above and below the divider can be slightly smaller since the divider already provides a visual separation.  \n  \nEach field group should be implemented using `<fieldset>` with a `<legend>` that describes the group. The legend acts as the group heading and provides a programmatic name for the group, ensuring that the structure is available to assistive technologies and that the visual and semantic structure stay aligned.\n\nFor example:\n\n*   **Verksamhetsinformation** should be one fieldset with its legend.\n    \n*   **Organisationens aktiekapital** should be another fieldset with its legend."
         },
         {
           "type": "snippet",
