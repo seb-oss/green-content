@@ -463,6 +463,12 @@
       "code": "<gds-flex width=\"100%\" flex-direction=\"column\" align-items=\"center\" padding=\"4xl\">\n  <gds-flex flex-direction=\"row\" padding=\"m\" gap=\"m\">\n    <gds-flex align-items=\"flex-start\" gap=\"xl\">\n      <gds-datepicker label=\"From\" width=180px\"></gds-datepicker>\n      <gds-datepicker label=\"To\" width=180px\"></gds-datepicker>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex>\n    <gds-badge variant=\"notice\">XL 24)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\"></gds-icon-square-placeholder>\n    </gds-badge>\n  </gds-flex>\n</gds-flex>"
     },
     {
+      "title": "Form spacing: Max width",
+      "slug": "form-spacing-max-width",
+      "path": "snippets/form-spacing-max-width/form-spacing-max-width.json",
+      "code": "<gds-flex flex-direction=\"column\" gap=\"2xl\" align-items=\"center\" padding=\"3xl\">\n  <gds-flex flex-direction=\"column\" width=\"420px\" gap=\"s\">\n    <gds-input label=\"Input large\" size=\"large\"></gds-input>\n    <gds-badge variant=\"notice\">Max width 420 (desktop)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n    </gds-badge>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" width=\"320px\" gap=\"s\">\n    <gds-input label=\"Input small\" size=\"small\"></gds-input>\n    <gds-badge variant=\"notice\">Max width 320 (desktop)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n    </gds-badge>\n  </gds-flex>\n</gds-flex>"
+    },
+    {
       "title": "Form spacing: Sections",
       "slug": "form-spacing-sections",
       "path": "snippets/form-spacing-sections/form-spacing-sections.json",
@@ -871,6 +877,6 @@
       "code": "<span>...</span>"
     }
   ],
-  "total": 145,
-  "lastUpdated": "2026-01-15T20:02:42.191Z"
+  "total": 146,
+  "lastUpdated": "2026-01-16T08:07:01.379Z"
 }
