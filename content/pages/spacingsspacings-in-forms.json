@@ -6,6 +6,15 @@
   "layout": "editorial",
   "sections": [
     {
+      "max-width": false,
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/form_spacing_hero.png"
+        }
+      ]
+    },
+    {
       "title": "Field group spacing",
       "tag": "H2",
       "section-content": "Spacing in a field group should follow a consistent structure both vertically and horizontally.",
