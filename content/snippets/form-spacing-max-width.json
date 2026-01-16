@@ -1,0 +1,5 @@
+{
+  "title": "Form spacing: Max width",
+  "slug": "form-spacing-max-width",
+  "code": "<gds-flex flex-direction=\"column\" gap=\"2xl\" align-items=\"center\" padding=\"3xl\">\n  <gds-flex flex-direction=\"column\" width=\"420px\" gap=\"s\">\n    <gds-input label=\"Input large\" size=\"large\"></gds-input>\n    <gds-badge variant=\"notice\">Max width 420 (desktop)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n    </gds-badge>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" width=\"320px\" gap=\"s\">\n    <gds-input label=\"Input small\" size=\"small\"></gds-input>\n    <gds-badge variant=\"notice\">Max width 320 (desktop)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n    </gds-badge>\n  </gds-flex>\n</gds-flex>"
+}
