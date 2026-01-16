@@ -71,7 +71,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Use consistent section spacing to build rhythm and hierarchy. As a guideline, section spacing should be about two to times larger than the spacing between fields (if field spacing is XL (24), section spacing can be 2XL (48)). If a divider is used between sections, the spacing above and below the divider can be slightly smaller since the divider already provides a visual separation.  \n  \nEach field group should be implemented using `<fieldset>` with a `<legend>` that describes the group. The legend acts as the group heading and provides a programmatic name for the group, ensuring that the structure is available to assistive technologies and that the visual and semantic structure stay aligned.\n\nFor example:\n\n*   **Verksamhetsinformation** should be one fieldset with its legend.\n    \n*   **Organisationens aktiekapital** should be another fieldset with its legend."
+          "content": "Use consistent section spacing to build rhythm and hierarchy. As a guideline, section spacing should be about two to times larger than the spacing between fields (if field spacing is XL (24), section spacing can be 2XL (48)). If a divider is used between sections, the spacing above and below the divider can be slightly smaller since the divider already provides a visual separation.\n\nEach field group should be implemented using `<fieldset>` with a `<legend>` that describes the group. The legend acts as the group heading and provides a programmatic name for the group, ensuring that the structure is available to assistive technologies and that the visual and semantic structure stay aligned.\n\nFor example:\n\n*   **Verksamhetsinformation** should be one fieldset with its legend.\n    \n*   **Organisationens aktiekapital** should be another fieldset with its legend."
         },
         {
           "type": "snippet",
@@ -84,16 +84,26 @@
     {
       "title": "Form contexts",
       "tag": "H2",
-      "section-content": "On mobile, fields are usually displayed in a single column and stretch to full width for easier scanning and touch interaction.\n\nOn larger screens, related fields can be placed side by side within the grid, as long as readability and accessibility are maintained.",
       "max-width": false,
-      "cols": "2"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "On mobile, fields are usually displayed in a single column and stretch to full width for easier scanning and touch interaction.\n\nOn larger screens, related fields can be placed side by side within the grid, as long as readability and accessibility are maintained."
+        }
+      ]
     },
     {
       "title": "Spacing can vary depending on complexity of the form",
       "tag": "H2",
-      "section-content": "When a form contains many fields within a group, the vertical spacing often needs to increase to avoid a dense and overwhelming appearance. For simple forms, use XL (24) between fields. For more complex forms with many fields, increase to 2XL (32). The spacing between groups can remain the same to keep a consistent rhythm.",
       "max-width": false,
-      "cols": "2"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "When a form contains many fields within a group, the vertical spacing often needs to increase to avoid a dense and overwhelming appearance. For simple forms, use XL (24) between fields. For more complex forms with many fields, increase to 2XL (32). The spacing between groups can remain the same to keep a consistent rhythm."
+        }
+      ]
     },
     {
       "title": "Density mode",
