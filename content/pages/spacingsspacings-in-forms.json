@@ -35,7 +35,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Fields that belong together should have smaller spacing between them to visually form a group. This helps users understand that the fields are related and should be completed together. Use consistent vertical spacing within each group to create a calm, structured flow and support quick scanning.\n\nVertical spacing is used to show which fields belong together. Fields that are part of the same group should have smaller spacing between them, while the space between different groups should be larger. This creates a clear visual structure and makes the grouping easy to scan and understand.\n\nUse consistent vertical spacing within each group and between groups to create a predictable and calm layout."
+          "content": "Vertical spacing is used to separate and define field groups. Fields within the same `<fieldset>` should have smaller spacing between them, while the space between different fieldsets should be larger. This makes the grouping clear and consistent. Use consistent vertical spacing within each fieldset and between fieldsets to create a calm, structured flow and support quick scanning."
         },
         {
           "type": "snippet",
