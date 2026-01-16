@@ -5,6 +5,16 @@
   "parent": "spacings",
   "sections": [
     {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/button_spacing_hero.png"
+        }
+      ]
+    },
+    {
       "title": "Horisontal button group",
       "tag": "H2",
       "max-width": false,
