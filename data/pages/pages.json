@@ -105,6 +105,7 @@
     {
       "title": "Typography spacing",
       "slug": "spacings/typography-spacing",
+      "summary": "Spacing in typography defines the structure and relationships between text elements such as headings, preambles, and body text. It should be used consistently to create a clear and predictable text hierarchy.",
       "path": "pages/spacingstypography/spacingstypography.json"
     },
     {
@@ -115,5 +116,5 @@
     }
   ],
   "total": 19,
-  "lastUpdated": "2026-01-19T13:51:45.245Z"
+  "lastUpdated": "2026-01-19T13:54:49.390Z"
 }
