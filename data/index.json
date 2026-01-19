@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-19T13:51:05.358Z",
+    "lastUpdated": "2026-01-19T13:51:45.244Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -630,8 +630,8 @@
             }
           },
           {
-            "title": "Typography",
-            "slug": "spacings/typography",
+            "title": "Typography spacing",
+            "slug": "spacings/typography-spacing",
             "path": "pages/spacingstypography/spacingstypography.json",
             "endpoints": {
               "content": "pages/spacingstypography/spacingstypography.json"
