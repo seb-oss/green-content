@@ -13,6 +13,11 @@
           "src": "/assets/typography_spacing_hero.png"
         }
       ]
+    },
+    {
+      "title": "Test section",
+      "section-content": "Test content.",
+      "max-width": false
     }
   ]
 }
