@@ -103,12 +103,17 @@
       "path": "pages/spacingsspacings-in-forms/spacingsspacings-in-forms.json"
     },
     {
+      "title": "Typography",
+      "slug": "spacings/typography",
+      "path": "pages/spacingstypography/spacingstypography.json"
+    },
+    {
       "title": "UX writing",
       "slug": "ux-writing",
       "summary": "Wherever customers meet us, their experience of SEB should be consistent. A good experience builds trust and can lead to new business. Customer-facing text must be correct – mistakes distract and reduce credibility.",
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 18,
-  "lastUpdated": "2026-01-16T10:28:13.197Z"
+  "total": 19,
+  "lastUpdated": "2026-01-19T13:51:05.360Z"
 }
