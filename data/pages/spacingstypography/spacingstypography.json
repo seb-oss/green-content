@@ -25,6 +25,13 @@
           "plain": false,
           "replay": false,
           "Snippet": "display-l"
+        },
+        {
+          "type": "snippet",
+          "caption": "Display-M with preamble-L, gap=XL (24)",
+          "plain": false,
+          "replay": false,
+          "Snippet": "display-m"
         }
       ]
     }
