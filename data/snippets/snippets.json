@@ -397,6 +397,12 @@
       "code": "<gds-flex padding=\"xl\" width=\"100%\" justify-content=\"center\" alig-items=\"center\">\n  <gds-dialog heading=\"Cancel the application\">\n    <gds-button slot=\"trigger\">Open dialog</gds-button>\n    <gds-text tag=\"p\">\n  Are you sure you want to cancel? Nothing will be saved and you'll need to start again if you still want to apply.\n    </gds-text>\n    <gds-flex slot=\"footer\" gap=\"s\">\n      <gds-button rank=\"secondary\">No, close</gds-button>\n      <gds-button>Yes, cancel</gds-button>\n    </gds-flex>\n  </gds-dialog>\n</gds-flex>"
     },
     {
+      "title": "Display,L, Preamble, XL",
+      "slug": "display-l",
+      "path": "snippets/display-l/display-l.json",
+      "code": "<gds-flex padding=\"3xl\" flex-direction=\"column\" align-items=\"center\" gap=\"s\">\n  <gds-text text-align=\"center \"font=\"display-l\">Climate change is the greatest and most urgent challenge of our generation.</gds-text>\n  <gds-badge variant=\"notice\">3XL (40)</gds-badge>\n  <gds-text padding=\"0 2xl 0 2xl\" \"color=\"content-02\" text-align=\"center \"font=\"preamble-xl\">We have committed to the Paris Agreement by the signing of the UNEP FI Principles for Responsible Banking, and one of the founding signatories of the Net-Zero Banking Alliance and the Net Zero Asset Managers initiative./gds-text>\n</gds-flex>"
+    },
+    {
       "title": "Divider: Color",
       "slug": "divider-color",
       "path": "snippets/divider-color/divider-color.json",
@@ -877,6 +883,6 @@
       "code": "<span>...</span>"
     }
   ],
-  "total": 146,
-  "lastUpdated": "2026-01-20T08:25:32.051Z"
+  "total": 147,
+  "lastUpdated": "2026-01-20T10:23:21.936Z"
 }
