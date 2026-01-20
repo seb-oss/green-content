@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-20T08:21:45.621Z",
+    "lastUpdated": "2026-01-20T08:22:32.934Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -613,7 +613,7 @@
           },
           {
             "title": "Button groups",
-            "slug": "spacings/button-groups",
+            "slug": "spacings/buttons",
             "summary": "Button spacing helps create clear relationships between actions and ensures buttons feel balanced within a layout. The spacing depends on how the buttons are arranged, side by side or stacked, and should always feel visually connected to the surrounding form or content.",
             "path": "pages/spacingsspacings-for-button-groups/spacingsspacings-for-button-groups.json",
             "endpoints": {
