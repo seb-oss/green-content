@@ -15,9 +15,18 @@
       ]
     },
     {
-      "title": "Test section",
-      "section-content": "Test content.",
-      "max-width": false
+      "title": "Typography pairings and spacing",
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Display-L with preamble-XL, gap=3XL (40)",
+          "plain": false,
+          "replay": false,
+          "Snippet": "display-l"
+        }
+      ]
     }
   ]
 }
