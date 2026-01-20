@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-19T15:37:22.467Z",
+    "lastUpdated": "2026-01-20T08:21:45.621Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -631,7 +631,7 @@
           },
           {
             "title": "Typography spacings",
-            "slug": "spacings/typography-spacings",
+            "slug": "spacings/typography",
             "summary": "Spacing in typography defines the structure and relationships between text elements such as headings, preambles, and body text. It should be used consistently to create a clear and predictable text hierarchy.",
             "path": "pages/spacingstypography/spacingstypography.json",
             "endpoints": {
