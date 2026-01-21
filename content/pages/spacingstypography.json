@@ -16,6 +16,10 @@
     },
     {
       "title": "Typography pairings and spacing",
+      "max-width": false
+    },
+    {
+      "title": "Display and preamble",
       "max-width": false,
       "cols": "1",
       "columns": [
@@ -32,6 +36,13 @@
           "plain": false,
           "replay": false,
           "Snippet": "display-m"
+        },
+        {
+          "type": "snippet",
+          "caption": "Display-S with preamble-M, gap=M (16)",
+          "plain": false,
+          "replay": false,
+          "Snippet": "display-s"
         }
       ]
     }
