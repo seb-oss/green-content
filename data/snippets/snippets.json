@@ -514,13 +514,13 @@
       "title": "Heading L, preamble S",
       "slug": "heading-l",
       "path": "snippets/heading-l/heading-l.json",
-      "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\" gap=\"m\">\n  <gds-text font=\"heading-l\">Med ett lånelöfte är du redo för drömboendet\n  </gds-text>\n  <gds-text max-width=\"800px\" \"color=\" content-02\" font=\"preamble-s\">Få koll på hur mycket du kan låna och gör dig redo för budgivning med ett lånelöfte.\n  </gds-text>\n    <gds-badge width=\"64px\"variant=\"notice\">M (16)</gds-badge>\n</gds-flex>"
+      "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\" gap=\"m\">\n  <gds-text font=\"heading-l\">Med ett lånelöfte är du redo för drömboendet\n  </gds-text>\n  <gds-text max-width=\"800px\" color=\"neutral-02\" font=\"preamble-s\">Få koll på hur mycket du kan låna och gör dig redo för budgivning med ett lånelöfte.\n  </gds-text>\n    <gds-badge width=\"64px\"variant=\"notice\">M (16)</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Heading-M, preamble-S",
       "slug": "heading-m",
       "path": "snippets/heading-m/heading-m.json",
-      "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-text font=\"heading-m\">Med ett lånelöfte är du redo för drömboendet\n  </gds-text>\n  <gds-text \"color=\" content-02\" font=\"preamble-s\">Få koll på hur mycket du kan låna och gör dig redo för budgivning med ett lånelöfte.\n  </gds-text>\n    <gds-badge width=\"64px\"variant=\"notice\">S (12)</gds-badge>\n</gds-flex>"
+      "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-text font=\"heading-m\">Med ett lånelöfte är du redo för drömboendet\n  </gds-text>\n  <gds-text color=\"neutral-02\" font=\"preamble-s\">Få koll på hur mycket du kan låna och gör dig redo för budgivning med ett lånelöfte.\n  </gds-text>\n    <gds-badge width=\"64px\"variant=\"notice\">S (12)</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Heading-S, preamble-S",
@@ -932,5 +932,5 @@
     }
   ],
   "total": 155,
-  "lastUpdated": "2026-01-21T16:54:02.118Z"
+  "lastUpdated": "2026-01-21T16:55:03.069Z"
 }
