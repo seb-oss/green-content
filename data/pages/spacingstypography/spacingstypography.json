@@ -117,6 +117,13 @@
           "plain": false,
           "replay": false,
           "Snippet": "heading-body-05"
+        },
+        {
+          "type": "snippet",
+          "caption": "Heading-XS, body-M gap=XS (8)",
+          "plain": false,
+          "replay": false,
+          "Snippet": "heading-body-06"
         }
       ]
     }
