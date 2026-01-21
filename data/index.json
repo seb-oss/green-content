@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-21T15:11:37.795Z",
+    "lastUpdated": "2026-01-21T15:14:30.658Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1397,6 +1397,15 @@
             "code": "<gds-flex width=\"100%\" padding=\"2xl\" justify-content=\"center\">\n  <gds-flex flex-direction=\"column\" width=\"100px\" margin=\"5xl 0 0 0\" gap=\"5xl\">\n    <gds-badge variant=\"notice\">M (16)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n    </gds-badge>\n    <gds-badge variant=\"notice\">XL (24)\n      <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n    </gds-badge>\n    <gds-flex margin=\"s 0 0 0\">\n      <gds-badge variant=\"notice\">XL (24)\n        <gds-icon-square-placeholder slot=\"lead\" solid=\"true\">\n      </gds-badge>\n    </gds-flex>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" gap=\"m\" padding=\"2xl\" width=\"100%\">\n    <gds-flex align-items=\"flex-start\">\n      <gds-text font=\"heading-s\">Logga in</gds-text>\n    </gds-flex>\n    <gds-flex flex-direction=\"column\" width=\"100%\" gap=\"xl\">\n      <gds-flex align-items=\"flex-start\" width=\"100%\">\n        <gds-input label=\"E-postadress\"></gds-input>\n      </gds-flex>\n      <gds-flex align-items=\"flex-start\">\n        <gds-input label=\"Engångskod\" supporting-text=\"Fyll i kod med 8 tecken\"></gds-input>\n      </gds-flex>\n      <gds-flex align-items=\"flex-start\" width=\"100%\">\n        <gds-button variant=\"brand\" rank=\"primary\" width=\"100%\">Logga in</gds-button>\n      </gds-flex>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/form-spacing-vertical/form-spacing-vertical.json"
+            }
+          },
+          {
+            "title": "Heading-XL, body-L",
+            "slug": "heading-body",
+            "path": "snippets/heading-body/heading-body.json",
+            "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\" gap=\"m\">\n  <gds-text font=\"heading-xl\">Med ett lånelöfte är du redo för drömboendet\n  </gds-text>\n  <gds-text max-width=\"500px\" \"color=\" content-02\" font=\"body-regular-l\">Få koll på hur mycket du kan låna och gör dig redo för\n    budgivning med ett lånelöfte.\n  </gds-text>\n  <gds-badge width=\"60px\" variant=\"notice\">M (16)</gds-badge>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/heading-body/heading-body.json"
             }
           },
           {
