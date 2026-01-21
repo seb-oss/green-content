@@ -87,13 +87,15 @@
           "type": "snippet",
           "caption": "Heading-XL, body-L gap=M (16)",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "heading-body-01"
         },
         {
           "type": "snippet",
           "caption": "Heading-XL, body-M gap=M (16)",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "heading-body-02"
         }
       ]
     }
