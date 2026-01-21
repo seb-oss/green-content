@@ -49,9 +49,6 @@
       "cols": "2",
       "columns": [
         {
-          "type": "rich-text"
-        },
-        {
           "type": "snippet",
           "caption": "Heading-XL with preamble-M, gap=M (16)",
           "plain": false,
