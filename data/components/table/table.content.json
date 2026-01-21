@@ -166,6 +166,16 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Headline and summery",
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The table supports optional **headline** and **summary** properties to ensure a consistent presentation. Use headline and summary to describe the data, not interactions or controls. Keep both short and descriptive\n\n*   **Headline** An optional title that describes the content of the table.\n    \n*   **Summary** An optional short description that provides additional context about the table content."
+        }
+      ]
     }
   ],
   "ux-text": [
