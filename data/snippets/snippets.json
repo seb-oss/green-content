@@ -409,6 +409,11 @@
       "code": "<gds-flex max-width=\"900px\" padding=\"5xl\" flex-direction=\"column\" align-items=\"center\" gap=\"4xs\">\n  <gds-text text-align=\"center \" font=\"display-m\">Climate change is the greatest and most urgent challenge of our\n    generation.\n  </gds-text>\n  <gds-badge variant=\"notice\">XL (24)</gds-badge>\n  <gds-text max-width=\"800px\" padding=\"0 2xl 0 2xl\" \"color=\" content-02\" text-align=\"center \" font=\"preamble-l\">We have\n    committed to the Paris Agreement by the signing of the UNEP FI Principles for Responsible Banking, and one of the\n    founding signatories of the Net-Zero Banking Alliance and the Net Zero Asset Managers initiative.\n  </gds-text>\n</gds-flex>"
     },
     {
+      "title": "Display S, Preample M",
+      "slug": "display-s",
+      "path": "snippets/display-s/display-s.json"
+    },
+    {
       "title": "Divider: Color",
       "slug": "divider-color",
       "path": "snippets/divider-color/divider-color.json",
@@ -889,6 +894,6 @@
       "code": "<span>...</span>"
     }
   ],
-  "total": 148,
-  "lastUpdated": "2026-01-21T08:29:31.655Z"
+  "total": 149,
+  "lastUpdated": "2026-01-21T14:09:17.124Z"
 }
