@@ -42,6 +42,30 @@
           "Snippet": "display-s"
         }
       ]
+    },
+    {
+      "title": "Heading and preamble",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text"
+        },
+        {
+          "type": "snippet",
+          "caption": "Heading-XL with preamble-M, gap=M (16)",
+          "plain": false,
+          "replay": false,
+          "Snippet": "heading-xl"
+        },
+        {
+          "type": "snippet",
+          "caption": "Heading-L with preamble-S, gap=M (16)",
+          "plain": false,
+          "replay": false,
+          "Snippet": "heading-l"
+        }
+      ]
     }
   ]
 }
