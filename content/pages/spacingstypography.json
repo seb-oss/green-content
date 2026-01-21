@@ -20,6 +20,7 @@
     },
     {
       "title": "Display and preamble",
+      "tag": "H3",
       "max-width": false,
       "cols": "1",
       "columns": [
