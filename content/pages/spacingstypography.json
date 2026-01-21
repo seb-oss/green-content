@@ -96,6 +96,27 @@
           "plain": false,
           "replay": false,
           "Snippet": "heading-body-02"
+        },
+        {
+          "type": "snippet",
+          "caption": "Heading-L, body-M gap=M (16)",
+          "plain": false,
+          "replay": false,
+          "Snippet": "heading-body-03"
+        },
+        {
+          "type": "snippet",
+          "caption": "Heading-M, body-M gap=S (12)",
+          "plain": false,
+          "replay": false,
+          "Snippet": "heading-body-04"
+        },
+        {
+          "type": "snippet",
+          "caption": "Heading-S, body-M gap=XS (8)",
+          "plain": false,
+          "replay": false,
+          "Snippet": "heading-body-05"
         }
       ]
     }
