@@ -61,6 +61,20 @@
           "plain": false,
           "replay": false,
           "Snippet": "heading-l"
+        },
+        {
+          "type": "snippet",
+          "caption": "Heading-M with preamble-S, gap=S (12)",
+          "plain": false,
+          "replay": false,
+          "Snippet": "heading-m"
+        },
+        {
+          "type": "snippet",
+          "caption": "Heading-S with preamble-S, gap=S (12)",
+          "plain": false,
+          "replay": false,
+          "Snippet": "heading-s"
         }
       ]
     }
