@@ -77,6 +77,11 @@
           "Snippet": "heading-s"
         }
       ]
+    },
+    {
+      "title": "Heading and body",
+      "max-width": false,
+      "cols": "2"
     }
   ]
 }
