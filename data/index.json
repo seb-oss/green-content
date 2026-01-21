@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-21T14:25:57.919Z",
+    "lastUpdated": "2026-01-21T14:26:59.977Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1250,7 +1250,7 @@
             "title": "Display,L, Preamble, XL",
             "slug": "display-l",
             "path": "snippets/display-l/display-l.json",
-            "code": "<gds-flex max-width=\"900px\" padding=\"5xl\" flex-direction=\"column\" align-items=\"center\" gap=\"s\">\n  <gds-text text-align=\"center \"font=\"display-l\">Climate change is the greatest and most urgent challenge of our generation.\n  </gds-text>\n  <gds-badge variant=\"notice\">3XL (40)</gds-badge>\n    <gds-text max-width=\"800px\" padding=\"0 2xl 0 2xl\" \"color=\"content-02\" text-align=\"center \"font=\"preamble-xl\">We have committed to the Paris Agreement by the signing of the UNEP FI Principles for Responsible Banking, and one of the founding signatories of the Net-Zero Banking Alliance and the Net Zero Asset Managers initiative.\n  </gds-text>\n</gds-flex>",
+            "code": "<gds-flex max-width=\"900px\" padding=\"5xl\" flex-direction=\"column\" align-items=\"center\" gap=\"2xl\">\n  <gds-text text-align=\"center \"font=\"display-l\">Climate change is the greatest and most urgent challenge of our generation.\n  </gds-text>\n    <gds-text max-width=\"800px\" padding=\"0 2xl 0 2xl\" \"color=\"content-02\" text-align=\"center \"font=\"preamble-xl\">We have committed to the Paris Agreement by the signing of the UNEP FI Principles for Responsible Banking, and one of the founding signatories of the Net-Zero Banking Alliance and the Net Zero Asset Managers initiative.\n  </gds-text>\n  <gds-badge variant=\"notice\">2XL (32)</gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/display-l/display-l.json"
             }
