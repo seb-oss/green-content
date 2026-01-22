@@ -423,6 +423,59 @@
       "section-content": "Provide a constructive suggestion on how to solve the problem by telling what the customer needs to adjust."
     },
     {
+      "title": "Search field",
+      "tag": "H2",
+      "section-content": "The search field should have a label that explains to the user what they can search for. To give the user instructions or examples on what to search for, we can use the label information. The label support text should only be used if it adds extra value to the user, don't use it to repea t what the label already says.\n\n_(Example coming soon)_",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Label support text for serach field",
+          "tag": "H3",
+          "content": "When there is a limited number of keywords to search for, use the label support text to inform the user on what those keywords are. If they all fit in the label support text, write them all out.\n\nIn English\n\n*   Label: Search colleague\n    \n*   Label: Search for name, personal ID or address.\n    \n\nIn Swedish\n\n*   Label: Sök kollega\n    \n*   Label support text: Sök på namn, personnummer eller adress.\n    \n\n_(Example coming soon)_"
+        },
+        {
+          "type": "rich-text",
+          "title": "Give ideas with examples",
+          "tag": "H3",
+          "content": "Many times there are multiple keywords to search for and it would not fit in the label support text. Then write a few examples, as different from each other as possible to give the user ideas of what to search for.\n\n##### In English\n\n*   Label: Search transaction\n    \n*   Label: E.g. company, amount or date.\n    \n\n##### In Swedish\n\n*   Label: Sök transaktion\n    \n*   Label information: T.ex. företag, belopp eller datum.\n    \n    _(Example coming soon)_"
+        },
+        {
+          "type": "rich-text",
+          "title": "Search feedback",
+          "tag": "H3",
+          "content": "When a search doesn't return any results:\n\n*   Explain in a personal way and in a human voice that you didn't find what they were looking for.\n    \n*   Help users find what they were looking for.\n    \n\n Give more personal and human explanations. \n\nPut yourself in your users’ shoes to understand what they were trying to do with their search and help them get closer to the goal by giving them tips on how to improve their search.\n\n _We can’t find what you’re looking for. You could try:_\n\n*   _Checking the spelling_\n    \n*   _Using fewer or more general words_\n    \n*   _Trying a synonym._\n    \n\n_(Example coming soon)_\n\nOr when space is limited:\n\n_We can’t find what you’re looking for. You could try checking the spelling or using fewer or more characters._\n\n_(Example coming soon)_"
+        },
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "We couldn't find what you’re looking for."
+            },
+            {
+              "text": "No x matched your search."
+            },
+            {
+              "text": "We didn't find any results for x."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "No results"
+            },
+            {
+              "text": "No results were found for the values listed"
+            },
+            {
+              "text": "The question did not yield any results"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Input field floating label",
       "section-content": "This variant of the input field, with the label inside the field and label support text below, should only be used when the label is a single word or kept in one line, such as \"Email address\" or \"Personal identity number\".\n\nIf an error occurs, the label support text will be replaced with the error message. Therefore, it’s important that the error message includes the label text and the information in the label support text.",
       "cols": "2",
