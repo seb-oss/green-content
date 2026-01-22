@@ -470,6 +470,7 @@
       "title": "Search field",
       "tag": "H2",
       "section-content": "The search field should have a label that explains to the user what they can search for. To give the user instructions or examples on what to search for, we can use the label information. The label support text should only be used if it adds extra value to the user, don't use it to repea t what the label already says.\n\n_(Example coming soon)_",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
