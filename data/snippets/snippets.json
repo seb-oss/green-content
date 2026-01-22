@@ -538,7 +538,7 @@
       "title": "Heading L, preamble S",
       "slug": "heading-l",
       "path": "snippets/heading-l/heading-l.json",
-      "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\" gap=\"m\">\n  <gds-text font=\"heading-l\">Med ett lånelöfte är du redo för drömboendet\n  </gds-text>\n  <gds-text max-width=\"800px\" color=\"neutral-02\" font=\"preamble-s\">Få koll på hur mycket du kan låna och gör dig redo för budgivning med ett lånelöfte.\n  </gds-text>\n    <gds-badge width=\"64px\"variant=\"notice\">M (16)</gds-badge>\n</gds-flex>"
+      "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"m\">\n  <gds-text font=\"heading-l\">Med ett lånelöfte är du redo för drömboendet\n  </gds-text>\n  <gds-text max-width=\"800px\" color=\"neutral-02\" font=\"preamble-s\">Få koll på hur mycket du kan låna och gör dig redo för budgivning med ett lånelöfte.\n  </gds-text>\n    <gds-badge variant=\"notice\">M (16)</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Heading-M, preamble-S",
@@ -956,5 +956,5 @@
     }
   ],
   "total": 159,
-  "lastUpdated": "2026-01-22T09:57:56.325Z"
+  "lastUpdated": "2026-01-22T10:03:23.808Z"
 }
