@@ -423,6 +423,50 @@
       "section-content": "Provide a constructive suggestion on how to solve the problem by telling what the customer needs to adjust."
     },
     {
+      "title": "Input field floating label",
+      "section-content": "This variant of the input field, with the label inside the field and label support text below, should only be used when the label is a single word or kept in one line, such as \"Email address\" or \"Personal identity number\".\n\nIf an error occurs, the label support text will be replaced with the error message. Therefore, it’s important that the error message includes the label text and the information in the label support text.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "caption": "Input field floating label, enabled and filled.",
+          "node": "floating-1"
+        },
+        {
+          "type": "figma",
+          "caption": "Input field floating label, enabled and filled in error state.",
+          "node": "floating-2"
+        }
+      ]
+    },
+    {
+      "title": "Do’s and dont’s input field floating label",
+      "tag": "H3",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "figma",
+          "node": "floating-do-eng"
+        },
+        {
+          "type": "figma",
+          "node": "floating-do-swe"
+        },
+        {
+          "type": "figma",
+          "node": "floating-dont-eng"
+        },
+        {
+          "type": "figma",
+          "node": "floating-dont-swe"
+        }
+      ]
+    },
+    {
+      "title": "Default or floating label?",
+      "section-content": "Since our forms mostly contain inputs with labels that need to be a sentence rather than only a single word, most contexts should use the regular input field. The label also often needs supporting text and this is much more user friendly in the default variant.\n\nBefore you choose think about this:\n\n*   Will there be any fields with longer labels?\n    \n*   Will my labels need the supporting text in some cases?\n    \n\nor\n\n*   Is my form only a short one with simple single word label inputs?\n    \n*   Do the labels talk for themselves and don’t need the supporting text? If an error occurs, the label support text will be replaced with the error text.\n    \n\n**Remember – don’t mix the two variants in the same context!**"
+    },
+    {
       "title": "Search field",
       "tag": "H2",
       "section-content": "The search field should have a label that explains to the user what they can search for. To give the user instructions or examples on what to search for, we can use the label information. The label support text should only be used if it adds extra value to the user, don't use it to repea t what the label already says.\n\n_(Example coming soon)_",
@@ -474,50 +518,6 @@
           ]
         }
       ]
-    },
-    {
-      "title": "Input field floating label",
-      "section-content": "This variant of the input field, with the label inside the field and label support text below, should only be used when the label is a single word or kept in one line, such as \"Email address\" or \"Personal identity number\".\n\nIf an error occurs, the label support text will be replaced with the error message. Therefore, it’s important that the error message includes the label text and the information in the label support text.",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "figma",
-          "caption": "Input field floating label, enabled and filled.",
-          "node": "floating-1"
-        },
-        {
-          "type": "figma",
-          "caption": "Input field floating label, enabled and filled in error state.",
-          "node": "floating-2"
-        }
-      ]
-    },
-    {
-      "title": "Do’s and dont’s input field floating label",
-      "tag": "H3",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "figma",
-          "node": "floating-do-eng"
-        },
-        {
-          "type": "figma",
-          "node": "floating-do-swe"
-        },
-        {
-          "type": "figma",
-          "node": "floating-dont-eng"
-        },
-        {
-          "type": "figma",
-          "node": "floating-dont-swe"
-        }
-      ]
-    },
-    {
-      "title": "Default or floating label?",
-      "section-content": "Since our forms mostly contain inputs with labels that need to be a sentence rather than only a single word, most contexts should use the regular input field. The label also often needs supporting text and this is much more user friendly in the default variant.\n\nBefore you choose think about this:\n\n*   Will there be any fields with longer labels?\n    \n*   Will my labels need the supporting text in some cases?\n    \n\nor\n\n*   Is my form only a short one with simple single word label inputs?\n    \n*   Do the labels talk for themselves and don’t need the supporting text? If an error occurs, the label support text will be replaced with the error text.\n    \n\n**Remember – don’t mix the two variants in the same context!**"
     }
   ]
 }
