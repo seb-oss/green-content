@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-22T09:56:59.110Z",
+    "lastUpdated": "2026-01-22T09:57:23.493Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1430,7 +1430,7 @@
             "title": "Heading S, Body M",
             "slug": "heading-body-05",
             "path": "snippets/heading-body-05/heading-body-05.json",
-            "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\" gap=\"xs\">\n  <gds-text font=\"heading-m\">Med ett lånelöfte är du redo för drömboendet\n  </gds-text>\n  <gds-text max-width=\"500px\" font=\"body-regular-m\">Få koll på hur mycket du kan låna och gör dig redo för\n    budgivning med ett lånelöfte.\n  </gds-text>\n  <gds-badge width=\"60px\" variant=\"notice\">XS (8)</gds-badge>\n</gds-flex>",
+            "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n  <gds-text font=\"heading-m\">Med ett lånelöfte är du redo för drömboendet\n  </gds-text>\n  <gds-text max-width=\"500px\" font=\"body-regular-m\">Få koll på hur mycket du kan låna och gör dig redo för\n    budgivning med ett lånelöfte.\n  </gds-text>\n  <gds-badge variant=\"notice\">XS (8)</gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/heading-body-05/heading-body-05.json"
             }
