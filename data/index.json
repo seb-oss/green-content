@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-23T13:55:14.602Z",
+    "lastUpdated": "2026-01-23T13:59:46.700Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1901,6 +1901,15 @@
             "code": "<gds-flex align-items=\"center\" justify-content=\"center\" width=\"340px\" min-height=\"200px\" padding=\"2xl\">\n  <gds-input label=\"Search industry\">\n    <gds-icon-magnifying-glass slot=\"lead\"></gds-icon-magnifying-glass>\n  </gds-input>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/input-search-exception/input-search-exception.json"
+            }
+          },
+          {
+            "title": "UX text: input search 02",
+            "slug": "input-search-feedback-02",
+            "path": "snippets/input-search-feedback-02/input-search-feedback-02.json",
+            "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"body-regular-m\">We can’t find what you’re looking for. You could try checking the spelling or using fewer or more characters.\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/input-search-feedback-02/input-search-feedback-02.json"
             }
           },
           {

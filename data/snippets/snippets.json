@@ -835,6 +835,12 @@
       "code": "<gds-flex align-items=\"center\" justify-content=\"center\" width=\"340px\" min-height=\"200px\" padding=\"2xl\">\n  <gds-input label=\"Search industry\">\n    <gds-icon-magnifying-glass slot=\"lead\"></gds-icon-magnifying-glass>\n  </gds-input>\n</gds-flex>"
     },
     {
+      "title": "UX text: input search 02",
+      "slug": "input-search-feedback-02",
+      "path": "snippets/input-search-feedback-02/input-search-feedback-02.json",
+      "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"body-regular-m\">We can’t find what you’re looking for. You could try checking the spelling or using fewer or more characters.\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
+    },
+    {
       "title": "UX text: Input search transaction-eng",
       "slug": "input-search-transaction-eng",
       "path": "snippets/input-search-transaction-eng/input-search-transaction-eng.json",
@@ -985,6 +991,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-s\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 164,
-  "lastUpdated": "2026-01-23T13:55:14.604Z"
+  "total": 165,
+  "lastUpdated": "2026-01-23T13:59:46.702Z"
 }
