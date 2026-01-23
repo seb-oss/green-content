@@ -1,5 +1,5 @@
 {
   "title": "UX text: Input search colleague-eng",
   "slug": "input-search-colleague-en",
-  "code": "<gds-flex max-width=\"500px\" padding=\"2xl\" flex-direction=\"column\"  gap=\"m\">\n  <gds-input label=\"Search colleague\" supporting-text=\"Search for name, personal ID or address.\">\n     <gds-icon-magnifying-glass slot=\"lead\"></gds-icon>\n  </gds-input>\n</gds-flex>"
+  "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\">\n  <gds-input label=\"Search colleague\" supporting-text=\"Search for name, personal ID or address.\">\n     <gds-icon-magnifying-glass slot=\"lead\"></gds-icon>\n  </gds-input>\n</gds-flex>"
 }
