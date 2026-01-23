@@ -1,4 +1,5 @@
 {
-  "title": "UX text: Input search colleague",
-  "slug": "ux-search-colleague"
+  "title": "UX text: Input search colleague-se",
+  "slug": "ux-search-colleague",
+  "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\"  gap=\"m\">\n  <gds-input label=\"Sök kollega\" supporting-text=\"Sök på namn, personnummer eller adress.\">\n  </gds-input>\n</gds-flex>"
 }
