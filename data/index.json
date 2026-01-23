@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-23T08:59:18.232Z",
+    "lastUpdated": "2026-01-23T09:21:26.997Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1889,7 +1889,7 @@
             "title": "UX text: Input search colleague-eng",
             "slug": "input-search-colleague-en",
             "path": "snippets/input-search-colleague-en/input-search-colleague-en.json",
-            "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\"  gap=\"m\">\n  <gds-input label=\"Search colleague\" supporting-text=\"Search for name, personal ID or address.\">\n  </gds-input>\n</gds-flex>",
+            "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\"  gap=\"m\">\n  <gds-input label=\"Search colleague\" supporting-text=\"Search for name, personal ID or address.\">\n     <gds-icon-magnifying-glass slot=\"lead\"></gds-icon>\n  </gds-input>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/input-search-colleague-en/input-search-colleague-en.json"
             }
@@ -2096,7 +2096,7 @@
             "title": "UX text: Input search colleague-se",
             "slug": "ux-search-colleague",
             "path": "snippets/ux-search-colleague/ux-search-colleague.json",
-            "code": "<gds-flex max-width=\"420px\" padding=\"3xl\" flex-direction=\"column\"  gap=\"m\">\n  <gds-input label=\"Sök kollega\" supporting-text=\"Sök på namn, personnummer eller adress.\">\n  </gds-input>\n</gds-flex>",
+            "code": "<gds-flex max-width=\"420px\" padding=\"3xl\" flex-direction=\"column\"  gap=\"m\">\n  <gds-input label=\"Sök kollega\" supporting-text=\"Sök på namn, personnummer eller adress.\">\n     <gds-icon-magnifying-glass slot=\"lead\"></gds-icon>\n  </gds-input>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/ux-search-colleague/ux-search-colleague.json"
             }
