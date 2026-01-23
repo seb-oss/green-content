@@ -1,0 +1,5 @@
+{
+  "title": "UX text: Input search transaction-se",
+  "slug": "input-search-transaction-se",
+  "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\">\n  <gds-input label=\"Sök transaktion\" supporting-text=\"T.ex. företag, belopp eller datum.\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n</gds-flex>"
+}
