@@ -953,8 +953,13 @@
       "slug": "toggle-hero",
       "path": "snippets/toggle-hero/toggle-hero.json",
       "code": "<span>...</span>"
+    },
+    {
+      "title": "UX text: Input search colleague",
+      "slug": "ux-search-colleague",
+      "path": "snippets/ux-search-colleague/ux-search-colleague.json"
     }
   ],
-  "total": 159,
-  "lastUpdated": "2026-01-23T08:44:00.410Z"
+  "total": 160,
+  "lastUpdated": "2026-01-23T08:47:50.074Z"
 }

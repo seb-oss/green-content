@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-23T08:44:00.408Z",
+    "lastUpdated": "2026-01-23T08:47:50.072Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2081,6 +2081,14 @@
             "code": "<span>...</span>",
             "endpoints": {
               "content": "snippets/toggle-hero/toggle-hero.json"
+            }
+          },
+          {
+            "title": "UX text: Input search colleague",
+            "slug": "ux-search-colleague",
+            "path": "snippets/ux-search-colleague/ux-search-colleague.json",
+            "endpoints": {
+              "content": "snippets/ux-search-colleague/ux-search-colleague.json"
             }
           }
         ]
