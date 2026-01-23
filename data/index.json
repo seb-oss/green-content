@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-23T10:09:48.894Z",
+    "lastUpdated": "2026-01-23T10:15:42.303Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1901,6 +1901,15 @@
             "code": "<gds-flex align-items=\"center\" justify-content=\"center\" width=\"340px\" min-height=\"200px\" padding=\"2xl\">\n  <gds-input label=\"Search industry\">\n    <gds-icon-magnifying-glass slot=\"lead\"></gds-icon-magnifying-glass>\n  </gds-input>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/input-search-exception/input-search-exception.json"
+            }
+          },
+          {
+            "title": "UX text: Input search transaction-eng",
+            "slug": "input-search-transaction-eng",
+            "path": "snippets/input-search-transaction-eng/input-search-transaction-eng.json",
+            "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\">\n  <gds-input label=\"Search transaction\" supporting-text=\"E.g. company, amount or date.\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/input-search-transaction-eng/input-search-transaction-eng.json"
             }
           },
           {

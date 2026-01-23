@@ -835,6 +835,12 @@
       "code": "<gds-flex align-items=\"center\" justify-content=\"center\" width=\"340px\" min-height=\"200px\" padding=\"2xl\">\n  <gds-input label=\"Search industry\">\n    <gds-icon-magnifying-glass slot=\"lead\"></gds-icon-magnifying-glass>\n  </gds-input>\n</gds-flex>"
     },
     {
+      "title": "UX text: Input search transaction-eng",
+      "slug": "input-search-transaction-eng",
+      "path": "snippets/input-search-transaction-eng/input-search-transaction-eng.json",
+      "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\">\n  <gds-input label=\"Search transaction\" supporting-text=\"E.g. company, amount or date.\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n</gds-flex>"
+    },
+    {
       "title": "Link: Leading",
       "slug": "link-leading",
       "path": "snippets/link-leading/link-leading.json",
@@ -967,6 +973,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\">\n  <gds-input label=\"Sök kollega\" supporting-text=\"Sök på namn, personnummer eller adress.\">\n     <gds-icon-magnifying-glass slot=\"lead\"></gds-icon>\n  </gds-input>\n</gds-flex>"
     }
   ],
-  "total": 161,
-  "lastUpdated": "2026-01-23T10:09:48.896Z"
+  "total": 162,
+  "lastUpdated": "2026-01-23T10:15:42.305Z"
 }
