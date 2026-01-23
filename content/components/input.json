@@ -497,7 +497,24 @@
     {
       "title": "Give ideas with examples",
       "tag": "H3",
-      "section-content": "Many times there are multiple keywords to search for and it would not fit in the label support text. Then write a few examples, as different from each other as possible to give the user ideas of what to search for.\n\nIn English\n\n*   Label: Search transaction\n    \n*   Label: E.g. company, amount or date.\n    \n\nIn Swedish\n\n*   Label: Sök transaktion\n    \n*   Label information: T.ex. företag, belopp eller datum.\n    \n    _(Example coming soon)_"
+      "section-content": "Many times there are multiple keywords to search for and it would not fit in the label support text. Then write a few examples, as different from each other as possible to give the user ideas of what to search for.\n\nIn English\n\n*   Label: Search transaction\n    \n*   Label: E.g. company, amount or date.\n    \n\nIn Swedish\n\n*   Label: Sök transaktion\n    \n*   Label information: T.ex. företag, belopp eller datum.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Example in English",
+          "plain": false,
+          "replay": false,
+          "Snippet": "input-search-transaction-eng"
+        },
+        {
+          "type": "snippet",
+          "caption": "Example in Swedish",
+          "plain": false,
+          "replay": false,
+          "Snippet": "input-search-transaction-se"
+        }
+      ]
     },
     {
       "title": "Search feedback",
