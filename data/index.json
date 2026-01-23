@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-23T08:47:50.072Z",
+    "lastUpdated": "2026-01-23T08:51:30.125Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2084,9 +2084,10 @@
             }
           },
           {
-            "title": "UX text: Input search colleague",
+            "title": "UX text: Input search colleague-se",
             "slug": "ux-search-colleague",
             "path": "snippets/ux-search-colleague/ux-search-colleague.json",
+            "code": "<gds-flex max-width=\"420px\" padding=\"3xl\" flex-direction=\"column\"  gap=\"m\">\n  <gds-input label=\"Sök kollega\" supporting-text=\"Sök på namn, personnummer eller adress.\">\n  </gds-input>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/ux-search-colleague/ux-search-colleague.json"
             }
