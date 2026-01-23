@@ -826,7 +826,7 @@
       "title": "UX text: Input search colleague-eng",
       "slug": "input-search-colleague-en",
       "path": "snippets/input-search-colleague-en/input-search-colleague-en.json",
-      "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\"  gap=\"m\">\n  <gds-input label=\"Search colleague\" supporting-text=\"Search for name, personal ID or address.\">\n     <gds-icon-magnifying-glass slot=\"lead\"></gds-icon>\n  </gds-input>\n</gds-flex>"
+      "code": "<gds-flex max-width=\"500px\" padding=\"2xl\" flex-direction=\"column\"  gap=\"m\">\n  <gds-input label=\"Search colleague\" supporting-text=\"Search for name, personal ID or address.\">\n     <gds-icon-magnifying-glass slot=\"lead\"></gds-icon>\n  </gds-input>\n</gds-flex>"
     },
     {
       "title": "Input: Search exception",
@@ -968,5 +968,5 @@
     }
   ],
   "total": 161,
-  "lastUpdated": "2026-01-23T09:25:35.935Z"
+  "lastUpdated": "2026-01-23T09:26:07.002Z"
 }
