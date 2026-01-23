@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-23T12:59:03.987Z",
+    "lastUpdated": "2026-01-23T13:00:38.895Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2123,7 +2123,7 @@
             "title": "UX text: Search feeback",
             "slug": "ux-search-feedback",
             "path": "snippets/ux-search-feedback/ux-search-feedback.json",
-            "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"2xl 2xl m 2xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-s\">We can't find what you're looking for.\n          </gds-text>\n          <gds-text font=\"heading-s\">You could try:\n          </gds-text>\n        </gds-flex>\n        <gds-flex border-radius=\"max\" background=\"neutral-02\" padding=\"m\">\n          <gds-icon-thumbs-down size=\"xl\">\n          </gds-icon>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>",
+            "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"2xl 2xl m 2xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-s\">We can't find what you're looking for.\n          </gds-text>\n          <gds-text font=\"heading-s\">You could try:\n          </gds-text>\n        </gds-flex>\n        <gds-flex border-radius=\"max\" background=\"neutral-02\" padding=\"m\">\n          <gds-icon-bubble-annotation size=\"xl\">\n          </gds-icon>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/ux-search-feedback/ux-search-feedback.json"
             }
