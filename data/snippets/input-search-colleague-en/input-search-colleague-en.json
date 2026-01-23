@@ -1,0 +1,5 @@
+{
+  "title": "UX text: Input search colleague-eng",
+  "slug": "input-search-colleague-en",
+  "code": "<gds-flex max-width=\"500px\" padding=\"3xl\" flex-direction=\"column\"  gap=\"m\">\n  <gds-input label=\"Search colleague\" supporting-text=\"Search for name, personal ID or address.\">\n  </gds-input>\n</gds-flex>"
+}
