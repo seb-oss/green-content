@@ -535,6 +535,12 @@
         {
           "type": "rich-text",
           "content": "### Or when space is limited:\n\nWe can’t find what you’re looking for. You could try checking the spelling or using fewer or more characters."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "input-search-feedback-02"
         }
       ]
     },
