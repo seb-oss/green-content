@@ -475,7 +475,7 @@
     {
       "title": "Label support text for search field",
       "tag": "H3",
-      "section-content": "When there is a limited number of keywords to search for, use the label support text to inform the user on what those keywords are. If they all fit in the label support text, write them all out.\n\nIn English\n\n*   Label: Search colleague\n    \n*   Label: Search for name, personal ID or address.\n    \n\nIn Swedish\n\n*   Label: Sök kollega\n    \n*   Label support text: Sök på namn, personnummer eller adress.\n    \n\n_(Example coming soon)_"
+      "section-content": "When there is a limited number of keywords to search for, use the label support text to inform the user on what those keywords are. If they all fit in the label support text, write them all out.\n\nIn English\n\n*   Label: Search colleague\n    \n*   Label: Search for name, personal identity number or address.\n    \n\nIn Swedish\n\n*   Label: Sök kollega\n    \n*   Label support text: Sök på namn, personnummer eller adress.\n    \n\n_(Example coming soon)_"
     },
     {
       "title": "Give ideas with examples",
