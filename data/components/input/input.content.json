@@ -519,15 +519,22 @@
     {
       "title": "Search feedback",
       "tag": "H3",
-      "section-content": "When a search doesn't return any results:\n\n*   Explain in a personal way and in a human voice that you didn't find what they were looking for.\n    \n*   Help users find what they were looking for.\n    \n\n Give more personal and human explanations. \n\nPut yourself in your users’ shoes to understand what they were trying to do with their search and help them get closer to the goal by giving them tips on how to improve their search.\n\n We can’t find what you’re looking for. You could try:\n\n*   Checking the spelling\n    \n*   Using fewer or more general words\n    \n*   Trying a synonym.\n    \n\nOr when space is limited:\n\nWe can’t find what you’re looking for. You could try checking the spelling or using fewer or more characters.",
       "cols": "2",
       "columns": [
+        {
+          "type": "rich-text",
+          "content": "### When a search doesn't return any results:\n\n*   Explain in a personal way and in a human voice that you didn't find what they were looking for.\n    \n*   Help users find what they were looking for.\n    \n\n Give more personal and human explanations. \n\nPut yourself in your users’ shoes to understand what they were trying to do with their search and help them get closer to the goal by giving them tips on how to improve their search.\n\n We can’t find what you’re looking for. You could try:\n\n*   Checking the spelling\n    \n*   Using fewer or more general words\n    \n*   Trying a synonym."
+        },
         {
           "type": "snippet",
           "caption": "Search feedback example",
           "plain": false,
           "replay": false,
           "Snippet": "ux-search-feedback"
+        },
+        {
+          "type": "rich-text",
+          "content": "### Or when space is limited:\n\nWe can’t find what you’re looking for. You could try checking the spelling or using fewer or more characters."
         }
       ]
     },
