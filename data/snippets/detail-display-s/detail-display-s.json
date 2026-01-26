@@ -1,5 +1,5 @@
 {
   "title": "Detail M, Display S",
   "slug": "detail-display-s",
-  "code": "<gds-flex  padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"display-s\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">3XS (4)</gds-badge>\n</gds-flex>"
+  "code": "<gds-flex  color=\"neutral-01\"padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"display-s\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">3XS (4)</gds-badge>\n</gds-flex>"
 }
