@@ -149,7 +149,7 @@
         {
           "type": "snippet",
           "caption": "Detail and display S",
-          "plain": true,
+          "plain": false,
           "replay": false,
           "Snippet": "detail-display-s"
         }
