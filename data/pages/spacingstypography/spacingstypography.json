@@ -154,6 +154,11 @@
           "Snippet": "detail-display-s"
         }
       ]
+    },
+    {
+      "title": "Detail och heading",
+      "max-width": false,
+      "cols": "2"
     }
   ]
 }
