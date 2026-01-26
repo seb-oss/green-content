@@ -141,6 +141,7 @@
         },
         {
           "type": "snippet",
+          "caption": "Detail and display M",
           "plain": false,
           "replay": false,
           "Snippet": "detail-display-m"
