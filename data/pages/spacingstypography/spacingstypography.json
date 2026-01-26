@@ -220,7 +220,8 @@
           "type": "snippet",
           "caption": "Detail S book and detail XS regular",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "detail-detail-xs"
         }
       ]
     }
