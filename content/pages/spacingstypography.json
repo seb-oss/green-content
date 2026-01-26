@@ -130,7 +130,16 @@
     {
       "title": "Detail and display",
       "max-width": false,
-      "cols": "2"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Detail and display L",
+          "plain": false,
+          "replay": false,
+          "Snippet": "detail-display-l"
+        }
+      ]
     }
   ]
 }
