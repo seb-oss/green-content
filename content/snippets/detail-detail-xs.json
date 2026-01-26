@@ -1,5 +1,5 @@
 {
   "title": "Detail S, Detail XS",
   "slug": "detail-detail-xs",
-  "code": "<gds-flex width=\"100%\" \"padding=\" 2xl\" flex-direction=\"column\" align-items=\"flex-start\">\n  <gds-text \"color=\" content-02\" font=\"detail-book-s\">Detail small - Book\n  </gds-text>\n  <gds-text font=\"detail-regular-s\">Detail x-small - Regular\n  </gds-text>\n  <gds-badge variant=\"notice\">(0)</gds-badge>\n</gds-flex>"
+  "code": "<gds-flex width=\"100%\" \"padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\">\n  <gds-text \"color=\"content-02\" font=\"detail-book-s\">Detail small - Book\n  </gds-text>\n  <gds-text font=\"detail-regular-s\">Detail x-small - Regular\n  </gds-text>\n  <gds-badge variant=\"notice\">(0)</gds-badge>\n</gds-flex>"
 }
