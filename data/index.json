@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-26T08:55:14.600Z",
+    "lastUpdated": "2026-01-26T09:01:16.325Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1181,6 +1181,15 @@
             "code": "<gds-rich-text>\n<table>\n  <tr>\n    <th>Property group</th>\n    <th>Token collection</th>\n  </tr>\n  <tr>\n    <td>margin, padding, gap, border-width</td>\n    <td>gds.sys.space.*</td>\n  </tr>\n  <tr>\n    <td>background</td>\n    <td>gds.sys.color.l[x].*</td>\n  </tr>\n  <tr>\n    <td>color</td>\n    <td>gds.sys.color.content.*</td>\n  </tr>\n  <tr>\n    <td>border-color</td>\n    <td>gds.sys.color.border.*</td>\n  </tr>\n</table>\n</gds-rich-text>",
             "endpoints": {
               "content": "snippets/declarative-layouttoken-table/declarative-layouttoken-table.json"
+            }
+          },
+          {
+            "title": "Detail L, Display L",
+            "slug": "detail-display-l",
+            "path": "snippets/detail-display-l/detail-display-l.json",
+            "code": "<gds-flex  padding=\"3xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"display-l\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">XS (8)</gds-badge>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/detail-display-l/detail-display-l.json"
             }
           },
           {
