@@ -196,6 +196,33 @@
           "Snippet": "detail-heading-xs"
         }
       ]
+    },
+    {
+      "title": "Detail och detail",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Detail M book and detail M regular",
+          "plain": false,
+          "replay": false,
+          "Snippet": "detail-detail-m"
+        },
+        {
+          "type": "snippet",
+          "caption": "Detail M book and detail S regular",
+          "plain": false,
+          "replay": false,
+          "Snippet": "detail-detail-s"
+        },
+        {
+          "type": "snippet",
+          "caption": "Detail S book and detail XS regular",
+          "plain": false,
+          "replay": false
+        }
+      ]
     }
   ]
 }
