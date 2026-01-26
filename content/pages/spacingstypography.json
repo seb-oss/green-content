@@ -126,6 +126,11 @@
           "Snippet": "heading-body-06"
         }
       ]
+    },
+    {
+      "title": "Detail and heading",
+      "max-width": false,
+      "cols": "2"
     }
   ]
 }
