@@ -145,6 +145,13 @@
           "plain": false,
           "replay": false,
           "Snippet": "detail-display-m"
+        },
+        {
+          "type": "snippet",
+          "caption": "Detail and display S",
+          "plain": true,
+          "replay": false,
+          "Snippet": "detail-display-s"
         }
       ]
     }
