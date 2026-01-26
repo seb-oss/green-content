@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-26T10:07:08.935Z",
+    "lastUpdated": "2026-01-26T10:09:24.095Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1217,6 +1217,15 @@
             "code": "<gds-flex padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"heading-l\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/detail-heading-l/detail-heading-l.json"
+            }
+          },
+          {
+            "title": "Detail, heading M",
+            "slug": "detail-heading-m",
+            "path": "snippets/detail-heading-m/detail-heading-m.json",
+            "code": "<gds-flex padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"heading-m\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/detail-heading-m/detail-heading-m.json"
             }
           },
           {
