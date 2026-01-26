@@ -158,7 +158,44 @@
     {
       "title": "Detail och heading",
       "max-width": false,
-      "cols": "2"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Detail and heading XL",
+          "plain": false,
+          "replay": false,
+          "Snippet": "detail-heading-xl"
+        },
+        {
+          "type": "snippet",
+          "caption": "Detail and heading L",
+          "plain": false,
+          "replay": false,
+          "Snippet": "detail-heading-l"
+        },
+        {
+          "type": "snippet",
+          "caption": "Detail and heading M",
+          "plain": false,
+          "replay": false,
+          "Snippet": "detail-heading-m"
+        },
+        {
+          "type": "snippet",
+          "caption": "Detail and heading S",
+          "plain": false,
+          "replay": false,
+          "Snippet": "detail-heading-s"
+        },
+        {
+          "type": "snippet",
+          "caption": "Detail and heading XS",
+          "plain": false,
+          "replay": false,
+          "Snippet": "detail-heading-xs"
+        }
+      ]
     }
   ]
 }
