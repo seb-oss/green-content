@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-26T09:28:45.597Z",
+    "lastUpdated": "2026-01-26T09:36:46.455Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1187,9 +1187,18 @@
             "title": "Detail L, Display L",
             "slug": "detail-display-l",
             "path": "snippets/detail-display-l/detail-display-l.json",
-            "code": "<gds-flex  padding=\"3xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"display-l\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">XS (8)</gds-badge>\n</gds-flex>",
+            "code": "<gds-flex  padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"display-l\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">XS (8)</gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/detail-display-l/detail-display-l.json"
+            }
+          },
+          {
+            "title": "Detail M, Display M",
+            "slug": "detail-display-m",
+            "path": "snippets/detail-display-m/detail-display-m.json",
+            "code": "<gds-flex  padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"display-m\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">2XS (6)</gds-badge>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/detail-display-m/detail-display-m.json"
             }
           },
           {

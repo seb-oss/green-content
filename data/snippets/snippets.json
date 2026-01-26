@@ -358,7 +358,13 @@
       "title": "Detail L, Display L",
       "slug": "detail-display-l",
       "path": "snippets/detail-display-l/detail-display-l.json",
-      "code": "<gds-flex  padding=\"3xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"display-l\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">XS (8)</gds-badge>\n</gds-flex>"
+      "code": "<gds-flex  padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"display-l\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">XS (8)</gds-badge>\n</gds-flex>"
+    },
+    {
+      "title": "Detail M, Display M",
+      "slug": "detail-display-m",
+      "path": "snippets/detail-display-m/detail-display-m.json",
+      "code": "<gds-flex  padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"display-m\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">2XS (6)</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Details: Size large",
@@ -997,6 +1003,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 166,
-  "lastUpdated": "2026-01-26T09:28:45.599Z"
+  "total": 167,
+  "lastUpdated": "2026-01-26T09:36:46.457Z"
 }
