@@ -466,7 +466,7 @@
       "title": "Display,L, Preamble, XL",
       "slug": "display-l",
       "path": "snippets/display-l/display-l.json",
-      "code": "<gds-flex width=\"100%\" padding=\"xl; m {6xl}; l {8xl}\" flex-direction=\"column\" align-items=\"center\" gap=\"s; m {l}; l {2xl}\">\n  <gds-text text-align=\"center \" font=\"display-s; m {display-m}; l {display-l}\">Climate change is the greatest and most urgent challenge.\n  </gds-text>\n  <gds-text color=\"neutral-02\" text-align=\"center \" font=\"preamble-m; l {preamble-xl}\">We have committed to the Paris Agreement by the signing of the UNEP FI Principles for Responsible Banking, and one of the founding signatories of the Net-Zero Banking Alliance and the Net Zero Asset Managers initiative.\n  </gds-text>\n  <gds-badge variant=\"notice\">2XL (32)</gds-badge>\n</gds-flex>"
+      "code": "<gds-flex width=\"100%\" padding=\"xl; m {6xl}; l {8xl}\" flex-direction=\"column\" align-items=\"center\" gap=\"s; m {l}; l {2xl}\">\n  <gds-text text-align=\"center \" font=\"display-s; m {display-m}; l {display-l}\">Climate change is the greatest and most urgent challenge.\n  </gds-text>\n  <gds-text color=\"neutral-02\" text-align=\"center \" font=\"preamble-m; m {preamble-l}; l {preamble-xl}\">We have committed to the Paris Agreement by the signing of the UNEP FI Principles for Responsible Banking, and one of the founding signatories of the Net-Zero Banking Alliance and the Net Zero Asset Managers initiative.\n  </gds-text>\n  <gds-badge variant=\"notice\">2XL (32)</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Display M, Preample L",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-01-26T18:56:26.797Z"
+  "lastUpdated": "2026-01-26T19:01:00.727Z"
 }
