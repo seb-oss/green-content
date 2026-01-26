@@ -394,25 +394,25 @@
       "title": "Detail, Heading L",
       "slug": "detail-heading-l",
       "path": "snippets/detail-heading-l/detail-heading-l.json",
-      "code": "<gds-flex padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"4xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"heading-l\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>"
+      "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"4xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"heading-l\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Detail, Heading M",
       "slug": "detail-heading-m",
       "path": "snippets/detail-heading-m/detail-heading-m.json",
-      "code": "<gds-flex padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"4xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"heading-m\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>"
+      "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"4xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"heading-m\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Detail, Heading S",
       "slug": "detail-heading-s",
       "path": "snippets/detail-heading-s/detail-heading-s.json",
-      "code": "<gds-flex padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"heading-s\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>"
+      "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"heading-s\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Detail, Heading XL",
       "slug": "detail-heading-xl",
       "path": "snippets/detail-heading-xl/detail-heading-xl.json",
-      "code": "<gds-flex padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"heading-xl\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">3XS (4)</gds-badge>\n</gds-flex>"
+      "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"heading-xl\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">3XS (4)</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Detail, Heading XS",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-01-26T12:10:41.733Z"
+  "lastUpdated": "2026-01-26T12:12:06.375Z"
 }
