@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-26T11:55:48.358Z",
+    "lastUpdated": "2026-01-26T11:56:15.368Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1187,7 +1187,7 @@
             "title": "Detail M, Detail M",
             "slug": "detail-detail-m",
             "path": "snippets/detail-detail-m/detail-detail-m.json",
-            "code": "<gds-flex  padding=\"3xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"4xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Detail medium - Book\n    </gds-text>\n  <gds-text font=\"detail-regular-m\">Detail medium - Regular\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>",
+            "code": "<gds-flex  padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"4xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Detail medium - Book\n    </gds-text>\n  <gds-text font=\"detail-regular-m\">Detail medium - Regular\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/detail-detail-m/detail-detail-m.json"
             }
