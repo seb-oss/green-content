@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-26T10:21:44.572Z",
+    "lastUpdated": "2026-01-26T10:23:50.779Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1211,7 +1211,7 @@
             }
           },
           {
-            "title": "Detail, heading L",
+            "title": "Detail, Heading L",
             "slug": "detail-heading-l",
             "path": "snippets/detail-heading-l/detail-heading-l.json",
             "code": "<gds-flex padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"4xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Bolån\n    </gds-text>\n  <gds-text font=\"heading-l\">Med ett lånelöfte är du\n  redo för drömboendet.\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>",
