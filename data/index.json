@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-01-26T10:24:54.757Z",
+    "lastUpdated": "2026-01-26T11:52:02.635Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1181,6 +1181,15 @@
             "code": "<gds-rich-text>\n<table>\n  <tr>\n    <th>Property group</th>\n    <th>Token collection</th>\n  </tr>\n  <tr>\n    <td>margin, padding, gap, border-width</td>\n    <td>gds.sys.space.*</td>\n  </tr>\n  <tr>\n    <td>background</td>\n    <td>gds.sys.color.l[x].*</td>\n  </tr>\n  <tr>\n    <td>color</td>\n    <td>gds.sys.color.content.*</td>\n  </tr>\n  <tr>\n    <td>border-color</td>\n    <td>gds.sys.color.border.*</td>\n  </tr>\n</table>\n</gds-rich-text>",
             "endpoints": {
               "content": "snippets/declarative-layouttoken-table/declarative-layouttoken-table.json"
+            }
+          },
+          {
+            "title": "Detail M, Detail M",
+            "slug": "detail-detail-m",
+            "path": "snippets/detail-detail-m/detail-detail-m.json",
+            "code": "<gds-flex  padding=\"3xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"4xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Detail medium - Book\n    </gds-text>\n  <gds-text font=\"detail-regular-m\">Detail medium - Regular\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/detail-detail-m/detail-detail-m.json"
             }
           },
           {

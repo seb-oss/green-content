@@ -355,6 +355,12 @@
       "code": "<gds-rich-text>\n<table>\n  <tr>\n    <th>Property group</th>\n    <th>Token collection</th>\n  </tr>\n  <tr>\n    <td>margin, padding, gap, border-width</td>\n    <td>gds.sys.space.*</td>\n  </tr>\n  <tr>\n    <td>background</td>\n    <td>gds.sys.color.l[x].*</td>\n  </tr>\n  <tr>\n    <td>color</td>\n    <td>gds.sys.color.content.*</td>\n  </tr>\n  <tr>\n    <td>border-color</td>\n    <td>gds.sys.color.border.*</td>\n  </tr>\n</table>\n</gds-rich-text>"
     },
     {
+      "title": "Detail M, Detail M",
+      "slug": "detail-detail-m",
+      "path": "snippets/detail-detail-m/detail-detail-m.json",
+      "code": "<gds-flex  padding=\"3xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"4xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Detail medium - Book\n    </gds-text>\n  <gds-text font=\"detail-regular-m\">Detail medium - Regular\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>"
+    },
+    {
       "title": "Detail L, Display L",
       "slug": "detail-display-l",
       "path": "snippets/detail-display-l/detail-display-l.json",
@@ -1039,6 +1045,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 173,
-  "lastUpdated": "2026-01-26T10:24:54.759Z"
+  "total": 174,
+  "lastUpdated": "2026-01-26T11:52:02.637Z"
 }
