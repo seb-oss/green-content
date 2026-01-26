@@ -364,7 +364,7 @@
       "title": "Detail M, Detail S",
       "slug": "detail-detail-s",
       "path": "snippets/detail-detail-s/detail-detail-s.json",
-      "code": "<gds-flex  padding=\"3xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"4xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Detail medium - Book\n    </gds-text>\n  <gds-text font=\"detail-regular-s\">Detail small - Regular\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>"
+      "code": "<gds-flex  padding=\"2xl\" flex-direction=\"column\" align-items=\"flex-start\" gap=\"4xs\">\n    <gds-text \"color=\" content-02\" font=\"detail-book-m\">Detail medium - Book\n    </gds-text>\n  <gds-text font=\"detail-regular-s\">Detail small - Regular\n  </gds-text>\n  <gds-badge variant=\"notice\">4XS (2)</gds-badge>\n</gds-flex>"
     },
     {
       "title": "Detail S, Detail XS",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-01-26T11:55:10.976Z"
+  "lastUpdated": "2026-01-26T11:55:48.360Z"
 }
