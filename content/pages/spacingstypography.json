@@ -200,7 +200,7 @@
     {
       "title": "Detail and detail",
       "max-width": false,
-      "cols": "2",
+      "cols": "3",
       "columns": [
         {
           "type": "snippet",
