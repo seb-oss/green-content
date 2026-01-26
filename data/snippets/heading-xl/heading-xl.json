@@ -1,5 +1,5 @@
 {
   "title": "Heading XL, preamble M",
   "slug": "heading-xl",
-  "code": "<gds-flex width=\"100%\" padding=\"3xl\" flex-direction=\"column\" align-items=\"flex-start \"gap=\"m\">\n  <gds-text font=\"heading-xl\">Med ett lånelöfte är du redo för drömboendet\n  </gds-text>\n  <gds-text max-width=\"800px\" color=\"neutral-02\" font=\"preamble-m\">Få koll på hur mycket du kan låna och gör dig redo för budgivning med ett lånelöfte.\n  </gds-text>\n    <gds-badge variant=\"notice\">M (16)</gds-badge>\n</gds-flex>"
+  "code": "<gds-flex width=\"100%\" padding=\"3xl\" flex-direction=\"column\" align-items=\"flex-start \"gap=\"m\">\n  <gds-text font=\"heading-xl\">Med ett lånelöfte är du redo för drömboendet\n  </gds-text>\n  <gds-text color=\"neutral-02\" font=\"preamble-m\">Få koll på hur mycket du kan låna och gör dig redo för budgivning med ett lånelöfte.\n  </gds-text>\n    <gds-badge variant=\"notice\">M (16)</gds-badge>\n</gds-flex>"
 }
