@@ -75,7 +75,7 @@
         {
           "type": "rich-text",
           "title": "Slide-out",
-          "content": "The slide-out is positioned on the right-hand side and always takes up the full height of the viewport (minus padding). Height and width can be customized to suite various needs."
+          "content": "The slide-out is positioned on the right-hand side and always takes up the full height of the viewport (minus padding). Width can be customized to suite various needs."
         },
         {
           "type": "snippet",
