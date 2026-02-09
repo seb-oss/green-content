@@ -50,7 +50,24 @@
           "type": "rich-text",
           "title": "Background colours and levels",
           "tag": "H3",
-          "content": "Background colours are grouped by their level in the interface:\n\n**L1** – the base layer of the screen  \n**L2** – structural layers like cards and modals  \n**L3** – backgrounds for components like buttons and inputs \n\nThis structure supports clarity, consistency, and a clear visual hierarchy."
+          "content": "Background colours are grouped by their level in the interface. This structure supports clarity, consistency, and a clear visual hierarchy. Apart from the layer tokens, we have tokens for content, borders and states.\n\n**L1** – the base layer of the screen  \n**L2** – structural layers like cards and modals  \n**L3** – backgrounds for components like buttons and inputs"
+        },
+        {
+          "type": "rich-text",
+          "title": "Level 1",
+          "tag": "H3",
+          "content": "A role used for the application's base or page background. This is the canvas on which all other elements are placed. It provides the foundation for visual hierarchy and contrast."
+        },
+        {
+          "type": "rich-text",
+          "title": "Level 2",
+          "tag": "H3",
+          "content": "A role used for background layers like cards, alerts, and modals. Level 2 surfaces help group content and create structure on top of the main background."
+        },
+        {
+          "type": "rich-text",
+          "title": "Level 3",
+          "content": "A role used for the background of interactive or foreground UI elements such as buttons, input fields, toggles, and chips. Container colors provide structure and emphasis within components."
         },
         {
           "type": "rich-text",
