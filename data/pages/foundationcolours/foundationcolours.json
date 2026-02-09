@@ -39,18 +39,7 @@
         {
           "type": "paragraph",
           "tag": "p",
-          "text": "The colors are structured into four groups - background, content, border and state. Backgrounds are divided into three levels."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "This structured approach ensures clear visual hierarchy, making it easy to design interfaces with depth and contrast while maintaining flexibility across different layouts."
-        },
-        {
-          "type": "rich-text",
-          "title": "Background colours and levels",
-          "tag": "H3",
-          "content": "Background colours are grouped by their level in the interface. This structure supports clarity, consistency, and a clear visual hierarchy. Apart from the layer tokens, we have tokens for content, borders and states.\n\n**L1** – the base layer of the screen  \n**L2** – structural layers like cards and modals  \n**L3** – backgrounds for components like buttons and inputs"
+          "text": "The colors are structured into four groups - background, content, border and state. Background colours are grouped by their level in the interface. This structure supports clarity, consistency, and a clear visual hierarchy. Apart from the layer tokens, we have tokens for content, borders and states.\n\nL1 – the base layer of the screen\nL2 – structural layers like cards and modals\nL3 – backgrounds for components like buttons and inputs "
         },
         {
           "type": "rich-text",
