@@ -74,6 +74,10 @@
           "type": "rich-text",
           "title": "State colours",
           "content": "State colours provide visual feedback for interactions. We have defined an extensive set of tokens to support customisation across components. For example primary, secondary, and tertiary buttons."
+        },
+        {
+          "type": "rich-text",
+          "content": "[Explore the colours in the studio.](https://seb.io/studio/colors)"
         }
       ]
     }
