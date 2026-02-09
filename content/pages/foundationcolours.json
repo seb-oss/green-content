@@ -33,13 +33,13 @@
     },
     {
       "title": "GDS colours",
+      "section-content": "The colors are structured into four groups - background, content, border and state. Background colours are grouped by their level in the interface. This structure supports clarity, consistency, and a clear visual hierarchy. Apart from the layer tokens, we have tokens for content, borders and states.",
       "max-width": true,
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "The colors are structured into four groups - background, content, border and state. Background colours are grouped by their level in the interface. This structure supports clarity, consistency, and a clear visual hierarchy. Apart from the layer tokens, we have tokens for content, borders and states.\n\nL1 – the base layer of the screen\nL2 – structural layers like cards and modals\nL3 – backgrounds for components like buttons and inputs "
+          "type": "rich-text",
+          "content": "*   L1 – the base layer of the screen\n    \n*   L2 – structural layers like cards and modals\n    \n*   L3 – backgrounds for components like buttons and inputs"
         },
         {
           "type": "rich-text",
