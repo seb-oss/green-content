@@ -16,7 +16,7 @@
       "title": "Alert: Dissmisible",
       "slug": "alert-dismissible",
       "path": "snippets/alert-dismissible/alert-dismissible.json",
-      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" dismissible>\n  <strong>Dismissible</strong> User can dismiss this alert.\n</gds-alert>\n</gds-div>"
+      "code": "<gds-div width=\"90%\" display=\"block\">\n  <gds-alert variant=\"information\" role=\"alert\" dismissible>\n    <strong>Dismissible</strong> User can dismiss this alert.\n  </gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Information",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-02-17T14:12:31.877Z"
+  "lastUpdated": "2026-02-17T14:13:40.061Z"
 }
