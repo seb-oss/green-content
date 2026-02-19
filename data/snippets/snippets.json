@@ -4,7 +4,7 @@
       "title": "Alert: Action",
       "slug": "alert-action",
       "path": "snippets/alert-action/alert-action.json",
-      "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n  <strong>Actionable</strong> Alert with a button for quick user interaction.\n</gds-alert>\n</gds-div>"
+      "code": "<gds-div width=\"90%\" display=\"block\">\n  <gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n    <strong>Actionable</strong> Alert with a button for quick user interaction.\n  </gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Auto Dismiss",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-02-17T14:13:40.061Z"
+  "lastUpdated": "2026-02-19T08:32:44.958Z"
 }

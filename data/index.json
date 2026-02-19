@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-02-17T14:13:40.058Z",
+    "lastUpdated": "2026-02-19T08:32:44.956Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -656,7 +656,7 @@
             "title": "Alert: Action",
             "slug": "alert-action",
             "path": "snippets/alert-action/alert-action.json",
-            "code": "<gds-div width=\"90%\" display=\"block\">\n<gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n  <strong>Actionable</strong> Alert with a button for quick user interaction.\n</gds-alert>\n</gds-div>",
+            "code": "<gds-div width=\"90%\" display=\"block\">\n  <gds-alert variant=\"information\" role=\"alert\" button-label=\"Action\">\n    <strong>Actionable</strong> Alert with a button for quick user interaction.\n  </gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-action/alert-action.json"
             }
