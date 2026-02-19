@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-02-19T08:32:44.956Z",
+    "lastUpdated": "2026-02-19T15:05:46.865Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -728,7 +728,7 @@
             "title": "Alert: UX text heading don't",
             "slug": "alert-ux-dont",
             "path": "snippets/alert-ux-dont/alert-ux-dont.json",
-            "code": "<gds-div min-height=\"310px\" width=\"100%\" padding=\"xl\">\n  <gds-alert variant=\"negative\" button-label=\"Try again\">\n    <strong>We were unable to show your e-invoices.</strong><br /> Try again. If it still doesn't work, <u>contact us</u>\n  </gds-alert>\n</gds-div>",
+            "code": "<gds-div min-height=\"310px\" width=\"100%\" padding=\"xl\">\n  <gds-alert variant=\"negative\" button-label=\"Try again\">\n    <strong>We were unable to show your e-invoices.</strong>\n    <br /> Try again. If it still doesn't work, <u>contact us</u>\n  </gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-ux-dont/alert-ux-dont.json"
             }

@@ -52,7 +52,7 @@
       "title": "Alert: UX text heading don't",
       "slug": "alert-ux-dont",
       "path": "snippets/alert-ux-dont/alert-ux-dont.json",
-      "code": "<gds-div min-height=\"310px\" width=\"100%\" padding=\"xl\">\n  <gds-alert variant=\"negative\" button-label=\"Try again\">\n    <strong>We were unable to show your e-invoices.</strong><br /> Try again. If it still doesn't work, <u>contact us</u>\n  </gds-alert>\n</gds-div>"
+      "code": "<gds-div min-height=\"310px\" width=\"100%\" padding=\"xl\">\n  <gds-alert variant=\"negative\" button-label=\"Try again\">\n    <strong>We were unable to show your e-invoices.</strong>\n    <br /> Try again. If it still doesn't work, <u>contact us</u>\n  </gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: UX with a button",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-02-19T08:32:44.958Z"
+  "lastUpdated": "2026-02-19T15:05:46.867Z"
 }
