@@ -147,7 +147,19 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Body text is primarily used for longer passages of content, providing readability and clarity in paragraphs, articles, and other text-heavy contexts."
+          "content": "_Tone: Readable_  \nUsed for running text and longer passages of content such as paragraphs, articles, and descriptions."
+        },
+        {
+          "type": "rich-text",
+          "title": "Usage",
+          "tag": "H4",
+          "content": "*   Paragraphs and descriptions\n    \n*   Articles and informational content\n    \n*   Text-heavy layouts"
+        },
+        {
+          "type": "rich-text",
+          "title": "Guidelines",
+          "tag": "H4",
+          "content": "*   Use consistent spacing between paragraphs\n    \n*   Prioritize readability over visual emphasis"
         }
       ]
     },
@@ -158,7 +170,19 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "The detail style is used for ui elements like buttons, form inputs and tooltips. For size, detail text is set between 12 px and 16 px, depending on the component and context."
+          "content": "_Tone: Functional_  \nUsed for small UI text such as labels, metadata, helper text, and component text. Can also be used as an overline above headings or display text."
+        },
+        {
+          "type": "rich-text",
+          "title": "Usage",
+          "tag": "H4",
+          "content": "*   Labels and metadata\n    \n*   Helper text and status information\n    \n*   Text in buttons, inputs, and tooltips\n    \n*   Overlines above headings or display text"
+        },
+        {
+          "type": "rich-text",
+          "title": "Guidlines",
+          "tag": "H4",
+          "content": "*   Keep detail text short and functional\n    \n*   Avoid using detail styles for long-form content"
         }
       ]
     },
