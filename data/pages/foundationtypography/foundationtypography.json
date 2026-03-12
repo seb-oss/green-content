@@ -101,7 +101,19 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Headings help establish a clear hierarchy in your layout. Heading levels range from H1 (largest) to H6 (smallest). Keep the size differences noticeable but balanced for a clean and cohesive design."
+          "content": "_Tone: Structural_  \nUsed for structuring content and establishing a clear hierarchy across a page. Suitable for page titles, section headings, and titles in cards or content sections."
+        },
+        {
+          "type": "rich-text",
+          "title": "Usage",
+          "tag": "H4",
+          "content": "*   Page titles and section headings\n    \n*   Structuring content within layouts\n    \n*   Titles in cards and content sections"
+        },
+        {
+          "type": "rich-text",
+          "title": "Guidelines",
+          "tag": "H4",
+          "content": "*   Use heading levels consistently to maintain hierarchy\n    \n*   Avoid skipping heading levels when structuring content"
         }
       ]
     },
@@ -112,7 +124,19 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "A preamble appears below a heading and serves as a summary for the content that follows. In terms of size, the preamble is generally larger than body text but smaller than headings."
+          "content": "_Tone: Introductory_  \nUsed for introductory text placed below a heading to provide context or summarize the content that follows. The preamble is generally larger than body text but smaller than headings."
+        },
+        {
+          "type": "rich-text",
+          "title": "Usage",
+          "tag": "H4",
+          "content": "*   Introducing pages or sections\n    \n*   Summarizing articles or content areas\n    \n*   Providing context before body text"
+        },
+        {
+          "type": "rich-text",
+          "title": "Guidelines",
+          "tag": "H4",
+          "content": "*   Keep preambles concise\n    \n*   Use together with headings or display styles"
         }
       ]
     },
