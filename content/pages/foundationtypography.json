@@ -124,7 +124,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "_Tone: Introductory_  \nUsed for introductory text placed below a heading to provide context or summarize the content that follows. The preamble is generally larger than body text but smaller than headings."
+          "content": "_Tone: Introductory_  \nUsed for introductory text placed below a display or heading to provide context or summarize the content that follows. The preamble is generally larger than body text but smaller than headings."
         },
         {
           "type": "rich-text",
