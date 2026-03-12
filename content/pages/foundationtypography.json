@@ -56,7 +56,7 @@
       "columns": [
         {
           "type": "paragraph",
-          "text": "Our type scale ranges from 82px down to 12px, with each size serving a specific role in structuring information effectively."
+          "text": "Our type scale ranges from 64px down to 12px, with each size serving a specific role in structuring information effectively."
         }
       ]
     },
@@ -78,7 +78,19 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Display text is meant to make a strong visual impact. This style is used sparingly, as they are designed for strong visual impact.\n\nTherefore, display text is perfect when you need to raise the volume."
+          "content": "_Tone: Expressive_  \nUsed for large, expressive text that highlights key messages and creates strong visual impact. Typically used in hero sections, landing pages, and promotional content. Display text is perfect when you need to raise the volume."
+        },
+        {
+          "type": "rich-text",
+          "title": "Usage",
+          "tag": "H4",
+          "content": "*   Hero sections and landing pages\n    \n*   Editorial or marketing content\n    \n*   Promotional cards and banners"
+        },
+        {
+          "type": "rich-text",
+          "title": "Guidelines",
+          "tag": "H4",
+          "content": "*   Use sparingly to maintain impact\n    \n*   Avoid using multiple display styles within the same view"
         }
       ]
     },
