@@ -113,6 +113,20 @@
       ]
     },
     {
+      "title": "Card on card",
+      "tag": "H2",
+      "section-content": "Cards can be placed inside other cards to create hierarchy and visual grouping. This also goes for a card inside a modal since the card and the modal have the same base tokens. To support this, we use elevated color tokens that ensure proper contrast and consistency across both light and dark mode.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "How it works",
+          "tag": "H3",
+          "content": "When nesting cards or placing cards in modals, the inner card should always contrast against its parent background. This is handled through paired color tokens and creates a clear visual separation between layers without relying on shadows alone.  \n  \n**Grey context**  \n**Outer card -** Neutral-01 (grey)  \n**Inner card -** Neutral-01-2 (white)  \n  \n**White context**  \n**Outer card -** Neutral-02 (white)  \n**Inner card -** Neutral-02-2 (grey)"
+        }
+      ]
+    },
+    {
       "title": "Do's and don'ts",
       "cols": "2",
       "columns": [
@@ -133,12 +147,6 @@
           ]
         }
       ]
-    },
-    {
-      "title": "Card on card",
-      "tag": "H2",
-      "section-content": "Cards can be placed inside other cards to create hierarchy and visual grouping. This also goes for a card inside a modal since the card and the modal have the same base tokens. To support this, we use elevated color tokens that ensure proper contrast and consistency across both light and dark mode.",
-      "cols": "1"
     }
   ],
   "faq": [
