@@ -108,7 +108,7 @@
           "type": "rich-text",
           "title": "Why this matters:",
           "tag": "H3",
-          "content": "*   **Consistency** – users should understand how a card behaves before they interact with it. Mixing types can make it unclear whether the whole card or only parts are clickable.\n    \n*   **Accessibility** – linked cards rely on different interaction logic and focus handling compared to cards with multiple actions. Mixing them can create confusion for keyboard and screen-reader users.\n    \n*   **Visual clarity** – linked cards use hover and press states that don’t apply to default cards, which can create inconsistent visual feedback."
+          "content": "- **Consistency** – users should understand how a card behaves before they interact with it. Mixing types can make it unclear whether the whole card or only parts are clickable.\n- **Accessibility** – linked cards rely on different interaction logic and focus handling compared to cards with multiple actions. Mixing them can create confusion for keyboard and screen-reader users.\n- **Visual clarity** – linked cards use hover and press states that don’t apply to default cards, which can create inconsistent visual feedback.\n\n&nbsp;"
         }
       ]
     },
@@ -151,7 +151,7 @@
           "name": "card-faq",
           "summary": "What can I adjust in the card component?",
           "open": false,
-          "content": "The component supports the following adjustments:\n\n*   You can switch between appearance variants (neutral 01, neutral 02, outlined).\n    \n*   You can add your own content through the slot instance."
+          "content": "The component supports the following adjustments:\n\n- You can switch between appearance variants (neutral 01, neutral 02, outlined).\n- You can add your own content through the slot instance.\n\n&nbsp;"
         },
         {
           "type": "details",
@@ -172,7 +172,7 @@
           "name": "card-faq",
           "summary": "What should I avoid when working with the card component?",
           "open": false,
-          "content": "To keep consistency and avoid breaking behavior:\n\n*   Don’t mix linked and default cards in the same group or grid.\n    \n*   Don’t detach slots or nested elements, always use component properties.\n    \n*   Don’t override padding or corner radius manually, these are controlled by the base component."
+          "content": "To keep consistency and avoid breaking behavior:\n\n- Don’t mix linked and default cards in the same group or grid.\n- Don’t detach slots or nested elements, always use component properties.\n- Don’t override padding or corner radius manually, these are controlled by the base component.\n\n&nbsp;"
         }
       ]
     }
