@@ -4,7 +4,7 @@
   "hero_snippet": "hero-card",
   "beta": false,
   "soon": false,
-  "summary": "The card groups related content into a single container",
+  "summary": "The card groups related content into a single container.",
   "preamble": "The card is a container component used to group related content and actions. It serves as the foundation for our card patterns. A card can contain multiple interactive elements (buttons and links) or be configured as a single interactive element (a linked card).",
   "anatomy": true,
   "anatomy-list": {
