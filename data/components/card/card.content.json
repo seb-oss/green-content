@@ -140,7 +140,13 @@
           "type": "rich-text",
           "title": "In Figma",
           "tag": "H3",
-          "content": "Elevated cards are available as **variants** of the Card component. We call them ”Raised”. \n\n- Select the appropriate **variant** based on the card’s context (base or nested).\n- Use the **“-2” variants** when placing a card inside another card or modal.\n- Avoid manually changing fill colors, always switch variants instead.\n\n(A card instance in a card needs a bit of a trick. You need to add the card instance in your slot AFTER you place the slot in your card. This will be much easier as soon as we rebuild the cards to use the new feature with actual slots, that will remove the obsticle of you needing to create a lot of component slots)."
+          "content": "Elevated cards are available as **variants** of the Card component. We call them ”Raised”. \n\n- Select the appropriate **variant** based on the card’s context (base or nested).\n- Use the **“-2” variants** when placing a card inside another card or modal.\n- Avoid manually changing fill colors, always switch variants instead.\n\n(A card instance in a card needs a bit of a trick. You need to add the card instance in your slot AFTER you place the slot in your card. This will be much easier as soon as we rebuild the cards to use the new feature with actual slots, that will remove the obsticle of you needing to create a lot of slot components)."
+        },
+        {
+          "type": "rich-text",
+          "title": "Card on card guidelines",
+          "tag": "H3",
+          "content": "- Use nested cards to group related content or create visual hierarchy.\n- Always use the **paired “-2” variants/tokens** for inner cards.\n- Think of the “-2” variants as an elevation step, they define how surfaces stack.\n\n&nbsp;"
         }
       ]
     },
