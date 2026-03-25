@@ -57,9 +57,9 @@
       ]
     },
     {
-      "title": "Brand 01",
+      "title": "Brand cards",
       "tag": "H3",
-      "section-content": "Can only be used in special contexts and with specific content. This will be added as guidelines soon. Since we do not have any matching action components for now you can only slot text, link and icon.",
+      "section-content": "Brand-01 and brand-02 can only be used in special contexts and with specific content. This will be added as guidelines. Since we do not have any matching action components for now you can only slot text, link and icon.",
       "cols": "1",
       "columns": [
         {
