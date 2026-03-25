@@ -45,7 +45,7 @@
     {
       "title": "Card",
       "slug": "card",
-      "summary": "The card groups related content into a single container.",
+      "summary": "The card groups related content into a single container",
       "path": "components/card/card.content.json"
     },
     {
@@ -246,5 +246,5 @@
     }
   ],
   "total": 41,
-  "lastUpdated": "2026-03-25T08:00:16.433Z"
+  "lastUpdated": "2026-03-25T08:43:37.208Z"
 }
