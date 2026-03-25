@@ -146,7 +146,7 @@
           "type": "rich-text",
           "title": "Card on card guidelines",
           "tag": "H3",
-          "content": "- Use nested cards to group related content or create visual hierarchy.\n- Always use the **paired “-2” variants/tokens** for inner cards.\n- Think of the “-2” variants as an elevation step, they define how surfaces stack.\n\n&nbsp;"
+          "content": "- Use nested cards to group related content or create visual hierarchy.\n- Always use the paired “-2” variants/tokens for inner cards.\n- Think of the “-2” variants as an elevation step, they define how surfaces stack."
         }
       ]
     },
