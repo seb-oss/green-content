@@ -100,7 +100,7 @@
       "title": "Badge: Size",
       "slug": "badge-size",
       "path": "snippets/badge-size/badge-size.json",
-      "code": "<gds-flex align-items=\"center\" gap=\"4xl\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"positive\" size=\"small\">\n    240\n  </gds-badge>\n</gds-flex>"
+      "code": "<gds-flex align-items=\"center\" gap=\"4xl\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"positive\" size=\"small\">\n    280\n  </gds-badge>\n</gds-flex>"
     },
     {
       "title": "Badge: Trail",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-03-23T10:02:19.678Z"
+  "lastUpdated": "2026-03-25T07:59:23.272Z"
 }
