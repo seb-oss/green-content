@@ -60,7 +60,7 @@
       "title": "Brand cards",
       "tag": "H3",
       "section-content": "Brand-01 and brand-02 can only be used in special contexts and with specific content. This will be added as guidelines. Since we do not have any matching action components for now you can only slot text, link and icon.",
-      "cols": "1",
+      "cols": "2",
       "columns": [
         {
           "type": "snippet",
@@ -133,6 +133,12 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Card on card",
+      "tag": "H2",
+      "section-content": "Cards can be placed inside other cards to create hierarchy and visual grouping. This also goes for a card inside a modal since the card and the modal have the same base tokens. To support this, we use elevated color tokens that ensure proper contrast and consistency across both light and dark mode.",
+      "cols": "1"
     }
   ],
   "faq": [
