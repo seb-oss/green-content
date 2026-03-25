@@ -135,6 +135,12 @@
           "title": "Dark mode behavior",
           "tag": "H3",
           "content": "In dark mode, base card variants share the same surface value. The elevated variants (“-2”) are adjusted to create subtle contrast between layers. This ensures that nested cards remain distinguishable and maintain a clear sense of hierarchy.\n\n- **Neutral-01** and **Neutral-02** share the same base value\n- **Neutral-01-2** and **Neutral-02-2** use slightly adjusted values to create elevation and separation between nested cards. (MIGHT NEED UPDATE!)\n\n&nbsp;"
+        },
+        {
+          "type": "rich-text",
+          "title": "In Figma",
+          "tag": "H3",
+          "content": "Elevated cards are available as **variants** of the Card component. We call them ”Raised”. \n\n- Select the appropriate **variant** based on the card’s context (base or nested).\n- Use the **“-2” variants** when placing a card inside another card or modal.\n- Avoid manually changing fill colors, always switch variants instead.\n\n(A card instance in a card needs a bit of a trick. You need to add the card instance in your slot AFTER you place the slot in your card. This will be much easier as soon as we rebuild the cards to use the new feature with actual slots, that will remove the obsticle of you needing to create a lot of component slots)."
         }
       ]
     },
