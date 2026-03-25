@@ -122,7 +122,19 @@
           "type": "rich-text",
           "title": "How it works",
           "tag": "H3",
-          "content": "When nesting cards or placing cards in modals, the inner card should always contrast against its parent background. This is handled through paired color tokens and creates a clear visual separation between layers without relying on shadows alone.  \n  \n**Grey context**  \n**Outer card -** Neutral-01 (grey)  \n**Inner card -** Neutral-01-2 (white)  \n  \n**White context**  \n**Outer card -** Neutral-02 (white)  \n**Inner card -** Neutral-02-2 (grey)"
+          "content": "When nesting cards or placing cards in modals, the inner card should always contrast against its parent background. This is handled through paired color tokens and creates a clear visual separation between layers without relying on shadows alone.  \n\n**Grey context**  \n**Outer card -** Neutral-01 (grey)  \n**Inner card -** Neutral-01-2 (white)  \n\n**White context**  \n**Outer card -** Neutral-02 (white)  \n**Inner card -** Neutral-02-2 (grey)"
+        },
+        {
+          "type": "rich-text",
+          "title": "Light mode behavior",
+          "tag": "H3",
+          "content": "Always use the “-2” token for the nested card to maintain correct contrast and hierarchy.\n\n- A **grey card (neutral-01)** can contain a **white card (neutral-01-2)**\n- A **white card (neutral-02)** can contain a **grey card (neutral-02-2)**\n\n&nbsp;"
+        },
+        {
+          "type": "rich-text",
+          "title": "Dark mode behavior",
+          "tag": "H3",
+          "content": "In dark mode, base card variants share the same surface value. The elevated variants (“-2”) are adjusted to create subtle contrast between layers. This ensures that nested cards remain distinguishable and maintain a clear sense of hierarchy.\n\n- **Neutral-01** and **Neutral-02** share the same base value\n- **Neutral-01-2** and **Neutral-02-2** use slightly adjusted values to create elevation and separation between nested cards. (MIGHT NEED UPDATE!)  \n\n\n&nbsp;"
         }
       ]
     },
