@@ -112,7 +112,7 @@
       "title": "Badge: UX common EN",
       "slug": "badge-ux-common-en",
       "path": "snippets/badge-ux-common-en/badge-ux-common-en.json",
-      "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\" padding=\"2xl xl\">\n  <gds-badge variant=\"positive\">Signed </gds-badge>\n  <gds-badge variant=\"warning\">Waiting for signature</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for other's signature</gds-badge>\n  <gds-badge>Expired</gds-badge>\n  <gds-badge>Closed</gds-badge>\n  <gds-badge variant=\"negative\">Removed</gds-badge>\n</gds-flex>\n"
+      "code": "<gds-flex flex-direction=\"column\" gap=\"s\" width=\"max-content\" align-items=\"flex-start\" padding=\"2xl xl\">\n  <gds-badge variant=\"positive\">Signed</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for signature</gds-badge>\n  <gds-badge variant=\"warning\">Waiting for other's signature</gds-badge>\n  <gds-badge>Expired</gds-badge>\n  <gds-badge>Closed</gds-badge>\n  <gds-badge variant=\"negative\">Removed</gds-badge>\n</gds-flex>\n"
     },
     {
       "title": "Badge: UX common SV",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-04-07T11:55:12.807Z"
+  "lastUpdated": "2026-04-07T12:10:25.443Z"
 }
