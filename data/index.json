@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-13T08:49:30.523Z",
+    "lastUpdated": "2026-04-13T08:54:02.999Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2033,7 +2033,7 @@
             "title": "Link: Leading",
             "slug": "link-leading",
             "path": "snippets/link-leading/link-leading.json",
-            "code": "<gds-link>\n<gds-icon-cain-link slot=\"lead\"></gds-icon-chain-link>\n  Link text\n</gds-link>",
+            "code": "<gds-link>\n<gds-icon-chain-link slot=\"lead\"></gds-icon-chain-link>\n  Link text\n</gds-link>",
             "endpoints": {
               "content": "snippets/link-leading/link-leading.json"
             }
