@@ -922,7 +922,7 @@
       "title": "Link: Leading",
       "slug": "link-leading",
       "path": "snippets/link-leading/link-leading.json",
-      "code": "<gds-link>\n<gds-icon-chain-link slot=\"lead\"></gds-icon-chain-link>\n  Link text\n</gds-link>"
+      "code": "<gds-link>\n<gds-icon-arrow-wall-down slot=\"lead\"></gds-icon-arrow-wall-down>\n  Link text\n</gds-link>"
     },
     {
       "title": "Link: Text decoration",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-04-13T08:54:03.001Z"
+  "lastUpdated": "2026-04-13T08:56:55.927Z"
 }
