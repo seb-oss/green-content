@@ -97,6 +97,17 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Size",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The toggle is available in two sizes: default and small. The small size should only be used in compact views where space is limited, such as dense layouts or smaller components."
+        }
+      ]
     }
   ],
   "ux-text": [
