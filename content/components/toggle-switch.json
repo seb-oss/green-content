@@ -7,6 +7,22 @@
   "summary": "A toggle lets users switch a setting on or off. ",
   "preamble": "A toggle is used for settings with two possible states, where the user can turn something on or off.\nThe change takes effect immediately, allowing the user to see the result without needing to confirm or save.",
   "anatomy": true,
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Toggle label"
+      },
+      {
+        "text": "Handle"
+      },
+      {
+        "text": "Track"
+      },
+      {
+        "text": "Active state handle icon"
+      }
+    ]
+  },
   "platform": {
     "web": false,
     "ios": false,
