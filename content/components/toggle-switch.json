@@ -40,6 +40,11 @@
           "content": "Labels describe the setting, not the state. They should be short and specific, remain clear in both on and off states, and not require additional context to understand.\n\nFor example, use labels like “Email notifications”, “Show balance”, or “Enable dark mode”. Avoid labels such as “On / Off”, “Active”, or “Enabled”, as they do not clearly communicate what the toggle controls."
         }
       ]
+    },
+    {
+      "title": "Accessibility",
+      "tag": "H2",
+      "section-content": "A toggle must have a visible and persistent label and communicate its state programmatically as on or off. It should be operable via keyboard and include a visible focus indicator. The state should not rely on color alone to be understood, and the component must meet contrast requirements in all states."
     }
   ],
   "ux-text": [
