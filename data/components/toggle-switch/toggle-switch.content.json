@@ -45,6 +45,31 @@
       "title": "Accessibility",
       "tag": "H2",
       "section-content": "A toggle must have a visible and persistent label and communicate its state programmatically as on or off. It should be operable via keyboard and include a visible focus indicator. The state should not rely on color alone to be understood, and the component must meet contrast requirements in all states."
+    },
+    {
+      "section-content": "- Use only for binary settings\n- Apply changes immediately\n- Keep labels clear and persistent\n- Support with helper text when needed\n- Ensure accessibility across all states\n\n",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "- Use only for binary settings"
+            },
+            {
+              "text": "- Apply changes immediately"
+            },
+            {
+              "text": "- Keep labels clear and persistent"
+            },
+            {
+              "text": "- Support with helper text when needed ARE WE DOING THIS?"
+            },
+            {
+              "text": "- Ensure accessibility across all states"
+            }
+          ]
+        }
+      ]
     }
   ],
   "ux-text": [
