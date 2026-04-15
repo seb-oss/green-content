@@ -57,6 +57,7 @@
       "section-content": "A toggle must have a visible and persistent label and communicate its state programmatically as on or off. It should be operable via keyboard and include a visible focus indicator. The state should not rely on color alone to be understood, and the component must meet contrast requirements in all states."
     },
     {
+      "title": "Do's and Don'ts",
       "columns": [
         {
           "type": "do",
