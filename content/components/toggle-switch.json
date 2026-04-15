@@ -16,12 +16,9 @@
     {
       "title": "Usage",
       "tag": "H2",
-      "cols": "1",
+      "section-content": "Use a toggle when the user is controlling a single setting, the change takes effect immediately and both states are clear and equally valid.",
+      "cols": "2",
       "columns": [
-        {
-          "type": "rich-text",
-          "content": "Use a toggle when the user is controlling a single setting, the change takes effect immediately and both states are clear and equally valid.\n\n"
-        },
         {
           "type": "rich-text",
           "title": "Typical use cases",
@@ -31,16 +28,12 @@
     },
     {
       "title": "Behaviour",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "Changing the toggle updates the state immediately. The current state should always be clear to the user, and the component should provide feedback for different interaction states such as hover, focus, pressed, and disabled."
-        }
-      ]
+      "section-content": "Changing the toggle updates the state immediately. The current state should always be clear to the user, and the component should provide feedback for different interaction states such as hover, focus, pressed, and disabled.",
+      "cols": "1"
     },
     {
       "title": "Label",
+      "cols": "2",
       "columns": [
         {
           "type": "rich-text",
