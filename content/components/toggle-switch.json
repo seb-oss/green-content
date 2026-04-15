@@ -48,6 +48,17 @@
       "cols": "1"
     },
     {
+      "title": "Size",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The toggle is available in two sizes: default and small. The small size should only be used in compact views where space is limited, such as dense layouts or smaller components."
+        }
+      ]
+    },
+    {
       "title": "Label",
       "cols": "2",
       "columns": [
@@ -95,17 +106,6 @@
               "text": "Avoid placing too many toggles close together, as it makes the interface harder to scan and increases the risk of mistakes"
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "Size",
-      "tag": "H2",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "The toggle is available in two sizes: default and small. The small size should only be used in compact views where space is limited, such as dense layouts or smaller components."
         }
       ]
     }
