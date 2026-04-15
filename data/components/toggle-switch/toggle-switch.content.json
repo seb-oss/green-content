@@ -68,6 +68,23 @@
               "text": "- Ensure accessibility across all states"
             }
           ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Avoid unclear or ambiguous labels that make it hard to understand what the toggle controls"
+            },
+            {
+              "text": "Do not use toggles when the effect is delayed, unclear, or requires form submission to take effect"
+            },
+            {
+              "text": "Do not rely only on color or position to communicate state"
+            },
+            {
+              "text": "Avoid placing too many toggles close together, as it makes the interface harder to scan and increases the risk of mistakes"
+            }
+          ]
         }
       ]
     }
