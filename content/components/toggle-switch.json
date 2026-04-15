@@ -37,8 +37,8 @@
       "columns": [
         {
           "type": "rich-text",
-          "title": "Typical use cases",
-          "content": "- Show account balance\n- Enable notifications\n- Remember device\n\n"
+          "title": "Use cases examples",
+          "content": "- Show account balance\n- Hide sensivtive information\n- Enable notifications\n- Enable transaction alerts\n- Remember device\n\n"
         }
       ]
     },
