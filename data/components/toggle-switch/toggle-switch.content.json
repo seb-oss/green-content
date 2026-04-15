@@ -28,6 +28,16 @@
           "content": "- Show account balance\n- Enable notifications\n- Remember device\n\n"
         }
       ]
+    },
+    {
+      "title": "Behaviour",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Changing the toggle updates the state immediately. The current state should always be clear to the user, and the component should provide feedback for different interaction states such as hover, focus, pressed, and disabled."
+        }
+      ]
     }
   ],
   "ux-text": [
