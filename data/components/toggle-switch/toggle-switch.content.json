@@ -38,6 +38,15 @@
           "content": "Changing the toggle updates the state immediately. The current state should always be clear to the user, and the component should provide feedback for different interaction states such as hover, focus, pressed, and disabled."
         }
       ]
+    },
+    {
+      "title": "Label",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Labels describe the setting, not the state. They should be short and specific, remain clear in both on and off states, and not require additional context to understand.\n\nFor example, use labels like “Email notifications”, “Show balance”, or “Enable dark mode”. Avoid labels such as “On / Off”, “Active”, or “Enabled”, as they do not clearly communicate what the toggle controls."
+        }
+      ]
     }
   ],
   "ux-text": [
