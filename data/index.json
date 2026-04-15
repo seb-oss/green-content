@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-15T11:59:39.160Z",
+    "lastUpdated": "2026-04-15T12:38:49.139Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -863,7 +863,7 @@
             "title": "Button: back secondary",
             "slug": "button-back-secondary",
             "path": "snippets/button-back-secondary/button-back-secondary.json",
-            "code": "<gds-button width=\"max-content\" rank=\"secondary\">\n  <gds-icon-arrow-left slot=\"lead\"></gds-icon-arrow-left>\n  Back \n</gds-button>",
+            "code": "<gds-button width=\"max-content\" rank=\"secondary\">\n  <gds-icon-arrow-left slot=\"lead\"></gds-icon-arrow-left>\n  Back\n</gds-button>",
             "endpoints": {
               "content": "snippets/button-back-secondary/button-back-secondary.json"
             }
