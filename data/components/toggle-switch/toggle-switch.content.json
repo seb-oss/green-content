@@ -4,28 +4,46 @@
   "hero_snippet": "toggle-hero",
   "beta": false,
   "soon": true,
-  "summary": "A toggle allows users to turn a setting on or off. ",
+  "summary": "A toggle lets users switch a setting on or off. ",
+  "preamble": "A toggle is used for settings with two possible states, where the user can turn something on or off.\nThe change takes effect immediately, allowing the user to see the result without needing to confirm or save.",
   "anatomy": true,
   "platform": {
     "web": false,
     "ios": false,
     "android": false
   },
+  "overview": [
+    {
+      "title": "Usage",
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Use a toggle when the user is controlling a single setting, the change takes effect immediately and both states are clear and equally valid.\n\n"
+        },
+        {
+          "type": "rich-text",
+          "title": "Typical use cases",
+          "content": "- Show account balance\n- Enable notifications\n- Remember device\n\n"
+        }
+      ]
+    }
+  ],
   "ux-text": [
     {
       "title": "Writing UX text for toggle",
       "tag": "H2",
-      "section-content": "Labels should make the purpose obvious at a glance, show what the on and off state means, and avoid confusion or unnecessary wording. The goal is to help users feel confident about the choice they’re making. Write labels that describe the active state, not the action, be clear, and avoid vague wording or unclear terms, and don't use negatives as they can cause confusion.\n\n**Do – labels that describe the active state:**\n\n_Notifications_ – On/Off\n\n_Dark mode_ – On/Off\n\n**Don't – describe the action, be too vague or use negatives:**\n\n_Turn on notification_ or _Turn on dark mode –_ On/Off\n\n_Enable_ – On/Off (too vague, enable what?)\n\nDisable _–_ On/Off\n\nDon’t show _–_ On/Off"
+      "section-content": "Labels should make the purpose obvious at a glance, show what the on and off state means, and avoid confusion or unnecessary wording. The goal is to help users feel confident about the choice they’re making. Write labels that describe the active state, not the action, be clear, and avoid vague wording or unclear terms, and don't use negatives as they can cause confusion.\n\n**Do – labels that describe the active state:**\n\n*Notifications* – On/Off\n\n*Dark mode* – On/Off\n\n**Don't – describe the action, be too vague or use negatives:**\n\n*Turn on notification* or *Turn on dark mode –* On/Off\n\n*Enable* – On/Off (too vague, enable what?)\n\nDisable *–* On/Off\n\nDon’t show *–* On/Off"
     },
     {
       "title": "Keep labels short",
       "tag": "H3",
-      "section-content": "One or two words is ideal.\n\n**Do:** _Wi-Fi_, _Location_, _Auto-update_  \n**Don’t:** _Automatically download updates in the background_"
+      "section-content": "One or two words is ideal.\n\n**Do:** *Wi-Fi*, *Location*, *Auto-update*  \n**Don’t:** *Automatically download updates in the background*"
     },
     {
       "title": "Provide context where needed",
       "tag": "H3",
-      "section-content": "Add a short description if the toggle affects something non-obvious.\n\n**Example:**  \nAuto-renew – On/Off  \n_Your subscription will renew every month._"
+      "section-content": "Add a short description if the toggle affects something non-obvious.\n\n**Example:**  \nAuto-renew – On/Off  \n*Your subscription will renew every month.*"
     }
   ]
 }
