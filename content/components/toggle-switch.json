@@ -5,7 +5,7 @@
   "beta": false,
   "soon": true,
   "summary": "A toggle lets users switch a setting on or off. ",
-  "preamble": "A toggle is used for settings with two possible states, where the user can turn something on or off.\nThe change takes effect immediately, allowing the user to see the result without needing to confirm or save.",
+  "preamble": "A toggle is used for settings with two possible states, where the user can turn something on or off.\nThe change takes effect immediately, allowing the user to see the result without needing to confirm or save. Both states are clear and equally valid.",
   "anatomy": true,
   "anatomy-list": {
     "anatomyitems": [
@@ -29,19 +29,6 @@
     "android": false
   },
   "overview": [
-    {
-      "title": "Usage",
-      "tag": "H2",
-      "section-content": "Use a toggle when the user is controlling a single setting, the change takes effect immediately and both states are clear and equally valid.",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Use cases examples",
-          "content": "- Show account balance\n- Hide sensivtive information\n- Enable notifications\n- Enable transaction alerts\n- Remember device\n\n"
-        }
-      ]
-    },
     {
       "title": "Behaviour",
       "section-content": "Changing the toggle updates the state immediately. The current state should always be clear to the user, and the component should provide feedback for different interaction states such as hover, focus, pressed, and disabled.",
