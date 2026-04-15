@@ -69,7 +69,7 @@
           "type": "do",
           "dolist": [
             {
-              "text": "- Use only for binary settings"
+              "text": "- Use only for settings with two options"
             },
             {
               "text": "- Apply changes immediately"
