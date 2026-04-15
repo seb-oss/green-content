@@ -42,16 +42,6 @@
       ]
     },
     {
-      "title": "Label support",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "Use label support text when the label alone does not fully explain what the setting affects. For example, “Show balance” can be supported with “Display your account balance on the home screen” to clarify where and how it appears.\n\nIt can also be useful when the setting has consequences that are not immediately obvious. For example, “Enable notifications” may need supporting text such as “Receive updates about important account activity”.\n\nSupporting text is also helpful when the scope needs clarification. For example, “Remember device” can be paired with “Keep you signed in on this device for 30 days” to explain what will happen."
-        }
-      ]
-    },
-    {
       "title": "Accessibility",
       "tag": "H2",
       "section-content": "A toggle must have a visible and persistent label and communicate its state programmatically as on or off. It should be operable via keyboard and include a visible focus indicator. The state should not rely on color alone to be understood, and the component must meet contrast requirements in all states."
@@ -70,9 +60,6 @@
             },
             {
               "text": "- Keep labels clear and persistent"
-            },
-            {
-              "text": "- Support with helper text when needed ARE WE DOING THIS?"
             },
             {
               "text": "- Ensure accessibility across all states"
