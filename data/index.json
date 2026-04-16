@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-16T14:21:10.248Z",
+    "lastUpdated": "2026-04-16T14:28:31.969Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -935,7 +935,7 @@
             "title": "Button: next",
             "slug": "button-next",
             "path": "snippets/button-next/button-next.json",
-            "code": "<gds-button width=\"max-content\">\n  Next \n  <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n</gds-button>",
+            "code": "<gds-button width=\"max-content\">\n  Next\n  <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n</gds-button>",
             "endpoints": {
               "content": "snippets/button-next/button-next.json"
             }

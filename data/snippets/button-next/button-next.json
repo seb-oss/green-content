@@ -2,5 +2,5 @@
   "title": "Button: next",
   "slug": "button-next",
   "snippet_component": "Button",
-  "code": "<gds-button width=\"max-content\">\n  Next \n  <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n</gds-button>"
+  "code": "<gds-button width=\"max-content\">\n  Next\n  <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n</gds-button>"
 }

@@ -190,7 +190,7 @@
       "title": "Button: next",
       "slug": "button-next",
       "path": "snippets/button-next/button-next.json",
-      "code": "<gds-button width=\"max-content\">\n  Next \n  <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n</gds-button>"
+      "code": "<gds-button width=\"max-content\">\n  Next\n  <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n</gds-button>"
     },
     {
       "title": "Button: positive",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-04-16T14:21:10.251Z"
+  "lastUpdated": "2026-04-16T14:28:31.972Z"
 }
