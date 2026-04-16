@@ -21,6 +21,10 @@
     {
       "title": "Behaviour",
       "section-content": "Pagination should clearly indicate the current page and keep navigation consistent and predictable. Unavailable actions should be disabled at the start or end of the page range. When used with data tables, the item range and total number of items should be displayed."
+    },
+    {
+      "title": "Accessibility",
+      "section-content": "Pagination should use a semantic navigation structure and ensure that all controls are keyboard accessible. The current page should be communicated programmatically, and visual styling alone should not be relied on to convey state."
     }
   ]
 }
