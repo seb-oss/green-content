@@ -5,6 +5,7 @@
   "beta": true,
   "soon": true,
   "summary": "Pagination helps users navigate large result sets by dividing content into clear, manageable pages.",
+  "preamble": "Pagination divides large amounts of content into smaller pages. It helps users navigate and understand their position within a dataset.",
   "anatomy": false,
   "platform": {
     "web": true,
@@ -14,7 +15,7 @@
   "overview": [
     {
       "title": "Usage",
-      "section-content": "*   Use pagination for long lists such as tables, search results, or content listings.\n    \n*   Pagination is preferred over infinite scroll when users need overview, comparison, or predictable navigation.\n    \n*   Always associate pagination with the content it controls.",
+      "section-content": "Pagination is used to divide large amounts of content into smaller pages, making it easier to navigate and understand a dataset. It is most useful when content cannot be displayed at once, or when users need to move through information in a defined order.\n\nUse pagination when it improves readability and control, for example in tables or long lists, - search results, or content listings. Avoid using pagination for small datasets or when continuous scrolling provides a better experience.\n\n",
       "cols": "1"
     }
   ]
