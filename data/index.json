@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-16T14:20:37.112Z",
+    "lastUpdated": "2026-04-16T14:21:10.248Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2216,15 +2216,6 @@
             "code": "<gds-toggle label=\"Toggle\"></gds-toggle>",
             "endpoints": {
               "content": "snippets/toggle-hero-1/toggle-hero-1.json"
-            }
-          },
-          {
-            "title": "Toggle: Hero",
-            "slug": "toggle-hero",
-            "path": "snippets/toggle-hero/toggle-hero.json",
-            "code": "<span>...</span>",
-            "endpoints": {
-              "content": "snippets/toggle-hero/toggle-hero.json"
             }
           },
           {
