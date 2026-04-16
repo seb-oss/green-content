@@ -17,6 +17,10 @@
       "title": "Usage",
       "section-content": "Pagination is used to divide large amounts of content into smaller pages, making it easier to navigate and understand a dataset. It is most useful when content cannot be displayed at once, or when users need to move through information in a defined order.\n\nUse pagination when it improves readability and control, for example in tables or long lists, - search results, or content listings. Avoid using pagination for small datasets or when continuous scrolling provides a better experience.\n\n",
       "cols": "1"
+    },
+    {
+      "title": "Behaviour",
+      "section-content": "Pagination should clearly indicate the current page and keep navigation consistent and predictable. Unavailable actions should be disabled at the start or end of the page range. When used with data tables, the item range and total number of items should be displayed."
     }
   ]
 }
