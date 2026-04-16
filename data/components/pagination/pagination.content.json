@@ -25,6 +25,35 @@
     {
       "title": "Accessibility",
       "section-content": "Pagination should use a semantic navigation structure and ensure that all controls are keyboard accessible. The current page should be communicated programmatically, and visual styling alone should not be relied on to convey state."
+    },
+    {
+      "title": "Do's and don'ts",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use pagination for large datasets"
+            },
+            {
+              "text": "Show current page clearly"
+            },
+            {}
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Use pagination for small datasets"
+            },
+            {
+              "text": "Hide current page state"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
