@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-16T13:16:12.475Z",
+    "lastUpdated": "2026-04-16T13:17:23.343Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -287,7 +287,7 @@
           {
             "title": "Pagination",
             "slug": "pagination",
-            "summary": "Pagination helps users navigate large result sets by dividing content into clear, manageable pages.",
+            "summary": "Pagination helps users navigate large result sets by dividing content into clear, manageable pages. ",
             "path": "components/pagination/pagination.content.json",
             "endpoints": {
               "content": "components/pagination/pagination.content.json",
