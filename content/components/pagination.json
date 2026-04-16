@@ -5,7 +5,6 @@
   "beta": true,
   "soon": true,
   "summary": "Pagination helps users navigate large result sets by dividing content into clear, manageable pages.",
-  "preamble": "Pagination divides large amounts of content into smaller pages. It helps users navigate and understand their position within a dataset.",
   "anatomy": false,
   "platform": {
     "web": true,
