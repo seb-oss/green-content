@@ -1,7 +1,6 @@
 {
   "title": "Toggle",
   "slug": "toggle",
-  "hero_snippet": "toggle-hero",
   "beta": true,
   "soon": false,
   "summary": "A toggle lets users switch a setting on or off. ",
