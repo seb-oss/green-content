@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-17T07:55:57.698Z",
+    "lastUpdated": "2026-04-17T08:25:17.271Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -407,9 +407,9 @@
             "title": "Toggle",
             "slug": "toggle",
             "summary": "A toggle lets users switch a setting on or off. ",
-            "path": "components/toggle-switch/toggle-switch.content.json",
+            "path": "components/toggle/toggle.content.json",
             "endpoints": {
-              "content": "components/toggle-switch/toggle-switch.content.json",
+              "content": "components/toggle/toggle.content.json",
               "images": "components/toggle/toggle.images.json"
             }
           },
