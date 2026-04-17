@@ -78,7 +78,10 @@
           "type": "do",
           "dolist": [
             {
-              "text": "Use clear labels and error messages for all form controls. The same labels and errors vill be shown in the form summary."
+              "text": "Use clear and descriptive fieldset labels to group related information."
+            },
+            {
+              "text": "Use clear and consistent labels for all form fields."
             }
           ]
         },
