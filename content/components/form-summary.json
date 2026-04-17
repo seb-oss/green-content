@@ -50,21 +50,14 @@
       ]
     },
     {
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Accessibility",
-          "tag": "H3",
-          "content": "Semantically, the form summary is represented as a navigation region containing an unordered list of links."
-        },
-        {
-          "type": "rich-text",
-          "title": "Compatibility",
-          "tag": "H3",
-          "content": "Form summary is mainly intended for use with form controls from Green Core, but it also works with generic native form controls by using data-attributes."
-        }
-      ]
+      "title": "Accessibility",
+      "tag": "H2",
+      "section-content": "Semantically, the form summary is represented as a navigation region containing an unordered list of links.",
+      "cols": "1"
+    },
+    {
+      "title": "Compatibility",
+      "section-content": "Form summary is mainly intended for use with form controls from Green Core, but it also works with generic native form controls by using data-attributes."
     },
     {
       "title": "Usage",
