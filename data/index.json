@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-17T07:55:57.698Z",
+    "lastUpdated": "2026-04-17T09:02:06.815Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -407,9 +407,9 @@
             "title": "Toggle",
             "slug": "toggle",
             "summary": "A toggle lets users switch a setting on or off. ",
-            "path": "components/toggle-switch/toggle-switch.content.json",
+            "path": "components/toggle/toggle.content.json",
             "endpoints": {
-              "content": "components/toggle-switch/toggle-switch.content.json",
+              "content": "components/toggle/toggle.content.json",
               "images": "components/toggle/toggle.images.json"
             }
           },
@@ -1772,7 +1772,7 @@
             "title": "Hero: Form summary",
             "slug": "hero-form-summary",
             "path": "snippets/hero-form-summary/hero-form-summary.json",
-            "code": "<form>\n  <gds-flex flex-direction=\"column\" gap=\"m\" align-items=\"center\" justify-content=\"center\" max-width=\"300px\">\n    <input\n      id=\"designation\"\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Designation\"\n      data-errormessage=\"A designation is required\"\n      required=\"\"\n      hidden\n    />\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>",
+            "code": "<form>\n  <gds-flex flex-direction=\"column\" gap=\"m\" align-items=\"center\" justify-content=\"center\" width=\"300px\">\n    <input\n      id=\"designation\"\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Designation\"\n      data-errormessage=\"A designation is required\"\n      required=\"\"\n      hidden\n    />\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>",
             "endpoints": {
               "content": "snippets/hero-form-summary/hero-form-summary.json"
             }

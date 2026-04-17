@@ -236,7 +236,7 @@
       "title": "Toggle",
       "slug": "toggle",
       "summary": "A toggle lets users switch a setting on or off. ",
-      "path": "components/toggle-switch/toggle-switch.content.json"
+      "path": "components/toggle/toggle.content.json"
     },
     {
       "title": "Video",
@@ -246,5 +246,5 @@
     }
   ],
   "total": 41,
-  "lastUpdated": "2026-04-17T07:55:57.700Z"
+  "lastUpdated": "2026-04-17T09:02:06.817Z"
 }
