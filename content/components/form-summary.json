@@ -14,13 +14,13 @@
         "text": "Card"
       },
       {
-        "text": "Heading with amount of errors"
+        "text": "Alert"
+      },
+      {
+        "text": "Fieldset label"
       },
       {
         "text": "Error item"
-      },
-      {
-        "text": "Icon button"
       }
     ]
   },
