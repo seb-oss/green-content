@@ -1,5 +1,6 @@
 {
   "title": "Toggle: Hero",
   "slug": "toggle-hero",
+  "snippet_component": "Toggle",
   "code": "<gds-toggle label=\"Toggle\"></gds-toggle>"
 }
