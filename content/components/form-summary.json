@@ -7,7 +7,7 @@
   "summary": "Form summary shows all form errors in one place.",
   "preamble": "Form summary assists users in identifying and addressing multiple errors in one place.\n",
   "anatomy": true,
-  "anatomy-overview": "The form summary consists of a card with a heading outlining the number of errors currently in the form, followed by a list of the errors. Each error has an icon button with an arrow pointing in the direction of the associated control. Clicking one of the errors moves focus to the associated form control.",
+  "anatomy-overview": "The form summary consists of a card with an alert inside, followed by a list of the errors. Each error has an icon button with an arrow pointing in the direction of the associated control. Clicking one of the errors moves focus to the associated form control. The fieldset label is availabel to use when grouping is needed.",
   "anatomy-list": {
     "anatomyitems": [
       {
