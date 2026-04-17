@@ -748,7 +748,7 @@
       "title": "Hero: Form summary",
       "slug": "hero-form-summary",
       "path": "snippets/hero-form-summary/hero-form-summary.json",
-      "code": "<form>\n  <gds-flex flex-direction=\"column\" gap=\"m\" align-items=\"stretch\" justify-content=\"center\" max-width=\"400px\">\n    <fieldset style=\"display: none\">\n      <legend>Fieldset 1</legend>\n    <input\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Field 1 label\"\n      required=\"\"\n      hidden\n    />\n      <input\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Field 2 label\"\n      required=\"\"\n      hidden\n    />\n    </fieldset>\n    <fieldset style=\"display: none\">\n      <legend>Fieldset 2</legend>\n    <input\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Field 1 label\"\n      required=\"\"\n      hidden\n    />\n      <input\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Field 2 label\"\n      required=\"\"\n      hidden\n    />\n    </fieldset>\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>"
+      "code": "<form>\n  <gds-flex flex-direction=\"column\" gap=\"m\" align-items=\"stretch\" justify-content=\"center\" width=\"400px\">\n    <fieldset style=\"display: none\">\n      <legend>Fieldset 1</legend>\n    <input\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Field 1 label\"\n      required=\"\"\n      hidden\n    />\n    </fieldset>\n    <fieldset style=\"display: none\">\n      <legend>Fieldset 2</legend>\n    <input\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Field 2 label\"\n      required=\"\"\n      hidden\n    />\n    </fieldset>\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>"
     },
     {
       "title": "Hero: Grid",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-04-17T11:21:02.932Z"
+  "lastUpdated": "2026-04-17T11:49:21.445Z"
 }
