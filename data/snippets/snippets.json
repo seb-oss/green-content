@@ -748,7 +748,7 @@
       "title": "Hero: Form summary",
       "slug": "hero-form-summary",
       "path": "snippets/hero-form-summary/hero-form-summary.json",
-      "code": "<form>\n  <gds-flex flex-direction=\"column\" gap=\"m\" align-items=\"center\" justify-content=\"center\" max-width=\"300px\">\n    <input\n      id=\"designation\"\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Designation\"\n      data-errormessage=\"A designation is required\"\n      required=\"\"\n      hidden\n    />\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>"
+      "code": "<form>\n  <gds-flex flex-direction=\"column\" gap=\"m\" align-items=\"center\" justify-content=\"center\" width=\"300px\">\n    <input\n      id=\"designation\"\n      type=\"text\"\n      aria-invalid=\"true\"\n      data-label=\"Designation\"\n      data-errormessage=\"A designation is required\"\n      required=\"\"\n      hidden\n    />\n    <gds-form-summary id=\"summary\"></gds-form-summary>\n  </gds-flex>\n</form>"
     },
     {
       "title": "Hero: Grid",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-04-17T08:52:49.124Z"
+  "lastUpdated": "2026-04-17T09:02:06.818Z"
 }
