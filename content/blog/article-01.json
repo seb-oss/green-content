@@ -1,0 +1,11 @@
+{
+  "title": "Article 01",
+  "slug": "article-01",
+  "published": true,
+  "pinned": false,
+  "tags": [
+    "design"
+  ],
+  "createdAt": "2026-04-20",
+  "updatedAt": "2026-04-20"
+}
