@@ -177,7 +177,7 @@ async function processTeamContent(filename) {
 
     return {
       firstName: contentData.firstName || memberName,
-      lastName: contentData.lastName || '',
+      lastName: contentData.lastName || "",
       handle: contentData.handle || memberName,
       role: contentData.role,
       avatar: contentData.avatar,
