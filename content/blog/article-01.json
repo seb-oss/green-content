@@ -3,6 +3,10 @@
   "slug": "article-01",
   "published": true,
   "pinned": false,
+  "cover": {
+    "type": "snippet",
+    "slug": "button-back"
+  },
   "tags": [
     "design"
   ],
