@@ -9,6 +9,8 @@ const NAVIGATION_DIR = path.join(CONTENT_DIR, "navigation");
 const TEMPLATES_DIR = path.join(CONTENT_DIR, "templates");
 const PAGES_DIR = path.join(CONTENT_DIR, "pages");
 const SNIPPETS_DIR = path.join(CONTENT_DIR, "snippets");
+const BLOG_DIR = path.join(CONTENT_DIR, "blog");
+const TEAM_DIR = path.join(CONTENT_DIR, "team");
 const HOME_FILE = path.join(CONTENT_DIR, "home.json");
 
 // Output directory
@@ -23,6 +25,8 @@ function createDirectories() {
     TEMPLATES_DIR,
     PAGES_DIR,
     SNIPPETS_DIR,
+    BLOG_DIR,
+    TEAM_DIR,
   ];
 
   directories.forEach((dir) => {
@@ -112,7 +116,7 @@ async function processNavigationContent(filename) {
 
     fs.writeFileSync(
       path.join(outputDir, filename),
-      JSON.stringify(contentData, null, 2)
+      JSON.stringify(contentData, null, 2),
     );
 
     return {
@@ -140,7 +144,7 @@ async function processTemplateContent(filename) {
 
     fs.writeFileSync(
       path.join(outputDir, `${templateName}.json`),
-      JSON.stringify(contentData, null, 2)
+      JSON.stringify(contentData, null, 2),
     );
 
     return {
@@ -155,6 +159,67 @@ async function processTemplateContent(filename) {
   }
 }
 
+async function processTeamContent(filename) {
+  const memberName = path.basename(filename, ".json");
+  console.log(`Processing team member: ${memberName}`);
+
+  try {
+    const inputPath = path.join(TEAM_DIR, filename);
+    const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+
+    const outputDir = path.join(DATA_DIR, "team", memberName);
+    fs.mkdirSync(outputDir, { recursive: true });
+
+    fs.writeFileSync(
+      path.join(outputDir, `${memberName}.json`),
+      JSON.stringify(contentData, null, 2),
+    );
+
+    return {
+      name: contentData.name || memberName,
+      slug: contentData.slug || memberName,
+      role: contentData.role,
+      avatar: contentData.avatar,
+      path: `team/${memberName}/${memberName}.json`,
+    };
+  } catch (error) {
+    console.error(`Error processing team member ${memberName}:`, error);
+    return null;
+  }
+}
+
+async function processBlogContent(filename) {
+  const postName = path.basename(filename, ".json");
+  console.log(`Processing blog post: ${postName}`);
+
+  try {
+    const inputPath = path.join(BLOG_DIR, filename);
+    const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+
+    const outputDir = path.join(DATA_DIR, "blog", postName);
+    fs.mkdirSync(outputDir, { recursive: true });
+
+    fs.writeFileSync(
+      path.join(outputDir, `${postName}.json`),
+      JSON.stringify(contentData, null, 2),
+    );
+
+    return {
+      title: contentData.title || postName,
+      slug: contentData.slug || postName,
+      published: contentData.published ?? false,
+      pinned: contentData.pinned ?? false,
+      tags: contentData.tags || [],
+      authors: contentData.authors || [],
+      createdAt: contentData.createdAt || new Date().toISOString(),
+      path: `blog/${postName}/${postName}.json`,
+    };
+  } catch (error) {
+    console.error(`Error processing blog post ${postName}:`, error);
+    return null;
+  }
+}
+
 async function processHomeContent() {
   console.log("Processing home content");
 
@@ -164,7 +229,7 @@ async function processHomeContent() {
 
       fs.writeFileSync(
         path.join(DATA_DIR, "home.json"),
-        JSON.stringify(contentData, null, 2)
+        JSON.stringify(contentData, null, 2),
       );
 
       return {
@@ -193,7 +258,7 @@ async function processPageContent(filename) {
 
     fs.writeFileSync(
       path.join(outputDir, `${pageName}.json`),
-      JSON.stringify(contentData, null, 2)
+      JSON.stringify(contentData, null, 2),
     );
 
     return {
@@ -221,7 +286,7 @@ async function processSnippetContent(filename) {
 
     fs.writeFileSync(
       path.join(outputDir, `${snippetName}.json`),
-      JSON.stringify(contentData, null, 2)
+      JSON.stringify(contentData, null, 2),
     );
 
     return {
@@ -293,7 +358,7 @@ async function main() {
 
   console.log(
     "\nProcessed components:",
-    componentsData.map((c) => c.slug)
+    componentsData.map((c) => c.slug),
   );
 
   // console.log(
@@ -310,21 +375,21 @@ async function main() {
 
   fs.writeFileSync(
     path.join(DATA_DIR, "components", "components.json"),
-    JSON.stringify(componentsIndex, null, 2)
+    JSON.stringify(componentsIndex, null, 2),
   );
 
   const navigationFiles = fs.existsSync(NAVIGATION_DIR)
     ? fs.readdirSync(NAVIGATION_DIR).filter((file) => file.endsWith(".json"))
     : [];
   const navigationData = await Promise.all(
-    navigationFiles.map(processNavigationContent)
+    navigationFiles.map(processNavigationContent),
   );
 
   const templateFiles = fs.existsSync(TEMPLATES_DIR)
     ? fs.readdirSync(TEMPLATES_DIR).filter((file) => file.endsWith(".json"))
     : [];
   const templatesData = await Promise.all(
-    templateFiles.map(processTemplateContent)
+    templateFiles.map(processTemplateContent),
   );
 
   const pageFiles = fs.existsSync(PAGES_DIR)
@@ -336,8 +401,18 @@ async function main() {
     ? fs.readdirSync(SNIPPETS_DIR).filter((file) => file.endsWith(".json"))
     : [];
   const snippetsData = await Promise.all(
-    snippetFiles.map(processSnippetContent)
+    snippetFiles.map(processSnippetContent),
   );
+
+  const teamFiles = fs.existsSync(TEAM_DIR)
+    ? fs.readdirSync(TEAM_DIR).filter((file) => file.endsWith(".json"))
+    : [];
+  const teamData = await Promise.all(teamFiles.map(processTeamContent));
+
+  const blogFiles = fs.existsSync(BLOG_DIR)
+    ? fs.readdirSync(BLOG_DIR).filter((file) => file.endsWith(".json"))
+    : [];
+  const blogData = await Promise.all(blogFiles.map(processBlogContent));
 
   const homeData = await processHomeContent();
 
@@ -414,7 +489,7 @@ async function main() {
   // Write all index files
   fs.writeFileSync(
     path.join(DATA_DIR, "index.json"),
-    JSON.stringify(index, null, 2)
+    JSON.stringify(index, null, 2),
   );
 
   const writeIndexFile = (dir, data, type) => {
@@ -431,7 +506,7 @@ async function main() {
     // Write type-specific index file in its directory
     fs.writeFileSync(
       path.join(outputDir, `${type}.json`),
-      JSON.stringify(indexData, null, 2)
+      JSON.stringify(indexData, null, 2),
     );
   };
 
@@ -440,6 +515,12 @@ async function main() {
   writeIndexFile("snippets", snippetsData, "snippets");
   writeIndexFile("templates", templatesData, "templates");
   writeIndexFile("navigation", navigationData, "navigation");
+  writeIndexFile("team", teamData, "team");
+  writeIndexFile(
+    "blog",
+    blogData.filter((p) => p && p.published),
+    "posts",
+  );
 
   console.log("Processing completed!");
 }

@@ -3,7 +3,7 @@ media:
   output: /assets
   path: stg.seb.io/assets
   categories: ["image"]
-  extensions: [ png, webp, mp4, jpg, jpeg, pdf ]
+  extensions: [png, webp, mp4, jpg, jpeg, pdf]
 content:
   - name: components
     label: Components
@@ -46,14 +46,14 @@ content:
         label: Anatomy List
         fields:
           - name: anatomyitems
-            label: 'List'
+            label: "List"
             type: object
             list: true
             fields:
               - name: text
-                label: 'Text'
+                label: "Text"
                 type: string
-      
+
       - name: tags
         label: Tags
         type: select
@@ -154,7 +154,7 @@ content:
           value: "{title}"
           label: "{title}"
       - name: compare-content
-        label: 'Compare text: for this component'
+        label: "Compare text: for this component"
         type: rich-text
       - name: overview
         type: object
@@ -234,7 +234,7 @@ content:
                     label: Variant
                     type: select
                     options:
-                      values: [ Do, Dont ]
+                      values: [Do, Dont]
                   - name: Snippet
                     type: reference
                     options:
@@ -279,37 +279,36 @@ content:
               - name: code
                 label: Code
                 fields:
-                - name: caption
-                  label: Caption
-                  type: string
-                - name: code
-                  label: Code
-                  type: code
-                  options:
-                    language: html
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: code
+                    label: Code
+                    type: code
+                    options:
+                      language: html
               - name: do
                 label: Do
                 fields:
                   - name: dolist
-                    label: 'Do'
+                    label: "Do"
                     type: object
                     list: true
                     fields:
                       - name: text
-                        label: 'Text'
+                        label: "Text"
                         type: string
               - name: dont
                 label: Dont
                 fields:
                   - name: dontlist
-                    label: 'Dont'
+                    label: "Dont"
                     type: object
                     list: true
                     fields:
                       - name: text
-                        label: 'Text'
+                        label: "Text"
                         type: string
-           
 
       - name: ux-text
         type: object
@@ -389,7 +388,7 @@ content:
                     label: Variant
                     type: select
                     options:
-                      values: [ Do, Dont ]
+                      values: [Do, Dont]
                   - name: Snippet
                     type: reference
                     options:
@@ -434,35 +433,35 @@ content:
               - name: code
                 label: Code
                 fields:
-                - name: caption
-                  label: Caption
-                  type: string
-                - name: code
-                  label: Code
-                  type: code
-                  options:
-                    language: html
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: code
+                    label: Code
+                    type: code
+                    options:
+                      language: html
               - name: do
                 label: Do
                 fields:
                   - name: dolist
-                    label: 'Do'
+                    label: "Do"
                     type: object
                     list: true
                     fields:
                       - name: text
-                        label: 'Text'
+                        label: "Text"
                         type: string
               - name: dont
                 label: Dont
                 fields:
                   - name: dontlist
-                    label: 'Dont'
+                    label: "Dont"
                     type: object
                     list: true
                     fields:
                       - name: text
-                        label: 'Text'
+                        label: "Text"
                         type: string
       - name: accessibility
         type: object
@@ -542,7 +541,7 @@ content:
                     label: Variant
                     type: select
                     options:
-                      values: [ Do, Dont ]
+                      values: [Do, Dont]
                   - name: Snippet
                     type: reference
                     options:
@@ -587,35 +586,35 @@ content:
               - name: code
                 label: Code
                 fields:
-                - name: caption
-                  label: Caption
-                  type: string
-                - name: code
-                  label: Code
-                  type: code
-                  options:
-                    language: html
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: code
+                    label: Code
+                    type: code
+                    options:
+                      language: html
               - name: do
                 label: Do
                 fields:
                   - name: dolist
-                    label: 'Do'
+                    label: "Do"
                     type: object
                     list: true
                     fields:
                       - name: text
-                        label: 'Text'
+                        label: "Text"
                         type: string
               - name: dont
                 label: Dont
                 fields:
                   - name: dontlist
-                    label: 'Dont'
+                    label: "Dont"
                     type: object
                     list: true
                     fields:
                       - name: text
-                        label: 'Text'
+                        label: "Text"
                         type: string
       - name: faq
         type: object
@@ -695,7 +694,7 @@ content:
                     label: Variant
                     type: select
                     options:
-                      values: [ Do, Dont ]
+                      values: [Do, Dont]
                   - name: Snippet
                     type: reference
                     options:
@@ -740,37 +739,36 @@ content:
               - name: code
                 label: Code
                 fields:
-                - name: caption
-                  label: Caption
-                  type: string
-                - name: code
-                  label: Code
-                  type: code
-                  options:
-                    language: html
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: code
+                    label: Code
+                    type: code
+                    options:
+                      language: html
               - name: do
                 label: Do
                 fields:
                   - name: dolist
-                    label: 'Do'
+                    label: "Do"
                     type: object
                     list: true
                     fields:
                       - name: text
-                        label: 'Text'
+                        label: "Text"
                         type: string
               - name: dont
                 label: Dont
                 fields:
                   - name: dontlist
-                    label: 'Dont'
+                    label: "Dont"
                     type: object
                     list: true
                     fields:
                       - name: text
-                        label: 'Text'
+                        label: "Text"
                         type: string
-
 
   - name: pages
     label: Pages
@@ -880,7 +878,7 @@ content:
                     label: Variant
                     type: select
                     options:
-                      values: [ Do, Dont ]
+                      values: [Do, Dont]
                   - name: Snippet
                     type: reference
                     options:
@@ -910,37 +908,36 @@ content:
               - name: code
                 label: Code
                 fields:
-                - name: caption
-                  label: Caption
-                  type: string
-                - name: code
-                  label: Code
-                  type: code
-                  options:
-                    language: html
+                  - name: caption
+                    label: Caption
+                    type: string
+                  - name: code
+                    label: Code
+                    type: code
+                    options:
+                      language: html
               - name: do
                 label: Do
                 fields:
                   - name: dolist
-                    label: 'Do'
+                    label: "Do"
                     type: object
                     list: true
                     fields:
                       - name: text
-                        label: 'Text'
+                        label: "Text"
                         type: string
               - name: dont
                 label: Dont
                 fields:
                   - name: dontlist
-                    label: 'Dont'
+                    label: "Dont"
                     type: object
                     list: true
                     fields:
                       - name: text
-                        label: 'Text'
+                        label: "Text"
                         type: string
-              
 
   - name: navigation
     label: Navigation
@@ -1018,6 +1015,74 @@ content:
         type: code
         options:
           language: html
+  - name: team
+    label: Team
+    type: collection
+    format: "json"
+    path: content/team
+    filename: "{fields.slug}.json"
+    view:
+      fields: [name, role]
+    fields:
+      - { name: name, label: Name, type: string, required: true }
+      - { name: slug, label: Slug, type: string, required: true }
+      - { name: role, label: Role, type: string }
+      - name: avatar
+        label: Avatar
+        type: image
+      - { name: bio, label: Bio, type: text }
+      - { name: email, label: Email, type: string }
+
+  - name: blog
+    label: Blog
+    type: collection
+    format: "json"
+    path: content/blog
+    filename: "{fields.slug}.json"
+    view:
+      fields: [title, published, pinned, createdAt]
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: slug, label: Slug, type: string, required: true }
+      - name: published
+        label: Published
+        type: boolean
+        default: false
+      - name: pinned
+        label: Pinned
+        type: boolean
+        default: false
+      - name: hero
+        label: Hero Image
+        type: image
+      - name: tags
+        label: Tags
+        type: select
+        options:
+          multiple: true
+          creatable: true
+          values:
+            - { value: "design", label: Design }
+            - { value: "engineering", label: Engineering }
+            - { value: "release", label: Release }
+            - { value: "update", label: Update }
+            - { value: "announcement", label: Announcement }
+            - { value: "tutorial", label: Tutorial }
+      - name: authors
+        label: Authors
+        type: reference
+        options:
+          collection: team
+          multiple: true
+          search: "name,slug"
+          value: "{slug}"
+          label: "{name}"
+      - name: content
+        label: Content
+        type: rich-text
+      - { name: createdAt, label: Published Date, type: date }
+      - { name: updatedAt, label: Last Updated, type: date }
+
   - name: home
     label: Home
     type: file
