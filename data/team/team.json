@@ -5,6 +5,7 @@
       "lastName": "Malsia",
       "handle": "astrit",
       "role": "Developer",
+      "avatar": "/assets/astrit.jpeg",
       "path": "team/astrit/astrit.json"
     },
     {
@@ -42,5 +43,5 @@
     }
   ],
   "total": 6,
-  "lastUpdated": "2026-04-20T12:27:51.442Z"
+  "lastUpdated": "2026-04-20T12:28:30.345Z"
 }
