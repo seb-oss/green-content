@@ -8,11 +8,13 @@
       "tags": [
         "design"
       ],
-      "authors": [],
+      "authors": [
+        "jessi"
+      ],
       "createdAt": "2026-04-20",
       "path": "blog/article-01/article-01.json"
     }
   ],
   "total": 1,
-  "lastUpdated": "2026-04-20T08:42:31.509Z"
+  "lastUpdated": "2026-04-20T08:43:06.298Z"
 }
