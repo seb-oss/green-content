@@ -27,8 +27,14 @@
       "handle": "jonathan",
       "role": "Designer",
       "path": "team/jonathan/jonathan.json"
+    },
+    {
+      "firstName": "Marwin",
+      "lastName": "Brandt",
+      "handle": "marwin",
+      "path": "team/marwin/marwin.json"
     }
   ],
-  "total": 4,
-  "lastUpdated": "2026-04-20T11:18:25.676Z"
+  "total": 5,
+  "lastUpdated": "2026-04-20T11:18:49.981Z"
 }
