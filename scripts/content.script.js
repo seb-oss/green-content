@@ -176,8 +176,9 @@ async function processTeamContent(filename) {
     );
 
     return {
-      name: contentData.name || memberName,
-      slug: contentData.slug || memberName,
+      firstName: contentData.firstName || memberName,
+      lastName: contentData.lastName || '',
+      handle: contentData.handle || memberName,
       role: contentData.role,
       avatar: contentData.avatar,
       path: `team/${memberName}/${memberName}.json`,
