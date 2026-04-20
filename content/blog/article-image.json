@@ -1,0 +1,16 @@
+{
+  "title": "Article · Image",
+  "slug": "article-image",
+  "published": true,
+  "pinned": false,
+  "cover": {
+    "type": "image",
+    "src": "/assets/icon_img.png",
+    "alt": "Alt text"
+  },
+  "authors": [
+    "jessi"
+  ],
+  "createdAt": "2026-04-20",
+  "updatedAt": "2026-04-20"
+}
