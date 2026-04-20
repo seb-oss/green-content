@@ -33,8 +33,14 @@
       "lastName": "Brandt",
       "handle": "marwin",
       "path": "team/marwin/marwin.json"
+    },
+    {
+      "firstName": "Vilhelm",
+      "lastName": "Sjölander",
+      "handle": "vilhelm",
+      "path": "team/vilhelm/vilhelm.json"
     }
   ],
-  "total": 5,
-  "lastUpdated": "2026-04-20T11:18:49.981Z"
+  "total": 6,
+  "lastUpdated": "2026-04-20T11:19:14.367Z"
 }
