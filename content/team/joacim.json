@@ -2,5 +2,6 @@
   "firstName": "Joacim",
   "lastName": "Magnusson",
   "handle": "joacim",
-  "role": "Developer"
+  "role": "Developer",
+  "avatar": "/assets/joacim.jpeg"
 }
