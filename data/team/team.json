@@ -20,8 +20,15 @@
       "handle": "joacim",
       "role": "Developer",
       "path": "team/joacim/joacim.json"
+    },
+    {
+      "firstName": "Jonathan",
+      "lastName": "Högnelid",
+      "handle": "jonathan",
+      "role": "Designer",
+      "path": "team/jonathan/jonathan.json"
     }
   ],
-  "total": 3,
-  "lastUpdated": "2026-04-20T11:17:47.354Z"
+  "total": 4,
+  "lastUpdated": "2026-04-20T11:18:25.676Z"
 }
