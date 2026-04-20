@@ -20,6 +20,7 @@
       "lastName": "Magnusson",
       "handle": "joacim",
       "role": "Developer",
+      "avatar": "/assets/joacim.jpeg",
       "path": "team/joacim/joacim.json"
     },
     {
@@ -39,9 +40,10 @@
       "firstName": "Vilhelm",
       "lastName": "Sjölander",
       "handle": "vilhelm",
+      "avatar": "/assets/vilhelm.jpeg",
       "path": "team/vilhelm/vilhelm.json"
     }
   ],
   "total": 6,
-  "lastUpdated": "2026-04-20T12:28:30.345Z"
+  "lastUpdated": "2026-04-20T12:29:06.730Z"
 }
