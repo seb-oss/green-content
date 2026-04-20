@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "title": "Article 01",
+      "slug": "article-01",
+      "published": true,
+      "pinned": false,
+      "tags": [
+        "design"
+      ],
+      "authors": [],
+      "createdAt": "2026-04-20",
+      "path": "blog/article-01/article-01.json"
+    }
+  ],
+  "total": 1,
+  "lastUpdated": "2026-04-20T08:42:31.509Z"
+}
