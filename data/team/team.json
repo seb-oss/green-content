@@ -1,5 +1,13 @@
 {
-  "team": [],
-  "total": 0,
-  "lastUpdated": "2026-04-20T11:15:55.211Z"
+  "team": [
+    {
+      "firstName": "Astrit",
+      "lastName": "Malsia",
+      "handle": "astrit",
+      "role": "Developer",
+      "path": "team/astrit/astrit.json"
+    }
+  ],
+  "total": 1,
+  "lastUpdated": "2026-04-20T11:16:37.813Z"
 }
