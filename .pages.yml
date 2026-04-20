@@ -1052,9 +1052,32 @@ content:
         label: Pinned
         type: boolean
         default: false
-      - name: hero
-        label: Hero Image
-        type: image
+      - name: cover
+        label: Cover
+        type: block
+        blockKey: type
+        blocks:
+          - name: image
+            label: Image
+            fields:
+              - { name: src, label: Image, type: image }
+              - { name: alt, label: Alt text, type: string }
+          - name: video
+            label: Video
+            fields:
+              - { name: src, label: Video URL, type: string }
+          - name: snippet
+            label: Snippet
+            fields:
+              - name: slug
+                label: Snippet
+                type: reference
+                options:
+                  collection: snippets
+                  multiple: false
+                  search: "title,slug"
+                  value: "{slug}"
+                  label: "{title}"
       - name: tags
         label: Tags
         type: select
