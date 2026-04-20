@@ -6,8 +6,15 @@
       "handle": "astrit",
       "role": "Developer",
       "path": "team/astrit/astrit.json"
+    },
+    {
+      "firstName": "Joacim",
+      "lastName": "Magnusson",
+      "handle": "joacim",
+      "role": "Developer",
+      "path": "team/joacim/joacim.json"
     }
   ],
-  "total": 1,
-  "lastUpdated": "2026-04-20T11:16:37.813Z"
+  "total": 2,
+  "lastUpdated": "2026-04-20T11:17:16.748Z"
 }
