@@ -2,7 +2,11 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
+<<<<<<< Updated upstream
     "lastUpdated": "2026-04-20T12:29:06.727Z",
+=======
+    "lastUpdated": "2026-04-21T08:15:03.866Z",
+>>>>>>> Stashed changes
     "resources": {
       "home": {
         "endpoint": "home.json",

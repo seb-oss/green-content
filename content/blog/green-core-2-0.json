@@ -1,0 +1,15 @@
+{
+  "title": "Green Core 2.0 — Stable Web Components for Everyone",
+  "slug": "green-core-2-0",
+  "published": true,
+  "pinned": false,
+  "cover": {
+    "type": "snippet",
+    "slug": "hero-card"
+  },
+  "tags": ["engineering", "release"],
+  "authors": ["joacim", "jonathan"],
+  "createdAt": "2025-08-28",
+  "updatedAt": "2025-08-28",
+  "content": "<h2>Two years in the making</h2><p>Green Core 2.0 marks the first stable, production-ready release of the web component layer. Starting from the experimental 1.x series, the team has rebuilt the internal rendering pipeline, unified event handling across all interactive components, and shipped a complete Angular wrapper library via auto-generation.</p><h3>What changed from 1.x</h3><p>The most impactful change for consumers is the new property-based API. Where 1.x relied heavily on attributes and custom events with inconsistent naming, 2.0 introduces a consistent <code>onChange</code> / <code>onInput</code> convention and typed property access through the generated React and Angular wrappers.</p><h3>Angular wrappers</h3><p>Every component in the library now has a corresponding Angular wrapper in <code>@sebgroup/green-core-ng</code>, auto-generated from the custom elements manifest. This means Angular teams can consume the design system with full type safety and change detection integration.</p><h3>Upgrade path</h3><p>A dedicated migration guide is available in the documentation. For most projects, the migration is straightforward — the most common change is updating event listener syntax and switching to the new token names.</p>"
+}

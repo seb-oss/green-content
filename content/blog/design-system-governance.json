@@ -1,0 +1,16 @@
+{
+  "title": "How We Govern a Design System at Scale",
+  "slug": "design-system-governance",
+  "published": true,
+  "pinned": false,
+  "cover": {
+    "type": "image",
+    "src": "/assets/launch-hero.jpg",
+    "alt": "Green Design System governance overview"
+  },
+  "tags": ["design"],
+  "authors": ["jessi", "astrit"],
+  "createdAt": "2026-01-20",
+  "updatedAt": "2026-01-20",
+  "content": "<h2>The challenge of scale</h2><p>A design system that serves dozens of product teams across an organisation faces a different class of problems than one maintained by a single team. Decisions that seem straightforward in isolation — should a new component be added? should this token be changed? — can have far-reaching consequences when hundreds of engineers and designers depend on the system.</p><h3>Our contribution model</h3><p>Green operates on an open contribution model with a core team responsible for governance. Any product team can propose new components or changes, but proposals must go through a structured review process covering design quality, accessibility, API design, and maintenance cost.</p><h3>Versioning and stability</h3><p>We follow semantic versioning strictly. Patch releases fix bugs without API changes. Minor releases add new features in a backwards-compatible way. Major releases are allowed to introduce breaking changes, but we provide codemods and a migration guide for each one.</p><h3>The design-to-code handoff</h3><p>One of the most significant investments we've made is in closing the design-to-code gap. Figma variables map directly to CSS custom properties. Component variants in Figma correspond to component props in code. When a designer changes a token in Figma, the change propagates automatically to the production token set via our CI pipeline.</p>"
+}

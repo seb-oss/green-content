@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "title": "Accessibility-First: How We Design and Build Inclusive Components",
+      "slug": "accessibility-first-design",
+      "published": true,
+      "pinned": false,
+      "tags": [
+        "design",
+        "engineering"
+      ],
+      "authors": [
+        "jessi",
+        "joacim"
+      ],
+      "createdAt": "2025-09-18",
+      "path": "blog/accessibility-first-design/accessibility-first-design.json"
+    },
+    {
       "title": "Article · Snippet",
       "slug": "article-snippet",
       "published": true,
@@ -42,8 +58,121 @@
       "authors": [],
       "createdAt": "2026-04-20",
       "path": "blog/article-video/article-video.json"
+    },
+    {
+      "title": "Building with Web Components in 2025",
+      "slug": "building-with-web-components",
+      "published": true,
+      "pinned": false,
+      "tags": [
+        "engineering"
+      ],
+      "authors": [
+        "jonathan",
+        "vilhelm"
+      ],
+      "createdAt": "2025-11-05",
+      "path": "blog/building-with-web-components/building-with-web-components.json"
+    },
+    {
+      "title": "How We Govern a Design System at Scale",
+      "slug": "design-system-governance",
+      "published": true,
+      "pinned": false,
+      "tags": [
+        "design"
+      ],
+      "authors": [
+        "jessi",
+        "astrit"
+      ],
+      "createdAt": "2026-01-20",
+      "path": "blog/design-system-governance/design-system-governance.json"
+    },
+    {
+      "title": "Design Tokens: From Figma Variables to CSS Custom Properties",
+      "slug": "design-tokens-deep-dive",
+      "published": true,
+      "pinned": false,
+      "tags": [
+        "design"
+      ],
+      "authors": [
+        "jessi",
+        "marwin"
+      ],
+      "createdAt": "2026-02-14",
+      "path": "blog/design-tokens-deep-dive/design-tokens-deep-dive.json"
+    },
+    {
+      "title": "Green Core 1.0 — The Foundation is Set",
+      "slug": "green-core-1-0",
+      "published": true,
+      "pinned": false,
+      "tags": [
+        "engineering",
+        "release"
+      ],
+      "authors": [
+        "joacim"
+      ],
+      "createdAt": "2024-04-10",
+      "path": "blog/green-core-1-0/green-core-1-0.json"
+    },
+    {
+      "title": "Green Core 2.0 — Stable Web Components for Everyone",
+      "slug": "green-core-2-0",
+      "published": true,
+      "pinned": false,
+      "tags": [
+        "engineering",
+        "release"
+      ],
+      "authors": [
+        "joacim",
+        "jonathan"
+      ],
+      "createdAt": "2025-08-28",
+      "path": "blog/green-core-2-0/green-core-2-0.json"
+    },
+    {
+      "title": "Green Core 3.0 — A New Era for the Design System",
+      "slug": "green-core-3-0",
+      "published": true,
+      "pinned": true,
+      "tags": [
+        "engineering",
+        "release"
+      ],
+      "authors": [
+        "joacim",
+        "astrit"
+      ],
+      "createdAt": "2026-03-27",
+      "path": "blog/green-core-3-0/green-core-3-0.json"
+    },
+    {
+      "title": "Green Core 3.5 — What's New",
+      "slug": "green-core-3-5",
+      "published": true,
+      "pinned": false,
+      "tags": [
+        "engineering",
+        "release"
+      ],
+      "authors": [
+        "joacim",
+        "vilhelm"
+      ],
+      "createdAt": "2026-04-10",
+      "path": "blog/green-core-3-5/green-core-3-5.json"
     }
   ],
+<<<<<<< Updated upstream
   "total": 3,
   "lastUpdated": "2026-04-20T12:29:06.730Z"
+=======
+  "total": 11,
+  "lastUpdated": "2026-04-21T08:15:03.868Z"
+>>>>>>> Stashed changes
 }

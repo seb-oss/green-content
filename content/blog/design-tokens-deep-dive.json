@@ -1,0 +1,15 @@
+{
+  "title": "Design Tokens: From Figma Variables to CSS Custom Properties",
+  "slug": "design-tokens-deep-dive",
+  "published": true,
+  "pinned": false,
+  "cover": {
+    "type": "snippet",
+    "slug": "hero-card-pattern-01"
+  },
+  "tags": ["design"],
+  "authors": ["jessi", "marwin"],
+  "createdAt": "2026-02-14",
+  "updatedAt": "2026-02-14",
+  "content": "<h2>Why tokens matter</h2><p>Design tokens are the single source of truth that connects the decisions made in Figma with the values rendered in production. A token like <code>color.brand.primary</code> carries meaning — it says 'this is our primary brand colour' — rather than encoding a specific hex value that could change over time.</p><h3>Our token pipeline</h3><p>In the Green Design System, tokens originate as Figma variables. A custom export plugin transforms them into a structured JSON format, which is then processed by our token build pipeline into CSS custom properties, TypeScript constants, and Tailwind configuration values.</p><h3>Semantic vs. primitive</h3><p>We distinguish between primitive tokens (raw values like <code>#0092E1</code>) and semantic tokens (purpose-driven references like <code>--gds-color-brand-01</code>). Components always consume semantic tokens, never primitives. This ensures that a full theme switch can be achieved by swapping a single token set at the root level.</p><h3>Dark mode</h3><p>Green supports both light and dark themes through the <code>gds-theme</code> component. Wrapping any subtree in <code>&lt;gds-theme color-scheme=\"dark\"&gt;</code> automatically inverts all semantic colour tokens to their dark-mode counterparts.</p>"
+}

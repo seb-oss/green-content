@@ -1,0 +1,21 @@
+{
+  "title": "Green Core 3.0 — A New Era for the Design System",
+  "slug": "green-core-3-0",
+  "published": true,
+  "pinned": true,
+  "cover": {
+    "type": "snippet",
+    "slug": "hero-card-pattern-01"
+  },
+  "tags": [
+    "engineering",
+    "release"
+  ],
+  "authors": [
+    "joacim",
+    "astrit"
+  ],
+  "createdAt": "2026-03-27",
+  "updatedAt": "2026-03-27",
+  "content": "<h2>What's new in 3.0</h2><p>Green Core 3.0 is the most significant release since the project's inception. This major version introduces a fully redesigned token architecture, a new responsive layout system, and a suite of new pattern components — all built on the battle-tested Lit web component foundation.</p><h3>Breaking changes</h3><p>The global CSS custom property namespace has been unified under <code>--gds-*</code>. All deprecated v1 aliases have been removed. Teams upgrading from 2.x should run the provided codemods to automatically migrate property references.</p><h3>New components</h3><ul><li><strong>Card Pattern 01</strong> — a composable card with built-in image, title, excerpt, and footer slots, designed for content-heavy surfaces.</li><li><strong>Coachmark</strong> — an overlay-based onboarding guide component.</li><li><strong>Form Summary</strong> — aggregates validation messages across a form into a single accessible summary region.</li></ul><h3>Performance</h3><p>Bundle size has been reduced by 18% through tree-shaking improvements in the generated React wrappers and lazy-definition of web components.</p>"
+}
