@@ -9,6 +9,7 @@
   },
   "tags": ["engineering", "release"],
   "authors": ["joacim", "vilhelm"],
+  "version": "3.5.0",
   "createdAt": "2026-04-10",
   "updatedAt": "2026-04-10",
   "content": "<h2>3.5 highlights</h2><p>Green Core 3.5 builds on the stable 3.0 foundation with a focus on developer experience, new pattern components, and performance improvements in the React wrapper layer.</p><h3>New: Card Pattern 01 enhancements</h3><p>The Card Pattern 01 component now supports a <code>date</code> property with built-in locale-aware formatting via the new <code>GdsFormattedDate</code sub-component. Pass any ISO date string and a <code>date-format</code> attribute to get localised output without any JavaScript in your template.</p><h3>New: Segmented control sizes</h3><p>The segmented control now supports <code>size=\"small\"</code> and <code>size=\"large\"</code> in addition to the default medium size, making it easier to fit into compact toolbars and spacious hero sections alike.</p><h3>Improved: Dropdown performance</h3><p>The dropdown's option list is now virtualised when more than 50 options are present, eliminating the rendering bottleneck that some teams encountered with large data sets.</p><h3>Angular wrappers</h3><p>The Angular wrapper generation pipeline has been updated to emit standalone components by default, making integration with Angular 17+ module-free architectures seamless.</p>"

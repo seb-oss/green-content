@@ -9,6 +9,7 @@
   },
   "tags": ["engineering", "release"],
   "authors": ["joacim"],
+  "version": "1.0.0",
   "createdAt": "2024-04-10",
   "updatedAt": "2024-04-10",
   "content": "<h2>The beginning</h2><p>After eighteen months of internal incubation, Green Core 1.0 is the first public release of SEB's framework-agnostic web component library. Built on Lit and the custom elements standard, it establishes the technical foundation for a design system that works across React, Angular, and vanilla HTML.</p><h3>What's included</h3><p>Version 1.0 ships with 24 production-ready components covering the most common UI patterns: buttons, form inputs, dropdowns, dialogs, cards, and more. Each component is fully accessible, keyboard-navigable, and designed to work inside any shadow DOM boundary.</p><h3>The design token system</h3><p>Alongside the components, we're releasing the first version of the Green token system — a structured set of CSS custom properties that map semantic design decisions (color, spacing, radius, typography) to concrete values. Tokens are exported as CSS, JSON, and TypeScript constants.</p>"

@@ -1112,6 +1112,7 @@ content:
       - name: content
         label: Content
         type: rich-text
+      - { name: version, label: Version, type: string }
       - { name: createdAt, label: Published Date, type: date }
       - { name: updatedAt, label: Last Updated, type: date }
 
