@@ -2,5 +2,6 @@
   "firstName": "Marwin",
   "lastName": "Brandt",
   "handle": "marwin",
-  "role": "Art Director"
+  "role": "Art Director",
+  "avatar": "/assets/marwin.png"
 }
