@@ -40,10 +40,11 @@
       "firstName": "Vilhelm",
       "lastName": "Sjölander",
       "handle": "vilhelm",
+      "role": "Product Owner",
       "avatar": "/assets/vilhelm.jpeg",
       "path": "team/vilhelm/vilhelm.json"
     }
   ],
   "total": 6,
-  "lastUpdated": "2026-04-22T08:59:03.098Z"
+  "lastUpdated": "2026-04-22T10:58:19.609Z"
 }
