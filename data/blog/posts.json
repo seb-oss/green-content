@@ -166,8 +166,28 @@
       ],
       "createdAt": "2026-04-10",
       "path": "blog/green-core-3-5/green-core-3-5.json"
+    },
+    {
+      "title": "This is the Green Design System blog",
+      "slug": "This-is-the-Green-Design-System-blog",
+      "published": true,
+      "pinned": true,
+      "tags": [
+        "announcement",
+        "release"
+      ],
+      "authors": [
+        "astrit",
+        "jessi",
+        "joacim",
+        "jonathan",
+        "marwin",
+        "vilhelm"
+      ],
+      "createdAt": "2026-04-22",
+      "path": "blog/this-is-the-green-design-system-blog/this-is-the-green-design-system-blog.json"
     }
   ],
-  "total": 11,
-  "lastUpdated": "2026-04-22T12:51:09.057Z"
+  "total": 12,
+  "lastUpdated": "2026-04-22T12:59:57.324Z"
 }
