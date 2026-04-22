@@ -34,6 +34,7 @@
       "firstName": "Marwin",
       "lastName": "Brandt",
       "handle": "marwin",
+      "role": "Art Director",
       "path": "team/marwin/marwin.json"
     },
     {
@@ -46,5 +47,5 @@
     }
   ],
   "total": 6,
-  "lastUpdated": "2026-04-22T10:58:19.609Z"
+  "lastUpdated": "2026-04-22T11:02:27.129Z"
 }
