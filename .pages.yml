@@ -1082,6 +1082,11 @@ content:
                   search: "title,slug"
                   value: "{slug}"
                   label: "{title}"
+          - name: procedural
+            label: Procedural (P5)
+            fields:
+              - { name: sketch, label: Sketch, type: string }
+              - { name: param, label: Param, type: string }
       - name: tags
         label: Tags
         type: select
