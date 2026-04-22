@@ -4,8 +4,8 @@
   "published": true,
   "pinned": true,
   "cover": {
-    "type": "image",
-    "src": "/assets/direction_volume.png"
+    "type": "procedural",
+    "sketch": "stripes-1"
   },
   "tags": [
     "announcement"
