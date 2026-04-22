@@ -29,6 +29,7 @@
       "lastName": "Högnelid",
       "handle": "jonathan",
       "role": "Designer",
+      "avatar": "/assets/jonathan.png",
       "path": "team/jonathan/jonathan.json"
     },
     {
@@ -49,5 +50,5 @@
     }
   ],
   "total": 6,
-  "lastUpdated": "2026-04-22T13:03:22.540Z"
+  "lastUpdated": "2026-04-22T13:04:25.188Z"
 }

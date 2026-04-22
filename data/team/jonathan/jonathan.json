@@ -2,5 +2,6 @@
   "firstName": "Jonathan",
   "lastName": "Högnelid",
   "handle": "jonathan",
-  "role": "Designer"
+  "role": "Designer",
+  "avatar": "/assets/jonathan.png"
 }
