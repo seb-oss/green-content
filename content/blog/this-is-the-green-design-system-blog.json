@@ -7,6 +7,10 @@
     "type": "image",
     "src": "/assets/astrit.jpeg"
   },
+  "tags": [
+    "announcement",
+    "release"
+  ],
   "authors": [
     "astrit",
     "jessi",
