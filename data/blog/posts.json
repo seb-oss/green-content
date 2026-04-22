@@ -136,7 +136,7 @@
       "path": "blog/green-core-2-0/green-core-2-0.json"
     },
     {
-      "title": "Green Core 3.0 — A New Era for the Design System",
+      "title": "Green Core 3.0",
       "slug": "green-core-3-0",
       "published": true,
       "pinned": true,
@@ -169,5 +169,5 @@
     }
   ],
   "total": 11,
-  "lastUpdated": "2026-04-21T08:20:33.311Z"
+  "lastUpdated": "2026-04-22T08:49:27.781Z"
 }
