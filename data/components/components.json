@@ -7,6 +7,11 @@
       "path": "components/alert/alert.content.json"
     },
     {
+      "title": "Avatar",
+      "slug": "avatar",
+      "path": "components/avatar/avatar.content.json"
+    },
+    {
       "title": "Badge",
       "slug": "badge",
       "summary": "A compact visual indicator for status, counts and notifications.",
@@ -245,6 +250,6 @@
       "path": "components/video/video.content.json"
     }
   ],
-  "total": 41,
-  "lastUpdated": "2026-04-27T08:06:16.232Z"
+  "total": 42,
+  "lastUpdated": "2026-04-27T08:07:55.951Z"
 }
