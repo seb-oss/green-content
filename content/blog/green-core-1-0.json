@@ -3,10 +3,6 @@
   "slug": "gds-1-0",
   "published": true,
   "pinned": false,
-  "cover": {
-    "type": "procedural",
-    "sketch": "cubes"
-  },
   "tags": [
     "engineering",
     "release"
