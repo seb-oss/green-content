@@ -62,8 +62,8 @@
       "path": "blog/design-tokens-deep-dive/design-tokens-deep-dive.json"
     },
     {
-      "title": "Green Core 1.0 — The Foundation is Set",
-      "slug": "green-core-1-0",
+      "title": "GDS 1.0 · The foundation is set",
+      "slug": "gds-1-0",
       "published": true,
       "pinned": false,
       "tags": [
@@ -77,8 +77,8 @@
       "path": "blog/green-core-1-0/green-core-1-0.json"
     },
     {
-      "title": "Green Core 2.0 — Stable Web Components for Everyone",
-      "slug": "green-core-2-0",
+      "title": "GDS 2.0 · Stable web components for everyone",
+      "slug": "gds-2-0",
       "published": true,
       "pinned": false,
       "tags": [
@@ -145,5 +145,5 @@
     }
   ],
   "total": 9,
-  "lastUpdated": "2026-04-27T14:36:53.441Z"
+  "lastUpdated": "2026-04-27T14:38:03.447Z"
 }
