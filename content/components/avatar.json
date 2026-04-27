@@ -1,0 +1,12 @@
+{
+  "title": "Avatar",
+  "slug": "avatar",
+  "beta": true,
+  "soon": true,
+  "anatomy": true,
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
+}
