@@ -233,8 +233,8 @@
       "path": "components/theme/theme.content.json"
     },
     {
-      "title": "Toggle",
-      "slug": "toggle",
+      "title": "Switch",
+      "slug": "switch",
       "summary": "A toggle lets users switch a setting on or off. ",
       "path": "components/toggle/toggle.content.json"
     },
@@ -246,5 +246,5 @@
     }
   ],
   "total": 41,
-  "lastUpdated": "2026-04-22T14:02:46.139Z"
+  "lastUpdated": "2026-04-27T07:57:07.985Z"
 }
