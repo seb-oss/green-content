@@ -3,10 +3,6 @@
   "slug": "gds-3-5",
   "published": true,
   "pinned": false,
-  "cover": {
-    "type": "snippet",
-    "slug": "hero-card-pattern-01"
-  },
   "tags": [
     "engineering",
     "release"
