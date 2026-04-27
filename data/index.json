@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-27T08:07:55.949Z",
+    "lastUpdated": "2026-04-27T08:08:48.393Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -776,6 +776,15 @@
             "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-warning/alert-warning.json"
+            }
+          },
+          {
+            "title": "Avatar: Hero",
+            "slug": "avatar-hero",
+            "path": "snippets/avatar-hero/avatar-hero.json",
+            "code": "<gds-avatar>JN</gds-avatar>",
+            "endpoints": {
+              "content": "snippets/avatar-hero/avatar-hero.json"
             }
           },
           {

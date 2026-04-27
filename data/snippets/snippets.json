@@ -79,6 +79,12 @@
       "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>"
     },
     {
+      "title": "Avatar: Hero",
+      "slug": "avatar-hero",
+      "path": "snippets/avatar-hero/avatar-hero.json",
+      "code": "<gds-avatar>JN</gds-avatar>"
+    },
+    {
       "title": "Badge: Lead",
       "slug": "badge-lead",
       "path": "snippets/badge-lead/badge-lead.json",
@@ -1057,6 +1063,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 176,
-  "lastUpdated": "2026-04-27T08:07:55.951Z"
+  "total": 177,
+  "lastUpdated": "2026-04-27T08:08:48.395Z"
 }
