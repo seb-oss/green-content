@@ -3,11 +3,6 @@
   "slug": "gds-3-0",
   "published": true,
   "pinned": false,
-  "cover": {
-    "type": "procedural",
-    "sketch": "title-text-1",
-    "param": "3.0"
-  },
   "tags": [
     "engineering",
     "release"
