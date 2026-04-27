@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-27T07:58:30.497Z",
+    "lastUpdated": "2026-04-27T08:06:16.230Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -364,6 +364,16 @@
             }
           },
           {
+            "title": "Switch",
+            "slug": "switch",
+            "summary": "A toggle lets users switch a setting on or off. ",
+            "path": "components/switch/switch.content.json",
+            "endpoints": {
+              "content": "components/switch/switch.content.json",
+              "images": "components/switch/switch.images.json"
+            }
+          },
+          {
             "title": "Table",
             "slug": "table",
             "summary": "A table displays structured data for overview and comparison.",
@@ -401,16 +411,6 @@
             "endpoints": {
               "content": "components/theme/theme.content.json",
               "images": "components/theme/theme.images.json"
-            }
-          },
-          {
-            "title": "Switch",
-            "slug": "switch",
-            "summary": "A toggle lets users switch a setting on or off. ",
-            "path": "components/toggle/toggle.content.json",
-            "endpoints": {
-              "content": "components/toggle/toggle.content.json",
-              "images": "components/switch/switch.images.json"
             }
           },
           {
@@ -2201,21 +2201,21 @@
             }
           },
           {
+            "title": "Switch: Hero",
+            "slug": "switch-hero",
+            "path": "snippets/switch-hero/switch-hero.json",
+            "code": "<gds-switch label=\"Switch\"></gds-switch>",
+            "endpoints": {
+              "content": "snippets/switch-hero/switch-hero.json"
+            }
+          },
+          {
             "title": "Table: Hero",
             "slug": "table-hero",
             "path": "snippets/table-hero/table-hero.json",
             "code": "<gds-table>\n</gds-table>",
             "endpoints": {
               "content": "snippets/table-hero/table-hero.json"
-            }
-          },
-          {
-            "title": "Switch: Hero",
-            "slug": "switch-hero",
-            "path": "snippets/toggle-hero-1/toggle-hero-1.json",
-            "code": "<gds-switch label=\"Switch\"></gds-switch>",
-            "endpoints": {
-              "content": "snippets/toggle-hero-1/toggle-hero-1.json"
             }
           },
           {

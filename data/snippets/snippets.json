@@ -1033,16 +1033,16 @@
       "code": "<gds-flex padding=\"xl\" align-items=\"center\" justify-content=\"center\" width=\"64%\">\n  <gds-spinner size=\"sm\" label=\"Please hold, we've received your details and are reviewing them now. This may take a few minutes.\" showlabel></gds-spinner>\n</gds-card>"
     },
     {
+      "title": "Switch: Hero",
+      "slug": "switch-hero",
+      "path": "snippets/switch-hero/switch-hero.json",
+      "code": "<gds-switch label=\"Switch\"></gds-switch>"
+    },
+    {
       "title": "Table: Hero",
       "slug": "table-hero",
       "path": "snippets/table-hero/table-hero.json",
       "code": "<gds-table>\n</gds-table>"
-    },
-    {
-      "title": "Switch: Hero",
-      "slug": "switch-hero",
-      "path": "snippets/toggle-hero-1/toggle-hero-1.json",
-      "code": "<gds-switch label=\"Switch\"></gds-switch>"
     },
     {
       "title": "UX text: Input search colleague-se",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-04-27T07:58:30.499Z"
+  "lastUpdated": "2026-04-27T08:06:16.232Z"
 }
