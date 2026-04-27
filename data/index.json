@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-27T07:57:07.983Z",
+    "lastUpdated": "2026-04-27T07:58:30.497Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2210,10 +2210,10 @@
             }
           },
           {
-            "title": "Toggle: Hero",
-            "slug": "toggle-hero",
+            "title": "Switch: Hero",
+            "slug": "switch-hero",
             "path": "snippets/toggle-hero-1/toggle-hero-1.json",
-            "code": "<gds-toggle label=\"Toggle\"></gds-toggle>",
+            "code": "<gds-switch label=\"Switch\"></gds-switch>",
             "endpoints": {
               "content": "snippets/toggle-hero-1/toggle-hero-1.json"
             }

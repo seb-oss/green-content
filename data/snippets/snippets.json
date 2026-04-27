@@ -1039,10 +1039,10 @@
       "code": "<gds-table>\n</gds-table>"
     },
     {
-      "title": "Toggle: Hero",
-      "slug": "toggle-hero",
+      "title": "Switch: Hero",
+      "slug": "switch-hero",
       "path": "snippets/toggle-hero-1/toggle-hero-1.json",
-      "code": "<gds-toggle label=\"Toggle\"></gds-toggle>"
+      "code": "<gds-switch label=\"Switch\"></gds-switch>"
     },
     {
       "title": "UX text: Input search colleague-se",
@@ -1058,5 +1058,5 @@
     }
   ],
   "total": 176,
-  "lastUpdated": "2026-04-27T07:57:07.985Z"
+  "lastUpdated": "2026-04-27T07:58:30.499Z"
 }
