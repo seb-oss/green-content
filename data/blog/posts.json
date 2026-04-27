@@ -32,7 +32,7 @@
       "path": "blog/building-with-web-components/building-with-web-components.json"
     },
     {
-      "title": "How We Govern a Design System at Scale",
+      "title": "How we govern a design system at scale",
       "slug": "design-system-governance",
       "published": true,
       "pinned": false,
@@ -145,5 +145,5 @@
     }
   ],
   "total": 9,
-  "lastUpdated": "2026-04-27T14:38:48.637Z"
+  "lastUpdated": "2026-04-27T14:39:17.970Z"
 }
