@@ -17,49 +17,6 @@
       "path": "blog/accessibility-first-design/accessibility-first-design.json"
     },
     {
-      "title": "Article · Snippet",
-      "slug": "article-snippet",
-      "published": true,
-      "pinned": false,
-      "tags": [
-        "design"
-      ],
-      "authors": [
-        "jessi"
-      ],
-      "createdAt": "2026-04-20",
-      "path": "blog/article-01/article-01.json"
-    },
-    {
-      "title": "Article · Image",
-      "slug": "article-image",
-      "published": true,
-      "pinned": false,
-      "tags": [],
-      "authors": [
-        "jessi",
-        "astrit",
-        "joacim",
-        "jonathan",
-        "marwin",
-        "vilhelm"
-      ],
-      "createdAt": "2026-04-20",
-      "path": "blog/article-image/article-image.json"
-    },
-    {
-      "title": "Article · Video",
-      "slug": "article-video",
-      "published": true,
-      "pinned": false,
-      "tags": [
-        "engineering"
-      ],
-      "authors": [],
-      "createdAt": "2026-04-20",
-      "path": "blog/article-video/article-video.json"
-    },
-    {
       "title": "Building with Web Components in 2025",
       "slug": "building-with-web-components",
       "published": true,
@@ -187,6 +144,6 @@
       "path": "blog/this-is-the-green-design-system-blog/this-is-the-green-design-system-blog.json"
     }
   ],
-  "total": 12,
-  "lastUpdated": "2026-04-27T08:08:48.396Z"
+  "total": 9,
+  "lastUpdated": "2026-04-27T14:36:53.441Z"
 }
