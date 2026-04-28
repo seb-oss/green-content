@@ -82,7 +82,7 @@
       "title": "Avatar: Hero",
       "slug": "avatar-hero",
       "path": "snippets/avatar-hero/avatar-hero.json",
-      "code": "<gds-avatar>JN</gds-avatar>"
+      "code": " <gds-avatar-group>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=1\"\n      size=\"s\"\n      alt=\"Person 1\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=2\"\n      size=\"s\"\n      alt=\"Person 2\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=3\"\n      size=\"s\"\n      alt=\"Person 3\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=4\"\n      size=\"s\"\n      alt=\"Person 4\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=5\"\n      size=\"s\"\n      alt=\"Person 5\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=6\"\n      size=\"s\"\n      alt=\"Person 6\"\n    ></gds-avatar>\n    <gds-avatar size=\"s\">+5</gds-avatar>\n</gds-avatar-group>"
     },
     {
       "title": "Badge: Lead",
@@ -1064,5 +1064,5 @@
     }
   ],
   "total": 177,
-  "lastUpdated": "2026-04-27T14:44:52.342Z"
+  "lastUpdated": "2026-04-28T07:29:02.375Z"
 }
