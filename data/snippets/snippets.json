@@ -1045,6 +1045,12 @@
       "code": "<gds-switch label=\"Switch\"></gds-switch>"
     },
     {
+      "title": "Switch label",
+      "slug": "switch-label",
+      "path": "snippets/switch-label/switch-label.json",
+      "code": "<gds-flex height=\"100%\" width=\"100%\" flex-direction=\"column\" gap=\"xl\" justify-content=\"center\">\n  <gds-switch justify-content=\"space-between\" label=\"Email notifications\"></gds-switch>\n  <gds-switch justify-content=\"space-between\" label=\"Enable darkmode\"></gds-switch>\n</gds-flex>"
+    },
+    {
       "title": "Switch sizes",
       "slug": "switch-sizes",
       "path": "snippets/switch-sizes/switch-sizes.json",
@@ -1069,6 +1075,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 178,
-  "lastUpdated": "2026-04-30T09:29:29.835Z"
+  "total": 179,
+  "lastUpdated": "2026-04-30T10:35:14.028Z"
 }
