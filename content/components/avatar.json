@@ -61,10 +61,18 @@
     {
       "title": "Sizes",
       "tag": "H2",
+      "cols": "2",
       "columns": [
         {
           "type": "rich-text",
           "content": "The avatar is available in four sizes:\n\n- **XS** – 24px\n- **S** – 32px\n- **M** – 40px\n- **L** – 48px\n\n"
+        },
+        {
+          "type": "snippet",
+          "caption": "Avatar in 4 sizes.",
+          "plain": false,
+          "replay": false,
+          "Snippet": "avatar-sizes"
         }
       ]
     },
