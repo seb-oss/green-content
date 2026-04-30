@@ -5,7 +5,7 @@
   "beta": true,
   "soon": false,
   "summary": "A toggle lets users switch a setting on or off. ",
-  "preamble": "A toggle is used for settings with two possible states, where the user can turn something on or off.\nThe change takes effect immediately, allowing the user to see the result without needing to confirm or save. Both states are clear and equally valid.",
+  "preamble": "A switch is used for settings with two possible states, where the user can turn something on or off.\nThe change takes effect immediately, allowing the user to see the result without needing to confirm or save. Both states are clear and equally valid.",
   "anatomy": true,
   "anatomy-list": {
     "anatomyitems": [
@@ -31,7 +31,7 @@
   "overview": [
     {
       "title": "Behaviour",
-      "section-content": "Changing the toggle updates the state immediately. The current state should always be clear to the user, and the component should provide feedback for different interaction states such as hover, focus, pressed, and disabled.",
+      "section-content": "Changing the switch updates the state immediately. The current state should always be clear to the user, and the component should provide feedback for different interaction states such as hover, focus, pressed, and disabled.",
       "cols": "1"
     },
     {
@@ -41,7 +41,14 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "The toggle is available in two sizes: default and small. The small size should only be used in compact views where space is limited, such as dense layouts or smaller components."
+          "content": "The switch is available in two sizes: default and small. The small size should only be used in compact views where space is limited, such as dense layouts or smaller components."
+        },
+        {
+          "type": "snippet",
+          "caption": "Switch in large and small",
+          "plain": false,
+          "replay": false,
+          "Snippet": "switch-sizes"
         }
       ]
     },
