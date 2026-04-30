@@ -6,6 +6,20 @@
   "soon": true,
   "summary": "An Avatar represents a user, entity, or object. It is typically displayed as an image, initials, or icon, and helps identify ownership, participation, or presence in the interface.",
   "anatomy": true,
+  "anatomy-details": "An avatar consists of a container that defines its shape and size, and content that represents the user or action. This content can be an image, initials, or an icon.",
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Container"
+      },
+      {
+        "text": "Content"
+      },
+      {
+        "text": "Notification badge"
+      }
+    ]
+  },
   "platform": {
     "web": false,
     "ios": false,
