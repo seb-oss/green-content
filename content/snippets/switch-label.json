@@ -2,5 +2,5 @@
   "title": "Switch label",
   "slug": "switch-label",
   "snippet_component": "Switch",
-  "code": "<gds-card width=\"100%\" gap=\"xl\" padding=\"xl\">\n  <gds-text font=\"heading-s\">Settings</gds-text>\n  <gds-switch justify-content=\"space-between\" label=\"Email notifications\"></gds-switch>\n  <gds-switch justify-content=\"space-between\" label=\"Enable darkmode\"></gds-switch>\n</gds-card>"
+  "code": "<gds-card variant=\"neutral-02\" width=\"100%\" gap=\"xl\" padding=\"xl\">\n  <gds-text font=\"heading-s\">Settings</gds-text>\n  <gds-switch justify-content=\"space-between\" label=\"Email notifications\"></gds-switch>\n  <gds-switch justify-content=\"space-between\" label=\"Enable darkmode\"></gds-switch>\n</gds-card>"
 }
