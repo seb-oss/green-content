@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-30T10:51:48.105Z",
+    "lastUpdated": "2026-04-30T10:52:27.770Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -857,6 +857,15 @@
             "code": "<gds-flex align-items=\"center\" justify-content=\"center\" gap=\"m\" flex-wrap=\"wrap\" width=\"100%\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"notice\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Notice\n  </gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge variant=\"warning\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Warning\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-triangle-exclamation slot=\"lead\"></gds-icon-triangle-exclamation>\n    Negative\n  </gds-badge>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/badge-variants/badge-variants.json"
+            }
+          },
+          {
+            "title": "Blog: Avatar + Switch",
+            "slug": "blog-avatar-switch",
+            "path": "snippets/blog-avatar-switch/blog-avatar-switch.json",
+            "code": "<gds-flex align-items=\"center\" width=\"100%\" height=\"100%\" justify-content=\"center\" gap=\"4xl\">\n   <gds-avatar-group aria-label=\"Extra small avatars\">\n        <gds-avatar\n          src=\"https://i.pravatar.cc/150?img=1\"\n          size=\"xs\"\n          alt=\"Person 1\"\n        ></gds-avatar>\n        <gds-avatar\n          src=\"https://i.pravatar.cc/150?img=2\"\n          size=\"xs\"\n          alt=\"Person 2\"\n        ></gds-avatar>\n        <gds-avatar\n          src=\"https://i.pravatar.cc/150?img=3\"\n          size=\"xs\"\n          alt=\"Person 3\"\n        ></gds-avatar>\n        <gds-avatar\n          src=\"https://i.pravatar.cc/150?img=4\"\n          size=\"xs\"\n          alt=\"Person 4\"\n        ></gds-avatar>\n        <gds-avatar\n          src=\"https://i.pravatar.cc/150?img=5\"\n          size=\"xs\"\n          alt=\"Person 5\"\n        ></gds-avatar>\n        <gds-avatar\n          src=\"https://i.pravatar.cc/150?img=6\"\n          size=\"xs\"\n          alt=\"Person 6\"\n        ></gds-avatar>\n        <gds-avatar size=\"xs\">+5</gds-avatar>\n      </gds-avatar-group>\n\n      <gds-switch size=\"small\" label=\"Switch\"></gds-switch>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/blog-avatar-switch/blog-avatar-switch.json"
             }
           },
           {

@@ -133,6 +133,12 @@
       "code": "<gds-flex align-items=\"center\" justify-content=\"center\" gap=\"m\" flex-wrap=\"wrap\" width=\"100%\">\n  <gds-badge variant=\"information\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Information\n  </gds-badge>\n  <gds-badge variant=\"notice\">\n    <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n    Notice\n  </gds-badge>\n  <gds-badge variant=\"positive\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Positive\n  </gds-badge>\n  <gds-badge variant=\"warning\">\n    <gds-icon-circle-check slot=\"lead\"></gds-icon-circle-check>\n    Warning\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    <gds-icon-triangle-exclamation slot=\"lead\"></gds-icon-triangle-exclamation>\n    Negative\n  </gds-badge>\n</gds-flex>"
     },
     {
+      "title": "Blog: Avatar + Switch",
+      "slug": "blog-avatar-switch",
+      "path": "snippets/blog-avatar-switch/blog-avatar-switch.json",
+      "code": "<gds-flex align-items=\"center\" width=\"100%\" height=\"100%\" justify-content=\"center\" gap=\"4xl\">\n   <gds-avatar-group aria-label=\"Extra small avatars\">\n        <gds-avatar\n          src=\"https://i.pravatar.cc/150?img=1\"\n          size=\"xs\"\n          alt=\"Person 1\"\n        ></gds-avatar>\n        <gds-avatar\n          src=\"https://i.pravatar.cc/150?img=2\"\n          size=\"xs\"\n          alt=\"Person 2\"\n        ></gds-avatar>\n        <gds-avatar\n          src=\"https://i.pravatar.cc/150?img=3\"\n          size=\"xs\"\n          alt=\"Person 3\"\n        ></gds-avatar>\n        <gds-avatar\n          src=\"https://i.pravatar.cc/150?img=4\"\n          size=\"xs\"\n          alt=\"Person 4\"\n        ></gds-avatar>\n        <gds-avatar\n          src=\"https://i.pravatar.cc/150?img=5\"\n          size=\"xs\"\n          alt=\"Person 5\"\n        ></gds-avatar>\n        <gds-avatar\n          src=\"https://i.pravatar.cc/150?img=6\"\n          size=\"xs\"\n          alt=\"Person 6\"\n        ></gds-avatar>\n        <gds-avatar size=\"xs\">+5</gds-avatar>\n      </gds-avatar-group>\n\n      <gds-switch size=\"small\" label=\"Switch\"></gds-switch>\n</gds-flex>"
+    },
+    {
       "title": "Breadcrumbs: Mobile",
       "slug": "breadcrumbs-mobile",
       "path": "snippets/breadcrumbs-mobile/breadcrumbs-mobile.json",
@@ -1075,6 +1081,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 179,
-  "lastUpdated": "2026-04-30T10:51:48.107Z"
+  "total": 180,
+  "lastUpdated": "2026-04-30T10:52:27.772Z"
 }
