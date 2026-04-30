@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-30T11:35:41.742Z",
+    "lastUpdated": "2026-04-30T11:36:45.872Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -786,6 +786,15 @@
             "code": " <gds-avatar-group>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=1\"\n      size=\"s\"\n      alt=\"Person 1\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=2\"\n      size=\"s\"\n      alt=\"Person 2\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=3\"\n      size=\"s\"\n      alt=\"Person 3\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=4\"\n      size=\"s\"\n      alt=\"Person 4\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=5\"\n      size=\"s\"\n      alt=\"Person 5\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=6\"\n      size=\"s\"\n      alt=\"Person 6\"\n    ></gds-avatar>\n    <gds-avatar size=\"s\">+5</gds-avatar>\n</gds-avatar-group>",
             "endpoints": {
               "content": "snippets/avatar-hero/avatar-hero.json"
+            }
+          },
+          {
+            "title": "Avatar shapes",
+            "slug": "avatar-shapes",
+            "path": "snippets/avatar-shapes/avatar-shapes.json",
+            "code": "<gds-flex height=\"100%\" width=\"100%\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-avatar size=\"m\"></gds-avatar>\n  <gds-avatar size=\"m\" shape=\"square\"></gds-avatar>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/avatar-shapes/avatar-shapes.json"
             }
           },
           {
