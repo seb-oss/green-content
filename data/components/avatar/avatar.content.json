@@ -4,10 +4,22 @@
   "hero_snippet": "avatar-hero",
   "beta": true,
   "soon": true,
+  "summary": "An Avatar represents a user, entity, or object. It is typically displayed as an image, initials, or icon, and helps identify ownership, participation, or presence in the interface.",
   "anatomy": true,
   "platform": {
     "web": false,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "When to use",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Use an Avatar when you need to represent a user, such as in lists, messages, or account-related contexts. It provides quick visual recognition and helps users understand who is involved in a specific action or piece of content. Avatars are especially useful in collaborative or communication-heavy interfaces where multiple people are present."
+        }
+      ]
+    }
+  ]
 }

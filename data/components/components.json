@@ -9,6 +9,7 @@
     {
       "title": "Avatar",
       "slug": "avatar",
+      "summary": "An Avatar represents a user, entity, or object. It is typically displayed as an image, initials, or icon, and helps identify ownership, participation, or presence in the interface.",
       "path": "components/avatar/avatar.content.json"
     },
     {
@@ -251,5 +252,5 @@
     }
   ],
   "total": 42,
-  "lastUpdated": "2026-04-30T11:03:43.976Z"
+  "lastUpdated": "2026-04-30T11:19:07.318Z"
 }
