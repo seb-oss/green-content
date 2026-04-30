@@ -79,10 +79,18 @@
     {
       "title": "Grouped avatars",
       "tag": "H2",
+      "cols": "2",
       "columns": [
         {
           "type": "rich-text",
           "content": "Avatars can be grouped to represent multiple users, for example in shared ownership or collaborative contexts. The avatars are displayed in a horizontal stack with a slight overlap to save space and create a cohesive visual unit.\n\nTo maintain clarity, a maximum of three avatars should be visible at the same time. If more users are included, the remaining count is shown as a “+X” indicator, such as “+4”.\n\nIn Figma, this is handled through a `Grouped` variant, where the number of visible avatars can be configured as:\n\n- **1 + X**\n- **2 + X**\n- **3 + X**\n\n"
+        },
+        {
+          "type": "snippet",
+          "caption": "Grouped avatar example.",
+          "plain": false,
+          "replay": false,
+          "Snippet": "avatar-group"
         }
       ]
     }
