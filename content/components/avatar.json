@@ -43,10 +43,18 @@
     {
       "title": "Variants",
       "tag": "H2",
+      "cols": "2",
       "columns": [
         {
           "type": "rich-text",
           "content": "The avatar comes in two shapes:\n\n- **Circular**  \nUsed in more prominent or personal contexts, such as the top header or profile-related areas.\n- **Squared**  \nUsed in more structured and dense layouts, such as list items.\n\n"
+        },
+        {
+          "type": "snippet",
+          "caption": "Two shapes of the avatar.",
+          "plain": false,
+          "replay": false,
+          "Snippet": "avatar-shapes"
         }
       ]
     },
