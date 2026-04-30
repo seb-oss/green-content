@@ -1,0 +1,5 @@
+{
+  "title": "Switch sizes",
+  "slug": "switch-sizes",
+  "code": "<gds-flex flex-direction=\"row\" gap=\"xl\">\n  <gds-switch label=\"Switch\"></gds-switch>\n  <gds-switch size=\"small\" label=\"Switch\"></gds-switch>\n</gds-flex>"
+}
