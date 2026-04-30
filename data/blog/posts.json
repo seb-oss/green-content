@@ -17,6 +17,23 @@
       "path": "blog/accessibility-first-design/accessibility-first-design.json"
     },
     {
+      "title": "Avatar + Switch",
+      "slug": "avatar-switch",
+      "published": true,
+      "pinned": true,
+      "tags": [
+        "announcement"
+      ],
+      "authors": [
+        "astrit",
+        "jessi",
+        "jonathan",
+        "joacim"
+      ],
+      "createdAt": "2026-04-30",
+      "path": "blog/avatar-switch/avatar-switch.json"
+    },
+    {
       "title": "Building with Web Components in 2025",
       "slug": "building-with-web-components",
       "published": true,
@@ -144,6 +161,6 @@
       "path": "blog/this-is-the-green-design-system-blog/this-is-the-green-design-system-blog.json"
     }
   ],
-  "total": 9,
-  "lastUpdated": "2026-04-30T10:35:14.028Z"
+  "total": 10,
+  "lastUpdated": "2026-04-30T10:37:59.483Z"
 }
