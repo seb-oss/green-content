@@ -27,7 +27,8 @@
   },
   "overview": [
     {
-      "title": "When to use",
+      "title": "Usage",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
