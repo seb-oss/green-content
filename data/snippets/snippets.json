@@ -82,7 +82,7 @@
       "title": "Avatar group",
       "slug": "avatar-group",
       "path": "snippets/avatar-group/avatar-group.json",
-      "code": " <gds-avatar-group>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=1\"\n      size=\"m\"\n      alt=\"Person 1\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=2\"\n      size=\"m\"\n      alt=\"Person 2\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=3\"\n      size=\"m\"\n      alt=\"Person 3\"\n    ></gds-avatar>\n    <gds-avatar size=\"s\">+2</gds-avatar>\n</gds-avatar-group>"
+      "code": " <gds-avatar-group>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=1\"\n      size=\"m\"\n      alt=\"Person 1\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=2\"\n      size=\"m\"\n      alt=\"Person 2\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=3\"\n      size=\"m\"\n      alt=\"Person 3\"\n    ></gds-avatar>\n    <gds-avatar background=\"neutral-02\" size=\"m\">+2</gds-avatar>\n</gds-avatar-group>"
     },
     {
       "title": "Avatar: Hero",
@@ -1100,5 +1100,5 @@
     }
   ],
   "total": 183,
-  "lastUpdated": "2026-04-30T11:57:03.020Z"
+  "lastUpdated": "2026-04-30T12:00:33.339Z"
 }
