@@ -17,7 +17,28 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Use an Avatar when you need to represent a user, such as in lists, messages, or account-related contexts. It provides quick visual recognition and helps users understand who is involved in a specific action or piece of content. Avatars are especially useful in collaborative or communication-heavy interfaces where multiple people are present."
+          "tag": "H2",
+          "content": "Use an avatar when you need to represent a user, such as in lists, messages, or account-related contexts. It provides quick visual recognition and helps users understand who is involved in a specific action or piece of content. Avatars are especially useful in collaborative or communication-heavy interfaces where multiple people are present."
+        }
+      ]
+    },
+    {
+      "title": "Variants",
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The avatar comes in two shapes:\n\n- **Circular**  \nUsed in more prominent or personal contexts, such as the top header or profile-related areas.\n- **Squared**  \nUsed in more structured and dense layouts, such as list items.\n\n"
+        }
+      ]
+    },
+    {
+      "title": "Sizes",
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The avatar is available in four sizes:\n\n- **XS** – 24px\n- **S** – 32px\n- **M** – 40px\n- **L** – 48px\n\n"
         }
       ]
     }
