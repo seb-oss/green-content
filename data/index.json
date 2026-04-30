@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-30T11:37:36.733Z",
+    "lastUpdated": "2026-04-30T11:41:23.686Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -795,6 +795,15 @@
             "code": "<gds-flex height=\"100%\" width=\"100%\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-avatar size=\"m\"></gds-avatar>\n  <gds-avatar size=\"m\" shape=\"square\"></gds-avatar>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/avatar-shapes/avatar-shapes.json"
+            }
+          },
+          {
+            "title": "Avatar sizes",
+            "slug": "avatar-sizes",
+            "path": "snippets/avatar-sizes/avatar-sizes.json",
+            "code": "<gds-flex height=\"100%\" width=\"100%\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-avatar size=\"xs\"></gds-avatar>\n  <gds-avatar size=\"s\"></gds-avatar>\n  <gds-avatar size=\"m\"></gds-avatar>\n  <gds-avatar size=\"l\"></gds-avatar>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/avatar-sizes/avatar-sizes.json"
             }
           },
           {
