@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-30T09:21:52.742Z",
+    "lastUpdated": "2026-04-30T09:28:00.779Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2231,7 +2231,7 @@
             "title": "Switch sizes",
             "slug": "switch-sizes",
             "path": "snippets/switch-sizes/switch-sizes.json",
-            "code": "<gds-flex flex-direction=\"row\" gap=\"xl\">\n  <gds-switch label=\"Switch\"></gds-switch>\n  <gds-switch size=\"small\" label=\"Switch\"></gds-switch>\n</gds-flex>",
+            "code": "<gds-flex height=\"100%\" width=\"100%\" flex-direction=\"row\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-switch label=\"Switch\"></gds-switch>\n  <gds-switch size=\"small\" label=\"Switch\"></gds-switch>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/switch-sizes/switch-sizes.json"
             }
