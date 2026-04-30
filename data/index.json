@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-30T11:42:06.110Z",
+    "lastUpdated": "2026-04-30T11:44:57.508Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -777,6 +777,15 @@
             "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-warning/alert-warning.json"
+            }
+          },
+          {
+            "title": "Avatar group",
+            "slug": "avatar-group",
+            "path": "snippets/avatar-group/avatar-group.json",
+            "code": " <gds-avatar-group>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=1\"\n      size=\"s\"\n      alt=\"Person 1\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=2\"\n      size=\"s\"\n      alt=\"Person 2\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=3\"\n      size=\"s\"\n      alt=\"Person 3\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=4\"\n      size=\"s\"\n      alt=\"Person 4\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=5\"\n      size=\"s\"\n      alt=\"Person 5\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=6\"\n      size=\"s\"\n      alt=\"Person 6\"\n    ></gds-avatar>\n    <gds-avatar size=\"s\">+5</gds-avatar>\n</gds-avatar-group>",
+            "endpoints": {
+              "content": "snippets/avatar-group/avatar-group.json"
             }
           },
           {

@@ -79,6 +79,12 @@
       "code": "<gds-div width=\"80%\" display=\"block\">\n<gds-alert variant=\"warning\" role=\"alert\">\n  <strong>Warning</strong> Important information to consider.\n</gds-alert>\n</gds-div>"
     },
     {
+      "title": "Avatar group",
+      "slug": "avatar-group",
+      "path": "snippets/avatar-group/avatar-group.json",
+      "code": " <gds-avatar-group>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=1\"\n      size=\"s\"\n      alt=\"Person 1\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=2\"\n      size=\"s\"\n      alt=\"Person 2\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=3\"\n      size=\"s\"\n      alt=\"Person 3\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=4\"\n      size=\"s\"\n      alt=\"Person 4\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=5\"\n      size=\"s\"\n      alt=\"Person 5\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=6\"\n      size=\"s\"\n      alt=\"Person 6\"\n    ></gds-avatar>\n    <gds-avatar size=\"s\">+5</gds-avatar>\n</gds-avatar-group>"
+    },
+    {
       "title": "Avatar: Hero",
       "slug": "avatar-hero",
       "path": "snippets/avatar-hero/avatar-hero.json",
@@ -1093,6 +1099,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 182,
-  "lastUpdated": "2026-04-30T11:42:06.111Z"
+  "total": 183,
+  "lastUpdated": "2026-04-30T11:44:57.510Z"
 }
