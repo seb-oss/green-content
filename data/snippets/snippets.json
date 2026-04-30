@@ -1054,7 +1054,7 @@
       "title": "Switch sizes",
       "slug": "switch-sizes",
       "path": "snippets/switch-sizes/switch-sizes.json",
-      "code": "<gds-flex height=\"100%\" width=\"100%\" flex-direction=\"row\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-switch label=\"Switch\"></gds-switch>\n  <gds-switch size=\"small\" label=\"Switch\"></gds-switch>\n</gds-flex>"
+      "code": "<gds-flex height=\"100%\" width=\"100%\" flex-direction=\"row\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-switch label=\"Switch label\"></gds-switch>\n  <gds-switch size=\"small\" label=\"Switch label\"></gds-switch>\n</gds-flex>"
     },
     {
       "title": "Table: Hero",
@@ -1076,5 +1076,5 @@
     }
   ],
   "total": 179,
-  "lastUpdated": "2026-04-30T10:49:08.020Z"
+  "lastUpdated": "2026-04-30T10:51:48.107Z"
 }
