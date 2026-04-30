@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-04-30T10:42:15.625Z",
+    "lastUpdated": "2026-04-30T10:47:49.803Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2231,7 +2231,7 @@
             "title": "Switch label",
             "slug": "switch-label",
             "path": "snippets/switch-label/switch-label.json",
-            "code": "<gds-flex height=\"100%\" width=\"100%\" flex-direction=\"column\" gap=\"xl\" justify-content=\"center\">\n  <gds-switch justify-content=\"space-between\" label=\"Email notifications\"></gds-switch>\n  <gds-switch justify-content=\"space-between\" label=\"Enable darkmode\"></gds-switch>\n</gds-flex>",
+            "code": "<gds-card width=\"100%\" gap=\"xl\" padding=\"xl\">\n  <gds-text font=\"heading-s\">Settings</gds-text>\n  <gds-switch justify-content=\"space-between\" label=\"Email notifications\"></gds-switch>\n  <gds-switch justify-content=\"space-between\" label=\"Enable darkmode\"></gds-switch>\n</gds-card>",
             "endpoints": {
               "content": "snippets/switch-label/switch-label.json"
             }
