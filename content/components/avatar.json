@@ -65,7 +65,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "The avatar is available in four sizes:\n\n- **XS** – 24px\n- **S** – 32px\n- **M** – 40px\n- **L** – 48px\n\n"
+          "content": "The avatar is available in four sizes:\n\n- **XS**\n- **S**\n- **M** \n- **L**\n\n"
         },
         {
           "type": "snippet",
