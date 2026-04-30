@@ -1,0 +1,6 @@
+{
+  "title": "Avatar shapes",
+  "slug": "avatar-shapes",
+  "snippet_component": "Avatar",
+  "code": "<gds-flex height=\"100%\" width=\"100%\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-avatar size=\"m\"></gds-avatar>\n  <gds-avatar size=\"m\" shape=\"square\"></gds-avatar>\n</gds-flex>"
+}
