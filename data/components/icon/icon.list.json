@@ -2257,7 +2257,7 @@
     "reactName": "IconAsterisk",
     "urlPath": "asterisk",
     "variants": {
-      "regular": "<path d=\"M12.001 2.75V21.25M3.99023 7.375L20.0117 16.625M3.9912 16.625L20.0127 7.375\" stroke=\"black\" stroke-width=\"1.5\" stroke-linecap=\"round\"/>",
+      "regular": "<path d=\"M12.001 2.75V21.25M3.99023 7.375L20.0117 16.625M3.9912 16.625L20.0127 7.375\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"/>",
       "solid": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12.0029 2C12.4171 2 12.7529 2.33579 12.7529 2.75V10.7015L19.6396 6.72548C19.9984 6.51837 20.457 6.64128 20.6642 7C20.8713 7.35872 20.7484 7.81741 20.3896 8.02452L13.5034 12.0003L20.3887 15.9755C20.7474 16.1826 20.8703 16.6413 20.6632 17C20.4561 17.3587 19.9974 17.4816 19.6387 17.2745L12.7529 13.299V21.25C12.7529 21.6642 12.4171 22 12.0029 22C11.5887 22 11.2529 21.6642 11.2529 21.25V13.2996L4.36816 17.2745C4.00944 17.4816 3.55075 17.3587 3.34364 17C3.13653 16.6413 3.25944 16.1826 3.61816 15.9755L10.5034 12.0003L3.61719 8.02452C3.25847 7.81741 3.13556 7.35872 3.34267 7C3.54978 6.64128 4.00847 6.51837 4.36719 6.72548L11.2529 10.701V2.75C11.2529 2.33579 11.5887 2 12.0029 2Z\" fill=\"currentColor\"/>"
     },
     "static": {
@@ -3509,6 +3509,51 @@
       }
     }
   },
+  "arrows-repeat-right": {
+    "id": "arrows-repeat-right",
+    "nodeId": "7053:83",
+    "displayName": "Arrows Repeat Right",
+    "fileName": "arrows-repeat-right.svg",
+    "reactName": "IconArrowsRepeatRight",
+    "urlPath": "arrows-repeat-right",
+    "variants": {
+      "regular": "<path d=\"M17.25 2.75L20.25 5.75L17.25 8.75M6.75 21.25L3.75 18.25L6.75 15.25M5.25 18.25H20.25V13.25M3.75 10.25V5.75H18.75\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
+      "solid": "<path d=\"M17.7803 2.21967C17.4874 1.92678 17.0126 1.92678 16.7197 2.21967C16.4268 2.51256 16.4268 2.98744 16.7197 3.28033L18.4393 5H3.75C3.33579 5 3 5.33579 3 5.75V10.25C3 10.6642 3.33579 11 3.75 11C4.16421 11 4.5 10.6642 4.5 10.25V6.5H18.4393L16.7197 8.21967C16.4268 8.51256 16.4268 8.98744 16.7197 9.28033C17.0126 9.57322 17.4874 9.57322 17.7803 9.28033L20.7803 6.28033C21.0732 5.98744 21.0732 5.51256 20.7803 5.21967L17.7803 2.21967Z\" fill=\"currentColor\"/>\n<path d=\"M7.28033 15.7803C7.57322 15.4874 7.57322 15.0126 7.28033 14.7197C6.98744 14.4268 6.51256 14.4268 6.21967 14.7197L3.21967 17.7197C2.92678 18.0126 2.92678 18.4874 3.21967 18.7803L6.21967 21.7803C6.51256 22.0732 6.98744 22.0732 7.28033 21.7803C7.57322 21.4874 7.57322 21.0126 7.28033 20.7197L5.56066 19H20.25C20.6642 19 21 18.6642 21 18.25V13.25C21 12.8358 20.6642 12.5 20.25 12.5C19.8358 12.5 19.5 12.8358 19.5 13.25V17.5H5.56066L7.28033 15.7803Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/arrows-repeat-right.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/arrows-repeat-right.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Arrows"
+      ],
+      "tags": [
+        "arrows-repeat-right-left, repost"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/arrows-repeat-right",
+        "import": "import '@sebgroup/green-core/icon/arrows-repeat-right.js'",
+        "component": "<gds-icon-arrows-repeat-right></gds-icon-arrows-repeat-right>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/arrows-repeat-right",
+        "import": "import { IconArrowsRepeatRight } from '@sebgroup/green-react/icon/arrows-repeat-right'",
+        "component": "<IconArrowsRepeatRight></IconArrowsRepeatRight>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/arrows-repeat-right",
+        "import": "import '@sebgroup/green-core/icon/arrows-repeat-right.js'",
+        "component": "<gds-icon-arrows-repeat-right></gds-icon-arrows-repeat-right>"
+      }
+    }
+  },
   "chevron-top": {
     "id": "chevron-top",
     "nodeId": "1090:15588",
@@ -4598,7 +4643,7 @@
     "urlPath": "credit-card-add",
     "variants": {
       "regular": "<path d=\"M2.75 9.75005V19.2461H13.4961M2.75 9.75005V4.75293H21.2422C21.247 6.41863 21.2461 8.08434 21.2461 9.75005M2.75 9.75005H21.2461M21.2461 9.75005V11.2481M19.25 14.25V17.25M19.25 17.25V20.25M19.25 17.25H16.25M19.25 17.25H22.25\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
-      "solid": "<path d=\"M2 4.75293C2 4.33872 2.33579 4.00293 2.75 4.00293H21.2422C21.6556 4.00293 21.991 4.33739 21.9922 4.75075C21.9964 6.18525 21.9962 7.61979 21.9961 9.05303L21.9961 12L19.25 12C18.0074 12 17 13.0074 17 14.25V15H16.25C15.0074 15 14 16.0074 14 17.25L14.0001 19.9961H2.75C2.33579 19.9961 2 19.6604 2 19.2461V10.5H21.9961V9H2V4.75293Z\" fill=\"black\"/>\n<path d=\"M20 14.25C20 13.8358 19.6642 13.5 19.25 13.5C18.8358 13.5 18.5 13.8358 18.5 14.25V16.5H16.25C15.8358 16.5 15.5 16.8358 15.5 17.25C15.5 17.6642 15.8358 18 16.25 18H18.5V20.25C18.5 20.6642 18.8358 21 19.25 21C19.6642 21 20 20.6642 20 20.25V18H22.25C22.6642 18 23 17.6642 23 17.25C23 16.8358 22.6642 16.5 22.25 16.5H20V14.25Z\" fill=\"black\"/>"
+      "solid": "<path d=\"M2 4.75293C2 4.33872 2.33579 4.00293 2.75 4.00293H21.2422C21.6556 4.00293 21.991 4.33739 21.9922 4.75075C21.9964 6.18525 21.9962 7.61979 21.9961 9.05303L21.9961 12L19.25 12C18.0074 12 17 13.0074 17 14.25V15H16.25C15.0074 15 14 16.0074 14 17.25L14.0001 19.9961H2.75C2.33579 19.9961 2 19.6604 2 19.2461V10.5H21.9961V9H2V4.75293Z\" fill=\"currentColor\"/>\n<path d=\"M20 14.25C20 13.8358 19.6642 13.5 19.25 13.5C18.8358 13.5 18.5 13.8358 18.5 14.25V16.5H16.25C15.8358 16.5 15.5 16.8358 15.5 17.25C15.5 17.6642 15.8358 18 16.25 18H18.5V20.25C18.5 20.6642 18.8358 21 19.25 21C19.6642 21 20 20.6642 20 20.25V18H22.25C22.6642 18 23 17.6642 23 17.25C23 16.8358 22.6642 16.5 22.25 16.5H20V14.25Z\" fill=\"currentColor\"/>"
     },
     "static": {
       "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/credit-card-add.svg",
@@ -10526,6 +10571,51 @@
         "path": "@sebgroup/green-core/icon/calendar-check",
         "import": "import '@sebgroup/green-core/icon/calendar-check.js'",
         "component": "<gds-icon-calendar-check></gds-icon-calendar-check>"
+      }
+    }
+  },
+  "calendar-repeat": {
+    "id": "calendar-repeat",
+    "nodeId": "7039:110",
+    "displayName": "Calendar Repeat",
+    "fileName": "calendar-repeat.svg",
+    "reactName": "IconCalendarRepeat",
+    "urlPath": "calendar-repeat",
+    "variants": {
+      "regular": "<path d=\"M7.75 4.75H3.75V9.25M7.75 4.75H16.25M7.75 4.75V2.75M16.25 4.75H20.25V9.25H3.75M16.25 4.75V2.75M10.25 20.25H3.75V9.25M20.3398 20.1875C19.5795 20.8488 18.5779 21.25 17.5 21.25C15.5197 21.25 13.8557 19.8956 13.3839 18.0625M14.4195 14.0388C15.2021 13.2439 16.3042 12.75 17.5 12.75C19.4803 12.75 21.1443 14.1044 21.6161 15.9375\" stroke=\"currentColor\" stroke-width=\"1.59375\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M22.2812 19.125V21.5612C22.2812 22.0345 21.709 22.2715 21.3743 21.9369L18.4069 18.9694C18.0722 18.6347 18.3093 18.0625 18.7826 18.0625H21.2188C21.8056 18.0625 22.2812 18.5382 22.2812 19.125Z\" fill=\"currentColor\"/>\n<path d=\"M12.7188 14.875V12.4388C12.7188 11.9655 13.291 11.7285 13.6257 12.0632L16.5931 15.0306C16.9278 15.3653 16.6907 15.9375 16.2174 15.9375H13.7812C13.1944 15.9375 12.7188 15.4618 12.7188 14.875Z\" fill=\"currentColor\"/>",
+      "solid": "<path d=\"M7.75 2C8.16421 2 8.5 2.33579 8.5 2.75V4H15.5V2.75C15.5 2.33579 15.8358 2 16.25 2C16.6642 2 17 2.33579 17 2.75V4H20.25C20.6642 4 21 4.33579 21 4.75V9.25C21 9.66421 20.6642 10 20.25 10H4.5V19.5H10.25C10.6642 19.5 11 19.8358 11 20.25C11 20.6642 10.6642 21 10.25 21H3.75C3.33579 21 3 20.6642 3 20.25V4.75C3 4.33579 3.33579 4 3.75 4H7V2.75C7 2.33579 7.33579 2 7.75 2Z\" fill=\"currentColor\"/>\n<path d=\"M15.6397 14.0772C16.1818 13.7413 16.8227 13.5469 17.5 13.5469C19.1079 13.5469 20.461 14.6466 20.8444 16.1361C20.9541 16.5623 21.3885 16.8189 21.8147 16.7092C22.2409 16.5995 22.4975 16.1651 22.3878 15.7389C21.8276 13.5623 19.8527 11.9531 17.5 11.9531C16.3847 11.9531 15.3389 12.3156 14.4919 12.9294L13.6257 12.0632C13.291 11.7285 12.7188 11.9655 12.7188 12.4388V14.875C12.7188 15.4618 13.1944 15.9375 13.7812 15.9375H16.2174C16.6907 15.9375 16.9278 15.3653 16.5931 15.0306L15.6397 14.0772Z\" fill=\"currentColor\"/>\n<path d=\"M14.1556 17.8639C14.0459 17.4377 13.6115 17.1811 13.1853 17.2908C12.759 17.4005 12.5025 17.8349 12.6122 18.2611C13.1724 20.4377 15.1473 22.0469 17.5 22.0469C18.6155 22.0469 19.6614 21.6842 20.5081 21.0706L21.3743 21.9368C21.709 22.2715 22.2812 22.0345 22.2812 21.5612V19.125C22.2812 18.5382 21.8056 18.0625 21.2188 18.0625H18.7826C18.3093 18.0625 18.0722 18.6347 18.4069 18.9694L19.3602 19.9227C18.818 20.2588 18.1771 20.4531 17.5 20.4531C15.8921 20.4531 14.539 19.3534 14.1556 17.8639Z\" fill=\"currentColor\"/>"
+    },
+    "static": {
+      "regular": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/regular/calendar-repeat.svg",
+      "solid": "https://raw.githubusercontent.com/seb-oss/green/refs/heads/main/libs/core/src/components/icon/assets/solid/calendar-repeat.svg"
+    },
+    "meta": {
+      "description": "",
+      "categories": [
+        "Date"
+      ],
+      "tags": [
+        "calendar-repeat, date-repeat"
+      ],
+      "width": 24,
+      "height": 24,
+      "viewBox": "0 0 24 24"
+    },
+    "framework": {
+      "web": {
+        "path": "@sebgroup/green-core/icon/calendar-repeat",
+        "import": "import '@sebgroup/green-core/icon/calendar-repeat.js'",
+        "component": "<gds-icon-calendar-repeat></gds-icon-calendar-repeat>"
+      },
+      "react": {
+        "path": "@sebgroup/green-core/icon/calendar-repeat",
+        "import": "import { IconCalendarRepeat } from '@sebgroup/green-react/icon/calendar-repeat'",
+        "component": "<IconCalendarRepeat></IconCalendarRepeat>"
+      },
+      "angular": {
+        "path": "@sebgroup/green-core/icon/calendar-repeat",
+        "import": "import '@sebgroup/green-core/icon/calendar-repeat.js'",
+        "component": "<gds-icon-calendar-repeat></gds-icon-calendar-repeat>"
       }
     }
   },
