@@ -88,7 +88,7 @@
       "title": "Avatar: Hero",
       "slug": "avatar-hero",
       "path": "snippets/avatar-hero/avatar-hero.json",
-      "code": " <gds-avatar-group>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=1\"\n      size=\"s\"\n      alt=\"Person 1\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=2\"\n      size=\"s\"\n      alt=\"Person 2\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=3\"\n      size=\"s\"\n      alt=\"Person 3\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=4\"\n      size=\"s\"\n      alt=\"Person 4\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=5\"\n      size=\"s\"\n      alt=\"Person 5\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=6\"\n      size=\"s\"\n      alt=\"Person 6\"\n    ></gds-avatar>\n    <gds-avatar size=\"s\">+5</gds-avatar>\n</gds-avatar-group>"
+      "code": " <gds-avatar-group>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=1\"\n      size=\"m\"\n      alt=\"Person 1\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=2\"\n      size=\"m\"\n      alt=\"Person 2\"\n    ></gds-avatar>\n    <gds-avatar\n      src=\"https://i.pravatar.cc/150?img=3\"\n      size=\"m\"\n      alt=\"Person 3\"\n    ></gds-avatar>\n    <gds-avatar size=\"m\">+5</gds-avatar>\n</gds-avatar-group>"
     },
     {
       "title": "Avatar shapes",
@@ -1100,5 +1100,5 @@
     }
   ],
   "total": 183,
-  "lastUpdated": "2026-04-30T11:46:03.369Z"
+  "lastUpdated": "2026-04-30T11:46:34.971Z"
 }
