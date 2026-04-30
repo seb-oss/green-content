@@ -1,5 +1,5 @@
 {
   "title": "Avatar sizes",
   "slug": "avatar-sizes",
-  "code": "<gds-flex height=\"100%\" width=\"100%\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-avatar size=\"xs\"></gds-avatar>\n  <gds-avatar size=\"s\"></gds-avatar>\n  <gds-avatar size=\"m\"></gds-avatar>\n  <gds-avatar size=\"l\"></gds-avatar>\n</gds-flex>"
+  "code": "<gds-flex height=\"100%\" width=\"100%\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-avatar size=\"xs\">XS</gds-avatar>\n  <gds-avatar size=\"s\">S</gds-avatar>\n  <gds-avatar size=\"m\">M</gds-avatar>\n  <gds-avatar size=\"l\">L</gds-avatar>\n</gds-flex>"
 }
