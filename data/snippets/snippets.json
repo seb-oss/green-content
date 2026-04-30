@@ -100,7 +100,7 @@
       "title": "Avatar sizes",
       "slug": "avatar-sizes",
       "path": "snippets/avatar-sizes/avatar-sizes.json",
-      "code": "<gds-flex height=\"100%\" width=\"100%\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-avatar size=\"xs\">XS</gds-avatar>\n  <gds-avatar size=\"s\">S</gds-avatar>\n  <gds-avatar size=\"m\">M</gds-avatar>\n  <gds-avatar size=\"l\">L</gds-avatar>\n</gds-flex>"
+      "code": "<gds-flex height=\"100%\" width=\"100%\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-avatar background=\"neutral-03\" color=\"neutral-05\"size=\"xs\">XS</gds-avatar>\n  <gds-avatar background=\"neutral-03\" color=\"neutral-05\" size=\"s\">S</gds-avatar>\n  <gds-avatar background=\"neutral-03\" color=\"neutral-05\" size=\"m\">M</gds-avatar>\n  <gds-avatar background=\"neutral-03\" color=\"neutral-05\" size=\"l\">L</gds-avatar>\n</gds-flex>"
     },
     {
       "title": "Badge: Lead",
@@ -1100,5 +1100,5 @@
     }
   ],
   "total": 183,
-  "lastUpdated": "2026-04-30T11:52:18.400Z"
+  "lastUpdated": "2026-04-30T11:57:03.020Z"
 }
