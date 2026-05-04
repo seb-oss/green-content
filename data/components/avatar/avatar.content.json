@@ -3,7 +3,7 @@
   "slug": "avatar",
   "hero_snippet": "avatar-hero",
   "beta": true,
-  "soon": true,
+  "soon": false,
   "summary": "An avatar represents a user, entity, or object. It is typically displayed as an image, initials, or icon, and helps identify ownership, participation, or presence in the interface.",
   "anatomy": true,
   "anatomy-details": "An avatar consists of a container that defines its shape and size, and content that represents the user or action. This content can be an image, initials, or an icon.",
