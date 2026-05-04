@@ -130,7 +130,7 @@
       "title": "Badge: Trail",
       "slug": "badge-trail",
       "path": "snippets/badge-trail/badge-trail.json",
-      "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    10,000.00\n    <gds-icon-arrow-right-up-circle slot=\"trail\"></gds-icon-arrow-right-up-circle>\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    142.00\n    <gds-icon-arrow-right-down-circle slot=\"trail\"></gds-icon-arrow-right-down-circle>\n  </gds-badge>\n</gds-flex>"
+      "code": "<gds-flex gap=\"xl\">\n  <gds-badge variant=\"positive\">\n    10,000.00 \n    <gds-icon-arrow-right-up-circle slot=\"trail\"></gds-icon-arrow-right-up-circle>\n  </gds-badge>\n  <gds-badge variant=\"negative\">\n    142.00\n    <gds-icon-arrow-right-down-circle slot=\"trail\"></gds-icon-arrow-right-down-circle>\n  </gds-badge>\n</gds-flex>"
     },
     {
       "title": "Badge: UX common EN",
@@ -1100,5 +1100,5 @@
     }
   ],
   "total": 183,
-  "lastUpdated": "2026-05-04T08:39:55.075Z"
+  "lastUpdated": "2026-05-04T11:41:03.033Z"
 }
