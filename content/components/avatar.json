@@ -4,7 +4,7 @@
   "hero_snippet": "avatar-hero",
   "beta": true,
   "soon": true,
-  "summary": "An Avatar represents a user, entity, or object. It is typically displayed as an image, initials, or icon, and helps identify ownership, participation, or presence in the interface.",
+  "summary": "An avatar represents a user, entity, or object. It is typically displayed as an image, initials, or icon, and helps identify ownership, participation, or presence in the interface.",
   "anatomy": true,
   "anatomy-details": "An avatar consists of a container that defines its shape and size, and content that represents the user or action. This content can be an image, initials, or an icon.",
   "anatomy-list": {
@@ -47,7 +47,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "The avatar comes in two shapes:\n\n- **Circular**  \nUsed in more prominent or personal contexts, such as the top header or profile-related areas.\n- **Squared**  \nUsed in more structured and dense layouts, such as list items.\n\n"
+          "content": "The avatar comes in two shapes:\n\n- **Circular**  \nUsed in more prominent or personal contexts, such as the top header or profile-related areas.\n- **Squared**  \nUsed to represent products, accounts, or organizations. This includes cases like specific account types, funds, or company logos.\n\n"
         },
         {
           "type": "snippet",
