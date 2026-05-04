@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-05-04T12:45:27.806Z",
+    "lastUpdated": "2026-05-04T13:12:23.294Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2259,7 +2259,7 @@
             "title": "Hero: Switch",
             "slug": "switch-hero",
             "path": "snippets/switch-hero/switch-hero.json",
-            "code": "<gds-switch label=\"Switch\" checked></gds-switch>",
+            "code": "<gds-switch label=\"Switch\"></gds-switch>",
             "endpoints": {
               "content": "snippets/switch-hero/switch-hero.json"
             }
