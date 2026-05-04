@@ -976,7 +976,7 @@
       "title": "Hero: Pagination ",
       "slug": "pagination-hero",
       "path": "snippets/pagination-hero/pagination-hero.json",
-      "code": "<gds-pagination data-pagination=\"\" page=\"1\" total=\"20\" rows=\"4\"></gds-pagination>"
+      "code": "<gds-pagination page=\"1\" total=\"20\" rows=\"8\" hide-options></gds-pagination>"
     },
     {
       "title": "Radio: Ux consistent do",
@@ -1100,5 +1100,5 @@
     }
   ],
   "total": 183,
-  "lastUpdated": "2026-05-04T12:31:00.046Z"
+  "lastUpdated": "2026-05-04T12:32:33.763Z"
 }
