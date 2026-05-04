@@ -1,5 +1,5 @@
 {
-  "title": "Switch: Hero",
+  "title": "Hero: Switch",
   "slug": "switch-hero",
   "snippet_component": "Switch",
   "code": "<gds-switch label=\"Switch\"></gds-switch>"
