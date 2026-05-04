@@ -1,5 +1,5 @@
 {
-  "title": "Pagination: Hero",
+  "title": "Hero: Pagination ",
   "slug": "pagination-hero",
   "code": "<gds-pagination data-pagination=\"\" page=\"1\" total=\"20\" rows=\"4\"></gds-pagination>"
 }
