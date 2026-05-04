@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-05-04T12:41:26.331Z",
+    "lastUpdated": "2026-05-04T12:42:49.753Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1989,7 +1989,7 @@
             "title": "Hero: Theme",
             "slug": "hero-theme",
             "path": "snippets/hero-theme/hero-theme.json",
-            "code": "<gds-card gap=\"0\" padding=\"xs\" flex-direction=\"row\" shadow=\"l\" width=\"max-content\" border-radius=\"xl\" variant=\"neutral-02-outlined\" padding=\"s\">\n  <gds-theme color-scheme=\"light\" design-version=\"2023\">\n    <gds-card variant=\"neutral-02\" align=\"center\" border-radius=\"m 0 0 m\">\n      <gds-icon-sun size=\"xl\"></gds-icon-sun>\n    </gds-card>\n  </gds-theme>\n  <gds-theme color-scheme=\"dark\" design-version=\"2023\">\n    <gds-card variant=\"neutral-02\" align=\"center\" border-radius=\"0 m m 0\">\n      <gds-icon-moon size=\"xl\"></gds-icon-moon>\n    </gds-card>\n  </gds-theme>\n</gds-flex>",
+            "code": "<gds-card gap=\"0\" padding=\"s\" flex-direction=\"row\" shadow=\"l\" width=\"max-content\" border-radius=\"xl\" variant=\"neutral-02-outlined\" padding=\"s\">\n  <gds-theme color-scheme=\"light\" design-version=\"2023\">\n    <gds-card variant=\"neutral-02-outlined\" align=\"center\" border-radius=\"m 0 0 m\">\n      <gds-icon-sun size=\"xl\"></gds-icon-sun>\n    </gds-card>\n  </gds-theme>\n  <gds-theme color-scheme=\"dark\" design-version=\"2023\">\n    <gds-card variant=\"neutral-02-outlined\" align=\"center\" border-radius=\"0 m m 0\">\n      <gds-icon-moon size=\"xl\"></gds-icon-moon>\n    </gds-card>\n  </gds-theme>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/hero-theme/hero-theme.json"
             }
