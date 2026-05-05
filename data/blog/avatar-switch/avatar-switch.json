@@ -2,7 +2,7 @@
   "title": "Avatar · New component",
   "slug": "new-component-avatar",
   "published": true,
-  "pinned": true,
+  "pinned": false,
   "cover": {
     "type": "snippet",
     "slug": "blog-avatar"
