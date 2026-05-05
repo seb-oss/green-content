@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-05-05T14:46:22.240Z",
+    "lastUpdated": "2026-05-05T14:47:03.942Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -282,6 +282,15 @@
             "endpoints": {
               "content": "components/link/link.content.json",
               "images": "components/link/link.images.json"
+            }
+          },
+          {
+            "title": "List pattern 01",
+            "slug": "list-pattern-01",
+            "path": "components/list-pattern-01/list-pattern-01.content.json",
+            "endpoints": {
+              "content": "components/list-pattern-01/list-pattern-01.content.json",
+              "images": "components/list-pattern-01/list-pattern-01.images.json"
             }
           },
           {
