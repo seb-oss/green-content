@@ -79,37 +79,6 @@
       "path": "blog/design-tokens-deep-dive/design-tokens-deep-dive.json"
     },
     {
-      "title": "GDS 1.0 · The foundation is set",
-      "slug": "gds-1-0",
-      "published": true,
-      "pinned": false,
-      "tags": [
-        "engineering",
-        "release"
-      ],
-      "authors": [
-        "joacim"
-      ],
-      "createdAt": "2024-04-10",
-      "path": "blog/green-core-1-0/green-core-1-0.json"
-    },
-    {
-      "title": "GDS 2.0 · Stable web components for everyone",
-      "slug": "gds-2-0",
-      "published": true,
-      "pinned": false,
-      "tags": [
-        "engineering",
-        "release"
-      ],
-      "authors": [
-        "joacim",
-        "jonathan"
-      ],
-      "createdAt": "2025-08-28",
-      "path": "blog/green-core-2-0/green-core-2-0.json"
-    },
-    {
       "title": "GDS 3.0 · Consolidation",
       "slug": "gds-3-0",
       "published": true,
@@ -145,6 +114,6 @@
       "path": "blog/this-is-the-green-design-system-blog/this-is-the-green-design-system-blog.json"
     }
   ],
-  "total": 9,
-  "lastUpdated": "2026-05-05T13:14:20.589Z"
+  "total": 7,
+  "lastUpdated": "2026-05-05T13:15:43.936Z"
 }
