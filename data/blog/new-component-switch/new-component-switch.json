@@ -1,8 +1,12 @@
 {
-  "title": "Switch",
+  "title": "Switch · New component",
   "slug": "new-component-switch",
   "published": true,
   "pinned": false,
+  "cover": {
+    "type": "snippet",
+    "slug": "blog-switch"
+  },
   "authors": [
     "astrit",
     "jessi",
