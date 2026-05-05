@@ -34,36 +34,6 @@
       "path": "blog/avatar-switch/avatar-switch.json"
     },
     {
-      "title": "Building with Web Components in 2025",
-      "slug": "building-with-web-components",
-      "published": true,
-      "pinned": false,
-      "tags": [
-        "engineering"
-      ],
-      "authors": [
-        "jonathan",
-        "vilhelm"
-      ],
-      "createdAt": "2025-11-05",
-      "path": "blog/building-with-web-components/building-with-web-components.json"
-    },
-    {
-      "title": "Design Tokens: From Figma Variables to CSS Custom Properties",
-      "slug": "design-tokens-deep-dive",
-      "published": true,
-      "pinned": false,
-      "tags": [
-        "design"
-      ],
-      "authors": [
-        "jessi",
-        "marwin"
-      ],
-      "createdAt": "2026-02-14",
-      "path": "blog/design-tokens-deep-dive/design-tokens-deep-dive.json"
-    },
-    {
       "title": "GDS 3.0 · Consolidation",
       "slug": "gds-3-0",
       "published": true,
@@ -99,6 +69,6 @@
       "path": "blog/this-is-the-green-design-system-blog/this-is-the-green-design-system-blog.json"
     }
   ],
-  "total": 6,
-  "lastUpdated": "2026-05-05T13:16:29.343Z"
+  "total": 4,
+  "lastUpdated": "2026-05-05T13:17:11.119Z"
 }
