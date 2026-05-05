@@ -1,11 +1,11 @@
 {
-  "title": "Avatar",
+  "title": "New component · Avatar",
   "slug": "new-component-avatar",
   "published": true,
   "pinned": true,
   "cover": {
     "type": "snippet",
-    "slug": "blog-avatar-switch"
+    "slug": "blog-avatar"
   },
   "tags": [
     "announcement"
