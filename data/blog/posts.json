@@ -49,21 +49,6 @@
       "path": "blog/building-with-web-components/building-with-web-components.json"
     },
     {
-      "title": "How we govern a design system at scale",
-      "slug": "design-system-governance",
-      "published": true,
-      "pinned": false,
-      "tags": [
-        "design"
-      ],
-      "authors": [
-        "jessi",
-        "astrit"
-      ],
-      "createdAt": "2026-01-20",
-      "path": "blog/design-system-governance/design-system-governance.json"
-    },
-    {
       "title": "Design Tokens: From Figma Variables to CSS Custom Properties",
       "slug": "design-tokens-deep-dive",
       "published": true,
@@ -114,6 +99,6 @@
       "path": "blog/this-is-the-green-design-system-blog/this-is-the-green-design-system-blog.json"
     }
   ],
-  "total": 7,
-  "lastUpdated": "2026-05-05T13:15:43.936Z"
+  "total": 6,
+  "lastUpdated": "2026-05-05T13:16:29.343Z"
 }
