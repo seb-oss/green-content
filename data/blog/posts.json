@@ -126,22 +126,6 @@
       "path": "blog/green-core-3-0/green-core-3-0.json"
     },
     {
-      "title": "GDS 3.5 · What's new",
-      "slug": "gds-3-5",
-      "published": true,
-      "pinned": false,
-      "tags": [
-        "engineering",
-        "release"
-      ],
-      "authors": [
-        "joacim",
-        "vilhelm"
-      ],
-      "createdAt": "2026-04-10",
-      "path": "blog/green-core-3-5/green-core-3-5.json"
-    },
-    {
       "title": "This is the Green Design System blog",
       "slug": "the-blog",
       "published": true,
@@ -161,6 +145,6 @@
       "path": "blog/this-is-the-green-design-system-blog/this-is-the-green-design-system-blog.json"
     }
   ],
-  "total": 10,
-  "lastUpdated": "2026-05-04T13:12:23.297Z"
+  "total": 9,
+  "lastUpdated": "2026-05-05T13:14:20.589Z"
 }
