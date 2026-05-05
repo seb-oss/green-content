@@ -162,6 +162,11 @@
       "path": "components/link/link.content.json"
     },
     {
+      "title": "List",
+      "slug": "list",
+      "path": "components/list/list.content.json"
+    },
+    {
       "title": "Menu button",
       "slug": "menu-button",
       "summary": "A menu button combines button and link behaviors for navigation menus.",
@@ -251,6 +256,6 @@
       "path": "components/video/video.content.json"
     }
   ],
-  "total": 42,
-  "lastUpdated": "2026-05-05T14:33:54.713Z"
+  "total": 43,
+  "lastUpdated": "2026-05-05T14:46:22.242Z"
 }

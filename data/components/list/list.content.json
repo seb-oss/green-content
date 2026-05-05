@@ -1,0 +1,12 @@
+{
+  "title": "List",
+  "slug": "list",
+  "beta": false,
+  "soon": true,
+  "anatomy": true,
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  }
+}
