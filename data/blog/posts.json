@@ -1,8 +1,8 @@
 {
   "posts": [
     {
-      "title": "Avatar + Switch",
-      "slug": "avatar-switch",
+      "title": "Avatar",
+      "slug": "new-component-avatar",
       "published": true,
       "pinned": true,
       "tags": [
@@ -34,6 +34,21 @@
       "path": "blog/green-core-3-0/green-core-3-0.json"
     },
     {
+      "title": "Switch",
+      "slug": "new-component-switch",
+      "published": true,
+      "pinned": false,
+      "tags": [],
+      "authors": [
+        "astrit",
+        "jessi",
+        "joacim",
+        "jonathan"
+      ],
+      "createdAt": "2026-05-05",
+      "path": "blog/new-component-switch/new-component-switch.json"
+    },
+    {
       "title": "This is the Green Design System blog",
       "slug": "the-blog",
       "published": true,
@@ -53,6 +68,6 @@
       "path": "blog/this-is-the-green-design-system-blog/this-is-the-green-design-system-blog.json"
     }
   ],
-  "total": 3,
-  "lastUpdated": "2026-05-05T13:37:54.740Z"
+  "total": 4,
+  "lastUpdated": "2026-05-05T14:29:26.958Z"
 }
