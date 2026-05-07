@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-05-07T13:43:50.907Z",
+    "lastUpdated": "2026-05-07T13:49:59.746Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2313,7 +2313,7 @@
             "title": "Table: Hero",
             "slug": "table-hero",
             "path": "snippets/table-hero/table-hero.json",
-            "code": "<gds-table>\n</gds-table>",
+            "code": "<gds-table plain></gds-table>",
             "endpoints": {
               "content": "snippets/table-hero/table-hero.json"
             }
