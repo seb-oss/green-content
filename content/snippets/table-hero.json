@@ -1,5 +1,5 @@
 {
   "title": "Table: Hero",
   "slug": "table-hero",
-  "code": "<gds-table plain selectable striped density=\"compact\"></gds-table>"
+  "code": "<gds-table plain selectable density=\"compact\"></gds-table>"
 }
