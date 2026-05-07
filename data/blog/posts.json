@@ -1,23 +1,6 @@
 {
   "posts": [
     {
-      "title": "Avatar · New component",
-      "slug": "new-component-avatar",
-      "published": true,
-      "pinned": false,
-      "tags": [
-        "announcement"
-      ],
-      "authors": [
-        "astrit",
-        "jessi",
-        "jonathan",
-        "joacim"
-      ],
-      "createdAt": "2026-04-30",
-      "path": "blog/avatar-switch/avatar-switch.json"
-    },
-    {
       "title": "GDS 3.0 · Consolidation",
       "slug": "gds-3-0",
       "published": true,
@@ -32,6 +15,23 @@
       ],
       "createdAt": "2026-03-27",
       "path": "blog/green-core-3-0/green-core-3-0.json"
+    },
+    {
+      "title": "Avatar · New component",
+      "slug": "new-component-avatar",
+      "published": true,
+      "pinned": false,
+      "tags": [
+        "announcement"
+      ],
+      "authors": [
+        "astrit",
+        "jessi",
+        "jonathan",
+        "joacim"
+      ],
+      "createdAt": "2026-04-30",
+      "path": "blog/new-component-avatar/new-component-avatar.json"
     },
     {
       "title": "Switch · New component",
@@ -69,5 +69,5 @@
     }
   ],
   "total": 4,
-  "lastUpdated": "2026-05-06T11:45:48.856Z"
+  "lastUpdated": "2026-05-07T12:41:15.705Z"
 }

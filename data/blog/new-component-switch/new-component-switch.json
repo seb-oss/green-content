@@ -1,0 +1,19 @@
+{
+  "title": "Switch · New component",
+  "slug": "new-component-switch",
+  "published": true,
+  "pinned": false,
+  "cover": {
+    "type": "snippet",
+    "slug": "blog-switch"
+  },
+  "authors": [
+    "astrit",
+    "jessi",
+    "joacim",
+    "jonathan"
+  ],
+  "content": "Switch is a new component in Green Design System for toggling a setting on or off.\n\nIt works like a physical switch — one tap turns it on, another turns it off. Use it when a change should take effect immediately, without a confirm button.\n\n## Sizes\n\nSwitch comes in two sizes: **large** (the default) and **small**. Use small in dense layouts where space is tight.\n\n## Label placement\n\nThe label can sit to the left or right of the toggle, giving you flexibility to match your layout without extra wrappers.\n\n## States\n\nSwitch supports on, off, and disabled — including a disabled-on state for when a setting is locked but still needs to communicate its current value.\n\n## Form-ready\n\nSwitch works in forms out of the box. It submits its value when on and nothing when off, matching how a native checkbox behaves — so it fits naturally into any form setup.\n\n---\n\nSwitch is available in Figma and documented at seb.io/component/switch.",
+  "createdAt": "2026-05-05",
+  "updatedAt": "2026-05-05"
+}
