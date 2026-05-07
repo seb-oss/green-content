@@ -1090,7 +1090,7 @@
       "title": "Table: Hero",
       "slug": "table-hero",
       "path": "snippets/table-hero/table-hero.json",
-      "code": "<gds-table plain></gds-table>"
+      "code": "<gds-table plain selectable></gds-table>"
     },
     {
       "title": "UX text: Input search colleague-se",
@@ -1106,5 +1106,5 @@
     }
   ],
   "total": 184,
-  "lastUpdated": "2026-05-07T13:49:59.748Z"
+  "lastUpdated": "2026-05-07T13:50:37.446Z"
 }

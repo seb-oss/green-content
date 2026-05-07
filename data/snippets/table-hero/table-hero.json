@@ -1,5 +1,5 @@
 {
   "title": "Table: Hero",
   "slug": "table-hero",
-  "code": "<gds-table plain></gds-table>"
+  "code": "<gds-table plain selectable></gds-table>"
 }
