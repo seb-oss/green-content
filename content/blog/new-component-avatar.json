@@ -1,0 +1,22 @@
+{
+  "title": "Avatar · New component",
+  "slug": "new-component-avatar",
+  "published": true,
+  "pinned": false,
+  "cover": {
+    "type": "snippet",
+    "slug": "blog-avatar"
+  },
+  "tags": [
+    "announcement"
+  ],
+  "authors": [
+    "astrit",
+    "jessi",
+    "jonathan",
+    "joacim"
+  ],
+  "content": "Avatar is a new component in Green Design System for representing people and entities across your product.\n\nWhether you have a photo, a name, or nothing at all — Avatar handles it gracefully. It shows the image if one is provided, falls back to initials or short text if not, and uses a default profile icon as a last resort. No extra setup needed.\n\n## Shapes\n\nAvatar comes in two shapes: **circular** for people, and **square** for non-person contexts like teams, bots, or brands.\n\n## Sizes\n\nFour sizes are available — **xs**, **s**, **m**, and **l** — so Avatar fits whether you need it in a tight list or as a prominent profile display.\n\n## Badge support\n\nNeed to show a notification count or a status indicator on top of an avatar? Drop a badge into the badge slot and it appears in the top-right corner automatically.\n\n## Grouping\n\nAvatars can be grouped together. The overlapping ring cutout effect is handled by the component — just stack them and it works. For overflow cases like a long member list, add an extra avatar with text like \u201c+5\u201d and the visual treatment stays consistent.\n\n---\n\nAvatar is available in Figma and documented at seb.io/component/avatar.",
+  "createdAt": "2026-04-30",
+  "updatedAt": "2026-04-30"
+}
