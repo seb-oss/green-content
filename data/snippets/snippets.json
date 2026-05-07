@@ -1090,7 +1090,7 @@
       "title": "Table: Hero",
       "slug": "table-hero",
       "path": "snippets/table-hero/table-hero.json",
-      "code": "<gds-table plain selectable striped density=\"compact\"></gds-table>"
+      "code": "<gds-table plain selectable density=\"compact\"></gds-table>"
     },
     {
       "title": "UX text: Input search colleague-se",
@@ -1106,5 +1106,5 @@
     }
   ],
   "total": 184,
-  "lastUpdated": "2026-05-07T13:52:16.652Z"
+  "lastUpdated": "2026-05-07T13:59:14.684Z"
 }
