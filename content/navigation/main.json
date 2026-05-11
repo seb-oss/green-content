@@ -13,6 +13,11 @@
       "icon": "IconBrandGreen"
     },
     {
+      "title": "Blog",
+      "slug": "blog",
+      "icon": "IconFileText"
+    },
+    {
       "title": "Components",
       "slug": "components",
       "icon": "IconSquareGridCircle"
