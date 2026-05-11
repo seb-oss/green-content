@@ -49,6 +49,18 @@
       "path": "blog/new-component-switch/new-component-switch.json"
     },
     {
+      "title": "New library for Icons and logotypes",
+      "slug": "new-icon-library",
+      "published": true,
+      "pinned": false,
+      "tags": [],
+      "authors": [
+        "jessi"
+      ],
+      "createdAt": "2026-05-11",
+      "path": "blog/new-icon-library/new-icon-library.json"
+    },
+    {
       "title": "This is the Green Design System blog",
       "slug": "the-blog",
       "published": true,
@@ -68,6 +80,6 @@
       "path": "blog/this-is-the-green-design-system-blog/this-is-the-green-design-system-blog.json"
     }
   ],
-  "total": 4,
-  "lastUpdated": "2026-05-11T12:52:51.098Z"
+  "total": 5,
+  "lastUpdated": "2026-05-11T16:21:11.234Z"
 }

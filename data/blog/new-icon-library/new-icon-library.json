@@ -1,7 +1,7 @@
 {
   "title": "New library for Icons and logotypes",
   "slug": "new-icon-library",
-  "published": false,
+  "published": true,
   "pinned": false,
   "cover": {
     "type": "snippet",
@@ -10,7 +10,7 @@
   "authors": [
     "jessi"
   ],
-  "content": "We’ve published a new icon and logotype library in Figma. The previous file has been renamed **deprecated**, and the new library has taken its place. The old file will remain available for now while we update the process between Figma and code, but we recommend starting to replace existing icons and use the new library going forward.\n\nMake sure to **add the new file as a library in Figma and remove the old one** from your enabled libraries to avoid confusion and ensure you’re using the latest assets.\n\nThis update introduces a clearer and more scalable structure, where each icon comes in both **regular** and **solid** variants. This makes it easier to find the right icon.\n\nThe new setup also improves how we design for states. You can now use the solid variant for active states in components such as menu buttons, tabs, and segmented controls, and actually get it to work in your Figma prototypes.  \n  \nSome icons currently look very similar in both regular and solid variants. This is because they come from Central Icons, where certain icons are designed this way. We may revisit and refine some of these over time if needed.\n\nIf you have any questions or feedback, feel free to reach out in the Green Design channel in Teams.",
+  "content": "We’ve published a new icon and logotype library in Figma. The previous file has been renamed **deprecated**, and the new library has taken its place. The old file will remain available for now while we update the process between Figma and code, but we recommend starting to replace existing icons and use the new library going forward.\n\nMake sure to **add the new file as a library in Figma and remove the old one** from your enabled libraries to avoid confusion and ensure you’re using the latest assets.\n\nThis update introduces a clearer structure, where each icon comes in both **regular** and **solid** variants. This makes it easier to find the right icon.\n\nSome icons currently look very similar in both regular and solid variants. This is because they come from Central Icons, where certain icons are designed this way. We may revisit and refine some of these over time if needed.  \n  \nAll components in the component library will be updated over time to use the new default icons. Some components will be deprecated and rebuilt using slots, while others will simply have their icon instances updated.\n\nIf you have any questions or feedback, feel free to reach out in the Green Design channel in Teams.",
   "createdAt": "2026-05-11",
   "updatedAt": "2026-05-11"
 }
