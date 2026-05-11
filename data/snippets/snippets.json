@@ -220,7 +220,7 @@
       "title": "Button: neutral",
       "slug": "button-neutral-2",
       "path": "snippets/button-neutral-2/button-neutral-2.json",
-      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>"
+      "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button> \n</gds-flex>"
     },
     {
       "title": "Button: next",
@@ -1106,5 +1106,5 @@
     }
   ],
   "total": 184,
-  "lastUpdated": "2026-05-11T08:53:45.677Z"
+  "lastUpdated": "2026-05-11T09:09:33.139Z"
 }

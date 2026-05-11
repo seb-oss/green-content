@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-05-11T08:53:45.675Z",
+    "lastUpdated": "2026-05-11T09:09:33.137Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1008,7 +1008,7 @@
             "title": "Button: neutral",
             "slug": "button-neutral-2",
             "path": "snippets/button-neutral-2/button-neutral-2.json",
-            "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button>\n</gds-flex>",
+            "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button>Primary</gds-button>\n  <gds-button rank=\"secondary\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\">Tertiary</gds-button> \n</gds-flex>",
             "endpoints": {
               "content": "snippets/button-neutral-2/button-neutral-2.json"
             }
