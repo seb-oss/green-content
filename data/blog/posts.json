@@ -49,7 +49,7 @@
       "path": "blog/new-component-switch/new-component-switch.json"
     },
     {
-      "title": "New library for Icons and logotypes",
+      "title": "New library for icons and logotypes",
       "slug": "new-icon-library",
       "published": true,
       "pinned": false,
@@ -81,5 +81,5 @@
     }
   ],
   "total": 5,
-  "lastUpdated": "2026-05-11T16:21:11.234Z"
+  "lastUpdated": "2026-05-11T16:22:40.116Z"
 }
