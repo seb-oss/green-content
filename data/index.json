@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-05-12T06:32:22.349Z",
+    "lastUpdated": "2026-05-12T06:43:25.584Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2136,6 +2136,15 @@
             "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/link-trailing/link-trailing.json"
+            }
+          },
+          {
+            "title": "List: Hero",
+            "slug": "list-hero",
+            "path": "snippets/list-hero/list-hero.json",
+            "code": "...",
+            "endpoints": {
+              "content": "snippets/list-hero/list-hero.json"
             }
           },
           {
