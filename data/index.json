@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-05-12T06:43:25.584Z",
+    "lastUpdated": "2026-05-12T06:43:46.367Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2145,6 +2145,15 @@
             "code": "...",
             "endpoints": {
               "content": "snippets/list-hero/list-hero.json"
+            }
+          },
+          {
+            "title": "LP01: Hero",
+            "slug": "lp01-hero",
+            "path": "snippets/lp01-hero/lp01-hero.json",
+            "code": "...",
+            "endpoints": {
+              "content": "snippets/lp01-hero/lp01-hero.json"
             }
           },
           {
