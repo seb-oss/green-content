@@ -1,6 +1,7 @@
 {
   "title": "List",
   "slug": "list",
+  "hero_snippet": "list-hero",
   "beta": false,
   "soon": true,
   "anatomy": true,
