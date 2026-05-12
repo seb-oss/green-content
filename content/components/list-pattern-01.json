@@ -1,6 +1,7 @@
 {
   "title": "List pattern 01",
   "slug": "list-pattern-01",
+  "hero_snippet": "lp01-hero",
   "beta": false,
   "soon": true,
   "anatomy": true,
