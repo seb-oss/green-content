@@ -1,0 +1,153 @@
+{
+  "title": "Talking about sustainability",
+  "slug": "talking-about-sustainability",
+  "summary": "At SEB, we strive to always express ourselves clearly and transparently to ensure that customers receive correct information and understand the choices they make.",
+  "sections": [
+    {
+      "title": "Background",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "At SEB, we strive to always express ourselves clearly and transparently to ensure that customers receive correct information and understand the choices they make."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Regarding sustainability in fund information, the terms \"light green\" (Article 8, funds with sustainable characteristics) and \"dark green\" (Article 9, funds with sustainability as an objective) started to be used when the EU's Sustainable Finance Disclosure Regulation (SFDR) was introduced in 2021."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "The expressions “dark green and “light green” do not appear formally in the regulatory framework but are used by several players on the market, in Sweden as well as in the rest of Europe."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "In order to avoid ambiguity in the description of funds, SEB has decided to stop using terms such as “sustainable” in fund names or “light green” and “dark green” as standalone concepts, but rather always together with an accompanying description (see example on page 4)."
+        }
+      ]
+    },
+    {
+      "title": "Why is it important how we communicate?",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Regulatory scrutiny is increasing around communication of sustainable products and services."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "We comply with the legal requirements that govern our operations."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Through accurate information, we want to make it easy for customers to understand and compare and at the same time ensure that the description of products meets requirements and regulations."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "We want to strengthen the brand and the experience that SEB works actively with sustainability."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "We want to avoid the risk of \"greenwashing\"."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Recommendations"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "The expression “dark green/light green” funds should only be used in conjunction with the recommended terms Article 8 and Article 9. For example, writing \" Article 9 funds, also called dark green funds\"."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "\"Sustainable funds\" as an expression may only be used for Article 9 funds and should be limited to searchable digital channels. The aim is for the customer to find the information easily."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "\"About sustainability in funds\" can be used in link texts to drive traffic to more information on all funds in the EU's sustainability categories."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "The term “dark green/light green” funds should never stand alone or as a description of a product, e.g. \"The dark green SEB Global Opportunity Fund“."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Fund names may not contain the words “dark green” or “light green”, unless otherwise decided by the SEB Sustainability Product Committee."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Article 6 funds should be referred to as \"Other funds\""
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Article 8 funds should be referred to as “funds with sustainable characteristics” in texts and “sustainable characteristics” in fund lists"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Article 9 funds should be referred to as “funds with sustainable investment as an objective” in texts and \"sustainability as an objective\" in fund listings."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Example of how we should communicate"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "In written communication (example from the web)"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "“Do you plan to save for your dream trip, for the children's future or a cash investment for a new home? Then funds can be a good alternative. Our selection includes funds that take sustainability into consideration in various ways. The funds that take the greatest consideration to sustainability are funds that have sustainable investments as their objective. These are funds whose primary purpose is to invest in environmental and/or social solutions, while giving your money a good chance to grow.”"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Visual design"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "In digital channels, it is good to reinforce Article 8 funds with a light green color and Article 9 funds with a dark green color."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "In oral communication"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Customer: \"Which sustainable funds do you recommend?“"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "The adviser: \"We have a wide range of funds that take sustainability into account in different ways. The funds that take the most consideration are funds that have sustainable investments as their objective, also known as Article 9 funds. They can invest in environmental and/or social solutions.”"
+        }
+      ]
+    }
+  ]
+}

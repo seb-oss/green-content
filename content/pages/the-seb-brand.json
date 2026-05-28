@@ -1,0 +1,75 @@
+{
+  "title": "The SEB Brand",
+  "slug": "the-seb-brand",
+  "summary": "Everything we do is guided by our Purpose.",
+  "sections": [
+    {
+      "title": "Our heritage is important, just as embracing changing with the times. We exist to positively shape the future. Today, and for the next 165 years.",
+      "tag": "H5",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Everything we do is guided by our Purpose."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "We exist to positively shape the futurewith responsible advice and capital.Today and for generations to come."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/5dc70c5f-89fc-486b-8794-20fd90b74b25.png"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/images/f03163934a134090a05b7a3f0034d04e.jpg"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/images/0b466426-e23d-4819-8a60-142a16d031e2.jpg"
+        }
+      ]
+    },
+    {
+      "title": "In an increasingly competitive environment, expansion to new markets, and product innovation, we need to communicate clearly and consistently.",
+      "tag": "H5",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Previous chapter"
+        }
+      ]
+    },
+    {
+      "title": "Brand Guidelines",
+      "tag": "H4",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Next chapter"
+        }
+      ]
+    }
+  ]
+}

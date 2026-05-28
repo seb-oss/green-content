@@ -1,0 +1,213 @@
+{
+  "title": "Colours",
+  "slug": "colours",
+  "summary": "Colours are a powerful tool in visual communication. SEB is a business bank with premium services for private customers, and that has to be reflected in our use of colours, as with everything else in our visual toolbox.",
+  "sections": [
+    {
+      "title": "Colours",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Colours are a powerful tool in visual communication. SEB is a business bank with premium services for private customers, and that has to be reflected in our use of colours, as with everything else in our visual toolbox."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "The message is everything. Knowing when to use colours and when not to use them is key in creating a balanced and visually pleasing design."
+        }
+      ]
+    },
+    {
+      "title": "SEB Green Sr.",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Green is deeply connected to SEB:s heritage and our brand. Our brand's signature green, SEB Green Sr. (senior) is a key element in our visual identity, and it should be the first color we use when considering using color to highlight our brand. It is a deep green color that helps us create a refined, balanced look across all communications."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/7335cb42-c52e-47ae-8f80-4a93b38e6675.jpg"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "SEB:s Colour space"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "This is the colours we use in design. It's always important not to forget that in order to create elegant, modern and timeless design, our most powerful tool is using white space and attention to detail. Colours are what differentiate us from other brands, but over using it will take away it's power as a communication tool. When in doubt, think less is more. The chart below shows how SEB should be perceived across multiple touchpoints, with a strong focus on black, white and Green Sr."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/72d21140-175b-4cb0-954c-a046a1138548.svg"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Black and white is our core colours. It's the colour of our logotype, and it's the typical colour of our messages. Using only black and white is never wrong."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "When SEB Green Sr. is used, we communicate our brand in the strongest possible way. It's most effective when used to signal the SEB brand."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "SEB Green Jr. is a supporting colour. It helps us create strong visual design elements when needed, but should never be used on it's own – it is not our brand colour."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Silver and Bronze are colours to be used when we need to build more hierarchies or dynamic designs – typically in longer printed material, information design or digital layouts. They do not communicate SEB:s brand on their own, and should be seen as functional colours that work well together with Green Sr. and the SEB design in general."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Silver is almost gray, with a slight tint of cyan and can be used as a grayscale, using different brightness levels of the same hue. This is useful tool when creating visual hierarchies.A faded Green Sr. can sometimes be used in tables and charts. It's important that the variations of Green Sr is a more transparent shade of Green Sr, and not a variation of the color."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/4e9d6036-d34c-4009-85df-3ef189ac192d.jpg"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Working with colour"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Here are a few pointers to keep in mind when working within the SEB color space."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/d26a2ab2-e447-4554-8b70-6b082d857f8e.svg"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Using silver as a secondary headline colour works very well in creating a modern elegant layout. It can make a long headline less heavy and give the design a more dynamic feel."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Silver is the only text colour except for black and white that we use."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/4ad44164-60f4-44d8-832d-4950beab6793.jpg"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "SEB Green Jr is best used as a highlight colour for single elements. It can brighten up a layout, add a splash of energy and draw focus to something important."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Please mind that Green Jr can not be the main colour of any design. It's always a supporting colour."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/64cf50f8-de8c-44cb-b648-ea20640be8dc.svg"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Faded variations of SEB Green Sr can be used to create hierarchies and graphical elements. Typically in information design and graphs."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/c21ed7bf-878c-458e-8982-92e4f6f9ed81.svg"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Brighter variations of the bronze colour can be used as backgrounds to create an off-white feeling to warmth up a design."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "This is mainly done in digital design and long printed materials like reports and brochures."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/13a7db9b-7e90-40a1-a782-1b4affb9b879.svg"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "SEB Green Sr can never be used for text. It's intended to be used as a background colour for layouts and graphical elements."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/3d27def8-33b5-46c3-8d9d-3fafaa1b750b.svg"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "When creating brighter variations of SEB Green Sr, it's important to brighten it using lower opacity, not brightening the color hue or removing black from the color mix – this will result in turquoise hues that's not in line with the SEB brand."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/cb18967e-df7b-4f90-9f4c-a6e74d226504.jpg"
+        }
+      ]
+    },
+    {
+      "title": "UI, Web, Social",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "In UI and in some social contexts, colour takes a different form.  For example, to illustrate links, stocks going up, stocks going down. We need colour in this informative context. In social it could be a colour-coded vignette to indicate a theme."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "The CX-team has developed a colour system intended for use on our website and in our app. This is for the sole use of information, not for decoration."
+        },
+        {
+          "type": "image",
+          "src": "/assets/images/8b9fe0d5-c714-4d4d-8259-527c09f72188.svg"
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "The colours used for UI elements are not part of the SEB Colour space – but they are chosen to align well with our brand colours."
+        },
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Previous chapter"
+        }
+      ]
+    },
+    {
+      "title": "Typography",
+      "tag": "H4",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "paragraph",
+          "tag": "p",
+          "text": "Next chapter"
+        }
+      ]
+    }
+  ]
+}
