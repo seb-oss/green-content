@@ -15,7 +15,7 @@
     },
     {
       "title": "Designing with space",
-      "section-content": "Good spacing helps distinguish elements, making interactions more intuitive. Too little space creates clutter, while too much can weaken relationships between components.\n\nThoughtful spacing enhances readability and usability, ensuring every element has room to breathe.\n\nWhite space isn’t empty space - it’s an active part of the design. It improves focus, increases legibility, and makes interfaces feel more open and approachable.\n\nGreen uses space tokens based on a 4 px grid system. This scale applies to margin, padding, gap, radius, and all spacing values. When designing layouts, spacing values range from 1 px to 120 px, providing flexibility.",
+      "section-content": "Good spacing helps distinguish elements, making interactions more intuitive. Too little space creates clutter, while too much can weaken relationships between components.\n\nThoughtful spacing enhances readability and usability, ensuring every element has room to breathe.\n\nWhite space isn’t empty space - it’s an active part of the design. It improves focus, increases legibility, and makes interfaces feel more open and approachable.\n\nThe scale applies to margin, padding, gap, radius, and all spacing values. When designing layouts, spacing values range from 1 px to 120 px, providing flexibility.",
       "max-width": true,
       "cols": "1"
     }
