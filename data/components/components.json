@@ -237,6 +237,11 @@
       "path": "components/table/table.content.json"
     },
     {
+      "title": "Tabs",
+      "slug": "tabs",
+      "path": "components/tabs/tabs.content.json"
+    },
+    {
       "title": "Text",
       "slug": "text",
       "summary": "Text summary",
@@ -261,6 +266,6 @@
       "path": "components/video/video.content.json"
     }
   ],
-  "total": 44,
-  "lastUpdated": "2026-06-04T09:01:03.683Z"
+  "total": 45,
+  "lastUpdated": "2026-06-04T09:01:35.103Z"
 }

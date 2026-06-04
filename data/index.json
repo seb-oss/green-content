@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-04T09:01:03.682Z",
+    "lastUpdated": "2026-06-04T09:01:35.101Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -409,6 +409,15 @@
             "endpoints": {
               "content": "components/table/table.content.json",
               "images": "components/table/table.images.json"
+            }
+          },
+          {
+            "title": "Tabs",
+            "slug": "tabs",
+            "path": "components/tabs/tabs.content.json",
+            "endpoints": {
+              "content": "components/tabs/tabs.content.json",
+              "images": "components/tabs/tabs.images.json"
             }
           },
           {
