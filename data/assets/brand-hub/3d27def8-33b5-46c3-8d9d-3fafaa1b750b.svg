@@ -1,0 +1,20 @@
+<svg xml:space="preserve" style="enable-background:new 0 0 566.9 566.9;" viewBox="0 0 566.9 566.9" y="0px" x="0px" id="Layer_1" version="1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+	.st0{fill:#EFF0F0;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:none;stroke:#FF0202;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<rect height="566.9" width="566.9" class="st0" y="0"></rect>
+<linearGradient gradientTransform="matrix(1 0 0 1 1003.2192 -167.7391)" y2="451.2037" x2="-506.0103" y1="451.2037" x1="-933.4991" gradientUnits="userSpaceOnUse" id="SVGID_1_">
+	<stop style="stop-color:#00EB97" offset="0"></stop>
+	<stop style="stop-color:#00B574" offset="0.1915"></stop>
+	<stop style="stop-color:#008857" offset="0.3781"></stop>
+	<stop style="stop-color:#006541" offset="0.5562"></stop>
+	<stop style="stop-color:#004C31" offset="0.7236"></stop>
+	<stop style="stop-color:#003D27" offset="0.876"></stop>
+	<stop style="stop-color:#003824" offset="1"></stop>
+</linearGradient>
+<path d="M467.7,398.5H99.3c-16.3,0-29.5-13.2-29.5-29.5v-171c0-16.3,13.2-29.5,29.5-29.5h368.4  c16.3,0,29.5,13.2,29.5,29.5v171C497.2,385.3,484,398.5,467.7,398.5z" class="st1"></path>
+<line y2="79.9" x2="487" y1="487" x1="79.9" class="st2"></line>
+<line y2="487" x2="487" y1="79.9" x1="79.9" class="st2"></line>
+</svg>
