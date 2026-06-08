@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-08T12:14:12.463Z",
+    "lastUpdated": "2026-06-08T12:16:56.563Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -402,16 +402,6 @@
             }
           },
           {
-            "title": "Tab",
-            "slug": "tab",
-            "summary": "Tabs allow users to navigate between groups of related content at the same level of hierarchy.",
-            "path": "components/tab/tab.content.json",
-            "endpoints": {
-              "content": "components/tab/tab.content.json",
-              "images": "components/tab/tab.images.json"
-            }
-          },
-          {
             "title": "Table",
             "slug": "table",
             "summary": "A table displays structured data for overview and comparison.",
@@ -424,6 +414,7 @@
           {
             "title": "Tabs",
             "slug": "tabs",
+            "summary": "Tabs allow users to navigate between groups of related content at the same level of hierarchy.",
             "path": "components/tabs/tabs.content.json",
             "endpoints": {
               "content": "components/tabs/tabs.content.json",
@@ -910,7 +901,7 @@
             "title": "Alert: Negative",
             "slug": "alert-negative-variant",
             "path": "snippets/alert-negative-variant/alert-negative-variant.json",
-            "code": "<gds-div width=\"80%\" display=\"block\">\n  <gds-alert variant=\"negative\" role=\"alert\">\n    <strong>Negative</strong> Error message requiring user attention.\n  </gds-alert>\n</gds-div>",
+            "code": "<gds-div width=\"80%\" display=\"block\">\n  <gds-alert variant=\"negative\" role=\"alert\">\n    <strong>Negative</strong> Error message requiring user attention. \n  </gds-alert>\n</gds-div>",
             "endpoints": {
               "content": "snippets/alert-negative-variant/alert-negative-variant.json"
             }

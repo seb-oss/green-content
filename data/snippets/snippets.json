@@ -28,7 +28,7 @@
       "title": "Alert: Negative",
       "slug": "alert-negative-variant",
       "path": "snippets/alert-negative-variant/alert-negative-variant.json",
-      "code": "<gds-div width=\"80%\" display=\"block\">\n  <gds-alert variant=\"negative\" role=\"alert\">\n    <strong>Negative</strong> Error message requiring user attention.\n  </gds-alert>\n</gds-div>"
+      "code": "<gds-div width=\"80%\" display=\"block\">\n  <gds-alert variant=\"negative\" role=\"alert\">\n    <strong>Negative</strong> Error message requiring user attention. \n  </gds-alert>\n</gds-div>"
     },
     {
       "title": "Alert: Notice",
@@ -1118,5 +1118,5 @@
     }
   ],
   "total": 186,
-  "lastUpdated": "2026-06-08T12:14:12.465Z"
+  "lastUpdated": "2026-06-08T12:16:56.566Z"
 }
