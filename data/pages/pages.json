@@ -13,6 +13,120 @@
       "path": "pages/accessibility/accessibility.json"
     },
     {
+      "title": "Brand Guidelines",
+      "slug": "brand/brand-guidelines",
+      "summary": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
+      "path": "pages/brand-brand-guidelines/brand-brand-guidelines.json"
+    },
+    {
+      "title": "Colours",
+      "slug": "brand/colours",
+      "summary": "Colours are a powerful tool in visual communication. SEB is a business bank with premium services for private customers, and that has to be reflected in our use of colours, as with everything else in our visual toolbox.",
+      "path": "pages/brand-colours/brand-colours.json"
+    },
+    {
+      "title": "Digital invitations",
+      "slug": "brand/written-id-english/digital-invitations",
+      "summary": "Be concise and clear",
+      "path": "pages/brand-digital-invitations/brand-digital-invitations.json"
+    },
+    {
+      "title": "Digitala inbjudningar​",
+      "slug": "brand/written-id-swedish/digitala-inbjudningar",
+      "summary": "Skriv kort och kärnfullt​",
+      "path": "pages/brand-digitala-inbjudningar/brand-digitala-inbjudningar.json"
+    },
+    {
+      "title": "Generative AI Guidelines",
+      "slug": "brand/generative-ai-guidelines",
+      "summary": "SEB is built on trust and relationships, always prioritizing the big picture, understanding client’s needs, and offering the best long-term advice. Clients value this and are willing to pay a premium for it.",
+      "path": "pages/brand-generative-ai-guidelines/brand-generative-ai-guidelines.json"
+    },
+    {
+      "title": "Icons & Signage",
+      "slug": "brand/icons-and-signage",
+      "summary": "Using icons and pictograms in the right way can help navigate through certain environments.",
+      "path": "pages/brand-icons-and-signage/brand-icons-and-signage.json"
+    },
+    {
+      "title": "Imagery",
+      "slug": "brand/imagery",
+      "summary": "We have a new lineup of amazing images in our image bank to make SEB stand out. We want to show an elevated reality and create a distinctive SEB look.",
+      "path": "pages/brand-imagery/brand-imagery.json"
+    },
+    {
+      "title": "Logotype",
+      "slug": "brand/logotype",
+      "summary": "The most distinct part of our visual identity is the SEB emblem. It telegraphically communicates and connects SEB to a piece of communication, a building, a service, or a digital product.",
+      "path": "pages/brand-logotype/brand-logotype.json"
+    },
+    {
+      "title": "Media Bank",
+      "slug": "brand/media-bank",
+      "summary": "Here is a selection of our image categories. Please note that all portrait images are only available under the \"Portraits\" category.",
+      "path": "pages/brand-media-bank/brand-media-bank.json"
+    },
+    {
+      "title": "Real Estate",
+      "slug": "brand/real-estate",
+      "summary": "To ensure our employees and customers experience a coherent expression of the SEB brand across all of our branches and buildings worldwide, we have created this interior design guideline.",
+      "path": "pages/brand-real-estate/brand-real-estate.json"
+    },
+    {
+      "title": "Riktlinjer för kommunikation av hållbarhet i fonder",
+      "slug": "brand/riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder",
+      "summary": "SEB strävar efter att i all kommunikation uttrycka sig transparent och tydligt för att kunderna ska få korrekt information och förstå de val de gör.",
+      "path": "pages/brand-riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder/brand-riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder.json"
+    },
+    {
+      "title": "Talking about sustainability",
+      "slug": "brand/written-id-english/talking-about-sustainability",
+      "summary": "At SEB, we strive to always express ourselves clearly and transparently to ensure that customers receive correct information and understand the choices they make.",
+      "path": "pages/brand-talking-about-sustainability/brand-talking-about-sustainability.json"
+    },
+    {
+      "title": "Templates & downloads",
+      "slug": "brand/templates-and-downloads",
+      "summary": "Here you can find and download some of our more common templates. More will be added in a near future.",
+      "path": "pages/brand-templates-and-downloads/brand-templates-and-downloads.json"
+    },
+    {
+      "title": "The SEB Brand",
+      "slug": "brand/the-seb-brand",
+      "summary": "Everything we do is guided by our Purpose.",
+      "path": "pages/brand-the-seb-brand/brand-the-seb-brand.json"
+    },
+    {
+      "title": "Typography",
+      "slug": "brand/typography",
+      "summary": "Images and copy work together to convey a message. But we don’t get all the way without the right typography.",
+      "path": "pages/brand-typography/brand-typography.json"
+    },
+    {
+      "title": "Video & Audio Logotype",
+      "slug": "brand/video-and-audio-logotype",
+      "summary": "To strengthen brand recognition and maximize brand impact, an animated SEB logotype should be used at the end of video material.",
+      "path": "pages/brand-video-and-audio-logotype/brand-video-and-audio-logotype.json"
+    },
+    {
+      "title": "Visual Guidelines",
+      "slug": "brand/visual-guidelines",
+      "summary": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
+      "path": "pages/brand-visual-guidelines/brand-visual-guidelines.json"
+    },
+    {
+      "title": "Written ID — English",
+      "slug": "brand/written-id-english",
+      "summary": "Everything we say, write, and do is guided by our purpose:",
+      "path": "pages/brand-written-id-english/brand-written-id-english.json"
+    },
+    {
+      "title": "Written ID — Swedish",
+      "slug": "brand/written-id-swedish",
+      "summary": "Allt vi säger, skriver och gör ska utgå från vårt övergripande syfte:",
+      "path": "pages/brand-written-id-swedish/brand-written-id-swedish.json"
+    },
+    {
       "title": "Applied design",
       "slug": "design-direction/applied-design",
       "summary": "Applied design shows how our visual design comes to life in concrete examples - with templates and clear guidance for building layouts.",
@@ -115,6 +229,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 19,
-  "lastUpdated": "2026-06-08T12:13:37.313Z"
+  "total": 38,
+  "lastUpdated": "2026-06-08T12:14:12.465Z"
 }
