@@ -231,6 +231,12 @@
       "path": "components/switch/switch.content.json"
     },
     {
+      "title": "Tab",
+      "slug": "tab",
+      "summary": "Tabs allow users to navigate between groups of related content at the same level of hierarchy.",
+      "path": "components/tab/tab.content.json"
+    },
+    {
       "title": "Table",
       "slug": "table",
       "summary": "A table displays structured data for overview and comparison.",
@@ -266,6 +272,6 @@
       "path": "components/video/video.content.json"
     }
   ],
-  "total": 45,
-  "lastUpdated": "2026-06-04T09:01:35.103Z"
+  "total": 46,
+  "lastUpdated": "2026-06-08T12:13:37.313Z"
 }

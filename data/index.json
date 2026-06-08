@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-04T09:01:35.101Z",
+    "lastUpdated": "2026-06-08T12:13:37.311Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -399,6 +399,16 @@
             "endpoints": {
               "content": "components/switch/switch.content.json",
               "images": "components/switch/switch.images.json"
+            }
+          },
+          {
+            "title": "Tab",
+            "slug": "tab",
+            "summary": "Tabs allow users to navigate between groups of related content at the same level of hierarchy.",
+            "path": "components/tab/tab.content.json",
+            "endpoints": {
+              "content": "components/tab/tab.content.json",
+              "images": "components/tab/tab.images.json"
             }
           },
           {
