@@ -127,6 +127,12 @@
       "path": "pages/brand-written-id-swedish/brand-written-id-swedish.json"
     },
     {
+      "title": "Brand",
+      "slug": "brand",
+      "summary": "This will be the landing page from all brand contenta",
+      "path": "pages/brand/brand.json"
+    },
+    {
       "title": "Applied design",
       "slug": "design-direction/applied-design",
       "summary": "Applied design shows how our visual design comes to life in concrete examples - with templates and clear guidance for building layouts.",
@@ -229,6 +235,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 38,
-  "lastUpdated": "2026-06-08T12:16:56.565Z"
+  "total": 39,
+  "lastUpdated": "2026-06-08T13:11:53.781Z"
 }

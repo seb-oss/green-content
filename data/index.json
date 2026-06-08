@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-08T12:16:56.563Z",
+    "lastUpdated": "2026-06-08T13:11:53.778Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -701,6 +701,15 @@
             "path": "pages/brand-written-id-swedish/brand-written-id-swedish.json",
             "endpoints": {
               "content": "pages/brand-written-id-swedish/brand-written-id-swedish.json"
+            }
+          },
+          {
+            "title": "Brand",
+            "slug": "brand",
+            "summary": "This will be the landing page from all brand contenta",
+            "path": "pages/brand/brand.json",
+            "endpoints": {
+              "content": "pages/brand/brand.json"
             }
           },
           {
