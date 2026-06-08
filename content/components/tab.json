@@ -1,0 +1,299 @@
+{
+  "title": "Tab",
+  "slug": "tab",
+  "hero_snippet": "hero-tab",
+  "beta": false,
+  "soon": false,
+  "summary": "Tabs allow users to navigate between groups of related content at the same level of hierarchy.",
+  "preamble": "The tab component organises content across different screens, data sets, and other interactions. It makes it easy to explore and switch between different views without leaving the current page.",
+  "anatomy": true,
+  "anatomy-overview": "Tab consists of a tab bar with individual tab items. Each tab item contains a label and optionally a leading icon. The active tab is visually distinguished from inactive tabs.",
+  "anatomy-details": "1.  Tab bar\n    \n2.  Tab item\n    \n3.  Tab label\n    \n4.  Active indicator\n    \n5.  Leading icon (optional)",
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Tab bar"
+      },
+      {
+        "text": "Tab item"
+      },
+      {
+        "text": "Tab label"
+      },
+      {
+        "text": "Active indicator"
+      },
+      {
+        "text": "Leading icon (optional)"
+      }
+    ]
+  },
+  "tags": ["Navigation", "Layout"],
+  "category": ["Components"],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  },
+  "overview": [
+    {
+      "title": "Default",
+      "section-content": "Tabs are used as local navigation to organise related content into logical groupings. Users can switch between views without losing the context of the page.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "tab-default"
+        }
+      ]
+    },
+    {
+      "title": "Overflow behaviour",
+      "tag": "H2",
+      "section-content": "When tabs exceed the available width, all tabs that cannot fit are grouped into a list in a fold-out modal. On mobile with only two tabs, each tab takes up 50% of the width.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "tab-overflow"
+        }
+      ]
+    },
+    {
+      "title": "Tabs vs segmented control",
+      "tag": "H2",
+      "section-content": "Tabs and segmented controls can look similar, but they serve very different purposes. Choosing the wrong component leads to user confusion and misaligned expectations.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Use tabs when",
+          "tag": "H3",
+          "content": "Use tabs to navigate between **completely different views or distinct sections of content**. Each tab reveals unique content that is unrelated to what the other tabs show.\n\nThink of tabs as separate binders — switching tabs takes the user to an entirely different set of content.\n\n*   The content under each tab is meaningfully different in nature\n    \n*   Users are unlikely to need to compare the contents of multiple tabs at once\n    \n*   The tabs act as primary or secondary navigation within the page\n    \n*   Content groupings are based on different topics, data sets, or tasks"
+        },
+        {
+          "type": "rich-text",
+          "title": "Use segmented control when",
+          "tag": "H3",
+          "content": "Use segmented control to **filter or toggle the presentation of the same underlying content**. The data does not change — only how it is displayed or sorted.\n\nThink of segmented control as a switch that changes the lens through which you view the same document.\n\n*   You are switching between different representations of the same data (e.g. list vs. grid, weekly vs. monthly)\n    \n*   The options act as filters or view toggles within a single context\n    \n*   The component is embedded within a form or a content area, not used as page navigation"
+        },
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use tabs for navigating between accounts (Savings, Loans, Funds) — each contains entirely different content."
+            },
+            {
+              "text": "Use segmented control to switch between a list view and a chart view of the same transaction data."
+            },
+            {
+              "text": "Use segmented control to toggle between time periods (Week, Month, Year) on the same graph."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don't use tabs to toggle between views of the same data set — this is the role of segmented control."
+            },
+            {
+              "text": "Don't use segmented control as page-level navigation between unrelated sections."
+            },
+            {
+              "text": "Don't mix up the two components — tabs are for navigation, segmented control is for filtering or view switching."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Guidelines",
+      "section-content": "Tabs are best suited for a small number of clearly distinct content groupings. Order tabs according to user needs, placing the most commonly accessed tab first.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use tabs to navigate between groups of content."
+            },
+            {
+              "text": "Keep the number of tabs low, preferably fewer than four."
+            },
+            {
+              "text": "Order tabs according to user needs — the most commonly used tab should come first."
+            },
+            {
+              "text": "Align tab content to the left with the first tab."
+            },
+            {
+              "text": "Use tabs when users will not need to view all sections at once."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Avoid nesting tabs within tabs."
+            },
+            {
+              "text": "Don't use tabs to toggle data or parts of a form — use segmented control for this."
+            },
+            {
+              "text": "Don't add sub-headings under tab labels."
+            },
+            {
+              "text": "Don't use tabs if the user needs to read all sections to complete a task."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disabled tabs",
+      "tag": "H2",
+      "section-content": "Individual tabs can be disabled to indicate that a section is unavailable. Use this sparingly and only when the reason for unavailability is clear to the user.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Disable a tab only when the section is temporarily unavailable and will become accessible again — for example, due to missing permissions or incomplete preconditions."
+            },
+            {
+              "text": "Provide context elsewhere on the page explaining why a tab is disabled and how the user can enable it."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don't disable a tab permanently — remove it from the tab bar instead."
+            },
+            {
+              "text": "Don't disable a tab without giving the user a way to understand why or how to proceed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Link tabs",
+      "tag": "H2",
+      "section-content": "Tabs can render as anchor links, navigating to a new URL rather than switching panel content inline. Use link tabs for top-level or cross-page navigation where each tab corresponds to a distinct URL.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use link tabs when each tab maps to a unique URL and the browser should handle navigation."
+            },
+            {
+              "text": "Use link tabs for primary or secondary page-level navigation sections."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don't use link tabs when switching between inline panels — use standard tabs instead."
+            },
+            {
+              "text": "Don't mix link tabs and panel tabs within the same tab bar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Leading and trailing content",
+      "tag": "H2",
+      "section-content": "Tab items support a leading slot for icons and a trailing slot for supplementary content such as notification badges or counts. Use these slots to aid recognition or communicate status — not for decoration.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "tab-lead-trail"
+        }
+      ]
+    },
+    {
+      "title": "Leading and trailing content guidelines",
+      "tag": "H3",
+      "section-content": "",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use a leading icon to reinforce the meaning of a tab label when the icon adds clarity."
+            },
+            {
+              "text": "Use a trailing badge or count to communicate a quantity or status relevant to the tab's content — for example, the number of unread notifications."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don't use a leading icon purely for decoration — every icon should carry meaning."
+            },
+            {
+              "text": "Don't use trailing content in a way that makes the tab label hard to read or the tab bar feel cluttered."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ux-text": [
+    {
+      "title": "Writing UX text for tabs",
+      "tag": "H2",
+      "section-content": "Tab labels serve as both navigation menu items and implicit sub-headings for the content they reveal. This means labels must be clear and descriptive enough to stand on their own — without requiring a sub-heading beneath them.\n\nDo not capitalise the first letter of every word in tab labels. Use uppercase only for:\n\n*   The first letter of the first word\n    \n*   Proper names\n    \n*   Abbreviations"
+    },
+    {
+      "title": "Tab labels",
+      "tag": "H3",
+      "section-content": "Because tab labels also act as sub-headings, they must be explicit and self-explanatory. Avoid vague or generic labels that do not describe the content.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Do",
+          "plain": false,
+          "replay": false,
+          "variant": "Do",
+          "Snippet": "tab-ux-do"
+        },
+        {
+          "type": "snippet",
+          "caption": "Don't",
+          "plain": false,
+          "replay": false,
+          "variant": "Dont",
+          "Snippet": "tab-ux-dont"
+        }
+      ]
+    },
+    {
+      "title": "Common tab labels in overviews",
+      "tag": "H3",
+      "section-content": "Use consistent and recognisable labels for common content groupings. Standard tab labels used in overviews include:\n\n*   **Value** – presents details about the current holding\n    \n*   **Payments** – shows upcoming, pending, and historical payments\n    \n*   **About the account** – shows details about the account or service, such as connected services, interest rates, and fees\n    \n\nWhen applicable, include the subject area in the label, for example _About the loan_ or _Fund transactions_."
+    }
+  ]
+}
