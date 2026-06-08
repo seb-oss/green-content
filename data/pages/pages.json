@@ -129,7 +129,7 @@
     {
       "title": "Brand",
       "slug": "brand",
-      "summary": "This will be the landing page from all brand contenta",
+      "summary": "Coming soon...",
       "path": "pages/brand/brand.json"
     },
     {
@@ -236,5 +236,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-08T13:18:24.904Z"
+  "lastUpdated": "2026-06-08T14:05:37.756Z"
 }

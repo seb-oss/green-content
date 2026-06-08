@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-08T13:18:24.902Z",
+    "lastUpdated": "2026-06-08T14:05:37.754Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -706,7 +706,7 @@
           {
             "title": "Brand",
             "slug": "brand",
-            "summary": "This will be the landing page from all brand contenta",
+            "summary": "Coming soon...",
             "path": "pages/brand/brand.json",
             "endpoints": {
               "content": "pages/brand/brand.json"
