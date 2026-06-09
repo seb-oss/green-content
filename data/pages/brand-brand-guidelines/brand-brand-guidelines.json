@@ -1,19 +1,12 @@
 {
   "title": "Brand Guidelines",
   "slug": "brand/brand-guidelines",
-  "parent": "brand",
   "summary": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
+  "parent": "brand",
   "sections": [
     {
       "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels."
-        }
-      ]
+      "cols": "1"
     }
   ]
 }
