@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-09T11:44:11.863Z",
+    "lastUpdated": "2026-06-09T11:51:29.224Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2523,6 +2523,15 @@
             "code": "<gds-table plain selectable density=\"compact\" width=\"300px\" height=\"200px\"></gds-table>",
             "endpoints": {
               "content": "snippets/table-hero/table-hero.json"
+            }
+          },
+          {
+            "title": "brand_the_seb_brand",
+            "slug": "the-seb-brand",
+            "path": "snippets/the-seb-brand/the-seb-brand.json",
+            "code": "<gds-flex padding=\"2xl\" margin=\"auto\">\n  <gds-card-pattern-01 href=\"#\" title=\"Title\" \" src=\"https://api.seb.io/assets/launch-hero.jpg\">\n  </gds-card-pattern-01>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/the-seb-brand/the-seb-brand.json"
             }
           },
           {
