@@ -1,6 +1,7 @@
 {
   "title": "The SEB Brand",
   "slug": "brand/the-seb-brand",
+  "parent": "brand",
   "summary": "Everything we do is guided by our Purpose.",
   "sections": [
     {

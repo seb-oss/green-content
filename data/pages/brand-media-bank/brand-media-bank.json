@@ -1,6 +1,7 @@
 {
   "title": "Media Bank",
   "slug": "brand/media-bank",
+  "parent": "brand",
   "summary": "Here is a selection of our image categories. Please note that all portrait images are only available under the \"Portraits\" category.",
   "sections": [
     {
