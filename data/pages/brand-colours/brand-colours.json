@@ -20,16 +20,6 @@
           "src": "/assets/brand-hub/7335cb42-c52e-47ae-8f80-4a93b38e6675.jpg"
         },
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "SEB:s Colour space"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "This is the colours we use in design. It's always important not to forget that in order to create elegant, modern and timeless design, our most powerful tool is using white space and attention to detail. Colours are what differentiate us from other brands, but over using it will take away it's power as a communication tool. When in doubt, think less is more. The chart below shows how SEB should be perceived across multiple touchpoints, with a strong focus on black, white and Green Sr."
-        },
-        {
           "type": "image",
           "src": "/assets/brand-hub/72d21140-175b-4cb0-954c-a046a1138548.svg"
         },
@@ -191,6 +181,13 @@
           "text": "Next chapter"
         }
       ]
+    },
+    {
+      "title": "SEB:s Colour space",
+      "tag": "H2",
+      "section-content": "This is the colours we use in design. It's always important not to forget that in order to create elegant, modern and timeless design, our most powerful tool is using white space and attention to detail. Colours are what differentiate us from other brands, but over using it will take away it's power as a communication tool. When in doubt, think less is more. The chart below shows how SEB should be perceived across multiple touchpoints, with a strong focus on black, white and Green Sr.",
+      "max-width": false,
+      "cols": "2"
     }
   ]
 }
