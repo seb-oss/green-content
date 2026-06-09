@@ -6,7 +6,13 @@
   "sections": [
     {
       "max-width": true,
-      "cols": "1"
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/brand-guidelines.jpg"
+        }
+      ]
     }
   ]
 }
