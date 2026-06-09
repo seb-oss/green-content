@@ -16,6 +16,18 @@
     {
       "section-content": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
       "max-width": true
+    },
+    {
+      "max-width": false,
+      "cols": "3",
+      "columns": [
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "the-seb-brand"
+        }
+      ]
     }
   ]
 }
