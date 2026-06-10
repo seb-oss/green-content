@@ -1,8 +1,8 @@
 {
   "title": "Typography",
   "slug": "brand/typography",
-  "parent": "brand",
   "summary": "Images and copy work together to convey a message. But we don’t get all the way without the right typography.",
+  "parent": "brand",
   "sections": [
     {
       "title": "Typography",
@@ -13,17 +13,11 @@
         {
           "type": "paragraph",
           "tag": "p",
-          "text": "Images and copy work together to convey a message. But we don’t get all the way without the right typography."
+          "text": "We see thousands of messages every day – what distinguishes the good from the bad is often typography. A brand that pays attention to every detail is perceived as more professional and trustworthy. The copy should feel effortless to read."
         },
         {
           "type": "paragraph",
-          "tag": "p",
-          "text": "We see thousands of messages every day – what distinguishes the good from the bad is often typography. A brand that pays attention to every detail is perceived as more professional and trustworthy."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "The copy should feel effortless to read."
+          "tag": "p"
         }
       ]
     },
