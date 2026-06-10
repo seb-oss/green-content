@@ -7,13 +7,13 @@
     {
       "title": "SEB Green Sr.",
       "tag": "H2",
-      "section-content": "Green is deeply connected to SEB:s heritage and our brand. Our brand's signature green, SEB Green Sr. (senior) is a key element in our visual identity, and it should be the first color we use when considering using color to highlight our brand. It is a deep green color that helps us create a refined, balanced look across all communications.",
-      "max-width": true,
+      "max-width": false,
       "cols": "1",
       "columns": [
         {
           "type": "paragraph",
-          "tag": "p"
+          "tag": "p",
+          "text": "Green is deeply connected to SEB:s heritage and our brand. Our brand's signature green, SEB Green Sr. (senior) is a key element in our visual identity, and it should be the first color we use when considering using color to highlight our brand. It is a deep green color that helps us create a refined, balanced look across all communications."
         },
         {
           "type": "image",
