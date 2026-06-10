@@ -28,6 +28,30 @@
       "cols": "2"
     },
     {
+      "title": "Working with colour",
+      "tag": "H2",
+      "section-content": "Here are a few pointers to keep in mind when working within the SEB color space.",
+      "max-width": false,
+      "cols": "3",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Using silver as a secondary headline colour works very well in creating a modern elegant layout. It can make a long headline less heavy and give the design a more dynamic feel.  Silver is the only text colour except for black and white that we use.",
+          "src": "/assets/brand-hub/0b047787-7d5f-40fb-92dd-51dcefb74a03.jpeg"
+        },
+        {
+          "type": "image",
+          "caption": "SEB Green Jr is best used as a highlight colour for single elements. It can brighten up a layout, add a splash of energy and draw focus to something important.  Please mind that Green Jr can not be the main colour of any design. It's always a supporting colour.",
+          "src": "/assets/brand-hub/0b047787-7d5f-40fb-92dd-51dcefb74a03.jpeg"
+        },
+        {
+          "type": "image",
+          "caption": "Faded variations of SEB Green Sr can be used to create hierarchies and graphical elements. Typically in information design and graphs.",
+          "src": "/assets/brand-hub/0b047787-7d5f-40fb-92dd-51dcefb74a03.jpeg"
+        }
+      ]
+    },
+    {
       "title": "Color usage",
       "tag": "H2",
       "max-width": true,
@@ -88,30 +112,6 @@
           "type": "paragraph",
           "tag": "p",
           "text": "Next chapter"
-        }
-      ]
-    },
-    {
-      "title": "Working with colour",
-      "tag": "H2",
-      "section-content": "Here are a few pointers to keep in mind when working within the SEB color space.",
-      "max-width": false,
-      "cols": "3",
-      "columns": [
-        {
-          "type": "image",
-          "caption": "Using silver as a secondary headline colour works very well in creating a modern elegant layout. It can make a long headline less heavy and give the design a more dynamic feel.  Silver is the only text colour except for black and white that we use.",
-          "src": "/assets/brand-hub/0b047787-7d5f-40fb-92dd-51dcefb74a03.jpeg"
-        },
-        {
-          "type": "image",
-          "caption": "SEB Green Jr is best used as a highlight colour for single elements. It can brighten up a layout, add a splash of energy and draw focus to something important.  Please mind that Green Jr can not be the main colour of any design. It's always a supporting colour.",
-          "src": "/assets/brand-hub/0b047787-7d5f-40fb-92dd-51dcefb74a03.jpeg"
-        },
-        {
-          "type": "image",
-          "caption": "Faded variations of SEB Green Sr can be used to create hierarchies and graphical elements. Typically in information design and graphs.",
-          "src": "/assets/brand-hub/0b047787-7d5f-40fb-92dd-51dcefb74a03.jpeg"
         }
       ]
     },
