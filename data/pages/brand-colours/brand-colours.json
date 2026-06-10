@@ -22,6 +22,13 @@
       ]
     },
     {
+      "title": "SEB:s Colour space",
+      "tag": "H2",
+      "section-content": "This is the colours we use in design. It's always important not to forget that in order to create elegant, modern and timeless design, our most powerful tool is using white space and attention to detail. Colours are what differentiate us from other brands, but over using it will take away it's power as a communication tool. When in doubt, think less is more. The chart below shows how SEB should be perceived across multiple touchpoints, with a strong focus on black, white and Green Sr.",
+      "max-width": false,
+      "cols": "2"
+    },
+    {
       "title": "Color usage",
       "tag": "H2",
       "max-width": true,
@@ -41,16 +48,9 @@
       ]
     },
     {
-      "title": "SEB:s Colour space",
-      "tag": "H2",
-      "section-content": "This is the colours we use in design. It's always important not to forget that in order to create elegant, modern and timeless design, our most powerful tool is using white space and attention to detail. Colours are what differentiate us from other brands, but over using it will take away it's power as a communication tool. When in doubt, think less is more. The chart below shows how SEB should be perceived across multiple touchpoints, with a strong focus on black, white and Green Sr.",
-      "max-width": false,
-      "cols": "2"
-    },
-    {
       "title": "UI, Web, Social",
       "tag": "H2",
-      "max-width": true,
+      "max-width": false,
       "cols": "1",
       "columns": [
         {
