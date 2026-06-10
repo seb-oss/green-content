@@ -68,6 +68,21 @@
           "type": "image",
           "caption": "Faded variations of SEB Green Sr can be used to create hierarchies and graphical elements. Typically in information design and graphs.",
           "src": "/assets/working_with_colors_03.png"
+        },
+        {
+          "type": "image",
+          "caption": "Brighter variations of the bronze colour can be used as backgrounds to create an off-white feeling to warmth up a design.  This is mainly done in digital design and long printed materials like reports and brochures.",
+          "src": "/assets/working-with-colors-04.png"
+        },
+        {
+          "type": "image",
+          "caption": "SEB Green Sr can never be used for text. It's intended to be used as a background colour for layouts and graphical elements.",
+          "src": "/assets/working-with-colors-05.png"
+        },
+        {
+          "type": "image",
+          "caption": " When creating brighter variations of SEB Green Sr, it's important to brighten it using lower opacity, not brightening the color hue or removing black from the color mix – this will result in turquoise hues that's not in line with the SEB brand.",
+          "src": "/assets/working-with-colors-06.png"
         }
       ]
     },
