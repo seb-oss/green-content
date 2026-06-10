@@ -4,7 +4,9 @@
   "hero_snippet": "lp01-hero",
   "beta": false,
   "soon": true,
-  "anatomy": true,
+  "summary": "List item pattern 01 is built on top of the base list and list item components and supports slot-based composition for flexible layouts and supports interactive row behavior.",
+  "preamble": "List item pattern 01 provides a ready-to-use row structure for displaying labels and values with support for selection, navigation, and row-level actions. Use the lead, main, and trail slots to combine icons, text and actions. This ensures consistent layout, spacing, and accessibility while allowing flexibility through slots.",
+  "anatomy": false,
   "category": [
     "Patterns"
   ],
@@ -12,5 +14,88 @@
     "web": false,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Items",
+      "tag": "H2",
+      "section-content": "Use items property to get predefined styling for 2-3 columns.\n\nNote: Use custom content directly in the row to be slotted into main, if you want to show more columns.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "With single item"
+        },
+        {
+          "type": "rich-text",
+          "title": "With multiple items"
+        }
+      ]
+    },
+    {
+      "title": "Selectable / Linked",
+      "tag": "H2",
+      "cols": "3",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Selectable",
+          "tag": "H3",
+          "content": "Enable `selectable` to show a checkbox and support checked/unchecked states."
+        },
+        {
+          "type": "rich-text",
+          "title": "Href",
+          "tag": "H3",
+          "content": "Add `href` to make the row interactive as a link. Displays a chevron in the trail slot."
+        },
+        {
+          "type": "rich-text",
+          "title": "selectable + href",
+          "tag": "H3",
+          "content": "Combine checkbox selection and link navigation in the same row."
+        }
+      ]
+    },
+    {
+      "title": "Padding inline",
+      "section-content": "Use the `padding-inline` property to customize horizontal padding on a list item. Set to `0` to remove padding. Defaults to `s`.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "With custom padding-inline"
+        },
+        {
+          "type": "rich-text",
+          "title": "With no padding-inline"
+        }
+      ]
+    },
+    {
+      "title": "Slots",
+      "section-content": "List item pattern 01 is built on top of the base list and list item components and supports slot-based composition for flexible layouts and interactions.",
+      "cols": "3",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Lead slot",
+          "tag": "H3",
+          "content": "Use for icons, avatars, or custom leading content. When `selectable` is enabled, it shows a checkbox."
+        },
+        {
+          "type": "rich-text",
+          "title": "Main area",
+          "tag": "H3",
+          "content": "Use custom content directly in the row. If no custom content is provided, the `items` property renders label/value columns"
+        },
+        {
+          "type": "rich-text",
+          "title": "Trail slot",
+          "tag": "H3",
+          "content": "Use for actions such as links or buttons. When `href` is set, the row renders a chevron link in the trail."
+        }
+      ]
+    }
+  ]
 }
