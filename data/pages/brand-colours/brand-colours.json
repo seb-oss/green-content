@@ -155,7 +155,7 @@
     {
       "title": "Color usage",
       "tag": "H2",
-      "max-width": false,
+      "max-width": true,
       "columns": [
         {
           "type": "paragraph",
