@@ -1,28 +1,19 @@
 {
   "title": "Colours",
   "slug": "brand/colours",
+  "summary": "Colours are a powerful tool in visual communication. SEB is a business bank with premium services for private customers, and that has to be reflected in our use of colours, as with everything else in our visual toolbox. The message is everything. Knowing when to use colours and when not to use them is key in creating a balanced and visually pleasing design.",
   "parent": "brand",
   "sections": [
     {
+      "title": "SEB Green Sr.",
+      "tag": "H2",
+      "section-content": "Green is deeply connected to SEB:s heritage and our brand. Our brand's signature green, SEB Green Sr. (senior) is a key element in our visual identity, and it should be the first color we use when considering using color to highlight our brand. It is a deep green color that helps us create a refined, balanced look across all communications.",
       "max-width": true,
       "cols": "1",
       "columns": [
         {
           "type": "paragraph",
-          "text": "Colours are a powerful tool in visual communication. SEB is a business bank with premium services for private customers, and that has to be reflected in our use of colours, as with everything else in our visual toolbox. The message is everything. Knowing when to use colours and when not to use them is key in creating a balanced and visually pleasing design."
-        }
-      ]
-    },
-    {
-      "title": "SEB Green Sr.",
-      "tag": "H2",
-      "max-width": false,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Green is deeply connected to SEB:s heritage and our brand. Our brand's signature green, SEB Green Sr. (senior) is a key element in our visual identity, and it should be the first color we use when considering using color to highlight our brand. It is a deep green color that helps us create a refined, balanced look across all communications."
+          "tag": "p"
         },
         {
           "type": "image",
