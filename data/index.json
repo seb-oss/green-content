@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-10T14:06:53.857Z",
+    "lastUpdated": "2026-06-10T14:21:05.540Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -287,6 +287,7 @@
           {
             "title": "List item pattern 01",
             "slug": "list-item-pattern-01",
+            "summary": "List item pattern 01 is built on top of the base list and list item components and supports slot-based composition for flexible layouts and supports interactive row behavior.",
             "path": "components/list-pattern-01/list-pattern-01.content.json",
             "endpoints": {
               "content": "components/list-pattern-01/list-pattern-01.content.json",
