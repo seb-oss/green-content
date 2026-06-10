@@ -71,32 +71,13 @@
     {
       "title": "UI, Web, Social",
       "tag": "H2",
+      "section-content": "In UI and in some social contexts, colour takes a different form. For example, to illustrate links, stocks going up, stocks going down. We need colour in this informative context. In social it could be a colour-coded vignette to indicate a theme.\n\nThe CX-team has developed a colour system intended for use on our website and in our app. This is for the sole use of information, not for decoration.\n\nThe colours used for UI elements are not part of the SEB Colour space – but they are chosen to align well with our brand colours.",
       "max-width": false,
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "In UI and in some social contexts, colour takes a different form. For example, to illustrate links, stocks going up, stocks going down. We need colour in this informative context. In social it could be a colour-coded vignette to indicate a theme."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "The CX-team has developed a colour system intended for use on our website and in our app. This is for the sole use of information, not for decoration."
-        },
-        {
           "type": "image",
           "src": "/assets/brand-hub/8b9fe0d5-c714-4d4d-8259-527c09f72188.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "The colours used for UI elements are not part of the SEB Colour space – but they are chosen to align well with our brand colours."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Previous chapter"
         }
       ]
     }
