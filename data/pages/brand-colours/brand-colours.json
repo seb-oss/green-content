@@ -183,7 +183,7 @@
       "title": "Working with colour",
       "tag": "H2",
       "section-content": "Here are a few pointers to keep in mind when working within the SEB color space.",
-      "max-width": true,
+      "max-width": false,
       "cols": "3",
       "columns": [
         {
