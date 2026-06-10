@@ -24,18 +24,11 @@
     {
       "title": "SEB SansSerif",
       "tag": "H2",
-      "max-width": true,
+      "max-width": false,
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Our typeface SEB SansSerif is specially designed specifically for us. It's created for maximum legibility in digital channels while being equally efficient in print."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "SEB SansSerif blends aesthetics and functionality from both the classic and modern typography to create a typeface with a timeless, distinct, and unique expression."
+          "type": "rich-text"
         },
         {
           "type": "image",
