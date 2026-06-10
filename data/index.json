@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-10T13:38:26.237Z",
+    "lastUpdated": "2026-06-10T13:42:57.803Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2352,6 +2352,15 @@
             "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"notice\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"notice\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"notice\">Tertiary</gds-button>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/notice/notice.json"
+            }
+          },
+          {
+            "title": "Blog: Thoughts on number inputs",
+            "slug": "number-input",
+            "path": "snippets/number-input/number-input.json",
+            "code": "<gds-input\n  type=\"number\"\n  label=\"I'm a number input\"\n  supporting-text=\"And you should probably just avoid me!\"\n  width=\"300px\">\n</gds-input>",
+            "endpoints": {
+              "content": "snippets/number-input/number-input.json"
             }
           },
           {

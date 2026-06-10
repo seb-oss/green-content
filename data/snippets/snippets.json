@@ -991,6 +991,12 @@
       "code": "<gds-flex gap=\"s\" padding=\"xl\">\n  <gds-button variant=\"notice\">Primary</gds-button>\n  <gds-button rank=\"secondary\" variant=\"notice\">Secondary</gds-button>\n  <gds-button rank=\"tertiary\" variant=\"notice\">Tertiary</gds-button>\n</gds-flex>"
     },
     {
+      "title": "Blog: Thoughts on number inputs",
+      "slug": "number-input",
+      "path": "snippets/number-input/number-input.json",
+      "code": "<gds-input\n  type=\"number\"\n  label=\"I'm a number input\"\n  supporting-text=\"And you should probably just avoid me!\"\n  width=\"300px\">\n</gds-input>"
+    },
+    {
       "title": "Hero: Pagination ",
       "slug": "pagination-hero",
       "path": "snippets/pagination-hero/pagination-hero.json",
@@ -1123,6 +1129,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 187,
-  "lastUpdated": "2026-06-10T13:38:26.239Z"
+  "total": 188,
+  "lastUpdated": "2026-06-10T13:42:57.806Z"
 }
