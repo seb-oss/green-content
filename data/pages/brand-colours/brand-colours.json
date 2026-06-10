@@ -18,48 +18,6 @@
         {
           "type": "paragraph",
           "tag": "p",
-          "text": "Working with colour"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Here are a few pointers to keep in mind when working within the SEB color space."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/d26a2ab2-e447-4554-8b70-6b082d857f8e.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Using silver as a secondary headline colour works very well in creating a modern elegant layout. It can make a long headline less heavy and give the design a more dynamic feel."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Silver is the only text colour except for black and white that we use."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/4ad44164-60f4-44d8-832d-4950beab6793.jpg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "SEB Green Jr is best used as a highlight colour for single elements. It can brighten up a layout, add a splash of energy and draw focus to something important."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Please mind that Green Jr can not be the main colour of any design. It's always a supporting colour."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/64cf50f8-de8c-44cb-b648-ea20640be8dc.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
           "text": "Faded variations of SEB Green Sr can be used to create hierarchies and graphical elements. Typically in information design and graphs."
         },
         {
@@ -97,6 +55,33 @@
         {
           "type": "image",
           "src": "/assets/brand-hub/cb18967e-df7b-4f90-9f4c-a6e74d226504.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Color usage",
+      "tag": "H2",
+      "max-width": true,
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Black and white is our core colours. It's the colour of our logotype, and it's the typical colour of our messages. Using only black and white is never wrong."
+        },
+        {
+          "type": "paragraph",
+          "text": "When SEB Green Sr. is used, we communicate our brand in the strongest possible way. It's most effective when used to signal the SEB brand."
+        },
+        {
+          "type": "paragraph",
+          "text": "SEB Green Jr. is a supporting colour. It helps us create strong visual design elements when needed, but should never be used on it's own – it is not our brand colour."
+        },
+        {
+          "type": "paragraph",
+          "text": "Silver and Bronze are colours to be used when we need to build more hierarchies or dynamic designs – typically in longer printed material, information design or digital layouts. They do not communicate SEB:s brand on their own, and should be seen as functional colours that work well together with Green Sr. and the SEB design in general."
+        },
+        {
+          "type": "paragraph",
+          "text": "Silver is almost gray, with a slight tint of cyan and can be used as a grayscale, using different brightness levels of the same hue. This is useful tool when creating visual hierarchies.A faded Green Sr. can sometimes be used in tables and charts. It's important that the variations of Green Sr is a more transparent shade of Green Sr, and not a variation of the color."
         }
       ]
     },
@@ -149,33 +134,6 @@
           "type": "paragraph",
           "tag": "p",
           "text": "Next chapter"
-        }
-      ]
-    },
-    {
-      "title": "Color usage",
-      "tag": "H2",
-      "max-width": true,
-      "columns": [
-        {
-          "type": "paragraph",
-          "text": "Black and white is our core colours. It's the colour of our logotype, and it's the typical colour of our messages. Using only black and white is never wrong."
-        },
-        {
-          "type": "paragraph",
-          "text": "When SEB Green Sr. is used, we communicate our brand in the strongest possible way. It's most effective when used to signal the SEB brand."
-        },
-        {
-          "type": "paragraph",
-          "text": "SEB Green Jr. is a supporting colour. It helps us create strong visual design elements when needed, but should never be used on it's own – it is not our brand colour."
-        },
-        {
-          "type": "paragraph",
-          "text": "Silver and Bronze are colours to be used when we need to build more hierarchies or dynamic designs – typically in longer printed material, information design or digital layouts. They do not communicate SEB:s brand on their own, and should be seen as functional colours that work well together with Green Sr. and the SEB design in general."
-        },
-        {
-          "type": "paragraph",
-          "text": "Silver is almost gray, with a slight tint of cyan and can be used as a grayscale, using different brightness levels of the same hue. This is useful tool when creating visual hierarchies.A faded Green Sr. can sometimes be used in tables and charts. It's important that the variations of Green Sr is a more transparent shade of Green Sr, and not a variation of the color."
         }
       ]
     },
