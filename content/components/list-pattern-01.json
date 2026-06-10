@@ -33,7 +33,7 @@
       ]
     },
     {
-      "title": "Selectable / Linked",
+      "title": "Selectable and linked",
       "tag": "H2",
       "cols": "3",
       "columns": [
@@ -75,27 +75,48 @@
     {
       "title": "Slots",
       "section-content": "List item pattern 01 is built on top of the base list and list item components and supports slot-based composition for flexible layouts and interactions.",
+      "cols": "1"
+    },
+    {
+      "title": "Lead slot",
+      "tag": "H3",
+      "section-content": "Use for icons, avatars, or custom leading content. When `selectable` is enabled, it shows a checkbox.",
       "cols": "3",
       "columns": [
         {
           "type": "rich-text",
-          "title": "Lead slot",
-          "tag": "H3",
-          "content": "Use for icons, avatars, or custom leading content. When `selectable` is enabled, it shows a checkbox."
+          "title": "With icon"
         },
         {
           "type": "rich-text",
-          "title": "Main area",
-          "tag": "H3",
-          "content": "Use custom content directly in the row. If no custom content is provided, the `items` property renders label/value columns"
+          "title": "With avatar"
         },
         {
           "type": "rich-text",
-          "title": "Trail slot",
-          "tag": "H3",
-          "content": "Use for actions such as links or buttons. When `href` is set, the row renders a chevron link in the trail."
+          "title": "With no lead"
         }
       ]
+    },
+    {
+      "title": "Main",
+      "tag": "H3",
+      "section-content": "Use custom content directly in the row.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Custom content - text"
+        },
+        {
+          "type": "rich-text",
+          "title": "Custom content - badge"
+        }
+      ]
+    },
+    {
+      "title": "Lead slot",
+      "tag": "H3",
+      "section-content": "Use for actions such as links or buttons. When `href` is set, the row renders a chevron link in the trail."
     }
   ]
 }
