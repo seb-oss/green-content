@@ -3,6 +3,10 @@
   "slug": "thoughts-on-number-inputs",
   "published": false,
   "pinned": false,
+  "cover": {
+    "type": "snippet",
+    "slug": "number-input"
+  },
   "tags": [
     "engineering"
   ],
