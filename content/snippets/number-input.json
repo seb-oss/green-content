@@ -1,0 +1,5 @@
+{
+  "title": "Blog: Thoughts on number inputs",
+  "slug": "number-input",
+  "code": "<gds-input\n  type=\"number\"\n  label=\"I'm a number input\"\n  supporting-text=\"And you should probably just avoid me!\"\n  width=\"300px\">\n</gds-input>"
+}
