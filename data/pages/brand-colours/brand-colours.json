@@ -8,53 +8,12 @@
       "title": "SEB Green Sr.",
       "tag": "H2",
       "max-width": false,
-      "cols": "2",
+      "cols": "1",
       "columns": [
         {
           "type": "paragraph",
           "tag": "p",
           "text": "Green is deeply connected to SEB:s heritage and our brand. Our brand's signature green, SEB Green Sr. (senior) is a key element in our visual identity, and it should be the first color we use when considering using color to highlight our brand. It is a deep green color that helps us create a refined, balanced look across all communications."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Faded variations of SEB Green Sr can be used to create hierarchies and graphical elements. Typically in information design and graphs."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/c21ed7bf-878c-458e-8982-92e4f6f9ed81.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Brighter variations of the bronze colour can be used as backgrounds to create an off-white feeling to warmth up a design."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "This is mainly done in digital design and long printed materials like reports and brochures."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/13a7db9b-7e90-40a1-a782-1b4affb9b879.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "SEB Green Sr can never be used for text. It's intended to be used as a background colour for layouts and graphical elements."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/3d27def8-33b5-46c3-8d9d-3fafaa1b750b.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "When creating brighter variations of SEB Green Sr, it's important to brighten it using lower opacity, not brightening the color hue or removing black from the color mix – this will result in turquoise hues that's not in line with the SEB brand."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/cb18967e-df7b-4f90-9f4c-a6e74d226504.jpg"
         }
       ]
     },
@@ -63,18 +22,6 @@
       "tag": "H2",
       "max-width": true,
       "columns": [
-        {
-          "type": "paragraph",
-          "text": "Black and white is our core colours. It's the colour of our logotype, and it's the typical colour of our messages. Using only black and white is never wrong."
-        },
-        {
-          "type": "paragraph",
-          "text": "When SEB Green Sr. is used, we communicate our brand in the strongest possible way. It's most effective when used to signal the SEB brand."
-        },
-        {
-          "type": "paragraph",
-          "text": "SEB Green Jr. is a supporting colour. It helps us create strong visual design elements when needed, but should never be used on it's own – it is not our brand colour."
-        },
         {
           "type": "paragraph",
           "text": "Silver and Bronze are colours to be used when we need to build more hierarchies or dynamic designs – typically in longer printed material, information design or digital layouts. They do not communicate SEB:s brand on their own, and should be seen as functional colours that work well together with Green Sr. and the SEB design in general."
