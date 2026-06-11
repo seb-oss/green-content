@@ -120,7 +120,7 @@
     },
     {
       "title": "Split button",
-      "section-content": "⚠️ Coming soon.\n\nThe split button always has a primary action. This action is most likely to be used by the customer as the default action.When users click on the primary action, it triggers this action directly, such as submitting a form, confirming a selection, or initiating a process.\n\nThe users can click on the dropdown arrow to reveal a dropdown menu providing secondary or additional options.\n\nThe split button comes in both primary and secondary.",
+      "section-content": "The split button always has a primary action. This action is most likely to be used by the customer as the default action. The users can click on the icon button to reveal a context menu providing secondary or additional options.",
       "cols": "2",
       "columns": [
         {
