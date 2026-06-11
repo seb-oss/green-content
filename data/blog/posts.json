@@ -1,6 +1,20 @@
 {
   "posts": [
     {
+      "title": "A design systems role in web accessibility",
+      "slug": "a-design-systems-role-in-web-accessibility",
+      "published": true,
+      "pinned": false,
+      "tags": [
+        "engineering"
+      ],
+      "authors": [
+        "joacim"
+      ],
+      "createdAt": "2026-06-11",
+      "path": "blog/a-design-systems-role-in-accessibility/a-design-systems-role-in-accessibility.json"
+    },
+    {
       "title": "GDS 3.0 · Consolidation",
       "slug": "gds-3-0",
       "published": true,
@@ -94,6 +108,6 @@
       "path": "blog/thoughts-on-number-inputs/thoughts-on-number-inputs.json"
     }
   ],
-  "total": 6,
-  "lastUpdated": "2026-06-11T13:12:35.997Z"
+  "total": 7,
+  "lastUpdated": "2026-06-11T13:16:50.192Z"
 }
