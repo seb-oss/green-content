@@ -1,0 +1,6 @@
+{
+  "title": "Button - Split button",
+  "slug": "button-split-button",
+  "snippet_component": "Button",
+  "code": "<gds-flex gap=\"xs\">\n  <gds-button>\n    Label\n  </gds-button>\n  <gds-context-menu placement=\"bottom-end\">\n    <gds-button slot=\"trigger\">\n      <gds-icon-chevron-bottom></gds-icon-chevron-bottom>\n    </gds-button>\n    <gds-menu-item>\n      Menu item 1\n    </gds-menu-item>\n    <gds-menu-item>\n      Menu item 2\n    </gds-menu-item>\n    <gds-menu-item>\n      Menu item 3\n    </gds-menu-item>\n  </gds-context-menu>\n</gds-flex>"
+}
