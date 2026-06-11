@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-11T13:29:49.634Z",
+    "lastUpdated": "2026-06-11T13:31:28.116Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -1255,6 +1255,15 @@
             "code": "<gds-button width=\"max-content\" size=\"xs\">\n  XS\n</gds-button>",
             "endpoints": {
               "content": "snippets/button-size-xs/button-size-xs.json"
+            }
+          },
+          {
+            "title": "Button - Split button-2",
+            "slug": "button-split-button-2",
+            "path": "snippets/button-split-button-2/button-split-button-2.json",
+            "code": "<gds-flex gap=\"xs\">\n  <gds-button rank=\"secondary\">\n    Label\n  </gds-button>\n  <gds-context-menu placement=\"bottom-end\">\n    <gds-button rank=\"secondary\" slot=\"trigger\">\n      <gds-icon-chevron-bottom></gds-icon-chevron-bottom>\n    </gds-button>\n    <gds-menu-item>\n      Menu item 1\n    </gds-menu-item>\n    <gds-menu-item>\n      Menu item 2\n    </gds-menu-item>\n    <gds-menu-item>\n      Menu item 3\n    </gds-menu-item>\n  </gds-context-menu>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/button-split-button-2/button-split-button-2.json"
             }
           },
           {
