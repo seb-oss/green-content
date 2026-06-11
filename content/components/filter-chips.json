@@ -16,13 +16,10 @@
         "text": "Label text"
       },
       {
-        "text": "Trailing icon (selected)"
-      },
-      {
-        "text": "Icon button remove"
-      },
-      {
         "text": "Leading icon"
+      },
+      {
+        "text": "Trailing icon"
       }
     ]
   },
