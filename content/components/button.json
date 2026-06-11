@@ -23,6 +23,11 @@
       }
     ]
   },
+  "tags": [
+    "button",
+    "form",
+    "action"
+  ],
   "category": [
     "Components"
   ],
