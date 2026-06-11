@@ -81,6 +81,12 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Removable filter chips",
+      "tag": "H2",
+      "section-content": "If the purpose is to display an already applied filter that can be removed, use a **Button** with a trailing remove icon. This pattern clearly communicates that the filter is active and that the available action is to remove it, rather than change its selection state.",
+      "cols": "2"
     }
   ],
   "ux-text": [
