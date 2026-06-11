@@ -23,11 +23,6 @@
       }
     ]
   },
-  "tags": [
-    "Form",
-    "action",
-    "button"
-  ],
   "category": [
     "Components"
   ],
@@ -39,7 +34,7 @@
   "overview": [
     {
       "title": "Variants and ranks",
-      "section-content": "Variant is used to communicate the intent of the button, such as positive, negative, notice.\n\nRank determines the priority of the button, and can be primary, secondary or tertiary. All variants are each available in those three ranks."
+      "section-content": "Variant is used to communicate the intent of the button, such as positive, negative, notice.\n\nRank determines the priority of the button, and can be primary, secondary or tertiary. All variants are each available in those three ranks. "
     },
     {
       "title": "Neutral",
@@ -196,7 +191,7 @@
     },
     {
       "title": "Desktop placements",
-      "section-content": "*   **Left**: In overviews and widgets, the user tends to read from top to bottom following the left side, therefore the buttons are kept to the left. Place the primary button furthest to the left.\n    \n*   **Right**: Modals and flows move the user forward (interpreted as to the right in western culture), therefore the buttons are placed to the right. Place the primary button furthest to the right.",
+      "section-content": "- **Left**: In overviews and widgets, the user tends to read from top to bottom following the left side, therefore the buttons are kept to the left. Place the primary button furthest to the left.\n- **Right**: Modals and flows move the user forward (interpreted as to the right in western culture), therefore the buttons are placed to the right. Place the primary button furthest to the right.\n\n",
       "cols": "2",
       "columns": [
         {
@@ -213,7 +208,7 @@
     },
     {
       "title": "In a mobile device",
-      "section-content": "*   **One button**, use the full width of the content area.\n    \n*   **Two buttons**, aim to place them side by side. It is allowed to stack them if needed.\n    \n*   **Three buttons**, consider the need for all of them. \"cancel or close\" might be x in the top right corner. Worst case scenario: place two buttons side by side and one tertiary button under.",
+      "section-content": "- **One button**, use the full width of the content area.\n- **Two buttons**, aim to place them side by side. It is allowed to stack them if needed.\n- **Three buttons**, consider the need for all of them. \"cancel or close\" might be x in the top right corner. Worst case scenario: place two buttons side by side and one tertiary button under.\n\n",
       "cols": "2",
       "columns": [
         {
@@ -338,13 +333,13 @@
           "type": "rich-text",
           "title": "Do",
           "tag": "H3",
-          "content": "*   Answer the question “What is happening?” or “What do I get?”.\n    \n*   Use commands or requests in the button.\n    \n*   Use \"Back\" as secondary action in modals where primary actions is \"Cancel\"."
+          "content": "- Answer the question “What is happening?” or “What do I get?”.\n- Use commands or requests in the button.\n- Use \"Back\" as secondary action in modals where primary actions is \"Cancel\".\n\n"
         },
         {
           "type": "rich-text",
           "title": "Don't",
           "tag": "H3",
-          "content": "*   Avoid the formal \"Perform (Utför)\" and the vague \"Okay (Okej)\".\n    \n*   Do not use primary and secondary button text that is too similar to each other."
+          "content": "- Avoid the formal \"Perform (Utför)\" and the vague \"Okay (Okej)\".\n- Do not use primary and secondary button text that is too similar to each other.\n\n"
         },
         {
           "type": "figma",
@@ -371,7 +366,7 @@
     },
     {
       "title": "Labelling",
-      "section-content": "*   Ensure buttons have discernible label text. If the button has no visible text, the label attribute must be used to provide an accessible label.\n    \n*   If there are multiple buttons with the same text, such as _Apply_, the label attribute can be used to give each button a distinct label, such as _Apply for A, Apply for B_, etc."
+      "section-content": "- Ensure buttons have discernible label text. If the button has no visible text, the label attribute must be used to provide an accessible label.\n- If there are multiple buttons with the same text, such as *Apply*, the label attribute can be used to give each button a distinct label, such as *Apply for A, Apply for B*, etc.\n\n"
     }
   ]
 }
