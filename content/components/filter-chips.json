@@ -40,9 +40,9 @@
   },
   "overview": [
     {
-      "title": "Variants",
+      "title": "States",
       "tag": "H2",
-      "section-content": "The filter chip component comes in two variants, each supporting a different stage of the filtering experience:\n\n*   **Selectable** – The default state, displaying only a label. Use this variant when presenting available filter options. When selected the chips updates to show a checkmark icon alongside the label, indicating an active filter.\n    \n*   **Removable** – Used to represent an applied filter. This chip includes a label and a close (×) icon, allowing users to remove the filter with a single click or tap."
+      "section-content": "The filter chip component comes in two states, \"enabled\" - can be selected and \"selected\" - can be unselected.\n\n- **Enabled** – The default state, displaying only a label. Use this variant when presenting available filter options. \n- **Selected** – When selected, the chips updates to show a checkmark icon alongside the label, indicating an active filter. The selected filter can be unselected.\n\n"
     },
     {
       "title": "Example",
@@ -51,7 +51,7 @@
     },
     {
       "title": "Sizes",
-      "section-content": "The filter chips comes in two sizes:\n\n*   **Large** (default)\n    \n*   **Small**"
+      "section-content": "The filter chips comes in two sizes:\n\n- **Large** (default)\n- **Small**\n\n"
     },
     {
       "title": "Do's and don'ts",
@@ -90,7 +90,7 @@
     {
       "title": "Writing UX text for filter chips",
       "tag": "H2",
-      "section-content": "The filter chip text should be short. Use one word, if possible, but no more than three words. Write \"and\" instead of the &-sign, since it's more accessible for the user. Aim at keeping the same text length for all filter chips – but only if it can be done without losing comprehensibility. Only use uppercase in the first word, or if it is the first letter of proper names or abbreviations.\n\nSince chips mainly represent different types of filters, and the filters tell something about the element being filtered, it is usually best to use nouns.\n\n##### **Examples**\n\n*   US-dollar, British Virgin Islands, Normal account, High risk, Global, Emerging markets, Equity funds, Biotechnology\n\nIf you are considering a verb, think about whether it would use buttons for actions or badges for representing e.g. status instead.",
+      "section-content": "The filter chip text should be short. Use one word, if possible, but no more than three words. Write \"and\" instead of the &-sign, since it's more accessible for the user. Aim at keeping the same text length for all filter chips – but only if it can be done without losing comprehensibility. Only use uppercase in the first word, or if it is the first letter of proper names or abbreviations.\n\nSince chips mainly represent different types of filters, and the filters tell something about the element being filtered, it is usually best to use nouns.\n\n##### **Examples**\n\n- US-dollar, British Virgin Islands, Normal account, High risk, Global, Emerging markets, Equity funds, Biotechnology\n\nIf you are considering a verb, think about whether it would use buttons for actions or badges for representing e.g. status instead.",
       "cols": "1",
       "columns": [
         {
