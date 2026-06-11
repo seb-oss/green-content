@@ -125,7 +125,7 @@
       "columns": [
         {
           "type": "snippet",
-          "caption": "Split button – secondary",
+          "caption": "Split button – primary",
           "plain": false,
           "replay": false,
           "Snippet": "button-split-button"
