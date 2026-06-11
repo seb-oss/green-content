@@ -124,14 +124,11 @@
       "cols": "2",
       "columns": [
         {
-          "type": "figma",
-          "caption": "Split button – primary and secondary",
-          "node": "split-1"
-        },
-        {
-          "type": "figma",
-          "caption": "Split button – active with dropdown",
-          "node": "split-2"
+          "type": "snippet",
+          "caption": "Split button – secondary",
+          "plain": false,
+          "replay": false,
+          "Snippet": "button-split-button"
         }
       ]
     },
