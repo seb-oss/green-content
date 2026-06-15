@@ -69,7 +69,6 @@
     {
       "title": "Leading and trailing content",
       "tag": "H2",
-      "section-content": "Tab items can include optional leading and trailing content. Use leading content, such as icons or avatars, to help identify a tab. Use trailing content, such as badges or counts, to provide additional context about the tab's content.",
       "cols": "2",
       "columns": [
         {
