@@ -1,0 +1,6 @@
+{
+  "title": "Tab: Hero",
+  "slug": "tab-hero",
+  "snippet_component": "Tabs",
+  "code": " <gds-tabs>\n    <gds-tab slot=\"tab\">Personal details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\">Contact information</gds-tab>\n    <gds-tab slot=\"tab\">Accounts</gds-tab>\n    <gds-tab slot=\"tab\">Consents</gds-tab>\n    <gds-tab slot=\"tab\">Security</gds-tab>\n    <gds-tab-panel>Personal details</gds-tab-panel>\n    <gds-tab-panel>Contact information</gds-tab-panel>\n    <gds-tab-panel>Accounts</gds-tab-panel>\n    <gds-tab-panel>Consents</gds-tab-panel>\n    <gds-tab-panel>Security</gds-tab-panel>\n  </gds-tabs>"
+}
