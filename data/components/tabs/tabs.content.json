@@ -45,15 +45,14 @@
         {
           "type": "snippet",
           "plain": false,
-          "replay": false,
-          "Snippet": "tab-default"
+          "replay": false
         }
       ]
     },
     {
       "title": "Tabs vs. Segmented Control",
       "tag": "H2",
-      "section-content": "Tabs and segmented controls may appear similar but serve different purposes.\n\nUse tabs when switching between different content panels.\n\nExamples:\n\n- Overview, Transactions, and Documents\n- Personal details, Contact details, and Security settings\n\nUse segmented control when changing a setting, mode, filter, or representation of content.\n\nExamples:\n\n- List view or Grid view\n- Week, Month, or Year\n- Amount or Percentage\n\nThink of tabs as organizing content into sections, while segmented controls change how content is displayed.\n\n\n\n",
+      "section-content": "Tabs and segmented controls may appear similar but serve different purposes.\n\nUse tabs when switching between different content panels.\n\nExamples:\n\n- Overview, Transactions, and Documents\n- Personal details, Contact details, and Security settings\n\nUse segmented control when changing a setting, mode, filter, or representation of content.\n\nExamples:\n\n- List view or Grid view\n- Week, Month, or Year\n- Amount or Percentage\n\nThink of tabs as organizing content into sections, while segmented controls change how content is displayed.\n\n\n\n&nbsp;",
       "cols": "1"
     },
     {
@@ -70,45 +69,8 @@
     {
       "title": "Leading and trailing content",
       "tag": "H2",
-      "section-content": "Tab items support a leading slot for icons and a trailing slot for supplementary content such as notification badges or counts. Use these slots to aid recognition or communicate status — not for decoration.",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "tab-lead-trail"
-        }
-      ]
-    },
-    {
-      "title": "Leading and trailing content guidelines",
-      "tag": "H3",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "do",
-          "dolist": [
-            {
-              "text": "Use a leading icon to reinforce the meaning of a tab label when the icon adds clarity."
-            },
-            {
-              "text": "Use a trailing badge or count to communicate a quantity or status relevant to the tab's content — for example, the number of unread notifications."
-            }
-          ]
-        },
-        {
-          "type": "dont",
-          "dontlist": [
-            {
-              "text": "Don't use a leading icon purely for decoration — every icon should carry meaning."
-            },
-            {
-              "text": "Don't use trailing content in a way that makes the tab label hard to read or the tab bar feel cluttered."
-            }
-          ]
-        }
-      ]
+      "section-content": "Tab items can include optional leading and trailing content. Use leading content, such as icons or avatars, to help identify a tab. Use trailing content, such as badges or counts, to provide additional context about the tab's content.",
+      "cols": "1"
     }
   ],
   "ux-text": [
