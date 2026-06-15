@@ -1117,6 +1117,12 @@
       "code": "<gds-flex height=\"100%\" width=\"100%\" flex-direction=\"row\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-switch label=\"Switch label\"></gds-switch>\n  <gds-switch size=\"small\" label=\"Switch label\"></gds-switch>\n</gds-flex>"
     },
     {
+      "title": "Tab: Hero",
+      "slug": "tab-hero",
+      "path": "snippets/tab-hero/tab-hero.json",
+      "code": " <gds-tabs>\n    <gds-tab slot=\"tab\">Personal details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\">Contact information</gds-tab>\n    <gds-tab slot=\"tab\">Accounts</gds-tab>\n    <gds-tab slot=\"tab\">Consents</gds-tab>\n    <gds-tab slot=\"tab\">Security</gds-tab>\n    <gds-tab-panel>Personal details</gds-tab-panel>\n    <gds-tab-panel>Contact information</gds-tab-panel>\n    <gds-tab-panel>Accounts</gds-tab-panel>\n    <gds-tab-panel>Consents</gds-tab-panel>\n    <gds-tab-panel>Security</gds-tab-panel>\n  </gds-tabs>"
+    },
+    {
       "title": "Tab: Lead Trail",
       "slug": "tab-lead-trail",
       "path": "snippets/tab-lead-trail/tab-lead-trail.json",
@@ -1159,6 +1165,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 193,
-  "lastUpdated": "2026-06-15T11:55:33.241Z"
+  "total": 194,
+  "lastUpdated": "2026-06-15T12:09:03.366Z"
 }
