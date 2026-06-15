@@ -92,6 +92,47 @@
       "tag": "H2",
       "section-content": "Tabs and segmented controls may appear similar but serve different purposes.\n\nUse tabs when switching between different content panels.\n\nExamples:\n\n- Overview, Transactions, and Documents\n- Personal details, Contact details, and Security settings\n\nUse segmented control when changing a setting, mode, filter, or representation of content.\n\nExamples:\n\n- List view or Grid view\n- Week, Month, or Year\n- Amount or Percentage\n\nThink of tabs as organizing content into sections, while segmented controls change how content is displayed.",
       "cols": "1"
+    },
+    {
+      "title": "Do's and don'ts",
+      "section-content": "❌ \n\n❌ \n\n❌ \n\n❌ \n\nDe här kompletterar texten ganska bra utan att upprepa saker som \"keep labels short\", \"most used first\" eller \"don't use too many tabs\", som passar bättre under Guidelines.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use tabs to separate related content panels, such as Overview, Transactions, and Documents."
+            },
+            {
+              "text": "Use tabs when users need to switch between sections while staying in the same context."
+            },
+            {
+              "text": "Use trail slot with for example badges to indicate additional information, such as unread items or counts."
+            },
+            {
+              "text": "Use leading content, such as icons or avatars, when it helps users identify a section."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don't use tabs for List view and Grid view, use a segmented control instead."
+            },
+            {
+              "text": "Don't use tabs to navigate between pages with different URLs."
+            },
+            {
+              "text": "Don't use tabs to filter, sort, or change the presentation of the same content."
+            },
+            {
+              "text": "Don't use icons, avatars, or badges purely for decoration."
+            }
+          ]
+        }
+      ]
     }
   ],
   "ux-text": [
