@@ -51,15 +51,26 @@
       ]
     },
     {
-      "title": "Tabs vs. Segmented Control",
+      "title": "Tabs vs. segmented control",
       "tag": "H2",
       "section-content": "Tabs and segmented controls may appear similar but serve different purposes.\n\nUse tabs when switching between different content panels.\n\nExamples:\n\n- Overview, Transactions, and Documents\n- Personal details, Contact details, and Security settings\n\nUse segmented control when changing a setting, mode, filter, or representation of content.\n\nExamples:\n\n- List view or Grid view\n- Week, Month, or Year\n- Amount or Percentage\n\nThink of tabs as organizing content into sections, while segmented controls change how content is displayed.\n\n\n\n&nbsp;",
       "cols": "1"
     },
     {
       "title": "Number of tabs",
-      "section-content": "Tabs work best when the number of options is limited. As the number of tabs increases, they become harder to scan and compare. If many options are required, consider whether another pattern would better support the user's task. When tabs exceed the available width, the tab bar becomes horizontally scrollable.",
-      "cols": "2"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "paragraph",
+          "text": "Tabs work best when the number of options is limited. As the number of tabs increases, they become harder to scan and compare. If many options are required, consider whether another pattern would better support the user's task. When tabs exceed the available width, the tab bar becomes horizontally scrollable."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "tab-usage"
+        }
+      ]
     },
     {
       "title": "Leading and trailing content",
