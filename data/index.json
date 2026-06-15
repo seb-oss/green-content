@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-15T11:10:44.441Z",
+    "lastUpdated": "2026-06-15T11:11:46.529Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2542,6 +2542,15 @@
             "code": "<gds-flex height=\"100%\" width=\"100%\" flex-direction=\"row\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-switch label=\"Switch label\"></gds-switch>\n  <gds-switch size=\"small\" label=\"Switch label\"></gds-switch>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/switch-sizes/switch-sizes.json"
+            }
+          },
+          {
+            "title": "Tab: Usage",
+            "slug": "tab-usage",
+            "path": "snippets/tab-usage/tab-usage.json",
+            "code": "  <gds-tabs>\n    <gds-tab slot=\"tab\">Account details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\">Transactions</gds-tab>\n    <gds-tab slot=\"tab\">Documents</gds-tab>\n    <gds-tab-panel>Account details</gds-tab-panel>\n    <gds-tab-panel>Transactions</gds-tab-panel>\n    <gds-tab-panel>Documents</gds-tab-panel>\n  </gds-tabs>",
+            "endpoints": {
+              "content": "snippets/tab-usage/tab-usage.json"
             }
           },
           {
