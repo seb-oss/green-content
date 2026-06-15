@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-15T11:26:28.133Z",
+    "lastUpdated": "2026-06-15T11:30:48.460Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2542,6 +2542,15 @@
             "code": "<gds-flex height=\"100%\" width=\"100%\" flex-direction=\"row\" gap=\"xl\" align-items=\"center\" justify-content=\"center\">\n  <gds-switch label=\"Switch label\"></gds-switch>\n  <gds-switch size=\"small\" label=\"Switch label\"></gds-switch>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/switch-sizes/switch-sizes.json"
+            }
+          },
+          {
+            "title": "Tab: Lead Trail",
+            "slug": "tab-lead-trail",
+            "path": "snippets/tab-lead-trail/tab-lead-trail.json",
+            "code": "<gds-card width=\"100%\" variant=\"neutral-02\">\n  <gds-tabs>\n    <gds-tab slot=\"tab\">\n        <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n        Overview\n        <gds-badge slot=\"trail\">3</gds-badge>\n    </gds-tab>\n    <gds-tab slot=\"tab\">Details</gds-tab>\n    <gds-tab slot=\"tab\">Settings</gds-tab>\n    <gds-tab-panel>Overview panel content</gds-tab-panel>\n    <gds-tab-panel>Details panel content</gds-tab-panel>\n    <gds-tab-panel>Settings panel content</gds-tab-panel>\n  </gds-tabs>\n</gds-card>",
+            "endpoints": {
+              "content": "snippets/tab-lead-trail/tab-lead-trail.json"
             }
           },
           {
