@@ -90,7 +90,7 @@
     {
       "title": "Tabs vs. segmented control",
       "tag": "H2",
-      "section-content": "Tabs and segmented controls may appear similar but serve different purposes.\n\nUse tabs when switching between different content panels.\n\nExamples:\n\n- Overview, Transactions, and Documents\n- Personal details, Contact details, and Security settings\n\nUse segmented control when changing a setting, mode, filter, or representation of content.\n\nExamples:\n\n- List view or Grid view\n- Week, Month, or Year\n- Amount or Percentage\n\nThink of tabs as organizing content into sections, while segmented controls change how content is displayed.\n\n\n\n&nbsp;",
+      "section-content": "Tabs and segmented controls may appear similar but serve different purposes.\n\nUse tabs when switching between different content panels.\n\nExamples:\n\n- Overview, Transactions, and Documents\n- Personal details, Contact details, and Security settings\n\nUse segmented control when changing a setting, mode, filter, or representation of content.\n\nExamples:\n\n- List view or Grid view\n- Week, Month, or Year\n- Amount or Percentage\n\nThink of tabs as organizing content into sections, while segmented controls change how content is displayed.",
       "cols": "1"
     }
   ],
