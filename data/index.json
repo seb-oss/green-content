@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-15T13:18:40.625Z",
+    "lastUpdated": "2026-06-15T13:35:34.268Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2548,7 +2548,7 @@
             "title": "Tab: Hero",
             "slug": "tab-hero",
             "path": "snippets/tab-hero/tab-hero.json",
-            "code": " <gds-tabs width=\"200px\">\n    <gds-tab slot=\"tab\">Tab 1</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\">Tab 2</gds-tab>\n    <gds-tab slot=\"tab\">Tab 3</gds-tab>  \n    <gds-tab-panel>Content for tab one.</gds-tab-panel>\n    <gds-tab-panel>Content for tab two.</gds-tab-panel>\n    <gds-tab-panel>Content for tab three.</gds-tab-panel>\n  </gds-tabs>",
+            "code": "<gds-tabs width=\"200px\">\n  <gds-tab slot=\"tab\">Tab 1</gds-tab>\n  <gds-tab slot=\"tab\" selected=\"\">Tab 2</gds-tab>\n  <gds-tab slot=\"tab\">Tab 3</gds-tab>  \n  <gds-tab-panel>Content for tab one.</gds-tab-panel>\n  <gds-tab-panel>Content for tab two.</gds-tab-panel>\n  <gds-tab-panel>Content for tab three.</gds-tab-panel>\n</gds-tabs>",
             "endpoints": {
               "content": "snippets/tab-hero/tab-hero.json"
             }
