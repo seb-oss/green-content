@@ -44,7 +44,7 @@
       "columns": [
         {
           "type": "paragraph",
-          "text": "Use tabs when content can be divided into distinct sections that belong to the same context and hierarchy level.\nExamples:\n- Account details, Transactions, and Documents\n- Overview, Holdings, and Activity\n- Personal information, Contact details, and Preferences"
+          "text": "Use tabs when content can be divided into distinct sections that belong to the same context and hierarchy level.\n\nExamples:\n- Account details, Transactions, and Documents\n- Overview, Holdings, and Activity\n- Personal information, Contact details, and Preferences"
         },
         {
           "type": "snippet",
