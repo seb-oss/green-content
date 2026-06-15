@@ -4,11 +4,11 @@
   "hero_snippet": "hero-tab",
   "beta": false,
   "soon": false,
-  "summary": "Tabs allow users to navigate between groups of related content at the same level of hierarchy.",
-  "preamble": "The tab component organises content across different screens, data sets, and other interactions. It makes it easy to explore and switch between different views without leaving the current page.",
+  "summary": "Tabs allow users to switch between related content panels within the same page or view. They are used to organize content at the same level of hierarchy and display one panel at a time.",
+  "preamble": "A tab consists of a tab bar containing individual tab items. Each tab item includes a label and can optionally contain a leading icon. The active tab is visually distinguished from inactive tabs and reveals its associated content panel.",
   "anatomy": true,
   "anatomy-overview": "Tab consists of a tab bar with individual tab items. Each tab item contains a label and optionally a leading icon. The active tab is visually distinguished from inactive tabs.",
-  "anatomy-details": "1.  Tab bar\n    \n2.  Tab item\n    \n3.  Tab label\n    \n4.  Active indicator\n    \n5.  Leading icon (optional)",
+  "anatomy-details": "1. Tab bar\n2. Tab item\n3. Tab label\n4. Active indicator\n5. Leading icon (optional)\n\n",
   "anatomy-list": {
     "anatomyitems": [
       {
@@ -28,8 +28,9 @@
       }
     ]
   },
-  "tags": ["Navigation", "Layout"],
-  "category": ["Components"],
+  "category": [
+    "Components"
+  ],
   "platform": {
     "web": true,
     "ios": false,
@@ -73,13 +74,13 @@
           "type": "rich-text",
           "title": "Use tabs when",
           "tag": "H3",
-          "content": "Use tabs to navigate between **completely different views or distinct sections of content**. Each tab reveals unique content that is unrelated to what the other tabs show.\n\nThink of tabs as separate binders — switching tabs takes the user to an entirely different set of content.\n\n*   The content under each tab is meaningfully different in nature\n    \n*   Users are unlikely to need to compare the contents of multiple tabs at once\n    \n*   The tabs act as primary or secondary navigation within the page\n    \n*   Content groupings are based on different topics, data sets, or tasks"
+          "content": "Use tabs to navigate between **completely different views or distinct sections of content**. Each tab reveals unique content that is unrelated to what the other tabs show.\n\nThink of tabs as separate binders — switching tabs takes the user to an entirely different set of content.\n\n- The content under each tab is meaningfully different in nature\n- Users are unlikely to need to compare the contents of multiple tabs at once\n- The tabs act as primary or secondary navigation within the page\n- Content groupings are based on different topics, data sets, or tasks\n\n"
         },
         {
           "type": "rich-text",
           "title": "Use segmented control when",
           "tag": "H3",
-          "content": "Use segmented control to **filter or toggle the presentation of the same underlying content**. The data does not change — only how it is displayed or sorted.\n\nThink of segmented control as a switch that changes the lens through which you view the same document.\n\n*   You are switching between different representations of the same data (e.g. list vs. grid, weekly vs. monthly)\n    \n*   The options act as filters or view toggles within a single context\n    \n*   The component is embedded within a form or a content area, not used as page navigation"
+          "content": "Use segmented control to **filter or toggle the presentation of the same underlying content**. The data does not change — only how it is displayed or sorted.\n\nThink of segmented control as a switch that changes the lens through which you view the same document.\n\n- You are switching between different representations of the same data (e.g. list vs. grid, weekly vs. monthly)\n- The options act as filters or view toggles within a single context\n- The component is embedded within a form or a content area, not used as page navigation\n\n"
         },
         {
           "type": "do",
@@ -232,7 +233,6 @@
     {
       "title": "Leading and trailing content guidelines",
       "tag": "H3",
-      "section-content": "",
       "cols": "2",
       "columns": [
         {
@@ -264,7 +264,7 @@
     {
       "title": "Writing UX text for tabs",
       "tag": "H2",
-      "section-content": "Tab labels serve as both navigation menu items and implicit sub-headings for the content they reveal. This means labels must be clear and descriptive enough to stand on their own — without requiring a sub-heading beneath them.\n\nDo not capitalise the first letter of every word in tab labels. Use uppercase only for:\n\n*   The first letter of the first word\n    \n*   Proper names\n    \n*   Abbreviations"
+      "section-content": "Tab labels serve as both navigation menu items and implicit sub-headings for the content they reveal. This means labels must be clear and descriptive enough to stand on their own — without requiring a sub-heading beneath them.\n\nDo not capitalise the first letter of every word in tab labels. Use uppercase only for:\n\n- The first letter of the first word\n- Proper names\n- Abbreviations\n\n"
     },
     {
       "title": "Tab labels",
@@ -293,7 +293,7 @@
     {
       "title": "Common tab labels in overviews",
       "tag": "H3",
-      "section-content": "Use consistent and recognisable labels for common content groupings. Standard tab labels used in overviews include:\n\n*   **Value** – presents details about the current holding\n    \n*   **Payments** – shows upcoming, pending, and historical payments\n    \n*   **About the account** – shows details about the account or service, such as connected services, interest rates, and fees\n    \n\nWhen applicable, include the subject area in the label, for example _About the loan_ or _Fund transactions_."
+      "section-content": "Use consistent and recognisable labels for common content groupings. Standard tab labels used in overviews include:\n\n- **Value** – presents details about the current holding\n- **Payments** – shows upcoming, pending, and historical payments\n- **About the account** – shows details about the account or service, such as connected services, interest rates, and fees\n\nWhen applicable, include the subject area in the label, for example *About the loan* or *Fund transactions*."
     }
   ]
 }
