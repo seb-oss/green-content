@@ -7,7 +7,6 @@
   "summary": "Tabs organize related content into separate panels, displaying one section at a time.",
   "preamble": "Tabs organize related content into separate panels within the same page or view. Users can switch between sections while maintaining the context of the current page. Each tab displays its associated content panel while the remaining panels stay hidden.",
   "anatomy": true,
-  "anatomy-details": "1. Tab bar\n2. Tab item\n3. Tab label\n4. Active indicator\n5. Leading element (optional)\n6. Trailing element (optional)\n\n",
   "anatomy-list": {
     "anatomyitems": [
       {
@@ -20,10 +19,13 @@
         "text": "Tab label"
       },
       {
-        "text": "Active indicator"
+        "text": "Active tab indicator"
       },
       {
-        "text": "Leading icon (optional)"
+        "text": "Leading element (optional)"
+      },
+      {
+        "text": "Trailing element (optional)"
       }
     ]
   },
