@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-12T07:25:22.477Z",
+    "lastUpdated": "2026-06-15T09:01:20.536Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -415,7 +415,7 @@
           {
             "title": "Tabs",
             "slug": "tabs",
-            "summary": "Tabs allow users to navigate between groups of related content at the same level of hierarchy.",
+            "summary": "Tabs allow users to switch between related content panels within the same page or view. They are used to organize content at the same level of hierarchy and display one panel at a time.",
             "path": "components/tabs/tabs.content.json",
             "endpoints": {
               "content": "components/tabs/tabs.content.json",

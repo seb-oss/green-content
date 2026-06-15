@@ -240,7 +240,7 @@
     {
       "title": "Tabs",
       "slug": "tabs",
-      "summary": "Tabs allow users to navigate between groups of related content at the same level of hierarchy.",
+      "summary": "Tabs allow users to switch between related content panels within the same page or view. They are used to organize content at the same level of hierarchy and display one panel at a time.",
       "path": "components/tabs/tabs.content.json"
     },
     {
@@ -269,5 +269,5 @@
     }
   ],
   "total": 45,
-  "lastUpdated": "2026-06-12T07:25:22.478Z"
+  "lastUpdated": "2026-06-15T09:01:20.538Z"
 }
