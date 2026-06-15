@@ -43,8 +43,7 @@
       "cols": "2",
       "columns": [
         {
-          "type": "paragraph",
-          "text": "Use tabs when content can be divided into distinct sections that belong to the same context and hierarchy level.\n\nExamples:\n- Account details, Transactions, and Documents\n- Overview, Holdings, and Activity\n- Personal information, Contact details, and Preferences"
+          "type": "rich-text"
         },
         {
           "type": "snippet",
@@ -59,8 +58,7 @@
       "cols": "2",
       "columns": [
         {
-          "type": "paragraph",
-          "text": "Tabs work best when the number of options is limited. As the number of tabs increases, they become harder to scan and compare. If many options are required, consider whether another pattern would better support the user's task. When tabs exceed the available width, the tab bar becomes horizontally scrollable."
+          "type": "rich-text"
         },
         {
           "type": "snippet",
@@ -76,8 +74,7 @@
       "cols": "2",
       "columns": [
         {
-          "type": "paragraph",
-          "text": "Tab items can include optional leading and trailing content. Use leading content, such as icons or avatars, to help identify a tab. Use trailing content, such as badges or counts, to provide additional context about the tab's content."
+          "type": "rich-text"
         },
         {
           "type": "snippet",
