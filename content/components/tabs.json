@@ -57,12 +57,6 @@
       "cols": "1"
     },
     {
-      "title": "Tabs vs segmented control",
-      "tag": "H2",
-      "section-content": "Tabs and segmented controls can look similar, but they serve very different purposes. Choosing the wrong component leads to user confusion and misaligned expectations.",
-      "cols": "1"
-    },
-    {
       "title": "Number of tabs",
       "section-content": "Tabs work best when the number of options is limited. As the number of tabs increases, they become harder to scan and compare. If many options are required, consider whether another pattern would better support the user's task. When tabs exceed the available width, the tab bar becomes horizontally scrollable.",
       "cols": "2"
