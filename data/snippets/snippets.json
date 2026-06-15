@@ -1129,6 +1129,12 @@
       "code": "<gds-table plain selectable density=\"compact\" width=\"300px\" height=\"200px\"></gds-table>"
     },
     {
+      "title": "Tabs: Number of",
+      "slug": "tabs-number-of",
+      "path": "snippets/tabs-number-of/tabs-number-of.json",
+      "code": " <gds-card width=\"100%\" variant=\"neutral-02\"> \n <gds-tabs>\n    <gds-tab slot=\"tab\">Account details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\">Transactions</gds-tab>\n    <gds-tab slot=\"tab\">Documents</gds-tab>\n   <gds-tab slot=\"tab\">Agreements</gds-tab>\n    <gds-tab-panel>Account details</gds-tab-panel>\n    <gds-tab-panel>Transactions</gds-tab-panel>\n    <gds-tab-panel>Documents</gds-tab-panel>\n   <gds-tab-panel>Agreements</gds-tab-panel>\n  </gds-tabs>\n  </gds-card>"
+    },
+    {
       "title": "brand_the_seb_brand",
       "slug": "the-seb-brand",
       "path": "snippets/the-seb-brand/the-seb-brand.json",
@@ -1147,6 +1153,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 191,
-  "lastUpdated": "2026-06-15T11:20:25.552Z"
+  "total": 192,
+  "lastUpdated": "2026-06-15T11:21:22.650Z"
 }

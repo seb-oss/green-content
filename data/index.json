@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-15T11:20:25.550Z",
+    "lastUpdated": "2026-06-15T11:21:22.648Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2560,6 +2560,15 @@
             "code": "<gds-table plain selectable density=\"compact\" width=\"300px\" height=\"200px\"></gds-table>",
             "endpoints": {
               "content": "snippets/table-hero/table-hero.json"
+            }
+          },
+          {
+            "title": "Tabs: Number of",
+            "slug": "tabs-number-of",
+            "path": "snippets/tabs-number-of/tabs-number-of.json",
+            "code": " <gds-card width=\"100%\" variant=\"neutral-02\"> \n <gds-tabs>\n    <gds-tab slot=\"tab\">Account details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\">Transactions</gds-tab>\n    <gds-tab slot=\"tab\">Documents</gds-tab>\n   <gds-tab slot=\"tab\">Agreements</gds-tab>\n    <gds-tab-panel>Account details</gds-tab-panel>\n    <gds-tab-panel>Transactions</gds-tab-panel>\n    <gds-tab-panel>Documents</gds-tab-panel>\n   <gds-tab-panel>Agreements</gds-tab-panel>\n  </gds-tabs>\n  </gds-card>",
+            "endpoints": {
+              "content": "snippets/tabs-number-of/tabs-number-of.json"
             }
           },
           {
