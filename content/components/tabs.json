@@ -38,8 +38,8 @@
   },
   "overview": [
     {
-      "title": "Default",
-      "section-content": "Tabs are used as local navigation to organise related content into logical groupings. Users can switch between views without losing the context of the page.",
+      "title": "Usage",
+      "section-content": "Use tabs when content can be divided into distinct sections that belong to the same context and hierarchy level.\n\nExamples:\n\n- Account details, Transactions, and Documents\n- Overview, Holdings, and Activity\n- Personal information, Contact details, and Preferences\n\n",
       "cols": "1",
       "columns": [
         {
@@ -51,170 +51,21 @@
       ]
     },
     {
-      "title": "Overflow behaviour",
+      "title": "Tabs vs. Segmented Control",
       "tag": "H2",
-      "section-content": "When tabs exceed the available width, all tabs that cannot fit are grouped into a list in a fold-out modal. On mobile with only two tabs, each tab takes up 50% of the width.",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "tab-overflow"
-        }
-      ]
+      "section-content": "Tabs and segmented controls may appear similar but serve different purposes.\n\nUse tabs when switching between different content panels.\n\nExamples:\n\n- Overview, Transactions, and Documents\n- Personal details, Contact details, and Security settings\n\nUse segmented control when changing a setting, mode, filter, or representation of content.\n\nExamples:\n\n- List view or Grid view\n- Week, Month, or Year\n- Amount or Percentage\n\nThink of tabs as organizing content into sections, while segmented controls change how content is displayed.\n\n\n\n",
+      "cols": "1"
     },
     {
       "title": "Tabs vs segmented control",
       "tag": "H2",
       "section-content": "Tabs and segmented controls can look similar, but they serve very different purposes. Choosing the wrong component leads to user confusion and misaligned expectations.",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "Use tabs when",
-          "tag": "H3",
-          "content": "Use tabs to navigate between **completely different views or distinct sections of content**. Each tab reveals unique content that is unrelated to what the other tabs show.\n\nThink of tabs as separate binders — switching tabs takes the user to an entirely different set of content.\n\n- The content under each tab is meaningfully different in nature\n- Users are unlikely to need to compare the contents of multiple tabs at once\n- The tabs act as primary or secondary navigation within the page\n- Content groupings are based on different topics, data sets, or tasks\n\n"
-        },
-        {
-          "type": "rich-text",
-          "title": "Use segmented control when",
-          "tag": "H3",
-          "content": "Use segmented control to **filter or toggle the presentation of the same underlying content**. The data does not change — only how it is displayed or sorted.\n\nThink of segmented control as a switch that changes the lens through which you view the same document.\n\n- You are switching between different representations of the same data (e.g. list vs. grid, weekly vs. monthly)\n- The options act as filters or view toggles within a single context\n- The component is embedded within a form or a content area, not used as page navigation\n\n"
-        },
-        {
-          "type": "do",
-          "dolist": [
-            {
-              "text": "Use tabs for navigating between accounts (Savings, Loans, Funds) — each contains entirely different content."
-            },
-            {
-              "text": "Use segmented control to switch between a list view and a chart view of the same transaction data."
-            },
-            {
-              "text": "Use segmented control to toggle between time periods (Week, Month, Year) on the same graph."
-            }
-          ]
-        },
-        {
-          "type": "dont",
-          "dontlist": [
-            {
-              "text": "Don't use tabs to toggle between views of the same data set — this is the role of segmented control."
-            },
-            {
-              "text": "Don't use segmented control as page-level navigation between unrelated sections."
-            },
-            {
-              "text": "Don't mix up the two components — tabs are for navigation, segmented control is for filtering or view switching."
-            }
-          ]
-        }
-      ]
+      "cols": "1"
     },
     {
-      "title": "Guidelines",
-      "section-content": "Tabs are best suited for a small number of clearly distinct content groupings. Order tabs according to user needs, placing the most commonly accessed tab first.",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "do",
-          "dolist": [
-            {
-              "text": "Use tabs to navigate between groups of content."
-            },
-            {
-              "text": "Keep the number of tabs low, preferably fewer than four."
-            },
-            {
-              "text": "Order tabs according to user needs — the most commonly used tab should come first."
-            },
-            {
-              "text": "Align tab content to the left with the first tab."
-            },
-            {
-              "text": "Use tabs when users will not need to view all sections at once."
-            }
-          ]
-        },
-        {
-          "type": "dont",
-          "dontlist": [
-            {
-              "text": "Avoid nesting tabs within tabs."
-            },
-            {
-              "text": "Don't use tabs to toggle data or parts of a form — use segmented control for this."
-            },
-            {
-              "text": "Don't add sub-headings under tab labels."
-            },
-            {
-              "text": "Don't use tabs if the user needs to read all sections to complete a task."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Disabled tabs",
-      "tag": "H2",
-      "section-content": "Individual tabs can be disabled to indicate that a section is unavailable. Use this sparingly and only when the reason for unavailability is clear to the user.",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "do",
-          "dolist": [
-            {
-              "text": "Disable a tab only when the section is temporarily unavailable and will become accessible again — for example, due to missing permissions or incomplete preconditions."
-            },
-            {
-              "text": "Provide context elsewhere on the page explaining why a tab is disabled and how the user can enable it."
-            }
-          ]
-        },
-        {
-          "type": "dont",
-          "dontlist": [
-            {
-              "text": "Don't disable a tab permanently — remove it from the tab bar instead."
-            },
-            {
-              "text": "Don't disable a tab without giving the user a way to understand why or how to proceed."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Link tabs",
-      "tag": "H2",
-      "section-content": "Tabs can render as anchor links, navigating to a new URL rather than switching panel content inline. Use link tabs for top-level or cross-page navigation where each tab corresponds to a distinct URL.",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "do",
-          "dolist": [
-            {
-              "text": "Use link tabs when each tab maps to a unique URL and the browser should handle navigation."
-            },
-            {
-              "text": "Use link tabs for primary or secondary page-level navigation sections."
-            }
-          ]
-        },
-        {
-          "type": "dont",
-          "dontlist": [
-            {
-              "text": "Don't use link tabs when switching between inline panels — use standard tabs instead."
-            },
-            {
-              "text": "Don't mix link tabs and panel tabs within the same tab bar."
-            }
-          ]
-        }
-      ]
+      "title": "Number of tabs",
+      "section-content": "Tabs work best when the number of options is limited. As the number of tabs increases, they become harder to scan and compare. If many options are required, consider whether another pattern would better support the user's task. When tabs exceed the available width, the tab bar becomes horizontally scrollable.",
+      "cols": "2"
     },
     {
       "title": "Leading and trailing content",
