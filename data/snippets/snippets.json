@@ -1120,7 +1120,7 @@
       "title": "Tab: Usage",
       "slug": "tab-usage",
       "path": "snippets/tab-usage/tab-usage.json",
-      "code": "  <gds-tabs>\n    <gds-tab slot=\"tab\">Account details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\">Transactions</gds-tab>\n    <gds-tab slot=\"tab\">Documents</gds-tab>\n    <gds-tab-panel>Account details</gds-tab-panel>\n    <gds-tab-panel>Transactions</gds-tab-panel>\n    <gds-tab-panel>Documents</gds-tab-panel>\n  </gds-tabs>"
+      "code": " <gds-card width=\"100%\"> \n <gds-tabs>\n    <gds-tab slot=\"tab\">Account details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\">Transactions</gds-tab>\n    <gds-tab slot=\"tab\">Documents</gds-tab>\n    <gds-tab-panel>Account details</gds-tab-panel>\n    <gds-tab-panel>Transactions</gds-tab-panel>\n    <gds-tab-panel>Documents</gds-tab-panel>\n  </gds-tabs>\n  </gds-card>"
     },
     {
       "title": "Table: Hero",
@@ -1148,5 +1148,5 @@
     }
   ],
   "total": 191,
-  "lastUpdated": "2026-06-15T11:13:47.002Z"
+  "lastUpdated": "2026-06-15T11:15:41.909Z"
 }
