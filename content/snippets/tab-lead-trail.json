@@ -1,0 +1,6 @@
+{
+  "title": "Tab: Lead Trail",
+  "slug": "tab-lead-trail",
+  "snippet_component": "Tabs",
+  "code": "<gds-card width=\"100%\" variant=\"neutral-02\">\n  <gds-tabs>\n    <gds-tab slot=\"tab\">\n        <gds-icon-circle-info slot=\"lead\"></gds-icon-circle-info>\n        Overview\n        <gds-badge slot=\"trail\">3</gds-badge>\n    </gds-tab>\n    <gds-tab slot=\"tab\">Details</gds-tab>\n    <gds-tab slot=\"tab\">Settings</gds-tab>\n    <gds-tab-panel>Overview panel content</gds-tab-panel>\n    <gds-tab-panel>Details panel content</gds-tab-panel>\n    <gds-tab-panel>Settings panel content</gds-tab-panel>\n  </gds-tabs>\n</gds-card>"
+}
