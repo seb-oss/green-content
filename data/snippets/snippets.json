@@ -1120,7 +1120,7 @@
       "title": "Tab: Hero",
       "slug": "tab-hero",
       "path": "snippets/tab-hero/tab-hero.json",
-      "code": " <gds-tabs>\n    <gds-tab slot=\"tab\">Personal details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\">Contact information</gds-tab>\n    <gds-tab slot=\"tab\">Accounts</gds-tab>\n    <gds-tab slot=\"tab\">Consents</gds-tab>\n    <gds-tab slot=\"tab\">Security</gds-tab>\n    <gds-tab-panel>Personal details</gds-tab-panel>\n    <gds-tab-panel>Contact information</gds-tab-panel>\n    <gds-tab-panel>Accounts</gds-tab-panel>\n    <gds-tab-panel>Consents</gds-tab-panel>\n    <gds-tab-panel>Security</gds-tab-panel>\n  </gds-tabs>"
+      "code": " <gds-tabs width=\"200px\">\n    <gds-tab slot=\"tab\">Tab 1</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\">Tab 2</gds-tab>\n    <gds-tab slot=\"tab\">Tab 3</gds-tab>  \n    <gds-tab-panel>Content for tab one.</gds-tab-panel>\n    <gds-tab-panel>Content for tab two.</gds-tab-panel>\n    <gds-tab-panel>Content for tab three.</gds-tab-panel>\n  </gds-tabs>"
     },
     {
       "title": "Tab: Lead Trail",
@@ -1166,5 +1166,5 @@
     }
   ],
   "total": 194,
-  "lastUpdated": "2026-06-15T12:17:41.785Z"
+  "lastUpdated": "2026-06-15T13:01:32.441Z"
 }
