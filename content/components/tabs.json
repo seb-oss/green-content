@@ -1,7 +1,7 @@
 {
   "title": "Tabs",
   "slug": "tabs",
-  "hero_snippet": "hero-tab",
+  "hero_snippet": "tab-hero",
   "beta": false,
   "soon": false,
   "summary": "Tabs organize related content into separate panels, displaying one section at a time.",
