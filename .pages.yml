@@ -321,6 +321,12 @@ content:
                   - name: excerpt
                     label: Summary
                     type: string
+                  - name: label
+                    label: Footer Label
+                    type: string
+                  - name: href
+                    label: Link (href)
+                    type: string
                   - name: buttons
                     label: Buttons
                     type: object
@@ -498,6 +504,12 @@ content:
                   - name: excerpt
                     label: Summary
                     type: string
+                  - name: label
+                    label: Footer Label
+                    type: string
+                  - name: href
+                    label: Link (href)
+                    type: string
                   - name: buttons
                     label: Buttons
                     type: object
@@ -674,6 +686,12 @@ content:
                   - name: excerpt
                     label: Summary
                     type: string
+                  - name: label
+                    label: Footer Label
+                    type: string
+                  - name: href
+                    label: Link (href)
+                    type: string
                   - name: buttons
                     label: Buttons
                     type: object
@@ -849,6 +867,12 @@ content:
                     type: string
                   - name: excerpt
                     label: Summary
+                    type: string
+                  - name: label
+                    label: Footer Label
+                    type: string
+                  - name: href
+                    label: Link (href)
                     type: string
                   - name: buttons
                     label: Buttons
@@ -1041,6 +1065,12 @@ content:
                     type: string
                   - name: excerpt
                     label: Summary
+                    type: string
+                  - name: label
+                    label: Footer Label
+                    type: string
+                  - name: href
+                    label: Link (href)
                     type: string
                   - name: buttons
                     label: Buttons
