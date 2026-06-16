@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-16T03:57:54.770Z",
+    "lastUpdated": "2026-06-16T04:07:40.264Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2350,7 +2350,7 @@
             "title": "LIP01 - Items: multiple",
             "slug": "lip01-items-multiple",
             "path": "snippets/lip01-items-multiple/lip01-items-multiple.json",
-            "code": "<gds-list>\n  <gds-list-item-pattern-01 .items=[\n      {\n        label: 'Account',\n        value: '1234 5678 9012',\n      },\n      {\n        label: 'Balance',\n        value: '12 345,00 SEK',\n      },\n      {\n        label: 'Status',\n        value: 'Active',\n      }\n    ],></gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 .items=[\n      {\n        label: 'Account',\n        value: '1234 5678 9012',\n      },\n      {\n        value: '0',\n      },\n    ],></gds-list-item-pattern-01>\n</gds-list>",
+            "code": "  <gds-list>\n    <gds-list-item-pattern-01\n      .items=${[\n        { label: 'Account', value: '1234 5678 9012' },\n        { label: 'Balance', value: '12 345,00 SEK' },\n        { label: 'Status', value: 'Active' },\n      ]}\n    ></gds-list-item-pattern-01>\n\n    <gds-list-item-pattern-01\n      .items=${[\n        { label: 'Account', value: '1234 5678 9012' },\n        { value: '0' },\n      ]}\n    ></gds-list-item-pattern-01>\n  </gds-list>",
             "endpoints": {
               "content": "snippets/lip01-items-multiple/lip01-items-multiple.json"
             }
