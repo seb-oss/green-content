@@ -4,9 +4,8 @@
   "summary": "Coming soon...",
   "sections": [
     {
-      "title": "Content",
-      "max-width": true,
-      "cols": "1",
+      "max-width": false,
+      "cols": "2",
       "columns": [
         {
           "type": "card-pattern-01",
