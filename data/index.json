@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-16T14:00:08.270Z",
+    "lastUpdated": "2026-06-16T14:05:15.995Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2366,7 +2366,7 @@
             "title": "LIP01: Selectable with href",
             "slug": "lip01-selectable-href",
             "path": "snippets/lip01-selectable-href/lip01-selectable-href.json",
-            "code": "<gds-list>\n  <gds-list-item-pattern-01 selectable href=\"/accounts/5678\">\n    <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n      <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n      <gds-text font=\"detail-m-book\">Value</gds-text>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 selectable checked href=\"/accounts/5679\">\n    <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n      <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n    </gds-flex>\n    <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n      <gds-text font=\"detail-s-regular\">Value</gds-text>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n</gds-list>",
+            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-list>\n    <gds-list-item-pattern-01 selectable href=\"/accounts/5678\">\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01 selectable checked href=\"/accounts/5679\">\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\">Value</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-div>",
             "endpoints": {
               "content": "snippets/lip01-selectable-href/lip01-selectable-href.json"
             }
