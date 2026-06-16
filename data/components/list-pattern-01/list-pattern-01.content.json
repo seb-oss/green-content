@@ -2,7 +2,7 @@
   "title": "List item pattern 01",
   "slug": "list-item-pattern-01",
   "hero_snippet": "lp01-hero",
-  "beta": false,
+  "beta": true,
   "soon": true,
   "summary": "List item pattern 01 is built on top of the base list and list item components and supports slot-based composition for flexible layouts and supports interactive row behavior.",
   "preamble": "List item pattern 01 provides a ready-to-use row structure for displaying labels and values with support for selection, navigation, and row-level actions. Use the lead, main, and trail slots to combine icons, text and actions. This ensures consistent layout, spacing, and accessibility while allowing flexibility through slots.",
@@ -27,8 +27,12 @@
           "title": "With single item"
         },
         {
-          "type": "rich-text",
-          "title": "With multiple items"
+          "type": "snippet",
+          "caption": "With multiple items",
+          "plain": false,
+          "replay": false,
+          "variant": "Do",
+          "Snippet": "lip01-items-multiple"
         }
       ]
     },
