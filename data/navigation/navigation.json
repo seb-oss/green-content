@@ -4,7 +4,7 @@
       "title": "Brand",
       "slug": "brand",
       "path": "navigation/brand.json",
-      "links": 4
+      "links": 16
     },
     {
       "title": "Design direction",
@@ -32,5 +32,5 @@
     }
   ],
   "total": 5,
-  "lastUpdated": "2026-06-16T11:08:37.621Z"
+  "lastUpdated": "2026-06-16T11:27:37.727Z"
 }
