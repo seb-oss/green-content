@@ -309,6 +309,29 @@ content:
                       - name: text
                         label: "Text"
                         type: string
+              - name: card-pattern-01
+                label: Card Pattern 01
+                fields:
+                  - name: src
+                    label: Image
+                    type: image
+                  - name: title
+                    label: Title
+                    type: string
+                  - name: excerpt
+                    label: Summary
+                    type: string
+                  - name: buttons
+                    label: Buttons
+                    type: object
+                    list: true
+                    fields:
+                      - name: label
+                        label: Label
+                        type: string
+                      - name: href
+                        label: Link
+                        type: string
 
       - name: ux-text
         type: object
@@ -463,6 +486,29 @@ content:
                       - name: text
                         label: "Text"
                         type: string
+              - name: card-pattern-01
+                label: Card Pattern 01
+                fields:
+                  - name: src
+                    label: Image
+                    type: image
+                  - name: title
+                    label: Title
+                    type: string
+                  - name: excerpt
+                    label: Summary
+                    type: string
+                  - name: buttons
+                    label: Buttons
+                    type: object
+                    list: true
+                    fields:
+                      - name: label
+                        label: Label
+                        type: string
+                      - name: href
+                        label: Link
+                        type: string
       - name: accessibility
         type: object
         label: Accessibility
@@ -616,6 +662,29 @@ content:
                       - name: text
                         label: "Text"
                         type: string
+              - name: card-pattern-01
+                label: Card Pattern 01
+                fields:
+                  - name: src
+                    label: Image
+                    type: image
+                  - name: title
+                    label: Title
+                    type: string
+                  - name: excerpt
+                    label: Summary
+                    type: string
+                  - name: buttons
+                    label: Buttons
+                    type: object
+                    list: true
+                    fields:
+                      - name: label
+                        label: Label
+                        type: string
+                      - name: href
+                        label: Link
+                        type: string
       - name: faq
         type: object
         label: FAQ
@@ -768,6 +837,29 @@ content:
                     fields:
                       - name: text
                         label: "Text"
+                        type: string
+              - name: card-pattern-01
+                label: Card Pattern 01
+                fields:
+                  - name: src
+                    label: Image
+                    type: image
+                  - name: title
+                    label: Title
+                    type: string
+                  - name: excerpt
+                    label: Summary
+                    type: string
+                  - name: buttons
+                    label: Buttons
+                    type: object
+                    list: true
+                    fields:
+                      - name: label
+                        label: Label
+                        type: string
+                      - name: href
+                        label: Link
                         type: string
 
   - name: pages
@@ -937,6 +1029,29 @@ content:
                     fields:
                       - name: text
                         label: "Text"
+                        type: string
+              - name: card-pattern-01
+                label: Card Pattern 01
+                fields:
+                  - name: src
+                    label: Image
+                    type: image
+                  - name: title
+                    label: Title
+                    type: string
+                  - name: excerpt
+                    label: Summary
+                    type: string
+                  - name: buttons
+                    label: Buttons
+                    type: object
+                    list: true
+                    fields:
+                      - name: label
+                        label: Label
+                        type: string
+                      - name: href
+                        label: Link
                         type: string
 
   - name: navigation
