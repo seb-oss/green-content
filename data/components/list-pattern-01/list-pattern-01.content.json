@@ -106,15 +106,22 @@
       "cols": "3",
       "columns": [
         {
-          "type": "rich-text"
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-lead-icon"
         },
         {
-          "type": "rich-text",
-          "title": "With avatar"
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-lead-avatar"
         },
         {
-          "type": "rich-text",
-          "title": "With no lead"
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-lead-badge"
         }
       ]
     },
