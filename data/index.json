@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-16T09:01:58.706Z",
+    "lastUpdated": "2026-06-16T09:10:43.847Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2351,15 +2351,6 @@
             "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/link-trailing/link-trailing.json"
-            }
-          },
-          {
-            "title": "LIP01 - Items: multiple",
-            "slug": "lip01-items-multiple",
-            "path": "snippets/lip01-items-multiple/lip01-items-multiple.json",
-            "code": "<gds-list>\n  <gds-list-item-pattern-01 href=\"#\">\n    <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n    <gds-text>Value</gds-text>\n  </gds-list-item-pattern-01>\n</gds-list>",
-            "endpoints": {
-              "content": "snippets/lip01-items-multiple/lip01-items-multiple.json"
             }
           },
           {
