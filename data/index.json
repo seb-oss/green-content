@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-16T14:05:15.995Z",
+    "lastUpdated": "2026-06-16T14:09:49.618Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2375,7 +2375,7 @@
             "title": "LIP01: Selectable",
             "slug": "lip01-selectable",
             "path": "snippets/lip01-selectable/lip01-selectable.json",
-            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-list>\n    <gds-list-item-pattern-01 selectable>\n      <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01 selectable checked>\n      <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-div>",
+            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-list>\n    <gds-list-item-pattern-01 selectable>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01 selectable checked>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-div>",
             "endpoints": {
               "content": "snippets/lip01-selectable/lip01-selectable.json"
             }
