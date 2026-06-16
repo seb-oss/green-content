@@ -315,6 +315,15 @@ content:
                   - name: src
                     label: Image
                     type: image
+                  - name: Snippet
+                    label: Snippet
+                    type: reference
+                    options:
+                      collection: snippets
+                      multiple: false
+                      search: "title,slug"
+                      value: "{slug}"
+                      label: "{title}"
                   - name: title
                     label: Title
                     type: string
@@ -498,6 +507,15 @@ content:
                   - name: src
                     label: Image
                     type: image
+                  - name: Snippet
+                    label: Snippet
+                    type: reference
+                    options:
+                      collection: snippets
+                      multiple: false
+                      search: "title,slug"
+                      value: "{slug}"
+                      label: "{title}"
                   - name: title
                     label: Title
                     type: string
@@ -680,6 +698,15 @@ content:
                   - name: src
                     label: Image
                     type: image
+                  - name: Snippet
+                    label: Snippet
+                    type: reference
+                    options:
+                      collection: snippets
+                      multiple: false
+                      search: "title,slug"
+                      value: "{slug}"
+                      label: "{title}"
                   - name: title
                     label: Title
                     type: string
@@ -862,6 +889,15 @@ content:
                   - name: src
                     label: Image
                     type: image
+                  - name: Snippet
+                    label: Snippet
+                    type: reference
+                    options:
+                      collection: snippets
+                      multiple: false
+                      search: "title,slug"
+                      value: "{slug}"
+                      label: "{title}"
                   - name: title
                     label: Title
                     type: string
@@ -1060,6 +1096,15 @@ content:
                   - name: src
                     label: Image
                     type: image
+                  - name: Snippet
+                    label: Snippet
+                    type: reference
+                    options:
+                      collection: snippets
+                      multiple: false
+                      search: "title,slug"
+                      value: "{slug}"
+                      label: "{title}"
                   - name: title
                     label: Title
                     type: string
