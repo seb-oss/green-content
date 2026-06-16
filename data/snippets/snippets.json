@@ -985,6 +985,12 @@
       "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>"
     },
     {
+      "title": "LIP01 - Items: multiple",
+      "slug": "lip01-items-multiple",
+      "path": "snippets/lip01-items-multiple/lip01-items-multiple.json",
+      "code": "<gds-list>\n  <gds-list-item-pattern-01 .items=[\n      {\n        label: 'Account',\n        value: '1234 5678 9012',\n      },\n      {\n        label: 'Balance',\n        value: '12 345,00 SEK',\n      },\n      {\n        label: 'Status',\n        value: 'Active',\n      }\n    ],></gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 .items=[\n      {\n        label: 'Account',\n        value: '1234 5678 9012',\n      },\n      {\n        value: '0',\n      },\n    ],></gds-list-item-pattern-01>\n</gds-list>"
+    },
+    {
       "title": "List: Hero",
       "slug": "list-hero",
       "path": "snippets/list-hero/list-hero.json",
@@ -1165,6 +1171,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 194,
-  "lastUpdated": "2026-06-15T13:35:34.270Z"
+  "total": 195,
+  "lastUpdated": "2026-06-16T03:54:27.375Z"
 }
