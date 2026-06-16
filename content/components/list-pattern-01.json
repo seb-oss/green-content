@@ -20,21 +20,7 @@
       "title": "Items",
       "tag": "H2",
       "section-content": "Use items property to get predefined styling for 2-3 columns.\n\nNote: Use custom content directly in the row to be slotted into main, if you want to show more columns.",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "title": "With single item"
-        },
-        {
-          "type": "snippet",
-          "caption": "With multiple items",
-          "plain": false,
-          "replay": false,
-          "variant": "Do",
-          "Snippet": "lip01-items-multiple"
-        }
-      ]
+      "cols": "2"
     },
     {
       "title": "Interaction",
@@ -86,11 +72,13 @@
       "columns": [
         {
           "type": "rich-text",
-          "title": "With custom padding-inline"
+          "title": "Custom padding-inline",
+          "tag": "H3"
         },
         {
-          "type": "rich-text",
-          "title": "With no padding-inline"
+          "type": "snippet",
+          "plain": false,
+          "replay": false
         }
       ]
     },
