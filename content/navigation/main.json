@@ -28,6 +28,11 @@
       "icon": "IconCirclesThree"
     },
     {
+      "title": "Brand",
+      "slug": "brand",
+      "icon": "IconCarussel"
+    },
+    {
       "title": "Design direction",
       "slug": "design-direction",
       "icon": "IconDirection"
@@ -51,11 +56,6 @@
       "title": "Accessibility",
       "slug": "accessibility",
       "icon": "IconPeopleA11y"
-    },
-    {
-      "title": "Brand",
-      "slug": "brand",
-      "icon": "IconCarussel"
     }
   ]
 }
