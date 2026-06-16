@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-16T07:16:54.702Z",
+    "lastUpdated": "2026-06-16T07:23:59.814Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2350,7 +2350,7 @@
             "title": "LIP01 - Items: multiple",
             "slug": "lip01-items-multiple",
             "path": "snippets/lip01-items-multiple/lip01-items-multiple.json",
-            "code": "<gds-list>\n  <gds-list-item-pattern-01 id=\"row1\"></gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 id=\"row2\"></gds-list-item-pattern-01>\n</gds-list>\n\n<script>\n  document.getElementById('row1').items = [\n    { label: 'Account', value: '1234 5678 9012' },\n    { label: 'Balance', value: '12 345,00 SEK' },\n    { label: 'Status', value: 'Active' },\n  ]\n\n  document.getElementById('row2').items = [\n    { label: 'Account', value: '1234 5678 9012' },\n    { value: '0' },\n  ]\n</script>",
+            "code": "<gds-list>\n  <gds-list-item-pattern-01 href=\"#\">\n    <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n    <gds-text>Value</gds-text>\n  </gds-list-item-pattern-01>\n</gds-list>",
             "endpoints": {
               "content": "snippets/lip01-items-multiple/lip01-items-multiple.json"
             }
