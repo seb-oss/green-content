@@ -10,14 +10,9 @@
         {
           "type": "card-pattern-01",
           "src": "/assets/direction_volume.png",
-          "title": "This is a card pattern 01",
-          "excerpt": "test",
-          "buttons": [
-            {
-              "label": "Label",
-              "href": "#"
-            }
-          ]
+          "title": "Brand guidelines",
+          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "label": "Read more"
         }
       ]
     }
