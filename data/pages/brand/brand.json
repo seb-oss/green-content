@@ -1,5 +1,26 @@
 {
   "title": "Brand",
   "slug": "brand",
-  "summary": "Coming soon..."
+  "summary": "Coming soon...",
+  "sections": [
+    {
+      "title": "Content",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/direction_volume.png",
+          "title": "This is a card pattern 01",
+          "excerpt": "test",
+          "buttons": [
+            {
+              "label": "Label",
+              "href": "#"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
