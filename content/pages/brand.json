@@ -12,7 +12,16 @@
           "src": "/assets/direction_volume.png",
           "title": "Brand guidelines",
           "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "label": "Read more"
+          "label": "Read more",
+          "href": "#"
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/icons.png",
+          "title": "Digital Invitations",
+          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "label": "Read more",
+          "href": "#"
         }
       ]
     }
