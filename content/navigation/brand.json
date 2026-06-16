@@ -1,4 +1,10 @@
 {
   "title": "Brand",
-  "slug": "brand"
+  "slug": "brand",
+  "links": [
+    {
+      "title": "Item one",
+      "slug": "item-one"
+    }
+  ]
 }
