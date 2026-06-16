@@ -10,6 +10,7 @@
       "columns": [
         {
           "type": "card-pattern-01",
+          "src": "/assets/direction_volume.png",
           "title": "This is a card pattern 01",
           "excerpt": "test",
           "buttons": [
