@@ -28,6 +28,11 @@
       "icon": "IconCirclesThree"
     },
     {
+      "title": "Brand",
+      "slug": "brand",
+      "icon": "IconCarussel"
+    },
+    {
       "title": "Design direction",
       "slug": "design-direction",
       "icon": "IconDirection"
