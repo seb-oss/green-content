@@ -37,9 +37,9 @@
       ]
     },
     {
-      "title": "Selectable and linked",
+      "title": "Interaction",
       "tag": "H2",
-      "cols": "3",
+      "cols": "2",
       "columns": [
         {
           "type": "rich-text",
@@ -48,16 +48,34 @@
           "content": "Enable `selectable` to show a checkbox and support checked/unchecked states."
         },
         {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-selectable"
+        },
+        {
           "type": "rich-text",
           "title": "Href",
           "tag": "H3",
           "content": "Add `href` to make the row interactive as a link. Displays a chevron in the trail slot."
         },
         {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-href"
+        },
+        {
           "type": "rich-text",
-          "title": "selectable + href",
+          "title": "Selectable with href",
           "tag": "H3",
           "content": "Combine checkbox selection and link navigation in the same row."
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-selectable-href"
         }
       ]
     },
