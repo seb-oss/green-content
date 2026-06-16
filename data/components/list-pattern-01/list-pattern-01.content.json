@@ -78,7 +78,19 @@
         {
           "type": "snippet",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "lip01-padding-inline-custom"
+        },
+        {
+          "type": "rich-text",
+          "title": "No padding-inline",
+          "tag": "H3"
+        },
+        {
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-no-padding-inline"
         }
       ]
     },
@@ -94,8 +106,7 @@
       "cols": "3",
       "columns": [
         {
-          "type": "rich-text",
-          "title": "With icon"
+          "type": "rich-text"
         },
         {
           "type": "rich-text",

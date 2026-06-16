@@ -997,6 +997,12 @@
       "code": "<gds-div display=\"block\" width=\"100%\">\n    <gds-list>\n        <gds-list-item-pattern-01 href=\"#\">\n            <gds-avatar slot=\"lead\"></gds-avatar>\n            <gds-text font=\"detail-s-regular\">Linked list item with lead avatar</gds-text>\n        </gds-list-item-pattern-01>\n    </gds-list>\n</gds-div>"
     },
     {
+      "title": "LIP01 - Lead: Badge",
+      "slug": "lip01-lead-badge",
+      "path": "snippets/lip01-lead-badge/lip01-lead-badge.json",
+      "code": "<gds-div display=\"block\" width=\"100%\">\n    <gds-list>\n        <gds-list-item-pattern-01 selectable>\n            <gds-badge slot=\"lead\" variant=\"information\">Status</gds-badge>\n            <gds-text font=\"detail-s-regular\" tag=\"label\">Selectable list item with lead badge</gds-text>\n        </gds-list-item-pattern-01>\n    </gds-list>\n</gds-div>"
+    },
+    {
       "title": "LIP01 - Lead: Icon",
       "slug": "lip01-lead-icon",
       "path": "snippets/lip01-lead-icon/lip01-lead-icon.json",
@@ -1207,6 +1213,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 201,
-  "lastUpdated": "2026-06-16T14:54:33.972Z"
+  "total": 202,
+  "lastUpdated": "2026-06-16T14:55:40.524Z"
 }
