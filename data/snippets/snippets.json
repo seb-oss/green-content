@@ -991,6 +991,12 @@
       "code": "<gds-list>\n  <gds-list-item-pattern-01 href=\"#\">\n    <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n    <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n      <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n      <gds-text font=\"detail-m-book\">Value</gds-text>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 href=\"#\">\n    <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n    <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n      <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n</gds-list>"
     },
     {
+      "title": "LIP01: Selectable with href",
+      "slug": "lip01-selectable-href",
+      "path": "snippets/lip01-selectable-href/lip01-selectable-href.json",
+      "code": "<gds-list>\n  <gds-list-item-pattern-01 selectable href=\"/accounts/5678\">\n    <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n      <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n      <gds-text font=\"detail-m-book\">Value</gds-text>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 selectable checked href=\"/accounts/5679\">\n    <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n      <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n    </gds-flex>\n    <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n      <gds-text font=\"detail-s-regular\">Value</gds-text>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n</gds-list>"
+    },
+    {
       "title": "LIP01: Selectable",
       "slug": "lip01-selectable",
       "path": "snippets/lip01-selectable/lip01-selectable.json",
@@ -1177,6 +1183,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 196,
-  "lastUpdated": "2026-06-16T12:27:48.224Z"
+  "total": 197,
+  "lastUpdated": "2026-06-16T12:33:54.050Z"
 }
