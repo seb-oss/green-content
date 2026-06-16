@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-16T11:32:04.080Z",
+    "lastUpdated": "2026-06-16T12:27:48.222Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2351,6 +2351,15 @@
             "code": "<gds-flex gap=\"2xl\" flex-direction=\"column\">\n  <gds-link >\n    Link text\n    <gds-icon-arrow-right slot=\"trail\"></gds-icon-arrow-right>\n  </gds-link>\n  <gds-link>\n    Link text\n    <gds-icon-square-arrow-top-right slot=\"trail\"></gds-icon-square-arrow-top-right>\n  </gds-link>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/link-trailing/link-trailing.json"
+            }
+          },
+          {
+            "title": "LIP01: Href",
+            "slug": "lip01-href",
+            "path": "snippets/lip01-href/lip01-href.json",
+            "code": "<gds-list>\n  <gds-list-item-pattern-01 href=\"#\">\n    <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n    <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n      <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n      <gds-text font=\"detail-m-book\">Value</gds-text>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 href=\"#\">\n    <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n    <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n      <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n</gds-list>",
+            "endpoints": {
+              "content": "snippets/lip01-href/lip01-href.json"
             }
           },
           {
