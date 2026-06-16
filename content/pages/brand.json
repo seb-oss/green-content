@@ -9,7 +9,7 @@
       "columns": [
         {
           "type": "card-pattern-01",
-          "src": "/assets/direction_volume.png",
+          "Snippet": "blog-avatar",
           "title": "Brand guidelines",
           "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
           "label": "Read more",
