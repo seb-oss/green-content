@@ -1,0 +1,6 @@
+{
+  "title": "LIP01 - Items: multiple",
+  "slug": "lip01-items-multiple",
+  "snippet_component": "List item pattern 01",
+  "code": "<gds-list>\n  <gds-list-item-pattern-01 .items=[\n      {\n        label: 'Account',\n        value: '1234 5678 9012',\n      },\n      {\n        label: 'Balance',\n        value: '12 345,00 SEK',\n      },\n      {\n        label: 'Status',\n        value: 'Active',\n      }\n    ],></gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 .items=[\n      {\n        label: 'Account',\n        value: '1234 5678 9012',\n      },\n      {\n        value: '0',\n      },\n    ],></gds-list-item-pattern-01>\n</gds-list>"
+}
