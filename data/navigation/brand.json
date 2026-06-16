@@ -4,7 +4,19 @@
   "links": [
     {
       "title": "Brand Guidelines",
-      "slug": "brand/brand-guidelines"
+      "slug": "brand/guidelines"
+    },
+    {
+      "title": "Brand Colours",
+      "slug": "brand/colours"
+    },
+    {
+      "title": "Digital invitations",
+      "slug": "brand/digital-invitations"
+    },
+    {
+      "title": "Generative AI Guidelines",
+      "slug": "brand/generative-ai-guidelines"
     }
   ]
 }
