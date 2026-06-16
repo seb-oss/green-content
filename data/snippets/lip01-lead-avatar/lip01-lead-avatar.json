@@ -1,0 +1,6 @@
+{
+  "title": "LIP01 - Lead: Avatar",
+  "slug": "lip01-lead-avatar",
+  "snippet_component": "List item pattern 01",
+  "code": "<gds-div display=\"block\" width=\"100%\">\n    <gds-list>\n        <gds-list-item-pattern-01 href=\"#\">\n            <gds-avatar slot=\"lead\"></gds-avatar>\n            <gds-text font=\"detail-s-regular\">Linked list item with lead avatar</gds-text>\n        </gds-list-item-pattern-01>\n    </gds-list>\n</gds-div>"
+}
