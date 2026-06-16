@@ -1,6 +1,12 @@
 {
   "navigation": [
     {
+      "title": "Brand",
+      "slug": "brand",
+      "path": "navigation/brand.json",
+      "links": 1
+    },
+    {
       "title": "Design direction",
       "slug": "design-direction",
       "path": "navigation/design-direction.json",
@@ -25,6 +31,6 @@
       "links": 3
     }
   ],
-  "total": 4,
-  "lastUpdated": "2026-06-16T07:23:59.817Z"
+  "total": 5,
+  "lastUpdated": "2026-06-16T08:39:05.060Z"
 }

@@ -1,0 +1,10 @@
+{
+  "title": "Brand",
+  "slug": "brand",
+  "links": [
+    {
+      "title": "Item one",
+      "slug": "item-one"
+    }
+  ]
+}

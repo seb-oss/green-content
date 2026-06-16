@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-16T07:23:59.814Z",
+    "lastUpdated": "2026-06-16T08:39:05.057Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -467,6 +467,13 @@
       "navigation": {
         "list": "navigation/navigation.json",
         "items": [
+          {
+            "title": "Brand",
+            "slug": "brand",
+            "path": "navigation/brand.json",
+            "links": 1,
+            "endpoint": "navigation/brand.json"
+          },
           {
             "title": "Design direction",
             "slug": "design-direction",
