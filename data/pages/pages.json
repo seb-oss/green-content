@@ -45,7 +45,7 @@
     {
       "title": "Imagery",
       "slug": "brand/imagery",
-      "summary": "We have a new lineup of amazing images in our image bank to make SEB stand out. We want to show an elevated reality and create a distinctive SEB look.",
+      "summary": "We have a new lineup of amazing images in our image bank to make SEB stand out. We want to show an elevated reality and create a distinctive SEB look. Images should reflect SEBs attention to detail and quality. In accordance with this, our shadows are cold, and our highlights are warm to represent our professionalism and human values.",
       "path": "pages/brand-imagery/brand-imagery.json"
     },
     {
@@ -235,5 +235,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-17T13:14:25.498Z"
+  "lastUpdated": "2026-06-17T13:24:59.750Z"
 }
