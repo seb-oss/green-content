@@ -37,7 +37,7 @@
       "path": "pages/brand-generative-ai-guidelines/brand-generative-ai-guidelines.json"
     },
     {
-      "title": "Icons & Signage",
+      "title": "Icons & signage",
       "slug": "brand/icons-and-signage",
       "summary": "Using icons and pictograms in the right way can help navigate through certain environments.",
       "path": "pages/brand-icons-and-signage/brand-icons-and-signage.json"
@@ -235,5 +235,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-17T12:34:38.615Z"
+  "lastUpdated": "2026-06-17T12:35:23.494Z"
 }
