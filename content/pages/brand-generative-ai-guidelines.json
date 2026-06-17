@@ -6,13 +6,23 @@
   "sections": [
     {
       "max-width": false,
-      "cols": "1",
+      "cols": "2",
       "columns": [
         {
           "type": "image",
           "src": "/assets/brand-hub/d69fb38b-4f08-4c2b-9364-c06a97bb16b5.png"
+        },
+        {
+          "type": "rich-text",
+          "title": " What is Generative AI?",
+          "content": "#### Based on training data, Generative AI mimics human creativity   \nto create new content, such as text, images, music, and more.\n\n"
         }
       ]
+    },
+    {
+      "tag": "H2",
+      "section-content": "## Content created with generative AI must follow SEB’s brand and tone guidelines to maintain consistency.",
+      "max-width": true
     },
     {
       "title": "Whenever using AI-generated content, it must:",
@@ -21,35 +31,23 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "1. Be reviewed by colleagues, relevant Heads, risk managers, or legal when uncertain.\n2. Undergo fact-checking to ensure accuracy, especially for guides or checklists.\n3. Comply with all legal and regulatory requirements.\n\n"
+          "content": "1. Be reviewed by colleagues, relevant Heads, risk managers, or legal when uncertain.\n2. Undergo fact-checking to ensure accuracy, especially for guides or checklists.\n3. Comply with all legal and regulatory requirements."
         }
       ]
     },
     {
       "title": "Disclosure",
-      "tag": "H5",
+      "tag": "H2",
+      "section-content": "Any content generated or adjusted by AI must include a clear disclosure, as required by the EU AI Act. This applies to all formats (text, images, audio, video) and must be visible at the first interaction or exposure.",
       "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Any content generated or adjusted by AI must include a clear disclosure, as required by the EU AI Act. This applies to all formats (text, images, audio, video) and must be visible at the first interaction or exposure."
-        }
-      ]
+      "cols": "1"
     },
     {
       "title": "Image Generation",
-      "tag": "H5",
+      "tag": "H2",
+      "section-content": "Any AI-generated images submitted for approval should be checked against these general requirements:",
       "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Any AI-generated images submitted for approval should be checked against these general requirements:"
-        }
-      ]
+      "cols": "1"
     },
     {
       "title": "Modern, yet timeless.Elegant, uncluttered, and effortless.Confidence. Less is more.Attention to detail. Just like in our business.",
