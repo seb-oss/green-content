@@ -49,6 +49,37 @@
       ]
     },
     {
+      "max-width": false,
+      "cols": "3",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Shoot real-life situations — Having a coffee, meeting a colleague, working, eating lunch, etc. We want to achieve a warm and approachable feeling towards SEB, so have fun – show some personality!",
+          "src": "/assets/brand-hub/2c210dd5-ab8f-44d1-92ad-d6d9d0f28cdd.jpg"
+        },
+        {
+          "type": "image",
+          "caption": "Use an uncluttered background.",
+          "src": "/assets/brand-hub/fbf7b675-4a5b-456c-a59c-4628f43c4f95.jpg"
+        },
+        {
+          "type": "image",
+          "caption": "Find or create interesting lighting to add some further depth to the image. Bring geometric shapes into the equation and let the light do the work for you.  Shooting when the sun is at its extreme often gives very interesting light play.",
+          "src": "/assets/brand-hub/01201af1-5b08-4e90-8507-de770985263b.jpg"
+        },
+        {
+          "type": "image",
+          "caption": "Keep one side of the image clean and preferably dark to make the legibility as good as possible when adding text.  Add a sense of depth to the image by using objects or persons in the immediate foreground. These can be in or out of focus.",
+          "src": "/assets/brand-hub/fd359435-eff5-4acc-8449-b99392f96146.jpg"
+        },
+        {
+          "type": "image",
+          "caption": "Consider the styling of the model to make them feel incorporated into the environment.   For a more premium and cohesive look, consider the amount of color in the frame. Try to stay within the same spectrum of color as our other images.  Are you shooting a woman in a red elevator, consider styling the person with red to make the whole image feel more cohesive. ",
+          "src": "/assets/brand-hub/bd6a2e8b29604ce6836f50818a0dabf1.jpg"
+        }
+      ]
+    },
+    {
       "title": "Urban environments",
       "tag": "H2",
       "max-width": true,
@@ -232,37 +263,6 @@
           "type": "paragraph",
           "tag": "p",
           "text": "Next chapter"
-        }
-      ]
-    },
-    {
-      "max-width": false,
-      "cols": "3",
-      "columns": [
-        {
-          "type": "image",
-          "caption": "Shoot real-life situations — Having a coffee, meeting a colleague, working, eating lunch, etc. We want to achieve a warm and approachable feeling towards SEB, so have fun – show some personality!",
-          "src": "/assets/brand-hub/2c210dd5-ab8f-44d1-92ad-d6d9d0f28cdd.jpg"
-        },
-        {
-          "type": "image",
-          "caption": "Use an uncluttered background.",
-          "src": "/assets/brand-hub/fbf7b675-4a5b-456c-a59c-4628f43c4f95.jpg"
-        },
-        {
-          "type": "image",
-          "caption": "Find or create interesting lighting to add some further depth to the image. Bring geometric shapes into the equation and let the light do the work for you.  Shooting when the sun is at its extreme often gives very interesting light play.",
-          "src": "/assets/brand-hub/01201af1-5b08-4e90-8507-de770985263b.jpg"
-        },
-        {
-          "type": "image",
-          "caption": "Keep one side of the image clean and preferably dark to make the legibility as good as possible when adding text.  Add a sense of depth to the image by using objects or persons in the immediate foreground. These can be in or out of focus.",
-          "src": "/assets/brand-hub/fd359435-eff5-4acc-8449-b99392f96146.jpg"
-        },
-        {
-          "type": "image",
-          "caption": "Consider the styling of the model to make them feel incorporated into the environment.   For a more premium and cohesive look, consider the amount of color in the frame. Try to stay within the same spectrum of color as our other images.  Are you shooting a woman in a red elevator, consider styling the person with red to make the whole image feel more cohesive. ",
-          "src": "/assets/brand-hub/bd6a2e8b29604ce6836f50818a0dabf1.jpg"
         }
       ]
     }
