@@ -51,6 +51,18 @@
           "src": "/assets/brand-hub/d25fd74c-f595-4983-abd3-ba7dd83c4299.jpeg"
         }
       ]
+    },
+    {
+      "title": "Do´s and don´ts",
+      "tag": "H2",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Do Use the icons in our library."
+        }
+      ]
     }
   ]
 }
