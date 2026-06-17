@@ -62,6 +62,7 @@
       "columns": [
         {
           "type": "rich-text",
+          "tag": "H2",
           "content": "- Modern, yet timeless.\n- Elegant, uncluttered, and effortless.\n- Confidence. Less is more.\n- Attention to detail. Just like in our business.\n\n"
         }
       ]
