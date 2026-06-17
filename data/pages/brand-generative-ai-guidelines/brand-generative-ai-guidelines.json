@@ -1,20 +1,9 @@
 {
   "title": "Generative AI Guidelines",
   "slug": "brand/generative-ai-guidelines",
-  "parent": "brand",
   "summary": "SEB is built on trust and relationships, always prioritizing the big picture, understanding client’s needs, and offering the best long-term advice. Clients value this and are willing to pay a premium for it.",
+  "parent": "brand",
   "sections": [
-    {
-      "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "SEB is built on trust and relationships, always prioritizing the big picture, understanding client’s needs, and offering the best long-term advice. Clients value this and are willing to pay a premium for it."
-        }
-      ]
-    },
     {
       "max-width": false,
       "cols": "1",
@@ -29,22 +18,10 @@
       "title": "Whenever using AI-generated content, it must:",
       "tag": "H2",
       "max-width": true,
-      "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "1. Be reviewed by colleagues, relevant Heads, risk managers, or legal when uncertain."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "2. Undergo fact-checking to ensure accuracy, especially for guides or checklists."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "3. Comply with all legal and regulatory requirements."
+          "type": "rich-text",
+          "content": "1. Be reviewed by colleagues, relevant Heads, risk managers, or legal when uncertain.\n2. Undergo fact-checking to ensure accuracy, especially for guides or checklists.\n3. Comply with all legal and regulatory requirements.\n\n"
         }
       ]
     },
