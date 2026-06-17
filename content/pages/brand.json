@@ -31,6 +31,12 @@
           "src": "/assets/imagery.jpg",
           "title": "Imagery",
           "href": "https://seb.io/brand/imagery"
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/About.png",
+          "title": "Logotype",
+          "href": "https://seb.io/brand/logotype"
         }
       ]
     }
