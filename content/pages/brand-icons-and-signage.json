@@ -60,7 +60,43 @@
       "columns": [
         {
           "type": "image",
-          "caption": "Do Use the icons in our library."
+          "caption": "Do – use the icons in our library.",
+          "src": "/assets/do-dont-01.png"
+        },
+        {
+          "type": "image",
+          "caption": "Don't - ever use any other icons.",
+          "src": "/assets/do-dont-02.jpeg"
+        },
+        {
+          "type": "image",
+          "caption": "Do – size icons seen together to have equal stroke width.",
+          "src": "/assets/do-dont-03.png"
+        },
+        {
+          "type": "image",
+          "caption": "Don't – mix stroke width and sizes.",
+          "src": "/assets/do-dont-04.png"
+        },
+        {
+          "type": "image",
+          "caption": "Do – scale icons evenly.",
+          "src": "/assets/do-dont-05.png"
+        },
+        {
+          "type": "image",
+          "caption": "Don't – resize the icons unevenly.",
+          "src": "/assets/do-dont-06.png"
+        },
+        {
+          "type": "image",
+          "caption": "Do – use icons together with text.",
+          "src": "/assets/do-dont-07.png"
+        },
+        {
+          "type": "image",
+          "caption": "Don't – combine icons in an effort to give them new meaning.",
+          "src": "/assets/do-dont-08.png"
         }
       ]
     }
