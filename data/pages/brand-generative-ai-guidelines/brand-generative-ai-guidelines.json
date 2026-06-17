@@ -11,7 +11,7 @@
         {
           "type": "rich-text",
           "title": " What is Generative AI?",
-          "content": "#### Based on training data, Generative AI mimics human creativity\n\n#### to create new content, such as text, images, music, and more.\n\n"
+          "content": "Based on training data, Generative AI mimics human creativity to create new content, such as text, images, music, and more.\n\n"
         },
         {
           "type": "image",
