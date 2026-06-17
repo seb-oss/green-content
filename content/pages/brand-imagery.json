@@ -80,6 +80,15 @@
       ]
     },
     {
+      "max-width": false,
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/b59dc5ee-f316-45a0-936b-c9ec3918ba0f.png"
+        }
+      ]
+    },
+    {
       "title": "Urban environments",
       "tag": "H2",
       "max-width": true,
