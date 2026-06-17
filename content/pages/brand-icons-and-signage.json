@@ -32,26 +32,13 @@
     {
       "title": "Real estate",
       "tag": "H2",
-      "max-width": true,
+      "section-content": "When it comes to navigating a building we need to keep accessibility in mind. That’s why real estate will be the only place we use our pictograms, eg. toilets, recycling, coffee, floors, elevators. These are the collection of pictograms real estate can choose from.",
+      "max-width": false,
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "When it comes to navigating a building we need to keep accessibility in mind. That’s why real estate will be the only place we use our pictograms, eg. toilets, recycling, coffee, floors, elevators."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "These are the collection of pictograms real estate can choose from."
-        },
-        {
           "type": "image",
           "src": "/assets/brand-hub/d7bce8b1-01d7-4123-b5df-96bd1bf8ec38.png"
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/d25fd74c-f595-4983-abd3-ba7dd83c4299.jpeg"
         }
       ]
     },
