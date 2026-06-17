@@ -176,93 +176,43 @@
         },
         {
           "type": "image",
+          "caption": "Do– Use high resolution images.",
           "src": "/assets/brand-hub/2b42fd50-daed-416a-a9d5-7f2bf3087994_1.jpeg"
         },
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "DoUse high resolution images."
-        },
-        {
           "type": "image",
+          "caption": "Don't – Never use low quality or low resolution photographs.",
           "src": "/assets/brand-hub/a45eb343-6fcb-40c3-bc80-8e79396bf7f7_1.jpeg"
         },
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Don'tNever use low quality or low resolution photographs."
-        },
-        {
           "type": "image",
+          "caption": "Do – portray people in a natural way.",
           "src": "/assets/brand-hub/db15a6f8-4c9d-491a-b101-a54d0ee32bac_1.jpeg"
         },
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "DoPortray people in a natural way."
-        },
-        {
           "type": "image",
+          "caption": "Don't – use staged stock photos.",
           "src": "/assets/brand-hub/69f70646-9fbc-4b21-baa0-1c7d58454d9c_1.jpeg"
         },
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Don'tNever use staged stock photos."
-        },
-        {
           "type": "image",
+          "caption": "Do – make sure that the photographs have subtle colors.",
           "src": "/assets/brand-hub/0b047787-7d5f-40fb-92dd-51dcefb74a03.jpeg"
         },
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "DoMake sure that the photographs have subtle colors."
-        },
-        {
           "type": "image",
+          "caption": "Don't – avoid bright and bold colours in the images.",
           "src": "/assets/brand-hub/da5ebba9-4e5b-417b-b4b5-cc87227404b8.jpeg"
         },
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Don'tAvoid bright and bold colours in the images."
-        },
-        {
           "type": "image",
+          "caption": "Do – crop images so that they fit your format.",
           "src": "/assets/brand-hub/4deab0b7-600a-4da8-b539-a2e1dd8ca90f.jpeg"
         },
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "DoCrop images so that they fit your format."
-        },
-        {
           "type": "image",
+          "caption": "Don't - crop out any key parts of the image.",
           "src": "/assets/brand-hub/3d73bc54-80f8-4771-a1a0-97bfebe3c7db.jpeg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Don'tMake sure that you don't crop out any key parts of the image."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Previous chapter"
-        }
-      ]
-    },
-    {
-      "title": "Imagery (copy)",
-      "tag": "H4",
-      "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Next chapter"
         }
       ]
     }
