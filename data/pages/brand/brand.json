@@ -5,7 +5,6 @@
   "layout": "editorial",
   "sections": [
     {
-      "title": "Do we need this title?",
       "max-width": false,
       "cols": "3",
       "columns": [
@@ -26,6 +25,12 @@
           "src": "/assets/brand-hub/43f427b9-439b-47de-b9ce-805714991e10.png",
           "title": "Written identity",
           "href": "https://seb.io/brand/written-id-english"
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/imagery.jpg",
+          "title": "Imagery",
+          "href": "https://seb.io/brand/imagery"
         }
       ]
     }
