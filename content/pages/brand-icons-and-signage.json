@@ -34,114 +34,15 @@
       "tag": "H2",
       "section-content": "When it comes to navigating a building we need to keep accessibility in mind. That’s why real estate will be the only place we use our pictograms, eg. toilets, recycling, coffee, floors, elevators. These are the collection of pictograms real estate can choose from.",
       "max-width": false,
-      "cols": "1",
+      "cols": "2",
       "columns": [
         {
           "type": "image",
           "src": "/assets/brand-hub/d7bce8b1-01d7-4123-b5df-96bd1bf8ec38.png"
-        }
-      ]
-    },
-    {
-      "title": "Download",
-      "tag": "H2",
-      "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Here you'll find the entire icons package. Be mindful of how you use them. A picture or good wording is usually more substantial than using an icon."
         },
         {
           "type": "image",
-          "src": "/assets/brand-hub/af01de50-8fa3-49b3-8fe7-78759061012a.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "DoUse the icons in our library."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/a6ea817b-5edb-4f00-859c-528a1bacb110.jpeg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Don'tNever use any other icons."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/ef093eb3-c74e-49aa-913c-037e883d066a.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "DoSize icons seen together to have equal stroke width."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/c306872e-056d-4e6d-8e86-fe433289f52f.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Don'tDon't mix stroke width and sizes."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/cfe8d279-ddc5-4942-87fd-35e9d279d45c.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "DoScale icons evenly."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/47c885ac-33c9-46d4-9643-5df7508344f3.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Don'tNever resize the icons unevenly."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/9b66cbb8-934d-40c2-a76c-64e2acf527bc.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "DoUse icons together with text."
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/909dee3c-ebc1-48f1-8e7d-070077915d12.svg"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Don'tNever combine icons in an effort to give them new meaning."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Previous chapter"
-        }
-      ]
-    },
-    {
-      "title": "Imagery",
-      "tag": "H4",
-      "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Next chapter"
+          "src": "/assets/brand-hub/d25fd74c-f595-4983-abd3-ba7dd83c4299.jpeg"
         }
       ]
     }
