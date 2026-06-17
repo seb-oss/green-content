@@ -1,19 +1,19 @@
 {
   "title": "Brand",
   "slug": "brand",
-  "summary": "Coming soon...",
+  "summary": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
+  "layout": "editorial",
   "sections": [
     {
+      "title": "Do we need this title?",
       "max-width": false,
       "cols": "3",
       "columns": [
         {
           "type": "card-pattern-01",
-          "Snippet": "blog-avatar",
-          "title": "Brand guidelines",
-          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "label": "Read more",
-          "href": "#"
+          "src": "/assets/seb_the_brand.jpg",
+          "title": "The SEB brand",
+          "href": "https://seb.io/brand/the-seb-brand"
         },
         {
           "type": "card-pattern-01",

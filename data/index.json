@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-17T07:41:33.537Z",
+    "lastUpdated": "2026-06-17T07:44:09.496Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -705,7 +705,7 @@
           {
             "title": "Brand",
             "slug": "brand",
-            "summary": "Coming soon...",
+            "summary": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
             "path": "pages/brand/brand.json",
             "endpoints": {
               "content": "pages/brand/brand.json"

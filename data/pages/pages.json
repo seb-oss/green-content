@@ -123,7 +123,7 @@
     {
       "title": "Brand",
       "slug": "brand",
-      "summary": "Coming soon...",
+      "summary": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
       "path": "pages/brand/brand.json"
     },
     {
@@ -230,5 +230,5 @@
     }
   ],
   "total": 38,
-  "lastUpdated": "2026-06-17T07:41:33.540Z"
+  "lastUpdated": "2026-06-17T07:44:09.498Z"
 }
