@@ -17,11 +17,9 @@
         },
         {
           "type": "card-pattern-01",
-          "src": "/assets/icons.png",
-          "title": "Digital Invitations",
-          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "label": "Read more",
-          "href": "#"
+          "src": "/assets/brand-hub/993eacbd-186d-4658-b1e7-2fb90889f338.jpg",
+          "title": "Visual guidelines",
+          "href": "https://seb.io/brand/visual-guidelines"
         }
       ]
     }
