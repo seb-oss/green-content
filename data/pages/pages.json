@@ -121,7 +121,7 @@
       "path": "pages/brand-written-id-swedish/brand-written-id-swedish.json"
     },
     {
-      "title": "Brand",
+      "title": "Brand guidelines",
       "slug": "brand",
       "summary": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
       "path": "pages/brand/brand.json"
@@ -230,5 +230,5 @@
     }
   ],
   "total": 38,
-  "lastUpdated": "2026-06-17T07:57:37.952Z"
+  "lastUpdated": "2026-06-17T08:04:18.571Z"
 }
