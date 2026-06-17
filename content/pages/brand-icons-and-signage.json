@@ -7,7 +7,7 @@
     {
       "title": "In communication",
       "tag": "H2",
-      "max-width": true,
+      "max-width": false,
       "cols": "2",
       "columns": [
         {
