@@ -1,27 +1,14 @@
 {
   "title": "Icons & Signage",
   "slug": "brand/icons-and-signage",
-  "parent": "brand",
   "summary": "Using icons and pictograms in the right way can help navigate through certain environments.",
+  "parent": "brand",
   "sections": [
-    {
-      "title": "Icons & Signage",
-      "tag": "H2",
-      "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Using icons and pictograms in the right way can help navigate through certain environments."
-        }
-      ]
-    },
     {
       "title": "In communication",
       "tag": "H2",
       "max-width": true,
-      "cols": "1",
+      "cols": "2",
       "columns": [
         {
           "type": "paragraph",
