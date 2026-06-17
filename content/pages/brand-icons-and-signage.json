@@ -55,7 +55,7 @@
     {
       "title": "Do´s and don´ts",
       "tag": "H2",
-      "max-width": false,
+      "max-width": true,
       "cols": "2",
       "columns": [
         {
