@@ -3,10 +3,6 @@
   "slug": "brand",
   "links": [
     {
-      "title": "Brand guidelines",
-      "slug": "brand/guidelines"
-    },
-    {
       "title": "Brand colours",
       "slug": "brand/colours"
     },

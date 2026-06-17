@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-17T07:38:06.253Z",
+    "lastUpdated": "2026-06-17T07:41:33.537Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -471,7 +471,7 @@
             "title": "Brand",
             "slug": "brand",
             "path": "navigation/brand.json",
-            "links": 16,
+            "links": 15,
             "endpoint": "navigation/brand.json"
           },
           {
@@ -538,15 +538,6 @@
             "path": "pages/accessibility/accessibility.json",
             "endpoints": {
               "content": "pages/accessibility/accessibility.json"
-            }
-          },
-          {
-            "title": "Brand guidelines",
-            "slug": "brand/guidelines",
-            "summary": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
-            "path": "pages/brand-brand-guidelines/brand-brand-guidelines.json",
-            "endpoints": {
-              "content": "pages/brand-brand-guidelines/brand-brand-guidelines.json"
             }
           },
           {
