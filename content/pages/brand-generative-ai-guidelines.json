@@ -55,6 +55,16 @@
           "content": "- AI is not to be used for creating images for any client-facing communication except with approval from the Global Creative Director.\n- Exceptions (e.g., image extension or montage) must maintain the integrity of the original image and comply with copyright rules.\n- Any AI tools used must guarantee no copyright infringement.\n\n"
         }
       ]
+    },
+    {
+      "title": "Any AI-generated images submitted for approval should be checked against these general requirements:",
+      "max-width": true,
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "- Modern, yet timeless.\n- Elegant, uncluttered, and effortless.\n- Confidence. Less is more.\n- Attention to detail. Just like in our business.\n\n"
+        }
+      ]
     }
   ]
 }
