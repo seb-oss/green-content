@@ -36,50 +36,22 @@
       ]
     },
     {
-      "title": "Image Generation",
-      "tag": "H2",
-      "section-content": "Any AI-generated images submitted for approval should be checked against these general requirements:",
-      "max-width": true,
-      "cols": "1"
-    },
-    {
-      "title": "Modern, yet timeless.Elegant, uncluttered, and effortless.Confidence. Less is more.Attention to detail. Just like in our business.",
+      "title": "Using generative AI at SEB",
       "tag": "H2",
       "max-width": true,
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Please also note the overall 'Instruction for Artificial Intelligence Risks' and the 'Guideline for generative AI in internal and external communication' available to download on the following links:"
+          "type": "rich-text",
+          "title": "Text generation",
+          "tag": "H3",
+          "content": "- Always follow SEB’s verbal identity, even for AI-generated content.\n- Avoid uploading non-public text to public AI tools.\n- Ensure AI-generated text is reviewed by a human editor for tone, accuracy, facts, and compliance.\n\n"
         },
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Guideline for generative AI in internal and external communication"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Instruction for Artificial Intelligence Risks in the SEB Group"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Previous chapter"
-        }
-      ]
-    },
-    {
-      "title": "Logotype",
-      "tag": "H4",
-      "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Next chapter"
+          "type": "rich-text",
+          "title": "Image Generation",
+          "tag": "H3",
+          "content": "- AI is not to be used for creating images for any client-facing communication except with approval from the Global Creative Director.\n- Exceptions (e.g., image extension or montage) must maintain the integrity of the original image and comply with copyright rules.\n- Any AI tools used must guarantee no copyright infringement.\n\n"
         }
       ]
     }
