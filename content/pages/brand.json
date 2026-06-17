@@ -34,9 +34,15 @@
         },
         {
           "type": "card-pattern-01",
-          "src": "/assets/About.png",
+          "src": "/assets/logotype.jpg",
           "title": "Logotype",
           "href": "https://seb.io/brand/logotype"
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/realestate.jpg",
+          "title": "Real estate",
+          "href": "https://seb.io/brand/real-estate"
         }
       ]
     }
