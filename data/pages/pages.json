@@ -139,6 +139,11 @@
       "path": "pages/design-directionvisual-direction/design-directionvisual-direction.json"
     },
     {
+      "title": "Design principles",
+      "slug": "design-principles",
+      "path": "pages/design-principles/design-principles.json"
+    },
+    {
       "title": "Design direction",
       "slug": "design-direction",
       "summary": "At SEB, digital design is not just about aesthetics - it’s about clarity, function, and supporting the user journey. We simplify and remove obstacles, with accessibility and writing as equal parts.",
@@ -229,6 +234,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 38,
-  "lastUpdated": "2026-06-17T11:21:18.319Z"
+  "total": 39,
+  "lastUpdated": "2026-06-17T11:27:32.885Z"
 }
