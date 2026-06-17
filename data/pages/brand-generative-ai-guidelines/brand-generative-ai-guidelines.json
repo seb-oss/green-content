@@ -59,6 +59,7 @@
     {
       "title": "Any AI-generated images submitted for approval should be checked against these general requirements:",
       "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
