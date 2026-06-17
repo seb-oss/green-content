@@ -31,16 +31,9 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "1. Be reviewed by colleagues, relevant Heads, risk managers, or legal when uncertain.\n2. Undergo fact-checking to ensure accuracy, especially for guides or checklists.\n3. Comply with all legal and regulatory requirements.\n\n"
+          "content": "1. Be reviewed by colleagues, relevant Heads, risk managers, or legal when uncertain.\n2. Undergo fact-checking to ensure accuracy, especially for guides or checklists.\n3. Comply with all legal and regulatory requirements.\n\nDisclosure  \nAny content generated or adjusted by AI must include a clear disclosure, as required by the EU AI Act. This applies to all formats (text, images, audio, video) and must be visible at the first interaction or exposure.\n\n"
         }
       ]
-    },
-    {
-      "title": "Disclosure",
-      "tag": "H2",
-      "section-content": "Any content generated or adjusted by AI must include a clear disclosure, as required by the EU AI Act. This applies to all formats (text, images, audio, video) and must be visible at the first interaction or exposure.",
-      "max-width": true,
-      "cols": "1"
     },
     {
       "title": "Image Generation",
