@@ -43,6 +43,12 @@
           "src": "/assets/realestate.jpg",
           "title": "Real estate",
           "href": "https://seb.io/brand/real-estate"
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/templates.jpeg",
+          "title": "Templates",
+          "href": "https://seb.io/brand/templates-and-downloads"
         }
       ]
     }
