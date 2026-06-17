@@ -5,6 +5,15 @@
   "parent": "brand",
   "sections": [
     {
+      "max-width": false,
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/958f4523-406b-4768-ba81-01f42d119657.png"
+        }
+      ]
+    },
+    {
       "title": "In communication",
       "tag": "H2",
       "section-content": "When we use icons in communication we have selected a few that can help to lead the viewer and convey the message as clearly as possible. Icons are a great communicative tool to guide the eye and highlight certain actions.",
