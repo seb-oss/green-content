@@ -181,6 +181,26 @@
           "src": "/assets/brand-hub/c4a313db-0a67-4b43-bf51-e061653c5ca6_1.jpeg"
         }
       ]
+    },
+    {
+      "title": "Mediabank",
+      "tag": "H2",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "All of our images can be found in our media bank. Here you'll find images tagged with different keywords to easily find the one you are looking for.\n\n**Important!** Using images outside our media bank can result in fines, so keep to the images we have licensed. "
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/brand-hub/db15a6f8-4c9d-491a-b101-a54d0ee32bac.jpeg",
+          "title": "SEB media bank",
+          "excerpt": "Here you can find SEB brand images.  Do you need production of material for Branch office LCD-screens? Please see the intranet for further information. ",
+          "label": "Go to media bank",
+          "href": "https://brand.seb.se/point/en/seb/"
+        }
+      ]
     }
   ]
 }
