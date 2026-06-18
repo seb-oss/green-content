@@ -57,6 +57,7 @@
     {
       "title": "Media Bank",
       "slug": "brand/media-bank",
+      "summary": "The media bank is an external site. Please find the link below.",
       "path": "pages/brand-media-bank/brand-media-bank.json"
     },
     {
@@ -234,5 +235,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-18T09:06:55.854Z"
+  "lastUpdated": "2026-06-18T09:12:38.057Z"
 }

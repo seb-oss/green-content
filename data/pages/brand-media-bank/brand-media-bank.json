@@ -1,8 +1,19 @@
 {
   "title": "Media Bank",
   "slug": "brand/media-bank",
+  "summary": "The media bank is an external site. Please find the link below.",
   "parent": "brand",
   "sections": [
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/69b1a7cf-a686-4e3a-852d-e8218282033a.png"
+        }
+      ]
+    },
     {
       "max-width": false,
       "cols": "2",

@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-18T09:06:55.852Z",
+    "lastUpdated": "2026-06-18T09:12:38.055Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -606,6 +606,7 @@
           {
             "title": "Media Bank",
             "slug": "brand/media-bank",
+            "summary": "The media bank is an external site. Please find the link below.",
             "path": "pages/brand-media-bank/brand-media-bank.json",
             "endpoints": {
               "content": "pages/brand-media-bank/brand-media-bank.json"
