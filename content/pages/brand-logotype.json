@@ -9,9 +9,6 @@
       "cols": "1",
       "columns": [
         {
-          "type": "rich-text"
-        },
-        {
           "type": "image",
           "src": "/assets/logotype_hero.jpg"
         }
@@ -24,7 +21,8 @@
         {
           "type": "rich-text",
           "title": "Usage",
-          "tag": "H2"
+          "tag": "H2",
+          "content": "The SEB emblem can be used in white or black.\n\nWe use the version that creates the highest contrast for increased legibility in both digital and physical environments and makes sure that the brand is presented as clearly as possible.\n\nIf you have any questions or need assistance, please contact [creativedirection@seb.se](mailto:creativedirection@seb.se)"
         },
         {
           "type": "image",
