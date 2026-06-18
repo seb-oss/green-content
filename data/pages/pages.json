@@ -57,7 +57,6 @@
     {
       "title": "Media Bank",
       "slug": "brand/media-bank",
-      "summary": "Here is a selection of our image categories. Please note that all portrait images are only available under the \"Portraits\" category.",
       "path": "pages/brand-media-bank/brand-media-bank.json"
     },
     {
@@ -235,5 +234,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-18T08:47:37.064Z"
+  "lastUpdated": "2026-06-18T09:06:55.854Z"
 }

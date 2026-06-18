@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-18T08:47:37.062Z",
+    "lastUpdated": "2026-06-18T09:06:55.852Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -606,7 +606,6 @@
           {
             "title": "Media Bank",
             "slug": "brand/media-bank",
-            "summary": "Here is a selection of our image categories. Please note that all portrait images are only available under the \"Portraits\" category.",
             "path": "pages/brand-media-bank/brand-media-bank.json",
             "endpoints": {
               "content": "pages/brand-media-bank/brand-media-bank.json"
