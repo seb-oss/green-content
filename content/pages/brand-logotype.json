@@ -1,24 +1,16 @@
 {
   "title": "Logotype",
   "slug": "brand/logotype",
-  "parent": "brand",
   "summary": "The most distinct part of our visual identity is the SEB emblem. It telegraphically communicates and connects SEB to a piece of communication, a building, a service, or a digital product.",
+  "parent": "brand",
   "sections": [
     {
-      "title": "Logotype",
-      "tag": "H2",
-      "max-width": true,
+      "max-width": false,
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "The most distinct part of our visual identity is the SEB emblem. It telegraphically communicates and connects SEB to a piece of communication, a building, a service, or a digital product."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "It becomes a seal that harnesses the trust and knowledge that will make people choose SEB."
+          "type": "image",
+          "src": "/assets/logotype_hero.jpg"
         }
       ]
     },
