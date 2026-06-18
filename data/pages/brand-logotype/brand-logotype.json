@@ -10,7 +10,7 @@
       "columns": [
         {
           "type": "image",
-          "src": "/assets/logotype_hero.jpg"
+          "src": "/assets/brand-hub/2fa5f1e3-7833-477d-9e0e-5869245ac6ef.jpg"
         }
       ]
     },
@@ -33,14 +33,10 @@
     {
       "title": "Good examples",
       "tag": "H2",
-      "max-width": true,
-      "cols": "1",
+      "section-content": "Here follows a few good examples of how to place the logotype and when to use which version of it.",
+      "max-width": false,
+      "cols": "3",
       "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Here follows a few good examples of how to place the logotype and when to use which version of it."
-        },
         {
           "type": "image",
           "src": "/assets/brand-hub/a81b0697-bfc3-4f38-8119-db45bf49c104.jpg"
