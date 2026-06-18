@@ -88,6 +88,33 @@
           "src": "/assets/LogoCentered.png"
         }
       ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Clear space",
+          "tag": "H2",
+          "content": "When placing the logo close to other elements, it's important to keep a clear space around the logo. The minimum clear space around the wordmark is the wordmarks height."
+        },
+        {
+          "type": "image",
+          "src": "/assets/ClearSpace.png"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Minimum size",
+          "content": "To ensure that our company name SEB is always visible, and stands as a clear sender of our brand, a minimum size has been set.\n\n• For print, the minimum size is 10 mm wide.  \n• For digital, the minimum size is 60 px wide.\n\nThe logotype should never be used in smaller sizes."
+        }
+      ]
     }
   ]
 }
