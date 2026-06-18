@@ -9,6 +9,9 @@
       "cols": "1",
       "columns": [
         {
+          "type": "rich-text"
+        },
+        {
           "type": "image",
           "src": "/assets/logotype_hero.jpg"
         }
