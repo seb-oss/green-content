@@ -2,18 +2,23 @@
   "title": "Media Bank",
   "slug": "brand/media-bank",
   "parent": "brand",
-  "summary": "Here is a selection of our image categories. Please note that all portrait images are only available under the \"Portraits\" category.",
   "sections": [
     {
-      "title": "Media Bank",
-      "tag": "H2",
-      "max-width": true,
-      "cols": "1",
+      "max-width": false,
+      "cols": "2",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Here is a selection of our image categories. Please note that all portrait images are only available under the \"Portraits\" category."
+          "type": "rich-text",
+          "title": "How to find the media bank",
+          "content": "All of our images can be found in our media bank. There you'll find images tagged with different keywords to easily find the one you are looking for.\n\n**Important!** Using images outside our media bank can result in fines, so keep to the images we have licensed. "
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/brand-hub/db15a6f8-4c9d-491a-b101-a54d0ee32bac.jpeg",
+          "title": "SEB media bank",
+          "excerpt": "Here you can find SEB brand images.  Do you need production of material for Branch office LCD-screens? Please see the intranet for further information. ",
+          "label": "Go to media bank",
+          "href": "https://brand.seb.se/point/en/seb/component/default/25429"
         }
       ]
     }
