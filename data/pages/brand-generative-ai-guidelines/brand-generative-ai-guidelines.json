@@ -26,9 +26,13 @@
       ]
     },
     {
-      "tag": "H4",
-      "section-content": "> ## Content created with generative AI must follow SEB’s brand and tone guidelines to maintain consistency.\n\n",
-      "max-width": true
+      "max-width": true,
+      "columns": [
+        {
+          "type": "card-pattern-01",
+          "excerpt": "Content created with generative AI must follow SEB’s brand and tone guidelines to maintain consistency."
+        }
+      ]
     },
     {
       "title": "Whenever using AI-generated content, it must:",
