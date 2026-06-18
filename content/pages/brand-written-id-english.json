@@ -5,8 +5,15 @@
   "parent": "brand",
   "sections": [
     {
-      "max-width": true,
-      "cols": "1"
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "caption": " We exist to positively shape the future  with responsible advice and capital. Today and for generations to come.",
+          "src": "/assets/hero_written_id-1.png"
+        }
+      ]
     },
     {
       "title": "Our starting point",
@@ -180,17 +187,6 @@
           "type": "paragraph",
           "tag": "p",
           "text": "Next chapter"
-        }
-      ]
-    },
-    {
-      "max-width": false,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "image",
-          "caption": "We exist to positively shape the future  with responsible advice and capital. Today and for generations to come.",
-          "src": "/assets/hero_written_id.png"
         }
       ]
     }
