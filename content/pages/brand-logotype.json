@@ -120,6 +120,34 @@
           "src": "/assets/min_logo.png"
         }
       ]
+    },
+    {
+      "title": "Don'ts",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Never change the proportions of our logotype.",
+          "src": "/assets/NopeProportions-1.png"
+        },
+        {
+          "type": "image",
+          "caption": "Never use an outline, shadow or other effect on our logo.",
+          "src": "/assets/NopeOutline.png"
+        },
+        {
+          "type": "image",
+          "caption": "Never change the colour of our logotype – only black or white is allowed.",
+          "src": "/assets/NopeGreen.png"
+        },
+        {
+          "type": "image",
+          "caption": "Never place our logo at an angle.",
+          "src": "/assets/NopeOutline-1.png"
+        }
+      ]
     }
   ]
 }
