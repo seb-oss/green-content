@@ -15,8 +15,8 @@
       ]
     },
     {
-      "max-width": false,
-      "cols": "2",
+      "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
