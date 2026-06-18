@@ -115,6 +115,7 @@
       "columns": [
         {
           "type": "rich-text",
+          "title": "Lifestyle",
           "content": "For our lifestyle images, both inside and outside of the office, we shoot these in natural lighting as well. We want to show the warm and relaxed connection between people. We see situations where individuals are focused on work, but also in quieter moments when the camera captures them lost in thought or talking to someone out of frame."
         },
         {
@@ -159,7 +160,7 @@
         {
           "type": "rich-text",
           "title": "Extremes",
-          "content": "  \nA consistency in images help us to build brand recognition. When zooming in to the extremes of our new images you still see and feel that it’s the same look and brand. "
+          "content": "A consistency in images help us to build brand recognition. When zooming in to the extremes of our new images you still see and feel that it’s the same look and brand. "
         },
         {
           "type": "image",
@@ -172,6 +173,7 @@
       "columns": [
         {
           "type": "rich-text",
+          "title": "Whitespace",
           "content": "It's important to consider each element you use.  Using whitespace as much as possible is a great way to create a balanced and visually pleasing design.\n\nThe message is everything. Colors can be used to highlight important information, but in most cases, they distract from what we’re trying to communicate.\n\nThe purpose is to elevate the message, in every way we can."
         },
         {
