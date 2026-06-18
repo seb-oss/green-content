@@ -112,7 +112,12 @@
         {
           "type": "rich-text",
           "title": "Minimum size",
+          "tag": "H2",
           "content": "To ensure that our company name SEB is always visible, and stands as a clear sender of our brand, a minimum size has been set.\n\n• For print, the minimum size is 10 mm wide.  \n• For digital, the minimum size is 60 px wide.\n\nThe logotype should never be used in smaller sizes."
+        },
+        {
+          "type": "image",
+          "src": "/assets/min_logo.png"
         }
       ]
     }
