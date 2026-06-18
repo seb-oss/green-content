@@ -15,33 +15,17 @@
       ]
     },
     {
-      "title": "Uses",
-      "tag": "H2",
-      "max-width": true,
-      "cols": "1",
+      "max-width": false,
+      "cols": "2",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "The SEB emblem can be used in white or black."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "We use the version that creates the highest contrast for increased legibility in both digital and physical environments and makes sure that the brand is presented as clearly as possible."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "If you have any questions or need assistance, please contact creativedirection@seb.se"
+          "type": "rich-text",
+          "title": "Usage",
+          "tag": "H2"
         },
         {
           "type": "image",
           "src": "/assets/brand-hub/8f359d41-fffa-4555-b443-f15a48bd5eb5.jpg"
-        },
-        {
-          "type": "image",
-          "src": "/assets/brand-hub/2fa5f1e3-7833-477d-9e0e-5869245ac6ef.jpg"
         }
       ]
     },
