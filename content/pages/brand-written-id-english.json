@@ -1,19 +1,12 @@
 {
   "title": "Written ID — English",
   "slug": "brand/written-id-english",
-  "parent": "brand",
   "summary": "Everything we say, write, and do is guided by our purpose:",
+  "parent": "brand",
   "sections": [
     {
       "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Everything we say, write, and do is guided by our purpose:"
-        }
-      ]
+      "cols": "1"
     },
     {
       "title": "Our starting point",
@@ -187,6 +180,17 @@
           "type": "paragraph",
           "tag": "p",
           "text": "Next chapter"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "We exist to positively shape the future  with responsible advice and capital. Today and for generations to come.",
+          "src": "/assets/hero_written_id.png"
         }
       ]
     }
