@@ -109,7 +109,7 @@
       "path": "pages/brand-visual-guidelines/brand-visual-guidelines.json"
     },
     {
-      "title": "Written ID — English",
+      "title": "Written ID – English",
       "slug": "brand/written-id-english",
       "summary": "Everything we say, write, and do is guided by our purpose:",
       "path": "pages/brand-written-id-english/brand-written-id-english.json"
@@ -235,5 +235,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-18T13:49:20.790Z"
+  "lastUpdated": "2026-06-18T13:50:10.412Z"
 }
