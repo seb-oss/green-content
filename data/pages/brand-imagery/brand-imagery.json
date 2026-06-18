@@ -183,13 +183,13 @@
       ]
     },
     {
-      "title": "Mediabank",
       "tag": "H2",
       "max-width": false,
       "cols": "2",
       "columns": [
         {
           "type": "rich-text",
+          "title": "Mediabank",
           "content": "All of our images can be found in our media bank. Here you'll find images tagged with different keywords to easily find the one you are looking for.\n\n**Important!** Using images outside our media bank can result in fines, so keep to the images we have licensed. "
         },
         {
