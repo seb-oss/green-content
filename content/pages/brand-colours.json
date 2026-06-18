@@ -5,6 +5,16 @@
   "parent": "brand",
   "sections": [
     {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/designdirection.jpg"
+        }
+      ]
+    },
+    {
       "title": "SEB Green Sr.",
       "tag": "H2",
       "max-width": false,
