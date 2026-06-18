@@ -78,6 +78,107 @@
           "src": "/assets/brand-hub/bd6a2e8b29604ce6836f50818a0dabf1.jpg"
         }
       ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "People",
+          "content": "People are depicted both in groups and alone. We see situations where individuals are focused on work, but also in quieter moments when the camera captures them lost in thought. Personalities emerge by facial expressions and body language."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/69b1a7cf-a686-4e3a-852d-e8218282033a.png"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Portraits",
+          "content": "Our portraits are always shot on location to make them as natural as possible – if you don't have one, create one that feels authentic. We want to show the people behind the bank to be perceived as open and understanding.\n\nWe always want to achieve relaxed and authentic poses – like the camera wasn’t there.\n\nUncluttered backgrounds are preferred so text can easily be placed on images. It's also easier on the eye and puts the person in focus. Aim to shoot in natural lighting with a backup of soft flashes."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/5b9281fd-27f7-42c2-bb92-be1755889c08.jpg"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "For our lifestyle images, both inside and outside of the office, we shoot these in natural lighting as well. We want to show the warm and relaxed connection between people. We see situations where individuals are focused on work, but also in quieter moments when the camera captures them lost in thought or talking to someone out of frame."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/5c5d3cb7bdb340c9b623698516324055_1.jpg"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Urban environments",
+          "content": "When choosing images of urban environments always incorporate some kind of greenery. Parks, trees, hanging gardens. Stick to interesting natural lighting that enhances architecture. Light play and shadows can be as powerful as the subject itself. Shooting during sunrise and sundown usually brings out interesting lighting. Always plan ahead with natural light in mind. "
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/e4edc24d-a182-4a62-abe0-a96bed073a62_1.jpg"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Nature",
+          "content": "We strive to find images of nature that has natural colours and some kind of dramatic component. Big landscapes and aerial shots – preferably with a few layers to get a good scene of scale. Depending on the subject, images can span from Nordic nature to environments from around the world."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/5b03640a-e177-4bb9-825c-7dd3ea5a36e9.jpg"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Extremes",
+          "content": "  \nA consistency in images help us to build brand recognition. When zooming in to the extremes of our new images you still see and feel that it’s the same look and brand. "
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/1120a25e-bb76-47ba-b180-a5d63ed59d9d.png"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "It's important to consider each element you use.  Using whitespace as much as possible is a great way to create a balanced and visually pleasing design.\n\nThe message is everything. Colors can be used to highlight important information, but in most cases, they distract from what we’re trying to communicate.\n\nThe purpose is to elevate the message, in every way we can."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/c4a313db-0a67-4b43-bf51-e061653c5ca6_1.jpeg"
+        }
+      ]
     }
   ]
 }
