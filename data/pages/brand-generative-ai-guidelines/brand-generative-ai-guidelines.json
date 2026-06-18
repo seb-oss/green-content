@@ -15,22 +15,17 @@
       ]
     },
     {
-      "title": " What is Generative AI?",
       "max-width": true,
-      "cols": "1",
+      "cols": "2",
       "columns": [
         {
           "type": "rich-text",
+          "title": " What is Generative AI?",
           "content": "Based on training data, Generative AI mimics human creativity to create new content, such as text, images, music, and more.\n\n"
-        }
-      ]
-    },
-    {
-      "max-width": true,
-      "columns": [
+        },
         {
           "type": "card-pattern-01",
-          "Snippet": "hero-icon",
+          "src": "/assets/generative_ai_snippet_img.png",
           "title": "Content created with generative AI must follow SEB’s brand and tone guidelines to maintain consistency."
         }
       ]
