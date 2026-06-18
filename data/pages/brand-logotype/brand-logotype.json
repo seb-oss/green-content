@@ -50,6 +50,44 @@
           "src": "/assets/brand-hub/bc02a158-4222-4498-9ce1-c0e98f258d80.jpeg"
         }
       ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Placement",
+          "tag": "H2",
+          "content": "When placing the logo, disregard the lines and follow the baseline and height of the SEB letters.\n\nAlso consider how the S and B protrudes slightly from the visual frame of the logo for maximum balance – this is only noticable when working with larger sized logos."
+        },
+        {
+          "type": "image",
+          "src": "/assets/LogoGuides.png"
+        }
+      ]
+    },
+    {
+      "title": "Alignment",
+      "max-width": false,
+      "cols": "3",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Primary  – Our primary placement of the logotype is in the bottom right corner. We use our logo to sign off the material – our signature.  If possible, try to place the logo to create a perfect square of margin in the lower right corner.",
+          "src": "/assets/LogoLowerRight.png"
+        },
+        {
+          "type": "image",
+          "caption": "Secondary  – Placing our logo in the upper right corner creates a header. This is when we're presenting a document or for front pages of booklets end brochures.  Try to place the logo to define the square of margin in the upper right corner.",
+          "src": "/assets/LogoUpperRight.png"
+        },
+        {
+          "type": "image",
+          "caption": "Centered  – Placing the logo big and boldly centered on top can be used when brand recognition is important in high noise environments.  This placement is mainly used digital and outdoor advertising.",
+          "src": "/assets/LogoCentered.png"
+        }
+      ]
     }
   ]
 }
