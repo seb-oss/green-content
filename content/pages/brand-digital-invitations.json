@@ -2,8 +2,16 @@
   "title": "Digital invitations",
   "slug": "brand/written-id-english/digital-invitations",
   "parent": "brand",
-  "summary": "Be concise and clear",
   "sections": [
+    {
+      "max-width": false,
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/digital_invitations.jpg"
+        }
+      ]
+    },
     {
       "title": "Three fundamental tips",
       "tag": "H2",
@@ -11,177 +19,22 @@
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Be concise and clear"
+          "type": "rich-text",
+          "title": "Be concise and clear",
+          "tag": "H3",
+          "content": "- What is the purpose of the invitation and who is it for\n- Avoid lengthy intros, complex jargon, and wordy sentences.\n\n"
         },
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Be personal and inviting"
+          "type": "rich-text",
+          "title": "Be personal and inviting",
+          "tag": "H3",
+          "content": "- Use a warm, welcoming tone that feels like a chat over coffee​\n- Avoid formal expressions, e.g., ”Dear guest,\" \"we hereby,\" and \"You.”​  \nHowever, do not become too informal and use expressions like ”Hey there!\"\n\n"
         },
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Highlight the event's benefit for the recipient"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Example of an invitation"
-        }
-      ]
-    },
-    {
-      "title": "SEB Talks: Embracing a New Era of Savings​",
-      "tag": "H2",
-      "max-width": true,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "In times of great uncertainty and rapid change, managing savings has become more challenging than ever. With this in mind, we extend a warm invitation to our digital seminar, where experts will share insights on navigating savings in this new era.​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Among other questions, we will delve into how the stock market changed during the Covid-19 pandemic. We'll also examine the pandemic's lasting effects on the business and innovation climate, and discuss approaches for savers to navigate the current situation.​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "We're pleased to have a lineup of respected experts, including savings influencer Börshajen Andra Farhad, SEB's Lina Andersson, an expert in interest rates, Johan Hagbarth, SEB's equity strategist, and Anette Andersson, a sustainability specialist within SEB's fund company. The conversation will be moderated by SEB's personal finance expert Jens Magnusson.​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Warm welcome!"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "1. Spark interest with the headline"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "”SEB Talks: Embracing a New Era of Savings”"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "A good headline captures interest even before the email is opened and offers insight into the event's subject.​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "More examples of headlines:​\"Wrap up the Year with Us at Täcka Udden\" ,\"Exploring Sweden's Entrepreneurial Environment: SEB Talks\"​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Avoid vague headlines like:​”Welcome to a Seminar at SEB”"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "2. Start with the key message"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "”In times of great uncertainty and rapid change, managing savings has become more challenging than ever. With this in mind, we extend a warm invitation to our digital seminar, where experts will share insights on navigating savings in this new era.”"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "The subject, theme, or reason for the invitation should be evident right from the beginning.​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "The reader should be able to quickly assess whether the event is of interest.​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Avoid long and unclear descriptions like:​”Ever since 1856 – when André Oskar Wallenberg founded the bank – we at SEB…\" or \"Spring is around the corner and soon nature will awaken again…”"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "3. Delve deeper in the second paragraph"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "”Among other questions, we will delve into how the stock market changed during the Covid-19 pandemic. We'll also examine the pandemic's lasting effects on the business and innovation climate, and discuss approaches for savers to navigate the current situation.”"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Give more details about the subjects covered or what will happen during the event –like what the attendee will experience.​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "For instance, if it's about a dinner\"Please join us for a delightful meal, connect with  fellow attendees, and engage in discussions about our vision for 2023.”​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Avoid internal expressions or complicated terminology."
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "4. Highlight the participants in the third paragraph"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "”We're pleased to have a lineup of respected experts, including savings influencer Börshajen Andra Farhad, SEB's Lina Andersson, an expert in interest rates, Johan Hagbarth, SEB's equity strategist, and Anette Andersson, a sustainability specialist within SEB's fund company. The conversation will be moderated by SEB's personal finance expert Jens Magnusson.”"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Contributing experts often lend weight to the event and enhance interest.​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "5. Wrap up with practical details and a personal salutation"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Do our clients need to register for the event? Kindly outline the process and deadline, providing them with the appropriate registration link. ​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "A graceful way to conclude is by offering a warm welcome, using the phrase \"Warmly welcome!\" ​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Infusing a personal touch into the invitation sender's details can make a favorable impact.​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "If there's a designated dress code for the event, please be sure to specify it clearly.​"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "Some tips of phrases to use"
-        },
-        {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "☑️ Write instead"
+          "type": "rich-text",
+          "title": "Highlight the event's benefit for the recipient",
+          "tag": "H3",
+          "content": "- Emphasize what our clients will learn or enjoy during the event\n\n"
         }
       ]
     }
