@@ -40,7 +40,7 @@
     },
     {
       "title": "Recommendations",
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -55,15 +55,18 @@
       "columns": [
         {
           "type": "card-pattern-01",
-          "excerpt": "Article 6 funds should be referred to as \"Other funds\""
+          "title": "Article 6 funds...",
+          "excerpt": "...should be referred to as \"Other funds\""
         },
         {
           "type": "card-pattern-01",
-          "excerpt": "Article 8 funds should be referred to as “funds with sustainable characteristics” in texts and “sustainable characteristics” in fund lists"
+          "title": "Article 8 funds...",
+          "excerpt": "...should be referred to as “funds with sustainable characteristics” in texts and “sustainable characteristics” in fund lists"
         },
         {
           "type": "card-pattern-01",
-          "excerpt": "Article 9 funds should be referred to as “funds with sustainable investment as an objective” in texts and \"sustainability as an objective\" in fund listings."
+          "title": "Article 9 funds...",
+          "excerpt": "...should be referred to as “funds with sustainable investment as an objective” in texts and \"sustainability as an objective\" in fund listings."
         }
       ]
     }
