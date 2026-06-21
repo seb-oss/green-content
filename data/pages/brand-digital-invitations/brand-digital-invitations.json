@@ -5,6 +5,7 @@
   "sections": [
     {
       "max-width": false,
+      "cols": "1",
       "columns": [
         {
           "type": "image",
@@ -37,6 +38,10 @@
           "content": "- Emphasize what our clients will learn or enjoy during the event\n\n"
         }
       ]
+    },
+    {
+      "title": " Example of an invitation",
+      "max-width": true
     }
   ]
 }
