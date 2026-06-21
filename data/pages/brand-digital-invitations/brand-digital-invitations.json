@@ -16,7 +16,7 @@
     {
       "title": "Three fundamental tips",
       "tag": "H2",
-      "max-width": true,
+      "max-width": false,
       "cols": "1",
       "columns": [
         {
