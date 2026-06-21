@@ -16,13 +16,12 @@
     {
       "title": "Three fundamental tips",
       "tag": "H2",
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
           "type": "rich-text",
           "title": "Be concise and clear",
-          "tag": "H3",
           "content": "- What is the purpose of the invitation and who is it for\n- Avoid lengthy intros, complex jargon, and wordy sentences.\n\n"
         },
         {
