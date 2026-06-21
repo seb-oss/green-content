@@ -81,6 +81,24 @@
           "content": "*”We're pleased to have a lineup of respected experts, including savings influencer Börshajen Andra Farhad, SEB's Lina Andersson, an expert in interest rates, Johan Hagbarth, SEB's equity strategist, and Anette Andersson, a sustainability specialist within SEB's fund company. The conversation will be moderated by SEB's personal finance expert Jens Magnusson.”*\n\nContributing experts often lend weight to the event and enhance interest.​"
         }
       ]
+    },
+    {
+      "title": "Some tips of phrases to use",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Avoid",
+          "tag": "H3",
+          "content": "- Dinner with wine​\n- Kind regards​\n- RSVP​\n- First come, first served.​\n- Don't forget to notify...\n\n"
+        },
+        {
+          "type": "rich-text",
+          "title": "Write like this instead",
+          "content": "- Dinner​\n- Warmly welcome!​\n- Registration​\n- Limited spots available.​\n- Remember to notify...\n\n"
+        }
+      ]
     }
   ]
 }
