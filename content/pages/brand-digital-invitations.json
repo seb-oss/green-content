@@ -16,8 +16,8 @@
     {
       "title": "Three fundamental tips",
       "tag": "H2",
-      "max-width": true,
-      "cols": "1",
+      "max-width": false,
+      "cols": "3",
       "columns": [
         {
           "type": "rich-text",
@@ -41,7 +41,9 @@
     },
     {
       "title": " Example of an invitation",
+      "tag": "H4",
       "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
