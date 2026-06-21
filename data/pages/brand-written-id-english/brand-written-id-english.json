@@ -111,6 +111,13 @@
           "title": "Digital invitations",
           "excerpt": "Be concise and clear. What is the purpose of the invitation and who is it for Avoid lengthy intros, complex jargon, and wordy sentences.",
           "href": "https://seb.io/brand/written-id-english/digital-invitations"
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/brand-hub/brand-guidelines.png",
+          "title": "Talking about sustainability",
+          "excerpt": " Guidelines for sustainability terminology in fund information. At SEB, we strive to always express ourselves clearly and transparently to ensure that customers receive correct information and understand the choices they make.",
+          "href": "https://seb.io/brand/written-id-english/talking-about-sustainability"
         }
       ]
     }
