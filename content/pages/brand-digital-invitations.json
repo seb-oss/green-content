@@ -41,7 +41,13 @@
     },
     {
       "title": " Example of an invitation",
-      "max-width": true
+      "max-width": true,
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "# SEB Talks: Embracing a New Era of Savings​\n\nIn times of great uncertainty and rapid change, managing savings has become more challenging than ever. With this in mind, we extend a warm invitation to our digital seminar, where experts will share insights on navigating savings in this new era.​\n\nAmong other questions, we will delve into how the stock market changed during the Covid-19 pandemic. We'll also examine the pandemic's lasting effects on the business and innovation climate, and discuss approaches for savers to navigate the current situation.​\n\nWe're pleased to have a lineup of respected experts, including savings influencer Börshajen Andra Farhad, SEB's Lina Andersson, an expert in interest rates, Johan Hagbarth, SEB's equity strategist, and Anette Andersson, a sustainability specialist within SEB's fund company. The conversation will be moderated by SEB's personal finance expert Jens Magnusson.​\n\nWarm welcome!"
+        }
+      ]
     }
   ]
 }
