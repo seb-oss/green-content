@@ -50,6 +50,38 @@
           "content": "# SEB Talks: Embracing a New Era of Savings​\n\nIn times of great uncertainty and rapid change, managing savings has become more challenging than ever. With this in mind, we extend a warm invitation to our digital seminar, where experts will share insights on navigating savings in this new era.​\n\nAmong other questions, we will delve into how the stock market changed during the Covid-19 pandemic. We'll also examine the pandemic's lasting effects on the business and innovation climate, and discuss approaches for savers to navigate the current situation.​\n\nWe're pleased to have a lineup of respected experts, including savings influencer Börshajen Andra Farhad, SEB's Lina Andersson, an expert in interest rates, Johan Hagbarth, SEB's equity strategist, and Anette Andersson, a sustainability specialist within SEB's fund company. The conversation will be moderated by SEB's personal finance expert Jens Magnusson.​\n\nWarm welcome!"
         }
       ]
+    },
+    {
+      "title": "Invitation breakdown",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "1. Spark interest with the headline",
+          "tag": "H3",
+          "content": "*”SEB Talks: Embracing a New Era of Savings”*\n\nA good headline captures interest even before the email is opened and offers insight into the event's subject.​\n\nMore examples of headlines:​  \n*\"Wrap up the Year with Us at Täcka Udden\" ,\"Exploring Sweden's Entrepreneurial Environment: SEB Talks\"​*\n\nAvoid vague headlines like:​  \n*”Welcome to a Seminar at SEB”*"
+        },
+        {
+          "type": "rich-text",
+          "title": "2. Start with the key message",
+          "tag": "H3",
+          "content": "*”In times of great uncertainty and rapid change, managing savings has become more challenging than ever. With this in mind, we extend a warm invitation to our digital seminar, where experts will share insights on navigating savings in this new era.”*\n\nThe subject, theme, or reason for the invitation should be evident right from the beginning.​\n\nThe reader should be able to quickly assess whether the event is of interest.​\n\nAvoid long and unclear descriptions like:​*”Ever since 1856 – when André Oskar Wallenberg founded the bank – we at SEB…\" or \"Spring is around the corner and soon nature will awaken again…”*"
+        },
+        {
+          "type": "rich-text",
+          "title": "3. Delve deeper in the second paragraph",
+          "tag": "H3",
+          "content": "*”Among other questions, we will delve into how the stock market changed during the Covid-19 pandemic. We'll also examine the pandemic's lasting effects on the business and innovation climate, and discuss approaches for savers to navigate the current situation.”*\n\nGive more details about the subjects covered or what will happen during the event –like what the attendee will experience.​\n\nFor instance, if it's about a dinner  \n*\"Please join us for a delightful meal, connect with  fellow attendees, and engage in discussions about our vision for 2023.”​*\n\nAvoid internal expressions or complicated terminology."
+        },
+        {
+          "type": "rich-text",
+          "title": " 4. Highlight the participants in the third paragraph",
+          "tag": "H3",
+          "content": "*”We're pleased to have a lineup of respected experts, including savings influencer Börshajen Andra Farhad, SEB's Lina Andersson, an expert in interest rates, Johan Hagbarth, SEB's equity strategist, and Anette Andersson, a sustainability specialist within SEB's fund company. The conversation will be moderated by SEB's personal finance expert Jens Magnusson.”*\n\nContributing experts often lend weight to the event and enhance interest.​"
+        }
+      ]
     }
   ]
 }
