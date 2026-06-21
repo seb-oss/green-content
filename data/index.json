@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-21T19:46:21.962Z",
+    "lastUpdated": "2026-06-21T19:52:05.804Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -552,7 +552,6 @@
           {
             "title": "Digital invitations",
             "slug": "brand/written-id-english/digital-invitations",
-            "summary": "Be concise and clear",
             "path": "pages/brand-digital-invitations/brand-digital-invitations.json",
             "endpoints": {
               "content": "pages/brand-digital-invitations/brand-digital-invitations.json"
