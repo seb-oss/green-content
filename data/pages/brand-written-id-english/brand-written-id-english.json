@@ -99,6 +99,20 @@
           "content": "If you have specific language questions or need guidance on certain topics, there’s more material to explore on the intranet and in Brand Hub.\n\n- Guidelines for grammar, internal expressions, abbreviations, and specific situations are gathered on [a platform here](https://sebgroup.sharepoint.com/sites/CXCentral/SitePages/Writing.aspx).\n- On the intranet you’ll also find examples of how to write for social media, UX text, internal communication, and the like. [Communication around sustainability in funds has its own guidelines.](https://brand.seb.se/point/en/seb/component/private/110751)\n- There are also updated guidelines for [digital invitations](https://brand.seb.se/point/en/seb/component/private/110841).\n\n"
         }
       ]
+    },
+    {
+      "title": "Related topics",
+      "max-width": false,
+      "cols": "3",
+      "columns": [
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/brand-hub/4a2b3d89-1de2-4773-a677-c9dbcd2a4935.png",
+          "title": "Digital invitations",
+          "excerpt": "Be concise and clear. What is the purpose of the invitation and who is it for Avoid lengthy intros, complex jargon, and wordy sentences.",
+          "href": "https://seb.io/brand/written-id-english/digital-invitations"
+        }
+      ]
     }
   ]
 }
