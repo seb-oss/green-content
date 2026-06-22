@@ -37,6 +37,12 @@
         {
           "type": "image",
           "src": "/assets/brand-hub/d1b4f90a-1260-428b-ac06-03a33f66deb8.jpg"
+        },
+        {
+          "type": "card-pattern-01",
+          "title": "Download SEB SansSerif",
+          "label": "Download",
+          "href": "https://brand.seb.se/point/en/seb/component/default/78399#:~:text=and%20unique%20expression.-,Download,-Weights%20%26%20how%20to"
         }
       ]
     }
