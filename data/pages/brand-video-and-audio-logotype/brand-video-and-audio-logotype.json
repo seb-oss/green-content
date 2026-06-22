@@ -47,8 +47,12 @@
           "type": "card-pattern-01",
           "title": " Download video and  sound logotype",
           "excerpt": "A zip-file with an Mp4-version of the animated logo with the embedded sound, as well as a transparent ProRes mov-file. Use this when producing video content to avoid compression artefacts. Contains the sound logotype as separate wav-files.",
-          "label": "Download",
-          "href": "https://brand.seb.se/original/gallery/12864/files/original/ee2671f7-8073-4dab-969e-c668919f719b.zip"
+          "buttons": [
+            {
+              "label": "Download",
+              "href": "https://brand.seb.se/original/gallery/12864/files/original/ee2671f7-8073-4dab-969e-c668919f719b.zip"
+            }
+          ]
         }
       ]
     }
