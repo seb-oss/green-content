@@ -234,8 +234,12 @@
           "type": "card-pattern-01",
           "title": "The real estate icons",
           "excerpt": "Feel free to download the icons used for real estate.",
-          "label": "Download",
-          "href": "https://brand.seb.se/shared/assets/cd75fdeac4571e55bec9"
+          "buttons": [
+            {
+              "label": "Download",
+              "href": "https://brand.seb.se/shared/assets/cd75fdeac4571e55bec9"
+            }
+          ]
         }
       ]
     }
