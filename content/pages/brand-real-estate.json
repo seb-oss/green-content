@@ -50,6 +50,111 @@
           "src": "/assets/brand-hub/5c2984dc-1250-4c70-a7e7-c17b699a1375.jpeg"
         }
       ]
+    },
+    {
+      "title": " Interior design tools",
+      "tag": "H2",
+      "section-content": "We have a number of tools that we use to create the SEB interior experience.",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Material",
+          "src": "/assets/brand-hub/4d56c5d6-64bc-4d2d-a0b7-5aeb7e05cb5a.png"
+        },
+        {
+          "type": "image",
+          "caption": "Color",
+          "src": "/assets/brand-hub/b1d0ab25-4b45-42f0-9418-2ef7d8016c9a.png"
+        },
+        {
+          "type": "image",
+          "caption": "Pattern",
+          "src": "/assets/brand-hub/cabae9e8-53b5-4b6c-a7bb-7d5502fa25fc.png"
+        },
+        {
+          "type": "image",
+          "caption": "Decor",
+          "src": "/assets/brand-hub/dded7bc8-303c-479b-820b-aec0aace4389.png"
+        }
+      ]
+    },
+    {
+      "title": "Material",
+      "section-content": "The choice and combination of materials is key to achieving the right feel in our interior environments. We use authentic, high quality and long lasting materials to create the right impression.",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Wood",
+          "tag": "H3",
+          "content": "**Primary wood choice**\n\nOur primary recommended wood color is White Ash (vitpigmenterad ask) for tables and panels within our interior environments.\n\n**Contrast**\n\nWe can also make use of Black Ash and Oak wood for additional contrast. Consideration must be given to the colors/materials used on the floor and walls. Always aim for a nice contrast of colors – for instance, if the room has stone floors and grey walls, do not use a grey table."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/a3db3361-8436-4512-a0a7-04b3c21ab473.jpeg"
+        },
+        {
+          "type": "rich-text",
+          "title": " Slatted panels",
+          "tag": "H3",
+          "content": "Our wooden slatted panels are a signature item to drive recognition of the SEB brand anywhere in the world.\n\nThey have three functions:\n\n1. To provide a recognizable brand element in interior environments\n2. For functional purposes, such as framing a digital screen or housing an area for customers to fill out forms and documentation.\n3. For acoustics, to help reduce noise.\n\nAs every space is different, the application & purpose will need to be determined in each individual case."
+        }
+      ]
+    },
+    {
+      "title": "Color",
+      "section-content": "Color is an immediate tool to signal our brand. It helps us to define spaces, draw attention to specific areas and allows us to create different moods with an interior environment.",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "**Color use**\n\nIt’s important to consider the appropriateness of color choice for each area of the building or interior experience. For instance, an office environment may need to be calm and neutral in color, whereas interior signage would need to be much brighter to capture attention. Please don’t overuse the color black, and keep in mind that black isn’t always a good color, as it can look worn.\n\n**Contrast**\n\nAs an overall expression, it’s important to have variation and contrast of bright, neutral, and monochrome colors, where possible."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/2adf1304-f9ad-456a-a9e6-ef50f7fd7ce0.jpeg"
+        },
+        {
+          "type": "rich-text",
+          "content": "**Color scale**  \nThis color scale represents a general principle, most relevant for meeting spaces and public areas. The amount of color used can depend on the size of the space itself. If you are designing a large office building then you can make use of the full palette. However, smaller spaces may require less color. SEB Green must always be present and play a central role.\n\nPlease note: This is a representation of our color palette. See the Appendix at the back of this manual for full color specifications."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/5eb5ddb5-4eb8-441b-b955-7152cd1483c7.jpg"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": " Flooring",
+          "tag": "H2",
+          "content": "**Wood**  \nHigh quality Oak & Ash parquet flooring are used throughout our buildings and offices. They’re strength and durability are a good choice for public areas.\n\n**Stone**  \nConsider the durability of the material and where you use it. Harder wearing materials such as limestone should be used in areas of heavy footfall.\n\n**Textiles**  \nCarpet tiles and rugs can be used to help soundproof a room as well as protect wooden flooring from chairs and furniture."
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Lighting",
+          "tag": "H2",
+          "content": "**Natural light**\n\nInterior spaces with good natural light are preferable. Encourage the use of natural light by using floor-to-ceiling glass windows and atriums if possible.\n\n**Ambient light**\n\nAmbient lighting should be subtle within the building but should help to create a sophisticated overall mood.\n\n**Soft/Mood light**\n\nCreate an atmosphere with freestanding lamps and ceiling lights. Position lamps to ensure no areas are too dark, but ensure that their placement is practical and not obstructing anything in the room.\n\n**Lamps**\n\nConsider the height of where you place the lamps, so that everyone around the table can see each other, and so they don’t block the view of screens."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/47a4e2f7-7dcb-413e-82c2-3252c29e4872.jpg"
+        }
+      ]
     }
   ]
 }
