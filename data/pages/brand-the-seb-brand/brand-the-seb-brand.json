@@ -31,6 +31,34 @@
           "title": "Everything we do is guided by our purpose. We exist to positively shape the future with responsible advice and capital. Today and for generations to come."
         }
       ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "SEB has a long history of enabling and accelerating progress for our customers. For over 165 years we have contributed to their success through expertise, dedication, and innovation.\n\n"
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/5dc70c5f-89fc-486b-8794-20fd90b74b25.png"
+        }
+      ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "SEB is a premier financial institution with a long heritage that has always adapted to the times. We have a long-term and holistic mindset where we care for our employees, our customers, as well as society."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/f03163934a134090a05b7a3f0034d04e.jpg"
+        }
+      ]
     }
   ]
 }
