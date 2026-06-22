@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-22T19:11:32.290Z",
+    "lastUpdated": "2026-06-22T19:15:20.877Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -665,7 +665,7 @@
             }
           },
           {
-            "title": "Video & Audio Logotype",
+            "title": "Video and audio logotype",
             "slug": "brand/video-and-audio-logotype",
             "summary": "To strengthen brand recognition and maximize brand impact, an animated SEB logotype should be used at the end of video material.",
             "path": "pages/brand-video-and-audio-logotype/brand-video-and-audio-logotype.json",
