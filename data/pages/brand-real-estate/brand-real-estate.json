@@ -16,7 +16,7 @@
     {
       "title": "Key design principles – simple, asymmetric and dynamic",
       "tag": "H2",
-      "max-width": true,
+      "max-width": false,
       "cols": "2",
       "columns": [
         {
