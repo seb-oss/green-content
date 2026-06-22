@@ -218,6 +218,26 @@
           "src": "/assets/brand-hub/2c975c87-d8e5-41ed-ad1d-758125fbaf7b.png"
         }
       ]
+    },
+    {
+      "title": "Icons",
+      "section-content": "When it comes to navigating a building we need to keep accessibility in mind. That’s why real estate will be the only place we use our pictograms, eg. toilets, recycling, coffee, floors, elevators. ",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "These are the collection of pictograms real estate can choose from.",
+          "src": "/assets/brand-hub/d7bce8b1-01d7-4123-b5df-96bd1bf8ec38.png"
+        },
+        {
+          "type": "card-pattern-01",
+          "title": "The real estate icons",
+          "excerpt": "Feel free to download the icons used for real estate.",
+          "label": "Download",
+          "href": "https://brand.seb.se/shared/assets/cd75fdeac4571e55bec9"
+        }
+      ]
     }
   ]
 }
