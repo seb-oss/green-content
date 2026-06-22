@@ -155,6 +155,69 @@
           "src": "/assets/brand-hub/47a4e2f7-7dcb-413e-82c2-3252c29e4872.jpg"
         }
       ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": " Plants",
+          "content": "**Arrangement/ Combinations**\n\nWhere possible, we like to have uneven groups of plants, either 1, (sometimes 2), 3, or 5. Their arrangement is important – they shouldn’t be in a straight line, but clustered in smaller groups to create an asymmetric expression.\n\nPlants should preferably be placed on the floor (e.g. not on top of surfaces around the office)."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/a3db3361-8436-4512-a0a7-04b3c21ab473.jpeg"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Artwork",
+          "content": "**The personal touch**\n\nExpressive art can bring an extra layer of intellectual and emotional interest to public areas like reception, lounges, branch offices, and atriums for both customers and employees. Scale, color, and contrast help to draw the eye to these symbols of our interior design language."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/dded7bc8-303c-479b-820b-aec0aace4389.png"
+        }
+      ]
+    },
+    {
+      "title": "Signs",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Size systematics",
+          "content": "Our signage program is an easy-to-use modular system based on the square. The square is evenly scalable from 70mm – 560mm.\n\nEach sign creates a part of a composition defining the directions and destination in the area. The signs can be used in single or multiple compositions, mounted flat on walls, extending around corners, or as 3d cubes. Please view the following pages on how the system is created."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/4e1ca6e9-1bd6-49e9-a041-8513e56c5297.png"
+        },
+        {
+          "type": "rich-text",
+          "title": " Layout",
+          "content": "Our signage system is dynamic to display content and directions in the best possible way. Use the right amount of signs for the content that fits the mounting area the best. The signs can be composed in many variations and positions, so please take a minute to view some of the application examples."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/b5d0e655-87a6-46b8-a887-d71e5cd06c78.png"
+        },
+        {
+          "type": "rich-text",
+          "title": "Mounting",
+          "content": "Alignment is key. To achieve a structured and intended look for signs place them in alignment with the actual environment. Aligned with corners, door posts, pillars, etc."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/2c975c87-d8e5-41ed-ad1d-758125fbaf7b.png"
+        }
+      ]
     }
   ]
 }
