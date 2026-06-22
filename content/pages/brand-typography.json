@@ -98,6 +98,43 @@
           ]
         }
       ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Left-aligned typography",
+          "content": "Left aligned (or ragged right) is the most readable alignment – it provides the eye with a common starting point for each line. Make sure the lines aren’t too long. Aim for 7-10 words or 45-65 characters per line."
+        },
+        {
+          "type": "rich-text",
+          "title": "Kerning",
+          "content": "The key to a pleasant and well designed text is kerning. Our typeface need some love to look good. See examples to see the difference."
+        },
+        {
+          "type": "rich-text",
+          "title": "Line-height",
+          "content": "The key to a pleasant paragraph is to give each line it’s own space. This can be achieved by using at least 120% line-height. In smaller text going up to 140% may be necessary. \n\n**Calculation of good line-height**  \nFont-size x 1.4 = line-height  \n*E.g. 12 x 1,4 = 16,8 line-height*"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "A good example on line height",
+          "src": "/assets/brand-hub/9fb7553a-a41c-46ca-879e-9cd9f20398f8.jpeg"
+        },
+        {
+          "type": "image",
+          "caption": "A bad example on line height",
+          "src": "/assets/brand-hub/fe7ed7f5-8c38-4274-b118-22084f279057.jpeg"
+        }
+      ]
     }
   ]
 }
