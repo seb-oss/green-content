@@ -79,7 +79,7 @@
     {
       "title": "Templates & downloads",
       "slug": "brand/templates-and-downloads",
-      "summary": "Here you can find and download some of our more common templates. More will be added in a near future.",
+      "summary": "Here you can find and download some of our more common templates. Please note that you'll find Office templates in the New Document dialogue in Microsoft Word and PowerPoint.",
       "path": "pages/brand-templates-and-downloads/brand-templates-and-downloads.json"
     },
     {
@@ -233,5 +233,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-22T19:32:11.441Z"
+  "lastUpdated": "2026-06-22T19:39:33.667Z"
 }
