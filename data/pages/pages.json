@@ -85,7 +85,7 @@
     {
       "title": "The SEB Brand",
       "slug": "brand/the-seb-brand",
-      "summary": "Everything we do is guided by our Purpose.",
+      "summary": "##### The SEB brand is a crucial asset for our business. We want to position SEB as a confident and iconic brand.\n\n",
       "path": "pages/brand-the-seb-brand/brand-the-seb-brand.json"
     },
     {
@@ -233,5 +233,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-22T18:06:45.020Z"
+  "lastUpdated": "2026-06-22T18:07:28.199Z"
 }
