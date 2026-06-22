@@ -22,15 +22,23 @@
           "type": "card-pattern-01",
           "title": "Stationary &  product sheets",
           "excerpt": "Here, you can download pre-made Word document templates for common documents.",
-          "label": "Download",
-          "href": "https://brand.seb.se/point/en/seb/component/default/78814#:~:text=for%20common%20documents.-,Download,-Document%20Guidelines"
+          "buttons": [
+            {
+              "label": "Download",
+              "href": "https://brand.seb.se/point/en/seb/component/default/78814#:~:text=for%20common%20documents.-,Download,-Document%20Guidelines"
+            }
+          ]
         },
         {
           "type": "card-pattern-01",
           "title": "Document guidelines",
           "excerpt": "This PDF contains general guidelines for SEB document design. Use them as needed or start with one of the provided templates.",
-          "label": "Download",
-          "href": "https://brand.seb.se/original/gallery/12864/files/original/903397ee-c08f-4841-a610-b112be49d1af.pdf"
+          "buttons": [
+            {
+              "label": "Download",
+              "href": "https://brand.seb.se/original/gallery/12864/files/original/903397ee-c08f-4841-a610-b112be49d1af.pdf"
+            }
+          ]
         },
         {
           "type": "card-pattern-01",
