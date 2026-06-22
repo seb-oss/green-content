@@ -13,6 +13,44 @@
           "src": "/assets/brand-hub/2cedad75-2de0-4987-9496-668d778c135d.gif"
         }
       ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "To end audio content, there is also an SEB sound logotype. Use this in combination with the animated logo whenever possible.\n\nThese assets allows the SEB logo to come alive and be even more recognizable. They are designed to reflect the human side of being a modern premium bank.\n\nThe animated logo is intended to be used primarily at the end of video content. When cutting to black, place it directly at the cut with no delay. Adjust the size to harmonize with the rest of the content.\n\nWhen placing the animated logo over film content, make sure it doesn't distract from the overall content and message. If it does, consider lengthening the media and adding the animated logo onto a black background.\n\nInverting the colors - making the animated logotype black - should only be done when using the logo on a white background."
+        }
+      ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "The SEB sound logotype",
+          "content": "The sound logo is created by a piano playing \"Ess (E flat), E, B\", mixed together with ambient sounds representing different aspects of the SEB brand.\n\nIt’s available in 2 second and 3 second variations. Only use the 2 second version when time is limited. Otherwise, use the 3 second version if possible.\n\nBe mindful of the overall sound mix when using the sound logotype. Background music can make the logotype sound jarring and dissonant. Make sure to fade out other audio if the logo does not harmonize with the mix.\n\n"
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/04f0dc09-51b2-47fa-9d57-b26b686d4ac7.jpg"
+        }
+      ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "card-pattern-01",
+          "title": " Download video and  sound logotype",
+          "excerpt": "In this zip-file, you will find an Mp4-version of the animated logo with the embedded sound, as well as a transparent ProRes mov-file. Use this when producing video content to avoid compression artefacts. The zip also contains the sound logotype as separate wav-files.",
+          "label": "Download",
+          "href": "https://brand.seb.se/original/gallery/12864/files/original/ee2671f7-8073-4dab-969e-c668919f719b.zip"
+        }
+      ]
     }
   ]
 }
