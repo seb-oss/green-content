@@ -2,5 +2,137 @@
   "title": "Design principles",
   "slug": "design-principles",
   "parent": "brand",
-  "layout": "editorial"
+  "layout": "editorial",
+  "sections": [
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/993eacbd-186d-4658-b1e7-2fb90889f338.jpg"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Brands are built and fueled by communication.\n\nEverything communicates so naturally, everyone at SEB plays a role in how our brand is perceived and valued in the minds of our customers.\n\nSEB’s visual identity has a big impact on creating the desired perception of our brand. A simple and uncluttered visual system plays a crucial part in making our messages cut through the noise."
+        }
+      ]
+    },
+    {
+      "section-content": "### To create a consistent visual identity that draws from our legacy and our position, we have a few organizing principles:\n\n## Modern, yet timeless.  \nElegant, uncluttered, and effortless.  \nConfidence. Less is more.  \nAttention to detail. Just like in our business.\n\n",
+      "max-width": false
+    },
+    {
+      "title": " Making ourselves heard",
+      "section-content": "Some media environments are noisier than others and we need to make sure our message comes across as intended.",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "High noise level",
+          "tag": "H3",
+          "content": "When we are situated in a very noisy media environment we need to take our rightful space. On a high level the logo is bigger, the texts are bigger and punchier, and CTA's are shorter and sweeter.\n\n– This applies to external and paid media such as OOH, digital OOH, digital ads, social media, print, etc."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/9a9b56c6-961a-4161-8fa3-d39b9a4c31f9.png"
+        },
+        {
+          "type": "rich-text",
+          "title": "Mid noise level",
+          "tag": "H3",
+          "content": "At mid-level, we already have the viewer's attention. We can tone down and talk in a regular speaking voice. Sometimes we speak a bit louder to get our message across, but we never scream. Still, short and to the point.\n\n– This applies to our website start page, presentations, education, etc."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/663e112b-268a-49a6-83db-9f1cb861f777.png"
+        },
+        {
+          "type": "rich-text",
+          "title": "Low noise level",
+          "tag": "H3",
+          "content": "At low-level, we have longer time than usual – a chance to provide in-depth information to our clients to make them truly understand our offering.\n\n– This applies to our app, product pages, documents, letters, sub-pages on website, etc."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/e8bbeb93-bcee-49d7-854e-333ed5357930.png"
+        }
+      ]
+    },
+    {
+      "title": "A few examples",
+      "max-width": false
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "High-level – Out-of-home ad for \"Framtidsråd\".",
+          "src": "/assets/brand-hub/82369a47-1da9-4fb9-b9d0-33bd8b47d57a.jpg"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Low-level – Cover of SEB Annual report.",
+          "src": "/assets/brand-hub/993eacbd-186d-4658-b1e7-2fb90889f338.jpg"
+        },
+        {
+          "type": "image",
+          "caption": "Set of icons used in communication.",
+          "src": "/assets/brand-hub/958f4523-406b-4768-ba81-01f42d119657.png"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "High-level – Print ads.",
+          "src": "/assets/brand-hub/4e9d6036-d34c-4009-85df-3ef189ac192d.jpg"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Mid-level – Digital template ad.",
+          "src": "/assets/mid_level_1.png"
+        },
+        {
+          "type": "image",
+          "caption": "Mid-level – Digital template ad.",
+          "src": "/assets/brand-hub/4a2b3d89-1de2-4773-a677-c9dbcd2a4935.png"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Mid-level – Value Magazine 2021 – Gold in Swedish Design Awards.",
+          "src": "/assets/brand-hub/ede9709e-dd1d-48b7-a552-45936bebd07f.jpeg"
+        }
+      ]
+    }
+  ]
 }
