@@ -14,9 +14,39 @@
       ]
     },
     {
+      "title": "Key design principles – simple, asymmetric and dynamic",
       "tag": "H2",
       "max-width": true,
-      "cols": "1"
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Simple",
+          "content": "### Simplicity of form\n\nBasic geometric shapes inform the design of our furniture and signage.\n\n### Simplicity of colour\n\nComplementary colour combinations. Not too many colours used at once.\n\n### Simplicity of pattern\n\nWallpaper and upholstery patterns are geometric."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/602f5ab9-aeb9-4796-bd97-bb6814f2a2f2.jpeg"
+        },
+        {
+          "type": "rich-text",
+          "title": "Asymmetric",
+          "content": "### Asymmetric arrangement\n\nWe position our furniture in interesting and unexpected groupings. Asymmetric placement of carpets can help to create zones, or ‘rooms within a room’.\n\n### Asymmetric color balance\n\nMix dark/neutral furniture with small spots of colored furniture to achieve an asymmetric balance of color."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/c7cd0864-5b0d-4d9e-aaa5-c6d2171d0d25.jpeg"
+        },
+        {
+          "type": "rich-text",
+          "title": " Dynamic",
+          "content": "### Dynamic use of space\n\nCreate flexible spaces with multiple usages.\n\n### Dynamic use of color\n\nUse bold accents of color to create visual interest and define spaces."
+        },
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/5c2984dc-1250-4c70-a7e7-c17b699a1375.jpeg"
+        }
+      ]
     }
   ]
 }
