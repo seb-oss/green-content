@@ -22,7 +22,29 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Everything communicates so naturally, everyone at SEB plays a role in how our brand is perceived and valued in the minds of our customers.\n\nSEB’s visual identity has a big impact on creating the desired perception of our brand. A simple and uncluttered visual system plays a crucial part in making our messages cut through the noise.\n\nTo create a consistent visual identity that draws from our legacy and our position, we have a few organizing principles:\n\n## Modern, yet timeless.\n\n## Elegant, uncluttered, and effortless.\n\n## Confidence. \n\n## Less is more.\n\n## Attention to detail. \n\n## Just like in our business.\n\n"
+          "content": "Everything communicates so naturally, everyone at SEB plays a role in how our brand is perceived and valued in the minds of our customers.\n\nSEB’s visual identity has a big impact on creating the desired perception of our brand. A simple and uncluttered visual system plays a crucial part in making our messages cut through the noise.\n\nTo create a consistent visual identity that draws from our legacy and our position, we have a few organizing principles:"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "card-pattern-01",
+          "title": "Modern, yet timeless."
+        },
+        {
+          "type": "card-pattern-01",
+          "title": "Elegant, uncluttered, and effortless."
+        },
+        {
+          "type": "card-pattern-01",
+          "title": "Confidence. Less is more."
+        },
+        {
+          "type": "card-pattern-01",
+          "title": "Attention to detail. Just like in our business."
         }
       ]
     },
