@@ -16,7 +16,7 @@
     },
     {
       "max-width": false,
-      "cols": "2",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
@@ -25,7 +25,6 @@
         },
         {
           "type": "card-pattern-01",
-          "src": "/assets/brand-hub/db15a6f8-4c9d-491a-b101-a54d0ee32bac.jpeg",
           "title": "SEB media bank",
           "excerpt": "Here you can find SEB brand images.  Do you need production of material for Branch office LCD-screens? Please see the intranet for further information. ",
           "label": "Go to media bank",
