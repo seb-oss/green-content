@@ -85,7 +85,7 @@
     {
       "title": "Some tips of phrases to use",
       "max-width": true,
-      "cols": "1",
+      "cols": "2",
       "columns": [
         {
           "type": "rich-text",
