@@ -62,7 +62,6 @@
     {
       "title": "Real Estate",
       "slug": "brand/real-estate",
-      "summary": "To ensure our employees and customers experience a coherent expression of the SEB brand across all of our branches and buildings worldwide, we have created this interior design guideline.",
       "path": "pages/brand-real-estate/brand-real-estate.json"
     },
     {
@@ -234,5 +233,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-22T12:52:34.215Z"
+  "lastUpdated": "2026-06-22T13:06:49.519Z"
 }
