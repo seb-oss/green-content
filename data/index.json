@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-22T12:34:16.570Z",
+    "lastUpdated": "2026-06-22T12:38:37.084Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -730,7 +730,7 @@
           },
           {
             "title": "Design principles",
-            "slug": "design-principles",
+            "slug": "brand/design-principles",
             "path": "pages/design-principles/design-principles.json",
             "endpoints": {
               "content": "pages/design-principles/design-principles.json"

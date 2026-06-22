@@ -139,7 +139,7 @@
     },
     {
       "title": "Design principles",
-      "slug": "design-principles",
+      "slug": "brand/design-principles",
       "path": "pages/design-principles/design-principles.json"
     },
     {
@@ -234,5 +234,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-22T12:34:16.573Z"
+  "lastUpdated": "2026-06-22T12:38:37.086Z"
 }
