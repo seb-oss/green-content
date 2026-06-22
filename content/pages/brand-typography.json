@@ -167,6 +167,52 @@
           "content": "We use Arial as a system font. A system font is a typeface that is available on all computers. When sending open documents, such as Word or PowerPoint documents, always use Arial.\n\nWe use Arial Bold as a replacement for SEB SansSerif Bold and Arial Regular as a replacement for SEB SansSerif Regular."
         }
       ]
+    },
+    {
+      "max-width": false,
+      "cols": "3",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Do – Always use SEB SansSerif.",
+          "src": "/assets/typography_01.png"
+        },
+        {
+          "type": "image",
+          "caption": "Don't – Never use any other typeface.",
+          "src": "/assets/typography_02.png"
+        },
+        {
+          "type": "image",
+          "caption": "Do – Use left-align text.",
+          "src": "/assets/typography_03.png"
+        },
+        {
+          "type": "image",
+          "caption": "Don't – Never us color on text.",
+          "src": "/assets/typography_04.png"
+        },
+        {
+          "type": "image",
+          "caption": "Do – Kern and space the typography with care.",
+          "src": "/assets/typography_05.png"
+        },
+        {
+          "type": "image",
+          "caption": "Don't – Don't add extreme kerning or spacing.",
+          "src": "/assets/typography_06.png"
+        },
+        {
+          "type": "image",
+          "caption": "Do – Use a line height that makes for readable text.",
+          "src": "/assets/typography_07.png"
+        },
+        {
+          "type": "image",
+          "caption": "Don't – To much (or too little) line height will make the text hard to read.",
+          "src": "/assets/typography_08.png"
+        }
+      ]
     }
   ]
 }
