@@ -45,6 +45,59 @@
           "href": "https://brand.seb.se/point/en/seb/component/default/78399#:~:text=and%20unique%20expression.-,Download,-Weights%20%26%20how%20to"
         }
       ]
+    },
+    {
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Weights & how to use them",
+          "content": "Typographical weights are a powerful tool to build hierarchies. Used correctly they will help strengthen our words and communication as well as establish a distinct visual recognition of our brand.\n\nKeep in mind that minimising the amount of weights and sizes in texts makes for a more unified and neat look. It’s also calming for the eyes and helps the reader to take in the information.\n\n- **SEB SansSerif Regular –** Use this for body copy.\n- **SEB SansSerif Book –** Use Book both for headlines and shorter texts.\n- **SEB SansSerif Medium –** Medium can be used to highlight words.\n- **SEB SansSerif Bold –** Use to establish design hierarchies and in sub headers.\n\n"
+        }
+      ]
+    },
+    {
+      "title": "Do's and don'ts",
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Do use Book whenever a text is large – both for headlines and larger texts. It carries SEBs brand identity."
+            },
+            {
+              "text": "Do use Medium and Italic to highlight words and sections of body copy. As a rule of thumb, use Italic in texts with a narrative and Medium in more technical and informational texts."
+            },
+            {
+              "text": "Do use Bold for sub headlines within body text, or to create contrast in informational systems like tables and data presentation."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don't use Bold or Medium as headline fonts."
+            },
+            {
+              "text": "Don't write in CAPITALS. "
+            },
+            {
+              "text": "Don't use italics in larger texts. Even though we have Bold and Medium as Italics,  they should only be used in very specific cases."
+            },
+            {
+              "text": "Don't use Bold in big headlines."
+            },
+            {
+              "text": "Don't use Light. It is still active in some designs, but should never be used in new material."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
