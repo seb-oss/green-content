@@ -22,7 +22,8 @@
         {
           "type": "rich-text",
           "title": "Simple",
-          "content": "### Simplicity of form\n\nBasic geometric shapes inform the design of our furniture and signage.\n\n### Simplicity of colour\n\nComplementary colour combinations. Not too many colours used at once.\n\n### Simplicity of pattern\n\nWallpaper and upholstery patterns are geometric."
+          "tag": "H4",
+          "content": "**Simplicity of form**\n\nBasic geometric shapes inform the design of our furniture and signage.\n\n**Simplicity of colour**\n\nComplementary colour combinations. Not too many colours used at once.\n\n**Simplicity of pattern**\n\nWallpaper and upholstery patterns are geometric."
         },
         {
           "type": "image",
@@ -31,7 +32,8 @@
         {
           "type": "rich-text",
           "title": "Asymmetric",
-          "content": "### Asymmetric arrangement\n\nWe position our furniture in interesting and unexpected groupings. Asymmetric placement of carpets can help to create zones, or ‘rooms within a room’.\n\n### Asymmetric color balance\n\nMix dark/neutral furniture with small spots of colored furniture to achieve an asymmetric balance of color."
+          "tag": "H4",
+          "content": "**Asymmetric arrangement**\n\nWe position our furniture in interesting and unexpected groupings. Asymmetric placement of carpets can help to create zones, or ‘rooms within a room’.\n\n**Asymmetric color balance**\n\nMix dark/neutral furniture with small spots of colored furniture to achieve an asymmetric balance of color."
         },
         {
           "type": "image",
@@ -40,7 +42,8 @@
         {
           "type": "rich-text",
           "title": " Dynamic",
-          "content": "### Dynamic use of space\n\nCreate flexible spaces with multiple usages.\n\n### Dynamic use of color\n\nUse bold accents of color to create visual interest and define spaces."
+          "tag": "H4",
+          "content": "**Dynamic use of space**\n\nCreate flexible spaces with multiple usages.\n\n**Dynamic use of color**\n\nUse bold accents of color to create visual interest and define spaces."
         },
         {
           "type": "image",
