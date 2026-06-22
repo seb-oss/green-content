@@ -60,7 +60,7 @@
     },
     {
       "title": "Do's and don'ts",
-      "max-width": false,
+      "max-width": true,
       "cols": "2",
       "columns": [
         {
