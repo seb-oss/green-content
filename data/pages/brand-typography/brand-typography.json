@@ -135,6 +135,27 @@
           "src": "/assets/brand-hub/fe7ed7f5-8c38-4274-b118-22084f279057.jpeg"
         }
       ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Centered exceptions",
+          "content": "In some cases, centered text works better. This is usually in digital contexts, advertising or in situations where it helps to present information in a more logical way than left-aligned text. In advertising, a centered layout creates a more stable and confident look."
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/brand-hub/a96c4abf-c2b1-49a5-93bf-c0caef49276e.png"
+        }
+      ]
     }
   ]
 }
