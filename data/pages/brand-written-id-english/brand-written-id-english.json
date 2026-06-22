@@ -17,7 +17,7 @@
     },
     {
       "tag": "H2",
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -29,7 +29,7 @@
     },
     {
       "tag": "H2",
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -42,7 +42,7 @@
     {
       "title": "This is how we express ourselves",
       "tag": "H2",
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -73,8 +73,8 @@
     },
     {
       "tag": "H2",
-      "max-width": false,
-      "cols": "2",
+      "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
@@ -90,7 +90,7 @@
     },
     {
       "tag": "H2",
-      "max-width": false,
+      "max-width": true,
       "cols": "1",
       "columns": [
         {
@@ -102,8 +102,8 @@
     },
     {
       "title": "Related topics",
-      "max-width": false,
-      "cols": "3",
+      "max-width": true,
+      "cols": "2",
       "columns": [
         {
           "type": "card-pattern-01",
