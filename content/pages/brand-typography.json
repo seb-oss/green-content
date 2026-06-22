@@ -156,6 +156,17 @@
           "src": "/assets/brand-hub/a96c4abf-c2b1-49a5-93bf-c0caef49276e.png"
         }
       ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "System font",
+          "content": "We use Arial as a system font. A system font is a typeface that is available on all computers. When sending open documents, such as Word or PowerPoint documents, always use Arial.\n\nWe use Arial Bold as a replacement for SEB SansSerif Bold and Arial Regular as a replacement for SEB SansSerif Regular."
+        }
+      ]
     }
   ]
 }
