@@ -4,23 +4,19 @@
   "parent": "brand",
   "sections": [
     {
-      "title": "Real Estate",
-      "tag": "H2",
-      "max-width": true,
-      "cols": "1"
-    },
-    {
-      "title": "Key design principles",
-      "tag": "H2",
-      "max-width": true,
+      "max-width": false,
       "cols": "1",
       "columns": [
         {
-          "type": "paragraph",
-          "tag": "p",
-          "text": "To ensure our employees and customers experience a coherent expression of the SEB brand across all of our branches and buildings worldwide, we have created this interior design guideline.\n\nIt sets the standard for all future interior design projects and provides guidance for design decisions including the use of materials, color, furniture, and lighting."
+          "type": "image",
+          "src": "/assets/real-estate.jpeg"
         }
       ]
+    },
+    {
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1"
     }
   ]
 }
