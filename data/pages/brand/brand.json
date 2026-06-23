@@ -22,12 +22,6 @@
         },
         {
           "type": "card-pattern-01",
-          "src": "/assets/brand-hub/43f427b9-439b-47de-b9ce-805714991e10.png",
-          "title": "Written identity",
-          "href": "https://seb.io/brand/written-id-english"
-        },
-        {
-          "type": "card-pattern-01",
           "src": "/assets/imagery.jpg",
           "title": "Imagery",
           "href": "https://seb.io/brand/imagery"
@@ -55,6 +49,12 @@
           "src": "/assets/typography_brand_hero.jpeg",
           "title": "Typography",
           "href": "https://seb.io/brand/typography"
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/brand-hub/43f427b9-439b-47de-b9ce-805714991e10.png",
+          "title": "Written identity",
+          "href": "https://seb.io/brand/written-id-english"
         },
         {
           "type": "card-pattern-01",
