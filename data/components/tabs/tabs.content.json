@@ -73,7 +73,24 @@
     {
       "title": "Sizes",
       "tag": "H2",
-      "section-content": "The tabs are available in large and small. Use the large default and the small variant only in contexts where you use other component in size small."
+      "section-content": "The tabs are available in large and small. Use the large default and the small variant only in contexts where you use other component in size small.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Tabs size large",
+          "plain": false,
+          "replay": false,
+          "Snippet": "tab-size-large"
+        },
+        {
+          "type": "snippet",
+          "caption": "Tabs size small.",
+          "plain": false,
+          "replay": false,
+          "Snippet": "tab-size-small"
+        }
+      ]
     },
     {
       "title": "Leading and trailing content",
