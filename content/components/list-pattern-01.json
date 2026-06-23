@@ -132,17 +132,15 @@
       "cols": "2",
       "columns": [
         {
-          "type": "rich-text",
-          "title": "Custom content - text"
-        },
-        {
-          "type": "rich-text",
-          "title": "Custom content - badge"
+          "type": "snippet",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-main-text"
         }
       ]
     },
     {
-      "title": "Lead slot",
+      "title": "Trail slot",
       "tag": "H3",
       "section-content": "Use for actions such as links or buttons. When `href` is set, the row renders a chevron link in the trail."
     }
