@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-22T19:46:05.932Z",
+    "lastUpdated": "2026-06-23T03:49:45.158Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2391,7 +2391,7 @@
             "title": "LIP01: No padding inline",
             "slug": "lip01-no-padding-inline",
             "path": "snippets/lip01-no-padding-inline/lip01-no-padding-inline.json",
-            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card>\n    <gds-list>\n      <gds-list-item-pattern-01 selectable padding-inline=\"0\">\n        <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n          <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n          <gds-text font=\"detail-m-book\">Value</gds-text>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01 selectable checked padding-inline=\"0\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-list-item-pattern-01>\n    </gds-list>\n  </gds-card>\n</gds-div>",
+            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card width=\"90%\">\n    <gds-list>\n      <gds-list-item-pattern-01 selectable padding-inline=\"0\">\n        <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n          <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n          <gds-text font=\"detail-m-book\">Value</gds-text>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01 selectable checked padding-inline=\"0\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-list-item-pattern-01>\n    </gds-list>\n  </gds-card>\n</gds-div>",
             "endpoints": {
               "content": "snippets/lip01-no-padding-inline/lip01-no-padding-inline.json"
             }
