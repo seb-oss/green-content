@@ -336,6 +336,9 @@ content:
                   - name: href
                     label: Link (href)
                     type: string
+                  - name: downloadable
+                    label: Downloadable
+                    type: boolean
                   - name: buttons
                     label: Buttons
                     type: object
@@ -347,6 +350,9 @@ content:
                       - name: href
                         label: Link
                         type: string
+                      - name: downloadable
+                        label: Downloadable
+                        type: boolean
 
       - name: ux-text
         type: object
@@ -528,6 +534,9 @@ content:
                   - name: href
                     label: Link (href)
                     type: string
+                  - name: downloadable
+                    label: Downloadable
+                    type: boolean
                   - name: buttons
                     label: Buttons
                     type: object
@@ -539,6 +548,9 @@ content:
                       - name: href
                         label: Link
                         type: string
+                      - name: downloadable
+                        label: Downloadable
+                        type: boolean
       - name: accessibility
         type: object
         label: Accessibility
@@ -719,6 +731,9 @@ content:
                   - name: href
                     label: Link (href)
                     type: string
+                  - name: downloadable
+                    label: Downloadable
+                    type: boolean
                   - name: buttons
                     label: Buttons
                     type: object
@@ -730,6 +745,9 @@ content:
                       - name: href
                         label: Link
                         type: string
+                      - name: downloadable
+                        label: Downloadable
+                        type: boolean
       - name: faq
         type: object
         label: FAQ
@@ -910,6 +928,9 @@ content:
                   - name: href
                     label: Link (href)
                     type: string
+                  - name: downloadable
+                    label: Downloadable
+                    type: boolean
                   - name: buttons
                     label: Buttons
                     type: object
@@ -921,6 +942,9 @@ content:
                       - name: href
                         label: Link
                         type: string
+                      - name: downloadable
+                        label: Downloadable
+                        type: boolean
 
   - name: pages
     label: Pages
@@ -1117,6 +1141,9 @@ content:
                   - name: href
                     label: Link (href)
                     type: string
+                  - name: downloadable
+                    label: Downloadable
+                    type: boolean
                   - name: buttons
                     label: Buttons
                     type: object
@@ -1128,6 +1155,9 @@ content:
                       - name: href
                         label: Link
                         type: string
+                      - name: downloadable
+                        label: Downloadable
+                        type: boolean
 
   - name: navigation
     label: Navigation
