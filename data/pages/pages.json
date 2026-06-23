@@ -101,12 +101,6 @@
       "path": "pages/brand-video-and-audio-logotype/brand-video-and-audio-logotype.json"
     },
     {
-      "title": "Visual Guidelines",
-      "slug": "brand/visual-guidelines",
-      "summary": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
-      "path": "pages/brand-visual-guidelines/brand-visual-guidelines.json"
-    },
-    {
       "title": "Written ID – English",
       "slug": "brand/written-id-english",
       "summary": "Everything we say, write, and do is guided by our purpose:",
@@ -232,6 +226,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 39,
-  "lastUpdated": "2026-06-23T08:18:18.416Z"
+  "total": 38,
+  "lastUpdated": "2026-06-23T08:32:27.282Z"
 }

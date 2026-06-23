@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-23T08:18:18.414Z",
+    "lastUpdated": "2026-06-23T08:32:27.280Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -671,15 +671,6 @@
             "path": "pages/brand-video-and-audio-logotype/brand-video-and-audio-logotype.json",
             "endpoints": {
               "content": "pages/brand-video-and-audio-logotype/brand-video-and-audio-logotype.json"
-            }
-          },
-          {
-            "title": "Visual Guidelines",
-            "slug": "brand/visual-guidelines",
-            "summary": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
-            "path": "pages/brand-visual-guidelines/brand-visual-guidelines.json",
-            "endpoints": {
-              "content": "pages/brand-visual-guidelines/brand-visual-guidelines.json"
             }
           },
           {
