@@ -46,6 +46,24 @@
         },
         {
           "type": "card-pattern-01",
+          "src": "/assets/designdirection.jpg",
+          "title": "Brand colours",
+          "href": "https://seb.io/brand/colours"
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/typography_brand_hero.jpeg",
+          "title": "Typography",
+          "href": "https://seb.io/brand/typography"
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/brand-hub/958f4523-406b-4768-ba81-01f42d119657.png",
+          "title": "Icons and signage",
+          "href": "https://seb.io/brand/icons-and-signage"
+        },
+        {
+          "type": "card-pattern-01",
           "src": "/assets/realestate.jpg",
           "title": "Real estate",
           "href": "https://seb.io/brand/real-estate"
