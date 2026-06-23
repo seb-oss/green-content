@@ -967,6 +967,12 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\">\n  <gds-input label=\"Sök transaktion\" supporting-text=\"Till exempel företag, belopp eller datum.\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n</gds-flex>"
     },
     {
+      "title": "Input type Text",
+      "slug": "input-type-text",
+      "path": "snippets/input-type-text/input-type-text.json",
+      "code": "<gds-input label=\"Label\" supporting-text=\"Supporting text\">\n  <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n</gds-input>"
+    },
+    {
       "title": "Link: Leading",
       "slug": "link-leading",
       "path": "snippets/link-leading/link-leading.json",
@@ -1231,6 +1237,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 205,
-  "lastUpdated": "2026-06-23T07:55:08.701Z"
+  "total": 206,
+  "lastUpdated": "2026-06-23T08:01:09.587Z"
 }

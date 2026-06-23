@@ -1,0 +1,6 @@
+{
+  "title": "Input type Text",
+  "slug": "input-type-text",
+  "snippet_component": "Input",
+  "code": "<gds-input label=\"Label\" supporting-text=\"Supporting text\">\n  <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n</gds-input>"
+}

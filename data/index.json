@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-23T07:55:08.698Z",
+    "lastUpdated": "2026-06-23T08:01:09.584Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2322,6 +2322,15 @@
             "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\">\n  <gds-input label=\"Sök transaktion\" supporting-text=\"Till exempel företag, belopp eller datum.\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/input-search-transaction-se/input-search-transaction-se.json"
+            }
+          },
+          {
+            "title": "Input type Text",
+            "slug": "input-type-text",
+            "path": "snippets/input-type-text/input-type-text.json",
+            "code": "<gds-input label=\"Label\" supporting-text=\"Supporting text\">\n  <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n</gds-input>",
+            "endpoints": {
+              "content": "snippets/input-type-text/input-type-text.json"
             }
           },
           {
