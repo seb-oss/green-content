@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-23T04:01:21.547Z",
+    "lastUpdated": "2026-06-23T04:12:05.423Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2385,6 +2385,15 @@
             "code": "<gds-div display=\"block\" width=\"100%\">\n    <gds-list>\n        <gds-list-item-pattern-01>\n            <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n            <gds-text font=\"detail-s-regular\" tag=\"label\">List item with lead icon</gds-text>\n        </gds-list-item-pattern-01>\n    </gds-list>\n</gds-div>",
             "endpoints": {
               "content": "snippets/lip01-lead-icon/lip01-lead-icon.json"
+            }
+          },
+          {
+            "title": "LIP01 - Main: Custom",
+            "slug": "lip01-main-custom",
+            "path": "snippets/lip01-main-custom/lip01-main-custom.json",
+            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-list>\n    <gds-list-item-pattern-01>\n      <gds-flex gap=\"4xl\" align-items=\"center\">\n      <gds-badge variant=\"positive\">\n        Active\n      </gds-badge>\n        <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n          <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n          <gds-text font=\"detail-m-book\">Value</gds-text>\n        </gds-flex>\n        <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n          <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n          <gds-text font=\"detail-m-book\">Value</gds-text>\n        </gds-flex>\n        <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"end\" gap=\"4xs\">\n          <gds-text font=\"detail-m-book\">Label</gds-text>\n          <gds-formatted-account>54400023423</gds-formatted-account>\n        </gds-flex>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-div>",
+            "endpoints": {
+              "content": "snippets/lip01-main-custom/lip01-main-custom.json"
             }
           },
           {
