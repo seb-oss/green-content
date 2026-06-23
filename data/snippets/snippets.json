@@ -1030,7 +1030,7 @@
       "title": "LIP01: Padding inline custom",
       "slug": "lip01-padding-inline-custom",
       "path": "snippets/lip01-padding-inline-custom/lip01-padding-inline-custom.json",
-      "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card width=\"90%\">\n    <gds-list>\n      <gds-list-item-pattern-01 selectable padding-inline=\"m\">\n        <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n          <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n          <gds-text font=\"detail-m-book\">Value</gds-text>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01 selectable checked padding-inline=\"m\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-list-item-pattern-01>\n    </gds-list>\n  </gds-card>\n</gds-div>"
+      "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card width=\"90%\" variant=\"neutral-02-outlined\">\n    <gds-list>\n      <gds-list-item-pattern-01 selectable padding-inline=\"m\">\n        <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n          <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n          <gds-text font=\"detail-m-book\">Value</gds-text>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01 selectable checked padding-inline=\"m\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-list-item-pattern-01>\n    </gds-list>\n  </gds-card>\n</gds-div>"
     },
     {
       "title": "LIP01: Selectable with href",
@@ -1226,5 +1226,5 @@
     }
   ],
   "total": 204,
-  "lastUpdated": "2026-06-23T04:14:39.187Z"
+  "lastUpdated": "2026-06-23T04:15:10.185Z"
 }
