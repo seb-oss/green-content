@@ -976,7 +976,7 @@
       "title": "Input type Text",
       "slug": "input-type-text",
       "path": "snippets/input-type-text/input-type-text.json",
-      "code": "<gds-input label=\"Label\" supporting-text=\"Supporting text\">\n  <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n</gds-input>"
+      "code": "<gds-flex width=\"100%\" padding=\"2xl\">\n  <gds-input type=\"file\" label=\"Label text\" supporting-text=\"Supporting text\">\n    <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n  </gds-input>\n</gds-flex>"
     },
     {
       "title": "Link: Leading",
@@ -1244,5 +1244,5 @@
     }
   ],
   "total": 207,
-  "lastUpdated": "2026-06-23T08:06:56.327Z"
+  "lastUpdated": "2026-06-23T08:16:19.603Z"
 }
