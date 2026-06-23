@@ -9,6 +9,7 @@
       "columns": [
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/real-estate.jpeg"
         }
       ]
@@ -27,6 +28,7 @@
         },
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/602f5ab9-aeb9-4796-bd97-bb6814f2a2f2.jpeg"
         },
         {
@@ -37,6 +39,7 @@
         },
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/c7cd0864-5b0d-4d9e-aaa5-c6d2171d0d25.jpeg"
         },
         {
@@ -47,6 +50,7 @@
         },
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/5c2984dc-1250-4c70-a7e7-c17b699a1375.jpeg"
         }
       ]
@@ -61,21 +65,25 @@
         {
           "type": "image",
           "caption": "Material",
+          "ratio": "1/1",
           "src": "/assets/brand-hub/4d56c5d6-64bc-4d2d-a0b7-5aeb7e05cb5a.png"
         },
         {
           "type": "image",
           "caption": "Color",
+          "ratio": "1/1",
           "src": "/assets/brand-hub/b1d0ab25-4b45-42f0-9418-2ef7d8016c9a.png"
         },
         {
           "type": "image",
           "caption": "Pattern",
+          "ratio": "1/1",
           "src": "/assets/brand-hub/cabae9e8-53b5-4b6c-a7bb-7d5502fa25fc.png"
         },
         {
           "type": "image",
           "caption": "Decor",
+          "ratio": "1/1",
           "src": "/assets/brand-hub/dded7bc8-303c-479b-820b-aec0aace4389.png"
         }
       ]
@@ -94,6 +102,7 @@
         },
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/a3db3361-8436-4512-a0a7-04b3c21ab473.jpeg"
         },
         {
@@ -116,6 +125,7 @@
         },
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/2adf1304-f9ad-456a-a9e6-ef50f7fd7ce0.jpeg"
         },
         {
@@ -152,6 +162,7 @@
         },
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/47a4e2f7-7dcb-413e-82c2-3252c29e4872.jpg"
         }
       ]
@@ -167,6 +178,7 @@
         },
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/a3db3361-8436-4512-a0a7-04b3c21ab473.jpeg"
         }
       ]
@@ -181,6 +193,7 @@
         },
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/dded7bc8-303c-479b-820b-aec0aace4389.png"
         }
       ]
@@ -234,10 +247,12 @@
           "type": "card-pattern-01",
           "title": "The real estate icons",
           "excerpt": "Feel free to download the icons used for real estate.",
+          "downloadable": false,
           "buttons": [
             {
               "label": "Download",
-              "href": "https://brand.seb.se/shared/assets/cd75fdeac4571e55bec9"
+              "href": "https://brand.seb.se/shared/assets/cd75fdeac4571e55bec9",
+              "downloadable": false
             }
           ]
         }
