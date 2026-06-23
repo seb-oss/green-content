@@ -44,10 +44,12 @@
       "columns": [
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/d7bce8b1-01d7-4123-b5df-96bd1bf8ec38.png"
         },
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/d25fd74c-f595-4983-abd3-ba7dd83c4299.jpeg"
         }
       ]
