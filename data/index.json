@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-23T12:55:23.499Z",
+    "lastUpdated": "2026-06-23T12:57:17.586Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2682,6 +2682,15 @@
             "code": " <gds-card width=\"100%\" variant=\"neutral-02\"> \n <gds-tabs>\n    <gds-tab slot=\"tab\">Account details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\">Transactions</gds-tab>\n    <gds-tab slot=\"tab\">Documents</gds-tab>\n    <gds-tab-panel>Account details</gds-tab-panel>\n    <gds-tab-panel>Transactions</gds-tab-panel>\n    <gds-tab-panel>Documents</gds-tab-panel>\n  </gds-tabs>\n  </gds-card>",
             "endpoints": {
               "content": "snippets/tab-size-large/tab-size-large.json"
+            }
+          },
+          {
+            "title": "Tab size small",
+            "slug": "tab-size-small",
+            "path": "snippets/tab-size-small/tab-size-small.json",
+            "code": " <gds-card width=\"100%\" variant=\"neutral-02\"> \n <gds-tabs>\n    <gds-tab slot=\"tab\" size=\"small\">Account details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\" size=\"small\">Transactions</gds-tab>\n    <gds-tab slot=\"tab\" size=\"small\">Documents</gds-tab>\n    <gds-tab-panel>Account details</gds-tab-panel>\n    <gds-tab-panel>Transactions</gds-tab-panel>\n    <gds-tab-panel>Documents</gds-tab-panel>\n  </gds-tabs>\n  </gds-card>",
+            "endpoints": {
+              "content": "snippets/tab-size-small/tab-size-small.json"
             }
           },
           {

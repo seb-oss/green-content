@@ -1213,6 +1213,12 @@
       "code": " <gds-card width=\"100%\" variant=\"neutral-02\"> \n <gds-tabs>\n    <gds-tab slot=\"tab\">Account details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\">Transactions</gds-tab>\n    <gds-tab slot=\"tab\">Documents</gds-tab>\n    <gds-tab-panel>Account details</gds-tab-panel>\n    <gds-tab-panel>Transactions</gds-tab-panel>\n    <gds-tab-panel>Documents</gds-tab-panel>\n  </gds-tabs>\n  </gds-card>"
     },
     {
+      "title": "Tab size small",
+      "slug": "tab-size-small",
+      "path": "snippets/tab-size-small/tab-size-small.json",
+      "code": " <gds-card width=\"100%\" variant=\"neutral-02\"> \n <gds-tabs>\n    <gds-tab slot=\"tab\" size=\"small\">Account details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\" size=\"small\">Transactions</gds-tab>\n    <gds-tab slot=\"tab\" size=\"small\">Documents</gds-tab>\n    <gds-tab-panel>Account details</gds-tab-panel>\n    <gds-tab-panel>Transactions</gds-tab-panel>\n    <gds-tab-panel>Documents</gds-tab-panel>\n  </gds-tabs>\n  </gds-card>"
+    },
+    {
       "title": "Tab: Usage",
       "slug": "tab-usage",
       "path": "snippets/tab-usage/tab-usage.json",
@@ -1249,6 +1255,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 208,
-  "lastUpdated": "2026-06-23T12:55:23.502Z"
+  "total": 209,
+  "lastUpdated": "2026-06-23T12:57:17.588Z"
 }

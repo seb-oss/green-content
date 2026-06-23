@@ -1,0 +1,6 @@
+{
+  "title": "Tab size small",
+  "slug": "tab-size-small",
+  "snippet_component": "Tabs",
+  "code": " <gds-card width=\"100%\" variant=\"neutral-02\"> \n <gds-tabs>\n    <gds-tab slot=\"tab\" size=\"small\">Account details</gds-tab>\n    <gds-tab slot=\"tab\" selected=\"\" size=\"small\">Transactions</gds-tab>\n    <gds-tab slot=\"tab\" size=\"small\">Documents</gds-tab>\n    <gds-tab-panel>Account details</gds-tab-panel>\n    <gds-tab-panel>Transactions</gds-tab-panel>\n    <gds-tab-panel>Documents</gds-tab-panel>\n  </gds-tabs>\n  </gds-card>"
+}
