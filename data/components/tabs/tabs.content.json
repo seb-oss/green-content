@@ -60,7 +60,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Tabs work best when the number of options is limited. As the number of tabs increases, they become harder to scan and compare. If many options are required, consider whether another pattern would better support the user's task. When tabs exceed the available width, the tab bar becomes horizontally scrollable."
+          "content": "Tabs work best when the number of options is limited. As the number of tabs increases, they become harder to scan and compare. If many options are required, consider whether another pattern would better support the user's task. When tabs exceed the available width, the tab bar becomes horizontally scrollable.\n\nIn a mobile device it will have the same behaviour."
         },
         {
           "type": "snippet",
