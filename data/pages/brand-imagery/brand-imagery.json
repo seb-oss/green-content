@@ -98,7 +98,7 @@
         },
         {
           "type": "image",
-          "ratio": "4/3",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/69b1a7cf-a686-4e3a-852d-e8218282033a.png"
         }
       ]
@@ -114,7 +114,7 @@
         },
         {
           "type": "image",
-          "ratio": "4/3",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/5b9281fd-27f7-42c2-bb92-be1755889c08.jpg"
         }
       ]
@@ -130,7 +130,7 @@
         },
         {
           "type": "image",
-          "ratio": "4/3",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/5c5d3cb7bdb340c9b623698516324055_1.jpg"
         }
       ]
@@ -145,7 +145,7 @@
         },
         {
           "type": "image",
-          "ratio": "4/3",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/e4edc24d-a182-4a62-abe0-a96bed073a62_1.jpg"
         }
       ]
@@ -161,6 +161,7 @@
         },
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/5b03640a-e177-4bb9-825c-7dd3ea5a36e9.jpg"
         }
       ]
@@ -176,7 +177,7 @@
         },
         {
           "type": "image",
-          "ratio": "4/3",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/1120a25e-bb76-47ba-b180-a5d63ed59d9d.png"
         }
       ]
@@ -191,6 +192,7 @@
         },
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/c4a313db-0a67-4b43-bf51-e061653c5ca6_1.jpeg"
         }
       ]
