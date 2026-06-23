@@ -3,20 +3,12 @@
   "slug": "brand",
   "links": [
     {
-      "title": "Brand colours",
-      "slug": "brand/colours"
+      "title": "The SEB Brand",
+      "slug": "brand/the-seb-brand"
     },
     {
-      "title": "Digital invitations",
-      "slug": "brand/written-id-english/digital-invitations"
-    },
-    {
-      "title": "Generative AI guidelines",
-      "slug": "brand/generative-ai-guidelines"
-    },
-    {
-      "title": "Icons & signage",
-      "slug": "brand/icons-and-signage"
+      "title": "Design principles",
+      "slug": "brand/design-principles"
     },
     {
       "title": "Imagery",
@@ -31,6 +23,18 @@
       "slug": "brand/media-bank"
     },
     {
+      "title": "Brand colours",
+      "slug": "brand/colours"
+    },
+    {
+      "title": "Typography",
+      "slug": "brand/typography"
+    },
+    {
+      "title": "Icons & signage",
+      "slug": "brand/icons-and-signage"
+    },
+    {
       "title": "Real estate",
       "slug": "brand/real-estate"
     },
@@ -39,28 +43,24 @@
       "slug": "brand/written-id-english/talking-about-sustainability"
     },
     {
-      "title": "Templates & downloads",
-      "slug": "brand/templates-and-downloads"
-    },
-    {
-      "title": "The SEB Brand",
-      "slug": "brand/the-seb-brand"
-    },
-    {
-      "title": "Typography",
-      "slug": "brand/typography"
-    },
-    {
       "title": "Video & audio logotype",
       "slug": "brand/video-and-audio-logotype"
     },
     {
-      "title": "Design principles",
-      "slug": "brand/design-principles"
+      "title": "Generative AI guidelines",
+      "slug": "brand/generative-ai-guidelines"
     },
     {
       "title": "Written ID",
       "slug": "brand/written-id-english"
+    },
+    {
+      "title": "Digital invitations",
+      "slug": "brand/written-id-english/digital-invitations"
+    },
+    {
+      "title": "Templates & downloads",
+      "slug": "brand/templates-and-downloads"
     }
   ]
 }
