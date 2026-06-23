@@ -85,8 +85,24 @@
     {
       "title": "Types",
       "tag": "H2",
-      "section-content": "The Input component supports different input types, including text entry and file selection.",
-      "cols": "2"
+      "section-content": "The input component supports different input types, including text entry and file selection.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Input type – Text",
+          "plain": false,
+          "replay": false,
+          "Snippet": "input-type-text"
+        },
+        {
+          "type": "snippet",
+          "caption": "Input type – File",
+          "plain": false,
+          "replay": false,
+          "Snippet": "input-type-file"
+        }
+      ]
     },
     {
       "title": "Features",
