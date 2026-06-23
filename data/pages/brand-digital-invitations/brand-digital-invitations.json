@@ -9,6 +9,7 @@
       "columns": [
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/digital_invitations.jpg"
         }
       ]
