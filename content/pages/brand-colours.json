@@ -10,6 +10,7 @@
       "columns": [
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/designdirection.jpg"
         }
       ]
@@ -27,6 +28,7 @@
         },
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/7335cb42-c52e-47ae-8f80-4a93b38e6675.jpg"
         }
       ]
