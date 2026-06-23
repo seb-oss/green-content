@@ -70,6 +70,30 @@
         },
         {
           "type": "card-pattern-01",
+          "src": "/assets/brand-hub/brand-guidelines.png",
+          "title": "Talking about sustainability",
+          "href": "https://seb.io/brand/written-id-english/talking-about-sustainability"
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/brand-hub/04f0dc09-51b2-47fa-9d57-b26b686d4ac7.jpg",
+          "title": "Video and audio logotype",
+          "href": "https://seb.io/brand/video-and-audio-logotype"
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/brand-hub/d69fb38b-4f08-4c2b-9364-c06a97bb16b5.png",
+          "title": "Generative AI guidelines",
+          "href": "https://seb.io/brand/generative-ai-guidelines"
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/digital_invitations.jpg",
+          "title": "Digital invitations",
+          "href": "https://seb.io/brand/written-id-english/digital-invitations"
+        },
+        {
+          "type": "card-pattern-01",
           "src": "/assets/templates.jpeg",
           "title": "Templates and downloads",
           "href": "https://seb.io/brand/templates-and-downloads"
