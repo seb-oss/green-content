@@ -17,8 +17,8 @@
     {
       "title": "Brands are built and fueled by communication",
       "tag": "H2",
-      "max-width": false,
-      "cols": "2",
+      "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
@@ -51,8 +51,8 @@
     {
       "title": " Making ourselves heard",
       "section-content": "Some media environments are noisier than others and we need to make sure our message comes across as intended.",
-      "max-width": false,
-      "cols": "2",
+      "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
@@ -88,7 +88,8 @@
     },
     {
       "title": "A few examples",
-      "max-width": false
+      "max-width": true,
+      "cols": "1"
     },
     {
       "max-width": false,
