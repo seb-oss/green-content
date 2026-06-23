@@ -71,6 +71,11 @@
       ]
     },
     {
+      "title": "Sizes",
+      "tag": "H2",
+      "section-content": "The tabs are available in large and small. Use the large default and the small variant only in contexts where you use other component in size small."
+    },
+    {
       "title": "Leading and trailing content",
       "tag": "H2",
       "cols": "2",
