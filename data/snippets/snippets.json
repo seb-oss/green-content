@@ -994,7 +994,7 @@
       "title": "LIP01 - Lead: Avatar",
       "slug": "lip01-lead-avatar",
       "path": "snippets/lip01-lead-avatar/lip01-lead-avatar.json",
-      "code": "<gds-div display=\"block\" width=\"100%\">\n    <gds-list>\n        <gds-list-item-pattern-01 href=\"#\">\n            <gds-avatar slot=\"lead\"></gds-avatar>\n            <gds-text font=\"detail-s-regular\">Linked list item with lead avatar</gds-text>\n        </gds-list-item-pattern-01>\n    </gds-list>\n</gds-div>"
+      "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-list>\n    <gds-list-item-pattern-01 href=\"#\">\n      <gds-avatar slot=\"lead\"></gds-avatar>\n      <gds-text font=\"detail-s-regular\">Linked list item with lead avatar</gds-text>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-div>"
     },
     {
       "title": "LIP01 - Lead: Badge",
@@ -1232,5 +1232,5 @@
     }
   ],
   "total": 205,
-  "lastUpdated": "2026-06-23T05:06:59.035Z"
+  "lastUpdated": "2026-06-23T05:08:43.507Z"
 }
