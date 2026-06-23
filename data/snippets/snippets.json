@@ -970,7 +970,7 @@
       "title": "Input type - File",
       "slug": "input-type-file",
       "path": "snippets/input-type-file/input-type-file.json",
-      "code": "<gds-flex width=\"100%\" padding=\"2xl\">\n  <gds-input type=\"file\" label=\"Label text\" supporting-text=\"Supporting text\">\n    <gds-icon-people-profile slot=\"lead\"></gds-icon-people-profile>\n  </gds-input>\n</gds-flex>"
+      "code": "<gds-flex width=\"100%\" padding=\"2xl\">\n  <gds-input type=\"file\" label=\"Label text\" supporting-text=\"Supporting text\">\n    <gds-icon-cloud-upload slot=\"lead\"></gds-icon-cloud-upload>\n  </gds-input>\n</gds-flex>"
     },
     {
       "title": "Input type Text",
@@ -1244,5 +1244,5 @@
     }
   ],
   "total": 207,
-  "lastUpdated": "2026-06-23T08:17:27.083Z"
+  "lastUpdated": "2026-06-23T08:18:18.417Z"
 }
