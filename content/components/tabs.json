@@ -116,6 +116,9 @@
             },
             {
               "text": "Use leading content, such as icons or avatars, when it helps users identify a section."
+            },
+            {
+              "text": "Order tabs according to user needs, the first one is the one most commonly used"
             }
           ]
         },
