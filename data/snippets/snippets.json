@@ -988,7 +988,7 @@
       "title": "LIP01: Href",
       "slug": "lip01-href",
       "path": "snippets/lip01-href/lip01-href.json",
-      "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-list>\n    <gds-list-item-pattern-01 href=\"#\">\n      <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01 href=\"#\">\n      <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-div>"
+      "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-list>\n    <gds-list-item-pattern-01 href=\"#\">\n      <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-div>"
     },
     {
       "title": "LIP01 - Lead: Avatar",
@@ -1232,5 +1232,5 @@
     }
   ],
   "total": 205,
-  "lastUpdated": "2026-06-23T05:08:43.507Z"
+  "lastUpdated": "2026-06-23T05:11:58.817Z"
 }
