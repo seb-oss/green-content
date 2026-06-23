@@ -10,6 +10,7 @@
       "columns": [
         {
           "type": "image",
+          "ratio": "16/9",
           "src": "/assets/brand-hub/d69fb38b-4f08-4c2b-9364-c06a97bb16b5.png"
         }
       ]
@@ -25,7 +26,8 @@
         },
         {
           "type": "card-pattern-01",
-          "title": "Content created with generative AI must follow SEB’s brand and tone guidelines to maintain consistency."
+          "title": "Content created with generative AI must follow SEB’s brand and tone guidelines to maintain consistency.",
+          "downloadable": false
         }
       ]
     },
