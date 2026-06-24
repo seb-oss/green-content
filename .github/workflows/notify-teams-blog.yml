@@ -1,0 +1,101 @@
+name: Notify Teams on New Blog Post
+
+on:
+    push:
+        branches:
+            - main
+        paths:
+            - "content/blog/**"
+
+jobs:
+    notify:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 2
+
+            - name: Detect new blog posts
+              id: detect
+              run: |
+                  new_files=$(git diff HEAD^ HEAD --name-only --diff-filter=A -- 'content/blog/*.json')
+                  if [ -z "$new_files" ]; then
+                    echo "No new blog posts detected."
+                    echo "has_new=false" >> "$GITHUB_OUTPUT"
+                  else
+                    echo "New blog posts detected:"
+                    echo "$new_files"
+                    echo "has_new=true" >> "$GITHUB_OUTPUT"
+                    echo "files<<EOF" >> "$GITHUB_OUTPUT"
+                    echo "$new_files" >> "$GITHUB_OUTPUT"
+                    echo "EOF" >> "$GITHUB_OUTPUT"
+                  fi
+
+            - name: Get OAuth token
+              if: steps.detect.outputs.has_new == 'true'
+              id: token
+              env:
+                  CLIENT_ID: ${{ secrets.TEAMS_WEBHOOK_CLIENT_ID }}
+                  CLIENT_SECRET: ${{ secrets.TEAMS_WEBHOOK_CLIENT_SECRET }}
+              run: |
+                  response=$(curl -sf -X POST \
+                    "https://login.microsoftonline.com/9a8ff9e3-0e35-4620-a724-e9834dc50b51/oauth2/v2.0/token" \
+                    -H "Content-Type: application/x-www-form-urlencoded" \
+                    --data-urlencode "grant_type=client_credentials" \
+                    --data-urlencode "client_id=${CLIENT_ID}" \
+                    --data-urlencode "client_secret=${CLIENT_SECRET}" \
+                    --data-urlencode "scope=https://service.flow.microsoft.com//.default")
+                  token=$(echo "$response" | jq -r '.access_token')
+                  if [ -z "$token" ] || [ "$token" = "null" ]; then
+                    echo "Failed to obtain access token"
+                    exit 1
+                  fi
+                  echo "::add-mask::$token"
+                  echo "access_token=$token" >> "$GITHUB_OUTPUT"
+
+            - name: Notify Teams for each new blog post
+              if: steps.detect.outputs.has_new == 'true'
+              env:
+                  ACCESS_TOKEN: ${{ steps.token.outputs.access_token }}
+                  NEW_FILES: ${{ steps.detect.outputs.files }}
+              run: |
+                  while IFS= read -r file; do
+                    [ -z "$file" ] && continue
+
+                    title=$(jq -r '.title' "$file")
+                    slug=$(jq -r '.slug' "$file")
+                    raw_content=$(jq -r '.content' "$file")
+
+                    # Extract first non-empty, non-heading line as preamble; strip common markdown
+                    preamble=$(echo "$raw_content" \
+                      | grep -v '^[[:space:]]*$' \
+                      | grep -v '^#' \
+                      | head -1 \
+                      | sed 's/\*\*//g; s/\*//g; s/`//g; s/\[//g; s/\]([^)]*)//g' \
+                      | cut -c1-300)
+
+                    link="https://seb.io/blog/${slug}"
+
+                    payload=$(jq -n \
+                      --arg title "A new blog post: $title" \
+                      --arg preamble "$preamble" \
+                      --arg content "" \
+                      --arg link "$link" \
+                      --arg type "blog" \
+                      '{title: $title, preamble: $preamble, content: $content, link: $link, type: $type}')
+
+                    echo "Posting notification for: $title"
+                    http_status=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
+                      "https://c8b99c6d167ae40db748f5151017c9.5c.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/438afa1b2baf44de9e794b9a89fd7f12/triggers/manual/paths/invoke?api-version=1" \
+                      -H "Authorization: Bearer $ACCESS_TOKEN" \
+                      -H "Content-Type: application/json" \
+                      -d "$payload")
+
+                    if [ "$http_status" -ge 200 ] && [ "$http_status" -lt 300 ]; then
+                      echo "Successfully notified Teams for: $title ($link)"
+                    else
+                      echo "Webhook call failed with HTTP status $http_status for: $title"
+                      exit 1
+                    fi
+                  done <<< "$NEW_FILES"
