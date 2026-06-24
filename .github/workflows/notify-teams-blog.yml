@@ -7,6 +7,9 @@ on:
         paths:
             - "content/blog/**"
 
+permissions:
+    contents: read
+
 jobs:
     notify:
         runs-on: ubuntu-latest
