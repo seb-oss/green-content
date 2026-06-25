@@ -131,16 +131,9 @@
     },
     {
       "title": "Written ID — Swedish",
-      "slug": "brand/written-id-swedish-2",
-      "language": "sv",
-      "translationId": "written-id",
-      "summary": "Written ID in Swedish",
-      "path": "pages/brand-written-id-swedish-2/brand-written-id-swedish-2.json"
-    },
-    {
-      "title": "Written ID — Swedish",
       "slug": "brand/written-id-swedish",
       "language": "en",
+      "translationId": "written-id",
       "summary": "Allt vi säger, skriver och gör ska utgå från vårt övergripande syfte:",
       "path": "pages/brand-written-id-swedish/brand-written-id-swedish.json"
     },
@@ -277,6 +270,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 39,
-  "lastUpdated": "2026-06-25T14:05:34.464Z"
+  "total": 38,
+  "lastUpdated": "2026-06-25T14:07:59.579Z"
 }
