@@ -1,8 +1,9 @@
 {
   "title": "Digitala inbjudningar​",
   "slug": "brand/written-id-swedish/digitala-inbjudningar",
-  "parent": "brand",
+  "translationId": "digititalInvitation",
   "summary": "Skriv kort och kärnfullt​",
+  "parent": "brand",
   "sections": [
     {
       "title": "Tre grundläggande tips​",
