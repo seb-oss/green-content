@@ -27,6 +27,30 @@
           "content": "SEB strävar efter att i all kommunikation uttrycka sig transparent och tydligt för att kunderna ska få korrekt information och förstå de val de gör.\n\nVad gäller hållbarhet i fondinformation började begreppen ”ljusgrön” (artikel 8, fonder med hållbara egenskaper) och ”mörkgrön” (artikel 9, fonder med hållbarhet som mål) användas i samband med att EUregelverket Sustainable Finance Disclosure Regulation (SFDR) trädde i kraft 2021.\n\nBenämningarna förekommer inte formellt i regelverket utan har börjat användas av ett flertal aktörer på marknaden, i Sverige liksom i övriga Europa.\n\nFör att undvika otydlighet i beskrivningen av en fond har SEB beslutat att inte använda begreppen ”ljusgrön” och ”mörkgrön” som enskilt begrepp utan en kompletterande beskrivning innebörden."
         }
       ]
+    },
+    {
+      "title": "Varför är det viktigt hur vi kommunicerar?",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Myndighetsgranskningar ökar kring kommunikation av hållbara produkter och tjänster.\n\nVi följer de lagkrav som styr vår verksamhet.\n\nVi vill genom korrekt information göra det enkelt för kunder att förstå och jämföra och samtidigt säkerställa att beskrivning av produkter uppfyller krav och regelverk.\n\nVi vill stärka varumärket och upplevelsen av att SEB arbetar aktivt med hållbarhetVi vill undvika risken för “greenwashing”.  \n"
+        }
+      ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Exempel på hur vi ska kommunicera",
+          "tag": "H2",
+          "content": "### I skriftlig kommunikation (ex. från webb)\n\n*Ska du spara till drömresan, till barnens framtid eller en kontantinsats till ett nytt boende? Då kan fonder vara ett bra alternativ. I vårt utbud finns fonder som tar hänsyn till hållbarhet på olika sätt. Störst hänsyn tar fonder med hållbara investeringar som mål. Det är fonder vars främsta syfte är att investera i miljörelaterade och/eller sociala lösningar, samtidigt som de ger dina pengar en bra chans att växa.*\n\n### Visuellt (design) \n\n*I digitala kanaler går det bra att förstärka Artikel 8 fonder med ljusgrön färg och Artikel 9 fonder med mörkgrön färg.*\n\n### I muntlig kommunikation\n\n**Kund:** ”Vilka hållbara fonder rekommenderar ni?”\n\n**Rådgivaren:** ”Vi har ett brett utbud av fonder som tar hänsyn till hållbarhet på olika sätt. De fonder som tar störst hänsyn är fonder som har hållbara investeringar som mål, också kallade artikel 9- fonder. Dom kan investera i miljörelaterade och/eller sociala lösningar.”"
+        }
+      ]
     }
   ]
 }
