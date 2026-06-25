@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-25T08:39:12.507Z",
+    "lastUpdated": "2026-06-25T08:40:05.197Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -694,7 +694,7 @@
             "title": "Written ID – English",
             "slug": "brand/written-id-english",
             "language": "en",
-            "translationId": "written-id-sv",
+            "translationId": "written-id",
             "summary": "Everything we say, write, and do is guided by our purpose:",
             "path": "pages/brand-written-id-english/brand-written-id-english.json",
             "endpoints": {
