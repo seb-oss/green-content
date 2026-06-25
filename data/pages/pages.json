@@ -79,6 +79,7 @@
       "title": "Riktlinjer för kommunikation av hållbarhet i fonder",
       "slug": "brand/riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder",
       "language": "en",
+      "translationId": "sustainability",
       "summary": "SEB strävar efter att i all kommunikation uttrycka sig transparent och tydligt för att kunderna ska få korrekt information och förstå de val de gör.",
       "path": "pages/brand-riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder/brand-riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder.json"
     },
@@ -274,5 +275,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-25T13:58:46.647Z"
+  "lastUpdated": "2026-06-25T14:01:50.501Z"
 }

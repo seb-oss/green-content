@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-25T13:58:46.645Z",
+    "lastUpdated": "2026-06-25T14:01:50.498Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -634,6 +634,7 @@
             "title": "Riktlinjer för kommunikation av hållbarhet i fonder",
             "slug": "brand/riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder",
             "language": "en",
+            "translationId": "sustainability",
             "summary": "SEB strävar efter att i all kommunikation uttrycka sig transparent och tydligt för att kunderna ska få korrekt information och förstå de val de gör.",
             "path": "pages/brand-riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder/brand-riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder.json",
             "endpoints": {
