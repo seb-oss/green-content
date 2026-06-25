@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-25T14:01:50.498Z",
+    "lastUpdated": "2026-06-25T14:02:23.815Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -645,6 +645,7 @@
             "title": "Talking about sustainability",
             "slug": "brand/written-id-english/talking-about-sustainability",
             "language": "en",
+            "translationId": "sustainability",
             "summary": "Guidelines for sustainability terminology in fund information. Article 6, 8, 9 funds.\n\n",
             "path": "pages/brand-talking-about-sustainability/brand-talking-about-sustainability.json",
             "endpoints": {

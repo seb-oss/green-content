@@ -87,6 +87,7 @@
       "title": "Talking about sustainability",
       "slug": "brand/written-id-english/talking-about-sustainability",
       "language": "en",
+      "translationId": "sustainability",
       "summary": "Guidelines for sustainability terminology in fund information. Article 6, 8, 9 funds.\n\n",
       "path": "pages/brand-talking-about-sustainability/brand-talking-about-sustainability.json"
     },
@@ -275,5 +276,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-25T14:01:50.501Z"
+  "lastUpdated": "2026-06-25T14:02:23.817Z"
 }
