@@ -76,6 +76,44 @@
           "content": "För att kategoriseras som en artikel 9-produkt enligt SFDR ska fonden ha hållbar investering som mål. Kartläggningen visar att 12 fonder (1,5 procent) har hållbar investering som mål."
         }
       ]
+    },
+    {
+      "title": "Lagkrav",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Kommentar från C&PC Legal: Konsumentverketoch Marknadsdomstolen har uttalat att vi så snart vi använder uttryck som ”grön”, ”miljövänlig”, ”hållbart” i omedelbar anslutningtill dessa termer måste förklara varför de är hållbara etc. Det räcker inte att länka till en sida där detta förklaras."
+        },
+        {
+          "type": "rich-text",
+          "title": "2.1 Marknadsföringslagen (2008:486)",
+          "tag": "H3",
+          "content": "- Marknadsföring av fonder med miljö-och hållbarhetsargument omfattas, likt all annan marknadsföring, av reglerna i marknadsföringslagen (MFL). Med marknadsföring avses inte bara reklam utan all information i säljande syfte är marknadsföring. Marknadsföring ska vara i enlighet med god marknadsföringssed enligt 5 §MFL.Begreppet ”god marknadsföringssed ” är brett och definieras som god affärssed eller andra vedertagna normer som syftar till att skydda konsumenterna vid marknadsföring av produkter. \n- I 10 §p. 2 MFL finns en bestämmelse som direkt behandlar miljö. Av bestämmelsen framgår det att en näringsidkare, vid marknadsföring, inte får använda sig av felaktiga påståenden eller andra framställningar som är vilseledande i fråga om näringsidkarens egen eller någon annans näringsverksamhet. Detta gäller särskilt produktens ursprung, användning och risker så som inverkan på hälsa och miljö. \n- All marknadsföring ska således vara vederhäftig och det ankommer på näringsidkaren att styrka att samtliga påståenden eller framställningar som använts i marknadsföringen är riktiga. Marknadsföring som är vilseledande enligt 10 §MFL är enligt 8 §att anse som otillbörlig om den påverkar eller sannolikt påverkar mottagarens förmåga att fatta ett välgrundat affärsbeslut.\n\n"
+        }
+      ]
+    },
+    {
+      "title": "Läs mer",
+      "section-content": "*Kommentar från C&PC Legal:*Konsumentverket och Marknadsdomstolen har uttalat att vi så snart vi använder uttryck som ”grön”, ”miljövänlig”, ”hållbart” i omedelbar anslutningtill dessa termer måste förklara varför de är hållbara etc. Det räcker inte att länka till en sida där detta förklaras",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Fördjupningssida om SFDR",
+          "tag": "H3",
+          "content": "++[SFDR –Disclosureförordningen | SEB](https://seb.se/privat/spara-och-placera/spara-i-fonder/fonders-nyheter/sfdr-disclosureforordningen)++"
+        },
+        {
+          "type": "rich-text",
+          "title": "Landningssida för marknadsföring",
+          "tag": "H3",
+          "content": "++[Hållbarhet i sparande](https://seb.se/privat/spara-och-placera/spara-i-fonder/morkgrona-fonder)++"
+        }
+      ]
     }
   ]
 }
