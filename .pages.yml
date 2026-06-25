@@ -953,10 +953,18 @@ content:
     path: content/pages
     filename: "{fields.slug}.json"
     view:
-      fields: [title, slug, parent]
+      fields: [title, language, slug, parent]
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: slug, label: Slug, type: string, required: true }
+      - name: language
+        label: Language
+        type: select
+        options:
+          values:
+            - { value: en, label: English }
+            - { value: sv, label: Swedish }
+      - { name: translationId, label: Translation ID, type: string }
       - { name: summary, label: Summary, type: rich-text }
       - name: parent
         label: Parent

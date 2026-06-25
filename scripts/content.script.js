@@ -265,6 +265,8 @@ async function processPageContent(filename) {
     return {
       title: contentData.title,
       slug: contentData.slug,
+      language: contentData.language || "en",
+      translationId: contentData.translationId,
       summary: contentData.summary,
       path: `pages/${pageName}/${pageName}.json`,
     };
