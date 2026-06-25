@@ -15,6 +15,44 @@
           "src": "/assets/digital_invitations.jpg"
         }
       ]
+    },
+    {
+      "title": " Tre grundläggande tips​",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Skriv kort och kärnfullt​",
+          "tag": "H3",
+          "content": "- Kom snabbt till sak: Vad är det du bjuder in till och vem är det intressant för.\n- Undvik: ordrika inledningar, långa meningar och komplicerade interna begrepp. \n\n"
+        },
+        {
+          "type": "rich-text",
+          "title": "Skriv enkelt och vardagligt, snarare än högtravande",
+          "tag": "H3",
+          "content": "- En trevlig, naturlig ton uppskattas ofta. \n- Undvik formella uttryck, t.ex. ”kära gäst”, ”härmed vill vi” och ”Ni”. Bli samtidigt inte för ledig och använd uttryck som ”tjenare kompisar!” ​\n\n"
+        },
+        {
+          "type": "rich-text",
+          "title": "Berätta vad mottagaren får ut av eventet ​",
+          "tag": "H3",
+          "content": "- Vad får personen som deltar lära sig eller vad får den uppleva?\n\n"
+        }
+      ]
+    },
+    {
+      "title": "Exempel på en inbjudan",
+      "tag": "H4",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "# SEB Talks: Sparande i en ny tid​\n\nI perioder av stor osäkerhet och snabb förändring är det extra svårt att navigera som sparare. Anmäl dig till vårt digitala seminarium och ta del av experternas perspektiv på sparande i en ny tid. ​\n\nBland annat frågar vi oss: Hur kan börsrörelserna hittills under corona-pandemin förklaras? Vilka blir pandemins långsiktiga effekter på företags- och innovationsklimatet? Hur ska man som sparare förhålla sig till allt det som nu sker?   ​\n\nMedverkar gör bland andra sparinspiratören och Börshajen Andra Farhad, SEB:s ränteexpert Lina Andersson, SEB:s aktiestrateg Johan Hagbarth och Anette Andersson, hållbarhetsspecialist inom SEB:s fondbolag. Moderator för samtalet är SEB:s privatekonom Jens Magnusson.​\n\nVarmt välkommen!"
+        }
+      ]
     }
   ]
 }
