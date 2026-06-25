@@ -91,7 +91,22 @@
           "type": "rich-text",
           "title": " Fördjupning",
           "tag": "H2",
-          "content": "För dig som har detaljerade språkfrågor eller önskar guidning kring specifika ämnen finns mer utförligt material att utforska på intranätet och här i Brand Hub.\n\nRiktlinjer för grammatik, interna uttryck, förkortningar och specifika situationer finns samlade på ++[en plattform här](https://sebgroup.sharepoint.com/sites/CXCentral/SitePages/Writing.aspx)++.\n\nDär finns även exempel för hur man skriver för sociala medier, UX-text, internkommunikation och liknande.\n\n++[Kommunikation av hållbarhet i fonder](https://brand.seb.se/point/en/seb/component/private/111546)++ har egna riktlinjer.  \n  \n• Här finns även ++[guidelines för digitala inbjudningar](https://brand.seb.se/point/en/seb/component/private/111547)++."
+          "content": "För dig som har detaljerade språkfrågor eller önskar guidning kring specifika ämnen finns mer utförligt material att utforska på intranätet och här i Brand Hub.\n\nRiktlinjer för grammatik, interna uttryck, förkortningar och specifika situationer finns samlade på ++[en plattform här](https://sebgroup.sharepoint.com/sites/CXCentral/SitePages/Writing.aspx)++.\n\nDär finns även exempel för hur man skriver för sociala medier, UX-text, internkommunikation och liknande.\n\n++[Kommunikation av hållbarhet i fonder](https://brand.seb.se/point/en/seb/component/private/111546)++ har egna riktlinjer.  \n\n• Här finns även ++[guidelines för digitala inbjudningar](https://brand.seb.se/point/en/seb/component/private/111547)++."
+        }
+      ]
+    },
+    {
+      "title": "Relaterade ämnen",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/digital_invitations.jpg",
+          "title": "Digitala inbjudningar",
+          "excerpt": "Skriv kort och kärnfullt​  Kom snabbt till sak: Vad är det du bjuder in till och vem är det intressant för.",
+          "downloadable": false
         }
       ]
     }
