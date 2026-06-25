@@ -74,6 +74,18 @@
           "downloadable": false
         }
       ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Example of how we should communicate",
+          "tag": "H2",
+          "content": "### *In written communication (example from the web)*\n\n“Do you plan to save for your dream trip, for the children's future or a cash investment for a new home? Then funds can be a good alternative. Our selection includes funds that take sustainability into consideration in various ways. The funds that take the greatest consideration to sustainability are funds that have sustainable investments as their objective. These are funds whose primary purpose is to invest in environmental and/or social solutions, while giving your money a good chance to grow.”\n\n### *Visual design*\n\nIn digital channels, it is good to reinforce Article 8 funds with a light green color and Article 9 funds with a dark green color. \n\n### *In oral communication*\n\n**Customer:** \"Which sustainable funds do you recommend?“\n\n**The adviser:** \"We have a wide range of funds that take sustainability into account in different ways. The funds that take the most consideration are funds that have sustainable investments as their objective, also known as Article 9 funds. They can invest in environmental and/or social solutions.”"
+        }
+      ]
     }
   ]
 }
