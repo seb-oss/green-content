@@ -3,7 +3,7 @@
   "slug": "brand/riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder",
   "language": "sv",
   "translationId": "sustainable",
-  "summary": " Riktlinjer för kommunikation av hållbarhet i fonder Artikel 6, 8, 9-fonder.",
+  "summary": " Riktlinjer för kommunikation av hållbarhet i fonder – Artikel 6, 8, 9-fonder.",
   "parent": "brand",
   "sections": [
     {
@@ -25,6 +25,93 @@
         {
           "type": "rich-text",
           "content": "SEB strävar efter att i all kommunikation uttrycka sig transparent och tydligt för att kunderna ska få korrekt information och förstå de val de gör.\n\nVad gäller hållbarhet i fondinformation började begreppen ”ljusgrön” (artikel 8, fonder med hållbara egenskaper) och ”mörkgrön” (artikel 9, fonder med hållbarhet som mål) användas i samband med att EUregelverket Sustainable Finance Disclosure Regulation (SFDR) trädde i kraft 2021.\n\nBenämningarna förekommer inte formellt i regelverket utan har börjat användas av ett flertal aktörer på marknaden, i Sverige liksom i övriga Europa.\n\nFör att undvika otydlighet i beskrivningen av en fond har SEB beslutat att inte använda begreppen ”ljusgrön” och ”mörkgrön” som enskilt begrepp utan en kompletterande beskrivning innebörden."
+        }
+      ]
+    },
+    {
+      "title": "Varför är det viktigt hur vi kommunicerar?",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Myndighetsgranskningar ökar kring kommunikation av hållbara produkter och tjänster.\n\nVi följer de lagkrav som styr vår verksamhet.\n\nVi vill genom korrekt information göra det enkelt för kunder att förstå och jämföra och samtidigt säkerställa att beskrivning av produkter uppfyller krav och regelverk.\n\nVi vill stärka varumärket och upplevelsen av att SEB arbetar aktivt med hållbarhetVi vill undvika risken för “greenwashing”.  "
+        }
+      ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Exempel på hur vi ska kommunicera",
+          "tag": "H2",
+          "content": "### I skriftlig kommunikation (ex. från webb)\n\n*Ska du spara till drömresan, till barnens framtid eller en kontantinsats till ett nytt boende? Då kan fonder vara ett bra alternativ. I vårt utbud finns fonder som tar hänsyn till hållbarhet på olika sätt. Störst hänsyn tar fonder med hållbara investeringar som mål. Det är fonder vars främsta syfte är att investera i miljörelaterade och/eller sociala lösningar, samtidigt som de ger dina pengar en bra chans att växa.*\n\n### Visuellt (design)\n\n*I digitala kanaler går det bra att förstärka Artikel 8 fonder med ljusgrön färg och Artikel 9 fonder med mörkgrön färg.*\n\n### I muntlig kommunikation\n\n**Kund:** ”Vilka hållbara fonder rekommenderar ni?”\n\n**Rådgivaren:** ”Vi har ett brett utbud av fonder som tar hänsyn till hållbarhet på olika sätt. De fonder som tar störst hänsyn är fonder som har hållbara investeringar som mål, också kallade artikel 9- fonder. Dom kan investera i miljörelaterade och/eller sociala lösningar.”"
+        }
+      ]
+    },
+    {
+      "title": " Vad skriver myndigheterna (Finansinspektionen)",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Artikel 6 –Hållbarhetsrisker",
+          "tag": "H3",
+          "content": "SFDR ställer inga krav på att finansmarknadsaktörer ska beakta hållbarhetsrisker för de finansiella produkter som de tillhandahåller. FI dnr 21-25920 3 (4) Kartläggningen visar att för 43 fonder (5,5 procent) anser fondförvaltarna att hållbarhetsrisker inte är relevanta. Vidare visar kartläggningen att för 150 fonder (19,1 procent) anser fondförvaltarna att hållbarhetsrisker är relevanta."
+        },
+        {
+          "type": "rich-text",
+          "title": "Artikel 8-produkter",
+          "tag": "H3",
+          "content": "För att kategoriseras som en artikel 8-produkt enligt SFDR ska fonden främja miljörelaterade och/eller sociala egenskaper, förutsatt att de företag i vilka investeringarna görs följer praxis för god styrning. Kartläggningen visar att 580 fonder (73,9 procent) främjar miljörelaterade och/eller sociala egenskaper."
+        },
+        {
+          "type": "rich-text",
+          "title": "Artikel 9-produkter",
+          "content": "För att kategoriseras som en artikel 9-produkt enligt SFDR ska fonden ha hållbar investering som mål. Kartläggningen visar att 12 fonder (1,5 procent) har hållbar investering som mål."
+        }
+      ]
+    },
+    {
+      "title": "Lagkrav",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Kommentar från C&PC Legal: Konsumentverketoch Marknadsdomstolen har uttalat att vi så snart vi använder uttryck som ”grön”, ”miljövänlig”, ”hållbart” i omedelbar anslutningtill dessa termer måste förklara varför de är hållbara etc. Det räcker inte att länka till en sida där detta förklaras."
+        },
+        {
+          "type": "rich-text",
+          "title": "2.1 Marknadsföringslagen (2008:486)",
+          "tag": "H3",
+          "content": "- Marknadsföring av fonder med miljö-och hållbarhetsargument omfattas, likt all annan marknadsföring, av reglerna i marknadsföringslagen (MFL). Med marknadsföring avses inte bara reklam utan all information i säljande syfte är marknadsföring. Marknadsföring ska vara i enlighet med god marknadsföringssed enligt 5 §MFL.Begreppet ”god marknadsföringssed ” är brett och definieras som god affärssed eller andra vedertagna normer som syftar till att skydda konsumenterna vid marknadsföring av produkter. \n- I 10 §p. 2 MFL finns en bestämmelse som direkt behandlar miljö. Av bestämmelsen framgår det att en näringsidkare, vid marknadsföring, inte får använda sig av felaktiga påståenden eller andra framställningar som är vilseledande i fråga om näringsidkarens egen eller någon annans näringsverksamhet. Detta gäller särskilt produktens ursprung, användning och risker så som inverkan på hälsa och miljö. \n- All marknadsföring ska således vara vederhäftig och det ankommer på näringsidkaren att styrka att samtliga påståenden eller framställningar som använts i marknadsföringen är riktiga. Marknadsföring som är vilseledande enligt 10 §MFL är enligt 8 §att anse som otillbörlig om den påverkar eller sannolikt påverkar mottagarens förmåga att fatta ett välgrundat affärsbeslut.\n\n"
+        }
+      ]
+    },
+    {
+      "title": "Läs mer",
+      "section-content": "*Kommentar från C&PC Legal:*Konsumentverket och Marknadsdomstolen har uttalat att vi så snart vi använder uttryck som ”grön”, ”miljövänlig”, ”hållbart” i omedelbar anslutningtill dessa termer måste förklara varför de är hållbara etc. Det räcker inte att länka till en sida där detta förklaras",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Fördjupningssida om SFDR",
+          "tag": "H3",
+          "content": "++[SFDR –Disclosureförordningen | SEB](https://seb.se/privat/spara-och-placera/spara-i-fonder/fonders-nyheter/sfdr-disclosureforordningen)++"
+        },
+        {
+          "type": "rich-text",
+          "title": "Landningssida för marknadsföring",
+          "tag": "H3",
+          "content": "++[Hållbarhet i sparande](https://seb.se/privat/spara-och-placera/spara-i-fonder/morkgrona-fonder)++"
         }
       ]
     }
