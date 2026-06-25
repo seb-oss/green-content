@@ -108,6 +108,12 @@
           "excerpt": "Skriv kort och kärnfullt​  Kom snabbt till sak: Vad är det du bjuder in till och vem är det intressant för.",
           "href": "brand/written-id-swedish/digitala-inbjudningar",
           "downloadable": false
+        },
+        {
+          "type": "card-pattern-01",
+          "title": " Riktlinjer för kommunikation av hållbarhet i fonder",
+          "excerpt": "SEB strävar efter att i all kommunikation uttrycka sig transparent och tydligt för att kunderna ska få korrekt information och förstå de val de gör.",
+          "downloadable": false
         }
       ]
     }
