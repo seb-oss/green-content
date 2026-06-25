@@ -4,5 +4,17 @@
   "language": "sv",
   "translationId": "digititalInvitation",
   "summary": "Skriv kort och kärnfullt​",
-  "parent": "brand"
+  "parent": "brand",
+  "sections": [
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/digital_invitations.jpg"
+        }
+      ]
+    }
+  ]
 }
