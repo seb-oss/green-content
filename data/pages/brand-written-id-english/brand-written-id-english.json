@@ -1,6 +1,8 @@
 {
   "title": "Written ID – English",
   "slug": "brand/written-id-english",
+  "language": "en",
+  "translationId": "written-id-sv",
   "summary": "Everything we say, write, and do is guided by our purpose:",
   "parent": "brand",
   "sections": [
@@ -111,7 +113,8 @@
           "title": "Digital invitations",
           "excerpt": "Be concise and clear. What is the purpose of the invitation and who is it for Avoid lengthy intros, complex jargon, and wordy sentences.",
           "label": "Go to page",
-          "href": "https://seb.io/brand/written-id-english/digital-invitations"
+          "href": "https://seb.io/brand/written-id-english/digital-invitations",
+          "downloadable": false
         },
         {
           "type": "card-pattern-01",
@@ -119,7 +122,8 @@
           "title": "Talking about sustainability",
           "excerpt": " Guidelines for sustainability terminology in fund information. At SEB, we strive to always express ourselves clearly and transparently to ensure that customers receive correct information and understand the choices they make.",
           "label": "Go to page",
-          "href": "https://seb.io/brand/written-id-english/talking-about-sustainability"
+          "href": "https://seb.io/brand/written-id-english/talking-about-sustainability",
+          "downloadable": false
         }
       ]
     }

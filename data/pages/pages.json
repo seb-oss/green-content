@@ -121,6 +121,7 @@
       "title": "Written ID – English",
       "slug": "brand/written-id-english",
       "language": "en",
+      "translationId": "written-id-sv",
       "summary": "Everything we say, write, and do is guided by our purpose:",
       "path": "pages/brand-written-id-english/brand-written-id-english.json"
     },
@@ -273,5 +274,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-25T08:27:44.025Z"
+  "lastUpdated": "2026-06-25T08:28:15.275Z"
 }
