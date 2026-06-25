@@ -727,9 +727,9 @@
             "language": "sv",
             "translationId": "written-id",
             "summary": "Written ID in Swedish",
-            "path": "pages/brandwritten-id-swedish-2/brandwritten-id-swedish-2.json",
+            "path": "pages/brand-written-id-swedish-2/brand-written-id-swedish-2.json",
             "endpoints": {
-              "content": "pages/brandwritten-id-swedish-2/brandwritten-id-swedish-2.json"
+              "content": "pages/brand-written-id-swedish-2/brand-written-id-swedish-2.json"
             }
           },
           {
