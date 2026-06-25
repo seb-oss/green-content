@@ -140,6 +140,14 @@
       "path": "pages/brand/brand.json"
     },
     {
+      "title": "Written ID — Swedish",
+      "slug": "brand/written-id-swedish-2",
+      "language": "sv",
+      "translationId": "written-id",
+      "summary": "Written ID in Swedish",
+      "path": "pages/brandwritten-id-swedish-2/brandwritten-id-swedish-2.json"
+    },
+    {
       "title": "Applied design",
       "slug": "design-direction/applied-design",
       "language": "en",
@@ -265,6 +273,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 38,
-  "lastUpdated": "2026-06-25T08:33:42.603Z"
+  "total": 39,
+  "lastUpdated": "2026-06-25T08:34:11.091Z"
 }

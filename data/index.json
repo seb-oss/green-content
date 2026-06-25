@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-25T08:33:42.601Z",
+    "lastUpdated": "2026-06-25T08:34:11.089Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -719,6 +719,17 @@
             "path": "pages/brand/brand.json",
             "endpoints": {
               "content": "pages/brand/brand.json"
+            }
+          },
+          {
+            "title": "Written ID — Swedish",
+            "slug": "brand/written-id-swedish-2",
+            "language": "sv",
+            "translationId": "written-id",
+            "summary": "Written ID in Swedish",
+            "path": "pages/brandwritten-id-swedish-2/brandwritten-id-swedish-2.json",
+            "endpoints": {
+              "content": "pages/brandwritten-id-swedish-2/brandwritten-id-swedish-2.json"
             }
           },
           {
