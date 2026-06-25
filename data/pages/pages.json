@@ -127,6 +127,14 @@
     },
     {
       "title": "Written ID — Swedish",
+      "slug": "brand/written-id-swedish-2",
+      "language": "sv",
+      "translationId": "written-id",
+      "summary": "Written ID in Swedish",
+      "path": "pages/brand-written-id-swedish-2/brand-written-id-swedish-2.json"
+    },
+    {
+      "title": "Written ID — Swedish",
       "slug": "brand/written-id-swedish",
       "language": "en",
       "summary": "Allt vi säger, skriver och gör ska utgå från vårt övergripande syfte:",
@@ -138,14 +146,6 @@
       "language": "en",
       "summary": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
       "path": "pages/brand/brand.json"
-    },
-    {
-      "title": "Written ID — Swedish",
-      "slug": "brand/written-id-swedish-2",
-      "language": "sv",
-      "translationId": "written-id",
-      "summary": "Written ID in Swedish",
-      "path": "pages/brand-written-id-swedish-2/brand-written-id-swedish-2.json"
     },
     {
       "title": "Applied design",
@@ -274,5 +274,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-25T08:34:11.091Z"
+  "lastUpdated": "2026-06-25T08:39:12.510Z"
 }

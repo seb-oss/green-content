@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-25T08:34:11.089Z",
+    "lastUpdated": "2026-06-25T08:39:12.507Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -703,6 +703,17 @@
           },
           {
             "title": "Written ID — Swedish",
+            "slug": "brand/written-id-swedish-2",
+            "language": "sv",
+            "translationId": "written-id",
+            "summary": "Written ID in Swedish",
+            "path": "pages/brand-written-id-swedish-2/brand-written-id-swedish-2.json",
+            "endpoints": {
+              "content": "pages/brand-written-id-swedish-2/brand-written-id-swedish-2.json"
+            }
+          },
+          {
+            "title": "Written ID — Swedish",
             "slug": "brand/written-id-swedish",
             "language": "en",
             "summary": "Allt vi säger, skriver och gör ska utgå från vårt övergripande syfte:",
@@ -719,17 +730,6 @@
             "path": "pages/brand/brand.json",
             "endpoints": {
               "content": "pages/brand/brand.json"
-            }
-          },
-          {
-            "title": "Written ID — Swedish",
-            "slug": "brand/written-id-swedish-2",
-            "language": "sv",
-            "translationId": "written-id",
-            "summary": "Written ID in Swedish",
-            "path": "pages/brand-written-id-swedish-2/brand-written-id-swedish-2.json",
-            "endpoints": {
-              "content": "pages/brand-written-id-swedish-2/brand-written-id-swedish-2.json"
             }
           },
           {
