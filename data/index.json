@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-25T08:30:30.250Z",
+    "lastUpdated": "2026-06-25T08:33:42.601Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -898,17 +898,6 @@
             "path": "pages/ux-writing/ux-writing.json",
             "endpoints": {
               "content": "pages/ux-writing/ux-writing.json"
-            }
-          },
-          {
-            "title": "Written ID — Swedish",
-            "slug": "brand/written-id-sv",
-            "language": "sv",
-            "translationId": "written-id-sv",
-            "summary": "Test",
-            "path": "pages/written-id-sv/written-id-sv.json",
-            "endpoints": {
-              "content": "pages/written-id-sv/written-id-sv.json"
             }
           }
         ]
