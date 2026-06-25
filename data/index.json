@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-25T14:02:23.815Z",
+    "lastUpdated": "2026-06-25T14:05:34.461Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -556,6 +556,7 @@
             "title": "Digital invitations",
             "slug": "brand/written-id-english/digital-invitations",
             "language": "en",
+            "translationId": "digititalInvitation",
             "path": "pages/brand-digital-invitations/brand-digital-invitations.json",
             "endpoints": {
               "content": "pages/brand-digital-invitations/brand-digital-invitations.json"
@@ -565,6 +566,7 @@
             "title": "Digitala inbjudningar​",
             "slug": "brand/written-id-swedish/digitala-inbjudningar",
             "language": "en",
+            "translationId": "digititalInvitation",
             "summary": "Skriv kort och kärnfullt​",
             "path": "pages/brand-digitala-inbjudningar/brand-digitala-inbjudningar.json",
             "endpoints": {

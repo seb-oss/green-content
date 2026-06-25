@@ -25,12 +25,14 @@
       "title": "Digital invitations",
       "slug": "brand/written-id-english/digital-invitations",
       "language": "en",
+      "translationId": "digititalInvitation",
       "path": "pages/brand-digital-invitations/brand-digital-invitations.json"
     },
     {
       "title": "Digitala inbjudningar​",
       "slug": "brand/written-id-swedish/digitala-inbjudningar",
       "language": "en",
+      "translationId": "digititalInvitation",
       "summary": "Skriv kort och kärnfullt​",
       "path": "pages/brand-digitala-inbjudningar/brand-digitala-inbjudningar.json"
     },
@@ -276,5 +278,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-25T14:02:23.817Z"
+  "lastUpdated": "2026-06-25T14:05:34.464Z"
 }
