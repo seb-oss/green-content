@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-23T12:58:58.285Z",
+    "lastUpdated": "2026-06-25T08:27:44.022Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -525,6 +525,7 @@
           {
             "title": "About",
             "slug": "about",
+            "language": "en",
             "summary": "Green Design System is the design system for Skandinaviska Enskilda Banken to make it easier and faster to build beautiful digital products and experiences under the SEB brand.",
             "path": "pages/about/about.json",
             "endpoints": {
@@ -534,6 +535,7 @@
           {
             "title": "Accessibility",
             "slug": "accessibility",
+            "language": "en",
             "summary": "Accessibility is central to SEB’s digital experience. The Green Design System is designed to make our services usable for everyone – improving clarity, usability, and overall experience.",
             "path": "pages/accessibility/accessibility.json",
             "endpoints": {
@@ -543,6 +545,7 @@
           {
             "title": "Colours",
             "slug": "brand/colours",
+            "language": "en",
             "summary": "Colours are a powerful tool in visual communication. SEB is a business bank with premium services for private customers, and that has to be reflected in our use of colours, as with everything else in our visual toolbox. The message is everything. Knowing when to use colours and when not to use them is key in creating a balanced and visually pleasing design.",
             "path": "pages/brand-colours/brand-colours.json",
             "endpoints": {
@@ -552,6 +555,7 @@
           {
             "title": "Digital invitations",
             "slug": "brand/written-id-english/digital-invitations",
+            "language": "en",
             "path": "pages/brand-digital-invitations/brand-digital-invitations.json",
             "endpoints": {
               "content": "pages/brand-digital-invitations/brand-digital-invitations.json"
@@ -560,6 +564,7 @@
           {
             "title": "Digitala inbjudningar​",
             "slug": "brand/written-id-swedish/digitala-inbjudningar",
+            "language": "en",
             "summary": "Skriv kort och kärnfullt​",
             "path": "pages/brand-digitala-inbjudningar/brand-digitala-inbjudningar.json",
             "endpoints": {
@@ -569,6 +574,7 @@
           {
             "title": "Generative AI Guidelines",
             "slug": "brand/generative-ai-guidelines",
+            "language": "en",
             "summary": "SEB is built on trust and relationships, always prioritizing the big picture, understanding client’s needs, and offering the best long-term advice. Clients value this and are willing to pay a premium for it.",
             "path": "pages/brand-generative-ai-guidelines/brand-generative-ai-guidelines.json",
             "endpoints": {
@@ -578,6 +584,7 @@
           {
             "title": "Icons & signage",
             "slug": "brand/icons-and-signage",
+            "language": "en",
             "summary": "Using icons and pictograms in the right way can help navigate through certain environments.",
             "path": "pages/brand-icons-and-signage/brand-icons-and-signage.json",
             "endpoints": {
@@ -587,6 +594,7 @@
           {
             "title": "Imagery",
             "slug": "brand/imagery",
+            "language": "en",
             "summary": "We have a new lineup of amazing images in our image bank to make SEB stand out. We want to show an elevated reality and create a distinctive SEB look. Images should reflect SEBs attention to detail and quality. In accordance with this, our shadows are cold, and our highlights are warm to represent our professionalism and human values.",
             "path": "pages/brand-imagery/brand-imagery.json",
             "endpoints": {
@@ -596,6 +604,7 @@
           {
             "title": "Logotype",
             "slug": "brand/logotype",
+            "language": "en",
             "summary": "The most distinct part of our visual identity is the SEB emblem. It telegraphically communicates and connects SEB to a piece of communication, a building, a service, or a digital product.",
             "path": "pages/brand-logotype/brand-logotype.json",
             "endpoints": {
@@ -605,6 +614,7 @@
           {
             "title": "Media Bank",
             "slug": "brand/media-bank",
+            "language": "en",
             "summary": "The media bank is an external site. Please find the link below.",
             "path": "pages/brand-media-bank/brand-media-bank.json",
             "endpoints": {
@@ -614,6 +624,7 @@
           {
             "title": "Real Estate",
             "slug": "brand/real-estate",
+            "language": "en",
             "path": "pages/brand-real-estate/brand-real-estate.json",
             "endpoints": {
               "content": "pages/brand-real-estate/brand-real-estate.json"
@@ -622,6 +633,7 @@
           {
             "title": "Riktlinjer för kommunikation av hållbarhet i fonder",
             "slug": "brand/riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder",
+            "language": "en",
             "summary": "SEB strävar efter att i all kommunikation uttrycka sig transparent och tydligt för att kunderna ska få korrekt information och förstå de val de gör.",
             "path": "pages/brand-riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder/brand-riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder.json",
             "endpoints": {
@@ -631,6 +643,7 @@
           {
             "title": "Talking about sustainability",
             "slug": "brand/written-id-english/talking-about-sustainability",
+            "language": "en",
             "summary": "Guidelines for sustainability terminology in fund information. Article 6, 8, 9 funds.\n\n",
             "path": "pages/brand-talking-about-sustainability/brand-talking-about-sustainability.json",
             "endpoints": {
@@ -640,6 +653,7 @@
           {
             "title": "Templates & downloads",
             "slug": "brand/templates-and-downloads",
+            "language": "en",
             "summary": "Here you can find and download some of our more common templates. Please note that you'll find Office templates in the New Document dialogue in Microsoft Word and PowerPoint.",
             "path": "pages/brand-templates-and-downloads/brand-templates-and-downloads.json",
             "endpoints": {
@@ -649,6 +663,7 @@
           {
             "title": "The SEB Brand",
             "slug": "brand/the-seb-brand",
+            "language": "en",
             "summary": "The SEB brand is a crucial asset for our business. We want to position SEB as a confident and iconic brand.\n\n",
             "path": "pages/brand-the-seb-brand/brand-the-seb-brand.json",
             "endpoints": {
@@ -658,6 +673,7 @@
           {
             "title": "Typography",
             "slug": "brand/typography",
+            "language": "en",
             "summary": "Images and copy work together to convey a message. But we don’t get all the way without the right typography.",
             "path": "pages/brand-typography/brand-typography.json",
             "endpoints": {
@@ -667,6 +683,7 @@
           {
             "title": "Video and audio logotype",
             "slug": "brand/video-and-audio-logotype",
+            "language": "en",
             "summary": "To strengthen brand recognition and maximize brand impact, an animated SEB logotype should be used at the end of video material.",
             "path": "pages/brand-video-and-audio-logotype/brand-video-and-audio-logotype.json",
             "endpoints": {
@@ -676,6 +693,7 @@
           {
             "title": "Written ID – English",
             "slug": "brand/written-id-english",
+            "language": "en",
             "summary": "Everything we say, write, and do is guided by our purpose:",
             "path": "pages/brand-written-id-english/brand-written-id-english.json",
             "endpoints": {
@@ -685,6 +703,7 @@
           {
             "title": "Written ID — Swedish",
             "slug": "brand/written-id-swedish",
+            "language": "en",
             "summary": "Allt vi säger, skriver och gör ska utgå från vårt övergripande syfte:",
             "path": "pages/brand-written-id-swedish/brand-written-id-swedish.json",
             "endpoints": {
@@ -694,6 +713,7 @@
           {
             "title": "Brand guidelines",
             "slug": "brand",
+            "language": "en",
             "summary": "Our design elements are the building blocks when working with our brand design. They enable us to create a consistent, coherent and relevant brand experience across all our channels.",
             "path": "pages/brand/brand.json",
             "endpoints": {
@@ -703,6 +723,7 @@
           {
             "title": "Applied design",
             "slug": "design-direction/applied-design",
+            "language": "en",
             "summary": "Applied design shows how our visual design comes to life in concrete examples - with templates and clear guidance for building layouts.",
             "path": "pages/design-directionapplied-design/design-directionapplied-design.json",
             "endpoints": {
@@ -712,6 +733,7 @@
           {
             "title": "Visual direction",
             "slug": "design-direction/visual-direction",
+            "language": "en",
             "summary": "Our visual language helps the user to navigate, make choices and solve problems. With usability and writing as core pillars the visual design inherits the brand principles in a digital context.",
             "path": "pages/design-directionvisual-direction/design-directionvisual-direction.json",
             "endpoints": {
@@ -721,6 +743,7 @@
           {
             "title": "Design principles",
             "slug": "brand/design-principles",
+            "language": "en",
             "path": "pages/design-principles/design-principles.json",
             "endpoints": {
               "content": "pages/design-principles/design-principles.json"
@@ -729,6 +752,7 @@
           {
             "title": "Design direction",
             "slug": "design-direction",
+            "language": "en",
             "summary": "At SEB, digital design is not just about aesthetics - it’s about clarity, function, and supporting the user journey. We simplify and remove obstacles, with accessibility and writing as equal parts.",
             "path": "pages/design/design.json",
             "endpoints": {
@@ -738,6 +762,7 @@
           {
             "title": "Figma",
             "slug": "figma",
+            "language": "en",
             "summary": "Figma is our core design tool, where you’ll find everything needed to create consistent and user-friendly experiences. Components, variables, and typography styles to icons and more - all in one place.",
             "path": "pages/figma/figma.json",
             "endpoints": {
@@ -747,6 +772,7 @@
           {
             "title": "Primitives",
             "slug": "primitives",
+            "language": "en",
             "summary": "The primitives represent the fundamental parts of the design system like colors, typography, spacing, and sizing. This ensures consistency across the entire design system.",
             "path": "pages/foundation/foundation.json",
             "endpoints": {
@@ -756,6 +782,7 @@
           {
             "title": "Colours",
             "slug": "primitives/colours",
+            "language": "en",
             "summary": "Colour is a powerful tool in design, shaping hierarchy, guiding attention, and reinforcing brand identity. In Green, colours work alongside whitespace and typography to create clarity and balance.",
             "path": "pages/foundationcolours/foundationcolours.json",
             "endpoints": {
@@ -765,6 +792,7 @@
           {
             "title": "Design tokens",
             "slug": "primitives/design-tokens",
+            "language": "en",
             "summary": "Design tokens capture colors, typography, spacing, and other design decisions as named, reusable values used in designs, tools, and code - keeping interfaces consistent and easy to update.",
             "path": "pages/foundationtokens/foundationtokens.json",
             "endpoints": {
@@ -774,6 +802,7 @@
           {
             "title": "Typography",
             "slug": "primitives/typography",
+            "language": "en",
             "summary": "Typography plays a crucial role in shaping the look and feel of our design. It not only impacts readability but also establish our brand identity.",
             "path": "pages/foundationtypography/foundationtypography.json",
             "endpoints": {
@@ -783,6 +812,7 @@
           {
             "title": "Declarative layout",
             "slug": "primitives/declarative-layout",
+            "language": "en",
             "summary": "A micro-frontend optimized layout system for responsive layouts without utility classes. The relationships between elements rely on the set rules for spacing, grids, and sizing, ensuring consistency throughout.",
             "path": "pages/layout/layout.json",
             "endpoints": {
@@ -792,6 +822,7 @@
           {
             "title": "Icons",
             "slug": "primitives/icons",
+            "language": "en",
             "summary": "Icons are a powerful tool in the interface. When used consistently, icons strengthen brand expression, improve usability, and create a more intuitive experience.",
             "path": "pages/primitivesicon/primitivesicon.json",
             "endpoints": {
@@ -801,6 +832,7 @@
           {
             "title": "Patterns",
             "slug": "primitives/patterns",
+            "language": "en",
             "summary": "Patterns are reusable solutions to common design problems. They show how components, behaviour, and guidelines work together to meet a specific user or interface need.",
             "path": "pages/primitivespatterns/primitivespatterns.json",
             "endpoints": {
@@ -810,6 +842,7 @@
           {
             "title": "Shadows",
             "slug": "primitives/shadows",
+            "language": "en",
             "summary": "Shadows help define hierarchy, depth, and interaction. In Green, they work together with other primitives to support clarity and visual balance.",
             "path": "pages/primitivesshadows/primitivesshadows.json",
             "endpoints": {
@@ -819,6 +852,7 @@
           {
             "title": "Spacings",
             "slug": "spacings",
+            "language": "en",
             "summary": "Spacing is a fundamental tool for structuring layouts. In Green, we use spacing to create hierarchy, balance, and visual rhythm, making interfaces feel intentional and easy to navigate.",
             "path": "pages/spacings/spacings.json",
             "endpoints": {
@@ -828,6 +862,7 @@
           {
             "title": "Button groups",
             "slug": "spacings/buttons",
+            "language": "en",
             "summary": "Button spacing helps create clear relationships between actions and ensures buttons feel balanced within a layout. The spacing depends on how the buttons are arranged, side by side or stacked, and should always feel visually connected to the surrounding form or content.",
             "path": "pages/spacingsspacings-for-button-groups/spacingsspacings-for-button-groups.json",
             "endpoints": {
@@ -837,6 +872,7 @@
           {
             "title": "Forms",
             "slug": "spacings/forms",
+            "language": "en",
             "summary": "Good spacing makes forms easier to read, scan, and complete. It helps users see how fields relate to each other, creates a clear hierarchy, and ensures enough room for focus states and touch targets. Consistent spacing makes forms feel structured and effortless to use.",
             "path": "pages/spacingsspacings-in-forms/spacingsspacings-in-forms.json",
             "endpoints": {
@@ -846,6 +882,7 @@
           {
             "title": "Typography spacings",
             "slug": "spacings/typography",
+            "language": "en",
             "summary": "Spacing in typography defines the structure and relationships between text elements such as headings, preambles, and body text. It should be used consistently to create a clear and predictable text hierarchy.",
             "path": "pages/spacingstypography/spacingstypography.json",
             "endpoints": {
@@ -855,10 +892,22 @@
           {
             "title": "UX writing",
             "slug": "ux-writing",
+            "language": "en",
             "summary": "Wherever customers meet us, their experience of SEB should be consistent. A good experience builds trust and can lead to new business. Customer-facing text must be correct – mistakes distract and reduce credibility.",
             "path": "pages/ux-writing/ux-writing.json",
             "endpoints": {
               "content": "pages/ux-writing/ux-writing.json"
+            }
+          },
+          {
+            "title": "Written ID — Swedish",
+            "slug": "written-id-sv",
+            "language": "sv",
+            "translationId": "written-id-sv",
+            "summary": "Test",
+            "path": "pages/written-id-sv/written-id-sv.json",
+            "endpoints": {
+              "content": "pages/written-id-sv/written-id-sv.json"
             }
           }
         ]
