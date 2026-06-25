@@ -266,7 +266,7 @@
     },
     {
       "title": "Written ID — Swedish",
-      "slug": "written-id-sv",
+      "slug": "brand/written-id-sv",
       "language": "sv",
       "translationId": "written-id-sv",
       "summary": "Test",
@@ -274,5 +274,5 @@
     }
   ],
   "total": 39,
-  "lastUpdated": "2026-06-25T08:28:15.275Z"
+  "lastUpdated": "2026-06-25T08:30:30.252Z"
 }
