@@ -1,6 +1,7 @@
 {
   "title": "Talking about sustainability",
   "slug": "brand/written-id-english/talking-about-sustainability",
+  "translationId": "sustainability",
   "summary": "Guidelines for sustainability terminology in fund information. Article 6, 8, 9 funds.\n\n",
   "parent": "brand",
   "sections": [
@@ -56,17 +57,20 @@
         {
           "type": "card-pattern-01",
           "title": "Article 6 funds...",
-          "excerpt": "...should be referred to as \"Other funds\""
+          "excerpt": "...should be referred to as \"Other funds\"",
+          "downloadable": false
         },
         {
           "type": "card-pattern-01",
           "title": "Article 8 funds...",
-          "excerpt": "...should be referred to as “funds with sustainable characteristics” in texts and “sustainable characteristics” in fund lists"
+          "excerpt": "...should be referred to as “funds with sustainable characteristics” in texts and “sustainable characteristics” in fund lists",
+          "downloadable": false
         },
         {
           "type": "card-pattern-01",
           "title": "Article 9 funds...",
-          "excerpt": "...should be referred to as “funds with sustainable investment as an objective” in texts and \"sustainability as an objective\" in fund listings."
+          "excerpt": "...should be referred to as “funds with sustainable investment as an objective” in texts and \"sustainability as an objective\" in fund listings.",
+          "downloadable": false
         }
       ]
     }
