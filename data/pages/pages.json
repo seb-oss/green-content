@@ -78,11 +78,11 @@
       "path": "pages/brand-real-estate/brand-real-estate.json"
     },
     {
-      "title": "Riktlinjer för kommunikation av hållbarhet i fonder",
+      "title": "Hållbarhet",
       "slug": "brand/riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder",
       "language": "sv",
       "translationId": "sustainable",
-      "summary": "SEB strävar efter att i all kommunikation uttrycka sig transparent och tydligt för att kunderna ska få korrekt information och förstå de val de gör.",
+      "summary": " Riktlinjer för kommunikation av hållbarhet i fonder Artikel 6, 8, 9-fonder.",
       "path": "pages/brand-riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder/brand-riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder.json"
     },
     {
@@ -271,5 +271,5 @@
     }
   ],
   "total": 38,
-  "lastUpdated": "2026-06-25T17:34:17.957Z"
+  "lastUpdated": "2026-06-25T17:37:14.967Z"
 }
