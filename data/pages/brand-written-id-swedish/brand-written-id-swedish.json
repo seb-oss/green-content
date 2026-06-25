@@ -14,6 +14,45 @@
           "src": "/assets/hero_written_id_swe.png"
         }
       ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Vår utgångspunkt",
+          "content": "På SEB har vi en lång historia av att hjälpa våra kunder. Genom såväl goda som svåra tider har vi stått vid deras sida och kommit med råd, för idag och för framtiden.\n\nNär andra beskriver oss är det tydligt att vi uppfattas som experter. Vi har djup kunskap inom många områden och delar den mer än gärna med andra.\n\nVår expertis betyder dock ingenting om vi inte lyckas förmedla den. Därför sätter vi alltid mottagaren i fokus och uttrycker oss med lyhördhet. Vi vågar vara mänskliga och visar förståelse för våra kunder och deras unika utmaningar."
+        }
+      ]
+    },
+    {
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Varför behövs en  Written Identity?",
+          "content": "Med tusentals anställda i banken, utspridda på en mängd marknader i världen, uppstår ett behov av en tydlig skriftlig identitet. Det hjälper oss att samla vårt uttryck och skapar en enhetlig upplevelse – oavsett vem som kommunicerar och vilken kanal som används.\n\nVår Written Identity fokuserar primärt inte på skrivregler, grammatik eller vad som är rätt och fel. Istället handlar det om sättet vi uttrycker oss på och vilken känsla vi vill förmedla i vår kommunikation. Självklart ska vi skriva på ett korrekt och professionellt sätt, men det viktiga är att vi gör det med en gemensam röst där budskapet blir tydligt."
+        }
+      ]
+    },
+    {
+      "title": "Så uttrycker vi oss",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": " 01. En röst,  olika nivåer",
+          "content": "I vår roll som bank pratar vi med många människor och flera olika målgrupper. Ofta är det befintliga eller blivande kunder, men ibland kan det också vara beslutsfattare, makthavare eller journalister.\n\nÄven om vi i grunden använder en och samma röst, behöver vi självklart anpassa vad vi säger, hur vi säger det och vilka kanaler vi kommunicerar i beroende på vem vi pratar med.\n\nÄr det kommunikation i en app till ett barn som ska lära sig mer om pengar, en inbjudan till ett exklusivt event eller ett  brev som skickas hem till den som snart blir myndig?\n\nUtifrån det unika scenariot justerar vi våra texter efter den valda kanalen, det övergripande syftet samt den avsedda målgruppen och deras kunskapsnivå. I många fall kombineras texten också med ett visuellt material som stärker budskapet.\n\n### Exempel – Välkommen till vuxenlivet och prata med barn\n\nNär våra befintliga kunder fyller 18 år får de ansvar för sin egen ekonomi och tillgång till en hel rad nya tjänster. För att uppmärksamma detta skickar vi ett brev till dem där vi uppmuntrar dem att komma igång med sitt nya bankliv.\n\nIstället för det formella ”Till dig som blir myndig” uttrycker vi oss mer entusiastiskt med ”Snart börjar det!”.\n\nAtt tidigt lära barn förstå värdet av pengar är viktigt och det kräver en kommunikation som ser lite annorlunda ut jämfört med hur vi vanligtvis skriver.\n\nIstället för att använda svåra, vuxna ord som ”saldo” eller ”tillgängligt belopp” kan vi exempelvis säga ”pengar på kortet”."
+        },
+        {
+          "type": "rich-text",
+          "title": "02. Förenkla, förenkla, förenkla",
+          "content": "När vi skriver använder vi en vardaglig och mänsklig ton, men behåller seriositeten som förväntas av en bank och undviker att bli för ungdomliga eller tillbakalutade.\n\nVårt uttryck är enkelt och tydligt. Vi visar respekt för läsarens tid genom att lägga vikt vid varje ord. Vi använder hellre flera korta och enkla ord istället för färre långa och komplexa.\n\nVi undviker interna förkortningar. Om vi behöver använda oss av svåra termer eller komplicerade uttryck förklarar vi dem och gör dem så lättbegripliga som möjligt. Vi använder ett språk som är inkluderande och ser till att inte befästa negativa stereotyper.\n\n### Exempel – Förenkla det komplexa och ett språk för alla\n\nMånga tycker att ekonomi är krångligt. Genom att använda ett enkelt, tydligt och inspirerande språk kan vi sänka barriärerna och få fler att ta ansvar för sin ekonomiska framtid.\n\nIstället för att skriva  ”Att spara i fonder kan vara fördelaktigt då du får avkastning på dina placeringar om fonden går upp i värde.” kan vi säga ”Investera i fonder och ge dina pengar en chans att växa.”\n\nAtt skriva inkluderande handlar till stor del om att se till att undvika invanda stereotyper och slentrianmässiga uttryck.\n\nI en app som riktar sig till barn kan vi inte ta för givet att alla har en förälder. Därför använder vi ett mer inkluderande ord som ”vuxen”. Vi undviker också uttryck som kan bli exkluderande likt ”tjejer och killar”, utan säger istället ”för dig som är ung”."
+        }
+      ]
     }
   ]
 }
