@@ -80,8 +80,8 @@
     {
       "title": "Riktlinjer för kommunikation av hållbarhet i fonder",
       "slug": "brand/riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder",
-      "language": "en",
-      "translationId": "sustainability",
+      "language": "sv",
+      "translationId": "sustainable",
       "summary": "SEB strävar efter att i all kommunikation uttrycka sig transparent och tydligt för att kunderna ska få korrekt information och förstå de val de gör.",
       "path": "pages/brand-riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder/brand-riktlinjer-fr-kommunikation-av-hllbarhet-i-fonder.json"
     },
@@ -89,7 +89,7 @@
       "title": "Talking about sustainability",
       "slug": "brand/written-id-english/talking-about-sustainability",
       "language": "en",
-      "translationId": "sustainability",
+      "translationId": "sustainable",
       "summary": "Guidelines for sustainability terminology in fund information. Article 6, 8, 9 funds.\n\n",
       "path": "pages/brand-talking-about-sustainability/brand-talking-about-sustainability.json"
     },
@@ -271,5 +271,5 @@
     }
   ],
   "total": 38,
-  "lastUpdated": "2026-06-25T14:07:59.579Z"
+  "lastUpdated": "2026-06-25T14:11:17.233Z"
 }
