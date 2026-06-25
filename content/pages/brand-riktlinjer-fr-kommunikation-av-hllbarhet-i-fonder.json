@@ -36,7 +36,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "Myndighetsgranskningar ökar kring kommunikation av hållbara produkter och tjänster.\n\nVi följer de lagkrav som styr vår verksamhet.\n\nVi vill genom korrekt information göra det enkelt för kunder att förstå och jämföra och samtidigt säkerställa att beskrivning av produkter uppfyller krav och regelverk.\n\nVi vill stärka varumärket och upplevelsen av att SEB arbetar aktivt med hållbarhetVi vill undvika risken för “greenwashing”.  \n"
+          "content": "Myndighetsgranskningar ökar kring kommunikation av hållbara produkter och tjänster.\n\nVi följer de lagkrav som styr vår verksamhet.\n\nVi vill genom korrekt information göra det enkelt för kunder att förstå och jämföra och samtidigt säkerställa att beskrivning av produkter uppfyller krav och regelverk.\n\nVi vill stärka varumärket och upplevelsen av att SEB arbetar aktivt med hållbarhetVi vill undvika risken för “greenwashing”.  "
         }
       ]
     },
@@ -48,7 +48,32 @@
           "type": "rich-text",
           "title": "Exempel på hur vi ska kommunicera",
           "tag": "H2",
-          "content": "### I skriftlig kommunikation (ex. från webb)\n\n*Ska du spara till drömresan, till barnens framtid eller en kontantinsats till ett nytt boende? Då kan fonder vara ett bra alternativ. I vårt utbud finns fonder som tar hänsyn till hållbarhet på olika sätt. Störst hänsyn tar fonder med hållbara investeringar som mål. Det är fonder vars främsta syfte är att investera i miljörelaterade och/eller sociala lösningar, samtidigt som de ger dina pengar en bra chans att växa.*\n\n### Visuellt (design) \n\n*I digitala kanaler går det bra att förstärka Artikel 8 fonder med ljusgrön färg och Artikel 9 fonder med mörkgrön färg.*\n\n### I muntlig kommunikation\n\n**Kund:** ”Vilka hållbara fonder rekommenderar ni?”\n\n**Rådgivaren:** ”Vi har ett brett utbud av fonder som tar hänsyn till hållbarhet på olika sätt. De fonder som tar störst hänsyn är fonder som har hållbara investeringar som mål, också kallade artikel 9- fonder. Dom kan investera i miljörelaterade och/eller sociala lösningar.”"
+          "content": "### I skriftlig kommunikation (ex. från webb)\n\n*Ska du spara till drömresan, till barnens framtid eller en kontantinsats till ett nytt boende? Då kan fonder vara ett bra alternativ. I vårt utbud finns fonder som tar hänsyn till hållbarhet på olika sätt. Störst hänsyn tar fonder med hållbara investeringar som mål. Det är fonder vars främsta syfte är att investera i miljörelaterade och/eller sociala lösningar, samtidigt som de ger dina pengar en bra chans att växa.*\n\n### Visuellt (design)\n\n*I digitala kanaler går det bra att förstärka Artikel 8 fonder med ljusgrön färg och Artikel 9 fonder med mörkgrön färg.*\n\n### I muntlig kommunikation\n\n**Kund:** ”Vilka hållbara fonder rekommenderar ni?”\n\n**Rådgivaren:** ”Vi har ett brett utbud av fonder som tar hänsyn till hållbarhet på olika sätt. De fonder som tar störst hänsyn är fonder som har hållbara investeringar som mål, också kallade artikel 9- fonder. Dom kan investera i miljörelaterade och/eller sociala lösningar.”"
+        }
+      ]
+    },
+    {
+      "title": " Vad skriver myndigheterna (Finansinspektionen)",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Artikel 6 –Hållbarhetsrisker",
+          "tag": "H3",
+          "content": "SFDR ställer inga krav på att finansmarknadsaktörer ska beakta hållbarhetsrisker för de finansiella produkter som de tillhandahåller. FI dnr 21-25920 3 (4) Kartläggningen visar att för 43 fonder (5,5 procent) anser fondförvaltarna att hållbarhetsrisker inte är relevanta. Vidare visar kartläggningen att för 150 fonder (19,1 procent) anser fondförvaltarna att hållbarhetsrisker är relevanta."
+        },
+        {
+          "type": "rich-text",
+          "title": "Artikel 8-produkter",
+          "tag": "H3",
+          "content": "För att kategoriseras som en artikel 8-produkt enligt SFDR ska fonden främja miljörelaterade och/eller sociala egenskaper, förutsatt att de företag i vilka investeringarna görs följer praxis för god styrning. Kartläggningen visar att 580 fonder (73,9 procent) främjar miljörelaterade och/eller sociala egenskaper."
+        },
+        {
+          "type": "rich-text",
+          "title": "Artikel 9-produkter",
+          "content": "För att kategoriseras som en artikel 9-produkt enligt SFDR ska fonden ha hållbar investering som mål. Kartläggningen visar att 12 fonder (1,5 procent) har hållbar investering som mål."
         }
       ]
     }
