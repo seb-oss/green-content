@@ -91,6 +91,26 @@
           "content": "Behöver deltagarna anmäla sig till eventet? Berätta i så fall hur och senast när samt se till att länka dem rätt.\n\n”Varmt välkommen!” är ofta en bra avslutande fras.\n\nInbjudan får gärna ha en person som avsändare, det ger ett trevligt intryck.\n\nHar eventet en särskild dresscode? Kom ihåg att ange den."
         }
       ]
+    },
+    {
+      "title": " Några formuleringstips",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Undvik ",
+          "tag": "H3",
+          "content": "- Middag med vin\n- Förtäring\n- Vänliga hälsningar\n- OSA\n- Först till kvarn gäller.\n- Glöm inte att meddela...\n\n"
+        },
+        {
+          "type": "rich-text",
+          "title": "Skriv hellre",
+          "tag": "H3",
+          "content": "- Middag\n- Lättare mat och dryck\n- Varmt välkommen!\n- Anmälan\n- Antalet platser är begränsat.\n- Kom ihåg att meddela...\n\n"
+        }
+      ]
     }
   ]
 }
