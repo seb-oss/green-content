@@ -33,7 +33,6 @@
       "slug": "brand/written-id-swedish/digitala-inbjudningar",
       "language": "sv",
       "translationId": "digititalInvitation",
-      "summary": "Skriv kort och kärnfullt​",
       "path": "pages/brand-digitala-inbjudningar/brand-digitala-inbjudningar.json"
     },
     {
@@ -271,5 +270,5 @@
     }
   ],
   "total": 38,
-  "lastUpdated": "2026-06-25T18:25:54.912Z"
+  "lastUpdated": "2026-06-25T18:27:56.091Z"
 }
