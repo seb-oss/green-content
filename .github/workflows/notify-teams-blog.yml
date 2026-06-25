@@ -86,7 +86,76 @@ jobs:
               --arg content "" \
               --arg link "$link" \
               --arg tag "blog" \
-              '{title: $title, preamble: $preamble, content: $content, link: $link, tag: $tag}')
+              --arg link_button_label "Read blog post" \
+              '{
+                "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+                type: "AdaptiveCard",
+                version: "1.4",
+                msteams: { width: "full" },
+                body: [
+                  {
+                    type: "Container",
+                    style: "emphasis",
+                    bleed: true,
+                    items: [
+                      {
+                        type: "ColumnSet",
+                        columns: [
+                          {
+                            type: "Column",
+                            width: 50,
+                            items: [
+                              {
+                                type: "TextBlock",
+                                text: $title,
+                                weight: "Bolder",
+                                size: "Large",
+                                wrap: true
+                              }
+                            ]
+                          },
+                          {
+                            type: "Column",
+                            width: "stretch",
+                            items: [
+                              {
+                                type: "Badge",
+                                size: "Large",
+                                style: "Good",
+                                text: $tag
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        type: "TextBlock",
+                        text: $preamble,
+                        weight: "Bolder",
+                        size: "Medium",
+                        color: "Accent",
+                        wrap: true,
+                        spacing: "Small"
+                      }
+                    ]
+                  },
+                  {
+                    type: "TextBlock",
+                    text: $content,
+                    wrap: true,
+                    spacing: "Medium"
+                  }
+                ],
+                actions: [
+                  {
+                    type: "Action.OpenUrl",
+                    title: $link_button_label,
+                    url: $link
+                  }
+                ],
+                fallbackText: ("New " + $tag + " published: " + $title + " - " + $preamble),
+                speak: ("New " + $tag + " published: " + $title + " - " + $preamble)
+              }')
 
             echo "Posting notification for: $title"
             http_status=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
