@@ -105,13 +105,13 @@
           "type": "rich-text",
           "title": "Fördjupningssida om SFDR",
           "tag": "H3",
-          "content": "++[SFDR –Disclosureförordningen | SEB](https://seb.se/privat/spara-och-placera/spara-i-fonder/fonders-nyheter/sfdr-disclosureforordningen)++"
+          "content": "[SFDR –Disclosureförordningen | SEB](https://seb.se/privat/spara-och-placera/spara-i-fonder/fonders-nyheter/sfdr-disclosureforordningen)"
         },
         {
           "type": "rich-text",
           "title": "Landningssida för marknadsföring",
           "tag": "H3",
-          "content": "++[Hållbarhet i sparande](https://seb.se/privat/spara-och-placera/spara-i-fonder/morkgrona-fonder)++"
+          "content": "[Hållbarhet i sparande](https://seb.se/privat/spara-och-placera/spara-i-fonder/morkgrona-fonder)"
         }
       ]
     }
