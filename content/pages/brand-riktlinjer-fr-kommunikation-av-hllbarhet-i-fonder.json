@@ -15,6 +15,18 @@
           "src": "/assets/brand-hub/brand-guidelines.png"
         }
       ]
+    },
+    {
+      "title": "Bakgrund",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "SEB strävar efter att i all kommunikation uttrycka sig transparent och tydligt för att kunderna ska få korrekt information och förstå de val de gör.\n\nVad gäller hållbarhet i fondinformation började begreppen ”ljusgrön” (artikel 8, fonder med hållbara egenskaper) och ”mörkgrön” (artikel 9, fonder med hållbarhet som mål) användas i samband med att EUregelverket Sustainable Finance Disclosure Regulation (SFDR) trädde i kraft 2021.\n\nBenämningarna förekommer inte formellt i regelverket utan har börjat användas av ett flertal aktörer på marknaden, i Sverige liksom i övriga Europa.\n\nFör att undvika otydlighet i beskrivningen av en fond har SEB beslutat att inte använda begreppen ”ljusgrön” och ”mörkgrön” som enskilt begrepp utan en kompletterande beskrivning innebörden."
+        }
+      ]
     }
   ]
 }
