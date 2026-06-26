@@ -1,0 +1,31 @@
+name: Publish Teams message for new blog post
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "content/blog/**"
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Notify Teams for new blog posts
+        env:
+          GIT_BASE_SHA: ${{ github.event.before }}
+          GIT_HEAD_SHA: ${{ github.sha }}
+          CLIENT_ID: ${{ secrets.TEAMS_WEBHOOK_CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.TEAMS_WEBHOOK_CLIENT_SECRET }}
+          ENTRA_TOKEN_URL: ${{ vars.ENTRA_TOKEN_URL }}
+          ENTRA_TOKEN_SCOPE: ${{ vars.ENTRA_TOKEN_SCOPE }}
+          TEAMS_WEBHOOK_URL: ${{ vars.TEAMS_WEBHOOK_URL }}
+        run: node scripts/notify-teams-blog.script.js
