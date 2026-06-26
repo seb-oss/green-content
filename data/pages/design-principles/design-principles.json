@@ -27,24 +27,28 @@
       ]
     },
     {
-      "max-width": false,
-      "cols": "2",
+      "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "card-pattern-01",
-          "title": "Modern, yet timeless."
+          "title": "Modern, yet timeless.",
+          "downloadable": false
         },
         {
           "type": "card-pattern-01",
-          "title": "Elegant, uncluttered, and effortless."
+          "title": "Elegant, uncluttered, and effortless.",
+          "downloadable": false
         },
         {
           "type": "card-pattern-01",
-          "title": "Confidence. Less is more."
+          "title": "Confidence. Less is more.",
+          "downloadable": false
         },
         {
           "type": "card-pattern-01",
-          "title": "Attention to detail. Just like in our business."
+          "title": "Attention to detail. Just like in our business.",
+          "downloadable": false
         }
       ]
     },
