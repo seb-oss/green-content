@@ -68,10 +68,18 @@ function extractPreamble(rawContent) {
     .slice(0, 300);
 }
 
+function normalizeEscapedUrl(value) {
+  if (!value) {
+    return value;
+  }
+
+  return value.trim().replace(/\\([?=&])/g, "$1");
+}
+
 async function getAccessToken() {
-  const clientId = getRequiredEnv("CLIENT_ID");
-  const clientSecret = getRequiredEnv("CLIENT_SECRET");
-  const tokenUrl = getRequiredEnv("ENTRA_TOKEN_URL");
+  const clientId = getRequiredEnv("TEAMS_WEBHOOK_CLIENT_ID");
+  const clientSecret = getRequiredEnv("TEAMS_WEBHOOK_CLIENT_SECRET");
+  const tokenUrl = normalizeEscapedUrl(getRequiredEnv("ENTRA_TOKEN_URL"));
   const scope = getRequiredEnv("ENTRA_TOKEN_SCOPE");
 
   const body = new URLSearchParams({
@@ -103,7 +111,6 @@ async function getAccessToken() {
     throw new Error("Failed to obtain access token: missing access_token");
   }
 
-  console.log(`::add-mask::${token}`);
   return token;
 }
 
@@ -131,9 +138,9 @@ function buildPayload(title, preamble, slug) {
                 items: [
                   {
                     type: "TextBlock",
-                    text: `A new blog post: ${title}`,
+                    text: `New post just dropped 👀`,
                     weight: "Bolder",
-                    size: "ExtraLarge",
+                    size: "Large",
                     wrap: true,
                   },
                 ],
@@ -142,36 +149,44 @@ function buildPayload(title, preamble, slug) {
           },
           {
             type: "TextBlock",
-            text: preamble,
+            text: title,
             weight: "Bolder",
-            size: "Medium",
+            size: "ExtraLarge",
             color: "Accent",
             wrap: true,
-            spacing: "Small",
           },
         ],
       },
       {
         type: "TextBlock",
-        text: "",
+        text: preamble + "...",
         wrap: true,
-        spacing: "Medium",
+        spacing: "Large",
       },
     ],
     actions: [
       {
         type: "Action.OpenUrl",
-        title: "Read blog post",
+        title: "Read full post on seb.io",
         url: link,
+        style: "positive",
       },
     ],
-    fallbackText: `New ${tag} published: A new blog post: ${title} - ${preamble}`,
-    speak: `New ${tag} published: A new blog post: ${title} - ${preamble}`,
+    fallbackText: `A new blog post: ${title} - ${preamble}`,
+    speak: `A new blog post: ${title} - ${preamble}`,
   };
 }
 
 async function notifyTeams(token, filePath) {
-  const webhookUrl = getRequiredEnv("TEAMS_WEBHOOK_URL");
+  const webhookUrl = normalizeEscapedUrl(getRequiredEnv("TEAMS_WEBHOOK_URL"));
+  const parsedWebhookUrl = new URL(webhookUrl);
+
+  if (!parsedWebhookUrl.searchParams.has("api-version")) {
+    throw new Error(
+      "TEAMS_WEBHOOK_URL is missing required api-version query parameter",
+    );
+  }
+
   const raw = fs.readFileSync(filePath, "utf8");
   const blogPost = JSON.parse(raw);
 
