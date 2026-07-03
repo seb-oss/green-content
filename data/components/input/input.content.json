@@ -149,14 +149,18 @@
       "cols": "2",
       "columns": [
         {
-          "type": "figma",
+          "type": "snippet",
           "caption": "Use the info icon to show more support text.",
-          "node": "info-icon-button"
+          "plain": false,
+          "replay": false,
+          "Snippet": "input-extended-support-1"
         },
         {
-          "type": "figma",
+          "type": "snippet",
           "caption": "Extended support expanded.",
-          "node": "extended-suppport"
+          "plain": false,
+          "replay": false,
+          "Snippet": "input-extended-support-2"
         }
       ]
     },
