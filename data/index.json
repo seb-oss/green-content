@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-03T06:02:37.228Z",
+    "lastUpdated": "2026-07-03T06:04:18.315Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2320,6 +2320,15 @@
             "code": "<gds-flex width=\"100%\" padding=\"2xl\">\n  <gds-input label=\"Label\" supporting-text=\"Label support text.\">\n    <span slot=\"extended-supporting-text\">\n      Extended label support text will be visible when clicking the info-icon. Can contain a link.\n        </span>\n  </gds-input>\n  </gds-flex>",
             "endpoints": {
               "content": "snippets/input-extended-support-1/input-extended-support-1.json"
+            }
+          },
+          {
+            "title": "Input: Extended support 2",
+            "slug": "input-extended-support-2",
+            "path": "snippets/input-extended-support-2/input-extended-support-2.json",
+            "code": "<gds-flex width=\"100%\" padding=\"2xl\">\n  <gds-input label=\"Label\" supporting-text=\"Label support text.\" show-extended-supporting-text=\"\">\n    <span slot=\"extended-supporting-text\">\n      Extended label support text will be visible when clicking the info-icon. Can contain a link.\n        </span>\n  </gds-input>\n</gds-flex>",
+            "endpoints": {
+              "content": "snippets/input-extended-support-2/input-extended-support-2.json"
             }
           },
           {
