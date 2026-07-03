@@ -1,5 +1,5 @@
 {
   "title": "Input: Extended support-1",
   "slug": "input-extended-support-1",
-  "code": "<gds-input label=\"Label\" supporting-text=\"Label support text.\">\n  <span slot=\"extended-supporting-text\">\n    Extended label support text will be visible when clicking the info-icon. Can contain a link.\n      </span>\n</gds-input>"
+  "code": "<gds-flex width=\"100%\" padding=\"2xl\">\n  <gds-input label=\"Label\" supporting-text=\"Label support text.\">\n    <span slot=\"extended-supporting-text\">\n      Extended label support text will be visible when clicking the info-icon. Can contain a link.\n        </span>\n  </gds-input>\n  </gds-flex>"
 }
