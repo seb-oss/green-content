@@ -937,6 +937,12 @@
       "code": "<gds-grid columns=\"4\" padding=\"2xl\" width=\"max-content\" margin=\"0 auto\" gap=\"xs\" color=\"primary\">\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-home-open solid size=\"l\"></gds-icon-home-open>\n    <gds-text>Hem</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-bag size=\"l\"></gds-icon-bag>\n    <gds-text>Portfölj</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-book size=\"l\"></gds-icon-book>\n    <gds-text>Ordrar</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-search-menu size=\"l\"></gds-icon-search-menu>\n    <gds-text>Marknad</gds-text>\n  </gds-flex>\n</gds-flex>"
     },
     {
+      "title": "Input: Extended support-1",
+      "slug": "input-extended-support-1",
+      "path": "snippets/input-extended-support-1/input-extended-support-1.json",
+      "code": "<gds-input label=\"Label\" supporting-text=\"Label support text.\">\n  <span slot=\"extended-supporting-text\">\n    Extended label support text will be visible when clicking the info-icon. Can contain a link.\n      </span>\n</gds-input>"
+    },
+    {
       "title": "UX text: Input search colleague-eng",
       "slug": "input-search-colleague-en",
       "path": "snippets/input-search-colleague-en/input-search-colleague-en.json",
@@ -1255,6 +1261,6 @@
       "code": "<gds-flex width=\"100%\" padding=\"2xl\" flex-direction=\"column\" gap=\"s\">\n  <gds-input label=\"Search\" value=\"Savigs goal\">\n    <gds-icon-magnifying-glass slot=\"lead\">\n      </gds-icon>\n  </gds-input>\n  <gds-flex border-radius=\"m\" background=\"neutral-01\" align-items=\"flex-start\" gap=\"m\" padding=\"xl xl xs xl\">\n    <gds-flex width=\"100%\" flex-direction=\"column\" gap=\"m\">\n      <gds-flex justify-content=\"space-between\" gap=\"xl\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"heading-xs\">We can't find what you're looking for. You could try:\n          </gds-text>\n        </gds-flex>\n      </gds-flex>\n      <gds-rich-text font=\"body-regular-m\">\n        <ul>\n          <li>Checking the spelling</li>\n          <li>Using fewer or more general words</li>\n          <li>Trying a synonym.</li>\n        </ul>\n      </gds-rich-text>\n    </gds-flex>\n  </gds-flex>\n</gds-flex>"
     }
   ],
-  "total": 209,
-  "lastUpdated": "2026-06-26T08:09:49.033Z"
+  "total": 210,
+  "lastUpdated": "2026-07-03T06:01:26.944Z"
 }

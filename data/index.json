@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-06-26T08:09:49.031Z",
+    "lastUpdated": "2026-07-03T06:01:26.943Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2311,6 +2311,15 @@
             "code": "<gds-grid columns=\"4\" padding=\"2xl\" width=\"max-content\" margin=\"0 auto\" gap=\"xs\" color=\"primary\">\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-home-open solid size=\"l\"></gds-icon-home-open>\n    <gds-text>Hem</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-bag size=\"l\"></gds-icon-bag>\n    <gds-text>Portfölj</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-book size=\"l\"></gds-icon-book>\n    <gds-text>Ordrar</gds-text>\n  </gds-flex>\n  <gds-flex flex-direction=\"column\" align-items=\"center\" justify-content=\"center\" gap=\"2xs\">\n    <gds-icon-search-menu size=\"l\"></gds-icon-search-menu>\n    <gds-text>Marknad</gds-text>\n  </gds-flex>\n</gds-flex>",
             "endpoints": {
               "content": "snippets/icon-usage/icon-usage.json"
+            }
+          },
+          {
+            "title": "Input: Extended support-1",
+            "slug": "input-extended-support-1",
+            "path": "snippets/input-extended-support-1/input-extended-support-1.json",
+            "code": "<gds-input label=\"Label\" supporting-text=\"Label support text.\">\n  <span slot=\"extended-supporting-text\">\n    Extended label support text will be visible when clicking the info-icon. Can contain a link.\n      </span>\n</gds-input>",
+            "endpoints": {
+              "content": "snippets/input-extended-support-1/input-extended-support-1.json"
             }
           },
           {
