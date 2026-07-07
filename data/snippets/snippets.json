@@ -1090,7 +1090,7 @@
       "title": "List: No dividers",
       "slug": "list-no-dividers",
       "path": "snippets/list-no-dividers/list-no-dividers.json",
-      "code": "<gds-card variant=\"neutral-02-outlined\" width=\"100%\">\n  <gds-list>\n    <gds-list-item>Item 1</gds-list-item>\n    <gds-list-item>Item 2</gds-list-item>\n    <gds-list-item>Item 3</gds-list-item>\n  </gds-list>\n</gds-card>"
+      "code": "<gds-card variant=\"neutral-02\" width=\"100%\">\n  <gds-list>\n    <gds-list-item>Item 1</gds-list-item>\n    <gds-list-item>Item 2</gds-list-item>\n    <gds-list-item>Item 3</gds-list-item>\n  </gds-list>\n</gds-card>"
     },
     {
       "title": "LP01: Hero",
@@ -1280,5 +1280,5 @@
     }
   ],
   "total": 213,
-  "lastUpdated": "2026-07-07T07:16:32.459Z"
+  "lastUpdated": "2026-07-07T07:16:50.280Z"
 }

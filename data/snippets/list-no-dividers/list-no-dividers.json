@@ -2,5 +2,5 @@
   "title": "List: No dividers",
   "slug": "list-no-dividers",
   "snippet_component": "List",
-  "code": "<gds-card variant=\"neutral-02-outlined\" width=\"100%\">\n  <gds-list>\n    <gds-list-item>Item 1</gds-list-item>\n    <gds-list-item>Item 2</gds-list-item>\n    <gds-list-item>Item 3</gds-list-item>\n  </gds-list>\n</gds-card>"
+  "code": "<gds-card variant=\"neutral-02\" width=\"100%\">\n  <gds-list>\n    <gds-list-item>Item 1</gds-list-item>\n    <gds-list-item>Item 2</gds-list-item>\n    <gds-list-item>Item 3</gds-list-item>\n  </gds-list>\n</gds-card>"
 }
