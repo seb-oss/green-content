@@ -33,7 +33,7 @@
       ]
     },
     {
-      "title": "How it works",
+      "title": "List item",
       "section-content": "A List item is a semantic container with no predefined internal layout. It provides a single content slot, allowing patterns or custom layouts to be projected into each item."
     },
     {
