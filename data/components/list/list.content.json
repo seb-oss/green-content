@@ -14,6 +14,12 @@
   },
   "overview": [
     {
+      "title": "Accessibility",
+      "tag": "H2",
+      "section-content": "The List component uses semantic list markup to communicate the relationship between list items, improving navigation and accessibility for assistive technologies.",
+      "cols": "1"
+    },
+    {
       "title": "Do's and don'ts",
       "tag": "H2",
       "cols": "2",
@@ -47,12 +53,6 @@
           ]
         }
       ]
-    },
-    {
-      "title": "Accessibility",
-      "tag": "H2",
-      "section-content": "The List component uses semantic list markup to communicate the relationship between list items, improving navigation and accessibility for assistive technologies.",
-      "cols": "1"
     }
   ]
 }
