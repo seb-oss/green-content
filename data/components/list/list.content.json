@@ -14,6 +14,25 @@
   },
   "overview": [
     {
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "List with no dividers.",
+          "plain": false,
+          "replay": false,
+          "Snippet": "list-no-dividers"
+        },
+        {
+          "type": "snippet",
+          "caption": "List with dividers",
+          "plain": false,
+          "replay": false,
+          "Snippet": "list-dividers"
+        }
+      ]
+    },
+    {
       "title": "Accessibility",
       "tag": "H2",
       "section-content": "The List component uses semantic list markup to communicate the relationship between list items, improving navigation and accessibility for assistive technologies.",
