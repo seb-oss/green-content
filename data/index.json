@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-03T06:07:55.840Z",
+    "lastUpdated": "2026-07-07T06:32:43.186Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -297,6 +297,7 @@
           {
             "title": "List",
             "slug": "list",
+            "summary": "A list arranges related list items in a consistent vertical layout. ",
             "path": "components/list/list.content.json",
             "endpoints": {
               "content": "components/list/list.content.json",

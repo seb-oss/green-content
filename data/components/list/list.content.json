@@ -4,6 +4,8 @@
   "hero_snippet": "list-hero",
   "beta": false,
   "soon": true,
+  "summary": "A list arranges related list items in a consistent vertical layout. ",
+  "preamble": "The List component provides the structure for grouping related list items. It manages the overall layout, including spacing and optional dividers, while each list item defines its own content and behaviour.",
   "anatomy": true,
   "platform": {
     "web": false,
