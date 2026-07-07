@@ -33,6 +33,10 @@
       ]
     },
     {
+      "title": "How it works",
+      "section-content": "A List item is a semantic container with no predefined internal layout. It provides a single content slot, allowing patterns or custom layouts to be projected into each item."
+    },
+    {
       "title": "Accessibility",
       "tag": "H2",
       "section-content": "The List component uses semantic list markup to communicate the relationship between list items, improving navigation and accessibility for assistive technologies.",
