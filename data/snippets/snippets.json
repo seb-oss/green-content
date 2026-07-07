@@ -1078,7 +1078,7 @@
       "title": "List: Dividers",
       "slug": "list-dividers",
       "path": "snippets/list-dividers/list-dividers.json",
-      "code": "<gds-list dividers>\n  <gds-list-item>Item 1</gds-list-item>\n  <gds-list-item>Item 2</gds-list-item>\n  <gds-list-item>Item 3</gds-list-item>\n</gds-list>"
+      "code": "<gds-card variant=\"neutral-02-outlined\" width=\"100%\">\n  <gds-list dividers>\n    <gds-list-item>Item 1</gds-list-item>\n    <gds-list-item>Item 2</gds-list-item>\n    <gds-list-item>Item 3</gds-list-item>\n  </gds-list>\n</gds-card>"
     },
     {
       "title": "List: Hero",
@@ -1280,5 +1280,5 @@
     }
   ],
   "total": 213,
-  "lastUpdated": "2026-07-07T07:02:00.909Z"
+  "lastUpdated": "2026-07-07T07:04:41.244Z"
 }
