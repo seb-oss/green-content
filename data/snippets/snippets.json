@@ -1078,7 +1078,7 @@
       "title": "List: Hero",
       "slug": "list-hero",
       "path": "snippets/list-hero/list-hero.json",
-      "code": "<gds-card padding=\"l\" variant=\"neutral-02-outlined\" outline>\n    <gds-list>\n    <gds-list-item>Item 1</gds-list-item>\n    <gds-list-item>Item 2</gds-list-item>\n    <gds-list-item>Item 3</gds-list-item>\n  </gds-list>\n</gds-card>"
+      "code": "<gds-card padding=\"l\" width=\"100%\" variant=\"neutral-02-outlined\">\n    <gds-list>\n    <gds-list-item>Item 1</gds-list-item>\n    <gds-list-item>Item 2</gds-list-item>\n    <gds-list-item>Item 3</gds-list-item>\n  </gds-list>\n</gds-card>"
     },
     {
       "title": "LP01: Hero",
@@ -1268,5 +1268,5 @@
     }
   ],
   "total": 211,
-  "lastUpdated": "2026-07-07T06:35:56.675Z"
+  "lastUpdated": "2026-07-07T06:38:16.802Z"
 }
