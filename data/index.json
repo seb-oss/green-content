@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-07T06:55:11.643Z",
+    "lastUpdated": "2026-07-07T06:57:40.162Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2528,6 +2528,15 @@
             "code": "<gds-list>\n  <gds-list-item>Item 1</gds-list-item>\n  <gds-list-item>Item 2</gds-list-item>\n  <gds-list-item>Item 3</gds-list-item>\n</gds-list>",
             "endpoints": {
               "content": "snippets/list-hero/list-hero.json"
+            }
+          },
+          {
+            "title": "List: No dividers",
+            "slug": "list-no-dividers",
+            "path": "snippets/list-no-dividers/list-no-dividers.json",
+            "code": "<gds-list>\n  <gds-list-item>Item 1</gds-list-item>\n  <gds-list-item>Item 2</gds-list-item>\n  <gds-list-item>Item 3</gds-list-item>\n</gds-list>",
+            "endpoints": {
+              "content": "snippets/list-no-dividers/list-no-dividers.json"
             }
           },
           {

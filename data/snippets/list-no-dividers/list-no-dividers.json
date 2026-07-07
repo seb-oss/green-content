@@ -1,0 +1,6 @@
+{
+  "title": "List: No dividers",
+  "slug": "list-no-dividers",
+  "snippet_component": "List",
+  "code": "<gds-list>\n  <gds-list-item>Item 1</gds-list-item>\n  <gds-list-item>Item 2</gds-list-item>\n  <gds-list-item>Item 3</gds-list-item>\n</gds-list>"
+}
