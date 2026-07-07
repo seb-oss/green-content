@@ -25,7 +25,7 @@
         },
         {
           "type": "snippet",
-          "caption": "List with dividers",
+          "caption": "List with dividers.",
           "plain": false,
           "replay": false,
           "Snippet": "list-dividers"
