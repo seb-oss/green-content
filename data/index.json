@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-07T07:16:05.946Z",
+    "lastUpdated": "2026-07-07T07:16:32.456Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2525,7 +2525,7 @@
             "title": "List: Dividers",
             "slug": "list-dividers",
             "path": "snippets/list-dividers/list-dividers.json",
-            "code": "<gds-card variant=\"neutral-02-outlined\" width=\"100%\">\n  <gds-list dividers>\n    <gds-list-item>Item 1</gds-list-item>\n    <gds-list-item>Item 2</gds-list-item>\n    <gds-list-item>Item 3</gds-list-item>\n  </gds-list>\n</gds-card>",
+            "code": "<gds-card variant=\"neutral-02\" width=\"100%\">\n  <gds-list dividers>\n    <gds-list-item>Item 1</gds-list-item>\n    <gds-list-item>Item 2</gds-list-item>\n    <gds-list-item>Item 3</gds-list-item>\n  </gds-list>\n</gds-card>",
             "endpoints": {
               "content": "snippets/list-dividers/list-dividers.json"
             }
