@@ -11,5 +11,42 @@
     "web": false,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "Do's and don'ts",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Group related content."
+            },
+            {
+              "text": "Keep a consistent structure throughout the list."
+            },
+            {
+              "text": "Use dividers when they improve readability."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Mix unrelated content."
+            },
+            {
+              "text": "Use lists for page layout."
+            },
+            {
+              "text": "Create inconsistent spacing between items."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
