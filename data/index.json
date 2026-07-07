@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-07T06:38:16.800Z",
+    "lastUpdated": "2026-07-07T06:39:06.413Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2525,7 +2525,7 @@
             "title": "List: Hero",
             "slug": "list-hero",
             "path": "snippets/list-hero/list-hero.json",
-            "code": "<gds-card padding=\"l\" width=\"100%\" variant=\"neutral-02-outlined\">\n    <gds-list>\n    <gds-list-item>Item 1</gds-list-item>\n    <gds-list-item>Item 2</gds-list-item>\n    <gds-list-item>Item 3</gds-list-item>\n  </gds-list>\n</gds-card>",
+            "code": "<gds-list>\n  <gds-list-item>Item 1</gds-list-item>\n  <gds-list-item>Item 2</gds-list-item>\n  <gds-list-item>Item 3</gds-list-item>\n</gds-list>",
             "endpoints": {
               "content": "snippets/list-hero/list-hero.json"
             }
