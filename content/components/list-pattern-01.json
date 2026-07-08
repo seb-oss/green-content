@@ -28,18 +28,6 @@
       ]
     },
     {
-      "title": "Content layout",
-      "tag": "H2",
-      "cols": "1",
-      "columns": [
-        {
-          "type": "rich-text",
-          "tag": "H2",
-          "content": "The content area supports one, two or three content columns. Each column can contain one or more Items, allowing related information to be grouped in a structured and consistent way.\n\nIf your layout requires more than three content columns, use custom content instead of the predefined pattern."
-        }
-      ]
-    },
-    {
       "title": "Layout examples",
       "cols": "1",
       "columns": [
@@ -76,7 +64,7 @@
           "type": "rich-text",
           "title": "Content slot",
           "tag": "H3",
-          "content": "The content slot contains the primary information. It supports one, two or three content columns, and each column can contain one or more Items.\n\nUse the Content slot for labels, supporting text and other key information users need to scan and compare."
+          "content": "The Content slot is fully customizable and can contain any content needed for your use case.\n\nFor the recommended layout, use the `Items` property. It provides predefined content styles and supports one, two or three content columns, making it easy to create consistent and scannable list items.\n\nIf your layout requires more flexibility than the `Items` property supports, you can instead provide custom content through the Content slot."
         },
         {
           "type": "rich-text",
