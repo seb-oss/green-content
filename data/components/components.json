@@ -164,7 +164,7 @@
     {
       "title": "List item pattern 01",
       "slug": "list-item-pattern-01",
-      "summary": "List item Pattern 01 is the recommended pattern for creating consistent, interactive list items in Green.",
+      "summary": "List item Pattern 01 provides a predefined layout for displaying structured information in a list.",
       "path": "components/list-pattern-01/list-pattern-01.content.json"
     },
     {
@@ -270,5 +270,5 @@
     }
   ],
   "total": 45,
-  "lastUpdated": "2026-07-08T07:03:13.039Z"
+  "lastUpdated": "2026-07-08T07:17:59.193Z"
 }
