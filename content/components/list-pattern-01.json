@@ -30,7 +30,7 @@
     {
       "title": "Content layout",
       "tag": "H2",
-      "cols": "2",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
