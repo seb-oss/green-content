@@ -19,11 +19,24 @@
     {
       "title": "When to use",
       "tag": "H2",
-      "section-content": "Use Pattern 01 when displaying structured information that users need to scan, compare or interact with.\n\n- Accounts\n- Transactions\n- Settings\n- Contacts\n- Documents\n\n",
+      "section-content": "Use Pattern 01 when displaying structured information that users need to scan, compare or interact with.",
       "cols": "3",
       "columns": [
         {
           "type": "snippet",
+          "caption": "Accounts",
+          "plain": false,
+          "replay": false
+        },
+        {
+          "type": "snippet",
+          "caption": "Transactions",
+          "plain": false,
+          "replay": false
+        },
+        {
+          "type": "snippet",
+          "caption": "Settings",
           "plain": false,
           "replay": false
         }
