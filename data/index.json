@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-08T09:11:12.834Z",
+    "lastUpdated": "2026-07-08T09:15:19.676Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2552,7 +2552,7 @@
             "title": "LP01: Hero",
             "slug": "lp01-hero",
             "path": "snippets/lp01-hero/lp01-hero.json",
-            "code": "<gds-list dividers>\n  <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n      <gds-flex flex=\"1\" justify-content=\"space-between\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-s-regular\">Label</gds-text>\n          <gds-text font=\"detail-m-book\">Value</gds-text>\n        </gds-flex>\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-s-regular\">Label</gds-text>\n          <gds-text font=\"detail-m-book\">Value</gds-text>\n        </gds-flex>\n      </gds-flex>\n</gds-list>",
+            "code": "<gds-list width=\"100%\" dividers>\n  <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n      <gds-flex flex=\"1\" justify-content=\"space-between\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-s-regular\">Label</gds-text>\n          <gds-text font=\"detail-m-book\">Value</gds-text>\n        </gds-flex>\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-s-regular\">Label</gds-text>\n          <gds-text font=\"detail-m-book\">Value</gds-text>\n        </gds-flex>\n      </gds-flex>\n</gds-list>",
             "endpoints": {
               "content": "snippets/lp01-hero/lp01-hero.json"
             }
