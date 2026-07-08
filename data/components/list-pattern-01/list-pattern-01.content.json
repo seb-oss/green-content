@@ -40,8 +40,7 @@
           "type": "snippet",
           "caption": "Settings",
           "plain": false,
-          "replay": false,
-          "Snippet": "lip01-accounts"
+          "replay": false
         }
       ]
     },
