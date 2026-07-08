@@ -96,6 +96,12 @@
           "dolist": [
             {
               "text": "Use one layout consistently within the same list."
+            },
+            {
+              "text": "Keep supporting content concise."
+            },
+            {
+              "text": "Align similar information across list items."
             }
           ]
         }
