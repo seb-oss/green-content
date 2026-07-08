@@ -89,7 +89,17 @@
     },
     {
       "title": "Do's and don'ts",
-      "tag": "H2"
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use one layout consistently within the same list."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
