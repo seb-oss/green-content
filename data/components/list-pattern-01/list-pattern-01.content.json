@@ -33,7 +33,8 @@
           "type": "snippet",
           "caption": "Transactions",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "lip01-transactions"
         },
         {
           "type": "snippet",
