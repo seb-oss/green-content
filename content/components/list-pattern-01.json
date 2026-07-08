@@ -110,6 +110,9 @@
           "dontlist": [
             {
               "text": "Overload items with multiple actions."
+            },
+            {
+              "text": "Use custom content unless the predefined pattern cannot support your layout."
             }
           ]
         }
