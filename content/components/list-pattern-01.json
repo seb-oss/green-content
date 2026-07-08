@@ -28,15 +28,14 @@
       ]
     },
     {
-      "title": "Interaction",
+      "title": "Content layout",
       "tag": "H2",
       "cols": "2",
       "columns": [
         {
           "type": "rich-text",
-          "title": "Selectable",
-          "tag": "H3",
-          "content": "Enable `selectable` to show a checkbox and support checked/unchecked states."
+          "tag": "H2",
+          "content": "The content area supports one, two or three content columns. Each column can contain one or more Items, allowing related information to be grouped in a structured and consistent way.\n\nIf your layout requires more than three content columns, use custom content instead of the predefined pattern."
         },
         {
           "type": "snippet",
