@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-08T15:57:25.833Z",
+    "lastUpdated": "2026-07-08T16:08:33.359Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2501,6 +2501,15 @@
             "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-list>\n    <gds-list-item-pattern-01 selectable>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01 selectable checked>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-div>",
             "endpoints": {
               "content": "snippets/lip01-selectable/lip01-selectable.json"
+            }
+          },
+          {
+            "title": "LIP01 - Settings",
+            "slug": "lip01-settings",
+            "path": "snippets/lip01-settings/lip01-settings.json",
+            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n    <gds-list-item-pattern-01 href=\"\">\n      <gds-text font=\"detail-m-book\">Language</gds-text>\n      <gds-icon-globus slot=\"lead\"></gds-icon-globus>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01 href=\"\">\n      <gds-text font=\"detail-m-book\">Currency</gds-text>\n      <gds-icon-flag slot=\"lead\"></gds-icon-flag>\n    </gds-list-item-pattern-01>\n        <gds-list-item-pattern-01 href=\"\">\n          <gds-text font=\"detail-m-book\">Notifications</gds-text>\n          <gds-icon-bell slot=\"lead\"></gds-icon-bell>\n        </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 href=\"\">\n      <gds-text font=\"detail-m-book\">Other settings</gds-text>\n      <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n      </gds-list-item-pattern-01>\n  </gds-card>\n</gds-div>",
+            "endpoints": {
+              "content": "snippets/lip01-settings/lip01-settings.json"
             }
           },
           {
