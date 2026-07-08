@@ -86,39 +86,6 @@
           "content": "Use the **Trail** slot for secondary content, such as values, status, metadata or actions. Keep trailing content concise and avoid placing the primary information here.\n\nWhen a list item is configured as **navigational**, a chevron icon is automatically displayed in the Trail slot. When configured as **selectable and navigational**, the Trail slot instead displays an icon button with a chevron icon, indicating both selection and navigation."
         }
       ]
-    },
-    {
-      "title": "Main",
-      "tag": "H3",
-      "section-content": "Use custom content directly in the row.",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "lip01-main-text"
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "lip01-main-custom"
-        }
-      ]
-    },
-    {
-      "title": "Trail slot",
-      "tag": "H3",
-      "section-content": "Use for actions such as links or buttons. When `href` is set, the row renders a chevron link in the trail.",
-      "columns": [
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "lip01-trail-action"
-        }
-      ]
     }
   ]
 }
