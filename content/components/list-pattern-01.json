@@ -62,28 +62,25 @@
       ]
     },
     {
-      "title": "Lead slot",
-      "tag": "H3",
-      "section-content": "Use for icons, avatars, or custom leading content. When `selectable` is enabled, it shows a checkbox.",
-      "cols": "3",
+      "title": "Slots",
+      "tag": "H2",
+      "section-content": "List item pattern 01 is built around three slots that help organise content in a consistent and predictable way.",
+      "cols": "1",
       "columns": [
         {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "lip01-lead-icon"
+          "type": "rich-text",
+          "title": "Lead slot",
+          "tag": "H3",
+          "content": "Use for icons, avatars, or custom leading content. When `selectable` is enabled, it shows a checkbox."
         },
         {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "lip01-lead-avatar"
+          "type": "rich-text",
+          "title": "Content slot",
+          "tag": "H3",
+          "content": "The content slot contains the primary information. It supports one, two or three content columns, and each column can contain one or more Items.\n\nUse the Content slot for labels, supporting text and other key information users need to scan and compare."
         },
         {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "lip01-lead-badge"
+          "type": "rich-text"
         }
       ]
     },
