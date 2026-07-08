@@ -104,6 +104,14 @@
               "text": "Align similar information across list items."
             }
           ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Overload items with multiple actions."
+            }
+          ]
         }
       ]
     }
