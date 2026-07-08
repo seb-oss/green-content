@@ -52,9 +52,14 @@
       ]
     },
     {
-      "title": "Slots",
-      "section-content": "List item pattern 01 is built on top of the base list and list item components and supports slot-based composition for flexible layouts and interactions.",
-      "cols": "1"
+      "title": "Interaction",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Pattern 01 supports both static and interactive list items.\n\nDepending on the use case, a list item can be:\n\n- **Static** – displays information without interaction.\n- **Selectable** – allows users to select one or more items.\n- **Navigational** – takes users to another view or destination.\n- **Selectable and navigational** – supports both selection and navigation within the same item.\n\nUse the same interaction pattern consistently throughout a list to create a predictable user experience."
+        }
+      ]
     },
     {
       "title": "Lead slot",
