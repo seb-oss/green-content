@@ -1015,10 +1015,10 @@
       "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-list>\n    <gds-list-item-pattern-01 href=\"#\">\n      <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-div>"
     },
     {
-      "title": "LIP01 - Lead: Avatar",
+      "title": "LIP01 - Accounts",
       "slug": "lip01-lead-avatar",
       "path": "snippets/lip01-lead-avatar/lip01-lead-avatar.json",
-      "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-list>\n    <gds-list-item-pattern-01 href=\"#\">\n      <gds-avatar slot=\"lead\"></gds-avatar>\n      <gds-text font=\"detail-s-regular\">Linked list item with lead avatar</gds-text>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-div>"
+      "code": "<gds-card variant=\"neutral-02-outlined\">\n  <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Savings account</gds-text>\n        <gds-text font=\"detail-m-book\">3456 9123 0456</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" text-align=\"end\">\n        <gds-text font=\"detail-s-regular\">Balance</gds-text>\n        <gds-text font=\"detail-m-book\">345 908,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01 >\n  <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Salary account</gds-text>\n        <gds-text font=\"detail-m-book\">3456 9123 0456</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" text-align=\"end\">\n        <gds-text font=\"detail-s-regular\">Balance</gds-text>\n        <gds-text font=\"detail-m-book\">14 312,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Kids account</gds-text>\n        <gds-text font=\"detail-m-book\">4456 0023 0645</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" text-align=\"end\">\n        <gds-text font=\"detail-s-regular\">Balance</gds-text>\n        <gds-text font=\"detail-m-book\">46 876,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n</gds-card>"
     },
     {
       "title": "LIP01 - Lead: Badge",
@@ -1280,5 +1280,5 @@
     }
   ],
   "total": 213,
-  "lastUpdated": "2026-07-08T15:00:30.463Z"
+  "lastUpdated": "2026-07-08T15:14:07.576Z"
 }
