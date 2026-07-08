@@ -40,7 +40,8 @@
           "type": "snippet",
           "caption": "Settings",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "lip01-settings"
         }
       ]
     },
