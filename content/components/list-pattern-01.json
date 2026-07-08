@@ -80,7 +80,10 @@
           "content": "The content slot contains the primary information. It supports one, two or three content columns, and each column can contain one or more Items.\n\nUse the Content slot for labels, supporting text and other key information users need to scan and compare."
         },
         {
-          "type": "rich-text"
+          "type": "rich-text",
+          "title": "Trail slot",
+          "tag": "H3",
+          "content": "Use the **Trail** slot for secondary content, such as values, status, metadata or actions. Keep trailing content concise and avoid placing the primary information here.\n\nWhen a list item is configured as **navigational**, a chevron icon is automatically displayed in the Trail slot. When configured as **selectable and navigational**, the Trail slot instead displays an icon button with a chevron icon, indicating both selection and navigation."
         }
       ]
     },
