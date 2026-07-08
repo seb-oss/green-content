@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-08T15:45:38.938Z",
+    "lastUpdated": "2026-07-08T15:49:07.863Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2429,15 +2429,6 @@
             "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-list>\n    <gds-list-item-pattern-01 href=\"#\">\n      <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-div>",
             "endpoints": {
               "content": "snippets/lip01-href/lip01-href.json"
-            }
-          },
-          {
-            "title": "LIP01 - Accounts",
-            "slug": "lip01-accounts",
-            "path": "snippets/lip01-lead-avatar/lip01-lead-avatar.json",
-            "code": "<gds-card variant=\"neutral-02-outlined\" width=\"100%\">\n  <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Savings account</gds-text>\n        <gds-text font=\"detail-m-book\">3456 9123 0456</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" text-align=\"end\">\n        <gds-text font=\"detail-s-regular\">Balance</gds-text>\n        <gds-text font=\"detail-m-book\">345 908,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Salary account</gds-text>\n        <gds-text font=\"detail-m-book\">3456 9123 0456</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" text-align=\"end\">\n        <gds-text font=\"detail-s-regular\">Balance</gds-text>\n        <gds-text font=\"detail-m-book\">14 312,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Kids account</gds-text>\n        <gds-text font=\"detail-m-book\">4456 0023 0645</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" text-align=\"end\">\n        <gds-text font=\"detail-s-regular\">Balance</gds-text>\n        <gds-text font=\"detail-m-book\">46 876,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n</gds-card>",
-            "endpoints": {
-              "content": "snippets/lip01-lead-avatar/lip01-lead-avatar.json"
             }
           },
           {
