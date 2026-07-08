@@ -26,7 +26,8 @@
           "type": "snippet",
           "caption": "Accounts",
           "plain": false,
-          "replay": false
+          "replay": false,
+          "Snippet": "lip01-lead-avatar"
         },
         {
           "type": "snippet",
