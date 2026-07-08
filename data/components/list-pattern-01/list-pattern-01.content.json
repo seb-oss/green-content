@@ -17,10 +17,15 @@
   },
   "overview": [
     {
-      "title": "Items",
       "tag": "H2",
-      "section-content": "Use items property to get predefined styling for 2-3 columns.\n\nNote: Use custom content directly in the row to be slotted into main, if you want to show more columns.",
-      "cols": "2"
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "When to use",
+          "content": "Use Pattern 01 when displaying structured information that users need to scan, compare or interact with.\n\nCommon examples include:\n\n- Accounts\n- Transactions\n- Settings\n- Contacts\n- Documents\n\n"
+        }
+      ]
     },
     {
       "title": "Interaction",
