@@ -17,6 +17,7 @@
   },
   "overview": [
     {
+      "title": "When to use",
       "tag": "H2",
       "cols": "1",
       "columns": [
@@ -28,81 +29,37 @@
       ]
     },
     {
-      "title": "Interaction",
+      "title": "Content layout",
       "tag": "H2",
-      "cols": "2",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
-          "title": "Selectable",
-          "tag": "H3",
-          "content": "Enable `selectable` to show a checkbox and support checked/unchecked states."
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "lip01-selectable"
-        },
-        {
-          "type": "rich-text",
-          "title": "Href",
-          "tag": "H3",
-          "content": "Add `href` to make the row interactive as a link. Displays a chevron in the trail slot."
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "lip01-href"
-        },
-        {
-          "type": "rich-text",
-          "title": "Selectable with href",
-          "tag": "H3",
-          "content": "Combine checkbox selection and link navigation in the same row."
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "lip01-selectable-href"
+          "tag": "H2",
+          "content": "The content area supports one, two or three content columns. Each column can contain one or more Items, allowing related information to be grouped in a structured and consistent way.\n\nIf your layout requires more than three content columns, use custom content instead of the predefined pattern."
         }
       ]
     },
     {
-      "title": "Padding inline",
-      "section-content": "Use the `padding-inline` property to customize horizontal padding on a list item. Set to `0` to remove padding. Defaults to `s`.",
-      "cols": "2",
+      "title": "Layout examples",
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
-          "title": "Custom padding-inline",
-          "tag": "H3"
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "lip01-padding-inline-custom"
-        },
-        {
-          "type": "rich-text",
-          "title": "No padding-inline",
-          "tag": "H3"
-        },
-        {
-          "type": "snippet",
-          "plain": false,
-          "replay": false,
-          "Snippet": "lip01-no-padding-inline"
+          "tag": "H2",
+          "content": "- Label only\n- Label + supporting text\n- Leading icon\n- Leading avatar\n- Two content columns\n- Three content columns\n- Trailing value\n- Badge\n- Chevron\n- Action button\n\n"
         }
       ]
     },
     {
-      "title": "Slots",
-      "section-content": "List item pattern 01 is built on top of the base list and list item components and supports slot-based composition for flexible layouts and interactions.",
-      "cols": "1"
+      "title": "Interaction",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Pattern 01 supports both static and interactive list items.\n\nDepending on the use case, a list item can be:\n\n- **Static** – displays information without interaction.\n- **Selectable** – allows users to select one or more items.\n- **Navigational** – takes users to another view or destination.\n- **Selectable and navigational** – supports both selection and navigation within the same item.\n\nUse the same interaction pattern consistently throughout a list to create a predictable user experience."
+        }
+      ]
     },
     {
       "title": "Lead slot",
