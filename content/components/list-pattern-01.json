@@ -86,6 +86,10 @@
           "content": "Use the **Trail** slot for secondary content, such as values, status, metadata or actions. Keep trailing content concise and avoid placing the primary information here.\n\nWhen a list item is configured as **navigational**, a chevron icon is automatically displayed in the Trail slot. When configured as **selectable and navigational**, the Trail slot instead displays an icon button with a chevron icon, indicating both selection and navigation."
         }
       ]
+    },
+    {
+      "title": "Do's and don'ts",
+      "tag": "H2"
     }
   ]
 }
