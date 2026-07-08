@@ -17,16 +17,21 @@
   },
   "overview": [
     {
+      "title": "When to use",
       "tag": "H2",
-      "cols": "1",
+      "section-content": "Use Pattern 01 when displaying structured information that users need to scan, compare or interact with.\n\n- Accounts\n- Transactions\n- Settings\n- Contacts\n- Documents\n\n",
+      "cols": "3",
       "columns": [
         {
-          "type": "rich-text",
-          "title": "When to use",
-          "tag": "H2",
-          "content": "Use Pattern 01 when displaying structured information that users need to scan, compare or interact with.\n\nCommon examples include:\n\n- Accounts\n- Transactions\n- Settings\n- Contacts\n- Documents\n\n"
+          "type": "snippet",
+          "plain": false,
+          "replay": false
         }
       ]
+    },
+    {
+      "title": "Common examples include:",
+      "tag": "H3"
     },
     {
       "title": "Layout examples",
