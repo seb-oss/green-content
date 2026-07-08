@@ -4,7 +4,7 @@
   "hero_snippet": "lp01-hero",
   "beta": true,
   "soon": true,
-  "summary": "List item pattern 01 is built on top of the base list and list item components and supports slot-based composition for flexible layouts and supports interactive row behavior.",
+  "summary": "List item Pattern 01 is the recommended pattern for creating consistent, interactive list items in Green.",
   "preamble": "List item pattern 01 provides a ready-to-use row structure for displaying labels and values with support for selection, navigation, and row-level actions. Use the lead, main, and trail slots to combine icons, text and actions. This ensures consistent layout, spacing, and accessibility while allowing flexibility through slots.",
   "anatomy": false,
   "category": [
