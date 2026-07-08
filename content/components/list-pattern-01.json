@@ -23,6 +23,7 @@
         {
           "type": "rich-text",
           "title": "When to use",
+          "tag": "H2",
           "content": "Use Pattern 01 when displaying structured information that users need to scan, compare or interact with.\n\nCommon examples include:\n\n- Accounts\n- Transactions\n- Settings\n- Contacts\n- Documents\n\n"
         }
       ]
@@ -70,7 +71,7 @@
           "type": "rich-text",
           "title": "Trail slot",
           "tag": "H3",
-          "content": "Use the **Trail** slot for secondary content, such as values, status, metadata or actions. Keep trailing content concise and avoid placing the primary information here.\n\nWhen a list item is configured as **navigational**, a chevron icon is automatically displayed in the Trail slot. When configured as **selectable and navigational**, the Trail slot instead displays an icon button with a chevron icon, indicating both selection and navigation."
+          "content": "Use the **Trail** slot for secondary content, such as values, status, metadata or actions. Keep trailing content concise and avoid placing the primary information here.\n\nWhen a list item is configured as navigational**** (`href)`, a chevron icon is automatically displayed in the Trail slot. When configured as `selectable`**** and**** `navigational`, the Trail slot instead displays an icon button with a chevron icon, indicating both selection and navigation."
         }
       ]
     },
