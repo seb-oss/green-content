@@ -19,7 +19,7 @@
     {
       "title": "When to use",
       "tag": "H2",
-      "section-content": "Use Pattern 01 when displaying structured information that users need to scan, compare or interact with.",
+      "section-content": "Use Pattern 01 when displaying structured information that users need to scan, compare or interact with. Common examples include:",
       "cols": "2",
       "columns": [
         {
@@ -43,10 +43,6 @@
           "replay": false
         }
       ]
-    },
-    {
-      "title": "Common examples include:",
-      "tag": "H3"
     },
     {
       "title": "Layout examples",
