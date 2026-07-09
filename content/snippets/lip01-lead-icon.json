@@ -1,6 +1,0 @@
-{
-  "title": "LIP01 - Lead: Icon",
-  "slug": "lip01-lead-icon",
-  "snippet_component": "List item pattern 01",
-  "code": "<gds-div display=\"block\" width=\"100%\">\n    <gds-list>\n        <gds-list-item-pattern-01>\n            <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n            <gds-text font=\"detail-s-regular\" tag=\"label\">List item with lead icon</gds-text>\n        </gds-list-item-pattern-01>\n    </gds-list>\n</gds-div>"
-}
