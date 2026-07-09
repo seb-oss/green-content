@@ -1039,9 +1039,9 @@
       "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n    <gds-list dividers=\"\">\n      <gds-list-item-pattern-01 dividers>\n        <gds-avatar slot=\"lead\" size=\"m\" shape=\"circular\">AA</gds-avatar>\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-m-book\">Anna Andersson</gds-text>\n          <gds-text font=\"detail-s-book\">Senior advicer</gds-text>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01>\n        <gds-avatar slot=\"lead\" size=\"m\" shape=\"circular\">JJ</gds-avatar>\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-m-book\">Johan Johansen</gds-text>\n          <gds-text font=\"detail-s-book\">Client executive</gds-text>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01>\n                  <gds-avatar slot=\"lead\" size=\"m\" shape=\"circular\">KS</gds-avatar>\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-m-book\">Karen Smith</gds-text>\n          <gds-text font=\"detail-s-book\">Mortgage advisor</gds-text>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01>\n                  <gds-avatar slot=\"lead\" size=\"m\" shape=\"circular\">JJ</gds-avatar>\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-m-book\">Joseph Jansson</gds-text>\n          <gds-text font=\"detail-s-book\">Private banker</gds-text>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list>\n  </gds-card>\n</gds-div>"
     },
     {
-      "title": "LIP01 - Lead icon",
-      "slug": "lip01-lead-icon",
-      "path": "snippets/lip01-lead-icon-1/lip01-lead-icon-1.json",
+      "title": "LIP01 - Lead icons",
+      "slug": "lip01-lead-icons",
+      "path": "snippets/lip01-lead-icons/lip01-lead-icons.json",
       "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n    <gds-list dividers=\"\">\n    <gds-list-item-pattern-01 href=\"\">\n      <gds-text font=\"detail-m-book\">Language</gds-text>\n      <gds-icon-globus slot=\"lead\"></gds-icon-globus>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01 href=\"\">\n      <gds-text font=\"detail-m-book\">Currency</gds-text>\n      <gds-icon-flag slot=\"lead\"></gds-icon-flag>\n    </gds-list-item-pattern-01>\n        <gds-list-item-pattern-01 href=\"\">\n          <gds-text font=\"detail-m-book\">Notifications</gds-text>\n          <gds-icon-bell slot=\"lead\"></gds-icon-bell>\n        </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 href=\"\">\n      <gds-text font=\"detail-m-book\">Other settings</gds-text>\n      <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n    </gds-list-item-pattern-01>\n    </gds-list>\n  </gds-card>\n</gds-div>"
     },
     {
@@ -1304,5 +1304,5 @@
     }
   ],
   "total": 217,
-  "lastUpdated": "2026-07-09T07:48:31.193Z"
+  "lastUpdated": "2026-07-09T08:00:11.658Z"
 }
