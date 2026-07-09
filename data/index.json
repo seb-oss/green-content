@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-09T07:03:48.270Z",
+    "lastUpdated": "2026-07-09T07:09:21.735Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2441,10 +2441,19 @@
             }
           },
           {
+            "title": "LIP01 - Label and support",
+            "slug": "lip01-label-and-support",
+            "path": "snippets/lip01-label-and-support/lip01-label-and-support.json",
+            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n  <gds-list dividers=\"\">\n    <gds-list-item-pattern-01 dividers>\n      <gds-text font=\"detail-m-book\">Anna Andersson</gds-text>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01>\n      <gds-text font=\"detail-m-book\">Johan Johansen</gds-text>\n    </gds-list-item-pattern-01>\n        <gds-list-item-pattern-01>\n          <gds-text font=\"detail-m-book\">Karen Smith</gds-text>\n        </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01>\n      <gds-text font=\"detail-m-book\">Jospeh Jansson</gds-text>\n      </gds-list-item-pattern-01>\n   /<gds-list>\n  </gds-card>\n</gds-div>",
+            "endpoints": {
+              "content": "snippets/lip01-label-and-support/lip01-label-and-support.json"
+            }
+          },
+          {
             "title": "LIP01 - Label only",
             "slug": "lip01-label-only",
             "path": "snippets/lip01-label-only/lip01-label-only.json",
-            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n    <gds-list-item-pattern-01 dividers>\n      <gds-text font=\"detail-m-book\">Anna Andersson</gds-text>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01>\n      <gds-text font=\"detail-m-book\">Johan Johansen</gds-text>\n    </gds-list-item-pattern-01>\n        <gds-list-item-pattern-01>\n          <gds-text font=\"detail-m-book\">Karen Smith</gds-text>\n        </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01>\n      <gds-text font=\"detail-m-book\">Jospeh Jansson</gds-text>\n      </gds-list-item-pattern-01>\n  </gds-card>\n</gds-div>",
+            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n    <gds-list dividers=\"\">\n    <gds-list-item-pattern-01 dividers>\n      <gds-text font=\"detail-m-book\">Anna Andersson</gds-text>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01>\n      <gds-text font=\"detail-m-book\">Johan Johansen</gds-text>\n    </gds-list-item-pattern-01>\n        <gds-list-item-pattern-01>\n          <gds-text font=\"detail-m-book\">Karen Smith</gds-text>\n        </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01>\n      <gds-text font=\"detail-m-book\">Jospeh Jansson</gds-text>\n      </gds-list-item-pattern-01>\n    <gds/list>\n  </gds-card>\n</gds-div>",
             "endpoints": {
               "content": "snippets/lip01-label-only/lip01-label-only.json"
             }

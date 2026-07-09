@@ -47,12 +47,19 @@
     },
     {
       "title": "Layout examples",
-      "cols": "1",
+      "cols": "2",
       "columns": [
         {
           "type": "rich-text",
           "tag": "H2",
-          "content": "- Label only\n- Label + supporting text\n- Leading icon\n- Leading avatar\n- Two content columns\n- Three content columns\n- Trailing value\n- Badge\n- Chevron\n- Action button\n\n"
+          "content": "Label + supporting text\n\n- Leading icon\n- Leading avatar\n- Two content columns\n- Three content columns\n- Trailing value\n- Badge\n- Chevron\n- Action button\n\n"
+        },
+        {
+          "type": "snippet",
+          "caption": "Label only.",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-label-only"
         }
       ]
     },
