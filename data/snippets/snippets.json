@@ -1024,7 +1024,7 @@
       "title": "LIP01 - Label and support",
       "slug": "lip01-label-and-support",
       "path": "snippets/lip01-label-and-support/lip01-label-and-support.json",
-      "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n  <gds-list dividers=\"\">\n    <gds-list-item-pattern-01 dividers>\n      <gds-text font=\"detail-m-book\">Anna Andersson</gds-text>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01>\n      <gds-text font=\"detail-m-book\">Johan Johansen</gds-text>\n    </gds-list-item-pattern-01>\n        <gds-list-item-pattern-01>\n          <gds-text font=\"detail-m-book\">Karen Smith</gds-text>\n        </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01>\n      <gds-text font=\"detail-m-book\">Jospeh Jansson</gds-text>\n      </gds-list-item-pattern-01>\n   /<gds-list>\n  </gds-card>\n</gds-div>"
+      "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n  <gds-list dividers=\"\">\n    <gds-list-item-pattern-01 dividers>\n      <gds-flex flex-direction=\"column\">\n      <gds-text font=\"detail-m-book\">Anna Andersson</gds-text>\n      <gds-text font=\"detail-s-book\">Senior advicer</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01>\n      <gds-flex flex-direction=\"column\">\n      <gds-text font=\"detail-m-book\">Johan Johansen</gds-text>\n      <gds-text font=\"detail-s-book\">Client executive</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n        <gds-list-item-pattern-01>\n      <gds-flex flex-direction=\"column\">\n      <gds-text font=\"detail-m-book\">Karen Smith</gds-text>\n      <gds-text font=\"detail-s-book\">Mortgage advisor</gds-text>\n      </gds-flex>\n        </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01>\n            <gds-flex flex-direction=\"column\">\n      <gds-text font=\"detail-m-book\">Joseph Jansson</gds-text>\n      <gds-text font=\"detail-s-book\">Private banker</gds-text>\n      </gds-flex>\n      </gds-list-item-pattern-01>\n   <gds-list>\n  </gds-card>\n</gds-div>"
     },
     {
       "title": "LIP01 - Label only",
@@ -1033,10 +1033,10 @@
       "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n    <gds-list dividers=\"\">\n    <gds-list-item-pattern-01 dividers>\n      <gds-text font=\"detail-m-book\">Anna Andersson</gds-text>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01>\n      <gds-text font=\"detail-m-book\">Johan Johansen</gds-text>\n    </gds-list-item-pattern-01>\n        <gds-list-item-pattern-01>\n          <gds-text font=\"detail-m-book\">Karen Smith</gds-text>\n        </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01>\n      <gds-text font=\"detail-m-book\">Jospeh Jansson</gds-text>\n      </gds-list-item-pattern-01>\n    <gds/list>\n  </gds-card>\n</gds-div>"
     },
     {
-      "title": "LIP01 - Lead: Icon",
-      "slug": "lip01-lead-icon",
-      "path": "snippets/lip01-lead-icon/lip01-lead-icon.json",
-      "code": "<gds-div display=\"block\" width=\"100%\">\n    <gds-list>\n        <gds-list-item-pattern-01>\n            <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n            <gds-text font=\"detail-s-regular\" tag=\"label\">List item with lead icon</gds-text>\n        </gds-list-item-pattern-01>\n    </gds-list>\n</gds-div>"
+      "title": "LIP01 - Lead icon",
+      "slug": "lip01-lead icon",
+      "path": "snippets/lip01-lead-icon-1/lip01-lead-icon-1.json",
+      "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n    <gds-list dividers=\"\">\n    <gds-list-item-pattern-01 href=\"\">\n      <gds-text font=\"detail-m-book\">Language</gds-text>\n      <gds-icon-globus slot=\"lead\"></gds-icon-globus>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01 href=\"\">\n      <gds-text font=\"detail-m-book\">Currency</gds-text>\n      <gds-icon-flag slot=\"lead\"></gds-icon-flag>\n    </gds-list-item-pattern-01>\n        <gds-list-item-pattern-01 href=\"\">\n          <gds-text font=\"detail-m-book\">Notifications</gds-text>\n          <gds-icon-bell slot=\"lead\"></gds-icon-bell>\n        </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 href=\"\">\n      <gds-text font=\"detail-m-book\">Other settings</gds-text>\n      <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n    </gds-list-item-pattern-01>\n    </gds-list>\n  </gds-card>\n</gds-div>"
     },
     {
       "title": "LIP01 - Main: Custom",
@@ -1298,5 +1298,5 @@
     }
   ],
   "total": 216,
-  "lastUpdated": "2026-07-09T07:10:34.072Z"
+  "lastUpdated": "2026-07-09T07:34:16.366Z"
 }
