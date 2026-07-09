@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-09T08:20:10.928Z",
+    "lastUpdated": "2026-07-09T08:27:46.317Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2429,6 +2429,15 @@
             "code": "<gds-card variant=\"neutral-02-outlined\" width=\"100%\">\n  <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Savings account</gds-text>\n        <gds-text font=\"detail-m-book\">3456 9123 0456</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" text-align=\"end\">\n        <gds-text font=\"detail-s-regular\">Balance</gds-text>\n        <gds-text font=\"detail-m-book\">345 908,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Salary account</gds-text>\n        <gds-text font=\"detail-m-book\">3456 9123 0456</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" text-align=\"end\">\n        <gds-text font=\"detail-s-regular\">Balance</gds-text>\n        <gds-text font=\"detail-m-book\">14 312,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 selectable=\"\" href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Kids account</gds-text>\n        <gds-text font=\"detail-m-book\">4456 0023 0645</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" text-align=\"end\">\n        <gds-text font=\"detail-s-regular\">Balance</gds-text>\n        <gds-text font=\"detail-m-book\">46 876,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n</gds-card>",
             "endpoints": {
               "content": "snippets/lip01-accounts/lip01-accounts.json"
+            }
+          },
+          {
+            "title": "LIP01 - Action",
+            "slug": "lip01-action",
+            "path": "snippets/lip01-action/lip01-action.json",
+            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n    <gds-list dividers=\"\">\n      <gds-list-item-pattern-01>\n        <gds-flex width=\"100%\" justify-content=\"space-between\" align-items=\"center\">\n        <gds-text font=\"detail-m-book\">Pending payments</gds-text>\n        <gds-button variant=\"neutral\" rank=\"secondary\">Review</button>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01>\n        <gds-flex width=\"100%\" justify-content=\"space-between\" align-items=\"center\">\n          <gds-text font=\"detail-m-book\">Incoming e-invoices</gds-text>\n          <gds-button variant=\"neutral\" rank=\"secondary\">Approve</button>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01>\n        <gds-flex width=\"100%\" justify-content=\"space-between\" align-items=\"center\">\n          <gds-text font=\"detail-m-book\">Account statement</gds-text>\n          <gds-button variant=\"neutral\" rank=\"secondary\">Download</button>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01>\n        <gds-flex width=\"100%\" justify-content=\"space-between\" align-items=\"center\">\n          <gds-text font=\"detail-m-book\">Loan application</gds-text>\n          <gds-button variant=\"neutral\" rank=\"secondary\">View</button>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n    </gds-list>\n  </gds-card>\n</gds-div>",
+            "endpoints": {
+              "content": "snippets/lip01-action/lip01-action.json"
             }
           },
           {
