@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-09T08:00:11.655Z",
+    "lastUpdated": "2026-07-09T08:10:10.538Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2540,6 +2540,15 @@
             }
           },
           {
+            "title": "LIP01 - Three col",
+            "slug": "lip01-three-col",
+            "path": "snippets/lip01-three-col/lip01-three-col.json",
+            "code": "<gds-card variant=\"neutral-02-outlined\" width=\"100%\">\n  <gds-list dividers>\n    <gds-list-item-pattern-01>\n      <gds-flex flex=\"1\" justify-content=\"space-between\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-s-regular\">Savings account</gds-text>\n          <gds-text font=\"detail-m-book\">3456 9123 0456</gds-text>\n        </gds-flex>\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-s-regular\">Saved this year</gds-text>\n          <gds-text font=\"detail-m-book\">24 567,00</gds-text>\n        </gds-flex>\n        <gds-flex flex-direction=\"column\" text-align=\"end\">\n          <gds-text font=\"detail-s-regular\">Balance</gds-text>\n          <gds-text font=\"detail-m-book\">345 908,00</gds-text>\n        </gds-flex>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01>\n      <gds-flex flex=\"1\" justify-content=\"space-between\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-s-regular\">Salary account</gds-text>\n          <gds-text font=\"detail-m-book\">3456 9123 0456</gds-text>\n        </gds-flex>\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-s-regular\">Earned this year</gds-text>\n          <gds-text font=\"detail-m-book\">356 042,00</gds-text>\n        </gds-flex>\n        <gds-flex flex-direction=\"column\" text-align=\"end\">\n          <gds-text font=\"detail-s-regular\">Balance</gds-text>\n          <gds-text font=\"detail-m-book\">14 312,00</gds-text>\n        </gds-flex>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01>\n      <gds-flex flex=\"1\" justify-content=\"space-between\">\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-s-regular\">Kids account</gds-text>\n          <gds-text font=\"detail-m-book\">4456 0023 0645</gds-text>\n        </gds-flex>\n          <gds-flex flex-direction=\"column\">\n            <gds-text font=\"detail-s-regular\">Saved this year</gds-text>\n            <gds-text font=\"detail-m-book\">35 432,00</gds-text>\n          </gds-flex>\n        <gds-flex flex-direction=\"column\" text-align=\"end\">\n          <gds-text font=\"detail-s-regular\">Balance</gds-text>\n          <gds-text font=\"detail-m-book\">46 876,00</gds-text>\n        </gds-flex>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-card>",
+            "endpoints": {
+              "content": "snippets/lip01-three-col/lip01-three-col.json"
+            }
+          },
+          {
             "title": "LIP01 - Trail: Action",
             "slug": "lip01-trail-action",
             "path": "snippets/lip01-trail-action/lip01-trail-action.json",
@@ -2555,6 +2564,15 @@
             "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n  <gds-list-item-pattern-01 href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-m-book\">Ica Spånga</gds-text>\n        <gds-text font=\"detail-s-regular\">Food</gds-text>\n      </gds-flex>\n      <gds-flex align-items=\"center\" text-align=\"end\">\n        <gds-text font=\"detail-m-book\">-456,98</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-m-book\">Sats Fridhemsplan</gds-text>\n        <gds-text font=\"detail-s-regular\">Health</gds-text>\n      </gds-flex>\n      <gds-flex align-items=\"center\" text-align=\"end\">\n        <gds-text font=\"detail-m-book\">-3 467,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 href=\"\">\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-m-book\">Fortum</gds-text>\n        <gds-text font=\"detail-s-regular\">Återbetalning</gds-text>\n      </gds-flex>\n      <gds-flex align-items=\"center\" text-align=\"end\">\n        <gds-text font=\"detail-m-book\">+345,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  </gds-card>\n</gds-div>",
             "endpoints": {
               "content": "snippets/lip01-transactions/lip01-transactions.json"
+            }
+          },
+          {
+            "title": "LIP01 - Two col",
+            "slug": "lip01-two-col",
+            "path": "snippets/lip01-two-col/lip01-two-col.json",
+            "code": "<gds-card variant=\"neutral-02-outlined\" width=\"100%\">\n  <gds-list dividers>\n  <gds-list-item-pattern-01>\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Savings account</gds-text>\n        <gds-text font=\"detail-m-book\">3456 9123 0456</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" text-align=\"end\">\n        <gds-text font=\"detail-s-regular\">Balance</gds-text>\n        <gds-text font=\"detail-m-book\">345 908,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01>\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Salary account</gds-text>\n        <gds-text font=\"detail-m-book\">3456 9123 0456</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" text-align=\"end\">\n        <gds-text font=\"detail-s-regular\">Balance</gds-text>\n        <gds-text font=\"detail-m-book\">14 312,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01>\n    <gds-flex flex=\"1\" justify-content=\"space-between\">\n      <gds-flex flex-direction=\"column\">\n        <gds-text font=\"detail-s-regular\">Kids account</gds-text>\n        <gds-text font=\"detail-m-book\">4456 0023 0645</gds-text>\n      </gds-flex>\n      <gds-flex flex-direction=\"column\" text-align=\"end\">\n        <gds-text font=\"detail-s-regular\">Balance</gds-text>\n        <gds-text font=\"detail-m-book\">46 876,00</gds-text>\n      </gds-flex>\n    </gds-flex>\n  </gds-list-item-pattern-01>\n  </gds-list>\n</gds-card>",
+            "endpoints": {
+              "content": "snippets/lip01-two-col/lip01-two-col.json"
             }
           },
           {

@@ -52,7 +52,7 @@
         {
           "type": "rich-text",
           "tag": "H2",
-          "content": "\n\n- Two content columns\n- Three content columns\n- Badge\n- Action button\n\n"
+          "content": "\n\n- Badge\n- Action button\n\n"
         },
         {
           "type": "snippet",
@@ -81,6 +81,20 @@
           "plain": false,
           "replay": false,
           "Snippet": "lip01-lead-avatar"
+        },
+        {
+          "type": "snippet",
+          "caption": "Two columns with content",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-two-col"
+        },
+        {
+          "type": "snippet",
+          "caption": "Three columns with content",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-three-col"
         }
       ]
     },
