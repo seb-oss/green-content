@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-09T07:45:24.192Z",
+    "lastUpdated": "2026-07-09T07:47:55.820Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2462,6 +2462,7 @@
             "title": "LIP01 - Lead avatar",
             "slug": "lip01-lead-avatar",
             "path": "snippets/lip01-lead-avatar/lip01-lead-avatar.json",
+            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n    <gds-list dividers=\"\">\n      <gds-list-item-pattern-01 dividers>\n        <gds-avatar slot=\"lead\" size=\"m\" shape=\"circular\">AA</gds-avatar>\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-m-book\">Anna Andersson</gds-text>\n          <gds-text font=\"detail-s-book\">Senior advicer</gds-text>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01>\n        <gds-avatar slot=\"lead\" size=\"m\" shape=\"circular\">JJ</gds-avatar>\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-m-book\">Johan Johansen</gds-text>\n          <gds-text font=\"detail-s-book\">Client executive</gds-text>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01>\n                  <gds-avatar slot=\"lead\" size=\"m\" shape=\"circular\">KS</gds-avatar>\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-m-book\">Karen Smith</gds-text>\n          <gds-text font=\"detail-s-book\">Mortgage advisor</gds-text>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list-item-pattern-01>\n                  <gds-avatar slot=\"lead\" size=\"m\" shape=\"circular\">JJ</gds-avatar>\n        <gds-flex flex-direction=\"column\">\n          <gds-text font=\"detail-m-book\">Joseph Jansson</gds-text>\n          <gds-text font=\"detail-s-book\">Private banker</gds-text>\n        </gds-flex>\n      </gds-list-item-pattern-01>\n      <gds-list>\n  </gds-card>\n</gds-div>",
             "endpoints": {
               "content": "snippets/lip01-lead-avatar/lip01-lead-avatar.json"
             }
