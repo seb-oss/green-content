@@ -52,7 +52,7 @@
         {
           "type": "rich-text",
           "tag": "H2",
-          "content": "\n\n- Badge\n- Action button\n\n"
+          "content": "\n\n- Action button\n\n"
         },
         {
           "type": "snippet",
@@ -95,6 +95,13 @@
           "plain": false,
           "replay": false,
           "Snippet": "lip01-three-col"
+        },
+        {
+          "type": "snippet",
+          "caption": "With badge",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-badge"
         }
       ]
     },
