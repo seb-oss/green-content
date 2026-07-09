@@ -3,7 +3,7 @@
   "slug": "list-item-pattern-01",
   "hero_snippet": "lp01-hero",
   "beta": true,
-  "soon": true,
+  "soon": false,
   "summary": "List item Pattern 01 provides a predefined layout for displaying structured information in a list.",
   "preamble": "List item Pattern 01 is built on top of the List and List item components. It combines predefined content areas and interactive behaviours into a reusable layout that covers most list-based use cases.",
   "anatomy": false,
