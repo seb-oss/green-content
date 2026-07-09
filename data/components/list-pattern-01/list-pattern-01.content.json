@@ -52,7 +52,7 @@
         {
           "type": "rich-text",
           "tag": "H2",
-          "content": "\n\n- Leading avatar\n- Two content columns\n- Three content columns\n- Trailing value\n- Badge\n- Chevron\n- Action button\n\n"
+          "content": "\n\n- Two content columns\n- Three content columns\n- Trailing value\n- Badge\n- Chevron\n- Action button\n\n"
         },
         {
           "type": "snippet",
@@ -74,6 +74,13 @@
           "plain": false,
           "replay": false,
           "Snippet": "lip01-lead icon"
+        },
+        {
+          "type": "snippet",
+          "caption": "Lead avatar",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-lead-avatar"
         }
       ]
     },
