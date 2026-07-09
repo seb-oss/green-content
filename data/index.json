@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-07-08T16:09:13.416Z",
+    "lastUpdated": "2026-07-09T07:03:48.270Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -2438,6 +2438,15 @@
             "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-list>\n    <gds-list-item-pattern-01 href=\"#\">\n      <gds-icon-cloudy-sun slot=\"lead\"></gds-icon-cloudy-sun>\n      <gds-flex flex-direction=\"column\" justify-content=\"center\" text-align=\"start\" gap=\"4xs\">\n        <gds-text font=\"detail-s-regular\" tag=\"label\">Label</gds-text>\n        <gds-text font=\"detail-m-book\">Value</gds-text>\n      </gds-flex>\n    </gds-list-item-pattern-01>\n  </gds-list>\n</gds-div>",
             "endpoints": {
               "content": "snippets/lip01-href/lip01-href.json"
+            }
+          },
+          {
+            "title": "LIP01 - Label only",
+            "slug": "lip01-label-only",
+            "path": "snippets/lip01-label-only/lip01-label-only.json",
+            "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n    <gds-list-item-pattern-01 dividers>\n      <gds-text font=\"detail-m-book\">Anna Andersson</gds-text>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01>\n      <gds-text font=\"detail-m-book\">Johan Johansen</gds-text>\n    </gds-list-item-pattern-01>\n        <gds-list-item-pattern-01>\n          <gds-text font=\"detail-m-book\">Karen Smith</gds-text>\n        </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01>\n      <gds-text font=\"detail-m-book\">Jospeh Jansson</gds-text>\n      </gds-list-item-pattern-01>\n  </gds-card>\n</gds-div>",
+            "endpoints": {
+              "content": "snippets/lip01-label-only/lip01-label-only.json"
             }
           },
           {
