@@ -1,6 +1,6 @@
 {
   "title": "LIP01 - Lead icon",
-  "slug": "lip01-lead icon",
+  "slug": "lip01-lead-icon",
   "snippet_component": "List item pattern 01",
   "code": "<gds-div display=\"block\" width=\"100%\">\n  <gds-card variant=\"neutral-02-outlined\">\n    <gds-list dividers=\"\">\n    <gds-list-item-pattern-01 href=\"\">\n      <gds-text font=\"detail-m-book\">Language</gds-text>\n      <gds-icon-globus slot=\"lead\"></gds-icon-globus>\n    </gds-list-item-pattern-01>\n    <gds-list-item-pattern-01 href=\"\">\n      <gds-text font=\"detail-m-book\">Currency</gds-text>\n      <gds-icon-flag slot=\"lead\"></gds-icon-flag>\n    </gds-list-item-pattern-01>\n        <gds-list-item-pattern-01 href=\"\">\n          <gds-text font=\"detail-m-book\">Notifications</gds-text>\n          <gds-icon-bell slot=\"lead\"></gds-icon-bell>\n        </gds-list-item-pattern-01>\n  <gds-list-item-pattern-01 href=\"\">\n      <gds-text font=\"detail-m-book\">Other settings</gds-text>\n      <gds-icon-settings-gear slot=\"lead\"></gds-icon-settings-gear>\n    </gds-list-item-pattern-01>\n    </gds-list>\n  </gds-card>\n</gds-div>"
 }
