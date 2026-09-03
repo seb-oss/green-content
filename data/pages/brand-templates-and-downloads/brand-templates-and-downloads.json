@@ -26,8 +26,8 @@
           "buttons": [
             {
               "label": "Download",
-              "href": "https://brand.seb.se/point/en/seb/component/default/78814#:~:text=for%20common%20documents.-,Download,-Document%20Guidelines",
-              "downloadable": false
+              "href": "https://api.seb.io/assets/brand-hub/SEB_Dokumentmallar.zip",
+              "downloadable": true
             }
           ]
         },
@@ -39,8 +39,8 @@
           "buttons": [
             {
               "label": "Download",
-              "href": "https://brand.seb.se/original/gallery/12864/files/original/903397ee-c08f-4841-a610-b112be49d1af.pdf",
-              "downloadable": false
+              "href": "https://api.seb.io/assets/brand-hub/SEB_Document_guidelines.pdf",
+              "downloadable": true
             }
           ]
         },
