@@ -59,12 +59,13 @@
         {
           "type": "card-pattern-01",
           "title": "Logotype",
-          "excerpt": "Download the logotype",
-          "downloadable": true,
+          "excerpt": "Here you can download our logo in a range of versions depending on media – for print, digital and web.",
+          "downloadable": false,
           "buttons": [
             {
               "label": "Download logotype",
-              "downloadable": false
+              "href": "https://api.seb.io/assets/brand-hub/SEB_Logotype.zip",
+              "downloadable": true
             }
           ]
         }
