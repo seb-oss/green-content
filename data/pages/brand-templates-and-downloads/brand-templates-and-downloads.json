@@ -63,7 +63,7 @@
           "downloadable": false,
           "buttons": [
             {
-              "label": "Download logotype",
+              "label": "Download",
               "href": "https://api.seb.io/assets/brand-hub/SEB_Logotype.zip",
               "downloadable": true
             }
