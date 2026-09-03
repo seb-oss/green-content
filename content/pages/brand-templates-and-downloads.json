@@ -55,6 +55,18 @@
               "downloadable": true
             }
           ]
+        },
+        {
+          "type": "card-pattern-01",
+          "title": "Logotype",
+          "excerpt": "Download the logotype",
+          "downloadable": true,
+          "buttons": [
+            {
+              "label": "Download logotype",
+              "downloadable": false
+            }
+          ]
         }
       ]
     }
