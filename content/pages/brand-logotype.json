@@ -37,7 +37,8 @@
         {
           "type": "rich-text",
           "title": "Download logotype",
-          "tag": "H2"
+          "tag": "H2",
+          "content": "Here you can download our logo in a range of versions depending on media – for print, digital and web.\n\nIt is important to use the correct artwork for the media."
         },
         {
           "type": "card-pattern-01",
