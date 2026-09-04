@@ -56,9 +56,14 @@
       "columns": [
         {
           "type": "card-pattern-01",
-          "label": "Visit SEB media bank",
-          "href": "https://brand.seb.se/point/en/seb/component/default/25429",
-          "downloadable": false
+          "downloadable": false,
+          "buttons": [
+            {
+              "label": "Visit SEB media bank",
+              "href": "https://brand.seb.se/point/en/seb/component/default/25429",
+              "downloadable": false
+            }
+          ]
         }
       ]
     }
