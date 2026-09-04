@@ -91,6 +91,63 @@
           "label": "Sen an email",
           "href": "PWMFO_Design_Hub@seb.se",
           "downloadable": false
+        },
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Do utilize provided templates and guidelines."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don't use unbranded imagery, typefaces or colors."
+            },
+            {
+              "text": "Don't overcrowd the layout with too much information."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": " Typography",
+      "tag": "H2",
+      "max-width": true,
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "SEB SansSerif",
+          "tag": "H3",
+          "content": "SEB SansSerif is a font designed exclusively for SEB.\n\nIn daily use, we use SEB SansSerif Regular for PWM&FO use, in contrast to SansSerif Book for the rest of the bank.  \nBold is exclusively used for sub headlines – never for headlines. \n\n[Read more about SEB SansSerif](https://seb.io/brand/typography)"
+        },
+        {
+          "type": "rich-text",
+          "title": "Wulkan Display",
+          "tag": "H3",
+          "content": "To further elevate the design, PWM&FO also has access to the exclusive typeface *Wulkan Display*. It should never be the main typeface of any design. Instead, use it for selected parts of headlines, numbers or to personalise messages, like how you would normally use italics.\n\nBoth SEB SansSerif and Wulkan Display are pre-installed on your computer if you are a PWM&FO employee."
+        },
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Do use Wulkan for concept titles, in event names and for other conceptualized content."
+            },
+            {
+              "text": "Do highlight parts of headlines, numbers or names using Wulkan. This works particularly well when applied to messages that should feel personal and exclusive."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don't use Wulkan for regular headlines and body texts – this does not look like SEB."
+            }
+          ]
         }
       ]
     }
