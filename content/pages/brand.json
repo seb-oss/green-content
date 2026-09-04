@@ -112,6 +112,13 @@
           "title": "Templates and downloads",
           "href": "https://seb.io/brand/templates-and-downloads",
           "downloadable": false
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/pwmfo_design_hero.jpg",
+          "title": "Design guidelines for Private Wealth Mngt & Family Office",
+          "href": "https://seb.io/brand/pwmfo-design-guidelines",
+          "downloadable": false
         }
       ]
     }
