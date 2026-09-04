@@ -79,6 +79,7 @@
       "title": " Layouts",
       "tag": "H2",
       "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
@@ -88,7 +89,7 @@
           "type": "card-pattern-01",
           "title": "Contact ",
           "excerpt": "Please contact DesignHub who will help with polishing client-facing presentation material.",
-          "label": "Sen an email",
+          "label": "Send an email",
           "href": "PWMFO_Design_Hub@seb.se",
           "downloadable": false
         },
