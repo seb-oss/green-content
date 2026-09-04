@@ -49,6 +49,16 @@
       ]
     },
     {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/pwmfo_images.jpg"
+        }
+      ]
+    },
+    {
       "title": "Images",
       "tag": "H2",
       "section-content": "Our images set the tone and overall feel. They are high-quality, inspirational and often shot in international settings, reflecting an active and healthy lifestyle that resonates with our target audience. \n\nCompared with SEB's broader imagery, our images have a more international and lifestyle-led expression. Locations and situations are carefully chosen to feel relevant and recognisable to our clients, while remaining natural and recognisably SEB.\n\nCombined with a strong written message, they create a solid foundation for distinctive and impactful communication.\n\nWe never use AI imagery at PWM&FO. ",
@@ -72,6 +82,16 @@
           "label": "Read our guidelines",
           "href": "https://seb.io/brand/generative-ai-guidelines",
           "downloadable": false
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/pwmfo_Layouts.jpg"
         }
       ]
     },
@@ -209,16 +229,6 @@
           "type": "rich-text",
           "title": "PWM&FO Layout",
           "content": "- A more generous layout with more white space. Smaller text sizes and SEB SansSerif Regular giva a lighter look.\n- Wulkan Regular used in part of headline that points to the customer, making it feel more personalized.\n- Colours are used more sparingly to create a calmer and more sophisticated design.\n\n"
-        }
-      ]
-    },
-    {
-      "max-width": false,
-      "cols": "1",
-      "columns": [
-        {
-          "type": "image",
-          "src": "/assets/pwmfo_images.jpg"
         }
       ]
     }
