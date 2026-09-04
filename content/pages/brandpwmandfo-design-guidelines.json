@@ -83,15 +83,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "We have specific templates for our PWM&FO presentation and sales material. Make sure when you use the template slides, and when designing your own, to never overcrowd the layout. \n\nWhite is your friend – use white space and try to maintain a calm and focused design. "
-        },
-        {
-          "type": "card-pattern-01",
-          "title": "Contact ",
-          "excerpt": "Please contact DesignHub who will help with polishing client-facing presentation material.",
-          "label": "Send an email",
-          "href": "PWMFO_Design_Hub@seb.se",
-          "downloadable": false
+          "content": "We have specific templates for our PWM&FO presentation and sales material – you find it in the New Document-dialgue in PowerPoint. Make sure to not overcrowd the layout when using the template or designing your own.\n\nWhite is your friend – use white space and try to maintain a calm and focused design. Please contact [DesignHub](PWMFO_Design_Hub@seb.se) who will help with polishing client-facing presentation material."
         },
         {
           "type": "do",
