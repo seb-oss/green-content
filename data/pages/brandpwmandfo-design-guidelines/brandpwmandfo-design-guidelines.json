@@ -53,6 +53,7 @@
       "tag": "H2",
       "section-content": "Our images set the tone and overall feel. They are high-quality, inspirational and often shot in international settings, reflecting an active and healthy lifestyle that resonates with our target audience. \n\nCompared with SEB's broader imagery, our images have a more international and lifestyle-led expression. Locations and situations are carefully chosen to feel relevant and recognisable to our clients, while remaining natural and recognisably SEB.\n\nCombined with a strong written message, they create a solid foundation for distinctive and impactful communication.\n\nWe never use AI imagery at PWM&FO. Read more about our generative AI guidelines [here](https://seb.io/brand/generative-ai-guidelines).",
       "max-width": true,
+      "cols": "2",
       "columns": [
         {
           "type": "card-pattern-01",
@@ -61,6 +62,15 @@
           "excerpt": "Here you can find SEB brand images.",
           "label": "Go to media bank",
           "href": "https://brand.seb.se/point/en/seb/component/default/25429",
+          "downloadable": false
+        },
+        {
+          "type": "card-pattern-01",
+          "src": "/assets/brand-hub/d69fb38b-4f08-4c2b-9364-c06a97bb16b5.png",
+          "title": "Generative AI guidelines",
+          "excerpt": "We never use AI imagery at PWM&FO.",
+          "label": "Read about our generative AI guidelines",
+          "href": "https://seb.io/brand/generative-ai-guidelines",
           "downloadable": false
         }
       ]
