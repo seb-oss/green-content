@@ -74,6 +74,25 @@
           "downloadable": false
         }
       ]
+    },
+    {
+      "title": " Layouts",
+      "tag": "H2",
+      "max-width": true,
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "We have specific templates for our PWM&FO presentation and sales material. Make sure when you use the template slides, and when designing your own, to never overcrowd the layout. \n\nWhite is your friend – use white space and try to maintain a calm and focused design. "
+        },
+        {
+          "type": "card-pattern-01",
+          "title": "Contact ",
+          "excerpt": "Please contact DesignHub who will help with polishing client-facing presentation material.",
+          "label": "Sen an email",
+          "href": "PWMFO_Design_Hub@seb.se",
+          "downloadable": false
+        }
+      ]
     }
   ]
 }
