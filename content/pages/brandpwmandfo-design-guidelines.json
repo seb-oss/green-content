@@ -179,6 +179,38 @@
       "section-content": "A good way to make a design stand out and make it more distinct is to treat images with an extra element of care. Rounding the corners of images gives them an extra presence in presentation and sales material. Do this whenever you place an image in a presentation or sales material. \n\nRounded corners aren’t exclusive for PWM&FO but should be done consistently in all PWM&FO communication. It'll give the material an extra level of refinement and attention to detail.\n\nLearn how to round corners in PowerPoint [here](https://brand.seb.se/original/gallery/12864/files/original/1ddb5f14-3120-4e3f-a0d8-f832fc25257f.png)",
       "max-width": true,
       "cols": "1"
+    },
+    {
+      "title": "SEB General and PWM&FO design comparison",
+      "tag": "H2",
+      "max-width": true,
+      "cols": "1"
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "General layout",
+          "content": "Accessible and modern. General customer facing imagery. Easy to navigate.\n\n"
+        },
+        {
+          "type": "rich-text",
+          "title": "PWM&FO Layout",
+          "content": "- The layout is less conventional and with a more white space, giving it a more elevated appearance.\n- Rounded corners of the image adds to the bespoke look.\n- SEB SansSerif Regular instead of Book helps lightening the design.\n\n"
+        },
+        {
+          "type": "rich-text",
+          "title": " General layout",
+          "content": "Standard layout, accessible text sizes and SEB general graph colors. Focus on navigation and clarity."
+        },
+        {
+          "type": "rich-text",
+          "title": "PWM&FO Layout",
+          "content": "- A more generous layout with more white space. Smaller text sizes and SEB SansSerif Regular giva a lighter look.\n- Wulkan Regular used in part of headline that points to the customer, making it feel more personalized.\n- Colours are used more sparingly to create a calmer and more sophisticated design.\n\n"
+        }
+      ]
     }
   ]
 }
