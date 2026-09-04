@@ -31,11 +31,20 @@
         {
           "type": "rich-text",
           "title": " Premium",
-          "tag": "H2"
+          "tag": "H3",
+          "content": "Does it feel considered and refined? Every detail should feel intentional, from the choice of image and words to spacing, layout and finish."
         },
         {
           "type": "rich-text",
-          "content": "Does it feel considered and refined? Every detail should feel intentional, from the choice of image and words to spacing, layout and finish."
+          "title": " International",
+          "tag": "H3",
+          "content": "Would it feel relevant in an international context? Our communication should have a global outlook and contemporary expression, reflecting the world our clients live and operate in."
+        },
+        {
+          "type": "rich-text",
+          "title": " Crisp",
+          "tag": "H3",
+          "content": "Is the message immediately clear? Remove anything that does not add value. Keep the language concise and the design clean."
         }
       ]
     }
