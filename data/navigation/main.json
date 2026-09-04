@@ -8,6 +8,11 @@
       "icon": "IconHomeOpen"
     },
     {
+      "title": "Brand",
+      "slug": "brand",
+      "icon": "IconFlag"
+    },
+    {
       "title": "Studio",
       "slug": "studio",
       "icon": "IconBrandGreen"
@@ -26,11 +31,6 @@
       "title": "Patterns",
       "slug": "patterns",
       "icon": "IconCirclesThree"
-    },
-    {
-      "title": "Brand",
-      "slug": "brand",
-      "icon": "IconFlag"
     },
     {
       "title": "Design direction",
