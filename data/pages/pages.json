@@ -151,13 +151,6 @@
       "path": "pages/brandpwmandfo-design-guidelines/brandpwmandfo-design-guidelines.json"
     },
     {
-      "title": "Private wealth management & family office – Event guidelines & templates",
-      "slug": "brand/pwm&fo-event-guidelines-templates",
-      "language": "en",
-      "summary": "On this page, you’ll find guidelines, giveaways and branded materials for events hosted by the Private Wealth Management & Family Office business area.",
-      "path": "pages/brandpwmandfo-event-guidelines-templates/brandpwmandfo-event-guidelines-templates.json"
-    },
-    {
       "title": "Applied design",
       "slug": "design-direction/applied-design",
       "language": "en",
@@ -283,6 +276,6 @@
       "path": "pages/ux-writing/ux-writing.json"
     }
   ],
-  "total": 40,
-  "lastUpdated": "2026-09-04T08:34:45.852Z"
+  "total": 39,
+  "lastUpdated": "2026-09-04T08:37:31.351Z"
 }
