@@ -129,6 +129,16 @@
       ]
     },
     {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/pwmfo_Typography.png"
+        }
+      ]
+    },
+    {
       "title": " Typography",
       "tag": "H2",
       "max-width": true,
