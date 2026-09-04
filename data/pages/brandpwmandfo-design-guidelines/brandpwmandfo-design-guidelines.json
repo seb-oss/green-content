@@ -104,25 +104,27 @@
         {
           "type": "rich-text",
           "content": "We have specific templates for our PWM&FO presentation and sales material – you find it in the New Document-dialgue in PowerPoint. Make sure to not overcrowd the layout when using the template or designing your own.\n\nWhite is your friend – use white space and try to maintain a calm and focused design. Please contact [DesignHub](PWMFO_Design_Hub@seb.se) who will help with polishing client-facing presentation material."
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "3",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Do utilize provided templates and guidelines.",
+          "src": "/assets/layout_do.jpg"
         },
         {
-          "type": "do",
-          "dolist": [
-            {
-              "text": "Do utilize provided templates and guidelines."
-            }
-          ]
+          "type": "image",
+          "caption": "Don't use unbranded imagery, typefaces or colors.",
+          "src": "/assets/layout_don't2.jpg"
         },
         {
-          "type": "dont",
-          "dontlist": [
-            {
-              "text": "Don't use unbranded imagery, typefaces or colors."
-            },
-            {
-              "text": "Don't overcrowd the layout with too much information."
-            }
-          ]
+          "type": "image",
+          "caption": "Don't overcrowd the layout with too much information.",
+          "src": "/assets/layout_don't1.jpg"
         }
       ]
     },
