@@ -25,8 +25,8 @@
       "max-width": true
     },
     {
-      "max-width": false,
-      "cols": "2",
+      "max-width": true,
+      "cols": "1",
       "columns": [
         {
           "type": "rich-text",
@@ -51,12 +51,12 @@
     {
       "title": "Images",
       "tag": "H2",
-      "section-content": "Our images set the tone and overall feel. They are high-quality, inspirational and often shot in international settings, reflecting an active and healthy lifestyle that resonates with our target audience. \n\nCompared with SEB's broader imagery, our images have a more international and lifestyle-led expression. Locations and situations are carefully chosen to feel relevant and recognisable to our clients, while remaining natural and recognisably SEB.\n\nCombined with a strong written message, they create a solid foundation for distinctive and impactful communication.\n\nWe never use AI imagery at PWM&FO. Read more about our generative AI guidelines ++[here](https://seb.io/brand/generative-ai-guidelines)++.",
+      "section-content": "Our images set the tone and overall feel. They are high-quality, inspirational and often shot in international settings, reflecting an active and healthy lifestyle that resonates with our target audience. \n\nCompared with SEB's broader imagery, our images have a more international and lifestyle-led expression. Locations and situations are carefully chosen to feel relevant and recognisable to our clients, while remaining natural and recognisably SEB.\n\nCombined with a strong written message, they create a solid foundation for distinctive and impactful communication.\n\nWe never use AI imagery at PWM&FO. Read more about our generative AI guidelines [here](https://seb.io/brand/generative-ai-guidelines).",
       "max-width": true,
       "columns": [
         {
           "type": "card-pattern-01",
-          "title": "Visit SEB media bank",
+          "label": "Visit SEB media bank",
           "href": "https://brand.seb.se/point/en/seb/component/default/25429",
           "downloadable": false
         }
