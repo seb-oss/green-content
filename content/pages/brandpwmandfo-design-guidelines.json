@@ -1,7 +1,6 @@
 {
   "title": "Design guidelines for Private Wealth Management & Family Office",
   "slug": "brand/pwmfo-design-guidelines",
-  "summary": "Private Wealth Management & Family Office  is part of the SEB brand, but our clients expect a more refined experience. We always follow SEB's core design principles, including the SEB green colour and SEB Sans Serif, while making a few considered choices to create a more premium look and feel.",
   "parent": "brand",
   "layout": "editorial",
   "sections": [
@@ -14,6 +13,16 @@
           "src": "/assets/pwmfo_design_hero.jpg"
         }
       ]
+    },
+    {
+      "section-content": "Private Wealth Management & Family Office  is part of the SEB brand, but our clients expect a more refined experience. We always follow SEB's core design principles, including the SEB green colour and SEB Sans Serif, while making a few considered choices to create a more premium look and feel.",
+      "max-width": true
+    },
+    {
+      "title": " Our guiding principles",
+      "tag": "H2",
+      "section-content": "Everything we make should look and feel refined, with a higher level of attention to detail.",
+      "max-width": false
     }
   ]
 }
