@@ -211,6 +211,16 @@
           "content": "- A more generous layout with more white space. Smaller text sizes and SEB SansSerif Regular giva a lighter look.\n- Wulkan Regular used in part of headline that points to the customer, making it feel more personalized.\n- Colours are used more sparingly to create a calmer and more sophisticated design.\n\n"
         }
       ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/pwmfo_images.jpg"
+        }
+      ]
     }
   ]
 }
