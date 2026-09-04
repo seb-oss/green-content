@@ -22,7 +22,7 @@
       "title": " Our guiding principles",
       "tag": "H2",
       "section-content": "Everything we make should look and feel refined, with a higher level of attention to detail.",
-      "max-width": false
+      "max-width": true
     },
     {
       "max-width": false,
@@ -31,7 +31,10 @@
         {
           "type": "rich-text",
           "title": " Premium",
-          "tag": "H2",
+          "tag": "H2"
+        },
+        {
+          "type": "rich-text",
           "content": "Does it feel considered and refined? Every detail should feel intentional, from the choice of image and words to spacing, layout and finish."
         }
       ]
