@@ -190,14 +190,16 @@
     {
       "title": "PowerPoint template ",
       "tag": "H2",
-      "section-content": "The custom template is pre-made with a higher level of refinement in mind. It supports creating open, approachable, and elevated presentations. These layouts use elements that, when used together, create some differentiation from the general SEB brand, but still align with the SEB brand principles.\n\nRemember to always personalise your client facing presentations, and to keep them short and punchy. On the screen, clarity and directness are key to effective communication. \n\nThese PowerPoint presentation slide templates are modular, meaning you will never use all slides in one presentation, but customize only with the slides you need for a specific meeting.\n\nYou’ll find the PWM&FO PowerPoint template as well as the general SEB PowerPoint templates when you open PowerPoint and start a new document.\n\n[Download PPT from PWMFO workspace](https://intra.sebank.se/en/workspaces/wealth-and-asset-management/pwmfo/).",
-      "max-width": true,
-      "cols": "1",
+      "max-width": false,
+      "cols": "2",
       "columns": [
         {
           "type": "rich-text",
-          "title": "Elements only present in the PWM&FO template",
-          "content": "- A generous and open layout system with a lot of white space makes the presentation more focused.\n- Images with rounded corners create a more distinct look than you get from general PowerPoint presentations\n- The use of Wulkan in some slides\n\n"
+          "content": "The custom template is pre-made with a higher level of refinement in mind. It supports creating open, approachable, and elevated presentations. These layouts use elements that, when used together, create some differentiation from the general SEB brand, but still align with the SEB brand principles.\n\nRemember to always personalise your client facing presentations, and to keep them short and punchy. On the screen, clarity and directness are key to effective communication. \n\nThese PowerPoint presentation slide templates are modular, meaning you will never use all slides in one presentation, but customize only with the slides you need for a specific meeting.\n\nYou’ll find the PWM&FO PowerPoint template as well as the general SEB PowerPoint templates when you open PowerPoint and start a new document.\n\n[Download PPT from PWMFO workspace](https://intra.sebank.se/en/workspaces/wealth-and-asset-management/pwmfo/).\n\n### Elements only present in the PWM&FO template\n\n- A generous and open layout system with a lot of white space makes the presentation more focused.\n- Images with rounded corners create a more distinct look than you get from general PowerPoint presentations\n- The use of Wulkan in some slides\n\n"
+        },
+        {
+          "type": "image",
+          "src": "/assets/pwmfo_ppt.jpg"
         }
       ]
     },
