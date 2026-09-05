@@ -254,8 +254,18 @@
     {
       "title": "SEB General and PWM&FO design comparison",
       "tag": "H2",
-      "max-width": true,
+      "max-width": false,
       "cols": "1"
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/comparison1.jpg"
+        }
+      ]
     },
     {
       "max-width": false,
@@ -270,15 +280,33 @@
           "type": "rich-text",
           "title": "PWM&FO Layout",
           "content": "- The layout is less conventional and with a more white space, giving it a more elevated appearance.\n- Rounded corners of the image adds to the bespoke look.\n- SEB SansSerif Regular instead of Book helps lightening the design.\n\n"
-        },
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
+        {
+          "type": "image",
+          "src": "/assets/comparison2.jpg"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "2",
+      "columns": [
         {
           "type": "rich-text",
           "title": " General layout",
+          "tag": "H3",
           "content": "Standard layout, accessible text sizes and SEB general graph colors. Focus on navigation and clarity."
         },
         {
           "type": "rich-text",
           "title": "PWM&FO Layout",
+          "tag": "H3",
           "content": "- A more generous layout with more white space. Smaller text sizes and SEB SansSerif Regular giva a lighter look.\n- Wulkan Regular used in part of headline that points to the customer, making it feel more personalized.\n- Colours are used more sparingly to create a calmer and more sophisticated design.\n\n"
         }
       ]
