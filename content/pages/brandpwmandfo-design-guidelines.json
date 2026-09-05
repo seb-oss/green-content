@@ -163,25 +163,27 @@
         {
           "type": "image",
           "src": "/assets/Typo_Wulkan.png"
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "3",
+      "columns": [
+        {
+          "type": "image",
+          "caption": "Do use Wulkan for concept titles, in event names and for other conceptualized content.",
+          "src": "/assets/pwm_Typo_dosdonts1.jpg"
         },
         {
-          "type": "do",
-          "dolist": [
-            {
-              "text": "Do use Wulkan for concept titles, in event names and for other conceptualized content."
-            },
-            {
-              "text": "Do highlight parts of headlines, numbers or names using Wulkan. This works particularly well when applied to messages that should feel personal and exclusive."
-            }
-          ]
+          "type": "image",
+          "caption": "Do highlight parts of headlines, numbers or names using Wulkan. This works particularly well when applied to messages that should feel personal and exclusive.",
+          "src": "/assets/pwm_Typo_dosdonts3.jpg"
         },
         {
-          "type": "dont",
-          "dontlist": [
-            {
-              "text": "Don't use Wulkan for regular headlines and body texts – this does not look like SEB."
-            }
-          ]
+          "type": "image",
+          "caption": "Don't use Wulkan for regular headlines and body texts – this does not look like SEB.",
+          "src": "/assets/pwm_Typo_dosdonts2.jpg"
         }
       ]
     },
