@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-09-05T12:42:01.673Z",
+    "lastUpdated": "2026-09-05T12:49:05.665Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -708,7 +708,7 @@
           {
             "title": "Written ID — Swedish",
             "slug": "brand/written-id-swedish",
-            "language": "en",
+            "language": "sv",
             "translationId": "written-id",
             "summary": "Allt vi säger, skriver och gör ska utgå från vårt övergripande syfte:",
             "path": "pages/brand-written-id-swedish/brand-written-id-swedish.json",
