@@ -21,16 +21,23 @@
         {
           "type": "rich-text",
           "content": "We continuously track our brand’s position in the minds of our customers to make sure that it is associated with the right expectations and experiences that are aligned with our strategies and targets. We operate in 33 markets around the world. That calls for a clear visual narrative. We need to create a well-coordinated expression of SEB to help us communicate our messages. \n\nOur heritage is important, just as embracing changing with the times. We exist to positively shape the future. Today, and for the next 165 years.\n\n"
-        },
+        }
+      ]
+    },
+    {
+      "max-width": false,
+      "cols": "1",
+      "columns": [
         {
           "type": "image",
           "src": "/assets/purpose.jpg"
-        },
-        {
-          "type": "card-pattern-01",
-          "title": "Everything we do is guided by our purpose. We exist to positively shape the future with responsible advice and capital. Today and for generations to come."
         }
       ]
+    },
+    {
+      "title": "Everything we do is guided by our purpose. We exist to positively shape the future with responsible advice and capital. Today and for generations to come.",
+      "tag": "H2",
+      "max-width": true
     },
     {
       "max-width": true,
