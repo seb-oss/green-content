@@ -206,23 +206,50 @@
     {
       "title": "A tactile experience",
       "tag": "H2",
-      "section-content": "The feeling of quality is not just a matter of how information is presented graphically, but also the physical feeling of holding it in your hand. Whenever we produce physical media, we make an effort to pick high-quality materials, premium paper, and a finer finish. Debossed and lacquered print finishes can be used for a more refined design.",
-      "max-width": true,
-      "cols": "1"
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The feeling of quality is not just a matter of how information is presented graphically, but also the physical feeling of holding it in your hand. Whenever we produce physical media, we make an effort to pick high-quality materials, premium paper, and a finer finish. Debossed and lacquered print finishes can be used for a more refined design."
+        },
+        {
+          "type": "image",
+          "src": "/assets/tactile.png"
+        }
+      ]
     },
     {
       "title": "Colour",
       "tag": "H2",
-      "section-content": "We use the SEB brand colours, and in the same way – with a focus on white and our own green, *SEB Green Senior*, as our leading brand colour. However, all PWM&FO material should have an extra level of sophistication, and this applies to colour too – use colour sparingly.",
-      "max-width": true,
-      "cols": "1"
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "We use the SEB brand colours, and in the same way – with a focus on white and our own green, *SEB Green Senior*, as our leading brand colour. However, all PWM&FO material should have an extra level of sophistication, and this applies to colour too – use colour sparingly."
+        },
+        {
+          "type": "image",
+          "src": "/assets/pwmfo_color.jpg"
+        }
+      ]
     },
     {
       "title": "Rounded corners",
       "tag": "H2",
-      "section-content": "A good way to make a design stand out and make it more distinct is to treat images with an extra element of care. Rounding the corners of images gives them an extra presence in presentation and sales material. Do this whenever you place an image in a presentation or sales material. \n\nRounded corners aren’t exclusive for PWM&FO but should be done consistently in all PWM&FO communication. It'll give the material an extra level of refinement and attention to detail.\n\nLearn how to round corners in PowerPoint [here](https://brand.seb.se/original/gallery/12864/files/original/1ddb5f14-3120-4e3f-a0d8-f832fc25257f.png)",
-      "max-width": true,
-      "cols": "1"
+      "max-width": false,
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "A good way to make a design stand out and make it more distinct is to treat images with an extra element of care. Rounding the corners of images gives them an extra presence in presentation and sales material. Do this whenever you place an image in a presentation or sales material. \n\nRounded corners aren’t exclusive for PWM&FO but should be done consistently in all PWM&FO communication. It'll give the material an extra level of refinement and attention to detail.\n\nLearn how to round corners in PowerPoint [here.](https://brand.seb.se/original/gallery/12864/files/original/1ddb5f14-3120-4e3f-a0d8-f832fc25257f.png)"
+        },
+        {
+          "type": "image",
+          "src": "/assets/corners.jpg"
+        }
+      ]
     },
     {
       "title": "SEB General and PWM&FO design comparison",
