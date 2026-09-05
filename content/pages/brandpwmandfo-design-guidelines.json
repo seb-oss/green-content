@@ -141,8 +141,8 @@
     {
       "title": " Typography",
       "tag": "H2",
-      "max-width": true,
-      "cols": "1",
+      "max-width": false,
+      "cols": "2",
       "columns": [
         {
           "type": "rich-text",
@@ -151,10 +151,18 @@
           "content": "SEB SansSerif is a font designed exclusively for SEB.\n\nIn daily use, we use SEB SansSerif Regular for PWM&FO use, in contrast to SansSerif Book for the rest of the bank.  \nBold is exclusively used for sub headlines – never for headlines. \n\n[Read more about SEB SansSerif](https://seb.io/brand/typography)"
         },
         {
+          "type": "image",
+          "src": "/assets/Typo_SEBSansSerif.png"
+        },
+        {
           "type": "rich-text",
           "title": "Wulkan Display",
           "tag": "H3",
           "content": "To further elevate the design, PWM&FO also has access to the exclusive typeface *Wulkan Display*. It should never be the main typeface of any design. Instead, use it for selected parts of headlines, numbers or to personalise messages, like how you would normally use italics.\n\nBoth SEB SansSerif and Wulkan Display are pre-installed on your computer if you are a PWM&FO employee."
+        },
+        {
+          "type": "image",
+          "src": "/assets/Typo_Wulkan.png"
         },
         {
           "type": "do",
