@@ -222,6 +222,12 @@
       "path": "components/signal/signal.content.json"
     },
     {
+      "title": "Slider",
+      "slug": "slider",
+      "summary": "A slider allows users to select a value or range of values by moving handles along a track.",
+      "path": "components/slider/slider.content.json"
+    },
+    {
       "title": "Spinner",
       "slug": "spinner",
       "path": "components/spinner/spinner.content.json"
@@ -269,6 +275,6 @@
       "path": "components/video/video.content.json"
     }
   ],
-  "total": 45,
-  "lastUpdated": "2026-09-05T13:04:45.637Z"
+  "total": 46,
+  "lastUpdated": "2026-09-06T17:40:57.104Z"
 }

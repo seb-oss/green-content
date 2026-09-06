@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-09-05T13:04:45.635Z",
+    "lastUpdated": "2026-09-06T17:40:57.102Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -382,6 +382,16 @@
             "endpoints": {
               "content": "components/signal/signal.content.json",
               "images": "components/signal/signal.images.json"
+            }
+          },
+          {
+            "title": "Slider",
+            "slug": "slider",
+            "summary": "A slider allows users to select a value or range of values by moving handles along a track.",
+            "path": "components/slider/slider.content.json",
+            "endpoints": {
+              "content": "components/slider/slider.content.json",
+              "images": "components/slider/slider.images.json"
             }
           },
           {
