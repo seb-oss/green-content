@@ -56,6 +56,17 @@
           "content": "A slider can be used to select a single value or a range between two values. Both types can use steps to define the interval between selectable values. Choose a minimum, maximum and step that match the scale and level of precision users need. For example, a slider from 0 to 100 with a step of 5 allows values such as 0, 5, 10 and 15. \n\n- Single value – uses one handle to select a value between a defined minimum and maximum.\n- Range – uses two handles to select a lower and upper value within a defined minimum and maximum.\n\n"
         }
       ]
+    },
+    {
+      "title": "Value display",
+      "tag": "H2",
+      "section-content": "By default, the slider includes a textbox that displays the selected value and allows users to enter a precise value. The textbox can be omitted when the selected value or its effect is clearly displayed elsewhere in the interface. For example, adjusting an interest rate could update a monthly cost displayed in a separate summary or card.",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "### Textbox \n\nFor a single-value slider, one textbox displays the selected value. For a range slider, two textboxes display the selected lower and upper values. The slider and textbox should always stay synchronised. Changing the value in either one should update the other.\n\n### Value indicator \n\nA bubble appears next to the handle while the slider is being adjusted. It displays the current value and updates as the handle moves. For a range slider, the value indicator displays the value of the handle currently being adjusted."
+        }
+      ]
     }
   ]
 }
