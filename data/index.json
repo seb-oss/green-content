@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-09-07T07:44:49.276Z",
+    "lastUpdated": "2026-09-07T08:19:16.515Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -482,7 +482,7 @@
             "title": "Brand",
             "slug": "brand",
             "path": "navigation/brand.json",
-            "links": 16,
+            "links": 14,
             "endpoint": "navigation/brand.json"
           },
           {
