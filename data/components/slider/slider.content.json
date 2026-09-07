@@ -64,7 +64,15 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "### Textbox \n\nFor a single-value slider, one textbox displays the selected value. For a range slider, two textboxes display the selected lower and upper values. The slider and textbox should always stay synchronised. Changing the value in either one should update the other.\n\n### Value indicator \n\nA bubble appears next to the handle while the slider is being adjusted. It displays the current value and updates as the handle moves. For a range slider, the value indicator displays the value of the handle currently being adjusted."
+          "title": "Textbox",
+          "tag": "H3",
+          "content": "For a single-value slider, one textbox displays the selected value. For a range slider, two textboxes display the selected lower and upper values. The slider and textbox should always stay synchronised. Changing the value in either one should update the other."
+        },
+        {
+          "type": "rich-text",
+          "title": "Value indicator",
+          "tag": "H3",
+          "content": "A bubble appears next to the handle while the slider is being adjusted. It displays the current value and updates as the handle moves. For a range slider, the value indicator displays the value of the handle currently being adjusted."
         }
       ]
     },
