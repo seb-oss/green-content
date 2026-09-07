@@ -67,6 +67,17 @@
           "content": "### Textbox \n\nFor a single-value slider, one textbox displays the selected value. For a range slider, two textboxes display the selected lower and upper values. The slider and textbox should always stay synchronised. Changing the value in either one should update the other.\n\n### Value indicator \n\nA bubble appears next to the handle while the slider is being adjusted. It displays the current value and updates as the handle moves. For a range slider, the value indicator displays the value of the handle currently being adjusted."
         }
       ]
+    },
+    {
+      "title": "Accessibility",
+      "section-content": "The slider is built on the native HTML <input type=\"range\">, providing built-in semantics and keyboard interaction. A slider must expose its current value, minimum value and maximum value to assistive technologies. This is handled out of the box when using the slider component from Green.\n\nEnsure that:\n\n- The slider has an accessible name describing what the value controls.\n- The selected value is communicated through more than the visual position of the handle.\n\n",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Keyboard",
+          "content": "When the slider has focus:\n\n- Arrow right / Arrow up increases the value by one step.\n- Arrow left / Arrow down decreases the value by one step.\n- Home moves to the minimum value.\n- End moves to the maximum value.\n\n"
+        }
+      ]
     }
   ]
 }
