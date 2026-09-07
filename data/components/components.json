@@ -224,7 +224,7 @@
     {
       "title": "Slider",
       "slug": "slider",
-      "summary": "A slider allows users to select a value or range of values by moving handles along a track.",
+      "summary": "A slider allows users to select a value or range of values by moving handles along a track. ",
       "path": "components/slider/slider.content.json"
     },
     {
@@ -276,5 +276,5 @@
     }
   ],
   "total": 46,
-  "lastUpdated": "2026-09-07T11:05:42.961Z"
+  "lastUpdated": "2026-09-07T13:07:56.414Z"
 }
