@@ -5,6 +5,25 @@
   "soon": true,
   "summary": "A slider allows users to select a value or range of values by moving handles along a track.",
   "anatomy": true,
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Track"
+      },
+      {
+        "text": "Active track"
+      },
+      {
+        "text": "Handle"
+      },
+      {
+        "text": "Bubble"
+      },
+      {
+        "text": "Textbox"
+      }
+    ]
+  },
   "platform": {
     "web": false,
     "ios": false,
