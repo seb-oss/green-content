@@ -77,6 +77,26 @@
       ]
     },
     {
+      "title": "Sizes",
+      "tag": "H2",
+      "section-content": "As all form components the slider comes in both large and small.",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Slider large.",
+          "plain": false,
+          "replay": false
+        },
+        {
+          "type": "snippet",
+          "caption": "Slider small.",
+          "plain": false,
+          "replay": false
+        }
+      ]
+    },
+    {
       "title": "Accessibility",
       "section-content": "The slider is built on the native HTML , providing built-in semantics and keyboard interaction. A slider must expose its current value, minimum value and maximum value to assistive technologies. This is handled out of the box when using the slider component from Green.\n\nEnsure that:\n\n- The slider has an accessible name describing what the value controls.\n- The selected value is communicated through more than the visual position of the handle.\n\n",
       "columns": [
@@ -126,26 +146,6 @@
               "text": "Don’t use a slider for choosing between a small number of distinct options. Consider radio buttons instead."
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "Sizes",
-      "tag": "H2",
-      "section-content": "As all form components the slider comes in both large and small.",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "snippet",
-          "caption": "Slider large.",
-          "plain": false,
-          "replay": false
-        },
-        {
-          "type": "snippet",
-          "caption": "Slider small.",
-          "plain": false,
-          "replay": false
         }
       ]
     }
