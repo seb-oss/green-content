@@ -95,6 +95,15 @@
           "dolist": [
             {
               "text": "Use a slider when users benefit from adjusting a value visually within a range."
+            },
+            {
+              "text": "Choose a step that matches the level of precision users need."
+            },
+            {
+              "text": "Show the current value while the user is interacting with the slider."
+            },
+            {
+              "text": "Provide additional context when the minimum and maximum values are not obvious."
             }
           ]
         }
