@@ -28,5 +28,25 @@
     "web": false,
     "ios": false,
     "android": false
-  }
+  },
+  "overview": [
+    {
+      "title": "When to use",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Use a slider when users benefit from adjusting a value visually.    \nIt works well when:\n\n- The value is part of a continuous or stepped range, such as volume, amount or intensity.\n- Adjusting and exploring the value is more important than entering a precise number.\n\n"
+        }
+      ]
+    },
+    {
+      "title": "Behaviour",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The slider can be adjusted using pointer, touch or keyboard.\n\n- Moving the handle updates the value according to the defined step.\n- The value indicator displays the current value while the slider is being adjusted.\n- The slider should provide immediate visual feedback as the value changes.\n\n"
+        }
+      ]
+    }
+  ]
 }
