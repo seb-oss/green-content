@@ -47,6 +47,15 @@
           "content": "The slider can be adjusted using pointer, touch or keyboard.\n\n- Moving the handle updates the value according to the defined step.\n- The value indicator displays the current value while the slider is being adjusted.\n- The slider should provide immediate visual feedback as the value changes.\n\n"
         }
       ]
+    },
+    {
+      "title": "Value, range and step",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "A slider can be used to select a single value or a range between two values. Both types can use steps to define the interval between selectable values. Choose a minimum, maximum and step that match the scale and level of precision users need. For example, a slider from 0 to 100 with a step of 5 allows values such as 0, 5, 10 and 15. \n\n- Single value – uses one handle to select a value between a defined minimum and maximum.\n- Range – uses two handles to select a lower and upper value within a defined minimum and maximum.\n\n"
+        }
+      ]
     }
   ]
 }
