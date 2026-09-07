@@ -21,6 +21,9 @@
       },
       {
         "text": "Textbox"
+      },
+      {
+        "text": "Tickers"
       }
     ]
   },
@@ -53,7 +56,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "A slider can be used to select a single value or a range between two values. Both types can use steps to define the interval between selectable values. Choose a minimum, maximum and step that match the scale and level of precision users need. For example, a slider from 0 to 100 with a step of 5 allows values such as 0, 5, 10 and 15. \n\n- Single value – uses one handle to select a value between a defined minimum and maximum.\n- Range – uses two handles to select a lower and upper value within a defined minimum and maximum.\n\n"
+          "content": "A slider can be used to select a single value or a range between two values.\n\n- **Single value** – uses one handle to select a value between a defined minimum and maximum.\n- **Range** – uses two handles to select a lower and upper value within a defined minimum and maximum.\n\nBoth types can use steps to define the interval between selectable values. Tick marks can be used to visually represent fixed steps when users choose between a limited set of predefined values.\n\n"
         }
       ]
     },
