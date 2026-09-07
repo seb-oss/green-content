@@ -95,6 +95,35 @@
           "dolist": [
             {
               "text": "Use a slider when users benefit from adjusting a value visually within a range."
+            },
+            {
+              "text": "Choose a step that matches the level of precision users need."
+            },
+            {
+              "text": "Show the current value while the user is interacting with the slider."
+            },
+            {
+              "text": "Provide additional context when the minimum and maximum values are not obvious."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Don’t use a slider when users need to enter an exact value quickly."
+            },
+            {
+              "text": "Don’t use a slider for a very large range when small differences between values matter."
+            },
+            {
+              "text": "Don’t use unnecessarily small steps that make the slider difficult to control."
+            },
+            {
+              "text": "Don’t rely on the handle position alone when users need to understand the exact value."
+            },
+            {
+              "text": "Don’t use a slider for choosing between a small number of distinct options. Consider radio buttons instead."
             }
           ]
         }
