@@ -130,8 +130,7 @@
         },
         {
           "type": "image",
-          "ratio": "16/9",
-          "src": "/assets/brand-hub/5c5d3cb7bdb340c9b623698516324055_1.jpg"
+          "ratio": "16/9"
         }
       ]
     },
