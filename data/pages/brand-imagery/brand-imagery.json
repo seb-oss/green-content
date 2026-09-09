@@ -11,7 +11,7 @@
         {
           "type": "image",
           "height": "16/9",
-          "src": "/assets/brand-hub/b59dc5ee-f316-45a0-936b-c9ec3918ba0f.png"
+          "src": "/assets/header_imagery.jpg"
         }
       ]
     },
@@ -213,7 +213,8 @@
           "title": "SEB media bank",
           "excerpt": "Here you can find SEB brand images.  Do you need production of material for Branch office LCD-screens? Please see the intranet for further information. ",
           "label": "Go to media bank",
-          "href": "https://brand.seb.se/point/en/seb/"
+          "href": "https://brand.seb.se/point/en/seb/",
+          "downloadable": false
         }
       ]
     },
