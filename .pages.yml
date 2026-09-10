@@ -957,6 +957,17 @@ content:
       fields: [title, date, status]
     fields: *componentFields
 
+  - name: prefabs
+    label: Prefabs
+    type: collection
+    format: "json"
+    subfolders: false
+    path: content/prefabs
+    filename: "{fields.slug}.json"
+    view:
+      fields: [title, date, status]
+    fields: *componentFields
+
   - name: pages
     label: Pages
     type: collection

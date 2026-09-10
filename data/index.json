@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-09-10T13:34:04.497Z",
+    "lastUpdated": "2026-09-10T13:46:59.158Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -486,6 +486,21 @@
             "endpoints": {
               "content": "patterns/search-and-filter/search-and-filter.content.json",
               "images": "patterns/search-and-filter/search-and-filter.images.json"
+            }
+          }
+        ]
+      },
+      "prefabs": {
+        "list": "prefabs/prefabs.json",
+        "items": [
+          {
+            "title": "Card prefab 01",
+            "slug": "card-prefab-01",
+            "summary": "Placeholder prefab entry. Move card-pattern-01 content here manually.",
+            "path": "prefabs/card-prefab-01/card-prefab-01.content.json",
+            "endpoints": {
+              "content": "prefabs/card-prefab-01/card-prefab-01.content.json",
+              "images": "prefabs/card-prefab-01/card-prefab-01.images.json"
             }
           }
         ]

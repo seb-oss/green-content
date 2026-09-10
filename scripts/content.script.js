@@ -6,6 +6,7 @@ const path = require("path");
 const CONTENT_DIR = "content";
 const COMPONENTS_DIR = path.join(CONTENT_DIR, "components");
 const PATTERNS_DIR = path.join(CONTENT_DIR, "patterns");
+const PREFABS_DIR = path.join(CONTENT_DIR, "prefabs");
 const NAVIGATION_DIR = path.join(CONTENT_DIR, "navigation");
 const TEMPLATES_DIR = path.join(CONTENT_DIR, "templates");
 const PAGES_DIR = path.join(CONTENT_DIR, "pages");
@@ -23,6 +24,7 @@ function createDirectories() {
     CONTENT_DIR,
     COMPONENTS_DIR,
     PATTERNS_DIR,
+    PREFABS_DIR,
     NAVIGATION_DIR,
     TEMPLATES_DIR,
     PAGES_DIR,
@@ -127,6 +129,32 @@ async function processPatternContent(filename) {
     };
   } catch (error) {
     console.error(`Failed to process ${patternName}:`, error);
+    return null;
+  }
+}
+
+async function processPrefabContent(filename) {
+  const prefabName = path.basename(filename, ".json");
+  console.log(`Processing prefab: ${prefabName}`);
+
+  try {
+    const inputPath = path.join(PREFABS_DIR, filename);
+    const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+
+    const outputDir = path.join(DATA_DIR, "prefabs", prefabName);
+    fs.mkdirSync(outputDir, { recursive: true });
+
+    const outputPath = path.join(outputDir, `${prefabName}.content.json`);
+    fs.writeFileSync(outputPath, JSON.stringify(contentData, null, 2));
+
+    return {
+      title: contentData.title || prefabName,
+      slug: contentData.slug || prefabName,
+      summary: contentData.summary,
+      path: `prefabs/${prefabName}/${prefabName}.content.json`,
+    };
+  } catch (error) {
+    console.error(`Failed to process ${prefabName}:`, error);
     return null;
   }
 }
@@ -462,6 +490,59 @@ async function main() {
     JSON.stringify(patternsIndex, null, 2),
   );
 
+  // List and process prefab files
+  const prefabFiles = fs.existsSync(PREFABS_DIR)
+    ? fs.readdirSync(PREFABS_DIR).filter((file) => file.endsWith(".json"))
+    : [];
+
+  console.log("Found prefab files:", prefabFiles);
+
+  const prefabsData = [];
+  for (const filename of prefabFiles) {
+    console.log(`\nProcessing ${filename}...`);
+    try {
+      const prefabName = path.basename(filename, ".json");
+      const inputPath = path.join(PREFABS_DIR, filename);
+      const outputDir = path.join(DATA_DIR, "prefabs", prefabName);
+
+      // Ensure prefab directory exists
+      fs.mkdirSync(outputDir, { recursive: true });
+
+      // Read and write content
+      const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+      const outputPath = path.join(outputDir, `${prefabName}.content.json`);
+
+      fs.writeFileSync(outputPath, JSON.stringify(contentData, null, 2));
+      console.log(`Written to: ${outputPath}`);
+
+      prefabsData.push({
+        title: contentData.title || prefabName,
+        slug: contentData.slug || prefabName,
+        summary: contentData.summary,
+        path: `prefabs/${prefabName}/${prefabName}.content.json`,
+      });
+    } catch (error) {
+      console.error(`Error processing ${filename}:`, error);
+    }
+  }
+
+  console.log(
+    "\nProcessed prefabs:",
+    prefabsData.map((p) => p.slug),
+  );
+
+  // Write prefabs index
+  const prefabsIndex = {
+    prefabs: prefabsData,
+    total: prefabsData.length,
+    lastUpdated: new Date().toISOString(),
+  };
+
+  fs.writeFileSync(
+    path.join(DATA_DIR, "prefabs", "prefabs.json"),
+    JSON.stringify(prefabsIndex, null, 2),
+  );
+
   const navigationFiles = fs.existsSync(NAVIGATION_DIR)
     ? fs.readdirSync(NAVIGATION_DIR).filter((file) => file.endsWith(".json"))
     : [];
@@ -532,6 +613,18 @@ async function main() {
               endpoints: {
                 content: pattern.path,
                 images: `patterns/${pattern.slug}/${pattern.slug}.images.json`,
+              },
+            })),
+        },
+        prefabs: {
+          list: "prefabs/prefabs.json",
+          items: prefabsData
+            .filter((prefab) => prefab !== null)
+            .map((prefab) => ({
+              ...prefab,
+              endpoints: {
+                content: prefab.path,
+                images: `prefabs/${prefab.slug}/${prefab.slug}.images.json`,
               },
             })),
         },
@@ -608,6 +701,7 @@ async function main() {
 
   writeIndexFile("components", componentsData, "components");
   writeIndexFile("patterns", patternsData, "patterns");
+  writeIndexFile("prefabs", prefabsData, "prefabs");
   writeIndexFile("pages", pagesData, "pages");
   writeIndexFile("snippets", snippetsData, "snippets");
   writeIndexFile("templates", templatesData, "templates");
