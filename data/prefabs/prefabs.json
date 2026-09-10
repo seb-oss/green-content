@@ -7,12 +7,12 @@
       "path": "prefabs/card-pattern-01/card-pattern-01.content.json"
     },
     {
-      "title": "List pattern 01",
-      "slug": "list-pattern-01",
+      "title": "List item pattern 01",
+      "slug": "list-item-pattern-01",
       "summary": "List item Pattern 01 provides a predefined layout for displaying structured information in a list.",
-      "path": "prefabs/card-pattern-01/card-pattern-01.content.json"
+      "path": "prefabs/list-pattern-01/list-pattern-01.content.json"
     }
   ],
-  "total": 1,
-  "lastUpdated": "2026-09-10T13:46:59.160Z"
+  "total": 2,
+  "lastUpdated": "2026-09-10T13:56:15.534Z"
 }
