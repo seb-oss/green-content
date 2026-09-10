@@ -8,14 +8,14 @@
       "icon": "IconHomeOpen"
     },
     {
-      "title": "Brand",
-      "slug": "brand",
-      "icon": "IconFlag"
-    },
-    {
       "title": "Studio",
       "slug": "studio",
       "icon": "IconBrandGreen"
+    },
+    {
+      "title": "Brand",
+      "slug": "brand",
+      "icon": "IconFlag"
     },
     {
       "title": "Blog",
