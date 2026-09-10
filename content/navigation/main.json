@@ -33,6 +33,11 @@
       "icon": "IconCirclesThree"
     },
     {
+      "title": "Patterns",
+      "slug": "patterns",
+      "icon": "IconCarussel"
+    },
+    {
       "title": "Design direction",
       "slug": "design-direction",
       "icon": "IconDirection"
