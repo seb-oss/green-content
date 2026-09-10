@@ -1,0 +1,175 @@
+{
+  "title": "List item pattern 01",
+  "slug": "list-item-pattern-01",
+  "hero_snippet": "lp01-hero",
+  "beta": true,
+  "soon": false,
+  "summary": "List item Pattern 01 provides a predefined layout for displaying structured information in a list.",
+  "preamble": "List item Pattern 01 is built on top of the List and List item components. It combines predefined content areas and interactive behaviours into a reusable layout that covers most list-based use cases.",
+  "anatomy": false,
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  },
+  "overview": [
+    {
+      "title": "When to use",
+      "tag": "H2",
+      "section-content": "Use Pattern 01 when displaying structured information that users need to scan, compare or interact with. Common examples include:",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Accounts",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-accounts"
+        },
+        {
+          "type": "snippet",
+          "caption": "Transactions",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-transactions"
+        },
+        {
+          "type": "snippet",
+          "caption": "Settings",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-settings"
+        }
+      ]
+    },
+    {
+      "title": "Layout examples",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "snippet",
+          "caption": "Label only",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-label-only"
+        },
+        {
+          "type": "snippet",
+          "caption": "Label and supporting text",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-label-and-support"
+        },
+        {
+          "type": "snippet",
+          "caption": "Lead icon",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-lead-icons"
+        },
+        {
+          "type": "snippet",
+          "caption": "Lead avatar",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-lead-avatar"
+        },
+        {
+          "type": "snippet",
+          "caption": "Two columns with content",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-two-col"
+        },
+        {
+          "type": "snippet",
+          "caption": "Three columns with content",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-three-col"
+        },
+        {
+          "type": "snippet",
+          "caption": "With badge",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-badge"
+        },
+        {
+          "type": "snippet",
+          "caption": "With action",
+          "plain": false,
+          "replay": false,
+          "Snippet": "lip01-action"
+        }
+      ]
+    },
+    {
+      "title": "Interaction",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Pattern 01 supports both static and interactive list items.\n\nDepending on the use case, a list item can be:\n\n- **Static** – displays information without interaction.\n- **Selectable** – allows users to select one or more items.\n- **Navigational** – takes users to another view or destination.\n- **Selectable and navigational** – supports both selection and navigation within the same item.\n\nUse the same interaction pattern consistently throughout a list to create a predictable user experience."
+        }
+      ]
+    },
+    {
+      "title": "Slots",
+      "tag": "H2",
+      "section-content": "List item pattern 01 is built around three slots that help organise content in a consistent and predictable way.",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Lead slot",
+          "tag": "H3",
+          "content": "Use for icons, avatars, or custom leading content. When `selectable` is enabled, it shows a checkbox."
+        },
+        {
+          "type": "rich-text",
+          "title": "Content slot",
+          "tag": "H3",
+          "content": "The Content slot is fully customizable and can contain any content needed for your use case.\n\nFor the recommended layout, use the `Items` property. It provides predefined content styles and supports one, two or three content columns, making it easy to create consistent and scannable list items.\n\nIf your layout requires more flexibility than the `Items` property supports, you can instead provide custom content through the Content slot."
+        },
+        {
+          "type": "rich-text",
+          "title": "Trail slot",
+          "tag": "H3",
+          "content": "Use the **Trail** slot for secondary content, such as values, status, metadata or actions. Keep trailing content concise and avoid placing the primary information here.\n\nWhen a list item is configured as navigational**** (`href)`, a chevron icon is automatically displayed in the Trail slot. When configured as `selectable`**** and**** `navigational`, the Trail slot instead displays an icon button with a chevron icon, indicating both selection and navigation."
+        }
+      ]
+    },
+    {
+      "title": "Do's and don'ts",
+      "tag": "H2",
+      "columns": [
+        {
+          "type": "do",
+          "dolist": [
+            {
+              "text": "Use one layout consistently within the same list."
+            },
+            {
+              "text": "Keep supporting content concise."
+            },
+            {
+              "text": "Align similar information across list items."
+            }
+          ]
+        },
+        {
+          "type": "dont",
+          "dontlist": [
+            {
+              "text": "Overload items with multiple actions."
+            },
+            {
+              "text": "Use custom content unless the predefined pattern cannot support your layout."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

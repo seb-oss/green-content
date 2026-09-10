@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "generate-content-data",
+			"type": "shell",
+			"command": "cd /Users/astrit/am/dev/green-content && node scripts/content.script.js",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "generate-content-data-2",
+			"type": "shell",
+			"command": "cd /Users/astrit/am/dev/green-content && node scripts/content.script.js",
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}
