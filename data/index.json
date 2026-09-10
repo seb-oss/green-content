@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-09-10T13:23:20.211Z",
+    "lastUpdated": "2026-09-10T13:34:04.497Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -471,6 +471,21 @@
             "endpoints": {
               "content": "components/video/video.content.json",
               "images": "components/video/video.images.json"
+            }
+          }
+        ]
+      },
+      "patterns": {
+        "list": "patterns/patterns.json",
+        "items": [
+          {
+            "title": "Search and filter",
+            "slug": "search-and-filter",
+            "summary": "A pre-built composition combining a search input with filter chips to help users narrow down large data sets.",
+            "path": "patterns/search-and-filter/search-and-filter.content.json",
+            "endpoints": {
+              "content": "patterns/search-and-filter/search-and-filter.content.json",
+              "images": "patterns/search-and-filter/search-and-filter.images.json"
             }
           }
         ]

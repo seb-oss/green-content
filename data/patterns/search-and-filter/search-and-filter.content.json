@@ -1,0 +1,38 @@
+{
+  "title": "Search and filter",
+  "slug": "search-and-filter",
+  "beta": true,
+  "soon": false,
+  "summary": "A pre-built composition combining a search input with filter chips to help users narrow down large data sets.",
+  "preamble": "Search and filter combines an input, filter chips, and result list into a single, consistent pattern for exploring collections of data. It shows how components, behaviour, and guidelines work together to meet a common interface need.",
+  "anatomy": true,
+  "anatomy-list": {
+    "anatomyitems": [
+      {
+        "text": "Search input"
+      },
+      {
+        "text": "Filter chips"
+      },
+      {
+        "text": "Result list"
+      }
+    ]
+  },
+  "tags": [
+    "filter",
+    "navigation"
+  ],
+  "platform": {
+    "web": true,
+    "ios": false,
+    "android": false
+  },
+  "overview": [
+    {
+      "title": "Usage",
+      "tag": "H2",
+      "section-content": "Use the search and filter pattern whenever users need to explore or narrow down a larger collection of items, such as tables, lists, or grids of cards."
+    }
+  ]
+}

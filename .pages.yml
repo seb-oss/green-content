@@ -14,7 +14,7 @@ content:
     filename: "{fields.slug}.json"
     view:
       fields: [title, date, status]
-    fields:
+    fields: &componentFields
       - { name: title, label: Title, type: string, required: true }
       - { name: slug, label: Slug, type: string, required: true }
       - name: hero_snippet
@@ -945,6 +945,17 @@ content:
                       - name: downloadable
                         label: Downloadable
                         type: boolean
+
+  - name: patterns
+    label: Patterns
+    type: collection
+    format: "json"
+    subfolders: false
+    path: content/patterns
+    filename: "{fields.slug}.json"
+    view:
+      fields: [title, date, status]
+    fields: *componentFields
 
   - name: pages
     label: Pages

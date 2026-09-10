@@ -5,6 +5,7 @@ const path = require("path");
 // Input directories
 const CONTENT_DIR = "content";
 const COMPONENTS_DIR = path.join(CONTENT_DIR, "components");
+const PATTERNS_DIR = path.join(CONTENT_DIR, "patterns");
 const NAVIGATION_DIR = path.join(CONTENT_DIR, "navigation");
 const TEMPLATES_DIR = path.join(CONTENT_DIR, "templates");
 const PAGES_DIR = path.join(CONTENT_DIR, "pages");
@@ -21,6 +22,7 @@ function createDirectories() {
   const directories = [
     CONTENT_DIR,
     COMPONENTS_DIR,
+    PATTERNS_DIR,
     NAVIGATION_DIR,
     TEMPLATES_DIR,
     PAGES_DIR,
@@ -99,6 +101,32 @@ async function processComponentContent(filename) {
     };
   } catch (error) {
     console.error(`Failed to process ${componentName}:`, error);
+    return null;
+  }
+}
+
+async function processPatternContent(filename) {
+  const patternName = path.basename(filename, ".json");
+  console.log(`Processing pattern: ${patternName}`);
+
+  try {
+    const inputPath = path.join(PATTERNS_DIR, filename);
+    const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+
+    const outputDir = path.join(DATA_DIR, "patterns", patternName);
+    fs.mkdirSync(outputDir, { recursive: true });
+
+    const outputPath = path.join(outputDir, `${patternName}.content.json`);
+    fs.writeFileSync(outputPath, JSON.stringify(contentData, null, 2));
+
+    return {
+      title: contentData.title || patternName,
+      slug: contentData.slug || patternName,
+      summary: contentData.summary,
+      path: `patterns/${patternName}/${patternName}.content.json`,
+    };
+  } catch (error) {
+    console.error(`Failed to process ${patternName}:`, error);
     return null;
   }
 }
@@ -381,6 +409,59 @@ async function main() {
     JSON.stringify(componentsIndex, null, 2),
   );
 
+  // List and process pattern files
+  const patternFiles = fs.existsSync(PATTERNS_DIR)
+    ? fs.readdirSync(PATTERNS_DIR).filter((file) => file.endsWith(".json"))
+    : [];
+
+  console.log("Found pattern files:", patternFiles);
+
+  const patternsData = [];
+  for (const filename of patternFiles) {
+    console.log(`\nProcessing ${filename}...`);
+    try {
+      const patternName = path.basename(filename, ".json");
+      const inputPath = path.join(PATTERNS_DIR, filename);
+      const outputDir = path.join(DATA_DIR, "patterns", patternName);
+
+      // Ensure pattern directory exists
+      fs.mkdirSync(outputDir, { recursive: true });
+
+      // Read and write content
+      const contentData = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+      const outputPath = path.join(outputDir, `${patternName}.content.json`);
+
+      fs.writeFileSync(outputPath, JSON.stringify(contentData, null, 2));
+      console.log(`Written to: ${outputPath}`);
+
+      patternsData.push({
+        title: contentData.title || patternName,
+        slug: contentData.slug || patternName,
+        summary: contentData.summary,
+        path: `patterns/${patternName}/${patternName}.content.json`,
+      });
+    } catch (error) {
+      console.error(`Error processing ${filename}:`, error);
+    }
+  }
+
+  console.log(
+    "\nProcessed patterns:",
+    patternsData.map((p) => p.slug),
+  );
+
+  // Write patterns index
+  const patternsIndex = {
+    patterns: patternsData,
+    total: patternsData.length,
+    lastUpdated: new Date().toISOString(),
+  };
+
+  fs.writeFileSync(
+    path.join(DATA_DIR, "patterns", "patterns.json"),
+    JSON.stringify(patternsIndex, null, 2),
+  );
+
   const navigationFiles = fs.existsSync(NAVIGATION_DIR)
     ? fs.readdirSync(NAVIGATION_DIR).filter((file) => file.endsWith(".json"))
     : [];
@@ -439,6 +520,18 @@ async function main() {
               endpoints: {
                 content: component.path,
                 images: `components/${component.slug}/${component.slug}.images.json`,
+              },
+            })),
+        },
+        patterns: {
+          list: "patterns/patterns.json",
+          items: patternsData
+            .filter((pattern) => pattern !== null)
+            .map((pattern) => ({
+              ...pattern,
+              endpoints: {
+                content: pattern.path,
+                images: `patterns/${pattern.slug}/${pattern.slug}.images.json`,
               },
             })),
         },
@@ -514,6 +607,7 @@ async function main() {
   };
 
   writeIndexFile("components", componentsData, "components");
+  writeIndexFile("patterns", patternsData, "patterns");
   writeIndexFile("pages", pagesData, "pages");
   writeIndexFile("snippets", snippetsData, "snippets");
   writeIndexFile("templates", templatesData, "templates");
