@@ -71,6 +71,17 @@
       ]
     },
     {
+      "title": "Read only",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Displays the entered value together with its label. Have no visual cues associated with text entry, such as an active input cursor or editable states. \n\n[Read more about the read only pattern](http://seb.io/patterns/read-only)"
+        }
+      ]
+    },
+    {
       "title": "Do's and don'ts",
       "cols": "2",
       "columns": [
@@ -95,17 +106,6 @@
               "text": "Write out the format in the label. The datepicker is already constrained to a configured format."
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "Read only",
-      "tag": "H2",
-      "cols": "2",
-      "columns": [
-        {
-          "type": "rich-text",
-          "content": "Displays the entered value together with its label. Have no visual cues associated with text entry, such as an active input cursor or editable states. \n\n[Read more about the read only pattern](http://seb.io/patterns/read-only)"
         }
       ]
     }
