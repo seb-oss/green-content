@@ -44,7 +44,7 @@
     {
       "title": "Features",
       "tag": "H2",
-      "section-content": "*   Configurable date format display\n    \n*   `plain` mode to hide labels and error messages\n    \n*   Clearable for quick state reset\n    \n*   Min and max dates\n    \n*   Can be configured with visible or hidden week numbers\n    \n*   Individual dates can be marked as disabled in the calendar\n    \n*   Buttons in the calendar footer are configurable",
+      "section-content": "- Configurable date format display\n- `plain` mode to hide labels and error messages\n- Clearable for quick state reset\n- Min and max dates\n- Can be configured with visible or hidden week numbers\n- Individual dates can be marked as disabled in the calendar\n- Buttons in the calendar footer are configurable\n\n",
       "cols": "1"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
       "title": "Size",
-      "section-content": "The datepicker comes in two sizes.\n\n*   **Large** (default)\n    \n*   **Small**: used in tables and in some special cases where the space is very limited.",
+      "section-content": "The datepicker comes in two sizes.\n\n- **Large** (default)\n- **Small**: used in tables and in some special cases where the space is very limited.\n\n",
       "cols": "2",
       "columns": [
         {
@@ -95,6 +95,17 @@
               "text": "Write out the format in the label. The datepicker is already constrained to a configured format."
             }
           ]
+        }
+      ]
+    },
+    {
+      "title": "Read only",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Displays the entered value together with its label. Have no visual cues associated with text entry, such as an active input cursor or editable states. \n\n[Read more about the read only pattern](http://seb.io/patterns/read-only)"
         }
       ]
     }
