@@ -7,7 +7,7 @@
   "summary": "Textarea allow users to input text and digits on multiple lines.",
   "preamble": "Textarea is used for longer text inputs, featuring 4 default rows and possibility for automatic vertical resizing. Ideal for comments, descriptions, and other multiline content in forms and dialogs.\n",
   "anatomy": true,
-  "anatomy-overview": "The textarea (and other form controls) are divided in sections that are re-used between components.\n\n*   **Header**: Label, label support, contextual help, extended support.\n    \n*   **Body**: The field with leading and trailing slots.\n    \n*   **Footer**: Character counter and error message.",
+  "anatomy-overview": "The textarea (and other form controls) are divided in sections that are re-used between components.\n\n- **Header**: Label, label support, contextual help, extended support.\n- **Body**: The field with leading and trailing slots.\n- **Footer**: Character counter and error message.\n\n",
   "anatomy-list": {
     "anatomyitems": [
       {
@@ -43,10 +43,8 @@
     ]
   },
   "tags": [
-    "Form",
-    "free-text",
-    "text-entry",
-    "text-field"
+    "form",
+    "input"
   ],
   "category": [
     "Components"
@@ -60,7 +58,7 @@
   "overview": [
     {
       "title": "Variants",
-      "section-content": "We provide two versions of textarea.\n\n*   **Default**\n    \n*   **Floating label** (coming soon): Can only be used in specific contexts. Limited features due to accessibility.",
+      "section-content": "We provide two versions of textarea.\n\n- **Default**\n- **Floating label** (coming soon): Can only be used in specific contexts. Limited features due to accessibility.\n\n",
       "cols": "2",
       "columns": [
         {
@@ -113,7 +111,7 @@
     },
     {
       "title": "Contextual help",
-      "section-content": "If the label and support text aren’t enough to explain a field, we can use the info icon. Clicking the icon shows additional support text between the label support and the field.\n\n*   Use a tooltip if space is limited.\n    \n*   Use a modal for large amounts of text.",
+      "section-content": "If the label and support text aren’t enough to explain a field, we can use the info icon. Clicking the icon shows additional support text between the label support and the field.\n\n- Use a tooltip if space is limited.\n- Use a modal for large amounts of text.\n\n",
       "cols": "2",
       "columns": [
         {
@@ -182,13 +180,24 @@
     },
     {
       "title": "Resize",
-      "section-content": "The default Textarea has a fixed height based on the expected input. This helps users understand how much text the field is intended for. If the field should be resizable, there are two options:\n\n*   **Automatic**: Adjusts dynamically as the user types.\n    \n*   **Manual**: Users can resize it by dragging the corner.",
+      "section-content": "The default Textarea has a fixed height based on the expected input. This helps users understand how much text the field is intended for. If the field should be resizable, there are two options:\n\n- **Automatic**: Adjusts dynamically as the user types.\n- **Manual**: Users can resize it by dragging the corner.\n\n",
       "cols": "2",
       "columns": [
         {
           "type": "figma",
           "caption": "Resize handle visible.",
           "node": "resize"
+        }
+      ]
+    },
+    {
+      "title": "Read only",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The read only state displays the entered value together with its label. Have no visual cues associated with text entry, such as an active input cursor or editable states. Long content should remain readable and should not be unnecessarily truncated.\n\n[Read more about the read only pattern](https://seb.io/patterns/read-only)"
         }
       ]
     }
