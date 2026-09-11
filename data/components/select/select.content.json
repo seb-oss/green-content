@@ -7,12 +7,8 @@
   "summary": "A select enables the user to choose one or multiple options from a list.",
   "preamble": "The select component is designed for single-choice selections, offering native mobile functionality and enhanced accessibility. Best suited for simple option lists, while maintaining familiar dropdown behaviour across devices.",
   "anatomy": false,
-  "anatomy-overview": "The select (and other form controls) are divided in sections that are re-used between components.\n\n*   **Header**: Label, label support, contextual help, extended support.\n    \n*   **Body**: The field.\n    \n*   **Footer**: Error message.",
+  "anatomy-overview": "The select (and other form controls) are divided in sections that are re-used between components.\n\n- **Header**: Label, label support, contextual help, extended support.\n- **Body**: The field.\n- **Footer**: Error message.\n\n",
   "anatomy-details": "Details of header and footer elements are described in dropdown",
-  "tags": [
-    "Form",
-    "select"
-  ],
   "category": [
     "Components"
   ],
@@ -31,6 +27,17 @@
     {
       "title": "Option list",
       "section-content": "The appearance and behavior of the option list will be handled according to each browser."
+    },
+    {
+      "title": "Read only",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The read only state displays the entered value together with its label. Have no visual cues associated with text entry, such as an active input cursor or editable states. \n\n[Read more about the read only pattern](https://seb.io/patterns/read-only)"
+        }
+      ]
     },
     {
       "title": "Do's and don'ts",
