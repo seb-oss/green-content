@@ -270,7 +270,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "The read only state displays the entered value together with its label. Have no visual cues associated with text entry, such as an active input cursor or editable states. \n\n[Read more about the read only pattern](https://seb.io/patterns/read-only)"
+          "content": "The read only displays the selected value, but removes affordances that suggest the list can be opened or changed.\n\n[Read more about the read only pattern](https://seb.io/patterns/read-only)"
         }
       ]
     }
