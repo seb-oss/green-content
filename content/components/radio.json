@@ -7,7 +7,7 @@
   "summary": "A radio button is a form control that allows users to select one of the predefined set of choices.",
   "preamble": "Radio buttons are commonly used in forms, surveys, and settings where users need to make a single selection from a list of options.\nThe benefit of using radio buttons over select is that users may easily scan the available options and make a quick selection",
   "anatomy": true,
-  "anatomy-overview": "The radio button (and other form controls) are divided in sections that are re-used between components.\n\n*   **Header**: Label, label support, contextual help, extended support.\n    \n*   **Body**: The radio button.\n    \n*   **Footer**: Error message.",
+  "anatomy-overview": "The radio button (and other form controls) are divided in sections that are re-used between components.\n\n- **Header**: Label, label support, contextual help, extended support.\n- **Body**: The radio button.\n- **Footer**: Error message.\n\n",
   "anatomy-list": {
     "anatomyitems": [
       {
@@ -30,9 +30,6 @@
       }
     ]
   },
-  "tags": [
-    "Form"
-  ],
   "category": [
     "Components"
   ],
@@ -46,7 +43,7 @@
   "overview": [
     {
       "title": "Variants",
-      "section-content": "*   **Default**\n    \n*   **Contained**: used only in combination with other contained form components.\n    \n*   **Contained extended(coming soon)**: The contained version but including Label support text.",
+      "section-content": "- **Default**\n- **Contained**: used only in combination with other contained form components.\n- **Contained extended(coming soon)**: The contained version but including Label support text.\n\n",
       "cols": "2",
       "columns": [
         {
@@ -91,7 +88,7 @@
     },
     {
       "title": "Contextual help",
-      "section-content": "If the label and support text are not enough to explain a field, we can use the info icon. Clicking the icon shows additional support text between the label support and the field.\n\n*   Use a tooltip if space is limited.\n    \n*   Use a modal for large amounts of text.",
+      "section-content": "If the label and support text are not enough to explain a field, we can use the info icon. Clicking the icon shows additional support text between the label support and the field.\n\n- Use a tooltip if space is limited.\n- Use a modal for large amounts of text.\n\n",
       "cols": "2",
       "columns": [
         {
@@ -125,11 +122,11 @@
     },
     {
       "title": "Behaviour",
-      "section-content": "*   **Mutual exclusivity**: Only one radio button within a group can be selected at a time.\n    \n*   **Defaults**: Aim for having one option pre-selected."
+      "section-content": "- **Mutual exclusivity**: Only one radio button within a group can be selected at a time.\n- **Defaults**: Aim for having one option pre-selected.\n\n"
     },
     {
       "title": "Alignment",
-      "section-content": "We can align the radio buttons both horizontal and vertical.\n\n*   **Vertical**: This is the default alignment. It's easier to read and scan the available options.\n    \n*   **Horizontal**: Only used for a small set of options if the page shouldn't be to long, but try to avoid.",
+      "section-content": "We can align the radio buttons both horizontal and vertical.\n\n- **Vertical**: This is the default alignment. It's easier to read and scan the available options.\n- **Horizontal**: Only used for a small set of options if the page shouldn't be to long, but try to avoid.\n\n",
       "cols": "2",
       "columns": [
         {
@@ -181,6 +178,17 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Read only",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Shows the selected option without allowing the selection to be changed. Keep all options visible when the alternatives provide important context for understanding the selected value. If only the selected value is relevant, consider presenting it as text instead.\n\n[Read more about the read only pattern](http://seb.io/patterns/read-only)"
+        }
+      ]
     }
   ],
   "ux-text": [
@@ -206,7 +214,7 @@
           "type": "rich-text",
           "title": "Single words or full sentences",
           "tag": "H3",
-          "content": "Keep texts as short as possible. Labels can be single words or full sentences. In some cases, questions work best to prompt users for the right details, such as:\n\n*   Which funds do you want to buy?\n    \n*   Is the company a financial institution?\n    \n*   How do you earn your main income?"
+          "content": "Keep texts as short as possible. Labels can be single words or full sentences. In some cases, questions work best to prompt users for the right details, such as:\n\n- Which funds do you want to buy?\n- Is the company a financial institution?\n- How do you earn your main income?\n\n"
         }
       ]
     },
@@ -253,7 +261,7 @@
     {
       "title": "Be consistent",
       "tag": "H3",
-      "section-content": "Keep options consistent. Decide whether they should:\n\n*   Be full sentences and start with either a capital or lowercase letter\n    \n*   End with a full stop or not\n    \n*   Be a full sentence, a phrase, or a single word",
+      "section-content": "Keep options consistent. Decide whether they should:\n\n- Be full sentences and start with either a capital or lowercase letter\n- End with a full stop or not\n- Be a full sentence, a phrase, or a single word\n\n",
       "cols": "2",
       "columns": [
         {
@@ -302,7 +310,7 @@
     },
     {
       "title": "Do's and Dont's",
-      "section-content": "*   Always provide labels for both radios and group\n    \n*   Always make sure each radio has a unique value\n    \n*   Never use radio buttons outside of a radio group\n    \n*   Never use less than two radios in a group"
+      "section-content": "- Always provide labels for both radios and group\n- Always make sure each radio has a unique value\n- Never use radio buttons outside of a radio group\n- Never use less than two radios in a group\n\n"
     }
   ]
 }
