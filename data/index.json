@@ -2,7 +2,7 @@
   "api": {
     "version": "1.0.0",
     "baseUrl": "https://api.seb.io",
-    "lastUpdated": "2026-09-10T13:57:41.101Z",
+    "lastUpdated": "2026-09-11T10:38:04.914Z",
     "resources": {
       "home": {
         "endpoint": "home.json",
@@ -478,6 +478,16 @@
       "patterns": {
         "list": "patterns/patterns.json",
         "items": [
+          {
+            "title": "Read only",
+            "slug": "patterns/read-only",
+            "summary": "Read only is used when form data should be visible but not editable.",
+            "path": "patterns/patternsread-only/patternsread-only.content.json",
+            "endpoints": {
+              "content": "patterns/patternsread-only/patternsread-only.content.json",
+              "images": "patterns/patterns/read-only/patterns/read-only.images.json"
+            }
+          },
           {
             "title": "Search and filter",
             "slug": "search-and-filter",

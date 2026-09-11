@@ -1,12 +1,18 @@
 {
   "patterns": [
     {
+      "title": "Read only",
+      "slug": "patterns/read-only",
+      "summary": "Read only is used when form data should be visible but not editable.",
+      "path": "patterns/patternsread-only/patternsread-only.content.json"
+    },
+    {
       "title": "Search and filter",
       "slug": "search-and-filter",
       "summary": "A pre-built composition combining a search input with filter chips to help users narrow down large data sets.",
       "path": "patterns/search-and-filter/search-and-filter.content.json"
     }
   ],
-  "total": 1,
-  "lastUpdated": "2026-09-10T13:57:41.104Z"
+  "total": 2,
+  "lastUpdated": "2026-09-11T10:38:04.917Z"
 }
