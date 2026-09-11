@@ -286,6 +286,17 @@
           "node": "dont"
         }
       ]
+    },
+    {
+      "title": "Read only",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The read only state displays the entered value together with its label. Have no visual cues associated with text entry, such as an active input cursor or editable states. Long content should remain readable and should not be unnecessarily truncated.  \n[More about the read only pattern](https://seb.io/patterns/read-only)"
+        }
+      ]
     }
   ],
   "ux-text": [
