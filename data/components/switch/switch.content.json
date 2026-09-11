@@ -109,6 +109,17 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Read only",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Shows the current state without allowing it to be changed. Keep the label and make the current state clear. Since a switch normally represents an immediate on or off setting, users should be able to understand the state without relying on the position or visual appearance of the switch alone.\n\n[Read more about the read only pattern](https://seb.io/patterns/read-only)"
+        }
+      ]
     }
   ],
   "ux-text": [
