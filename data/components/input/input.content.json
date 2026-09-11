@@ -166,6 +166,7 @@
     },
     {
       "title": "Leading icon",
+      "tag": "H3",
       "section-content": "A leading icon visually reinforces the purpose of the field, helping users to understand what type of information is needed. For example: search fields or card number.",
       "cols": "2",
       "columns": [
