@@ -1,0 +1,74 @@
+{
+  "title": "Read only",
+  "slug": "patterns/read-only",
+  "beta": false,
+  "soon": true,
+  "summary": "Read only is used when form data should be visible but not editable.",
+  "preamble": "The read only allows users to review information in the same context and structure as editable form content, while making it clear that the value cannot be changed.",
+  "anatomy": true,
+  "tags": [
+    "form"
+  ],
+  "category": [
+    "Patterns"
+  ],
+  "platform": {
+    "web": false,
+    "ios": false,
+    "android": false
+  },
+  "overview": [
+    {
+      "title": "When to use",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Use read only when:\n\n- A value needs to remain visible as part of a form or form-like flow, but cannot be changed.\n- Information has already been submitted or confirmed and should only be reviewed.\n- A value is determined by another source, system or previous choice.\n- Some fields in an otherwise editable form cannot be changed.\n\nIf the information is presented only for reading and is not part of a form context, consider using regular text or another content component instead."
+        }
+      ]
+    },
+    {
+      "title": "Read only vs disabled",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "title": "Read only",
+          "tag": "H3",
+          "content": "Read only means that the value is available and relevant, it can receive focus but cannot be changed. The content should remain clearly readable and accessible."
+        },
+        {
+          "type": "rich-text",
+          "title": "Disabled",
+          "tag": "H3",
+          "content": "Disabled means that a control or action is currently unavailable. Disabled components may have reduced visual emphasis and are generally not interactive. Do not use a disabled state simply to prevent users from editing a value."
+        }
+      ]
+    },
+    {
+      "title": "Appearance",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The read only treatment is consistent across form components, while adapting to the characteristics of each component.\n\n- Keeps the value clearly visible and easy to read.\n- Retains enough of the component's structure to make the relationship between label and value clear.\n- Clearly differs from editable components without appearing disabled.\n- Avoids visual cues that suggest the component can be interacted with.\n\n"
+        }
+      ]
+    },
+    {
+      "title": "Behaviour",
+      "tag": "H2",
+      "cols": "1",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "Read only components:\n\n- Cannot be changed by the user.\n- Do not show hover, active or editable states.\n- Should allow text content to be selected and copied where relevant.\n- Should remain accessible to assistive technologies.\n\n"
+        }
+      ]
+    }
+  ]
+}
