@@ -7,7 +7,7 @@
   "summary": "A dropdown enables the user to choose one or multiple options from a list.",
   "preamble": "The dropdown component is designed for single or multiple selections but with customizable features.\n",
   "anatomy": true,
-  "anatomy-overview": "The dropdown (and other form controls) are divided in sections that are re-used between components.\n\n*   **Header**: Label, label support, contextual help, extended support.\n    \n*   **Body**: The field with leading and trailing slots.\n    \n*   **Footer**: Error message.",
+  "anatomy-overview": "The dropdown (and other form controls) are divided in sections that are re-used between components.\n\n- **Header**: Label, label support, contextual help, extended support.\n- **Body**: The field with leading and trailing slots.\n- **Footer**: Error message.\n\n",
   "anatomy-list": {
     "anatomyitems": [
       {
@@ -64,7 +64,7 @@
       "columns": [
         {
           "type": "rich-text",
-          "content": "*   **Large**\n    \n*   **Small**: Used in tables and in certain cases where space is very limited. (Custom layouts are not supported.)"
+          "content": "- **Large**\n- **Small**: Used in tables and in certain cases where space is very limited. (Custom layouts are not supported.)\n\n"
         },
         {
           "type": "figma",
@@ -114,7 +114,7 @@
     },
     {
       "title": "Contextual help",
-      "section-content": "If the label and support text aren’t enough to explain a field, we can use the info icon. Clicking the icon shows additional support text between the label support and the field.\n\n*   Use a tooltip if space is limited.\n    \n*   Use a modal for large amounts of text.",
+      "section-content": "If the label and support text aren’t enough to explain a field, we can use the info icon. Clicking the icon shows additional support text between the label support and the field.\n\n- Use a tooltip if space is limited.\n- Use a modal for large amounts of text.\n\n",
       "cols": "2",
       "columns": [
         {
@@ -181,7 +181,7 @@
     },
     {
       "title": "Search",
-      "section-content": "A search field can be used to filter the options.\n\n*   If the list is long (e.g., 10+ items), searching helps users find what they need faster.\n    \n*   When items are similar or not in a predictable order, searching improves efficiency.\n    \n*   If users have a specific item in mind, typing is often faster than scrolling.\n    \n*   Search helps users who navigate with keyboards or screen readers find options more quickly.",
+      "section-content": "A search field can be used to filter the options.\n\n- If the list is long (e.g., 10+ items), searching helps users find what they need faster.\n- When items are similar or not in a predictable order, searching improves efficiency.\n- If users have a specific item in mind, typing is often faster than scrolling.\n- Search helps users who navigate with keyboards or screen readers find options more quickly.\n\n",
       "cols": "2",
       "columns": [
         {
@@ -262,6 +262,17 @@
           "node": "field-error"
         }
       ]
+    },
+    {
+      "title": "Read only",
+      "tag": "H2",
+      "cols": "2",
+      "columns": [
+        {
+          "type": "rich-text",
+          "content": "The read only state displays the entered value together with its label. Have no visual cues associated with text entry, such as an active input cursor or editable states. Long content should remain readable and should not be unnecessarily truncated.\n\n[Read more about the read only pattern](https://seb.io/patterns/read-only)"
+        }
+      ]
     }
   ],
   "ux-text": [
@@ -279,7 +290,7 @@
           "type": "rich-text",
           "title": "Single words or full sentences",
           "tag": "H3",
-          "content": "Keep texts as short as possible. Labels can be single words or full sentences. In some cases, questions work best to prompt users for the right details, such as:\n\n*   What type of property is it?\n    \n*   How many adults will live in the new home?\n    \n*   How do you earn your main income?"
+          "content": "Keep texts as short as possible. Labels can be single words or full sentences. In some cases, questions work best to prompt users for the right details, such as:\n\n- What type of property is it?\n- How many adults will live in the new home?\n- How do you earn your main income?\n\n"
         },
         {
           "type": "figma",
@@ -318,7 +329,7 @@
     },
     {
       "title": "Capitalisation rules",
-      "section-content": "Headings and labels should not have every word capitalised. Use capital letters only for:\n\n*   The first letter of the first word\n    \n*   Proper names\n    \n*   Abbreviations"
+      "section-content": "Headings and labels should not have every word capitalised. Use capital letters only for:\n\n- The first letter of the first word\n- Proper names\n- Abbreviations\n\n"
     }
   ],
   "accessibility": [
